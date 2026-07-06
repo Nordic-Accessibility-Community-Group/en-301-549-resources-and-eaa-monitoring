@@ -168,7 +168,7 @@
     <td>✔️ <a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/">Yes</a> </td>
     <td><ul><li>For the general case: <a href="https://www.economie.gouv.fr/dgccrf">DGCCRF</a></li><li><a href="https://acpr.banque-france.fr/">ACPR</a> (Autorité des contrôles prudentiels et de résolution)</li><li>Legal information provided to consumers: <a href="https://www.amf-france.org/fr">l’AMF (Autorité des Marchés Financiers)</a></li><li>Electronic signature services, payment services and authentication methods: <a href="https://www.banque-france.fr/">Banque de France</a></li><li>Telecom: <a href="https://www.arcep.fr/">ARCEP</a></li><li>Digital: <a href="https://www.arcom.fr/">ARCOM</a></li></ul></td>
     <td><ul><li><a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">Reporting Portal, translation to English available</a><ul><li><a href="https://demarche.numerique.gouv.fr/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcwMzI5NTI5LCJleHAiOiIyMDI2LTAxLTIwVDE3OjE5OjA2LjE5NVoiLCJwdXIiOiJibG9iX2lkIn19--10b27b8ae41e291502ac7c19e0d4ad596880c894/D%C3%A9marches%20Simplifi%C3%A9es%20-%20Notice%20explicative%20invocation%20d'une%20exemption%20ou%20d%C3%A9claration%20d'une%20non%20conformit%C3%A9%20%C3%A0%20l'accessibilit%C3%A9.pdf?disposition=attachment">Reporting Procedure Notice, in French (PDF)</a></li></ul></li></ul></td>
-    <td><ul><li><a href="https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/">Article from Tgpi</a></li><li><a href="https://accessibilite.numerique.gouv.fr/">Référentiel Général d’Accessibilité pour les Administrations (RGAA)</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">Article from DGCCRF on Professionals' Obligations regarding EAA</a></li></ul></td>
+    <td><ul><li><a href="https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/">Article from TPGi</a></li><li><a href="https://accessibilite.numerique.gouv.fr/">Référentiel Général d’Accessibilité pour les Administrations (RGAA)</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">Article from DGCCRF on Professionals' Obligations regarding EAA</a></li></ul></td>
   </tr>
   <tr>
 		<td>Germany</td>
@@ -222,7 +222,7 @@
 					<li>Mobile device-based services, including mobile applications.</li>
 					<li>Electronic tickets and electronic ticketing services.</li>
 					<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>
-					<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircrafts, ships, and rolling stock used in the provision of any part of such passenger transport services).</li>
+					<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).</li>
 				</ul>
 			</li>
 			<li>
@@ -233,7 +233,7 @@
 						<li>Mobile device-based services, including mobile applications.</li>
 						<li>Electronic tickets and electronic ticketing services.</li>
 						<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>
-						<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircrafts, ships, and rolling stock used in the provision of any part of such passenger transport services).
+						<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).
 						</li>
 					</ul>
 				</li>
@@ -252,14 +252,14 @@
     <td><ul><li>Reporting tool for companies: <a href="https://www.ccpc.ie/business/enforcement/accessibility/notify-the-ccpc-of-a-non-compliant-product-service-or-claim-an-exemption/">Reporting tool, in English 🇬🇧</a></li>
 	<li>Report through email for companies: <a href="mailto:access@ccpc.ie">access@ccpc.ie</a>, in English 🇬🇧</li>
 	</ul></td>
-    <td><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">Article about Ireland from Tpgi</a></li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">Overview of the Irish implementing measures</a></li></ul></td>
+    <td><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">Article about Ireland from TPGi</a></li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">Overview of the Irish implementing measures</a></li></ul></td>
   </tr>
   <tr>
     <td>Italy</td>
     <td>✔️ <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati">Yes</a></td>
     <td><a href="https://www.agid.gov.it/en/intervention-areas/accessibility-usability">AGID</a></td>
     <td><a href="https://trustservices.agid.gov.it/SegnalazioneUtente">Reporting to AGID</a></td>
-    <td><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/">Article from Tpgi about The Stanca Act, the Italian digital accessibility law</a></li></ul></td>
+    <td><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/">Article from TPGi about The Stanca Act, the Italian digital accessibility law</a></li></ul></td>
   </tr>  
   <tr>
     <td>Latvia</td>
@@ -273,12 +273,12 @@
 		</ul>
 These documents have not been officially translated to English by the <a href="https://www.vvc.gov.lv/lv">State Language Centre</a>.
 
-Reporting may be accepted in English even if the official language is Latvian. In some cases still may be needed documention translation to Latvian, especially for public usage.</td>
+Reporting may be accepted in English even if the official language is Latvian. In some cases, documentation translation to Latvian may still be needed, especially for public usage.</td>
   </tr>
   <tr>
     <td>Lithuania</td>
     <td>✖️ No </td>
-    <td><ul><li><a href="https://vvtat.lrv.lt/lt/">VVTAT</a> (State Consumer Rights Protection Authority) </li><li><a href="https://ltsa.lrv.lt/lt/">LTSA</a> (Transport Safety authority)</li><li><a href="https://www.rrt.lt/en/about-rrt/">RRT</a> (Communication Regulatory authority)</li><li><a href="https://www.rtk.lt/en/">RTK</a> (Radio ant Television Comission)</li></ul></td>
+    <td><ul><li><a href="https://vvtat.lrv.lt/lt/">VVTAT</a> (State Consumer Rights Protection Authority) </li><li><a href="https://ltsa.lrv.lt/lt/">LTSA</a> (Transport Safety authority)</li><li><a href="https://www.rrt.lt/en/about-rrt/">RRT</a> (Communication Regulatory authority)</li><li><a href="https://www.rtk.lt/en/">RTK</a> (Radio and Television Commission)</li></ul></td>
     <td>
 		<ul>
 			<li>For companies: 
@@ -327,7 +327,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>✔️ <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Yes</a></td>
     <td><ul><li>Autoriteit Consument & Markt (ACM)</li><li>Autoriteit Financiële Markten (AFM)</li><li>Commissariaat voor de Media (CvdM)</li><li>Rijksinspectie Digitale Infrastructuur (RDI)</li><li>Inspectie Leefomgeving en Transport (ILT)</li><li>Inspectie Justitie en Veiligheid</li></ul></td>
     <td><ul><li>For companies: <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid">Reporting obligation in case of non-compliance with accessibility, in Dutch 🇳🇱</a></li><li>For the public: <a href="https://www.rijksoverheid.nl/onderwerpen/leven-met-een-beperking/vraag-en-antwoord/melden-producten-diensten-niet-toegankelijk">Where can I report products or services that are not accessible?, in Dutch 🇳🇱</a></li></ul></td>
-    <td><ul><li>Critical and Serious issues need to be reported within 1 week. </li><li> Moderate and Minor within a month. </li><li> There is a grace period until Oct 15 2025. </li></ul>They have also created a form where additional information needs to be provided:<ul><li>A description of the accessibility problems and where they occur in the e-commerce service (websites or apps). </li><li>An estimation of the amount of consumers affected. </li><li>A declaration on when the issues will be resolved. </li><li>An estimate on the remediation date for the issues. </li><li>A description of the messures that are taken to resolve the issues with corresponding dates. </li></ul></td>
+    <td><ul><li>Critical and Serious issues need to be reported within 1 week. </li><li> Moderate and Minor within a month. </li><li> There is a grace period until Oct 15 2025. </li></ul>They have also created a form where additional information needs to be provided:<ul><li>A description of the accessibility problems and where they occur in the e-commerce service (websites or apps). </li><li>An estimation of the amount of consumers affected. </li><li>A declaration on when the issues will be resolved. </li><li>An estimate on the remediation date for the issues. </li><li>A description of the measures that are taken to resolve the issues with corresponding dates. </li></ul></td>
   </tr>
   <tr>
     <td>Poland</td>
@@ -380,7 +380,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
 		<ul>
 			<li>There's no online reporting tool available. Reports may be submitted by the public and companies in English 🇬🇧 or 🇸🇮 Slovene through:
 				<ul>
-					<li>Rregular mail: Davčna ulica 1, 1000 Ljubljana, Slovenija</li>
+					<li>Regular mail: Davčna ulica 1, 1000 Ljubljana, Slovenija</li>
 					<li>Email to the official address of the Inspectorate <a href="mailto:gp.irsid@gov.si">gp.irsid@gov.si</a></li>
 				</ul>
 			</li>
@@ -402,7 +402,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
   <tr>
     <td>Spain</td>
     <td>✔️ Yes </td>
-    <td><a href="https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm" lang="es">Unidad Técnica de Apoyo y Coordinación (UTAC)</a>. Coordination of all the local market survelliance authorities. In Spain, it is up to the autonomous communities and the autonomous cities of Ceuta and Melilla to determine their surveillance authorities, as per article 27.3 of the national law 11/2023 transposing the EAA (Ley 11/2023).</td>
+    <td><a href="https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm" lang="es">Unidad Técnica de Apoyo y Coordinación (UTAC)</a>. Coordination of all the local market surveillance authorities. In Spain, it is up to the autonomous communities and the autonomous cities of Ceuta and Melilla to determine their surveillance authorities, as per article 27.3 of the national law 11/2023 transposing the EAA (Ley 11/2023).</td>
 		<td>Email: <a href="mailto:utac@dsca.gob.es">utac@dsca.gob.es</a>.</td>
     <td>For accessibility statement you can find information in chapter III - art 7, 8 and 9 of law 11/2023 </td>
   </tr>
@@ -411,7 +411,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
     <td><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/">PTS</a></li><li>Mediemyndigheten</li><li>Konsumentverket och Transportstyrelsen</li><li>Myndigheten för tillgängliga medier (MTM)</li></ul></td>
     <td><ul><li>For companies: <a href="https://lptt-rapportering.pts.se/">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. You can also report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. The law says you need to report in Swedish, but so far PTS accepts reporting in English 🇬🇧.</li><li>For the Public: <a href="https://lptt.pts.se/">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li></ul></td>
-    <td><a href="ttps://pts.se//nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></td>
+    <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></td>
   </tr>
 </table>
 
