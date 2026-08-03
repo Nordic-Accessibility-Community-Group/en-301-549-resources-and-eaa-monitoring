@@ -9,7 +9,7 @@
 Type can be: 
 <ul>
   <li>
-    Monitoring agencies with authority to take action under the Europen accessibility act (EAA)
+    Monitoring agencies with authority to take action under the European Accessibility Act (EAA)
   </li>
   <li>
     Civil action
@@ -148,7 +148,7 @@ Type can be:
     <th>Date updated</th>
   </tr>
   <tr>
-    <td>Crotia 🇭🇷 and Germany 🇩🇪</td>
+    <td>Croatia 🇭🇷 and Germany 🇩🇪</td>
     <td>Commission calls on Germany and Croatia to fully incorporate accessibility requirements for products and services into their national law.</td>
     <td><a href="https://ec.europa.eu/commission/presscorner/detail/en/inf_26_431#:~:text=Commission%20calls%20on%20Germany%20and%20Croatia%20to%20fully%20incorporate%20accessibility%20requirements%20for%20products%20and%20services%20into%20their%20national%20law">March infringements package: key decisions</a></td>
     <td>2026-06-24</td>
@@ -157,7 +157,7 @@ Type can be:
 </table>
 
 ## Table of Non-EU legal enforcement status
-Type can be Government agency, Monitoring agencies with authority to take action under the Europen accessibility act (EAA) or civil action.
+Type can be Government agency, Monitoring agencies with authority to take action under the European Accessibility Act (EAA) or civil action.
 <table>
   <tr>
     <th>Country</th>

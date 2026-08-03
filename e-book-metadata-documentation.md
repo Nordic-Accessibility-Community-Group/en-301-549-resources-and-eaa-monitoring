@@ -1,6 +1,5 @@
 # E-book metadata
-For the user it is very important that the metadata is available on each individiual book and as filters to search for. The metadata needs to be in an easy to understand format.
-WCAG levels or 
+For the user it is very important that the metadata is available on each individual book and as filters to search for. The metadata needs to be in an easy to understand format, not only WCAG levels or technical labels.
 ## E-books in the EAA
 ### Definition of E-Books in the EAA
 > [(41) E-book files](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=consumer%20banking%20transactions.-,(41),E%2Dbook,-files%20are%20based) are based on a electronic computer coding that enables the circulation and consultation of a mostly textual and graphical intellectual work. The degree of precision of this coding determines the accessibility of e-book files, in particular regarding the qualification of the different constitutive elements of the work and the standardised description of its structure. The interoperability in terms of accessibility should optimise the compatibility of those files with the user agents and with current and future assistive technologies. Specific features of special volumes like comics, children’s books and art books should be considered in the light of all applicable accessibility requirements. Divergent accessibility requirements in Member States would make it difficult for publishers and other economic operators to benefit from the advantages of the internal market, could create interoperability problems with e-readers and would limit the access for consumers with disabilities. In the context of e-books, the concept of a service provider could include publishers and other economic operators involved in their distribution.
@@ -56,7 +55,7 @@ Recommended metadata to send to publishers [EPUB Accessibility 1.1 ](https://www
 
 Here’s the ONIX definition: [lewis-carroll_a-tangled-tale/src/epub/onix.xml at master · standardebooks/lewis-carroll_a-tangled-tale](https://github.com/standardebooks/lewis-carroll_a-tangled-tale/blob/master/src/epub/onix.xml)
 
-And here’s the associated schema: l[ewis-carroll_a-tangled-tale/src/epub/content.opf at master · standardebooks/lewis-carroll_a-tangled-tale ](https://github.com/standardebooks/lewis-carroll_a-tangled-tale/blob/master/src/epub/content.opf#L18-L31)
+And here’s the associated schema: [lewis-carroll_a-tangled-tale/src/epub/content.opf at master · standardebooks/lewis-carroll_a-tangled-tale ](https://github.com/standardebooks/lewis-carroll_a-tangled-tale/blob/master/src/epub/content.opf#L18-L31)
 
 ### Accessible E-book example
 [The Death of Shame ebook by Ambrose Parry - Rakuten Kobo](https://www.kobo.com/gb/en/ebook/the-death-of-shame) where they present the metadata in clear language.
