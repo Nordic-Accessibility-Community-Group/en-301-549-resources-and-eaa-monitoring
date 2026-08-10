@@ -15,8 +15,6 @@ The French Directorate General for Competition Policy, Consumer Affairs and Frau
 - The authorities may suspend a non-compliant product from the market if the non-compliance continues.
 
 Source: [DGCCRF guidance on accessibility requirements for products and services](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite).
-
-Last checked: 2026-08-10.
 ## Ireland
 
 Under Regulation 32 of the European Union (Accessibility Requirements of Products and Services) Regulations 2023, a person who commits an offense may receive:
@@ -25,8 +23,6 @@ Under Regulation 32 of the European Union (Accessibility Requirements of Product
 - On conviction on indictment, a fine of up to €60,000, imprisonment for up to 18 months, or both.
 
 Sources: [European Union (Accessibility Requirements of Products and Services) Regulations 2023](https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print) and the [Fines Act 2010](https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print), which defines a class A fine as a fine of up to €5,000.
-
-Last checked: 2026-08-10.
 
 ## Slovakia
 
@@ -41,5 +37,3 @@ For the offenses concerning service accessibility and continued-compliance proce
 These provisions concern services covered by Act No. 351/2022. Product sanctions and sector-specific legislation may follow different rules. For example, the amendment to the Slovak Media Services Act provides a separate fine of €100 to €3,000 for a provider that fails to meet its multimodal access service obligations.
 
 Source: [Act No. 351/2022 on the accessibility of products and services for persons with disabilities](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/351/).
-
-Last checked: 2026-08-10.
