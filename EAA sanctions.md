@@ -16,6 +16,15 @@ The French Directorate General for Competition Policy, Consumer Affairs and Frau
 
 Source: [DGCCRF guidance on accessibility requirements for products and services](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite).
 
+## Germany
+
+Section 37 of the Accessibility Strengthening Act (Barrierefreiheitsstärkungsgesetz, BFSG) provides for administrative fines when a person acts intentionally or negligently:
+
+- Up to €100,000 for specified violations including placing a non-compliant product on the market, making such a product available, offering or providing a non-compliant service, and certain CE-marking violations.
+- Up to €10,000 for the other violations listed in Section 37, including specified failures concerning information, identification, instructions, documentation, or cooperation.
+
+Source: [Section 37 of the BFSG](https://www.gesetze-im-internet.de/bfsg/__37.html).
+
 ## Ireland
 
 Under Regulation 32 of the European Union (Accessibility Requirements of Products and Services) Regulations 2023, a person who commits an offense may receive:
@@ -24,6 +33,17 @@ Under Regulation 32 of the European Union (Accessibility Requirements of Product
 - On conviction on indictment, a fine of up to €60,000, imprisonment for up to 18 months, or both.
 
 Sources: [European Union (Accessibility Requirements of Products and Services) Regulations 2023](https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print) and the [Fines Act 2010](https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print), which defines a class A fine as a fine of up to €5,000.
+
+## Latvia
+
+Under the Latvian Accessibility of Goods and Services Law, a competent authority may order a service provider to correct non-compliance within a specified period. If the provider does not comply with the order, the authority may use the enforcement measures in the Administrative Procedure Law.
+
+Section 370 of the Administrative Procedure Law permits a compulsory payment that may be imposed repeatedly until the required action is completed or the prohibited action stops. It may be repeated no earlier than seven days after the previous payment:
+
+- For an individual, from €50 to €5,000.
+- For a legal person, from €100 to €10,000.
+
+Sources: [Accessibility of Goods and Services Law](https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums), [Section 370 of the Administrative Procedure Law](https://likumi.lv/ta/id/55567-administrativa-procesa-likums), and the [Ministry of Welfare overview of the Accessibility Directive](https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy).
 
 ## Slovakia
 
