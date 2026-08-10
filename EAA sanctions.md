@@ -10,7 +10,7 @@ This information is provided as a community resource and is not legal advice. Pl
 
 The French Directorate General for Competition Policy, Consumer Affairs and Fraud Control (DGCCRF) states that:
 
-- Accessibility offenses under the French Consumer Code are fifth-class offenses with fines of €7,500. Fines may be cumulative according to the number of offenses found.
+- Accessibility offenses under the French Consumer Code are fifth-class offenses. The maximum fine is €1,500 for a natural person and €7,500 for a legal person. Fines may be cumulative according to the number of offenses found.
 - DGCCRF may order a professional to make a product or service compliant. An order may include a daily penalty and publication of the order.
 - The authorities may suspend a non-compliant product from the market if the non-compliance continues.
 
