@@ -15,6 +15,7 @@ The French Directorate General for Competition Policy, Consumer Affairs and Frau
 - The authorities may suspend a non-compliant product from the market if the non-compliance continues.
 
 Source: [DGCCRF guidance on accessibility requirements for products and services](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite).
+
 ## Ireland
 
 Under Regulation 32 of the European Union (Accessibility Requirements of Products and Services) Regulations 2023, a person who commits an offense may receive:
