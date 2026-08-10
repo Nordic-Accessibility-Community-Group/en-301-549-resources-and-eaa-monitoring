@@ -4,6 +4,7 @@
 
 ## Resources
 - [Global Law and Policy by Lainey Feingold](https://www.lflegal.com/global-law-and-policy/)
+- [EAA sanctions by country](EAA%20sanctions.md)
 
 ## Table of legal enforcement status in the EU
 Type can be: 
@@ -53,7 +54,6 @@ Type can be:
         <li>DGCCRF states that controls started when the French EAA rules entered into force on 28 June 2025, especially following reports.</li>
         <li>Consumers can report accessibility failures through <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a>. Professionals can declare non-compliance or invoke an exemption through <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">Démarches Simplifiées</a>.</li>
         <li>DGCCRF agents may order professionals to bring products and services into compliance. Orders may include daily penalties and publicity measures.</li>
-        <li>Sanctions under the French Consumer Code are 5th class fines of €7,500, cumulative depending on the number of infringements. DGCCRF may also order suspension of non-compliant products from the market if non-compliance persists.</li>
         <li>Sources: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">SignalConso reporting guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">professional declaration guidance</a>.</li>
       </ul>
     </td>

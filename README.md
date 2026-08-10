@@ -4,6 +4,7 @@
 2. Please use the [Accessibility statement template](https://github.com/Nordic-Accessibility-Community-Group/working-with-EN-301-549/blob/main/Accessibility%20Statement%20Template.md) for documentation needs.
 3. Here's a list of countries [monitoring agencies and accessibility requirements](https://github.com/Nordic-Accessibility-Community-Group/working-with-EN-301-549/blob/main/monitoring-agencies-information.md).
 4. [ Sites using overlays](https://github.com/Nordic-Accessibility-Community-Group/working-with-EN-301-549/blob/main/Sites%20using%20accessibility%20overlays.md).
+5. [EAA sanctions by country](EAA%20sanctions.md).
 
 ## What it is for
 1. How to understand the EN-standard and how monitoring works in different countries.
