@@ -1,7 +1,7 @@
 # Accessibility statement template
 - ⚠️ Always use HTML when possible. [PDF: Still Unfit for Human Consumption, 20 Years Later](https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/).
 - 💡 There is an in-depth article [The accessibility statement at Axess Lab](https://axesslab.com/accessibility-statement-for-the-eaa).
-- 💡 Information about monitoring agencies across the EU [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/working-with-EN-301-549/blob/main/monitoring-agencies-information.md)
+- 💡 Information about monitoring agencies across the EU [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md)
 - 💡 An implemented live version can be found at [Accessibility Cloud](https://www.accessibilitycloud.com/).
 - 💡 Tetra logical has a great article about the EAA [Understanding the European Accessibility Act (EAA), by Léonie Watson](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
 - [List of sites with accessibility statements](https://codeberg.org/yatil/accessibility-statements)
@@ -11,7 +11,7 @@ This accessibility statement template for the is based on the demands from the E
 The focus is on assisting the user rather than merely outlining legal requirements and shortcomings/failures. THe monitoring agencies are for the EAA referred to as market surveillance.
 
 ### What does the law say?
-It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/working-with-EN-301-549/blob/main/monitoring-agencies-information.md). What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
+It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md). What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
 You need to report any known accessibility issues to the appropriate government agency for each country you're active in.
 
 You also need to describe the accessibility or inaccessibility of products in your online store.
