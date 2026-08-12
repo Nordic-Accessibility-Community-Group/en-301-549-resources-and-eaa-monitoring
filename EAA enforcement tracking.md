@@ -4,6 +4,7 @@
 
 ## Resources
 - [Global Law and Policy by Lainey Feingold](https://www.lflegal.com/global-law-and-policy/)
+- [EAA sanctions by country](EAA%20sanctions.md)
 
 ## Table of legal enforcement status in the EU
 Type can be: 
@@ -46,34 +47,35 @@ Type can be:
   </tr>
   <tr>
     <td>France</td>
-    <td>Civil action</td>
-    <td>Ongoing process: Court case.</td>
+    <td>Monitoring agency</td>
+    <td>Active</td>
     <td>
       <ul>
-        <li>
-          Interesting court ruling in France regarding RGAA compliance for Carrefour (website + app). It's a bit confusing that they point to the exact date when the EAA strictly goes into effect, but base the threshold on the RGAA rule for a turnover exceeding 250 million euros. 🤔       
-<a href="https://drive.google.com/file/d/1oLBtmc9CZlyrkxVGxN8714gbmwe3GQxG/view?usp=sharing">French court verdict</a>, 
-<a href="https://docs.google.com/document/d/1WRTj5FFC6O_b5o-3iKnagpD77vvHnGx62DwQdaFu4zU/edit?usp=sharing">English AI-translation</a>, 
-<a href="https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-caen-apidv-et-droit-pluriel-c-carrefour-une-decision-de-justice-majeure-pour-laccessibilite-numerique/">Article in French about the court decision.</a>
-
-In summary, the ruling orders Carrefour to:
-<ul>
-  <li>Fix the accessibility deficiencies within 6 months, after which a penalty of €500 per day will be imposed if they fail to comply with the ruling.</li>
-  <li>Pay €10,000 in damages to the disability rights organizations APIDV and DROIT PLURIEL, who brought the case forward.</li>
-  <li>Pay all legal costs.</li>
-  <li>Pay an additional €3,000 to the organizations.</li>
-</ul>
-        </li>
-        <li>
-          <blockquote>It's an emergency procedure (assignation en référé), meaning courts can demand immediate fixes, not vague promises. <a href="https://www.linkedin.com/posts/ronnyhendriks_accessibility-europeanaccessibilityact-eaa-activity-7401514324759957504-uKhy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOJWGMBdqTseucyldNj7MZ8clk1tZOO8cw">LinkedIn post by Ronny Hendricks</a></blockquote>
-          A11y explained by Diana explains the case in <a href="https://a11ywithdiana.substack.com/p/first-french-lawsuits-when-grocery">First french lawsuits: when grocery e-commerce meets accessibility law</a> and a French article is available at <a href="https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/">Assignation en référé des entreprises Auchan, Carrefour, E. Leclerc et Picard Surgelés</a>.
-        </li>
-        <li>"Disability organisations in France are <a href="https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/">serving four major supermarkets</a> with notice for failings against the EAA. They have until 1 Sep to remediate otherwise they'll be taken to court. The story was <a href="https://www.lefigaro.fr/conso/e-leclerc-carrefour-picard-et-auchan-mis-en-demeure-pour-la-non-accessibilite-de-leurs-sites-aux-malvoyants-20250711">reported in mass media</a>, so it's getting traction. Links are in French." <a href="https://web-a11y.slack.com/archives/CP6NHEEKD/p1752824021804309?thread_ts=1752824021.804309&cid=CP6NHEEKD">Link to Web A11y Slack thread</a>.
-        </li>
+        <li>DGCCRF states that controls started when the French EAA rules entered into force on 28 June 2025, especially following reports.</li>
+        <li>Consumers can report accessibility failures through <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a>. Professionals can declare non-compliance or invoke an exemption through <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">Démarches Simplifiées</a>.</li>
+        <li>DGCCRF agents may order professionals to bring products and services into compliance. Orders may include daily penalties and publicity measures.</li>
+        <li>Sources: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">SignalConso reporting guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">professional declaration guidance</a>.</li>
+      </ul>
+    </td>
+    <td>2026-07-03</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>France</td>
+    <td>Civil action</td>
+    <td>Active: Court cases.</td>
+    <td>
+      <ul>
+        <li>On 4 June 2026, the Tribunal judiciaire de Caen ordered Carrefour France to make its online grocery website and mobile app comply with French accessibility requirements for e-commerce services. Carrefour has six months from the order before a €500 daily penalty applies.</li>
+        <li>The court also ordered Carrefour to pay €10,000 in provisional damages to apiDV and Droit Pluriel, all legal costs, and €3,000 under article 700 of the French Code of Civil Procedure.</li>
+        <li>Droit Pluriel reports that Carrefour estimated 71% accessibility compliance, but the court required full accessibility for the e-commerce service.</li>
+        <li>On 5 May 2026, the Tribunal judiciaire de Lille rejected a similar action against Auchan E-Commerce. The ruling is notable because the court relied on the older French €250 million turnover threshold for online public communication services. apiDV, Droit Pluriel and Intérêt à Agir argue that this misreads the separate EAA transposition in the French Consumer Code, and have appealed to the Cour d'appel de Douai.</li>
+        <li>Sources: <a href="https://www.interetaagir.org/decision-carrefour/">Intérêt à Agir Carrefour summary and court documents</a>, <a href="https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-caen-apidv-et-droit-pluriel-c-carrefour-une-decision-de-justice-majeure-pour-laccessibilite-numerique/">Droit Pluriel Carrefour summary</a>, <a href="https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-lille-le-6-mai-2026apidv-et-droit-pluriel-c-auchan-e-commerce-une-interpretation-gravement-erronee-du-droit-de-laccessibilite-numerique/">Droit Pluriel Auchan summary</a>.</li>
+        <li>The court actions followed July 2025 formal notices to Auchan, Carrefour, E. Leclerc and Picard Surgelés about the accessibility of their online grocery services. Sources: <a href="https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/">Droit Pluriel notice summary</a>, <a href="https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/">Intérêt à Agir court action summary</a>, <a href="https://www.lefigaro.fr/conso/e-leclerc-carrefour-picard-et-auchan-mis-en-demeure-pour-la-non-accessibilite-de-leurs-sites-aux-malvoyants-20250711">Le Figaro coverage</a>.</li>
       </ul>
     </td>
     <td>2025-07-18</td>
-    <td>2026-06-02</td>
+    <td>2026-07-03</td>
   </tr>
   <tr>
     <td>Germany</td>
