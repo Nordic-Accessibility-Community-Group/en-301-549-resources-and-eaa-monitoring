@@ -8,7 +8,7 @@
     <th>Country</th>
     <th>Demands statement</th>
     <th>Monitoring agencies</th>
-    <th>Reporting tools</th>
+    <th>Reporting issues</th>
     <th>Additional information</th>
   </tr>
   <tr>
@@ -326,8 +326,8 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>Netherlands</td>
     <td>✔️ <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Yes</a></td>
     <td><ul><li>Autoriteit Consument & Markt (ACM)</li><li>Autoriteit Financiële Markten (AFM)</li><li>Commissariaat voor de Media (CvdM)</li><li>Rijksinspectie Digitale Infrastructuur (RDI)</li><li>Inspectie Leefomgeving en Transport (ILT)</li><li>Inspectie Justitie en Veiligheid</li></ul></td>
-    <td><ul><li>For companies: <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid">Reporting obligation in case of non-compliance with accessibility, in Dutch 🇳🇱</a></li><li>For the public: <a href="https://www.rijksoverheid.nl/onderwerpen/leven-met-een-beperking/vraag-en-antwoord/melden-producten-diensten-niet-toegankelijk">Where can I report products or services that are not accessible?, in Dutch 🇳🇱</a></li></ul></td>
-    <td><ul><li>Critical and Serious issues need to be reported within 1 week. </li><li> Moderate and Minor within a month. </li><li> There is a grace period until Oct 15 2025. </li></ul>They have also created a form where additional information needs to be provided:<ul><li>A description of the accessibility problems and where they occur in the e-commerce service (websites or apps). </li><li>An estimation of the amount of consumers affected. </li><li>A declaration on when the issues will be resolved. </li><li>An estimate on the remediation date for the issues. </li><li>A description of the measures that are taken to resolve the issues with corresponding dates. </li></ul></td>
+    <td><ul><li>Reporting tool for companies: <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid">Reporting obligation in case of non-compliance with accessibility, in Dutch 🇳🇱</a></li><li>Reporting tool for the public: <a href="https://www.rijksoverheid.nl/onderwerpen/leven-met-een-beperking/vraag-en-antwoord/melden-producten-diensten-niet-toegankelijk">Where can I report products or services that are not accessible?, in Dutch 🇳🇱</a></li></ul><ul><li>Critical and Serious issues need to be reported within 1 week. </li><li> Moderate and Minor within a month. </li><li>If the date to solve the issue has changed, a new report must be sent to the monitoring agency.</li></ul></td>
+    <td>They have also created a form where additional information needs to be provided:<ul><li>A description of the accessibility problems and where they occur in the e-commerce service (websites or apps). </li><li>An estimation of the amount of consumers affected. </li><li>A declaration on when the issues will be resolved. </li><li>An estimate on the remediation date for the issues. </li><li>A description of the measures that are taken to resolve the issues with corresponding dates. </li></ul></td>
   </tr>
   <tr>
     <td>Poland</td>
@@ -410,7 +410,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>Sweden</td>
     <td>✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
     <td><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/">PTS</a></li><li>Mediemyndigheten</li><li>Konsumentverket och Transportstyrelsen</li><li>Myndigheten för tillgängliga medier (MTM)</li></ul></td>
-    <td><ul><li>For companies: <a href="https://lptt-rapportering.pts.se/">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. You can also report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. The law says you need to report in Swedish, but so far PTS accepts reporting in English 🇬🇧.</li><li>For the Public: <a href="https://lptt.pts.se/">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li></ul></td>
+    <td><ul><li>Reporting tool for companies: <a href="https://lptt-rapportering.pts.se/">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. You can also report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. The law says you need to report in Swedish, but so far PTS accepts reporting in English 🇬🇧.</li></ul><ul><li>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</li><li>Reporting tool for the Public: <a href="https://lptt.pts.se/">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li></ul></td>
     <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></td>
   </tr>
 </table>
@@ -422,7 +422,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <th>Country</th>
     <th>Demands statement</th>
     <th>Monitoring agencies</th>
-    <th>Reporting tools</th>
+    <th>Reporting issues</th>
     <th>Additional information</th>
   </tr>
   <tr>
@@ -454,7 +454,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <th>Country</th>
     <th>Demands statement</th>
     <th>Monitoring agencies</th>
-    <th>Reporting tools</th>
+    <th>Reporting issues</th>
     <th>Additional information</th>
   </tr>
   <tr>
@@ -486,7 +486,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <th>Country</th>
     <th>Demands statement</th>
     <th>Monitoring agencies</th>
-    <th>Reporting tools</th>
+    <th>Reporting issues</th>
     <th>Additional information</th>
   </tr>
   <tr>
