@@ -1,0 +1,16 @@
+max_retries = 2
+retry_wait_time = 2
+max_concurrency = 14
+host_concurrency = 5
+timeout = 20
+accept_timeouts = true
+user_agent = "Mozilla/5.0 (compatible; Nordic-A11Y-CG-Link-Check/1.0)"
+accept = ["100..=103", "200..=299", "403", "429", "455", "466", "500", "503", "999"]
+
+# These official portals reject Lychee's HTTP client even though the indexed pages are valid.
+exclude = [
+  "^https://legislatie\\.just\\.ro/",
+  "^https://ibz\\.be/fr$",
+  "^https://www\\.agid\\.gov\\.it/en/intervention-areas/accessibility-usability$",
+  "^https://meldpunt\\.economie\\.fgov\\.be/meldpunt/en/welcome$",
+]

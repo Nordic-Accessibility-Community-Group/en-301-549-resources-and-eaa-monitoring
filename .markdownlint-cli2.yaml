@@ -1,0 +1,22 @@
+config:
+  default: false
+  MD001: true
+  MD003:
+    style: atx
+  MD018: true
+  MD019: true
+  MD023: true
+  MD024:
+    siblings_only: true
+  MD025: true
+  MD034: true
+  MD042: true
+  MD055:
+    style: leading_and_trailing
+  MD056: true
+
+globs:
+  - "**/*.md"
+
+ignores:
+  - ".git/**"

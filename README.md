@@ -26,14 +26,18 @@ This repository was created from discussions in the W3C Nordic Community Group, 
 - [WCAG Audit Discussies in Nederland en Vlaanderen](https://github.com/WCAG-Audit-Discussions/NL-BE)
 - [WCAG Discussions](https://github.com/w3c/wcag/discussions/categories/q-a)
 
-# Code of conduct
+## Keeping time-sensitive information current
+
+After checking a time-sensitive claim against a primary source, add a marker such as `<!-- last_verified: 2026-08-14 -->` close to the claim. The content check warns when a marker is more than six months old and raises a stronger warning after twelve months. Stale markers do not block a pull request, but malformed dates and dates in the future do.
+
+## Code of conduct
 1. See if your question is an open issue or already in the [Q&A](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/discussions/categories/q-a) and please try to read the standards.
 2. This is a safe place for discussions.
 3. We are respectful and nice to each other and everyone's opinions.
 4. If you do not agree with something, please write it in a respectful manner.
 5. If you feel like something is a breach of the above, contact admins.
 
-# Admin information
+## Admin information
 - [Erik Gustafsson Spagnoli](https://github.com/erikgustafsson/)
 - [Sander Nijsingh](https://github.com/sander-nl)
 - [Tobias Christian Jensen](https://github.com/2biazdk)
