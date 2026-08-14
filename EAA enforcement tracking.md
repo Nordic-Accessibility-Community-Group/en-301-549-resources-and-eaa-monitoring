@@ -32,7 +32,7 @@ Type can be:
     <td>
       <ul>
         <li>Actively testing.</li> 
-        <li>Currently contacting companies with information they have to be accessible, presenting issues they have found. Depends on the time the company are given to conform but in general they demand quarterly progress reports.</li> 
+        <li>Currently contacting companies to inform them that they need to be accessible and presenting the issues found. The time given to companies to conform varies, but quarterly progress reports are generally required.</li>
         <li>The monitoring is based on feedback from disability organisations of services of importance and market share values.</li>
         <li>Monitoring will not close until conformity with the EAA is proven.</li>
       </ul>
