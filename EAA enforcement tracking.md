@@ -26,6 +26,21 @@ Type can be:
     <th>Date added</th>
     <th>Date updated</th>
   </tr>
+    <tr>
+    <td>Austria</td>
+    <td>Monitoring agency</td>
+    <td>Active</td>
+    <td>
+      <ul>
+        <li>Actively testing.</li> 
+        <li>Currently contacting companies to inform them that they need to be accessible and presenting the issues found. The time given to companies to conform varies, but quarterly progress reports are generally required.</li>
+        <li>The monitoring is based on feedback from disability organisations of services of importance and market share values.</li>
+        <li>Monitoring will not close until conformity with the EAA is proven.</li>
+      </ul>
+    </td>
+    <td>2026-08-13</td>
+    <td></td>
+  </tr>
   <tr>
     <td>Czech Republic</td>
     <td>Monitoring agency</td>
@@ -146,6 +161,8 @@ Type can be:
         </li>
         <li> <strong>Services:</strong> Phase 1 in <a href="https://pts.se//nyheter-och-pressmeddelanden/pts-inleder-en-tillsyn-av-e-handelstjanster/">monitoring started by PTS</a>. PTS will focus on large E-commerce actors active in Sweden. Focus area now: Startpage, product page and Search function. </li>
         <li><strong>Complaints from the public:</strong> As of 2026-02-17, PTS has received <a href="https://pts.se//nyheter-och-pressmeddelanden/klaga-pa-produkters-och-tjansters-tillganglighet/">124 complaints from the public.</a>110 of these cover services and 14 cover products.</li>
+        <li>Monitoring is based on complaints from the public, important and representative services and market share values.</li>
+        <li>Encourages that companies contact the monitoring agency about their conformance and plan for conformity.</li>
     </ul>
     </td>
     <td>2025-10-15</td>
