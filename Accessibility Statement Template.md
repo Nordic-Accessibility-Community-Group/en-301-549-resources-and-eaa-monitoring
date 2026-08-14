@@ -47,6 +47,8 @@ The directive says that an assessment needs to be made and documented to be able
 
 <!-- markdownlint-disable-next-line MD025 -->
 # Accessibility at [NAME of Company]
+> Before publishing, replace the sample content and all `example.com` links with your organisation's own information.
+
 > Here you need to add a general description of the service and how it functions. Explain the parts needed to understand how to use the service.
 ## We will help you
 Have you encountered something that didn't work? We'd be grateful for your feedback on how we can improve.
@@ -62,15 +64,18 @@ Our support is open on weekdays from 08:00 to 20:00.
 
 ## Accessibility at our destinations / shops
 As a guest, it's important to feel confident about the whole experience from purchase to return. That's why we list the different situations at our destinations, so you can prepare before your visit and ask for the support you need.
-- Gran Canaria [add a link to destination accessibility information]
-- Åre [add a link to destination accessibility information]
-- Thailand [add a link to destination accessibility information]
+
+> These real destination guides illustrate the kind of accessibility information that can help visitors plan. Replace them with links for your own destinations or shops.
+
+- [Accessible London](https://www.visitlondon.com/traveller-information/essential-information/accessible-london)
+- [Accessible attractions in Copenhagen](https://www.visitcopenhagen.com/copenhagen/planning/accessibility/accessible-attractions-in-copenhagen)
+- [Accessible tourism in Barcelona](https://professional.barcelonaturisme.com/en/travel-trade/why-barcelona/accessible)
   
 ### Guided Tours with guides
 We offer special guided tours with a guide.
 
 ## How accessible are our digital services?
-Although we're committed to accessibility, we recognise that not everything is fully accessible to all our visitors at this time. This is something we're working to address, and we'd be very grateful if you could report any issues to customer service [add a contact link] so we can improve the experience for everyone. In this section, we describe the accessibility of our websites, apps, social media and other services.
+Although we're committed to accessibility, we recognise that not everything is fully accessible to all our visitors at this time. This is something we're working to address, and we'd be very grateful if you could report any issues through our [customer service contact page](https://example.com/?replace-with=customer-service-contact-page) so we can improve the experience for everyone. In this section, we describe the accessibility of our websites, apps, social media and other services.
 
 ### Our websites
 #### TheMainSite.com
@@ -138,8 +143,8 @@ We value your feedback and we list the [fixed issues reported by users.](#fixes)
 
 
 ## Documents
-- VPAT - version 2025-01-01 [add a document link]
-- Disproportionate burden - version 2025-01-01 [add a document link]
+- [VPAT, version 2025-01-01](https://example.com/?replace-with=vpat-document)
+- [Disproportionate burden assessment, version 2025-01-01](https://example.com/?replace-with=disproportionate-burden-assessment)
 
 <a name="fixes" />
 
