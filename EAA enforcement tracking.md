@@ -5,6 +5,7 @@
 ## Resources
 - [Global Law and Policy by Lainey Feingold](https://www.lflegal.com/global-law-and-policy/)
 - [EAA sanctions by country](EAA%20sanctions.md)
+- [The EAA at one year: A Deque report on the state of digital accessibility enforcement](https://accessibility.deque.com/eaa-one-year-report) (Deque, 2026). Industry analysis based on Deque's observations of EAA enforcement. Access requires registration. Repository entries should preferably cite monitoring bodies, legislation, or court documents as primary sources.
 
 ## Table of legal enforcement status in the EU
 Type can be: 
@@ -112,9 +113,16 @@ Type can be:
     <td>Netherlands</td>
     <td>Monitoring agency</td>
     <td>Active monitoring</td>
-    <td>Consumer and Market Authority ACM in The Netherlands have sent letters to companies around the globe that have e-commerce services in The Netherlands. They've started monitoring the ones that did not respond to their letters. They've shared information in 2 recent events on this. They also mentioned that they start enforcement halfway 2026.</td>
+    <td>
+      <ul>
+        <li>In March 2026, the Netherlands Authority for Consumers and Markets (ACM) reported tests of approximately 100 major online stores and websites operated by large telecom and energy providers.</li>
+        <li>On 61% of the tested websites, users of assistive technology could not place an order. A further 33% had serious accessibility problems that made ordering considerably more difficult.</li>
+        <li>ACM is contacting the largest companies with the poorest results. Companies that do not make sufficient improvements risk enforcement action.</li>
+        <li>Source: <a href="https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities">ACM: majority of large online stores are not accessible for customers with disabilities</a>.</li>
+      </ul>
+    </td>
     <td>2025-11-20</td>
-    <td>-</td>
+    <td>2026-08-14</td>
   </tr>
   <tr>
     <td>Slovenia</td>
