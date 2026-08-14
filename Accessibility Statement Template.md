@@ -61,15 +61,15 @@ Our support is open on weekdays from 08:00 to 20:00.
 
 ## Accessibility at our destinations / shops
 As a guest, it's important to feel confident about the whole experience from purchase to return. That's why we list the different situations at our destinations, so you can prepare before your visit and ask for the support you need.
-- [Gran Canaria](http://)
-- [Åre](http://)
-- [Thailand](http://)
+- Gran Canaria [add a link to destination accessibility information]
+- Åre [add a link to destination accessibility information]
+- Thailand [add a link to destination accessibility information]
   
 ### Guided Tours with guides
 We offer special guided tours with a guide.
 
 ## How accessible are our digital services?
-Although we're committed to accessibility, we recognise that not everything is fully accessible to all our visitors at this time. This is something we're working to address, and we'd be very grateful if you could report any issues to [customer service](http://) so we can improve the experience for everyone. In this section, we describe the accessibility of our websites, apps, social media and other services.
+Although we're committed to accessibility, we recognise that not everything is fully accessible to all our visitors at this time. This is something we're working to address, and we'd be very grateful if you could report any issues to customer service [add a contact link] so we can improve the experience for everyone. In this section, we describe the accessibility of our websites, apps, social media and other services.
 
 ### Our websites
 #### TheMainSite.com
@@ -137,8 +137,8 @@ We value your feedback and we list the [fixed issues reported by users.](#fixes)
 
 
 ## Documents
-- [VPAT - version 2025-01-01](http://)
-- [Disproportionate burden - version 2025-01-01](http://)
+- VPAT - version 2025-01-01 [add a document link]
+- Disproportionate burden - version 2025-01-01 [add a document link]
 
 <a name="fixes" />
 

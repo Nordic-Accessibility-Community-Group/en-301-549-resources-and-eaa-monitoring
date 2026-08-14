@@ -20,7 +20,7 @@
       <ul>
         <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html">General information from Sozialministeriumsservice</a></li>
         <li>No reporting tool available for companies.</li>
-        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontaktformular_fuer_Hinweisgeberinnen/Kontaktformular-fuer-Hinweisgeber-innen.de.html">Reporting tool for the public, German 🇩🇪.</a></li>
+        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Informationen-fuer-Verbraucher-und-Vebraucherinnen.de.html">Information for consumers and reporting guidance, German 🇩🇪.</a></li>
         <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html">Information about reporting</a></li><li>Public accessibility statement is required by information directly from the monitoring agency.</li></ul>
     </td>
   </tr>
@@ -67,9 +67,9 @@
 			<li>
 				Urban, suburban and regional transport (buses, trams and metro):
 				<ul>
-					<li><a href="">Walloon Region / Région Wallonne</a></li>
-					<li><a href="">Brussels-Capital Region / Région de Bruxelles-Capitale</a></li>
-					<li><a href="">Flemish Region / Région Flamande</a></li>
+					<li>Walloon Region / Région Wallonne</li>
+					<li>Brussels-Capital Region / Région de Bruxelles-Capitale</li>
+					<li>Flemish Region / Région Flamande</li>
 				</ul>
 			</li>
 			<li><a href="https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant">List of all monitoring agencies in Belgium in French 🇫🇷, Dutch 🇳🇱</a></li>
@@ -77,7 +77,7 @@
     </td>
     <td>
       <ul>
-        <li><a href="https://cc.consumerconnect.be/csp?id=report_form&lang=en">Reporting tool for the public, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li><li><a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome>Reporting tool for companies, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li>
+        <li><a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">Reporting tool for the public, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li><li><a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Reporting tool for companies, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li>
         <li><a href="https://accessibility-exceptions.economie.fgov.be/fr/index">Reporting tool for companies: French 🇫🇷, Dutch 🇳🇱</a></li>
 		  <li>Reporting E-mail for companies: <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">toegankelijkheid-accessibilite@economie.fgov.be</a>, you can report in: English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</li>
       </ul>
@@ -141,7 +141,7 @@
   </tr>
   <tr>
     <td>Finland</td>
-    <td>✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/digipalvelulain-vaatimukset/muutokset-digipalvelulakiin">Yes</a> </td>
+    <td>✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet">Yes</a> </td>
     <td><ul><li><a href="https://www.traficom.fi/fi/traficom/esteettomyys">Traficom</a></li></ul></td>
     <td>
       <ul>
@@ -173,9 +173,9 @@
   <tr>
 		<td>Germany</td>
 		<td>
-			✔️ <a href="https://ms.sachsen-anhalt.de/themen/menschen-mit-behinderungen/aktuelles/marktueberwachungsstelle-der-laender-fuer-die-barrierefreiheit-von-produkten-und-dienstleistungen/katalog-der-fragen-und-antworten-zum-barrierefreiheitsstaerkungsgesetz#c425324">Yes</a>
+			✔️ <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz/FAQ-Dienstleistungen/faq-dienstleistungen_node">Yes</a>
 		</td>
-		<td><a href="https://ms.sachsen-anhalt.de/themen/menschen-mit-behinderungen/aktuelles/marktueberwachungsstelle-der-laender-fuer-die-barrierefreiheit-von-produkten-und-dienstleistungen" lang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> (Market Surveillance Agency of the States for the Accessibility of Products and Services)</td>
+		<td><a href="https://mlbf-barrierefrei.de/" lang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> (Market Surveillance Agency of the States for the Accessibility of Products and Services)</td>
 		<td>Email: <a href="mailto:kontakt@mlbf-barrierefrei.de">kontakt@mlbf-barrierefrei.de</a>.</td>
 		<td>
 			<a href="https://marcus-herrmann.com/blog/mlbf-verraet-wie-sie-pruefen-will" lang="de">The MLBF reveals how it intends to conduct the audit. In German 🇩🇪 </a>
@@ -237,6 +237,7 @@
 						</li>
 					</ul>
 				</li>
+			<li>
 				The following elements of urban and suburban transport services and regional transport services:
 				<ul>
 					<li>Interactive self-service terminals located within the territory of the Union, other than those installed as integrated parts of vehicles and rolling stock used in the provision of any part of such passenger transport services.</li>
@@ -264,7 +265,7 @@
   <tr>
     <td>Latvia</td>
     <td> ✔️ <a href="https://likumi.lv/ta/id/340554">Yes</a></td>
-    <td><ul><li>All EAA products and most of services  (financial services, e-books, e-commerce, water transport): <a href="https://www.ptac.gov.lv/en/contacts">Consumer Rights Protection Centre (PTAC)</a></li><li>Electronic communications: <a href="https://www.sprk.gov.lv/en/contacts">Public Utilities Commission(SPRK)</a></li><li>Access to audiovisual media services: <a href="https://www.neplp.lv/en/contacts">National Electronic Mass Media Council (NEPLP)</a></li><li>Specific elements of air passenger services: <a href="">Civil Aviation Agency (CAA)</a></li><li>Bus and domestic rail services: <a href="https://www.caa.gov.lv/en/contacts-authority">State Ltd. Road Transport Administration (ATD)</a></li><li>International rail services: <a href="https://www.vda.gov.lv/en/contacts-authority">State Railway Administration (VDA)</a></li><li>Self-service terminals used in public transport like buses, trams, and trolleybuses: Municipalities</li></ul></td>
+    <td><ul><li>All EAA products and most of services  (financial services, e-books, e-commerce, water transport): <a href="https://www.ptac.gov.lv/en/contacts">Consumer Rights Protection Centre (PTAC)</a></li><li>Electronic communications: <a href="https://www.sprk.gov.lv/en/contacts">Public Utilities Commission(SPRK)</a></li><li>Access to audiovisual media services: <a href="https://www.neplp.lv/en/contacts">National Electronic Mass Media Council (NEPLP)</a></li><li>Specific elements of air passenger services: <a href="https://www.caa.gov.lv/en/contacts">Civil Aviation Agency (CAA)</a></li><li>Bus and domestic rail services: <a href="https://www.atd.lv/en/road-transport-administration">State Ltd. Road Transport Administration (ATD)</a></li><li>International rail services: <a href="https://www.vda.gov.lv/en/contacts-authority">State Railway Administration (VDA)</a></li><li>Self-service terminals used in public transport like buses, trams, and trolleybuses: Municipalities</li></ul></td>
     <td>For CRPC via e-mail <a href="mailto:pasts@ptac.gov.lv">pasts@ptac.gov.lv</a> you can report about exemptions, non-compliances (also recalls) in 🇬🇧 English or 🇱🇻 Latvian.</td>
     <td>National legal acts:
 		<ul>
@@ -273,7 +274,7 @@
 		</ul>
 These documents have not been officially translated to English by the <a href="https://www.vvc.gov.lv/lv">State Language Centre</a>.
 
-Reporting may be accepted in English even if the official language is Latvian. In some cases, documentation translation to Latvian may still be needed, especially for public usage.</td>
+<p>Reporting may be accepted in English even if the official language is Latvian. In some cases, documentation translation to Latvian may still be needed, especially for public usage.</p></td>
   </tr>
   <tr>
     <td>Lithuania</td>
@@ -300,7 +301,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>Luxembourg</td>
     <td>✖️<a href="https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html">No</a></td>
     <td><a href="https://osaps.lu">OSAPS (Office de la Surveillance de l'Accessibilité des Produits et Services)</a> </td>
-    <td><ul><li><a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html">Reporting tool: English 🇬🇧, French 🇫🇷 , German 🇩🇪</a><li><li>Email is not accepted as reporting channel.</li></ul></td>
+    <td><ul><li><a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html">Reporting tool: English 🇬🇧, French 🇫🇷 , German 🇩🇪</a></li><li>Email is not accepted as reporting channel.</li></ul></td>
     <td>
       <ul>
         <li>
@@ -332,14 +333,14 @@ Reporting may be accepted in English even if the official language is Latvian. I
   <tr>
     <td>Poland</td>
     <td>❓ Unknown</td>
-    <td>Article 38(2) states: "The market surveillance system shall be formed by:<ul>the President of the Management Board of PFRON (State Fund for Rehabilitation of Persons with Disabilities)</li><li>market surveillance authorities referred to in Art.38(3)</li><li>customs authorities.</li></ul>In addition, Article 39(1) of that law specifies that: "The President of the Management Board of PFRON: monitors the functioning of the market surveillance system by requesting from the market surveillance and customs authorities information, including statistical data, on market surveillance activities undertaken.  </td>
+    <td>Article 38(2) states: "The market surveillance system shall be formed by:<ul><li>the President of the Management Board of PFRON (State Fund for Rehabilitation of Persons with Disabilities)</li><li>market surveillance authorities referred to in Art.38(3)</li><li>customs authorities.</li></ul>In addition, Article 39(1) of that law specifies that: "The President of the Management Board of PFRON: monitors the functioning of the market surveillance system by requesting from the market surveillance and customs authorities information, including statistical data, on market surveillance activities undertaken.  </td>
     <td>❓ Unknown</td>
     <td><a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000731">Dz.U. 2024 poz. 731</a></td>
   </tr>
   <tr>
     <td>Portugal</td>
     <td>✔️ Yes (Source needed)</td>
-    <td><ul><li><a href="http://www.anacom.pt/">ANACOM (Autoridade Nacional de Comunicações)</a><ul><li>Supervises products such as computer equipment and electronic communications equipment that operate via radio.</li><li>Supervises electronic communications services and services related to emergency communications. </li></ul></li><li><a href"http://www.erc.pt/">ERC (Entidade Reguladora para a Comunicação Social)</a> - audiovisual media services.</li><li><a href="http://www.amt-autoridade.pt/">Autoridade da Mobilidade e dos Transportes (AMT)</a> - air transport services.</li><li><a href="http://www.imt-ip.pt/">Instituto da Mobilidade e dos Transportes, I. P. (IMT)</a> - Supervises interactive self-service terminals of urban and suburban transport services, and regional transport services. </li><li><a href="http://www.bportugal.pt/">Banco de Portugal</a> - Supervises banking services, including payment services.</li><li><a href="http://www.cmvm.pt/">Comissão do Mercado de Valores Mobiliários (CMVM)</a> - Supervises financial investment services. </li><li><a href="http://www.asae.gov.pt/">Autoridade de Segurança Alimentar e Económica (ASAE)</a>) - Supervises the certification of products and services, including with the CE marking, and computer systems, except for those related to communications or covered by other entities. This authority also supervises the compliance of the free market access and goods and services access.</li><li><a href="http://www.igac.gov.pt/">Inspeção-Geral das Atividades Culturais (IGAC)</a> - Supervises the implementation in cultural services and products, including monuments and museums.</li></ul> </td>
+    <td><ul><li><a href="http://www.anacom.pt/">ANACOM (Autoridade Nacional de Comunicações)</a><ul><li>Supervises products such as computer equipment and electronic communications equipment that operate via radio.</li><li>Supervises electronic communications services and services related to emergency communications. </li></ul></li><li><a href="https://www.erc.pt/">ERC (Entidade Reguladora para a Comunicação Social)</a> - audiovisual media services.</li><li><a href="http://www.amt-autoridade.pt/">Autoridade da Mobilidade e dos Transportes (AMT)</a> - air transport services.</li><li><a href="http://www.imt-ip.pt/">Instituto da Mobilidade e dos Transportes, I. P. (IMT)</a> - Supervises interactive self-service terminals of urban and suburban transport services, and regional transport services. </li><li><a href="http://www.bportugal.pt/">Banco de Portugal</a> - Supervises banking services, including payment services.</li><li><a href="http://www.cmvm.pt/">Comissão do Mercado de Valores Mobiliários (CMVM)</a> - Supervises financial investment services. </li><li><a href="https://www.asae.gov.pt/">Autoridade de Segurança Alimentar e Económica (ASAE)</a> - Supervises the certification of products and services, including with the CE marking, and computer systems, except for those related to communications or covered by other entities. This authority also supervises the compliance of the free market access and goods and services access.</li><li><a href="http://www.igac.gov.pt/">Inspeção-Geral das Atividades Culturais (IGAC)</a> - Supervises the implementation in cultural services and products, including monuments and museums.</li></ul> </td>
     <td>As of 2026-06-02 Portugal does not have any reporting procedures.</td>
     <td><ul><li>2026-06-02: "The practical implementation of monitoring and reporting mechanisms is still being developed at national level."</li><li>All the responsibilities regarding the built environment are under the supervision of the municipalities.</li> <li>The autonomous regions of Açores and Madeira delegates part of the responsibilities on their regional authorities, if existent. </li> <li>The Instituto Nacional para a Reabilitação (INR, I.P.) (National Institute for Rehabilitation) is in charge of collecting data and supervising the compliance of these authorities.</li> </ul></td>
   </tr>
@@ -354,11 +355,11 @@ Reporting may be accepted in English even if the official language is Latvian. I
 			<li><a href="https://www.adr.gov.ro/">The Romanian Authority for Digitalisation</a> (for e-books, e-commerce)</li>
 			<li><a href="https://www.cna.ro/">The National Audiovisual Council</a> (for audio-visual mass media)</li>
 			<li><a href="https://www.mt.ro/web14/">The Ministry of Transport and Infrastructure</a> (for transport)</li>
-			<li><a href="The Competition Council">The Competition Council</a></li>
+			<li><a href="https://www.consiliulconcurentei.ro/en/">The Competition Council</a></li>
 		</ul>
 	</td>
-    <td>No reporting tool available. Reporting can be done in English 🇬🇧 or Romanian 🇷🇴 through email <a href="mailto:	registratura@anpd.gov.ro">registratura@anpd.gov.ro</a></td>
-    <td><ul><li><a href="https://legislatie.just.ro/public/DetaliiDocument/257778#:~:text=Chapter%20VI%20Market%20surveillance%20of%20products%20and%20the%20procedure%20for%20ensuring%20protection%20at%20European%20Union%20level">LAW No. 232 of July 19, 2022</a></li></ul>  </td>
+    <td>No reporting tool available. Reporting can be done in English 🇬🇧 or Romanian 🇷🇴 through email <a href="mailto:registratura@anpd.gov.ro">registratura@anpd.gov.ro</a></td>
+    <td><ul><li><a href="https://legislatie.just.ro/public/DetaliiDocument/257778">LAW No. 232 of July 19, 2022</a></li></ul>  </td>
   </tr>
   <tr>
     <td>Slovakia</td>
@@ -367,7 +368,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
     <td>
 		<ul>
 			<li>No reporting tool available.</li>
-			<li>Email reports to:<a href="mailto=info@soi.sk">info@soi.sk</a> in 🇬🇧 English or 🇸🇰 Slovak</li>
+			<li>Email reports to: <a href="mailto:info@soi.sk">info@soi.sk</a> in 🇬🇧 English or 🇸🇰 Slovak</li>
 		</ul>
 	</td>
     <td><a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/351/20250628.html#paragraf-8">Act No. 351/2022 </a> Coll. on the Accessibility of Products and Services for Persons with Disabilities and on Amendments and Supplements to Certain Acts</td>
@@ -375,7 +376,7 @@ Reporting may be accepted in English even if the official language is Latvian. I
   <tr>
     <td>Slovenia</td>
     <td>✔️ Yes</td>
-    <td><ul><li><a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/inspektorat-za-informacijsko-druzbo/o-inspektoratu/">Inspectorate of the Republic of Slovenia for the Information Society</a><p>The Inspectorate carries out inspection supervision over the implementation of regulations governing electronic identification and trust services, regulations governing the accessibility of websites and mobile applications, and regulations on European data management.</p></li><li>The Agency for Communication Networks and Services of the Republic of Slovenia (<a href="https://www.akos-rs.si/en/">AKOS</a>)</li><li>Market Inspectorate of the Republic of Slovenia (TIRS)</li><li>Infrastructure Inspectorate of the Republic of Slovenia</li><li>Bank of Slovenia</li><li>Market Inspectorate of the Republic of Slovenia</li></ul>The Information Commissioner will be responsible for monitoring the implementation of the provisions of the ZDPSI on a case-by-case basis, and will be able to request the submission of all the necessary information and documents, to carry out inspections, to confiscate samples of the product, and to impose a prohibition on the use of the product and the provision of the service in the immediate event of any non-compliance, and to impose a fine on companies and sole proprietorships.</td>
+    <td><ul><li><a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/inspektorat-za-informacijsko-druzbo/">Inspectorate of the Republic of Slovenia for the Information Society</a><p>The Inspectorate carries out inspection supervision over the implementation of regulations governing electronic identification and trust services, regulations governing the accessibility of websites and mobile applications, and regulations on European data management.</p></li><li>The Agency for Communication Networks and Services of the Republic of Slovenia (<a href="https://www.akos-rs.si/en/">AKOS</a>)</li><li>Market Inspectorate of the Republic of Slovenia (TIRS)</li><li>Infrastructure Inspectorate of the Republic of Slovenia</li><li>Bank of Slovenia</li><li>Market Inspectorate of the Republic of Slovenia</li></ul>The Information Commissioner will be responsible for monitoring the implementation of the provisions of the ZDPSI on a case-by-case basis, and will be able to request the submission of all the necessary information and documents, to carry out inspections, to confiscate samples of the product, and to impose a prohibition on the use of the product and the provision of the service in the immediate event of any non-compliance, and to impose a fine on companies and sole proprietorships.</td>
     <td>
 		<ul>
 			<li>There's no online reporting tool available. Reports may be submitted by the public and companies in English 🇬🇧 or 🇸🇮 Slovene through:

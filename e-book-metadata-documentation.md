@@ -47,15 +47,13 @@ In the directive it says you ensure that it works for everyone using accessibili
 [ONIX codelists Issue 69](https://ns.editeur.org/onix/en/196) – list 196  ONIX-format
 [Book - Schema.org Type](https://schema.org/Book)  Schema.org-format (with [referenced vocabulary](https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/#accessibilityControl-vocabulary))
 
-User guide for displaying metadata draft for EAA [Accessibility Metadata Display Guide for Digital Publications 2.0 ](https://w3c.github.io/publ-a11y/a11y-meta-display-guide/2.0/draft/guidelines/)
+For guidance on presenting accessibility metadata, see the [Accessibility Metadata Display Guide for Digital Publications 2.1](https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/).
 
-Recommended metadata to send to publishers [EPUB Accessibility 1.1 ](https://www.w3.org/TR/epub-a11y-11/)
+Recommended metadata to send to publishers [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)
 
 ### Example of metadata
 
-Here’s the ONIX definition: [lewis-carroll_a-tangled-tale/src/epub/onix.xml at master · standardebooks/lewis-carroll_a-tangled-tale](https://github.com/standardebooks/lewis-carroll_a-tangled-tale/blob/master/src/epub/onix.xml)
-
-And here’s the associated schema: [lewis-carroll_a-tangled-tale/src/epub/content.opf at master · standardebooks/lewis-carroll_a-tangled-tale ](https://github.com/standardebooks/lewis-carroll_a-tangled-tale/blob/master/src/epub/content.opf#L18-L31)
+See the [W3C example of accessibility metadata in an EPUB package document](https://w3c.github.io/publ-a11y/package-metadata-authoring-guide/#examples).
 
 ### Accessible E-book example
 [The Death of Shame ebook by Ambrose Parry - Rakuten Kobo](https://www.kobo.com/gb/en/ebook/the-death-of-shame) where they present the metadata in clear language.
