@@ -40,10 +40,17 @@ Type can be:
   <tr>
     <td>Denmark</td>
     <td>Monitoring agency</td>
-    <td>Ongoing process: Early warnings issued.</td>
-    <td>Authorities in Denmark began in mid-2025 to notify at least one major online retailer of accessibility issues on their website, framed as a warning rather than formal enforcement. No fines or other measures have been reported. As of October 3, 2025, nothing has been publicly communicated.</td>
+    <td>Active monitoring</td>
+    <td>
+      <ul>
+        <li><strong>E-commerce:</strong> 161 online inspections (148 on e-commerce, 12 on e-books and 1 on bank service) (16 Jun 2026).</li>
+        <li><strong>Products:</strong> 23 control of products. (16 Jun 2026)</li>
+        <li><strong>Company-Based Market Surveillance:</strong> 59. (16 Jun 2026)</li>
+        <li>Authorities in Denmark began in mid-2025 to notify at least one major online retailer of accessibility issues on their website, framed as a warning rather than formal enforcement. No fines or other measures have been reported.</li>
+      </ul>
+      </td>
     <td>2025-10-03</td>
-    <td>-</td>
+    <td>2026-08-14</td>
   </tr>
   <tr>
     <td>France</td>
