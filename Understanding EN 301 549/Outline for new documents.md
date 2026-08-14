@@ -78,6 +78,7 @@ Common failures include:
 
 [Use this section for important interpretation choices, known ambiguities, or differences between the requirement text and how the group reads it.]
 
+<!-- markdownlint-disable-next-line MD024 -->
 ### [Topic]
 
 [Add another interpretation note only when it helps readers apply the clause.]

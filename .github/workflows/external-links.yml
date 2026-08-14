@@ -1,0 +1,33 @@
+name: External links
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".lychee.toml"
+      - ".github/workflows/external-links.yml"
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    name: External links
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ github.event_name == 'pull_request' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Check external links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+          format: markdown
+          jobSummary: true
+          token: ${{ secrets.GITHUB_TOKEN }}

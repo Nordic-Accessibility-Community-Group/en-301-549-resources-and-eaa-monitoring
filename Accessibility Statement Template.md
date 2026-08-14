@@ -45,6 +45,7 @@ For the public sector the government agencies have been very strict in what they
 [Criteria for assessment of disproportionate burden](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI)
 The directive says that an assessment needs to be made and documented to be able to claim disproportionate burden.
 
+<!-- markdownlint-disable-next-line MD025 -->
 # Accessibility at [NAME of Company]
 > Here you need to add a general description of the service and how it functions. Explain the parts needed to understand how to use the service.
 ## We will help you

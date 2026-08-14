@@ -1,0 +1,38 @@
+name: Content checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content:
+    name: Content
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2@0.23.2
+
+      - name: Check local links and anchors
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: --offline --include-fragments=anchor-only --no-progress './**/*.md'
+          fail: true
+
+      - name: Install HTML Tidy
+        run: sudo apt-get update -qq && sudo apt-get install -y tidy
+
+      - name: Validate rendered HTML tables
+        run: .github/scripts/validate-rendered-html.sh
+
+      - name: Check verification dates
+        run: python3 .github/scripts/check-verification-dates.py
