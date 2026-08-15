@@ -1,0 +1,62 @@
+name: Report a conference correction
+description: Report changed dates, details, links or a cancellation.
+title: "[Conference correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep calendar subscriptions accurate. Maintainers will review the source before updating the published event.
+
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+      placeholder: Example Accessibility Conference 2027
+    validations:
+      required: true
+
+  - type: input
+    id: calendar-entry
+    attributes:
+      label: Link to the current calendar entry or event page
+      description: This helps us identify the exact event.
+      placeholder: https://example.org/event
+    validations:
+      required: true
+
+  - type: dropdown
+    id: correction-type
+    attributes:
+      label: What needs changing?
+      options:
+        - Dates
+        - Location or format
+        - Event link
+        - Name or description
+        - Cancellation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correct information
+      description: Explain what is currently wrong and what it should say instead.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source confirming the correction
+      description: Link to an official organiser announcement or updated event page.
+      placeholder: https://example.org/event/update
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional details
+      description: Add anything else that would help maintainers verify the correction.

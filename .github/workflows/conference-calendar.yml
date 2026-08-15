@@ -1,0 +1,86 @@
+name: Conference calendar
+
+on:
+  pull_request:
+    paths:
+      - ".github/ISSUE_TEMPLATE/conference-*.yml"
+      - ".github/scripts/generate_conferences.py"
+      - ".github/scripts/requirements-conferences.txt"
+      - ".github/workflows/conference-calendar.yml"
+      - "calendar/**"
+      - "conferences.md"
+      - "data/**"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/scripts/generate_conferences.py"
+      - ".github/scripts/requirements-conferences.txt"
+      - ".github/workflows/conference-calendar.yml"
+      - "calendar/**"
+      - "conferences.md"
+      - "data/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: conference-calendar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate generated files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: .github/scripts/requirements-conferences.txt
+
+      - name: Install calendar generator dependency
+        run: python -m pip install -r .github/scripts/requirements-conferences.txt
+
+      - name: Validate conference data and generated files
+        run: python .github/scripts/generate_conferences.py --check
+
+      - name: Prepare GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        run: |
+          mkdir -p _site/calendar
+          cp -R calendar/. _site/calendar/
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+
+      - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: _site
+
+  deploy:
+    name: Publish calendar
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

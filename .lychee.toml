@@ -13,4 +13,6 @@ exclude = [
   "^https://ibz\\.be/fr$",
   "^https://www\\.agid\\.gov\\.it/en/intervention-areas/accessibility-usability$",
   "^https://meldpunt\\.economie\\.fgov\\.be/meldpunt/en/welcome$",
+  # Generated calendar URLs only exist after the change reaches main and Pages deploys it.
+  "^https://nordic-accessibility-community-group\\.github\\.io/en-301-549-resources-and-eaa-monitoring/calendar/",
 ]

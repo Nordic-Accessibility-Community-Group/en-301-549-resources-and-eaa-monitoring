@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nordic accessibility conferences and events
+X-WR-CALDESC:Conferences and events relevant to digital accessibility in Eu
+ rope.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:saavuta-helsinki-2026@nordic-accessibility-community-group.github.io
+DTSTAMP:20260815T000000Z
+LAST-MODIFIED:20260815T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Saavuta 2026
+DESCRIPTION:An accessibility event focused on process\, including a worksho
+ p about interpreting and using European standards that support the Europea
+ n Accessibility Act.\nOrganizer: Saavuta\, with a workshop from IAAP Nordi
+ c\nLanguage: Finnish and English
+LOCATION:Helsinki\, Finland
+URL:https://iaap-nordic.org/en/whats-up/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conferences and events relevant to digital accessibility in Europe.">
+  <title>Nordic accessibility conferences and events</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f6f1;
+      --surface: #ffffff;
+      --text: #17221d;
+      --muted: #4b5b53;
+      --accent: #075c46;
+      --accent-hover: #043f30;
+      --border: #cbd4cf;
+      --focus: #ffbf47;
+      --radius: 0.75rem;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-underline-offset: 0.18em; }
+    a:hover { color: var(--accent-hover); }
+    a:focus-visible, input:focus-visible { outline: 0.25rem solid var(--focus); outline-offset: 0.2rem; }
+
+    header, main, footer { width: min(76rem, calc(100% - 2rem)); margin-inline: auto; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding-block: 1.25rem;
+    }
+
+    header a { font-weight: 700; }
+
+    main { padding-block: clamp(2rem, 6vw, 5rem); }
+    h1 { max-width: 18ch; margin: 0; font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1.02; letter-spacing: -0.035em; }
+    h2 { margin-top: 0; font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.15; }
+    .intro { max-width: 48rem; margin: 1.5rem 0 3rem; color: var(--muted); font-size: 1.2rem; }
+
+    section { margin-block: 3rem; }
+    .panel { padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-block: 1.5rem; }
+    .button {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border: 2px solid var(--accent);
+      border-radius: 0.4rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .button.primary { background: var(--accent); color: #ffffff; }
+    .button.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: #ffffff; }
+
+    label { display: block; margin-bottom: 0.35rem; font-weight: 700; }
+    input {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 0.3rem;
+      background: var(--background);
+      color: var(--text);
+      font: inherit;
+    }
+
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 1rem; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { background: color-mix(in srgb, var(--surface), var(--accent) 8%); }
+    td p { min-width: 18rem; margin: 0.35rem 0 0; color: var(--muted); }
+    tr:last-child td { border-bottom: 0; }
+    .status { display: inline-block; margin-left: 0.35rem; font-size: 0.9rem; font-weight: 700; }
+
+    footer { padding-block: 2rem; border-top: 1px solid var(--border); color: var(--muted); }
+
+    @media (max-width: 40rem) {
+      header { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111814;
+        --surface: #18231d;
+        --text: #f2f6f3;
+        --muted: #c2cec7;
+        --accent: #7ee0bd;
+        --accent-hover: #a3efd3;
+        --border: #42564b;
+      }
+      .button.primary { color: #102019; }
+      .button.primary:hover { color: #102019; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring">Nordic Accessibility Community Group</a>
+    <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/conferences.md">View on GitHub</a>
+  </header>
+  <main>
+    <h1>Accessibility conferences and events</h1>
+    <p class="intro">Conferences and events relevant to digital accessibility in Europe.</p>
+
+    <section class="panel" aria-labelledby="subscribe-heading">
+      <h2 id="subscribe-heading">Subscribe to the calendar</h2>
+      <p>Subscribe once to receive additions, corrections and cancellations when your calendar application refreshes the feed.</p>
+      <div class="actions">
+        <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics">Subscribe in a calendar app</a>
+        <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" download>Download complete ICS calendar</a>
+      </div>
+      <label for="subscription-url">Subscription URL</label>
+      <input id="subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" onclick="this.select()">
+      <p>For Google Calendar, copy the subscription URL and add it using <strong>Other calendars</strong>, then <strong>From URL</strong>. Calendar applications control how frequently subscriptions refresh.</p>
+    </section>
+
+    <section aria-labelledby="events-heading">
+      <h2 id="events-heading">Events</h2>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable conference table">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Event</th>
+              <th scope="col">Format</th>
+              <th scope="col">Location</th>
+              <th scope="col">Language</th>
+              <th scope="col">Calendar</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><time datetime="2026-10-01">1 October 2026</time></td>
+            <td>
+              <a href="https://iaap-nordic.org/en/whats-up/">WAD: Iceland onboard – from requirements to reality</a>
+              <p>A full-day event about implementing the Web Accessibility Directive in Iceland, with presentations, user demonstrations and practical training.</p>
+            </td>
+            <td>Hybrid</td>
+            <td>Harpa, Reykjavik, Iceland</td>
+            <td>English</td>
+            <td><a href="events/wad-iceland-onboard-2026.ics">Add event</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-10-28">28 October 2026</time></td>
+            <td>
+              <a href="https://iaap-nordic.org/en/whats-up/">UnIKT forum for universal ICT</a>
+              <p>An event from Norway&#x27;s Universal Design Network for ICT, which promotes digital participation and inclusive digital projects.</p>
+            </td>
+            <td>In person</td>
+            <td>Oslo, Norway</td>
+            <td>Norwegian</td>
+            <td><a href="events/unikt-forum-oslo-2026.ics">Add event</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-11-11">11 November 2026</time></td>
+            <td>
+              <a href="https://iaap-nordic.org/en/whats-up/">Saavuta 2026</a>
+              <p>An accessibility event focused on process, including a workshop about interpreting and using European standards that support the European Accessibility Act.</p>
+            </td>
+            <td>In person</td>
+            <td>Helsinki, Finland</td>
+            <td>Finnish and English</td>
+            <td><a href="events/saavuta-helsinki-2026.ics">Add event</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="suggest-heading">
+      <h2 id="suggest-heading">Suggest an event or correction</h2>
+      <p>You do not need to know Git or edit data files. A guided form collects the information maintainers need to review the official source.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/issues/new?template=conference-addition.yml">Suggest an event</a>
+        <a class="button" href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/issues/new?template=conference-correction.yml">Report a correction</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Calendar data is maintained in the <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring">EN 301 549 resources and EAA monitoring repository</a>.</p>
+  </footer>
+</body>
+</html>

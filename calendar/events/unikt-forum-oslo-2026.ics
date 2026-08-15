@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nordic accessibility conferences and events
+X-WR-CALDESC:Conferences and events relevant to digital accessibility in Eu
+ rope.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:unikt-forum-oslo-2026@nordic-accessibility-community-group.github.io
+DTSTAMP:20260815T000000Z
+LAST-MODIFIED:20260815T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:UnIKT forum for universal ICT
+DESCRIPTION:An event from Norway's Universal Design Network for ICT\, which
+  promotes digital participation and inclusive digital projects.\nOrganizer
+ : Bufdir\, with participation from IAAP Nordic\nLanguage: Norwegian
+LOCATION:Oslo\, Norway
+URL:https://iaap-nordic.org/en/whats-up/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

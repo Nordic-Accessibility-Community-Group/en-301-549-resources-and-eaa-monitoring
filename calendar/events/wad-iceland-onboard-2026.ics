@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nordic accessibility conferences and events
+X-WR-CALDESC:Conferences and events relevant to digital accessibility in Eu
+ rope.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wad-iceland-onboard-2026@nordic-accessibility-community-group.github.io
+DTSTAMP:20260815T000000Z
+LAST-MODIFIED:20260815T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:WAD: Iceland onboard – from requirements to reality
+DESCRIPTION:A full-day event about implementing the Web Accessibility Direc
+ tive in Iceland\, with presentations\, user demonstrations and practical t
+ raining.\nOrganizer: IAAP Nordic and ÖBÍ\nLanguage: English
+LOCATION:Harpa\, Reykjavik\, Iceland
+URL:https://iaap-nordic.org/en/whats-up/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

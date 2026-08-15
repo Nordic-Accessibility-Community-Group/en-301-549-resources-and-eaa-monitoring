@@ -1,0 +1,47 @@
+calendar:
+  name: Nordic accessibility conferences and events
+  description: Conferences and events relevant to digital accessibility in Europe.
+  public_url: https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/
+
+conferences:
+  - id: wad-iceland-onboard-2026
+    name: "WAD: Iceland onboard – from requirements to reality"
+    start_date: "2026-10-01"
+    end_date: "2026-10-01"
+    location: Harpa, Reykjavik, Iceland
+    format: Hybrid
+    language: English
+    organizer: IAAP Nordic and ÖBÍ
+    url: https://iaap-nordic.org/en/whats-up/
+    description: A full-day event about implementing the Web Accessibility Directive in Iceland, with presentations, user demonstrations and practical training.
+    status: confirmed
+    sequence: 0
+    last_verified: "2026-08-15"
+
+  - id: unikt-forum-oslo-2026
+    name: UnIKT forum for universal ICT
+    start_date: "2026-10-28"
+    end_date: "2026-10-28"
+    location: Oslo, Norway
+    format: In person
+    language: Norwegian
+    organizer: Bufdir, with participation from IAAP Nordic
+    url: https://iaap-nordic.org/en/whats-up/
+    description: An event from Norway's Universal Design Network for ICT, which promotes digital participation and inclusive digital projects.
+    status: confirmed
+    sequence: 0
+    last_verified: "2026-08-15"
+
+  - id: saavuta-helsinki-2026
+    name: Saavuta 2026
+    start_date: "2026-11-11"
+    end_date: "2026-11-11"
+    location: Helsinki, Finland
+    format: In person
+    language: Finnish and English
+    organizer: Saavuta, with a workshop from IAAP Nordic
+    url: https://iaap-nordic.org/en/whats-up/
+    description: An accessibility event focused on process, including a workshop about interpreting and using European standards that support the European Accessibility Act.
+    status: confirmed
+    sequence: 0
+    last_verified: "2026-08-15"

@@ -1,0 +1,92 @@
+name: Suggest a conference or event
+description: Propose an accessibility event for maintainers to review and add.
+title: "[Conference]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the calendar useful. You do not need to know Git or calendar formats. Please use the event organiser's website as the source whenever possible.
+
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+      placeholder: Example Accessibility Conference 2027
+    validations:
+      required: true
+
+  - type: input
+    id: official-url
+    attributes:
+      label: Official event URL
+      description: Link to the organiser's page that confirms the event details.
+      placeholder: https://example.org/event
+    validations:
+      required: true
+
+  - type: input
+    id: start-date
+    attributes:
+      label: Start date
+      description: Use YYYY-MM-DD if possible.
+      placeholder: "2027-04-15"
+    validations:
+      required: true
+
+  - type: input
+    id: end-date
+    attributes:
+      label: End date
+      description: For a one-day event, repeat the start date.
+      placeholder: "2027-04-16"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - In person
+        - Online
+        - Hybrid
+        - Not yet announced
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Add the city and country, or write Online.
+      placeholder: Copenhagen, Denmark
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Event language or languages
+      placeholder: Danish and English
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is this relevant?
+      description: Briefly explain the connection to digital accessibility, EN 301 549 or the European Accessibility Act.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional details
+      description: Add anything else that would help maintainers review the event.
+
+  - type: checkboxes
+    id: source-confirmation
+    attributes:
+      label: Source confirmation
+      options:
+        - label: I checked these details against the linked event page.
+          required: true
