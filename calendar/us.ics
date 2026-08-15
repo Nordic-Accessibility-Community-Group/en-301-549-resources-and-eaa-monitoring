@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nordic accessibility conferences and events: United States
+X-WR-CALDESC:Conferences and events relevant to digital accessibility. Even
+ ts with onsite attendance in the United States.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:m-enabling-summit-2026@nordic-accessibility-community-group.github.io
+DTSTAMP:20260815T000000Z
+LAST-MODIFIED:20260815T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261008
+SUMMARY:M-Enabling Summit 2026
+DESCRIPTION:A global conference for digital accessibility leaders\, policym
+ akers\, technology providers\, advocates and the disability community.\nAt
+ tendance: In person\nOrganizer: G3ict\nLanguage: English
+LOCATION:Arlington\, Virginia\, United States
+URL:https://g3ict.org/what-we-do/m-enabling-summit
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

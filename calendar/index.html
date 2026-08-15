@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Conferences and events relevant to digital accessibility in Europe.">
+  <meta name="description" content="Conferences and events relevant to digital accessibility.">
   <title>Nordic accessibility conferences and events</title>
   <style>
     :root {
@@ -49,10 +49,14 @@
     main { padding-block: clamp(2rem, 6vw, 5rem); }
     h1 { max-width: 18ch; margin: 0; font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1.02; letter-spacing: -0.035em; }
     h2 { margin-top: 0; font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.15; }
+    h3 { margin-top: 0; font-size: 1.3rem; line-height: 1.2; }
     .intro { max-width: 48rem; margin: 1.5rem 0 3rem; color: var(--muted); font-size: 1.2rem; }
 
     section { margin-block: 3rem; }
     .panel { padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    .subscription-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .subscription-card { padding: 1.25rem; border: 1px solid var(--border); border-radius: calc(var(--radius) * 0.75); background: var(--background); }
+    .subscription-card > p { color: var(--muted); }
     .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-block: 1.5rem; }
     .button {
       display: inline-block;
@@ -112,17 +116,53 @@
   </header>
   <main>
     <h1>Accessibility conferences and events</h1>
-    <p class="intro">Conferences and events relevant to digital accessibility in Europe.</p>
+    <p class="intro">Conferences and events relevant to digital accessibility.</p>
 
     <section class="panel" aria-labelledby="subscribe-heading">
       <h2 id="subscribe-heading">Subscribe to the calendar</h2>
-      <p>Subscribe once to receive additions, corrections and cancellations when your calendar application refreshes the feed.</p>
-      <div class="actions">
-        <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics">Subscribe in a calendar app</a>
-        <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" download>Download complete ICS calendar</a>
+      <p>Choose the events you want. Each subscription receives additions, corrections and cancellations when your calendar application refreshes the feed.</p>
+      <div class="subscription-grid">
+        <article class="subscription-card">
+          <h3>Everything</h3>
+          <p>Every conference and event in the calendar.</p>
+          <div class="actions">
+            <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics">Subscribe</a>
+            <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" download>Download ICS</a>
+          </div>
+          <label for="all-subscription-url">Subscription URL for Everything</label>
+          <input id="all-subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" onclick="this.select()">
+        </article>
+        <article class="subscription-card">
+          <h3>European Union</h3>
+          <p>Events with onsite attendance in an EU member country.</p>
+          <div class="actions">
+            <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/eu.ics">Subscribe</a>
+            <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/eu.ics" download>Download ICS</a>
+          </div>
+          <label for="eu-subscription-url">Subscription URL for European Union</label>
+          <input id="eu-subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/eu.ics" onclick="this.select()">
+        </article>
+        <article class="subscription-card">
+          <h3>United States</h3>
+          <p>Events with onsite attendance in the United States.</p>
+          <div class="actions">
+            <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/us.ics">Subscribe</a>
+            <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/us.ics" download>Download ICS</a>
+          </div>
+          <label for="us-subscription-url">Subscription URL for United States</label>
+          <input id="us-subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/us.ics" onclick="this.select()">
+        </article>
+        <article class="subscription-card">
+          <h3>Online access</h3>
+          <p>Events offering online attendance, including hybrid events.</p>
+          <div class="actions">
+            <a class="button primary" href="webcal://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/online.ics">Subscribe</a>
+            <a class="button" href="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/online.ics" download>Download ICS</a>
+          </div>
+          <label for="online-subscription-url">Subscription URL for Online access</label>
+          <input id="online-subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/online.ics" onclick="this.select()">
+        </article>
       </div>
-      <label for="subscription-url">Subscription URL</label>
-      <input id="subscription-url" type="url" readonly value="https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics" onclick="this.select()">
       <p>For Google Calendar, copy the subscription URL and add it using <strong>Other calendars</strong>, then <strong>From URL</strong>. Calendar applications control how frequently subscriptions refresh.</p>
     </section>
 
@@ -151,6 +191,17 @@
             <td>Harpa, Reykjavik, Iceland</td>
             <td>English</td>
             <td><a href="events/wad-iceland-onboard-2026.ics">Add event</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-10-05">5–7 October 2026</time></td>
+            <td>
+              <a href="https://g3ict.org/what-we-do/m-enabling-summit">M-Enabling Summit 2026</a>
+              <p>A global conference for digital accessibility leaders, policymakers, technology providers, advocates and the disability community.</p>
+            </td>
+            <td>In person</td>
+            <td>Arlington, Virginia, United States</td>
+            <td>English</td>
+            <td><a href="events/m-enabling-summit-2026.ics">Add event</a></td>
           </tr>
           <tr>
             <td><time datetime="2026-10-28">28 October 2026</time></td>

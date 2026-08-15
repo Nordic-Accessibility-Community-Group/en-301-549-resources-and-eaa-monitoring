@@ -30,7 +30,7 @@ body:
       label: What needs changing?
       options:
         - Dates
-        - Location or format
+        - Location or attendance options
         - Event link
         - Name or description
         - Cancellation

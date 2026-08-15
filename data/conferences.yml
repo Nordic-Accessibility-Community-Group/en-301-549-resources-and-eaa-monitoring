@@ -1,6 +1,6 @@
 calendar:
   name: Nordic accessibility conferences and events
-  description: Conferences and events relevant to digital accessibility in Europe.
+  description: Conferences and events relevant to digital accessibility.
   public_url: https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/
 
 conferences:
@@ -9,11 +9,31 @@ conferences:
     start_date: "2026-10-01"
     end_date: "2026-10-01"
     location: Harpa, Reykjavik, Iceland
-    format: Hybrid
+    country_code: "IS"
+    attendance:
+      onsite: true
+      online: true
     language: English
     organizer: IAAP Nordic and ÖBÍ
     url: https://iaap-nordic.org/en/whats-up/
     description: A full-day event about implementing the Web Accessibility Directive in Iceland, with presentations, user demonstrations and practical training.
+    status: confirmed
+    sequence: 0
+    last_verified: "2026-08-15"
+
+  - id: m-enabling-summit-2026
+    name: M-Enabling Summit 2026
+    start_date: "2026-10-05"
+    end_date: "2026-10-07"
+    location: Arlington, Virginia, United States
+    country_code: "US"
+    attendance:
+      onsite: true
+      online: false
+    language: English
+    organizer: G3ict
+    url: https://g3ict.org/what-we-do/m-enabling-summit
+    description: A global conference for digital accessibility leaders, policymakers, technology providers, advocates and the disability community.
     status: confirmed
     sequence: 0
     last_verified: "2026-08-15"
@@ -23,7 +43,10 @@ conferences:
     start_date: "2026-10-28"
     end_date: "2026-10-28"
     location: Oslo, Norway
-    format: In person
+    country_code: "NO"
+    attendance:
+      onsite: true
+      online: false
     language: Norwegian
     organizer: Bufdir, with participation from IAAP Nordic
     url: https://iaap-nordic.org/en/whats-up/
@@ -37,7 +60,10 @@ conferences:
     start_date: "2026-11-11"
     end_date: "2026-11-11"
     location: Helsinki, Finland
-    format: In person
+    country_code: "FI"
+    attendance:
+      onsite: true
+      online: false
     language: Finnish and English
     organizer: Saavuta, with a workshop from IAAP Nordic
     url: https://iaap-nordic.org/en/whats-up/

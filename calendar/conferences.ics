@@ -4,8 +4,8 @@ PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Nordic accessibility conferences and events
-X-WR-CALDESC:Conferences and events relevant to digital accessibility in Eu
- rope.
+X-WR-CALDESC:Conferences and events relevant to digital accessibility. Ever
+ y conference and event in the calendar.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
@@ -18,9 +18,26 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:WAD: Iceland onboard – from requirements to reality
 DESCRIPTION:A full-day event about implementing the Web Accessibility Direc
  tive in Iceland\, with presentations\, user demonstrations and practical t
- raining.\nOrganizer: IAAP Nordic and ÖBÍ\nLanguage: English
+ raining.\nAttendance: Hybrid\nOrganizer: IAAP Nordic and ÖBÍ\nLanguage:
+  English
 LOCATION:Harpa\, Reykjavik\, Iceland
 URL:https://iaap-nordic.org/en/whats-up/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-enabling-summit-2026@nordic-accessibility-community-group.github.io
+DTSTAMP:20260815T000000Z
+LAST-MODIFIED:20260815T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261008
+SUMMARY:M-Enabling Summit 2026
+DESCRIPTION:A global conference for digital accessibility leaders\, policym
+ akers\, technology providers\, advocates and the disability community.\nAt
+ tendance: In person\nOrganizer: G3ict\nLanguage: English
+LOCATION:Arlington\, Virginia\, United States
+URL:https://g3ict.org/what-we-do/m-enabling-summit
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -33,8 +50,9 @@ DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:UnIKT forum for universal ICT
 DESCRIPTION:An event from Norway's Universal Design Network for ICT\, which
-  promotes digital participation and inclusive digital projects.\nOrganizer
- : Bufdir\, with participation from IAAP Nordic\nLanguage: Norwegian
+  promotes digital participation and inclusive digital projects.\nAttendanc
+ e: In person\nOrganizer: Bufdir\, with participation from IAAP Nordic\nLan
+ guage: Norwegian
 LOCATION:Oslo\, Norway
 URL:https://iaap-nordic.org/en/whats-up/
 STATUS:CONFIRMED
@@ -50,8 +68,8 @@ DTEND;VALUE=DATE:20261112
 SUMMARY:Saavuta 2026
 DESCRIPTION:An accessibility event focused on process\, including a worksho
  p about interpreting and using European standards that support the Europea
- n Accessibility Act.\nOrganizer: Saavuta\, with a workshop from IAAP Nordi
- c\nLanguage: Finnish and English
+ n Accessibility Act.\nAttendance: In person\nOrganizer: Saavuta\, with a w
+ orkshop from IAAP Nordic\nLanguage: Finnish and English
 LOCATION:Helsinki\, Finland
 URL:https://iaap-nordic.org/en/whats-up/
 STATUS:CONFIRMED

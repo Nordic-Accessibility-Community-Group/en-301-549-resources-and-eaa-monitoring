@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Nordic accessibility conferences and events
-X-WR-CALDESC:Conferences and events relevant to digital accessibility.
+X-WR-CALNAME:Nordic accessibility conferences and events: European Union
+X-WR-CALDESC:Conferences and events relevant to digital accessibility. Even
+ ts with onsite attendance in an EU member country.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT

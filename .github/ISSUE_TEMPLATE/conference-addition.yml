@@ -43,13 +43,13 @@ body:
       required: true
 
   - type: dropdown
-    id: format
+    id: attendance
     attributes:
-      label: Format
+      label: Attendance options
       options:
-        - In person
-        - Online
-        - Hybrid
+        - Onsite only
+        - Online only
+        - Both onsite and online
         - Not yet announced
     validations:
       required: true
@@ -62,6 +62,13 @@ body:
       placeholder: Copenhagen, Denmark
     validations:
       required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country for onsite attendance
+      description: Leave this blank for an online-only event.
+      placeholder: Denmark
 
   - type: input
     id: language

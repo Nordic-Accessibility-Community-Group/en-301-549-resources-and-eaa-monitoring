@@ -5,7 +5,7 @@
 4. Here's a list of countries [monitoring agencies and accessibility requirements](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md).
 5. [ Sites using overlays](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/Sites%20using%20accessibility%20overlays.md).
 6. [EAA sanctions by country](EAA%20sanctions.md).
-7. [Accessibility conferences and events](conferences.md), including an ICS calendar subscription.
+7. [Accessibility conferences and events](conferences.md), including multiple ICS calendar subscriptions.
 
 ## What it is for
 1. How to understand the EN-standard and how monitoring works in different countries.

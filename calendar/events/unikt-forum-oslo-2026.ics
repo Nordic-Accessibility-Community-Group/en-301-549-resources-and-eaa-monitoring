@@ -4,8 +4,7 @@ PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Nordic accessibility conferences and events
-X-WR-CALDESC:Conferences and events relevant to digital accessibility in Eu
- rope.
+X-WR-CALDESC:Conferences and events relevant to digital accessibility.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
@@ -17,8 +16,9 @@ DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:UnIKT forum for universal ICT
 DESCRIPTION:An event from Norway's Universal Design Network for ICT\, which
-  promotes digital participation and inclusive digital projects.\nOrganizer
- : Bufdir\, with participation from IAAP Nordic\nLanguage: Norwegian
+  promotes digital participation and inclusive digital projects.\nAttendanc
+ e: In person\nOrganizer: Bufdir\, with participation from IAAP Nordic\nLan
+ guage: Norwegian
 LOCATION:Oslo\, Norway
 URL:https://iaap-nordic.org/en/whats-up/
 STATUS:CONFIRMED

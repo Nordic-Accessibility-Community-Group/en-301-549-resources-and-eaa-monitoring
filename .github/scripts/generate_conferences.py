@@ -18,7 +18,6 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA_FILE = ROOT / "data" / "conferences.yml"
 MARKDOWN_FILE = ROOT / "conferences.md"
 CALENDAR_DIRECTORY = ROOT / "calendar"
-FEED_FILE = CALENDAR_DIRECTORY / "conferences.ics"
 PAGE_FILE = CALENDAR_DIRECTORY / "index.html"
 EVENT_DIRECTORY = CALENDAR_DIRECTORY / "events"
 
@@ -31,12 +30,41 @@ CORRECTION_FORM_URL = f"{REPOSITORY_URL}/issues/new?template=conference-correcti
 UID_DOMAIN = "nordic-accessibility-community-group.github.io"
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-ALLOWED_FORMATS = {"Hybrid", "In person", "Online"}
+COUNTRY_CODE_PATTERN = re.compile(r"^[A-Z]{2}$")
 ALLOWED_STATUSES = {"cancelled", "confirmed", "tentative"}
+EU_COUNTRY_CODES = {
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+}
 REQUIRED_EVENT_FIELDS = {
+    "attendance",
     "description",
     "end_date",
-    "format",
     "id",
     "last_verified",
     "location",
@@ -46,7 +74,7 @@ REQUIRED_EVENT_FIELDS = {
     "status",
     "url",
 }
-OPTIONAL_EVENT_FIELDS = {"language", "organizer"}
+OPTIONAL_EVENT_FIELDS = {"country_code", "language", "organizer"}
 
 
 class DataError(ValueError):
@@ -59,13 +87,47 @@ class CalendarDetails:
     description: str
     public_url: str
 
-    @property
-    def feed_url(self) -> str:
-        return f"{self.public_url}conferences.ics"
+    def feed_url(self, filename: str) -> str:
+        return f"{self.public_url}{filename}"
 
-    @property
-    def webcal_url(self) -> str:
-        return self.feed_url.replace("https://", "webcal://", 1)
+    def webcal_url(self, filename: str) -> str:
+        return self.feed_url(filename).replace("https://", "webcal://", 1)
+
+
+@dataclass(frozen=True)
+class FeedDefinition:
+    key: str
+    filename: str
+    name: str
+    description: str
+
+
+FEED_DEFINITIONS = (
+    FeedDefinition(
+        key="all",
+        filename="conferences.ics",
+        name="Everything",
+        description="Every conference and event in the calendar.",
+    ),
+    FeedDefinition(
+        key="eu",
+        filename="eu.ics",
+        name="European Union",
+        description="Events with onsite attendance in an EU member country.",
+    ),
+    FeedDefinition(
+        key="us",
+        filename="us.ics",
+        name="United States",
+        description="Events with onsite attendance in the United States.",
+    ),
+    FeedDefinition(
+        key="online",
+        filename="online.ics",
+        name="Online access",
+        description="Events offering online attendance, including hybrid events.",
+    ),
+)
 
 
 @dataclass(frozen=True)
@@ -75,7 +137,9 @@ class Conference:
     start_date: date
     end_date: date
     location: str
-    format: str
+    country_code: str | None
+    attendance_onsite: bool
+    attendance_online: bool
     url: str
     description: str
     status: str
@@ -87,6 +151,14 @@ class Conference:
     @property
     def event_feed_url(self) -> str:
         return f"events/{self.id}.ics"
+
+    @property
+    def format(self) -> str:
+        if self.attendance_onsite and self.attendance_online:
+            return "Hybrid"
+        if self.attendance_onsite:
+            return "In person"
+        return "Online"
 
 
 def require_non_empty_string(value: object, field: str, context: str) -> str:
@@ -174,10 +246,36 @@ def load_data(path: Path = DATA_FILE) -> tuple[CalendarDetails, list[Conference]
         if end_date < start_date:
             raise DataError(f"{context}: end_date cannot be before start_date")
 
-        event_format = require_non_empty_string(event_raw["format"], "format", context)
-        if event_format not in ALLOWED_FORMATS:
-            allowed = ", ".join(sorted(ALLOWED_FORMATS))
-            raise DataError(f"{context}: format must be one of {allowed}")
+        attendance_raw = event_raw["attendance"]
+        if not isinstance(attendance_raw, dict):
+            raise DataError(f"{context}: attendance must be a mapping")
+        if set(attendance_raw) != {"onsite", "online"}:
+            raise DataError(
+                f"{context}: attendance must contain only onsite and online"
+            )
+        attendance_onsite = attendance_raw["onsite"]
+        attendance_online = attendance_raw["online"]
+        if not isinstance(attendance_onsite, bool) or not isinstance(
+            attendance_online, bool
+        ):
+            raise DataError(f"{context}: attendance values must be true or false")
+        if not attendance_onsite and not attendance_online:
+            raise DataError(
+                f"{context}: at least one attendance option must be available"
+            )
+
+        country_code_raw = event_raw.get("country_code")
+        country_code = None
+        if country_code_raw is not None:
+            country_code = require_non_empty_string(
+                country_code_raw, "country_code", context
+            ).upper()
+            if not COUNTRY_CODE_PATTERN.fullmatch(country_code):
+                raise DataError(
+                    f"{context}: country_code must be a two-letter ISO country code"
+                )
+        if attendance_onsite and country_code is None:
+            raise DataError(f"{context}: onsite events require country_code")
 
         status = require_non_empty_string(
             event_raw["status"], "status", context
@@ -191,7 +289,7 @@ def load_data(path: Path = DATA_FILE) -> tuple[CalendarDetails, list[Conference]
             raise DataError(f"{context}: sequence must be a non-negative integer")
 
         optional_values: dict[str, str | None] = {}
-        for field in OPTIONAL_EVENT_FIELDS:
+        for field in ("language", "organizer"):
             value = event_raw.get(field)
             optional_values[field] = (
                 require_non_empty_string(value, field, context)
@@ -208,7 +306,9 @@ def load_data(path: Path = DATA_FILE) -> tuple[CalendarDetails, list[Conference]
                 location=require_non_empty_string(
                     event_raw["location"], "location", context
                 ),
-                format=event_format,
+                country_code=country_code,
+                attendance_onsite=attendance_onsite,
+                attendance_online=attendance_online,
                 url=validate_https_url(event_raw["url"], "url", context),
                 description=require_non_empty_string(
                     event_raw["description"], "description", context
@@ -226,6 +326,28 @@ def load_data(path: Path = DATA_FILE) -> tuple[CalendarDetails, list[Conference]
     return calendar, sorted(
         conferences, key=lambda event: (event.start_date, event.name.casefold())
     )
+
+
+def conferences_for_feed(
+    feed: FeedDefinition, conferences: list[Conference]
+) -> list[Conference]:
+    if feed.key == "all":
+        return conferences
+    if feed.key == "eu":
+        return [
+            event
+            for event in conferences
+            if event.attendance_onsite and event.country_code in EU_COUNTRY_CODES
+        ]
+    if feed.key == "us":
+        return [
+            event
+            for event in conferences
+            if event.attendance_onsite and event.country_code == "US"
+        ]
+    if feed.key == "online":
+        return [event for event in conferences if event.attendance_online]
+    raise DataError(f"Unknown feed definition: {feed.key}")
 
 
 def format_date_range(start: date, end: date) -> str:
@@ -278,6 +400,20 @@ def render_markdown(calendar: CalendarDetails, conferences: list[Conference]) ->
     if not rows:
         rows.append("| No events listed |  |  |  |  |  |")
 
+    subscription_rows = [
+        "| "
+        + " | ".join(
+            [
+                feed.name,
+                feed.description,
+                f"[ICS]({calendar.feed_url(feed.filename)})",
+                f"`{calendar.feed_url(feed.filename)}`",
+            ]
+        )
+        + " |"
+        for feed in FEED_DEFINITIONS
+    ]
+
     return "\n".join(
         [
             "<!-- Generated by .github/scripts/generate_conferences.py. Edit data/conferences.yml instead. -->",
@@ -292,8 +428,10 @@ def render_markdown(calendar: CalendarDetails, conferences: list[Conference]) ->
             "## Subscribe to the calendar",
             "",
             f"- [Open the calendar page to subscribe]({calendar.public_url})",
-            f"- [Download the complete ICS calendar]({calendar.feed_url})",
-            f"- Subscription URL: `{calendar.feed_url}`",
+            "",
+            "| Calendar | Includes | Download | Subscription URL |",
+            "| --- | --- | --- | --- |",
+            *subscription_rows,
             "",
             (
                 "Calendar applications decide how frequently subscriptions are refreshed. "
@@ -344,8 +482,12 @@ def fold_ics_line(line: str) -> str:
     for character in line:
         candidate = current + character
         if current and len(candidate.encode("utf-8")) > byte_limit:
-            chunks.append(current)
-            current = character
+            if current.endswith((" ", "\t")):
+                chunks.append(current[:-1])
+                current = current[-1] + character
+            else:
+                chunks.append(current)
+                current = character
             byte_limit = 74
         else:
             current = candidate
@@ -359,7 +501,7 @@ def ics_timestamp(value: date) -> str:
 
 
 def event_ics_lines(event: Conference) -> list[str]:
-    description_parts = [event.description]
+    description_parts = [event.description, f"Attendance: {event.format}"]
     if event.organizer:
         description_parts.append(f"Organizer: {event.organizer}")
     if event.language:
@@ -383,15 +525,26 @@ def event_ics_lines(event: Conference) -> list[str]:
     ]
 
 
-def render_ics(calendar: CalendarDetails, conferences: list[Conference]) -> str:
+def render_ics(
+    calendar: CalendarDetails,
+    conferences: list[Conference],
+    feed: FeedDefinition | None = None,
+) -> str:
+    calendar_name = calendar.name
+    calendar_description = calendar.description
+    if feed is not None:
+        if feed.key != "all":
+            calendar_name = f"{calendar.name}: {feed.name}"
+        calendar_description = f"{calendar.description} {feed.description}"
+
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Nordic Accessibility Community Group//Conference Calendar//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{ics_escape(calendar.name)}",
-        f"X-WR-CALDESC:{ics_escape(calendar.description)}",
+        f"X-WR-CALNAME:{ics_escape(calendar_name)}",
+        f"X-WR-CALDESC:{ics_escape(calendar_description)}",
         "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
         "X-PUBLISHED-TTL:PT12H",
     ]
@@ -433,10 +586,26 @@ def render_html(calendar: CalendarDetails, conferences: list[Conference]) -> str
             '          <tr><td colspan="6">No events are currently listed.</td></tr>'
         )
 
+    subscription_cards = []
+    for feed in FEED_DEFINITIONS:
+        feed_url = html.escape(calendar.feed_url(feed.filename), quote=True)
+        webcal_url = html.escape(calendar.webcal_url(feed.filename), quote=True)
+        feed_name = html.escape(feed.name)
+        subscription_cards.append(
+            f"""        <article class="subscription-card">
+          <h3>{feed_name}</h3>
+          <p>{html.escape(feed.description)}</p>
+          <div class="actions">
+            <a class="button primary" href="{webcal_url}">Subscribe</a>
+            <a class="button" href="{feed_url}" download>Download ICS</a>
+          </div>
+          <label for="{feed.key}-subscription-url">Subscription URL for {feed_name}</label>
+          <input id="{feed.key}-subscription-url" type="url" readonly value="{feed_url}" onclick="this.select()">
+        </article>"""
+        )
+
     calendar_name = html.escape(calendar.name)
     calendar_description = html.escape(calendar.description)
-    feed_url = html.escape(calendar.feed_url, quote=True)
-    webcal_url = html.escape(calendar.webcal_url, quote=True)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -489,10 +658,14 @@ def render_html(calendar: CalendarDetails, conferences: list[Conference]) -> str
     main {{ padding-block: clamp(2rem, 6vw, 5rem); }}
     h1 {{ max-width: 18ch; margin: 0; font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1.02; letter-spacing: -0.035em; }}
     h2 {{ margin-top: 0; font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.15; }}
+    h3 {{ margin-top: 0; font-size: 1.3rem; line-height: 1.2; }}
     .intro {{ max-width: 48rem; margin: 1.5rem 0 3rem; color: var(--muted); font-size: 1.2rem; }}
 
     section {{ margin-block: 3rem; }}
     .panel {{ padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }}
+    .subscription-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: 1rem; margin-top: 1.5rem; }}
+    .subscription-card {{ padding: 1.25rem; border: 1px solid var(--border); border-radius: calc(var(--radius) * 0.75); background: var(--background); }}
+    .subscription-card > p {{ color: var(--muted); }}
     .actions {{ display: flex; flex-wrap: wrap; gap: 0.75rem; margin-block: 1.5rem; }}
     .button {{
       display: inline-block;
@@ -556,13 +729,10 @@ def render_html(calendar: CalendarDetails, conferences: list[Conference]) -> str
 
     <section class="panel" aria-labelledby="subscribe-heading">
       <h2 id="subscribe-heading">Subscribe to the calendar</h2>
-      <p>Subscribe once to receive additions, corrections and cancellations when your calendar application refreshes the feed.</p>
-      <div class="actions">
-        <a class="button primary" href="{webcal_url}">Subscribe in a calendar app</a>
-        <a class="button" href="{feed_url}" download>Download complete ICS calendar</a>
+      <p>Choose the events you want. Each subscription receives additions, corrections and cancellations when your calendar application refreshes the feed.</p>
+      <div class="subscription-grid">
+{chr(10).join(subscription_cards)}
       </div>
-      <label for="subscription-url">Subscription URL</label>
-      <input id="subscription-url" type="url" readonly value="{feed_url}" onclick="this.select()">
       <p>For Google Calendar, copy the subscription URL and add it using <strong>Other calendars</strong>, then <strong>From URL</strong>. Calendar applications control how frequently subscriptions refresh.</p>
     </section>
 
@@ -609,9 +779,12 @@ def expected_outputs(
 ) -> dict[Path, str]:
     outputs = {
         MARKDOWN_FILE: render_markdown(calendar, conferences),
-        FEED_FILE: render_ics(calendar, conferences),
         PAGE_FILE: render_html(calendar, conferences),
     }
+    for feed in FEED_DEFINITIONS:
+        outputs[CALENDAR_DIRECTORY / feed.filename] = render_ics(
+            calendar, conferences_for_feed(feed, conferences), feed
+        )
     for event in conferences:
         outputs[EVENT_DIRECTORY / f"{event.id}.ics"] = render_ics(calendar, [event])
     return outputs
@@ -623,10 +796,16 @@ def write_outputs(outputs: dict[Path, str]) -> None:
         path.write_text(content, encoding="utf-8", newline="")
 
     expected_event_files = {path for path in outputs if path.parent == EVENT_DIRECTORY}
+    expected_feed_files = {
+        path for path in outputs if path.parent == CALENDAR_DIRECTORY
+    }
     if EVENT_DIRECTORY.exists():
         for path in EVENT_DIRECTORY.glob("*.ics"):
             if path not in expected_event_files:
                 path.unlink()
+    for path in CALENDAR_DIRECTORY.glob("*.ics"):
+        if path not in expected_feed_files:
+            path.unlink()
 
 
 def check_outputs(outputs: dict[Path, str]) -> list[Path]:
@@ -642,12 +821,20 @@ def check_outputs(outputs: dict[Path, str]) -> list[Path]:
             stale.append(path)
 
     expected_event_files = {path for path in outputs if path.parent == EVENT_DIRECTORY}
+    expected_feed_files = {
+        path for path in outputs if path.parent == CALENDAR_DIRECTORY
+    }
     if EVENT_DIRECTORY.exists():
         stale.extend(
             path
             for path in EVENT_DIRECTORY.glob("*.ics")
             if path not in expected_event_files
         )
+    stale.extend(
+        path
+        for path in CALENDAR_DIRECTORY.glob("*.ics")
+        if path not in expected_feed_files
+    )
     return sorted(set(stale))
 
 

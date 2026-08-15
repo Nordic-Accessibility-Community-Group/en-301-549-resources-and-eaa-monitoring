@@ -7,8 +7,13 @@ This table and its calendar files are generated from [`data/conferences.yml`](da
 ## Subscribe to the calendar
 
 - [Open the calendar page to subscribe](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/)
-- [Download the complete ICS calendar](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics)
-- Subscription URL: `https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics`
+
+| Calendar | Includes | Download | Subscription URL |
+| --- | --- | --- | --- |
+| Everything | Every conference and event in the calendar. | [ICS](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics) | `https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/conferences.ics` |
+| European Union | Events with onsite attendance in an EU member country. | [ICS](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/eu.ics) | `https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/eu.ics` |
+| United States | Events with onsite attendance in the United States. | [ICS](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/us.ics) | `https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/us.ics` |
+| Online access | Events offering online attendance, including hybrid events. | [ICS](https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/online.ics) | `https://nordic-accessibility-community-group.github.io/en-301-549-resources-and-eaa-monitoring/calendar/online.ics` |
 
 Calendar applications decide how frequently subscriptions are refreshed. The individual Add links below are one-time downloads and do not receive later updates.
 
@@ -17,6 +22,7 @@ Calendar applications decide how frequently subscriptions are refreshed. The ind
 | Date | Event | Format | Location | Language | Calendar |
 | --- | --- | --- | --- | --- | --- |
 | 1 October 2026 | [WAD: Iceland onboard – from requirements to reality](https://iaap-nordic.org/en/whats-up/) | Hybrid | Harpa, Reykjavik, Iceland | English | [Add](calendar/events/wad-iceland-onboard-2026.ics) |
+| 5–7 October 2026 | [M-Enabling Summit 2026](https://g3ict.org/what-we-do/m-enabling-summit) | In person | Arlington, Virginia, United States | English | [Add](calendar/events/m-enabling-summit-2026.ics) |
 | 28 October 2026 | [UnIKT forum for universal ICT](https://iaap-nordic.org/en/whats-up/) | In person | Oslo, Norway | Norwegian | [Add](calendar/events/unikt-forum-oslo-2026.ics) |
 | 11 November 2026 | [Saavuta 2026](https://iaap-nordic.org/en/whats-up/) | In person | Helsinki, Finland | Finnish and English | [Add](calendar/events/saavuta-helsinki-2026.ics) |
 
