@@ -13,7 +13,7 @@ The following countries have adopted the EN 301 549 standard. European countries
     <td>Adopted</td>
     <td>2020</td>
     <td>V3.1.1:2019</td>
-    <td><a href="https://www.normsplash.com/Samples/AS/184992232/AS-EN-301-549-2020-en.pdf">AS EN 301 549:2020</td>
+    <td><a href="https://www.normsplash.com/Samples/AS/184992232/AS-EN-301-549-2020-en.pdf">AS EN 301 549:2020</a></td>
   </tr>
   <tr>
     <td>Canada</td>
@@ -123,4 +123,3 @@ and communications technology (ICT) products and services in Mexico.</a>
 
 ## References 
 <a href="https://hf.etsi.org/eu-accessibility-standard-adoption-map/">EU accessibility standard adoptation map - Etsi.org</a>.
-<table>
