@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Lint Markdown
-        run: npx --yes markdownlint-cli2@0.23.2
+        run: npx --yes markdownlint-cli2@0.23.2 --config .github/config/markdownlint-cli2.yaml
 
       - name: Check local links and anchors
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
