@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "**/*.md"
-      - ".lychee.toml"
+      - ".github/config/lychee.toml"
       - ".github/workflows/external-links.yml"
   schedule:
     - cron: "17 6 * * 1"
@@ -26,7 +26,7 @@ jobs:
       - name: Check external links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
-          args: --config .lychee.toml --no-progress './**/*.md'
+          args: --config .github/config/lychee.toml --no-progress './**/*.md'
           fail: true
           format: markdown
           jobSummary: true
