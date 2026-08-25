@@ -87,9 +87,11 @@ and communications technology (ICT) products and services in Mexico.</a>
   <tr>
     <td>New Zealand</td>
     <td>Referenced</td>
-    <td>2025-06-28</td>
-    <td>V3.2.1:2021</td>
-    <td><a href="https://www.standards.govt.nz/news-and-updates/have-your-say-on-the-identical-adoption-of-47-international-digital-standards-as-new-zealand-standards">Have your say on the identical adoption of 47 international digital standards as New Zealand Standards</a></td>
+    <td>2026-07-06</td>
+    <td>V4.1.1:2025</td>
+    <td>
+      <a href="https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das">Draft Digital Accessibility Standard</a>
+    </td>
   </tr>
   <tr>
     <td>Norway</td>
