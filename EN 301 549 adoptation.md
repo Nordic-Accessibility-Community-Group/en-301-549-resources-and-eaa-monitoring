@@ -38,7 +38,7 @@ The following countries have adopted the EN 301 549 standard. European countries
     <td>Adopted</td>
     <td>2025-06-28</td>
     <td>V3.2.1:2021</td>
-    <td></td>
+    <td><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282">Version 4.1.1 is scheduled for publication</a> and addtion to the Official Journal on 2026-11-30.</td>
   </tr>
   <tr>
     <td>Iceland</td>
