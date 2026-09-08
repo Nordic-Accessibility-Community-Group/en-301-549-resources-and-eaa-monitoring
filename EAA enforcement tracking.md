@@ -69,6 +69,31 @@ Type can be:
     <td>2026-08-14</td>
   </tr>
   <tr>
+    <td>Finland</td>
+    <td>Monitoring agency</td>
+    <td>Active monitoring</td>
+    <td>
+      <ul>
+        <li>
+          Services:
+          <ul>
+            <li><strong>Monitoring:</strong> 23 resolved, 3 pending (2026-09-09).</li>
+            <li><strong>Complaints:</strong> 5 resolved, 5 pending (2026-09-09).</li>
+          </ul>
+        </li>
+        <li>
+          Products:
+          <ul>
+            <li><strong>Monitoring:</strong> 0 resolved, 14 pending (2026-09-09)</li>
+            <li><strong>Complaints:</strong> 0 resolved, 0 pending (2026-09-09)</li>
+          </ul>
+        </li>
+      </ul>
+      </td>
+    <td>2025-10-03</td>
+    <td>2026-08-14</td>
+  </tr>
+  <tr>
     <td>France</td>
     <td>Monitoring agency</td>
     <td>Active</td>
@@ -163,10 +188,24 @@ Type can be:
         <li><strong>Complaints from the public:</strong> As of 2026-02-17, PTS has received <a href="https://pts.se//nyheter-och-pressmeddelanden/klaga-pa-produkters-och-tjansters-tillganglighet/">124 complaints from the public.</a>110 of these cover services and 14 cover products.</li>
         <li>Monitoring is based on complaints from the public, important and representative services and market share values.</li>
         <li>Encourages that companies contact the monitoring agency about their conformance and plan for conformity.</li>
+        <li>
+          <strong>Statistics from 2026-09-09:</strong>
+          <ul>
+            <li>535 reports of deficiencies from companies.</li>
+            <li>33 active cases for E-commerce.</li>
+            <li>29 active cases for products.</li>
+            <li>22 exemptions (with the required supporting documentation).</li>
+            <li>190 complaints from the public.</li>
+            <li>1 case closed, Apotea</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/">PTS is now officially ready to start with banks.</a>
+        </li>
     </ul>
     </td>
     <td>2025-10-15</td>
-    <td>2026-02-17</td>
+    <td>2026-09-09</td>
   </tr>
 </table>
 
