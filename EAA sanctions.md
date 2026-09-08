@@ -58,3 +58,10 @@ For the offenses concerning service accessibility and continued-compliance proce
 These provisions concern services covered by Act No. 351/2022. Product sanctions and sector-specific legislation may follow different rules. For example, the amendment to the Slovak Media Services Act provides a separate fine of €100 to €3,000 for a provider that fails to meet its multimodal access service obligations.
 
 Source: [Act No. 351/2022 on the accessibility of products and services for persons with disabilities](https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/351/).
+
+## Sweden
+Penalty fee (sanktionsavgift) may be imposed if the documentation or co-operation with the monitoring authority is lacking, which is mentioned in **37 §**. The sanction can be set to no less than 10,000 SEK and no more than 10,000,000 SEK (approximately €900 - €901,000).
+
+If the company does not correct issues found by the monitoring - a fine can be imposed as mentioned in **35 §**. The amount depends on severity and how many issues there are. The amount has previously, with the Web Accessibility Directive, been calculated to a higher amount than what it could cost to fix the issues.
+
+Source: [Lag (2023:254) om vissa produkters och tjänsters tillgänglighet (Act on the Accessibility of Certain Products and Services)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/).
