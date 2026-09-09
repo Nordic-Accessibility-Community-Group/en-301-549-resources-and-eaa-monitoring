@@ -136,8 +136,13 @@
     <td>Estonia</td>
     <td>✖️ No</td>
     <td>❓ Unknown</td>
-    <td><a href="https://www.ttja.ee/en">Consumer Protection and Technical Regulatory Authority, in English 🇬🇧</a></td>
-    <td><a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide#:~:text=%C2%A7%2016.%20%C2%A0Supervisory%20authority">Products and Services Accessibility Act</a></td>
+    <td>There is no know reporting tool available. In the meantime you can send you reports and exceptions to <a href="mailto:info@ttja.ee">info@ttja.ee</a></td>
+    <td>
+		<ul>
+			<li><a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide#:~:text=%C2%A7%2016.%20%C2%A0Supervisory%20authority">Estonian law: Products and Services Accessibility Act</a></li>
+			<li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">Information for companies, in English 🇬🇧.</li>
+		</ul>
+	</td>
   </tr>
   <tr>
     <td>Finland</td>
