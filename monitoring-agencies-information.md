@@ -140,7 +140,7 @@
     <td>
 		<ul>
 			<li><a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide#:~:text=%C2%A7%2016.%20%C2%A0Supervisory%20authority">Estonian law: Products and Services Accessibility Act</a></li>
-			<li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">Information for companies, in English 🇬🇧.</li>
+			<li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">Information for companies, in English 🇬🇧.</a></li>
 		</ul>
 	</td>
   </tr>
