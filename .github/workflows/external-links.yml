@@ -17,7 +17,9 @@ jobs:
   links:
     name: External links
     runs-on: ubuntu-latest
-    continue-on-error: ${{ github.event_name == 'pull_request' }}
+    # External sites can have temporary outages or certificate-chain issues.
+    # Keep the report, but do not make repository status depend on them.
+    continue-on-error: true
 
     steps:
       - name: Check out repository
