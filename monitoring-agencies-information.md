@@ -77,8 +77,8 @@
     </td>
     <td>
       <ul>
-        <li><a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">Reporting tool for the public, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li><li><a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Reporting tool for companies, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li>
-        <li><a href="https://accessibility-exceptions.economie.fgov.be/fr/index">Reporting tool for companies: French 🇫🇷, Dutch 🇳🇱</a></li>
+        <li><a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">Reporting tool for the public, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li><li><a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Reporting tool for companies (issues), English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li>
+        <li><a href="https://accessibility-exceptions.economie.fgov.be/fr/index">Reporting tool for companies (exceptions): French 🇫🇷, Dutch 🇳🇱</a></li>
 		  <li>Reporting E-mail for companies: <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">toegankelijkheid-accessibilite@economie.fgov.be</a>, you can report in: English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</li>
       </ul>
     </td>
