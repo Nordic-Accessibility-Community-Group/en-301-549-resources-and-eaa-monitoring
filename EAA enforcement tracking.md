@@ -59,14 +59,14 @@ Type can be:
     <td>Active monitoring</td>
     <td>
       <ul>
-        <li><strong>E-commerce:</strong> 161 online inspections (148 on e-commerce, 12 on e-books and 1 on bank service) (16 Jun 2026).</li>
-        <li><strong>Products:</strong> 23 control of products. (16 Jun 2026)</li>
-        <li><strong>Company-Based Market Surveillance:</strong> 59. (16 Jun 2026)</li>
+        <li><strong>E-commerce:</strong> 179 online inspections (148 on e-commerce, 12 on e-books and 2 on bank service) (2026-09-16).</li>
+        <li><strong>Products:</strong> 33 control of products. (2026-09-16)</li>
+        <li><strong>Company-Based Market Surveillance:</strong> 73. (2026-09-16)</li>
         <li>Authorities in Denmark began in mid-2025 to notify at least one major online retailer of accessibility issues on their website, framed as a warning rather than formal enforcement. No fines or other measures have been reported.</li>
       </ul>
       </td>
     <td>2025-10-03</td>
-    <td>2026-08-14</td>
+    <td>2026-09-16</td>
   </tr>
   <tr>
     <td>Finland</td>
