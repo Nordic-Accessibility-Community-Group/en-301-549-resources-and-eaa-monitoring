@@ -10,3 +10,11 @@ Input: one pilot country; its current row in `monitoring-agencies-information.md
 6. Classify every source by type. Keep secondary or other sources only as `other_unverified` leads with `status: unverified_source`, clearly separate from evidence that can verify a claim. Hand off the record without editing the public table.
 
 Output: structured claims with provenance and questions for verification.
+
+## Required detail and stopping rule
+
+- Keep authority remit, sector coverage, and link reachability as separate findings. Record shared responsibilities and delegated checks, including the boundary between agencies. For each URL, record the destination and outcome in `review_note` as described in `README.md`. Search snippets alone cannot establish a working link.
+- Research consumer complaints, company non-compliance reports, and exemption notifications separately. For each route, check login requirements, accepted languages, audience, sector, and officially stated deadlines. Unknown language acceptance or a login barrier must be reported explicitly; do not submit a report or create an account to test a route.
+- Distinguish enacted law, proposals, binding requirements, and guidance. Record effective dates and transition periods in the claim's `review_note`, including which sectors or actors they apply to. Do not present a future requirement as currently applicable.
+- Capture contributor-provided agency correspondence or personal-contact provenance without treating missing public confirmation as a contradiction. Flag evidence that is unavailable for inspection as a review question while retaining the existing table entry.
+- Follow the shared attempt and time limits in `README.md`. Record start time and remaining budget in the handoff. When a limit is reached, stop searching, label unfinished checks `unknown`, and record the reason and next useful step. Hand off partial results without implying that the baseline checklist is complete.
