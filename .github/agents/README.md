@@ -1,0 +1,24 @@
+# Monitoring information agent prototype
+
+These instructions govern experiments on `monitoring-agencies-information.md`. Run the four stages in order: research, independent verification, presentation, and draft PR preparation. A person reviews the evidence and diff before merging.
+
+The pilot covers **Denmark and Sweden** as audits of fuller existing entries, and **Bulgaria and Hungary** as research into incomplete entries. Do one country per research PR so reviewers can assess each set of sources. Keep research notes under `.github/agents/research/` during the pilot, using the schema in `.github/agents/country-record.schema.json`. The visible country table stays in its current location.
+
+The file `.github/scripts/check-verification-dates.py` validates dates for the events calendar. Do not change it or depend on it to verify this country research. Evidence review is a separate manual gate in this pilot.
+
+## Common rules
+
+- Prefer current primary sources: legislation, official gazettes, competent authorities, and government guidance. Record the exact URL and the date accessed for each claim.
+- Keep European Accessibility Act product and service duties separate from Web Accessibility Directive public sector duties. Record an authority's scope; do not assume one agency covers all sectors.
+- Treat every existing table entry as an unverified assertion until checked. Preserve useful existing detail, but flag conflicts and obsolete links.
+- Use `verified`, `disputed`, or `unknown` for each claim. `Unknown` means the research did not establish an answer, not that an obligation or reporting route does not exist.
+- Never invent legal interpretations, reporting channels, accepted languages, or deadlines. Escalate ambiguous translations and conflicting official sources for human review.
+- Record the primary evidence in the research file before editing the table. Do not merge a PR or present a finding as legal advice.
+
+## Pilot order
+
+1. Copy the blank record at `.github/agents/research/template.json` for a country. Capture each existing table assertion as a claim, then find official evidence independently.
+2. Apply `research.md` and then `verification.md`. A second pass checks URLs and whether each source actually supports the wording.
+3. Apply `presentation.md` to the verified record. Keep the five existing columns and propose only supported changes.
+4. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
+5. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
