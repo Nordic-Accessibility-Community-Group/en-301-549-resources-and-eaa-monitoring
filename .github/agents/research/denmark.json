@@ -23,7 +23,7 @@
       "assertion": "An EAA body requires a dedicated public page comparable to a WAD statement.",
       "status": "unknown",
       "sources": [],
-      "review_note": "A law on service information in terms or equivalent document does not establish this format. Existing Yes is retained: absence of a public primary-source confirmation does not disprove information obtained through agency correspondence or personal contact. Request the original correspondence or attribution before changing this value.",
+      "review_note": "Unknown after regulator-guidance searches. DIGST calls the information an accessibility declaration but permits terms or equivalent documentation without prescribing a form. Preserve the existing Yes; seek contributor provenance before changing it.",
       "directive_context": "EAA",
       "information_mode": "not_established",
       "existing_text": "✔️ Yes"
@@ -39,6 +39,13 @@
           "accessed_on": "2026-09-23",
           "section": "Annex 4, point 1",
           "evidence": "The provider states in general terms or an equivalent document how the service meets accessibility requirements."
+        },
+        {
+          "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Tilgængelighedserklæring",
+          "evidence": "DIGST requires accessible public information in terms or an equivalent document, without a prescribed format."
         }
       ],
       "review_note": "",
@@ -56,78 +63,307 @@
     },
     {
       "field": "service_information",
-      "assertion": "A service provider must supply compliance evidence to an authority upon request.",
-      "status": "unknown",
-      "sources": [],
-      "review_note": "Not independently checked in this pass.",
+      "assertion": "The authority can require compliance information.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 46",
+          "evidence": "The authority may demand necessary conformity information."
+        }
+      ],
+      "review_note": "Rechecked against the law, separately from public disclosure.",
       "directive_context": "EAA",
       "information_mode": "authority_on_request"
     },
     {
       "field": "authority",
-      "assertion": "Erhvervsstyrelsen market surveillance handles most covered products and services, with energy, transport and maritime exceptions.",
+      "assertion": "Erhvervsstyrelsen | Markedsovervågning: Products; audiovisual access; e-books; delegated banking and e-commerce checks.",
       "status": "verified",
       "sources": [
         {
-          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
-          "source_type": "monitoring_body",
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
           "accessed_on": "2026-09-23",
-          "section": "Which authority controls",
-          "evidence": "Agency guidance identifies the main body and the exception authorities with sector scope."
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://www.sik.dk/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
         }
       ],
-      "review_note": "Finanstilsynet in the existing row needs separate confirmation and is not inferred from this overview.",
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.sik.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
       "directive_context": "EAA",
-      "scope": "Most products/services; electronic communications and passenger transport exceptions."
+      "scope": "Products; audiovisual access; e-books; delegated banking and e-commerce checks"
+    },
+    {
+      "field": "authority",
+      "assertion": "Digitaliseringsstyrelsen: Electronic communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "Trafikstyrelsen: Air, bus, rail and land-side ship transport elements.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "Air, bus, rail and land-side ship transport elements"
+    },
+    {
+      "field": "authority",
+      "assertion": "Søfartsstyrelsen: Ship passenger services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://www.soefartsstyrelsen.dk/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.soefartsstyrelsen.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "Ship passenger services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Finanstilsynet: Banking; checks delegated to market surveillance.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://www.finanstilsynet.dk/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.finanstilsynet.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "Banking; checks delegated to market surveillance"
+    },
+    {
+      "field": "authority",
+      "assertion": "Konkurrence- og Forbrugerstyrelsen: E-commerce; checks delegated to market surveillance.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://kfst.dk/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://kfst.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "E-commerce; checks delegated to market surveillance"
+    },
+    {
+      "field": "authority",
+      "assertion": "Rigspolitiet: 112 emergency service.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names this sector assignment or delegation."
+        },
+        {
+          "url": "https://politi.dk/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority website",
+          "evidence": "Named official website opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://politi.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "directive_context": "EAA",
+      "scope": "112 emergency service"
+    },
+    {
+      "field": "authority",
+      "assertion": "Energistyrelsen's current EAA remit is confirmed.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 45(3)",
+          "evidence": "Original 2022 law names Energistyrelsen."
+        },
+        {
+          "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Introduction",
+          "evidence": "Current regulator page identifies DIGST."
+        }
+      ],
+      "review_note": "Existing name retained for review. Website https://ens.dk/ reachable on 2026-09-23; correct identity does not verify a current remit.",
+      "directive_context": "EAA",
+      "existing_text": "Energistyrelsen"
+    },
+    {
+      "field": "authority",
+      "assertion": "The row needs DIGST, Rigspolitiet and the delegated e-commerce authority added.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority roster",
+          "evidence": "Names bodies absent from the original row."
+        }
+      ],
+      "review_note": "Coverage remains qualified by the historical Energistyrelsen assignment. No existing authority hyperlinks were present to test.",
+      "directive_context": "EAA"
     },
     {
       "field": "public_reporting",
-      "assertion": "For products and services under Erhvervsstyrelsen market surveillance, the agency links an online complaint form.",
+      "assertion": "Market surveillance accepts public accessibility reports about services and self-service terminals.",
       "status": "verified",
       "sources": [
         {
-          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
-          "source_type": "monitoring_body",
+          "url": "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed",
           "accessed_on": "2026-09-23",
-          "section": "How to complain",
-          "evidence": "Agency says complaints go to the authority overseeing the sector and links online complaint access."
+          "source_type": "monitoring_body",
+          "section": "Tjenester og selvbetjeningsterminaler",
+          "evidence": "Directs these reports to sik.dk/tip."
         },
         {
           "url": "https://www.sik.dk/tip",
-          "source_type": "monitoring_body",
           "accessed_on": "2026-09-23",
-          "section": "Report unlawful matters",
-          "evidence": "Official reporting page linked from the EAA guidance."
+          "source_type": "monitoring_body",
+          "section": "Accessibility options",
+          "evidence": "Form contains service-specific accessibility categories."
         }
       ],
-      "review_note": "",
+      "review_note": "Reachable; Danish form; anonymous reporting offered; no login seen. Other accepted languages unknown. No submission performed.",
       "directive_context": "EAA",
       "reporting_route": {
         "authority": "Erhvervsstyrelsen | Markedsovervågning",
-        "sector": "Products and services under its oversight",
+        "sector": "E-commerce, banking, streaming, e-books and self-service terminals",
         "channel": "form",
         "destination": "https://www.sik.dk/tip",
         "eaa_specific": true
       }
     },
     {
-      "field": "company_reporting",
-      "assertion": "Companies may notify the market-surveillance authority of an accessibility exemption through a Virk form.",
+      "field": "public_reporting",
+      "assertion": "The authority directs covered product complaints to Produkter.dk.",
       "status": "verified",
       "sources": [
         {
-          "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
-          "source_type": "government",
+          "url": "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed",
           "accessed_on": "2026-09-23",
-          "section": "Introduction",
-          "evidence": "Official form accepts one notification per product or service; requires MitID Business."
+          "source_type": "monitoring_body",
+          "section": "Produkter",
+          "evidence": "Specifies product complaint destination."
         }
       ],
-      "review_note": "",
+      "review_note": "https://produkter.dk returned an empty page to the reader: link_status unknown for usable form content; no login or language acceptance verified. Existing route preserved.",
       "directive_context": "EAA",
       "reporting_route": {
         "authority": "Erhvervsstyrelsen | Markedsovervågning",
-        "sector": "Products and services under its oversight",
+        "sector": "Covered consumer products",
+        "channel": "form",
+        "destination": "https://produkter.dk",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Companies report exemptions using the Virk form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/selvbetjening/undtagelser-tilgaengelighedskrav-produkter-og-tjenester",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Indsend blanket",
+          "evidence": "Links the exemption form."
+        },
+        {
+          "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Introduction",
+          "evidence": "Lists MitID Business and company details."
+        }
+      ],
+      "review_note": "Reachable landing page; MitID Business required. English introduction and Danish/English documentation templates confirmed; accepted submission languages not independently established. No authenticated submission tested.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Erhvervsstyrelsen | Markedsovervågning",
+        "sector": "Within market-surveillance remit",
         "channel": "form",
         "destination": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
         "eaa_specific": true
@@ -135,55 +371,74 @@
     },
     {
       "field": "company_reporting",
-      "assertion": "The existing sik@sik.dk email and accepted English/Danish languages are current for company non-compliance reports.",
+      "assertion": "The current non-compliance reporting instructions identify mo@erst.dk.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Hvor sender du orienteringen hen?",
+          "evidence": "Published destination is mo@erst.dk, with legacy email markup also present."
+        }
+      ],
+      "review_note": "Email delivery not tested. Page extraction contains stale sik@sik.dk markup; preserve the contributor's existing address pending confirmation. Language acceptance unknown.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Erhvervsstyrelsen | Markedsovervågning",
+        "sector": "Within market-surveillance remit",
+        "channel": "email",
+        "destination": "mo@erst.dk",
+        "eaa_specific": true
+      },
+      "existing_text": "sik@sik.dk; English and Danish accepted"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Guidance requires reporting promptly and within 14 days.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Lovens krav",
+          "evidence": "Explains prompt notification and a 14-day outer limit."
+        }
+      ],
+      "review_note": "Authority guidance; not a replacement for the statutory immediate-notification wording.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The law applies from 28 June 2025, with defined legacy arrangements through 2030 and terminal exceptions.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Sections 58–59",
+          "evidence": "Enactment and application dates differ; specified transitions apply."
+        }
+      ],
+      "review_note": "Record exact sector and contract conditions before relying on an exception.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "This bounded pilot pass records verified findings and unresolved checks.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No direct current authority instruction verified. Existing text is retained in the table pending review of original agency correspondence or other provenance.",
-      "directive_context": "EAA",
-      "existing_text": "sik@sik.dk in English or Danish"
-    },
-    {
-      "field": "authority",
-      "assertion": "The current official oversight roster names Sikkerhedsstyrelsen, Trafikstyrelsen, Søfartsstyrelsen, Digitaliseringsstyrelsen and Rigspolitiet, with Sikkerhedsstyrelsen also checking e-commerce and banking on behalf of other bodies.",
-      "existing_text": "Erhvervsstyrelsen; Energistyrelsen; Trafikstyrelsen; Søfartsstyrelsen; Finanstilsynet.",
-      "directive_context": "EAA",
-      "scope": "Covered products, services, passenger transport, electronic communications and emergency services.",
-      "status": "disputed",
-      "sources": [
-        {
-          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
-          "accessed_on": "2026-09-23",
-          "source_type": "government",
-          "section": "Fordeling af ansvar – myndighed for myndighed",
-          "evidence": "Government page assigns specified products and services to Sikkerhedsstyrelsen, transport to Trafikstyrelsen and Søfartsstyrelsen, electronic communications to Digitaliseringsstyrelsen, and 112 to Rigspolitiet; it names Finanstilsynet and Konkurrence- og Forbrugerstyrelsen for delegated supervision."
-        }
-      ],
-      "review_note": "The table omits Sikkerhedsstyrelsen, Digitaliseringsstyrelsen and Rigspolitiet; it lists Energistyrelsen although the current official page assigns electronic communications to Digitaliseringsstyrelsen. Erhvervsstyrelsen appears in the page's contact address, not its named oversight roster. Finanstilsynet retains a banking role through delegated checks. Confirm exact legal vs delegated roles before changing the table."
-    },
-    {
-      "field": "authority",
-      "assertion": "None of the five authority names in the current Danish row has a website link.",
-      "existing_text": "Five plain-text authority names in Monitoring agencies.",
-      "directive_context": "EAA",
-      "scope": "Existing authority hyperlinks.",
-      "status": "unknown",
-      "sources": [
-        {
-          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
-          "accessed_on": "2026-09-23",
-          "source_type": "government",
-          "section": "Fordeling af ansvar – myndighed for myndighed",
-          "evidence": "Official guidance identifies current bodies and includes links to relevant transport and digitalisation guidance."
-        }
-      ],
-      "review_note": "No existing agency hyperlinks can be tested. Record the correct official destination for each named body, then link the verified authority or relevant official sector page."
+      "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
-    "Confirm whether Finanstilsynet has a separate EAA remit.",
-    "Verify complaint routes for electronic communications and passenger transport sectors.",
-    "Confirm the public accessibility-information mode beyond general terms from a competent authority.",
-    "Ask contributors for the original correspondence behind sik@sik.dk, accepted languages and Finanstilsynet.",
-    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
+    "Confirm Energistyrelsen's historical-to-current assignment before removing the existing name.",
+    "Confirm legacy sik@sik.dk forwarding and accepted reporting languages from contributor evidence or agency guidance.",
+    "Unknown: complaint and company reporting routes for the other sector authorities.",
+    "Unknown: dedicated public page demand; DIGST confirms public terms/equivalent information, not a prescribed page.",
+    "Unknown: usable Produkter.dk form content in this reader."
   ]
 }
