@@ -1,0 +1,81 @@
+{
+  "country": "Bulgaria",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Service providers must make information about compliance with applicable accessibility requirements available to the public in written and oral accessible forms.",
+      "existing_text": "✔️ Yes (Source needed)",
+      "directive_context": "EAA",
+      "scope": "Covered services; terminology of a named accessibility statement remains unclear.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "section": "Article 50(2)",
+          "evidence": "Requires information explaining how services meet applicable accessibility requirements, made available to the public in accessible written and oral forms."
+        }
+      ],
+      "review_note": "The law calls this information, not expressly a named accessibility statement. The table column may need a more precise heading."
+    },
+    {
+      "field": "statement",
+      "assertion": "All covered entities must publish a named accessibility statement.",
+      "existing_text": "✔️ Yes (Source needed)",
+      "directive_context": "EAA",
+      "scope": "Products and services",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Article 50(2) supports public information for services, but not this broader wording."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Consumers and disability organisations may send complaints or reports about alleged violations in writing on paper or electronically to the competent product market surveillance or service authority.",
+      "existing_text": "❓ Unknown",
+      "directive_context": "EAA",
+      "scope": "Competent authority depends on product or service sector.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "section": "Article 62(1)–(2)",
+          "evidence": "Complaints and reports go to the corresponding authorities under Articles 34 and 54(1), on paper or electronically."
+        }
+      ],
+      "review_note": "No single national reporting portal is established by this article."
+    },
+    {
+      "field": "authority",
+      "assertion": "The existing service authority list has the correct sector assignments.",
+      "existing_text": "Ten service authorities listed in the table.",
+      "directive_context": "EAA",
+      "scope": "Services",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "section": "Article 54(1)",
+          "evidence": "Lists sector-specific service conformity authorities."
+        }
+      ],
+      "review_note": "The list needs a separate line-by-line translation and scope audit; left unchanged."
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A dedicated company reporting tool exists.",
+      "directive_context": "EAA",
+      "scope": "Companies",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Not established during this pass."
+    }
+  ],
+  "questions": [
+    "Should the table heading distinguish public accessibility information from a named accessibility statement?",
+    "Which current official contact pages or forms correspond to each sector authority?",
+    "Verify the existing ten authority names and scopes line by line against Articles 34 and 54."
+  ]
+}
