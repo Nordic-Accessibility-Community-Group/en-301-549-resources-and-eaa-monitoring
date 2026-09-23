@@ -98,8 +98,15 @@
           "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
           "source_type": "legislation",
           "accessed_on": "2026-09-23",
-          "section": "Section 8(2)(d),(6); Decree section 3",
-          "evidence": "Consumers may initiate proceedings; the decree defines application contents but does not provide a destination."
+          "section": "Section 8(2)(d),(6)",
+          "evidence": "Consumers may initiate proceedings before the competent supervisory authority; this source gives no destination."
+        },
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-23",
+          "section": "Section 3",
+          "evidence": "Specifies information to include in an application and possible supporting documents but does not give a form, email, or postal address."
         }
       ],
       "review_note": "Do not publish a generic NMHH or consumer protection contact until an EAA-relevant official route is confirmed.",
