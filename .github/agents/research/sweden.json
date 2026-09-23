@@ -178,28 +178,48 @@
     },
     {
       "field": "authority",
-      "assertion": "The PTS link in the row opens an official PTS EAA page; the four other supervisory bodies are named without authority-site links.",
-      "existing_text": "Only PTS is linked in Monitoring agencies.",
+      "assertion": "Each of the five listed Swedish EAA supervisory bodies has a verified link to its official authority page.",
+      "existing_text": "PTS linked; four other bodies previously unlinked.",
       "directive_context": "EAA",
-      "scope": "Existing authority hyperlinks.",
+      "scope": "Authority links in Monitoring agencies.",
       "status": "verified",
       "sources": [
         {
-          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/",
           "accessed_on": "2026-09-23",
           "source_type": "monitoring_body",
-          "section": "PTS EAA overview and links under Övriga myndigheter",
-          "evidence": "The linked PTS page is published on pts.se and its oversight section links the other authorities' relevant official sites."
+          "section": "Vad har Mediemyndigheten tillsyn över?",
+          "evidence": "Official page identifies audiovisual-access service supervision."
+        },
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Ny tillgänglighetslag juni 2025; Konsumentverkets ansvar",
+          "evidence": "Official page names its oversight of passenger transport websites, mobile services and electronic tickets."
+        },
+        {
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Tillsynsmyndigheter",
+          "evidence": "Official page identifies oversight of transport information and services via interactive self-service terminals."
+        },
+        {
+          "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Tillsyn",
+          "evidence": "Official MTM page identifies e-books and software supervision; verified through indexed official page and PTS's authority roster."
         }
       ],
-      "review_note": "PTS link verified. No link exists to test for Mediemyndigheten, Konsumentverket, Transportstyrelsen or MTM; use PTS's outgoing official links as leads and verify each destination before proposing table links."
+      "review_note": "Split the two transport authorities into distinct linked list items. MTM's page was indexed on its official site; the live page fetch timed out during this check, so recheck its reachability before merging if strict live loading is required."
     }
   ],
   "questions": [
     "Verify specific remits and routes for every non-PTS Swedish authority.",
     "Find direct PTS support for alternative reporting emails and language acceptance before restoring them.",
     "Clarify whether a visible link recommendation is followed consistently across regulated sectors.",
-    "Ask contributors for the original PTS correspondence behind the English-language and two-week reporting details.",
-    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
+    "Ask contributors for the original PTS correspondence behind the English-language and two-week reporting details."
   ]
 }
