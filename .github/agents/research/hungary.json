@@ -119,11 +119,48 @@
       "sources": [],
       "review_note": "No usable channel confirmed for a specified sector.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "authority",
+      "assertion": "The current decree assigns EAA oversight beyond NMHH to consumer-protection, air, bus, rail and maritime authorities, Budapest's government office and the Magyar Nemzeti Bank, depending on product or service.",
+      "existing_text": "NMHH named; other bodies only described generically.",
+      "directive_context": "EAA",
+      "scope": "Products; electronic communications and audiovisual access; transport; banking; other consumer services; emergency communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(a)–(g), (2)–(3)",
+          "evidence": "The decree enumerates the sector-specific authorities and the central-bank exception for banking and payment terminals."
+        }
+      ],
+      "review_note": "The table does not name the non-NMHH bodies. Some are classes of territorial authorities rather than one national office; map the exact current institution and official site for each sector before adding links."
+    },
+    {
+      "field": "authority",
+      "assertion": "The only hyperlink in the Hungarian Monitoring agencies cell points to the national legislation portal's decree, not to the website of NMHH or any other monitoring authority.",
+      "existing_text": "Link to njt.jog.gov.hu/jogszabaly/2022-605-20-22.",
+      "directive_context": "EAA",
+      "scope": "Existing authority hyperlinks.",
+      "status": "disputed",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Decree 605/2022, Section 1",
+          "evidence": "The linked page is the legal instrument assigning authorities, not an agency website."
+        }
+      ],
+      "review_note": "Keep the decree as legal evidence, but locate and independently verify the correct official agency pages for NMHH, the central bank, the applicable transport authorities and consumer protection."
     }
   ],
   "questions": [
     "Identify official complaint form/email/postal address per competent authority and sector.",
     "Check whether any competent monitoring body demands a dedicated public page.",
-    "Map the full current authority roster from the amended decree, including central-bank remit."
+    "Map the full current authority roster from the amended decree, including central-bank remit.",
+    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
   ]
 }
