@@ -78,7 +78,7 @@
       "review_note": "This request-based duty is distinct from the public information duty in Article 50(2)."
     },
     {
-      "field": "public_reporting",
+      "field": "additional_information",
       "assertion": "Consumers and disability organisations may send complaints or reports about alleged violations in writing on paper or electronically to the competent product market surveillance or service authority.",
       "existing_text": "❓ Unknown",
       "directive_context": "EAA",
@@ -93,7 +93,54 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "No single national reporting portal is established by this article."
+      "review_note": "This statute specifies recipients and paper/electronic form but gives no actual address, email, or tool. It does not by itself verify a usable route."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "For the Consumer Protection Commission's e-commerce service remit, the commission publishes a general online complaint form and accepts complaints in person at its counter.",
+      "directive_context": "EAA",
+      "scope": "E-commerce services under Article 2(2)(7), assigned to the Consumer Protection Commission by Article 54(1)(10). Other sectors need their own routes.",
+      "status": "verified",
+      "reporting_route": {
+        "authority": "Commission for Consumer Protection (КЗП)",
+        "sector": "E-commerce services",
+        "channel": "form",
+        "destination": "https://kzp.bg/en/signals",
+        "eaa_specific": false
+      },
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 2(2)(7), 54(1)(10), 62(1)–(2)",
+          "evidence": "E-commerce is in scope; the Commission controls conformity for that service category; consumers can submit complaints to the competent body."
+        },
+        {
+          "url": "https://kzp.bg/en/contacts",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Attention; complaint submission",
+          "evidence": "For complaints or signals to the Commission use the electronic form or submit in person at the counter; the listed info email is reserved for interagency correspondence."
+        },
+        {
+          "url": "https://kzp.bg/en/signals",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Electronic complaint/signal form (login)",
+          "evidence": "The linked form redirects to login; users can register to submit complaints and reports."
+        }
+      ],
+      "review_note": "The form is a general Commission complaint channel. Its EAA-specific category/intake has not been confirmed. Do not imply that this route applies to all Bulgarian EAA sectors."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Concrete public complaint routes for all other Bulgarian EAA authorities have been verified.",
+      "directive_context": "EAA",
+      "scope": "Other product and service sectors",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Find and verify a sector-specific route from each competent authority before publishing it."
     },
     {
       "field": "authority",
@@ -126,7 +173,8 @@
   "questions": [
     "Does any Bulgarian government or competent monitoring body explicitly require a dedicated public page comparable to a WAD statement?",
     "Do authority instructions specify how and where EAA service information is made available to the public beyond terms and conditions or an equivalent document?",
-    "Which current official contact pages or forms correspond to each sector authority?",
-    "Verify existing authority names and scopes line by line against Articles 34 and 54."
+    "Verify existing authority names and scopes line by line against Articles 34 and 54.",
+    "Does the Commission's general form accept EAA e-commerce accessibility complaints as a selectable or free-text issue?",
+    "Find an official form, accepted email, or postal address for each remaining competent authority and sector."
   ]
 }
