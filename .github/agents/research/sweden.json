@@ -157,12 +157,49 @@
       "review_note": "Neither assertion confirmed in current PTS guidance; omit from proposed row pending evidence. Existing text is retained in the table pending review of original agency correspondence or other provenance.",
       "directive_context": "EAA",
       "existing_text": "Two-week deadline and English accepted"
+    },
+    {
+      "field": "authority",
+      "assertion": "All five EAA supervisory bodies named by PTS appear in the row: PTS, Mediemyndigheten, Konsumentverket, Transportstyrelsen and Myndigheten för tillgängliga medier.",
+      "existing_text": "PTS; Mediemyndigheten; Konsumentverket och Transportstyrelsen; Myndigheten för tillgängliga medier (MTM).",
+      "directive_context": "EAA",
+      "scope": "All covered products, electronic communications, banking, e-commerce, audiovisual-access services, passenger transport and e-books.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "PTS ansvar för tillsyn; Övriga myndigheter med tillsynsansvar",
+          "evidence": "PTS names itself as market-surveillance body for all covered products and its service sectors, and identifies the four other service authorities and their sectors."
+        }
+      ],
+      "review_note": "Authority count and names match PTS's roster; the existing combined Konsumentverket/Transportstyrelsen list item represents two distinct bodies. Keep their transport remits separate in a later table edit."
+    },
+    {
+      "field": "authority",
+      "assertion": "The PTS link in the row opens an official PTS EAA page; the four other supervisory bodies are named without authority-site links.",
+      "existing_text": "Only PTS is linked in Monitoring agencies.",
+      "directive_context": "EAA",
+      "scope": "Existing authority hyperlinks.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "PTS EAA overview and links under Övriga myndigheter",
+          "evidence": "The linked PTS page is published on pts.se and its oversight section links the other authorities' relevant official sites."
+        }
+      ],
+      "review_note": "PTS link verified. No link exists to test for Mediemyndigheten, Konsumentverket, Transportstyrelsen or MTM; use PTS's outgoing official links as leads and verify each destination before proposing table links."
     }
   ],
   "questions": [
     "Verify specific remits and routes for every non-PTS Swedish authority.",
     "Find direct PTS support for alternative reporting emails and language acceptance before restoring them.",
     "Clarify whether a visible link recommendation is followed consistently across regulated sectors.",
-    "Ask contributors for the original PTS correspondence behind the English-language and two-week reporting details."
+    "Ask contributors for the original PTS correspondence behind the English-language and two-week reporting details.",
+    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
   ]
 }
