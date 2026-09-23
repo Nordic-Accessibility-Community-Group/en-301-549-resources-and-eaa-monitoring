@@ -141,12 +141,49 @@
       "review_note": "No direct current authority instruction verified. Existing text is retained in the table pending review of original agency correspondence or other provenance.",
       "directive_context": "EAA",
       "existing_text": "sik@sik.dk in English or Danish"
+    },
+    {
+      "field": "authority",
+      "assertion": "The current official oversight roster names Sikkerhedsstyrelsen, Trafikstyrelsen, Søfartsstyrelsen, Digitaliseringsstyrelsen and Rigspolitiet, with Sikkerhedsstyrelsen also checking e-commerce and banking on behalf of other bodies.",
+      "existing_text": "Erhvervsstyrelsen; Energistyrelsen; Trafikstyrelsen; Søfartsstyrelsen; Finanstilsynet.",
+      "directive_context": "EAA",
+      "scope": "Covered products, services, passenger transport, electronic communications and emergency services.",
+      "status": "disputed",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "government",
+          "section": "Fordeling af ansvar – myndighed for myndighed",
+          "evidence": "Government page assigns specified products and services to Sikkerhedsstyrelsen, transport to Trafikstyrelsen and Søfartsstyrelsen, electronic communications to Digitaliseringsstyrelsen, and 112 to Rigspolitiet; it names Finanstilsynet and Konkurrence- og Forbrugerstyrelsen for delegated supervision."
+        }
+      ],
+      "review_note": "The table omits Sikkerhedsstyrelsen, Digitaliseringsstyrelsen and Rigspolitiet; it lists Energistyrelsen although the current official page assigns electronic communications to Digitaliseringsstyrelsen. Erhvervsstyrelsen appears in the page's contact address, not its named oversight roster. Finanstilsynet retains a banking role through delegated checks. Confirm exact legal vs delegated roles before changing the table."
+    },
+    {
+      "field": "authority",
+      "assertion": "None of the five authority names in the current Danish row has a website link.",
+      "existing_text": "Five plain-text authority names in Monitoring agencies.",
+      "directive_context": "EAA",
+      "scope": "Existing authority hyperlinks.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "accessed_on": "2026-09-23",
+          "source_type": "government",
+          "section": "Fordeling af ansvar – myndighed for myndighed",
+          "evidence": "Official guidance identifies current bodies and includes links to relevant transport and digitalisation guidance."
+        }
+      ],
+      "review_note": "No existing agency hyperlinks can be tested. Record the correct official destination for each named body, then link the verified authority or relevant official sector page."
     }
   ],
   "questions": [
     "Confirm whether Finanstilsynet has a separate EAA remit.",
     "Verify complaint routes for electronic communications and passenger transport sectors.",
     "Confirm the public accessibility-information mode beyond general terms from a competent authority.",
-    "Ask contributors for the original correspondence behind sik@sik.dk, accepted languages and Finanstilsynet."
+    "Ask contributors for the original correspondence behind sik@sik.dk, accepted languages and Finanstilsynet.",
+    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
   ]
 }

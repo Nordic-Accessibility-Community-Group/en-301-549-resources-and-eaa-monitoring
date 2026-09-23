@@ -168,6 +168,42 @@
       "status": "unknown",
       "sources": [],
       "review_note": "Not established during this pass."
+    },
+    {
+      "field": "authority",
+      "assertion": "The ten listed service authorities match the ten numbered authority assignments in Article 54(1); the row does not list the separate product market-surveillance authority designated by Article 34(1).",
+      "existing_text": "Ten service authorities, no product market-surveillance authority in Monitoring agencies.",
+      "directive_context": "EAA",
+      "scope": "All listed services and covered products.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 34(1), 54(1)(1)–(10)",
+          "evidence": "Article 54 lists ten service authorities; Article 34 assigns market surveillance for covered products to the Chair of the State Agency for Metrological and Technical Surveillance through its market-surveillance bodies."
+        }
+      ],
+      "review_note": "Service authority names are present, but some table descriptions abbreviate the statutory sector scope (for example urban/regional bus transport). Add the product authority after verifying its official site and exact display name. Do not interpret the service-only roster as complete coverage."
+    },
+    {
+      "field": "authority",
+      "assertion": "The existing Bulgarian Monitoring agencies cell contains no authority website links.",
+      "existing_text": "Ten service authority names without hyperlinks.",
+      "directive_context": "EAA",
+      "scope": "Existing authority hyperlinks.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 34(1), 54(1)",
+          "evidence": "Official roster identifies bodies to link and verify independently."
+        }
+      ],
+      "review_note": "There are no agency-site links to test for correctness. Obtain each body's current official website or appropriate authority page; a link to the law alone is not an agency-site check."
     }
   ],
   "questions": [
@@ -175,6 +211,7 @@
     "Do authority instructions specify how and where EAA service information is made available to the public beyond terms and conditions or an equivalent document?",
     "Verify existing authority names and scopes line by line against Articles 34 and 54.",
     "Does the Commission's general form accept EAA e-commerce accessibility complaints as a selectable or free-text issue?",
-    "Find an official form, accepted email, or postal address for each remaining competent authority and sector."
+    "Find an official form, accepted email, or postal address for each remaining competent authority and sector.",
+    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
   ]
 }
