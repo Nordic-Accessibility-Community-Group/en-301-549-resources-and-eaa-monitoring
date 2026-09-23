@@ -14,6 +14,7 @@ The file `.github/scripts/check-verification-dates.py` validates dates for the e
 - Mark a claim `verified` only when explicit law, government, or competent monitoring-body text supports the exact claim. Other sources can be retained as leads with `source_type: other_unverified` and `status: unverified_source`; never publish their claim as established fact.
 - Treat every existing table entry as an unverified assertion until checked. Preserve useful existing detail, but flag conflicts and obsolete links.
 - Use `verified`, `disputed`, `unknown`, or `unverified_source` for each claim. `Unknown` means the research did not establish an answer, not that an obligation or reporting route does not exist.
+- A verified reporting claim must identify the competent authority, its relevant sector, and at least one current official reporting route: a direct form, an accepted email address, or a postal/in-person address. A statutory right to complain without a usable route belongs in research notes, not the table's reporting cell. Verify whether a general form is intended for the relevant complaint; flag any uncertainty.
 - Never invent legal interpretations, reporting channels, accepted languages, or deadlines. Escalate ambiguous translations and conflicting official sources for human review.
 - Record the primary evidence in the research file before editing the table. Do not merge a PR or present a finding as legal advice.
 
