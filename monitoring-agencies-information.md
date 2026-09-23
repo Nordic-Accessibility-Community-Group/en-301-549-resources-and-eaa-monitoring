@@ -130,7 +130,7 @@
 				</ul>
 		</ul>
 	</td>
-    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p></td>
+    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p></td>
   </tr>
   <tr>
     <td>Estonia</td>
@@ -196,10 +196,10 @@
   </tr>
   <tr>
     <td>Hungary</td>
-    <td>❓ Unknown </td>
-    <td><a href="https://english.nmhh.hu/">NMHH, The consumer protection authority</a></td>
     <td>❓ Unknown</td>
-    <td><p>⚖️ EAA implementing law: <a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00">Act XVII of 2022</a>; <a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22">implementing decree 605/2022</a>.</p></td>
+    <td><a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22">The current implementing decree assigns oversight by sector</a>: NMHH covers specified products and electronic communications and audiovisual-access services; other bodies cover transport, consumer products/services and banking. NMHH is not the general consumer-protection authority.</td>
+    <td>❓ Unknown</td>
+    <td><a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00">Act XVII of 2022, section 6(1) and Annex 3</a> requires public accessibility documentation for covered services in accessible written and oral form, described in general terms or an equivalent document. Section 6(5) separately requires information to the competent authority on request.<p>⚖️ EAA implementing law: <a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00">Act XVII of 2022</a>; <a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22">implementing decree 605/2022</a>.</p></td>
   </tr>
   <tr>
     <td>Ireland</td>
@@ -417,7 +417,7 @@ These documents have not been officially translated to English by the <a href="h
     <td>✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
     <td><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/">PTS</a></li><li>Mediemyndigheten</li><li>Konsumentverket och Transportstyrelsen</li><li>Myndigheten för tillgängliga medier (MTM)</li></ul></td>
     <td><ul><li>Reporting tool for companies: <a href="https://lptt-rapportering.pts.se/">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. You can also report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. The law says you need to report in Swedish, but so far PTS accepts reporting in English 🇬🇧.</li></ul><ul><li>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</li><li>Reporting tool for the Public: <a href="https://lptt.pts.se/">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li></ul></td>
-    <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a><p>⚖️ EAA implementing law: <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>
+    <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a><br><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.<p>⚖️ EAA implementing law: <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>
   </tr>
 </table>
 
