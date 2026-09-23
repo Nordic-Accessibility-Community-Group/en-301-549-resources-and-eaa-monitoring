@@ -9,7 +9,9 @@ The file `.github/scripts/check-verification-dates.py` validates dates for the e
 ## Common rules
 
 - Prefer current primary sources: legislation, official gazettes, competent authorities, and government guidance. Record the exact URL and the date accessed for each claim.
-- Keep European Accessibility Act product and service duties separate from Web Accessibility Directive public sector duties. Record an authority's scope; do not assume one agency covers all sectors.
+- Keep European Accessibility Act (EAA) product and service duties separate from Web Accessibility Directive (WAD) public sector duties. An EAA service information obligation is not automatically a WAD-style accessibility statement. Record an authority's scope; do not assume one agency covers all sectors.
+- For the table's “Demands statement” column, research whether a government or competent monitoring body explicitly requires a public page comparable to a WAD accessibility statement, permits information within terms or another document, or requires information only upon request. Keep each audience and delivery mode distinct. A law alone does not establish a regulator's publication practice.
+- Mark a claim `verified` only when explicit law, government, or competent monitoring-body text supports the exact claim. Other sources can be retained as leads with `source_type: other_unverified` and `status: unverified_source`; never publish their claim as established fact.
 - Treat every existing table entry as an unverified assertion until checked. Preserve useful existing detail, but flag conflicts and obsolete links.
 - Use `verified`, `disputed`, or `unknown` for each claim. `Unknown` means the research did not establish an answer, not that an obligation or reporting route does not exist.
 - Never invent legal interpretations, reporting channels, accepted languages, or deadlines. Escalate ambiguous translations and conflicting official sources for human review.
