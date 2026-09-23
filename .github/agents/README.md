@@ -29,3 +29,13 @@ For each country, check and record a result (including `unknown` when unsupporte
 3. Apply `presentation.md` to the verified record. Keep the five existing columns and propose only supported changes.
 4. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
 5. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
+
+## Research limits and evidence handling
+
+Apply these checks to every country. Record authority remit and coverage separately from link reachability. An indexed search result can identify an official source, but does not establish that its URL opens successfully. Keep the URL, check date, final destination where available, and link outcome (`reachable`, `unreachable`, `unknown`, or `missing`) in `review_note`; these are link outcomes, not replacements for the claim's evidence status.
+
+Separate consumer complaints, company non-compliance reports, and exemption notifications. Check the intended audience, sector, accepted languages, login requirements, and any officially stated deadline for each route. Record shared or delegated authority responsibilities and their boundaries. For requirements and guidance, record their legal status, effective date, and any sector-specific transition period.
+
+Preserve contributor evidence from agency email or personal contact. Record its provenance and date when available, and flag missing public confirmation for review. Do not remove existing information merely because a public source cannot be found, or publish private correspondence or personal contact details without authorization.
+
+Unless the user specifies another budget, allow at most two access attempts per failing URL (the initial attempt and one retry), two targeted follow-up searches per unresolved question, ten minutes of research and verification per country, and thirty minutes across a multi-country run. Stop when the first applicable limit is reached. Do not restart a budget on handoff between stages. Record unresolved checks as `unknown`, give the reason and next useful step in research feedback, and complete the handoff with the evidence already gathered. A failed URL does not by itself invalidate separately verified remit evidence. Never mark a country fully checked when required checks remain unfinished. Preparing the record and draft PR may continue after the research cutoff; further searching must wait for a new run.
