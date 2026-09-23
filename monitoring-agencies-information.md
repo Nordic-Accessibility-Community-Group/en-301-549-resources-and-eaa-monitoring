@@ -114,23 +114,10 @@
   </tr>
   <tr>
     <td>Denmark</td>
-    <td>✔️ <a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Yes</a></td>
-    <td><ul><li>Erhvervsstyrelsen</li><li>Energistyrelsen</li><li>Trafikstyrelsen</li><li>Søfartsstyrelsen</li><li>Finanstilsynet</ul></td>
-    <td>
-		<ul>
-			<li>Report exemptions (companies): 
-				<ul>
-					<li> <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in English 🇬🇧</a></li>
-					<li><a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in Danish 🇩🇰</a></li>
-				</ul>
-			<li>Report non-compliance through email (companies): <a href="mailto:sik@sik.dk">sik@sik.dk</a> in English 🇬🇧 or Danish 🇩🇰</li>
-			<li>Reporting tool (for the public): 
-				<ul>
-					<li><a href="https://produkter.dk">Reporting tool for products, in Danish 🇩🇰</a></li>
-				</ul>
-		</ul>
-	</td>
-    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li></ul></td>
+    <td>❓ Unknown</td>
+    <td><ul><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Erhvervsstyrelsen | Markedsovervågning</a> – most covered products and services</li><li>Energistyrelsen – electronic communications services</li><li>Trafikstyrelsen – air, bus and rail passenger services</li><li>Søfartsstyrelsen – waterborne passenger services</li></ul></td>
+    <td><ul><li>For areas under Erhvervsstyrelsen | Markedsovervågning: <a href="https://www.sik.dk/tip">online complaint form for the public</a>.</li><li>For companies in that authority's remit: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/">notification of an accessibility exemption (MitID Business required)</a>.</li><li>❓ Reporting routes for the other authorities remain unverified.</li></ul></td>
+    <td><a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Danish accessibility law</a>: service accessibility information is included in general terms or an equivalent document (Annex 4). A dedicated public page requirement has not been verified.</td>
   </tr>
   <tr>
     <td>Estonia</td>
