@@ -196,7 +196,7 @@
   </tr>
   <tr>
     <td>Hungary</td>
-    <td>❓ Unknown</td>
+    <td>❓ Unknown </td>
     <td><a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22">The current implementing decree assigns oversight by sector</a>: NMHH covers specified products and electronic communications and audiovisual-access services; other bodies cover transport, consumer products/services and banking. NMHH is not the general consumer-protection authority.</td>
     <td>❓ Unknown</td>
     <td><a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00">Act XVII of 2022, section 6(1) and Annex 3</a> requires public accessibility documentation for covered services in accessible written and oral form, described in general terms or an equivalent document. Section 6(5) separately requires information to the competent authority on request.</td>
