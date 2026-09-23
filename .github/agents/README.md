@@ -20,7 +20,7 @@ The file `.github/scripts/check-verification-dates.py` validates dates for the e
 
 ## Baseline checks for every country
 
-For each country, check and record a result (including `unknown` when unsupported) for: EAA scope and the relevant law; a dedicated public page comparable to a WAD statement; EAA information in terms or another public document; information available to the public on request; information supplied to an authority on request; responsible authorities with sector scope; public complaints; and company reporting. Check any existing extra claims, such as languages, deadlines, and contact details. Country-specific questions add to this baseline and never replace it.
+For each country, check and record a result (including `unknown` when unsupported) for: EAA scope and the relevant law; a dedicated public page comparable to a WAD statement; EAA information in terms or another public document; information available to the public on request; information supplied to an authority on request; responsible authorities with sector scope; whether the listed monitoring agencies cover every relevant product and service sector; whether each existing authority link points to the correct official agency website or relevant official page; public complaints; and company reporting. Check any existing extra claims, such as languages, deadlines, and contact details. Country-specific questions add to this baseline and never replace it.
 
 ## Pilot order
 
