@@ -124,8 +124,69 @@
               "authority_on_request",
               "not_established"
             ]
+          },
+          "reporting_route": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "authority",
+              "sector",
+              "channel",
+              "destination",
+              "eaa_specific"
+            ],
+            "properties": {
+              "authority": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sector": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "enum": [
+                  "form",
+                  "email",
+                  "postal_or_in_person"
+                ]
+              },
+              "destination": {
+                "type": "string",
+                "minLength": 1
+              },
+              "eaa_specific": {
+                "type": "boolean"
+              }
+            }
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "field": {
+                  "enum": [
+                    "public_reporting",
+                    "company_reporting"
+                  ]
+                },
+                "status": {
+                  "const": "verified"
+                }
+              },
+              "required": [
+                "field",
+                "status"
+              ]
+            },
+            "then": {
+              "required": [
+                "reporting_route"
+              ]
+            }
+          }
+        ]
       }
     },
     "questions": {
