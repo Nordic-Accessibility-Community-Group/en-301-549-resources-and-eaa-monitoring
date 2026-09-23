@@ -130,7 +130,7 @@
 				</ul>
 		</ul>
 	</td>
-    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li></ul></td>
+    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Official overview of EAA oversight and complaint access</a></li></ul></td>
   </tr>
   <tr>
     <td>Estonia</td>
@@ -417,7 +417,7 @@ These documents have not been officially translated to English by the <a href="h
     <td>✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
     <td><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/">PTS</a></li><li>Mediemyndigheten</li><li>Konsumentverket och Transportstyrelsen</li><li>Myndigheten för tillgängliga medier (MTM)</li></ul></td>
     <td><ul><li>Reporting tool for companies: <a href="https://lptt-rapportering.pts.se/">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. You can also report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. The law says you need to report in Swedish, but so far PTS accepts reporting in English 🇬🇧.</li></ul><ul><li>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</li><li>Reporting tool for the Public: <a href="https://lptt.pts.se/">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li></ul></td>
-    <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></td>
+    <td><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a><br><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.</td>
   </tr>
 </table>
 
