@@ -500,20 +500,20 @@ These documents have not been officially translated to English by the <a href="h
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
-    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; not applicable to this jurisdiction.</td>
+    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en">EU scope of the EAA</a>.</td>
   </tr>
   <tr>
     <td>Switzerland</td>
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
-    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; not applicable to this jurisdiction.</td>
+    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en">EU scope of the EAA</a>.</td>
   </tr>
   <tr>
     <td>United Kingdom</td>
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
     <td>❓ Unknown  </td>
-    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; not applicable to this jurisdiction.</td>
+    <td>❓ Unknown  <br>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en">EU scope of the EAA</a>.</td>
   </tr>
 </table>
