@@ -1,0 +1,166 @@
+{
+  "country": "Sweden",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "Sweden's law covers specified products and services with multiple supervisory bodies.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Overview",
+          "evidence": "PTS describes product market surveillance and sector-specific service supervision."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "PTS describes service accessibility information as comparable in function to a WAD accessibility account and recommends an easy-to-find website link.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Introduction; PTS recommends",
+          "evidence": "PTS says the information serves a similar function to a DOS-law accessibility account but the EAA law uses another term; recommends a visible home-page link or footer."
+        }
+      ],
+      "review_note": "The visible link is a PTS recommendation, not an express legal mandate to create a dedicated page.",
+      "directive_context": "EAA",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service accessibility information must accompany the service and appear in general terms or an equivalent document.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "How to provide information",
+          "evidence": "PTS says the public should access information in speech and writing, the service should be accompanied by it, and it must be included in general terms or equivalent document."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The public only receives service accessibility information on request.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "PTS explicitly says information should be easy to access with the service.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service information must be supplied to PTS on request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Introduction",
+          "evidence": "PTS says information is to be sent to the authority on request."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "PTS supervises specified products and services, with other authorities covering audiovisual media, transport and e-books.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Supervisory authorities",
+          "evidence": "PTS overview names sector-specific authorities including Mediemyndigheten, Konsumentverket, Transportstyrelsen, and MTM."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "scope": "Sector-specific; the full scope of each body still needs mapping."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "PTS offers a public complaint form for accessibility of covered products or services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/nya-tillganglighetslagen-har-nu-borjat-galla/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Two e-services",
+          "evidence": "PTS says consumers can submit a complaint via its new service."
+        },
+        {
+          "url": "https://lptt.pts.se/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Complaint form",
+          "evidence": "Direct official e-service."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Post- och telestyrelsen (PTS)",
+        "sector": "Products and services within PTS remit",
+        "channel": "form",
+        "destination": "https://lptt.pts.se/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "PTS offers a company reporting form for exemptions and accessibility defects.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://lptt-rapportering.pts.se/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "LPTT reporting",
+          "evidence": "The official service accepts reports of exceptions and defects."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Post- och telestyrelsen (PTS)",
+        "sector": "Services/products within PTS remit",
+        "channel": "form",
+        "destination": "https://lptt-rapportering.pts.se/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Companies must report every issue within two weeks; English reports are accepted by PTS.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Neither assertion confirmed in current PTS guidance; omit from proposed row pending evidence.",
+      "directive_context": "EAA",
+      "existing_text": "Two-week deadline and English accepted"
+    }
+  ],
+  "questions": [
+    "Verify specific remits and routes for every non-PTS Swedish authority.",
+    "Find direct PTS support for alternative reporting emails and language acceptance before restoring them.",
+    "Clarify whether a visible link recommendation is followed consistently across regulated sectors."
+  ]
+}
