@@ -23,7 +23,7 @@
       "assertion": "An EAA body requires a dedicated public page comparable to a WAD statement.",
       "status": "unknown",
       "sources": [],
-      "review_note": "A law on service information in terms or equivalent document does not establish this format.",
+      "review_note": "A law on service information in terms or equivalent document does not establish this format. Existing Yes is retained: absence of a public primary-source confirmation does not disprove information obtained through agency correspondence or personal contact. Request the original correspondence or attribution before changing this value.",
       "directive_context": "EAA",
       "information_mode": "not_established",
       "existing_text": "✔️ Yes"
@@ -138,7 +138,7 @@
       "assertion": "The existing sik@sik.dk email and accepted English/Danish languages are current for company non-compliance reports.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No direct current authority instruction verified.",
+      "review_note": "No direct current authority instruction verified. Existing text is retained in the table pending review of original agency correspondence or other provenance.",
       "directive_context": "EAA",
       "existing_text": "sik@sik.dk in English or Danish"
     }
@@ -146,6 +146,7 @@
   "questions": [
     "Confirm whether Finanstilsynet has a separate EAA remit.",
     "Verify complaint routes for electronic communications and passenger transport sectors.",
-    "Confirm the public accessibility-information mode beyond general terms from a competent authority."
+    "Confirm the public accessibility-information mode beyond general terms from a competent authority.",
+    "Ask contributors for the original correspondence behind sik@sik.dk, accepted languages and Finanstilsynet."
   ]
 }
