@@ -3,41 +3,197 @@
   "title": "Monitoring agency country research record",
   "type": "object",
   "additionalProperties": false,
-  "required": ["country", "record_type", "claims", "questions"],
+  "required": [
+    "country",
+    "record_type",
+    "claims",
+    "questions"
+  ],
   "properties": {
-    "country": {"enum": ["Denmark", "Sweden", "Bulgaria", "Hungary"]},
-    "record_type": {"enum": ["fuller_entry_audit", "incomplete_entry_research"]},
+    "country": {
+      "enum": [
+        "Denmark",
+        "Sweden",
+        "Bulgaria",
+        "Hungary"
+      ]
+    },
+    "record_type": {
+      "enum": [
+        "fuller_entry_audit",
+        "incomplete_entry_research"
+      ]
+    },
     "claims": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["field", "assertion", "status", "sources", "review_note"],
+        "required": [
+          "field",
+          "assertion",
+          "status",
+          "sources",
+          "review_note"
+        ],
         "properties": {
-          "field": {"enum": ["statement", "authority", "public_reporting", "company_reporting", "additional_information"]},
-          "assertion": {"type": "string", "minLength": 1},
-          "existing_text": {"type": "string"},
-          "directive_context": {"enum": ["EAA", "WAD", "other", "unclear"]},
-          "scope": {"type": "string"},
-          "status": {"enum": ["verified", "disputed", "unknown"]},
+          "field": {
+            "enum": [
+              "statement",
+              "service_information",
+              "authority",
+              "public_reporting",
+              "company_reporting",
+              "additional_information"
+            ]
+          },
+          "assertion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "existing_text": {
+            "type": "string"
+          },
+          "directive_context": {
+            "enum": [
+              "EAA",
+              "WAD",
+              "other",
+              "unclear"
+            ]
+          },
+          "scope": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "verified",
+              "disputed",
+              "unknown",
+              "unverified_source"
+            ]
+          },
           "sources": {
             "type": "array",
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["url", "accessed_on", "evidence"],
+              "required": [
+                "url",
+                "accessed_on",
+                "evidence",
+                "source_type"
+              ],
               "properties": {
-                "url": {"type": "string", "format": "uri", "pattern": "^https://"},
-                "accessed_on": {"type": "string", "format": "date"},
-                "evidence": {"type": "string", "minLength": 1},
-                "section": {"type": "string"}
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://"
+                },
+                "accessed_on": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "section": {
+                  "type": "string"
+                },
+                "source_type": {
+                  "enum": [
+                    "legislation",
+                    "government",
+                    "monitoring_body",
+                    "other_unverified"
+                  ]
+                }
               }
             }
           },
-          "review_note": {"type": "string"}
-        }
+          "review_note": {
+            "type": "string"
+          },
+          "information_mode": {
+            "enum": [
+              "dedicated_public_page",
+              "public_terms_or_equivalent",
+              "public_other",
+              "public_on_request",
+              "authority_on_request",
+              "not_established"
+            ]
+          },
+          "reporting_route": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "authority",
+              "sector",
+              "channel",
+              "destination",
+              "eaa_specific"
+            ],
+            "properties": {
+              "authority": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sector": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "enum": [
+                  "form",
+                  "email",
+                  "postal_or_in_person"
+                ]
+              },
+              "destination": {
+                "type": "string",
+                "minLength": 1
+              },
+              "eaa_specific": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "field": {
+                  "enum": [
+                    "public_reporting",
+                    "company_reporting"
+                  ]
+                },
+                "status": {
+                  "const": "verified"
+                }
+              },
+              "required": [
+                "field",
+                "status"
+              ]
+            },
+            "then": {
+              "required": [
+                "reporting_route"
+              ]
+            }
+          }
+        ]
       }
     },
-    "questions": {"type": "array", "items": {"type": "string"}}
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

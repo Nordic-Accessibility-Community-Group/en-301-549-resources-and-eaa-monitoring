@@ -1,0 +1,180 @@
+{
+  "country": "Bulgaria",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "The Bulgarian accessibility law defines covered product and service categories separately.",
+      "directive_context": "EAA",
+      "scope": "Law's product and service scope.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 2(1)–(2)",
+          "evidence": "The law enumerates applicable products in paragraph 1 and services in paragraph 2."
+        }
+      ],
+      "review_note": "Scope recorded for this country's baseline; individual applicability still needs sector-level verification."
+    },
+    {
+      "field": "service_information",
+      "assertion": "Covered service providers must provide the public with information about how services meet accessibility requirements; Annex 5 places the assessment information in terms and conditions or an equivalent document.",
+      "existing_text": "✔️ Yes (Source needed)",
+      "directive_context": "EAA",
+      "scope": "Covered services; public information can appear in terms and conditions or an equivalent document.",
+      "information_mode": "public_terms_or_equivalent",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 50(2)–(3), Annex 5(1)",
+          "evidence": "Article 50(2) makes accessibility information available to the public in accessible written and oral forms; Annex 5(1) says it is included in terms and conditions or an equivalent document."
+        }
+      ],
+      "review_note": "This verifies a statutory public information duty, not a dedicated public page or monitoring-body instruction."
+    },
+    {
+      "field": "statement",
+      "assertion": "A Bulgarian EAA monitoring body requires a dedicated public page comparable to a WAD accessibility statement.",
+      "existing_text": "✔️ Yes (Source needed)",
+      "directive_context": "EAA",
+      "scope": "Covered services",
+      "information_mode": "not_established",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No explicit government or competent monitoring-body instruction requiring a dedicated page has been located. The WAD statement on a government agency's own site would not establish this EAA requirement. Existing Yes is retained: absence of a public primary-source confirmation does not disprove information obtained through agency correspondence or personal contact. Request the original correspondence or attribution before changing this value."
+    },
+    {
+      "field": "service_information",
+      "assertion": "The competent authority requires EAA accessibility information to be supplied to a member of the public only on request.",
+      "directive_context": "EAA",
+      "scope": "Public on-request mode.",
+      "information_mode": "public_on_request",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Article 50(2) describes information made available to the public; no explicit public-on-request instruction from a competent body has been established."
+    },
+    {
+      "field": "service_information",
+      "assertion": "On a justified request, a service provider must provide the competent authority information needed to demonstrate conformity.",
+      "directive_context": "EAA",
+      "scope": "Covered services; information supplied to competent authority on request.",
+      "information_mode": "authority_on_request",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 53(1)",
+          "evidence": "On a reasoned request from the Article 54(1) body, service providers provide information necessary to demonstrate conformity, in Bulgarian on paper or electronically by the set deadline."
+        }
+      ],
+      "review_note": "This request-based duty is distinct from the public information duty in Article 50(2)."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Consumers and disability organisations may send complaints or reports about alleged violations in writing on paper or electronically to the competent product market surveillance or service authority.",
+      "existing_text": "❓ Unknown",
+      "directive_context": "EAA",
+      "scope": "Competent authority depends on product or service sector.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "section": "Article 62(1)–(2)",
+          "evidence": "Complaints and reports go to the corresponding authorities under Articles 34 and 54(1), on paper or electronically.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "This statute specifies recipients and paper/electronic form but gives no actual address, email, or tool. It does not by itself verify a usable route."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "For the Consumer Protection Commission's e-commerce service remit, the commission publishes a general online complaint form and accepts complaints in person at its counter.",
+      "directive_context": "EAA",
+      "scope": "E-commerce services under Article 2(2)(7), assigned to the Consumer Protection Commission by Article 54(1)(10). Other sectors need their own routes.",
+      "status": "verified",
+      "reporting_route": {
+        "authority": "Commission for Consumer Protection (КЗП)",
+        "sector": "E-commerce services",
+        "channel": "form",
+        "destination": "https://kzp.bg/en/signals",
+        "eaa_specific": false
+      },
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 2(2)(7), 54(1)(10), 62(1)–(2)",
+          "evidence": "E-commerce is in scope; the Commission controls conformity for that service category; consumers can submit complaints to the competent body."
+        },
+        {
+          "url": "https://kzp.bg/en/contacts",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Attention; complaint submission",
+          "evidence": "For complaints or signals to the Commission use the electronic form or submit in person at the counter; the listed info email is reserved for interagency correspondence."
+        },
+        {
+          "url": "https://kzp.bg/en/signals",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Electronic complaint/signal form (login)",
+          "evidence": "The linked form redirects to login; users can register to submit complaints and reports."
+        }
+      ],
+      "review_note": "The form is a general Commission complaint channel. Its EAA-specific category/intake has not been confirmed. Do not imply that this route applies to all Bulgarian EAA sectors."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Concrete public complaint routes for all other Bulgarian EAA authorities have been verified.",
+      "directive_context": "EAA",
+      "scope": "Other product and service sectors",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Find and verify a sector-specific route from each competent authority before publishing it."
+    },
+    {
+      "field": "authority",
+      "assertion": "The existing service authority list has the correct sector assignments.",
+      "existing_text": "Ten service authorities listed in the table.",
+      "directive_context": "EAA",
+      "scope": "Services",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "section": "Article 54(1)",
+          "evidence": "Lists sector-specific service conformity authorities.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The list needs a separate line-by-line translation and scope audit; left unchanged."
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A dedicated company reporting tool exists.",
+      "directive_context": "EAA",
+      "scope": "Companies",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Not established during this pass."
+    }
+  ],
+  "questions": [
+    "Does any Bulgarian government or competent monitoring body explicitly require a dedicated public page comparable to a WAD statement?",
+    "Do authority instructions specify how and where EAA service information is made available to the public beyond terms and conditions or an equivalent document?",
+    "Verify existing authority names and scopes line by line against Articles 34 and 54.",
+    "Does the Commission's general form accept EAA e-commerce accessibility complaints as a selectable or free-text issue?",
+    "Find an official form, accepted email, or postal address for each remaining competent authority and sector."
+  ]
+}
