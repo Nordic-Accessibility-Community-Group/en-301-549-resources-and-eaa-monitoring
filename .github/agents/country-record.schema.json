@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Monitoring agency country research record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["country", "record_type", "claims", "questions"],
+  "properties": {
+    "country": {"enum": ["Denmark", "Sweden", "Bulgaria", "Hungary"]},
+    "record_type": {"enum": ["fuller_entry_audit", "incomplete_entry_research"]},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "assertion", "status", "sources", "review_note"],
+        "properties": {
+          "field": {"enum": ["statement", "authority", "public_reporting", "company_reporting", "additional_information"]},
+          "assertion": {"type": "string", "minLength": 1},
+          "existing_text": {"type": "string"},
+          "directive_context": {"enum": ["EAA", "WAD", "other", "unclear"]},
+          "scope": {"type": "string"},
+          "status": {"enum": ["verified", "disputed", "unknown"]},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["url", "accessed_on", "evidence"],
+              "properties": {
+                "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+                "accessed_on": {"type": "string", "format": "date"},
+                "evidence": {"type": "string", "minLength": 1},
+                "section": {"type": "string"}
+              }
+            }
+          },
+          "review_note": {"type": "string"}
+        }
+      }
+    },
+    "questions": {"type": "array", "items": {"type": "string"}}
+  }
+}
