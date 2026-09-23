@@ -117,7 +117,7 @@
     <td>❓ Unknown</td>
     <td><ul><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Erhvervsstyrelsen | Markedsovervågning</a> – most covered products and services</li><li>Energistyrelsen – electronic communications services</li><li>Trafikstyrelsen – air, bus and rail passenger services</li><li>Søfartsstyrelsen – waterborne passenger services</li></ul></td>
     <td><ul><li>For areas under Erhvervsstyrelsen | Markedsovervågning: <a href="https://www.sik.dk/tip">online complaint form for the public</a>.</li><li>For companies in that authority's remit: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/">notification of an accessibility exemption (MitID Business required)</a>.</li><li>❓ Reporting routes for the other authorities remain unverified.</li></ul></td>
-    <td><a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Danish accessibility law</a>: service accessibility information is included in general terms or an equivalent document (Annex 4). A dedicated public page requirement has not been verified.</td>
+    <td><a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Danish accessibility law</a>: service accessibility information is included in general terms or an equivalent document (Annex 4).</td>
   </tr>
   <tr>
     <td>Estonia</td>
