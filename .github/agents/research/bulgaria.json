@@ -47,7 +47,7 @@
       "information_mode": "not_established",
       "status": "unknown",
       "sources": [],
-      "review_note": "No explicit government or competent monitoring-body instruction requiring a dedicated page has been located. The WAD statement on a government agency's own site would not establish this EAA requirement."
+      "review_note": "No explicit government or competent monitoring-body instruction requiring a dedicated page has been located. The WAD statement on a government agency's own site would not establish this EAA requirement. Existing Yes is retained: absence of a public primary-source confirmation does not disprove information obtained through agency correspondence or personal contact. Request the original correspondence or attribution before changing this value."
     },
     {
       "field": "service_information",
