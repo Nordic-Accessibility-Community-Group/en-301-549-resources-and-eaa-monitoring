@@ -1,0 +1,151 @@
+{
+  "country": "Denmark",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "The Danish accessibility law covers specified consumer products and services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Scope",
+          "evidence": "Government market-surveillance guidance lists covered products and services, including e-commerce and consumer banking."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "An EAA body requires a dedicated public page comparable to a WAD statement.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "A law on service information in terms or equivalent document does not establish this format.",
+      "directive_context": "EAA",
+      "information_mode": "not_established",
+      "existing_text": "✔️ Yes"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service providers include accessibility compliance information in general terms or equivalent document.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-23",
+          "section": "Annex 4, point 1",
+          "evidence": "The provider states in general terms or an equivalent document how the service meets accessibility requirements."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The public receives EAA service information only on request.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "A service provider must supply compliance evidence to an authority upon request.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Not independently checked in this pass.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "Erhvervsstyrelsen market surveillance handles most covered products and services, with energy, transport and maritime exceptions.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Which authority controls",
+          "evidence": "Agency guidance identifies the main body and the exception authorities with sector scope."
+        }
+      ],
+      "review_note": "Finanstilsynet in the existing row needs separate confirmation and is not inferred from this overview.",
+      "directive_context": "EAA",
+      "scope": "Most products/services; electronic communications and passenger transport exceptions."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "For products and services under Erhvervsstyrelsen market surveillance, the agency links an online complaint form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "How to complain",
+          "evidence": "Agency says complaints go to the authority overseeing the sector and links online complaint access."
+        },
+        {
+          "url": "https://www.sik.dk/tip",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Report unlawful matters",
+          "evidence": "Official reporting page linked from the EAA guidance."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Erhvervsstyrelsen | Markedsovervågning",
+        "sector": "Products and services under its oversight",
+        "channel": "form",
+        "destination": "https://www.sik.dk/tip",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Companies may notify the market-surveillance authority of an accessibility exemption through a Virk form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+          "source_type": "government",
+          "accessed_on": "2026-09-23",
+          "section": "Introduction",
+          "evidence": "Official form accepts one notification per product or service; requires MitID Business."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Erhvervsstyrelsen | Markedsovervågning",
+        "sector": "Products and services under its oversight",
+        "channel": "form",
+        "destination": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "The existing sik@sik.dk email and accepted English/Danish languages are current for company non-compliance reports.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No direct current authority instruction verified.",
+      "directive_context": "EAA",
+      "existing_text": "sik@sik.dk in English or Danish"
+    }
+  ],
+  "questions": [
+    "Confirm whether Finanstilsynet has a separate EAA remit.",
+    "Verify complaint routes for electronic communications and passenger transport sectors.",
+    "Confirm the public accessibility-information mode beyond general terms from a competent authority."
+  ]
+}
