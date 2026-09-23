@@ -31,9 +31,9 @@
           "evidence": "PTS says the information serves a similar function to a DOS-law accessibility account but the EAA law uses another term; recommends a visible home-page link or footer."
         }
       ],
-      "review_note": "The visible link is a PTS recommendation, not an express legal mandate to create a dedicated page.",
+      "review_note": "PTS explicitly compares the function to a WAD accessibility account and recommends a visible link; this is guidance, not a legal dedicated-page requirement.",
       "directive_context": "EAA",
-      "information_mode": "dedicated_public_page"
+      "information_mode": "public_other"
     },
     {
       "field": "service_information",
