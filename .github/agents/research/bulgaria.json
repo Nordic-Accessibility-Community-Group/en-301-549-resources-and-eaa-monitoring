@@ -131,87 +131,345 @@
           "evidence": "The linked form redirects to login; users can register to submit complaints and reports."
         }
       ],
-      "review_note": "The form is a general Commission complaint channel. Its EAA-specific category/intake has not been confirmed. Do not imply that this route applies to all Bulgarian EAA sectors."
-    },
-    {
-      "field": "public_reporting",
-      "assertion": "Concrete public complaint routes for all other Bulgarian EAA authorities have been verified.",
-      "directive_context": "EAA",
-      "scope": "Other product and service sectors",
-      "status": "unknown",
-      "sources": [],
-      "review_note": "Find and verify a sector-specific route from each competent authority before publishing it."
+      "review_note": "Rechecked 2026-09-23: contacts page reachable; https://kzp.bg/en/signals redirects to https://kzp.bg/en/login (reachable login). Account required; EAA-specific intake behind login and accepted complaint languages unknown. An English page does not prove English submissions are accepted. Do not use the interagency email for complaints."
     },
     {
       "field": "authority",
-      "assertion": "The existing service authority list has the correct sector assignments.",
-      "existing_text": "Ten service authorities listed in the table.",
-      "directive_context": "EAA",
-      "scope": "Services",
-      "status": "unknown",
-      "sources": [
-        {
-          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
-          "accessed_on": "2026-09-23",
-          "section": "Article 54(1)",
-          "evidence": "Lists sector-specific service conformity authorities.",
-          "source_type": "legislation"
-        }
-      ],
-      "review_note": "The list needs a separate line-by-line translation and scope audit; left unchanged."
-    },
-    {
-      "field": "company_reporting",
-      "assertion": "A dedicated company reporting tool exists.",
-      "directive_context": "EAA",
-      "scope": "Companies",
-      "status": "unknown",
-      "sources": [],
-      "review_note": "Not established during this pass."
-    },
-    {
-      "field": "authority",
-      "assertion": "The ten listed service authorities match the ten numbered authority assignments in Article 54(1); the row does not list the separate product market-surveillance authority designated by Article 34(1).",
-      "existing_text": "Ten service authorities, no product market-surveillance authority in Monitoring agencies.",
-      "directive_context": "EAA",
-      "scope": "All listed services and covered products.",
+      "assertion": "State Agency for Metrological and Technical Surveillance (ДАМТН): Covered products.",
       "status": "verified",
       "sources": [
         {
           "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
           "accessed_on": "2026-09-23",
           "source_type": "legislation",
-          "section": "Articles 34(1), 54(1)(1)–(10)",
-          "evidence": "Article 54 lists ten service authorities; Article 34 assigns market surveillance for covered products to the Chair of the State Agency for Metrological and Technical Surveillance through its market-surveillance bodies."
+          "section": "Article 34(1)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.damtn.government.bg/za-nas/struktura-i-dejnosti/spetsializirana-administratsiya/glavna-direktsiya-np/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
         }
       ],
-      "review_note": "Service authority names are present, but some table descriptions abbreviate the statutory sector scope (for example urban/regional bus transport). Add the product authority after verifying its official site and exact display name. Do not interpret the service-only roster as complete coverage."
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.damtn.government.bg/za-nas/struktura-i-dejnosti/spetsializirana-administratsiya/glavna-direktsiya-np/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Covered products"
     },
     {
       "field": "authority",
-      "assertion": "The existing Bulgarian Monitoring agencies cell contains no authority website links.",
-      "existing_text": "Ten service authority names without hyperlinks.",
-      "directive_context": "EAA",
-      "scope": "Existing authority hyperlinks.",
-      "status": "unknown",
+      "assertion": "Communications Regulation Commission: Electronic communications excluding machine-to-machine transmission.",
+      "status": "verified",
       "sources": [
         {
           "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
           "accessed_on": "2026-09-23",
           "source_type": "legislation",
-          "section": "Articles 34(1), 54(1)",
-          "evidence": "Official roster identifies bodies to link and verify independently."
+          "section": "Article 54(1)(1)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://crc.bg/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
         }
       ],
-      "review_note": "There are no agency-site links to test for correctness. Obtain each body's current official website or appropriate authority page; a link to the law alone is not an agency-site check."
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://crc.bg/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications excluding machine-to-machine transmission"
+    },
+    {
+      "field": "authority",
+      "assertion": "Council for Electronic Media: Audiovisual-access services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(2)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.cem.bg/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.cem.bg/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual-access services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Civil Aviation Administration: Air passenger transport elements.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(3)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.caa.bg/bg",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.caa.bg/bg. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Air passenger transport elements"
+    },
+    {
+      "field": "authority",
+      "assertion": "Automobile Administration: Bus services under Article 2(2)(3)–(4).",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(4)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://rta.government.bg/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://rta.government.bg/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Bus services under Article 2(2)(3)–(4)"
+    },
+    {
+      "field": "authority",
+      "assertion": "Railway Administration: Rail services under Article 2(2)(3)–(4).",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(5)",
+          "evidence": "Designates this authority and sector."
+        }
+      ],
+      "review_note": "link_status: unknown; checked_on: 2026-09-23; attempted_url: https://www.iaja.government.bg/. Two retrieval attempts failed; do not add an unverified working link.",
+      "directive_context": "EAA",
+      "scope": "Rail services under Article 2(2)(3)–(4)"
+    },
+    {
+      "field": "authority",
+      "assertion": "Maritime Administration: Water passenger transport elements.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(6)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.marad.bg/bg",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.marad.bg/bg. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Water passenger transport elements"
+    },
+    {
+      "field": "authority",
+      "assertion": "Financial Supervision Commission: Investment-services subset of consumer banking.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(7)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.fsc.bg/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.fsc.bg/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Investment-services subset of consumer banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "Bulgarian National Bank: Payment, account and electronic-money subsets.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(8)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://www.bnb.bg/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.bnb.bg/. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "Payment, account and electronic-money subsets"
+    },
+    {
+      "field": "authority",
+      "assertion": "Ministry of Culture: E-books and specialised software.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(9)",
+          "evidence": "Designates this authority and sector."
+        }
+      ],
+      "review_note": "link_status: unknown; checked_on: 2026-09-23; attempted_url: https://mc.government.bg/. Two retrieval attempts failed; do not add an unverified working link.",
+      "directive_context": "EAA",
+      "scope": "E-books and specialised software"
+    },
+    {
+      "field": "authority",
+      "assertion": "Consumer Protection Commission: E-commerce and designated consumer-credit subset.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 54(1)(10)",
+          "evidence": "Designates this authority and sector."
+        },
+        {
+          "url": "https://kzp.bg/en/contacts",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Authority identity",
+          "evidence": "Official named authority page opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://kzp.bg/en/contacts. Remit verified separately against law; website identity checked.",
+      "directive_context": "EAA",
+      "scope": "E-commerce and designated consumer-credit subset"
+    },
+    {
+      "field": "authority",
+      "assertion": "The existing service list omits the separate product-surveillance authority.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 34 and 54",
+          "evidence": "Product surveillance is assigned separately."
+        }
+      ],
+      "review_note": "Add ДАМТН. Authority names cover the retrieved instrument after that addition; detailed banking boundaries need translation review.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Service non-compliance and exemption notifications are separate statutory duties.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Articles 52(2) and 3(6)",
+          "evidence": "Requires immediate non-compliance information and applicable exemption notifications."
+        }
+      ],
+      "review_note": "Duty established, but concrete company destinations remain unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Company non-compliance routes are usable for each competent sector authority.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Targeted searches did not establish sector-specific destinations. General contacts and WAD complaints were not promoted to EAA reporting routes. Languages and authentication unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Company exemption routes are usable for each competent sector authority.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Targeted searches did not establish sector-specific destinations. General contacts and WAD complaints were not promoted to EAA reporting routes. Languages and authentication unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Other sector-specific public reporting routes are verified.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-relevant destination confirmed in this pass for the other ten authorities. Do not infer a reporting route from an agency homepage.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The law took effect on 28 June 2025; legacy contracts and terminals have conditional transitions.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Heading; transitional section 4",
+          "evidence": "Records application date and conditional legacy arrangements."
+        }
+      ],
+      "review_note": "Contracts: no later than 28 June 2030; terminals: useful life capped at 20 years. Certain communication provisions defer until 28 June 2027. These are not a blanket delay.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "This bounded pilot pass records verified findings and unresolved checks.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
-    "Does any Bulgarian government or competent monitoring body explicitly require a dedicated public page comparable to a WAD statement?",
-    "Do authority instructions specify how and where EAA service information is made available to the public beyond terms and conditions or an equivalent document?",
-    "Verify existing authority names and scopes line by line against Articles 34 and 54.",
-    "Does the Commission's general form accept EAA e-commerce accessibility complaints as a selectable or free-text issue?",
-    "Find an official form, accepted email, or postal address for each remaining competent authority and sector.",
-    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
+    "Unknown: dedicated EAA public-page instruction; searches found agency WAD statements, which do not establish an EAA duty.",
+    "Recheck railway and culture authority URLs in a later run; two retrieval attempts failed.",
+    "Review banking subset translations and urban/regional transport scope.",
+    "Unknown: EAA-specific intake and accepted languages for the logged-in KZP form.",
+    "Unknown: company non-compliance and exemption destinations by authority.",
+    "Unknown: public complaint destinations for other sectors; request official guidance before publishing routes."
   ]
 }
