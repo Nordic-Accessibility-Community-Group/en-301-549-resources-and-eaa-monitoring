@@ -23,7 +23,7 @@
       "assertion": "A Hungarian EAA body explicitly requires a dedicated public page comparable to a WAD statement.",
       "status": "unknown",
       "sources": [],
-      "review_note": "A WAD statement on NMHH's own website does not establish a general EAA publication requirement.",
+      "review_note": "Unknown after regulator searches. NMHH's 2026 guidance supports information in general terms; no dedicated public-page instruction established. WAD statements on agency sites excluded.",
       "directive_context": "EAA",
       "information_mode": "not_established",
       "existing_text": "❓ Unknown"
@@ -39,6 +39,13 @@
           "accessed_on": "2026-09-23",
           "section": "Section 6(1); Annex 3(1)",
           "evidence": "Service documentation must be public in accessible written and oral form; Annex 3 specifies general terms or equivalent document."
+        },
+        {
+          "url": "https://nmhh.hu/cikk/258457/Digitalisan__akadalyok_nelkul",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "20 March 2026; provider obligations",
+          "evidence": "NMHH says providers should ensure general terms include accessibility information."
         }
       ],
       "review_note": "",
@@ -73,94 +80,247 @@
     },
     {
       "field": "authority",
-      "assertion": "NMHH has a limited EAA remit and is not the general consumer-protection authority.",
+      "assertion": "NMHH: Computers, communications and audiovisual terminal equipment; communications and audiovisual-access services.",
       "status": "verified",
       "sources": [
         {
           "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
-          "source_type": "legislation",
           "accessed_on": "2026-09-23",
-          "section": "Section 1(1)(a),(d),(f), (3)",
-          "evidence": "The current decree assigns certain products and communications/audiovisual access services to NMHH, other services to consumer protection, and banking to the central bank."
+          "source_type": "legislation",
+          "section": "Section 1(1)(a),(d)",
+          "evidence": "Designates this body or statutory authority class."
+        },
+        {
+          "url": "https://nmhh.hu/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Official authority website",
+          "evidence": "Named official authority site opened."
         }
       ],
-      "review_note": "",
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://nmhh.hu/.",
       "directive_context": "EAA",
-      "existing_text": "NMHH, The consumer protection authority",
-      "scope": "NMHH product categories and communications/audiovisual access services; other sectors assigned elsewhere."
+      "scope": "Computers, communications and audiovisual terminal equipment; communications and audiovisual-access services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Consumer-protection authority: Non-MNB payment terminals, e-readers, e-books and e-commerce.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(b),(f)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "Non-MNB payment terminals, e-readers, e-books and e-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "Civil aviation authority: Air transport services and related terminals.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(c)(ca),(e)(ea)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "Air transport services and related terminals"
+    },
+    {
+      "field": "authority",
+      "assertion": "Bus market-surveillance and passenger-rights authority: Bus services and related terminals.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(c)(cb),(e)(eb)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "Bus services and related terminals"
+    },
+    {
+      "field": "authority",
+      "assertion": "Railway administrative body: Rail services and terminals; integrated/linked public passenger services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(c)(cc),(e)(ec),1(2)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "Rail services and terminals; integrated/linked public passenger services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Maritime authority: Water transport services and related terminals.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(c)(cd),(e)(ed)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "Water transport services and related terminals"
+    },
+    {
+      "field": "authority",
+      "assertion": "Budapest Főváros Kormányhivatala: 112 emergency response.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(1)(g),2(2)",
+          "evidence": "Designates this body or statutory authority class."
+        }
+      ],
+      "review_note": "link_status: missing; checked_on: 2026-09-23. Statutory class confirmed; exact current office and official destination not established. No homepage inferred.",
+      "directive_context": "EAA",
+      "scope": "112 emergency response"
+    },
+    {
+      "field": "authority",
+      "assertion": "Magyar Nemzeti Bank (MNB): Consumer banking, ATMs and payment-service acquiring terminals.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1(3)",
+          "evidence": "Designates this body or statutory authority class."
+        },
+        {
+          "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Official authority website",
+          "evidence": "Named official authority site opened."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg.",
+      "directive_context": "EAA",
+      "scope": "Consumer banking, ATMs and payment-service acquiring terminals"
+    },
+    {
+      "field": "authority",
+      "assertion": "The previous row did not identify each non-NMHH statutory authority.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Section 1",
+          "evidence": "Enumerates the sector authorities."
+        }
+      ],
+      "review_note": "Existing decree link resolves to legislation, not an agency website. Propose named NMHH and MNB links; remaining office mapping remains unknown.",
+      "directive_context": "EAA"
     },
     {
       "field": "public_reporting",
-      "assertion": "A concrete sector-specific EAA complaint route is verified.",
-      "status": "unknown",
+      "assertion": "Consumers can send an accessibility complaint concerning MNB-supervised financial services to MNB by post after first complaining to the provider.",
+      "status": "verified",
       "sources": [
         {
-          "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
-          "source_type": "legislation",
+          "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
           "accessed_on": "2026-09-23",
-          "section": "Section 8(2)(d),(6)",
-          "evidence": "Consumers may initiate proceedings before the competent supervisory authority; this source gives no destination."
-        },
-        {
-          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
-          "source_type": "legislation",
-          "accessed_on": "2026-09-23",
-          "section": "Section 3",
-          "evidence": "Specifies information to include in an application and possible supporting documents but does not give a form, email, or postal address."
+          "source_type": "monitoring_body",
+          "section": "II.1",
+          "evidence": "Gives prerequisites and postal submission address."
         }
       ],
-      "review_note": "Do not publish a generic NMHH or consumer protection contact until an EAA-relevant official route is confirmed.",
+      "review_note": "Rechecked against the authority's accessibility-specific instructions. Enclose the provider's response or evidence of the original complaint as applicable. Postal route needs no online login. Accepted languages unknown.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Magyar Nemzeti Bank",
+        "sector": "Financial services within MNB's accessibility remit",
+        "channel": "postal_or_in_person",
+        "destination": "Magyar Nemzeti Bank, 1534 Budapest BKKP Pf. 777, Hungary",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Other competent authorities' EAA complaint destinations are verified.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Searches did not establish usable sector-specific routes; generic NMHH and consumer protection pages are not sufficient.",
       "directive_context": "EAA"
     },
     {
       "field": "company_reporting",
-      "assertion": "A concrete company reporting channel to a competent Hungarian EAA authority is verified.",
+      "assertion": "Company non-compliance notification destinations are verified.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No usable channel confirmed for a specified sector.",
+      "review_note": "No verified current destination found for a defined sector. Authentication, accepted languages and route-specific deadlines remain unknown.",
       "directive_context": "EAA"
     },
     {
-      "field": "authority",
-      "assertion": "The current decree assigns EAA oversight beyond NMHH to consumer-protection, air, bus, rail and maritime authorities, Budapest's government office and the Magyar Nemzeti Bank, depending on product or service.",
-      "existing_text": "NMHH named; other bodies only described generically.",
-      "directive_context": "EAA",
-      "scope": "Products; electronic communications and audiovisual access; transport; banking; other consumer services; emergency communications.",
+      "field": "company_reporting",
+      "assertion": "Company exemption notification destinations are verified.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No verified current destination found for a defined sector. Authentication, accepted languages and route-specific deadlines remain unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The law has conditional legacy arrangements through 2030 and delays specified emergency-communication requirements to 28 June 2027.",
       "status": "verified",
       "sources": [
         {
-          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
           "accessed_on": "2026-09-23",
           "source_type": "legislation",
-          "section": "Section 1(1)(a)–(g), (2)–(3)",
-          "evidence": "The decree enumerates the sector-specific authorities and the central-bank exception for banking and payment terminals."
+          "section": "Sections 11–12",
+          "evidence": "Contains application and transition rules."
         }
       ],
-      "review_note": "The table does not name the non-NMHH bodies. Some are classes of territorial authorities rather than one national office; map the exact current institution and official site for each sector before adding links."
+      "review_note": "Do not generalise exceptions to all services. Existing contracts and self-service terminals have distinct conditions; review exact text before applying.",
+      "directive_context": "EAA"
     },
     {
-      "field": "authority",
-      "assertion": "The only hyperlink in the Hungarian Monitoring agencies cell points to the national legislation portal's decree, not to the website of NMHH or any other monitoring authority.",
-      "existing_text": "Link to njt.jog.gov.hu/jogszabaly/2022-605-20-22.",
-      "directive_context": "EAA",
-      "scope": "Existing authority hyperlinks.",
-      "status": "disputed",
-      "sources": [
-        {
-          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
-          "accessed_on": "2026-09-23",
-          "source_type": "legislation",
-          "section": "Decree 605/2022, Section 1",
-          "evidence": "The linked page is the legal instrument assigning authorities, not an agency website."
-        }
-      ],
-      "review_note": "Keep the decree as legal evidence, but locate and independently verify the correct official agency pages for NMHH, the central bank, the applicable transport authorities and consumer protection."
+      "field": "additional_information",
+      "assertion": "This bounded pilot pass records verified findings and unresolved checks.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
-    "Identify official complaint form/email/postal address per competent authority and sector.",
-    "Check whether any competent monitoring body demands a dedicated public page.",
-    "Map the full current authority roster from the amended decree, including central-bank remit.",
-    "Audit omitted monitoring authorities and verify official agency website links before editing the public table."
+    "Unknown: dedicated public-page demand; law and NMHH guidance establish public documentation/general terms.",
+    "Unknown: actual current offices and websites for statutory transport and consumer-protection authority classes.",
+    "Unknown: public reporting outside MNB, and company non-compliance/exemption reporting.",
+    "Unknown: accepted languages for MNB complaints; the postal route is independently usable without online authentication.",
+    "Review Hungarian sector translations, territorial competence and emergency-service transition before expanding table coverage."
   ]
 }
