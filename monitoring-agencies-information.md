@@ -86,7 +86,7 @@
   </tr>  
   <tr>
     <td>Bulgaria</td>
-    <td>❓ Unknown</td>
+    <td>✔️ Yes (Source needed)</td>
     <td><ul><li>The Communications Regulation Commission – for electronic communications services, with the exception of transmission services used for the provision of machine-to-machine services; (Комисията за регулиране на съобщенията – за електронни съобщителни услуги с изключение на услуги за предаване, използвани за предоставянето на услуги машина-машина;)</li><li>The Electronic Media Council – for services providing access to audio-visual media services; (Съвета за електронни медии – за услуги за предоставяне на достъп до аудио-визуални медийни услуги;)</li><li>Directorate General "Civil Aviation Administration" – for air passenger transport services (Главна дирекция "Гражданска въздухоплавателна администрация" – за услугите за въздушен превоз на пътници)</li><li> Executive Agency "Automobile Administration" – for bus passenger transport services (Изпълнителна агенция "Автомобилна администрация" – за услугите за автобусен превоз на пътници)</li><li>Executive Agency "Railway Administration" – for rail passenger transport services (Изпълнителна агенция "Железопътна администрация" – за услугите за железопътен превоз на пътници)</li><li>Executive Agency "Maritime Administration" – for water passenger transport services (Изпълнителна агенция "Морска администрация" – за услугите за превоз на пътници по вода)</li><li>The Financial Supervision Commission and the Deputy Chairman of the Financial Supervision Commission, Head of the "Investment Activity Supervision" Department – for consumer banking services; (Комисията за финансов надзор и заместник-председателя на Комисията за финансов надзор, ръководещ управление "Надзор на инвестиционната дейност" – за потребителски банкови услуги;)</li><li>The Bulgarian National Bank – for consumer banking services; (Българската народна банк – за потребителски банкови услуги;)</li><li>The Ministry of Culture – for e-books and specialized software; (Министерството на културата – за електронни книги и специализиран софтуер;)</li><li>Consumer Protection Commission – for e-commerce services and consumer banking services (Комисията за защита на потребителите – за услуги за електронна търговия и за потребителски банкови услуги)</li></ul> </td>
     <td>For e-commerce services within the remit of the Consumer Protection Commission (КЗП): <a href="https://kzp.bg/en/signals">general online complaint form (requires login)</a>, or <a href="https://kzp.bg/en/contacts">submit in person at a КЗП counter</a>. The law assigns e-commerce service oversight to КЗП (Articles 2(2)(7), 54(1)(10)); the general form's EAA-specific intake has not been confirmed. ❓ Reporting routes for other competent authorities remain unverified.</td>
     <td><a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf">Bulgarian accessibility law, Article 50(2) and Annex 5</a>: covered service providers make accessibility information available to the public in accessible forms, within terms and conditions or an equivalent document. Article 53(1) separately requires conformity information to be supplied to the competent authority on a justified request. Neither provision specifies a dedicated public page.</td>
@@ -114,10 +114,23 @@
   </tr>
   <tr>
     <td>Denmark</td>
-    <td>❓ Unknown</td>
-    <td><ul><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Erhvervsstyrelsen | Markedsovervågning</a> – most covered products and services</li><li>Energistyrelsen – electronic communications services</li><li>Trafikstyrelsen – air, bus and rail passenger services</li><li>Søfartsstyrelsen – waterborne passenger services</li></ul></td>
-    <td><ul><li>For areas under Erhvervsstyrelsen | Markedsovervågning: <a href="https://www.sik.dk/tip">online complaint form for the public</a>.</li><li>For companies in that authority's remit: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/">notification of an accessibility exemption (MitID Business required)</a>.</li><li>❓ Reporting routes for the other authorities remain unverified.</li></ul></td>
-    <td><a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Danish accessibility law</a>: service accessibility information is included in general terms or an equivalent document (Annex 4).</td>
+    <td>✔️ <a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Yes</a></td>
+    <td><ul><li>Erhvervsstyrelsen</li><li>Energistyrelsen</li><li>Trafikstyrelsen</li><li>Søfartsstyrelsen</li><li>Finanstilsynet</ul></td>
+    <td>
+		<ul>
+			<li>Report exemptions (companies): 
+				<ul>
+					<li> <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in English 🇬🇧</a></li>
+					<li><a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in Danish 🇩🇰</a></li>
+				</ul>
+			<li>Report non-compliance through email (companies): <a href="mailto:sik@sik.dk">sik@sik.dk</a> in English 🇬🇧 or Danish 🇩🇰</li>
+			<li>Reporting tool (for the public): 
+				<ul>
+					<li><a href="https://produkter.dk">Reporting tool for products, in Danish 🇩🇰</a></li>
+				</ul>
+		</ul>
+	</td>
+    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Official overview of EAA oversight and complaint access</a></li></ul></td>
   </tr>
   <tr>
     <td>Estonia</td>
