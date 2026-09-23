@@ -11,3 +11,12 @@ Input: a research record and the current country row. Check each claim independe
 - Verify the recorded access date and never set a verification date for a claim you did not actually check.
 
 Output: an annotated research record and a list of human review questions. No public table edits.
+
+## Additional verification checks
+
+- Verify authority remit and website reachability independently. Record the checked URL, date, final destination where available, and link outcome in `review_note`. An official search result does not prove that the link loads; a timeout leaves reachability unknown even when other official evidence verifies the authority's remit.
+- Check shared and delegated responsibilities against the source's exact sector boundaries. Do not extend one authority's reporting route to another authority or sector.
+- Check consumer complaints, company non-compliance reports, and exemption notifications separately, including login requirements, languages, audiences, deadlines, and whether the destination is intended for that purpose. Do not submit forms or create accounts to verify them.
+- Confirm whether cited material is enacted law, a proposal, a binding requirement, or guidance. Verify effective dates and transition periods before treating a requirement as current.
+- Preserve existing contributor-supplied details when public confirmation is missing. Record available correspondence provenance and any review question; lack of access to that evidence does not establish that the entry is wrong.
+- Use the remaining research budget from the handoff and the limits in `README.md`; do not start a fresh budget. On reaching a limit, return the completed checks and identify unfinished ones as `unknown`, with the reason and next useful step. Do not claim independent verification for checks not performed.
