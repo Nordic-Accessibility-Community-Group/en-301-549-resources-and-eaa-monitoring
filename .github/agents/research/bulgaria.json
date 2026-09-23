@@ -3,6 +3,23 @@
   "record_type": "incomplete_entry_research",
   "claims": [
     {
+      "field": "additional_information",
+      "assertion": "The Bulgarian accessibility law defines covered product and service categories separately.",
+      "directive_context": "EAA",
+      "scope": "Law's product and service scope.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "accessed_on": "2026-09-23",
+          "source_type": "legislation",
+          "section": "Article 2(1)–(2)",
+          "evidence": "The law enumerates applicable products in paragraph 1 and services in paragraph 2."
+        }
+      ],
+      "review_note": "Scope recorded for this country's baseline; individual applicability still needs sector-level verification."
+    },
+    {
       "field": "service_information",
       "assertion": "Covered service providers must provide the public with information about how services meet accessibility requirements; Annex 5 places the assessment information in terms and conditions or an equivalent document.",
       "existing_text": "✔️ Yes (Source needed)",
@@ -31,6 +48,16 @@
       "status": "unknown",
       "sources": [],
       "review_note": "No explicit government or competent monitoring-body instruction requiring a dedicated page has been located. The WAD statement on a government agency's own site would not establish this EAA requirement."
+    },
+    {
+      "field": "service_information",
+      "assertion": "The competent authority requires EAA accessibility information to be supplied to a member of the public only on request.",
+      "directive_context": "EAA",
+      "scope": "Public on-request mode.",
+      "information_mode": "public_on_request",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Article 50(2) describes information made available to the public; no explicit public-on-request instruction from a competent body has been established."
     },
     {
       "field": "service_information",
