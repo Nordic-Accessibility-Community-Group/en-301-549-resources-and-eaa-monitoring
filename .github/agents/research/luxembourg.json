@@ -123,7 +123,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Official correspondence of 17 November 2025 says OSAPS monitors all EAA products and services. The law assigns OSAPS the products and services in Article 1(1)–(2), while emergency communications are separately scoped in Article 1(3); the publication therefore keeps 112 oversight Unknown. The law also mentions Customs, Grand-Ducal Police and authorities with specific responsibilities, but no evidence established separate central reporting destinations. Agency link reached the correct government site on 24 September 2026. Isolated no-history language review /root/luxembourg_language found the final OSAPS name and scoped sector placement Supported.",
+      "review_note": "Official correspondence of 17 November 2025 says OSAPS monitors all EAA products and services. The law assigns OSAPS the products and services in Article 1(1)–(2), while emergency communications are separately scoped in Article 1(3); the publication therefore keeps 112 oversight Unknown. The law also mentions Customs, Grand-Ducal Police and authorities with specific responsibilities, but no evidence established separate central reporting destinations. Agency link reached the correct government site on 24 September 2026. Isolated no-history language review /root/luxembourg_language on 24 September 2026 found the final OSAPS name and scoped sector placement Supported.",
       "directive_context": "EAA",
       "scope": "Products; e-commerce; consumer banking; electronic communications; transport; audiovisual access; e-books"
     },
@@ -140,7 +140,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "OSAPS official correspondence says it monitors all EAA products and services, but does not explicitly identify Article 1(3) emergency-call oversight. Public and legal-person MyGuichet reporting procedures expressly include 112, so those usable reporting routes remain published without assigning monitoring authority.",
+      "review_note": "OSAPS official correspondence says it monitors all EAA products and services, but does not explicitly identify Article 1(3) emergency-call oversight. Public and legal-person MyGuichet reporting procedures expressly include 112, so those usable reporting routes remain published without assigning monitoring authority. Isolated no-history language review /root/luxembourg_language on 24 September 2026 found the concise Unknown label potentially ambiguous; the table retains the project’s concise Unknown convention, while this record states precisely that the checked sources do not identify the authority.",
       "directive_context": "EAA",
       "scope": "112 and national emergency communications"
     },
@@ -157,7 +157,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Page is available in English, French and German. No form was submitted. The page lists signal@osaps.etat.lu as a contact, but directs reports through MyGuichet, so the table links the form. Isolated no-history language review /root/luxembourg_language corrected Public complaints to Public reports (natural persons); final wording rechecked Supported.",
+      "review_note": "Page is available in English, French and German. No form was submitted. The page lists signal@osaps.etat.lu as a contact, but directs reports through MyGuichet, so the table links the form. Isolated no-history language review /root/luxembourg_language on 24 September 2026 corrected Public complaints to Public reports (natural persons); final wording rechecked Supported.",
       "directive_context": "EAA",
       "reporting_route": {
         "authority": "OSAPS",
@@ -180,7 +180,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Official OSAPS correspondence of 10 November 2025 confirms English, French and German; companies outside Luxembourg can use English; email alone is not accepted. OSAPS guidance also says declarations are accepted only through Guichet/MyGuichet. No form was submitted. Isolated no-history language review /root/luxembourg_language corrected the table label from Company non-compliance reports to Non-compliance reports (legal persons), because the official category includes associations. Final wording rechecked Supported.",
+      "review_note": "Official OSAPS correspondence of 10 November 2025 confirms English, French and German; companies outside Luxembourg can use English; email alone is not accepted. OSAPS guidance also says declarations are accepted only through Guichet/MyGuichet. No form was submitted. Isolated no-history language review /root/luxembourg_language on 24 September 2026 corrected the table label from Company non-compliance reports to Non-compliance reports (legal persons), because the official category includes associations. Final wording rechecked Supported.",
       "directive_context": "EAA",
       "reporting_route": {
         "authority": "OSAPS",
@@ -210,7 +210,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Published table uses the shared label Exemptions. Official page variants establish English, French and German availability. Microenterprise qualification remains in research and is not expanded in the public table. No form was submitted. Isolated no-history language review /root/luxembourg_language rechecked the final shared-label wording Exemptions: MyGuichet notification procedure as Supported.",
+      "review_note": "Published table uses the shared label Exemptions. Official page variants establish English, French and German availability. Microenterprise qualification remains in research and is not expanded in the public table. No form was submitted. Isolated no-history language review /root/luxembourg_language on 24 September 2026 rechecked the final shared-label wording Exemptions: MyGuichet notification procedure as Supported.",
       "directive_context": "EAA",
       "reporting_route": {
         "authority": "OSAPS",
