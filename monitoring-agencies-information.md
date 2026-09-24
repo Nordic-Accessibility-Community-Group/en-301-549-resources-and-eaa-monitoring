@@ -731,10 +731,29 @@
   </tr>
   <tr>
     <td>Spain</td>
-    <td>✔️ Yes </td>
-    <td><a href="https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm" lang="es">Unidad Técnica de Apoyo y Coordinación (UTAC)</a>. Coordination of all the local market surveillance authorities. In Spain, it is up to the autonomous communities and the autonomous cities of Ceuta and Melilla to determine their surveillance authorities, as per article 27.3 of the national law 11/2023 transposing the EAA (Ley 11/2023).</td>
-		<td>Email: <a href="mailto:utac@dsca.gob.es">utac@dsca.gob.es</a>.</td>
-    <td>For accessibility statement you can find information in chapter III - art 7, 8 and 9 of law 11/2023 <p>⚖️ EAA implementing law: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022">Ley 11/2023</a>.</p></td>
+    <td>✔️ Yes (EAA-specific statement source needed)</td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li>Surveillance authorities determined by the autonomous communities and Ceuta and Melilla within their competences; <a href="https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm">UTAC</a> coordinates and supports them. UTAC acts as surveillance authority where none has been designated.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Answering-centre surveillance authority: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books — UTAC contact:</strong></p>
+      <ul>
+        <li>Public complaints and reports: <a href="mailto:utac@dsca.gob.es">utac@dsca.gob.es</a> (describe the Ley 11/2023 accessibility issue).</li>
+        <li>Company reports: <a href="mailto:utac@dsca.gob.es">utac@dsca.gob.es</a>, if within UTAC's competence. Companies outside Spain may use English 🇬🇧 or French 🇫🇷 if they do not speak Spanish or the relevant co-official language (UTAC correspondence, 20 August 2026).</li>
+        <li>Company non-compliance (formal authority notification): ❓ Unknown.</li>
+        <li>Company exemptions: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p>⚖️ EAA implementing law: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022">Ley 11/2023, Title I</a>; <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520">Real Decreto 143/2026</a> establishes UTAC's coordination and fallback role.</p>
+    </td>
   </tr>
   <tr>
     <td>Sweden</td>
