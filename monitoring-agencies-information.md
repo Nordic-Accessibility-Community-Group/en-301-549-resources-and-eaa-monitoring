@@ -211,7 +211,7 @@
       </ul>
     </td>
     <td>
-      <p>Accessibility information: covered service providers publish information in their general terms and conditions or an equivalent document and make it publicly available in accessible written and oral forms (Article 14; Annex III). This does not establish a dedicated public page.</p>
+      <p>Accessibility information: covered service providers include the information in their general terms and conditions or an equivalent document and make it publicly available in accessible written and oral forms (Article 14; Annex III). This does not establish a dedicated public page.</p>
       <p>⚖️ EAA implementing law: <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html">Law 57(I)/2024 on accessibility of products and services</a>.</p>
     </td>
   </tr>
