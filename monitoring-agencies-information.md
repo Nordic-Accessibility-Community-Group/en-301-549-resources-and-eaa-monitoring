@@ -658,7 +658,7 @@
     <td>
       <p><strong>Products and consumer banking:</strong></p>
       <ul>
-        <li><strong>Public complaints:</strong> <a href="https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&amp;serviciupagesize=8">ANPC consumer portal</a> (general consumer route).</li>
+        <li><strong>Public complaints:</strong> ❓ Unknown (ANPC's general consumer portal is login-gated; EAA intake not verified).</li>
         <li><strong>Company non-compliance / exemptions:</strong> ❓ Unknown.</li>
       </ul>
       <p><strong>All other sectors:</strong></p>

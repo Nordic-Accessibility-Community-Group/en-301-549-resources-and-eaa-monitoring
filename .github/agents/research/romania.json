@@ -275,7 +275,7 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "Consumers and eligible bodies may bring EAA non-compliance to the competent Article 19 authority or courts; ANPC provides a general consumer-complaint portal for its product and consumer-banking remit.",
+      "assertion": "Consumers and eligible bodies may bring EAA non-compliance to the competent Article 19 authority or courts.",
       "status": "verified",
       "sources": [
         {
@@ -284,25 +284,28 @@
           "section": "Art. 26",
           "evidence": "The statutory right to address the competent authority or courts is express.",
           "source_type": "legislation"
-        },
+        }
+      ],
+      "review_note": "Article 26 establishes standing but does not specify a usable intake destination.",
+      "directive_context": "EAA",
+      "scope": "Covered products and services"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The ANPC electronic-services portal provides a purpose-appropriate EAA complaint intake for ANPC's specified products and consumer-banking remit.",
+      "status": "unknown",
+      "sources": [
         {
           "url": "https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&serviciupagesize=8",
           "accessed_on": "2026-09-24",
-          "section": "Consumer complaints category",
-          "evidence": "Official portal shows 'Reclamații Consumatori'; the category page was observable, while the intake itself appears session-dependent.",
+          "section": "Submit Request page and Login return URL",
+          "evidence": "Ordinary browser reached the page titled 'Depune Cerere' and observed a Login link returning to the consumer-complaint-filtered destination; the main intake content was empty before authentication.",
           "source_type": "government"
         }
       ],
-      "review_note": "The portal is a general consumer route, not visibly EAA-specific. No form was submitted. A post-draft browser check should confirm the destination and login requirement; do not infer other authorities' routes from Article 26.",
+      "review_note": "One post-draft browser attempt on 2026-09-24 confirmed the destination and login return path but did not expose the intake fields or an EAA/accessibility purpose. No sign-in, account creation or submission was attempted. Do not assert that the login-gated form is usable for EAA complaints without observing the relevant intake or obtaining official confirmation.",
       "directive_context": "EAA",
-      "scope": "ANPC products and consumer banking",
-      "reporting_route": {
-        "authority": "ANPC",
-        "sector": "Products and consumer banking",
-        "channel": "portal",
-        "destination": "https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&serviciupagesize=8",
-        "eaa_specific": false
-      }
+      "scope": "ANPC products and consumer banking"
     },
     {
       "field": "public_reporting",
@@ -349,7 +352,7 @@
   ],
   "questions": [
     "Follow-up: Romania / dedicated accessibility statement — obtain the missing official ADR letter no. 3190/16.01.2026 or a dated reply to the 16 February and 24 September 2026 questions; preserve the existing Yes until explicit official evidence confirms or contradicts it. Owner: researcher; nonblocking for this PR.",
-    "Follow-up: Romania / ANPC portal — after the draft opens, use an ordinary browser once to confirm what the consumer-complaint destination shows, whether authentication is required, and whether accessibility non-compliance fits the observable intake. Do not submit. Owner: post-draft agent.",
+    "Follow-up: Romania / ANPC portal — the 2026-09-24 post-draft browser pass reached the consumer-complaint-filtered page and observed a login return path, but the intake fields and EAA purpose were not visible before authentication. Verify through official ANPC guidance or an authorized authenticated observation; do not submit during research. Owner: researcher.",
     "Follow-up: Romania / public complaint routes — identify purpose-specific usable routes for ADR, ANCOM, CNA, the Ministry of Economy and the Ministry of Transport, with exact audience, sector and purpose. Owner: researcher.",
     "Follow-up: Romania / company non-compliance and exemptions — obtain the form, email or postal destination each Article 19 authority expects for Articles 13(2)(e) and 14(7), including accepted language. Owner: researcher.",
     "Follow-up: Romania / 112 — identify the competent authority and future public/company route for the Article 2(5) duty before it applies on 28 June 2027. Owner: researcher.",
