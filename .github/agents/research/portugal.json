@@ -149,7 +149,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "URL direct open timed out in web reader 2026-09-24; official ANACOM law page indexed and law gives remit. Link reachability unknown.",
+      "review_note": "URL direct open timed out in web reader 2026-09-24; official ANACOM law page indexed and law gives remit. Post-draft 2026-09-24: cloud browser returned 502 Connection refused at https://www.anacom.pt/; contributor independently confirms the official agency link opened for them. Record the difference as browser-specific, not a broken public link.",
       "directive_context": "EAA",
       "scope": "Products (limited); E-commerce; Electronic communications; 112"
     },
@@ -173,7 +173,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "URL direct open returned 502 in web reader 2026-09-24; agency identification supported by statute; link reachability unknown. Isolated Portuguese-language recheck required the disjunctive 'or' and inclusion of the specified operating systems; final row reflects these.",
+      "review_note": "URL direct open returned 502 in web reader 2026-09-24; agency identification supported by statute;  Isolated Portuguese-language recheck required the disjunctive 'or' and inclusion of the specified operating systems; final row reflects these. Post-draft 2026-09-24: cloud browser returned 502 with a certificate-chain verification error at https://www.asae.gov.pt/; contributor independently confirms the link opened for them. No certificate bypass attempted.",
       "directive_context": "EAA",
       "scope": "Products (non-radio and operating systems)"
     },
@@ -221,7 +221,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Official domain verified in existing table and search; direct reader inaccessible on 2026-09-24, link reachability unknown.",
+      "review_note": "Official domain verified in existing table and search; direct reader inaccessible on 2026-09-24, Post-draft 2026-09-24: browser navigated from https://www.erc.pt/ to https://www.erc.pt/en/, displaying 'ERC - Portuguese Regulatory Authority for the Media'; contributor also confirms the link opened.",
       "directive_context": "EAA",
       "scope": "Audiovisual access"
     },
@@ -293,7 +293,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Direct homepage open 403 in reader 2026-09-24; statutory remit verified, site identity independently shown by official Banco de Portugal consumer portal. Art. 28 does not expressly reference payment-account services in Art. 2(3)(e)(iv); flag gap. Final row includes statutory ancillary services and electronic money; payment-account-associated services under Art. 2(3)(e)(iv) absent from Art. 28(1)(e) list and need regulator clarification.",
+      "review_note": "Direct homepage open 403 in reader 2026-09-24; statutory remit verified, site identity independently shown by official Banco de Portugal consumer portal. Art. 28 does not expressly reference payment-account services in Art. 2(3)(e)(iv); flag gap. Final row includes statutory ancillary services and electronic money; payment-account-associated services under Art. 2(3)(e)(iv) absent from Art. 28(1)(e) list and need regulator clarification. Post-draft 2026-09-24: cloud browser remained at its security-connection verification page; contributor independently confirms https://www.bportugal.pt/ opened for them. No challenge bypass attempted.",
       "directive_context": "EAA",
       "scope": "Banking (specified services)"
     },
@@ -341,7 +341,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Agency official indexed; direct homepage reader returned blank 2026-09-24; reachability unknown. The original row's museums/monuments description is not an Art. 28(1)(i) EAA remit.",
+      "review_note": "Agency official indexed; direct homepage reader returned blank 2026-09-24;  The original row's museums/monuments description is not an Art. 28(1)(i) EAA remit. Post-draft 2026-09-24: cloud browser returned 502 with a certificate-chain verification error at https://www.igac.gov.pt/; contributor independently confirms the link opened for them. No certificate bypass attempted.",
       "directive_context": "EAA",
       "scope": "E-books"
     },
@@ -434,13 +434,27 @@
       ],
       "review_note": "Older user-supplied quotation dated 2026-06-02 reflected contemporaneous implementation uncertainty. Subsequent IDiPD email June 3 and 15 explicitly distinguishes company reporting to sector authorities and forwarding of reports received by IDiPD. Do not publish private email or contact details. Other original built-environment/regional claims retained in original-row snapshot, not folded into EAA remits.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The five flagged official agency homepage links were manually opened by the contributor; the automated post-draft browser directly confirmed ERC, while the other four had browser-specific connection, certificate or security-screening limitations.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.erc.pt/en/",
+          "accessed_on": "2026-09-24",
+          "section": "Homepage header",
+          "evidence": "Browser observed 'ERC - Portuguese Regulatory Authority for the Media' after redirect from https://www.erc.pt/. ",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Post-draft one-attempt link check 2026-09-24: contributor's direct statement in conversation 'All links could be opened by me' provides manual verification for ANACOM, ASAE, Banco de Portugal, ERC and IGAC. The cloud browser verified ERC directly; it could not independently verify the other four due to tool-environment 502/TLS or persistent security challenge. Link check resolved by contributor confirmation, not by automated observation. No company reporting form or language conclusion inferred."
     }
   ],
   "questions": [
     "Follow-up: Portugal / accessibility-statement Yes — preserve contributor's existing Yes; obtain explicit competent monitoring-body/government instruction demanding a public webpage comparable to WAD, or original correspondence, beyond Art. 13/Annex II terms/equivalent. Owner: researcher; resolved by direct official instruction.",
     "Follow-up: Portugal / company non-compliance and exemptions — obtain purpose-specific form, email or postal routes from ANACOM, ASAE, Banco de Portugal, CMVM, ERC, AMT, ANAC, IMT and IGAC; IDiPD email confirms forwarding but supplies no designated intake; owner: researcher; resolved with direct destination and audience/purpose.",
     "Follow-up: Portugal / reporting languages — IDiPD 27 May 2026 email states no formal English rule; confirm each agency's accepted language, plus any login requirement or deadline. Owner: researcher; resolved by official guidance/correspondence.",
-    "Follow-up: Portugal / authority link reachability — ordinary-browser check after draft for ANACOM (text reader timeout), ASAE (502), Banco de Portugal (403), ERC (reader inaccessible), IGAC (blank); each domain corresponds to official agency but outcome unknown. Owner: post-draft agent; resolved by observed destination and agency identity or replacement with another official URL.",
     "Follow-up: Portugal / Banco de Portugal payment-account service — Art. 28(1)(e) omits the Art. 2(3)(e)(iv) account-associated service subparagraph. Confirm supervisor assignment from competent authority before saying complete coverage. Owner: researcher; resolved by explicit statutory or agency source.",
     "Follow-up: Portugal / 112 — ANACOM is assigned a legal remit, but accessibility obligations begin 28 June 2027; verify eventual consumer and company channels closer to commencement. Owner: researcher; resolved by current official instructions.",
     "Follow-up: Portugal / Art. 28 regional ASAE substitutes — check official regional service names and links for Azores and Madeira, which Art. 28(5) assigns ASAE-equivalent functions. Owner: researcher; resolved by regional official designation and relevant scope.",
