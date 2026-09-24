@@ -556,8 +556,8 @@
       <ul><li>Public reports: <a href="https://www.afm.nl/nl-nl/contact/contactformulier-consumenten">AFM contact form</a> or <a href="mailto:info@afm.nl">info@afm.nl</a> if the form cannot be used.</li><li>Company non-compliance / exemptions: <a href="https://portaal.afm.nl/">AFM Portaal</a> (AFM Portaal account for the organisation required).</li></ul>
       <p><strong>Transport — ILT:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
-      <p><strong>Audiovisual access and E-books — CvdM:</strong></p>
-      <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
+      <p><strong>Accessibility of audiovisual media and e-books — CvdM:</strong></p>
+      <ul><li>Public reports: <a href="https://toegankelijkheid.cvdm.nl/">CvdM accessibility form</a> (anonymous option).</li><li>Company reporting: ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls — Inspectie Justitie en Veiligheid:</strong></p>
       <ul><li>Public reports (accessibility of 112): <a href="https://www.inspectie-jenv.nl/service/contact/professional/contactformulier">contact form</a>.</li><li>Company reporting: ❓ Unknown.</li></ul>
     </td>
