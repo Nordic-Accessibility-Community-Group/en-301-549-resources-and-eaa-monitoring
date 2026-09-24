@@ -400,7 +400,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Link outcome: official guidance reachable; form redirected to Not Found/session error on initial and retry. Before PR candidate publication route omitted; verify in ordinary browser as follow-up. No unsupported usable route published.",
+      "review_note": "Link outcome: official guidance reachable; form redirected to Not Found/session error on initial and retry. Before PR candidate publication route omitted; verify in ordinary browser as follow-up. No unsupported usable route published. Post-draft ordinary-browser retry 2026-09-24: followed the official guidance link to https://e-loket.ilent.nl/formulier/nl-NL/BasicEnvironment/OverigeOnderwerpen.aspx/OverigeOnderwerpen; navigation timed out and the resulting document remained empty. No usable intake or authentication requirement verified; route remains Unknown. No report submitted.",
       "directive_context": "EAA",
       "scope": "Transport"
     },
@@ -423,8 +423,8 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "CvdM explicitly invites public accessibility reports on e-books and audiovisual media, but its dedicated portal redirect was inaccessible in the automated reader.",
-      "status": "unknown",
+      "assertion": "CvdM provides a public form for reporting accessibility complaints about audiovisual media and e-books, with a labeled anonymous option.",
+      "status": "verified",
       "sources": [
         {
           "url": "https://www.cvdm.nl/doe-een-melding/",
@@ -432,11 +432,25 @@
           "evidence": "Official page identifies dedicated accessibility route and anonymous option; link redirects to E-loket login inaccessible to tool.",
           "section": "Reporting instructions",
           "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://toegankelijkheid.cvdm.nl/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official accessibility link redirected in an ordinary browser to https://eloket.cvdm.nl/f/5007/login; choosing 'Anoniem invullen' opened https://eloket.cvdm.nl/f/5007/w/anoniem with a visible complaint form. No report was submitted.",
+          "section": "Toegankelijkheid / Anoniem invullen",
+          "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Authority page reachable and correct. Destination https://toegankelijkheid.cvdm.nl/ redirects to https://eloket.cvdm.nl/f/5007/login (reader error). CvdM says DigiD/eHerkenning or anonymous tip possible, but portal usability is unconfirmed. Omitted pending ordinary-browser check.",
+      "review_note": "Authority page reachable and correct. Destination https://toegankelijkheid.cvdm.nl/ redirects to https://eloket.cvdm.nl/f/5007/login (reader error). CvdM says DigiD/eHerkenning or anonymous tip possible, but portal usability is unconfirmed. Omitted pending ordinary-browser check. Post-draft ordinary-browser retry 2026-09-24: the CvdM accessibility portal was reachable, showed public complaint instructions and an 'Anoniem invullen' option. Clicking that option opened a visible form with name, email, message and optional attachment fields; it was not submitted. This verifies the entry route and labeled option, not that identifying fields are never requested or that company reporting uses the route. Separate no-history Dutch-to-English reviewer: original snippets 'U kunt ook melding doen over de toegankelijkheid van audiovisuele media en e-boeken', 'Meld toegankelijkheid hier', 'U kunt er ook voor kiezen om anoniem melding te doen', 'Heeft u een klacht over toegankelijkheid?', 'Anoniem invullen'; literal meaning supports 'Public reports: CvdM accessibility form (anonymous option)' and recommends 'Accessibility of audiovisual media and e-books' over the ambiguous 'Audiovisual access'. Final wording rechecked 2026-09-24; verdict supported with that correction.",
       "directive_context": "EAA",
-      "scope": "Audiovisual access; E-books"
+      "scope": "Audiovisual access; E-books",
+      "reporting_route": {
+        "authority": "CvdM",
+        "sector": "Accessibility of audiovisual media and e-books",
+        "channel": "form",
+        "destination": "https://toegankelijkheid.cvdm.nl/",
+        "eaa_specific": true
+      }
     },
     {
       "field": "company_reporting",
@@ -538,7 +552,6 @@
   ],
   "questions": [
     "Follow-up: Netherlands / Transport ILT public reports — open the ILT digital-accessibility guidance's reporting form in an ordinary browser; the linked e-loket returned a missing-session error on two attempts. Owner: researcher or contributor; resolved when a usable official route and any login requirement are confirmed.",
-    "Follow-up: Netherlands / CvdM public reports — test the official dedicated accessibility portal in an ordinary browser without submitting; the text reader reached a login redirect/error although CvdM says anonymous tips are possible. Owner: researcher or contributor; resolved when the intake and conditions are observed.",
     "Follow-up: Netherlands / RDI, ILT, CvdM and 112 company non-compliance/exemptions — find current authority instructions and purpose-specific form/email/postal route; owner: researcher; resolved when official source identifies destination and audience.",
     "Follow-up: Netherlands / statement and service information modes — confirm national sector-specific terms/equivalent publication and authority-on-request provisions where not established by ACM/AFM guidance; owner: researcher; resolved with explicit law or regulator text.",
     "Follow-up: Netherlands / language and authentication — confirm whether non-Dutch reports are accepted at routes other than ACM (ACM confirmed English company reports on 3 December 2025); AFM requires an organisation portal account and ACM forms require JavaScript; owner: contributor or agency; resolved by official guidance or correspondence.",
