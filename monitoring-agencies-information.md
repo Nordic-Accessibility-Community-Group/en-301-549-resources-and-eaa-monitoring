@@ -217,10 +217,50 @@
   </tr>
   <tr>
     <td>Czechia</td>
-    <td>❓ Unknown</td>
-    <td><ul><li><a href="https://coi.gov.cz/pro-podnikatele/pristupnost-vyrobku-a-sluzeb-pro-podnikatele/">Czech Trade Inspection Authority (Česká obchodní inspekce)</a></li><li>Electronic communications: Czech Telecommunications Office</li><li>Audiovisual media services: Radio and Television Broadcasting Council</li><li>International scheduled transport: Ministry of Transport</li><li>Domestic scheduled transport, with the exception of urban bus transport: Regional authority</li><li>Passenger rail transport: Railway Authority</li><li>Air passenger transport: Civil Aviation Authority</li><li>Passenger water transport: State Navigation Administration</li><li>Urban bus transport and services on special tracks, trams, trolleybuses or cable cars: Prague City Hall and the municipal office of the municipality with extended powers.</li></ul> </td>
-    <td>❓ Unknown</td>
-    <td><ul><li>Information regarding the law is published on the website <a href="https://mpo.gov.cz/cz/podnikani/pristupnost-vyrobku-a-sluzeb/">Accessibility of Products and Services</a>.</li></ul><p>⚖️ EAA implementing law: <a href="https://e-sbirka.gov.cz/sb/2023/424">Zákon č. 424/2023 Sb.</a>.</p></td>
+    <td>✖️ <a href="https://mpo.gov.cz/cz/podnikani/pristupnost-vyrobku-a-sluzeb/vzor-prohlaseni-o-pristupnosti--291601/">No</a></td>
+    <td>
+      <p><strong>Products, E-commerce, Banking and E-books:</strong></p>
+      <ul><li><a href="https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/">Czech Trade Inspection Authority (ČOI)</a></li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li><a href="https://ctu.gov.cz/pristupnost-sluzeb">Czech Telecommunications Office (ČTÚ)</a></li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li><a href="https://rrtv.gov.cz/cz/static/prehledy/pozadavky-na-pristupnost-sluzeb/index.htm">Council for Radio and Television Broadcasting (RRTV)</a></li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li><a href="https://md.gov.cz/">Ministry of Transport</a> — international scheduled transport.</li>
+        <li>Competent regional authority — domestic scheduled transport except urban bus transport.</li>
+        <li><a href="https://du.gov.cz/">Railway Authority</a> — passenger rail.</li>
+        <li><a href="https://www.caa.gov.cz/">Civil Aviation Authority</a> — air passenger transport.</li>
+        <li><a href="https://sps.gov.cz/">State Navigation Administration</a> — water passenger transport.</li>
+        <li><a href="https://praha.eu/">Prague City Hall</a> and the competent municipality with extended powers — urban bus, special railway, tram, trolleybus and cable-car services.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking and E-books — ČOI:</strong></p>
+      <ul>
+        <li>Public inspection submissions: <a href="https://eportal.coi.gov.cz/">ČOI E-portal</a> (login not required).</li>
+        <li>Company non-compliance: ❓ Unknown.</li>
+        <li>Exemptions: <a href="https://coi.gov.cz/pro-podnikatele/pristupnost-vyrobku-a-sluzeb-pro-podnikatele/">submission instructions for the competent regional ČOI inspectorate</a>.</li>
+      </ul>
+      <p><strong>Electronic communications — ČTÚ:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>Audiovisual access — RRTV:</strong></p>
+      <ul>
+        <li>Public complaints: ❓ Unknown.</li>
+        <li>Service non-compliance: <a href="https://rrtv.gov.cz/files/formulare/AVMSNES.pdf">RRTV notification form</a>.</li>
+        <li>Exemptions: <a href="https://rrtv.gov.cz/files/formulare/AVMSVYJ.pdf">RRTV notification form</a>.</li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p>Accessibility information: covered service providers publish the information in general terms and conditions or a similar document and provide it in audio form on request. The government statement template is voluntary.</p>
+      <p>⚖️ EAA implementing law: <a href="https://e-sbirka.gov.cz/sb/2023/424">Zákon č. 424/2023 Sb.</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>Denmark</td>
