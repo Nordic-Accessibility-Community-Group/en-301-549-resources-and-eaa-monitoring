@@ -434,7 +434,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Official page reachable; no submission, accepted language other than Polish not verified. Isolated language reviewer narrowed to retail banking, identified signed PDF and email as one available delivery route. Final table says 'Company reports (inaccessible retail banking services)' per isolated 2026-09-24 Polish-language recheck; broader 'Company non-compliance' would overstate the Polish form. Source 'zgłoszenie przez podmiot gospodarczy niedostępności usług bankowości detalicznej' literally means economic operator report of retail-banking inaccessibility.",
+      "review_note": "Official page reachable; no submission, accepted language other than Polish not verified. Isolated language reviewer narrowed to retail banking, identified signed PDF and email as one available delivery route. Final table says 'Company reports (inaccessible retail banking services)' per isolated 2026-09-24 Polish-language recheck; broader 'Company non-compliance' would overstate the Polish form. Source 'zgłoszenie przez podmiot gospodarczy niedostępności usług bankowości detalicznej' literally means economic operator report of retail-banking inaccessibility. Final exact table wording rechecked by the no-history Polish-language agent: Supported ('Company reports' avoids claiming every form of statutory non-compliance); 'economic operator' would be more literal than 'company' but shared table vocabulary uses Company.",
       "directive_context": "EAA",
       "scope": "Banking (retail)",
       "reporting_route": {
