@@ -49,7 +49,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Isolated no-history Slovak-language review 24 September 2026: original 'vo všeobecných podmienkach na poskytovanie služby alebo v obdobnom dokumente', literal 'in general conditions for providing the service or similar document'; final wording supported with precision; no dedicated page implied.",
+      "review_note": "Isolated no-history Slovak-language review 24 September 2026: original 'vo všeobecných podmienkach na poskytovanie služby alebo v obdobnom dokumente', literal 'in general conditions for providing the service or similar document'; final wording supported with precision; no dedicated page implied. isolated no-history Slovak-to-English language agent, 2026-09-24: §6(2) original 'vo všeobecných podmienkach na poskytovanie služby alebo v obdobnom dokumente' and 'v písomnej forme a ústnej forme'; literal 'in general conditions for provision of service or a comparable document', 'in written and oral form'. Reviewed wording 'Service accessibility information appears in general terms or equivalent document, in accessible written and oral form'; verdict Supported with precision that terms concern the service and no dedicated page follows from this provision. Final wording in record uses 'general service conditions or comparable document'.",
       "directive_context": "EAA",
       "information_mode": "public_terms_or_equivalent"
     },
@@ -107,7 +107,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "SOI official site reached 24 September 2026. Isolated language review corrected overbroad 'banking' and 'e-commerce' summaries to statutory categories.",
+      "review_note": "SOI official site reached 24 September 2026. Isolated language review corrected overbroad 'banking' and 'e-commerce' summaries to statutory categories. isolated no-history Slovak-to-English language agent, 2026-09-24: §2(1) original 'služby poskytované spotrebiteľom ... finančné služby ... elektronické knihy a špecializovaný softvér ... služby informačnej spoločnosti'; literal 'consumer services ... financial services ... e-books and specialized software ... information society services'. Reviewed initial wording 'banking, e-commerce, transport digital channels and terminals'; verdict Correction needed because categories and transport exclusions were compressed. Final publication wording 'specified products and consumer services under Act 351/2022' is narrowed; agency headings are navigational labels, not an exhaustive legal scope. §2(5) original 'ustanovujú osobitné predpisy'; literal 'separate regulations establish them'; final separate-agency headings reflect this without assigning 112 by inference.",
       "directive_context": "EAA",
       "scope": "Products; passenger transport; financial services; e-books; information society services"
     },
@@ -131,7 +131,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "The teleoff.gov.sk contact page was indexed but reader returned an internal error on opening; authority legal remit verified independently. Agency link reachability unknown. The §83a(2)(d) nonconformity duty explicitly identifies the regulator.",
+      "review_note": "The teleoff.gov.sk contact page was indexed but reader returned an internal error on opening; authority legal remit verified independently. Agency link reachability unknown. The §83a(2)(d) nonconformity duty explicitly identifies the regulator. Post-draft ordinary-browser attempt on https://www.teleoff.gov.sk/kontakt/ (24 September 2026) returned 502 Bad Gateway and 'Certificate verify failed: unable to get local issuer certificate'; did not bypass certificate validation. Agency remit remains independently verified by the current statute; site destination and EAA intake remain unverified in this browser.",
       "directive_context": "EAA",
       "scope": "Electronic communications"
     },
@@ -196,7 +196,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Official public instructions direct inspection reports and enquiries to its form; form https://www.soi.sk/nahlasit-podnet displayed fields but also 'Something went wrong' on 24 September 2026, so its submission usability is not asserted. Email is general SOI reports, not labelled dedicated EAA. Website says info@soi.sk for information requests; public email distinct from company correspondence.",
+      "review_note": "Official public instructions direct inspection reports and enquiries to its form. Post-draft ordinary-browser pass 24 September 2026 reached https://www.soi.sk/nahlasit-podnet and displayed name, trader, product/service, incident-description and attachment fields, a declaration checkbox, CAPTCHA and submit button, with no error banner in this browser. Its EAA-specific purpose and actual submission were not observed; the form is a general inspection-report intake. No form filled or submitted. Email is general SOI reports, not labelled dedicated EAA. Website says info@soi.sk for information requests; public email distinct from company correspondence. isolated no-history Slovak-to-English language agent, 2026-09-24: §8(2)(b) original 'prešetruje podnety týkajúce sa nesúladu služby s požiadavkami na prístupnosť'; literal 'investigates submissions concerning a service's failure to meet accessibility requirements'. Reviewed 'SOI investigates public reports about noncompliant services'; verdict Correction needed because 'public' is unstated and noncompliance may be alleged. Final research wording: 'SOI investigates reports alleging that a service fails to meet accessibility requirements'; public route audience follows SOI's public reporting instructions, not §8 alone.",
       "directive_context": "EAA",
       "scope": "SOI products and Act 351 services",
       "reporting_route": {
@@ -237,7 +237,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "SOI's direct email confirms reports generally; whether this specific statutory notice and exemptions use that same inbox was not expressly answered; table uses broad 'Company reports', not purpose-specific statutory label.",
+      "review_note": "SOI's direct email confirms reports generally; whether this specific statutory notice and exemptions use that same inbox was not expressly answered; table uses broad 'Company reports', not purpose-specific statutory label. isolated no-history Slovak-to-English language agent, 2026-09-24: original §6(1)(d) 'bezodkladne informovať príslušný orgán dohľadu ... o dôvodoch ... nie je v súlade ... a o nápravných opatreniach'; literal 'promptly inform the competent authority of reasons why the service is not compliant and corrective measures'. Reviewed 'when they cannot meet accessibility requirements'; verdict Correction needed because actual nonconformity and host-state authority were omitted. Final claim states actual nonconformity and corrective measures to domestic and relevant host-state authorities.",
       "directive_context": "EAA",
       "scope": "Act 351 services"
     },
@@ -319,7 +319,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Official telecom contact page reader returned internal error; post-draft single browser pass may verify. 112 answering/handling authority still unknown.",
+      "review_note": "Official telecom contact page reader returned internal error; post-draft single browser pass may verify. 112 answering/handling authority still unknown. The same single post-draft browser attempt to the telecom contact destination ended in a TLS-chain 502; no form or purpose was observed. Remain Unknown.",
       "directive_context": "EAA",
       "scope": "Electronic communications; 112"
     }
@@ -330,8 +330,8 @@
     "Before merge: Slovakia / company reports email and accepted English/Slovak — maintainer inspect 19 February 2026 reply in supplied 'Questions about reporting for the EAA (7).eml'; resolved when provenance and exact wording are accepted.",
     "Follow-up: SOI did not answer 19 February dedicated accessibility-statement and monitoring questions; 24 September reminder sent by contributor; retain Unknown until explicit official answer.",
     "Follow-up: Determine whether info@soi.sk specifically accepts §6(1)(d) non-compliance and §7(5) exemptions; broad reporting confirmation alone does not distinguish these.",
-    "Follow-up: Verify teleoff.gov.sk official intake, audience, purpose and whether electronic-communications accessibility reports can use it; reader returned internal error.",
-    "Follow-up: Check SOI public form https://www.soi.sk/nahlasit-podnet in an ordinary browser; fields displayed but error banner prevented claiming submission usability.",
+    "Follow-up: telecom contact https://www.teleoff.gov.sk/kontakt/ failed one 24 September 2026 browser attempt with certificate-chain 502; verify official intake in an environment that validates the certificate and confirm audience/EAA purpose. Do not bypass a browser certificate warning.",
+    "Follow-up: SOI public form https://www.soi.sk/nahlasit-podnet displayed general product/service report intake fields in the 24 September 2026 ordinary browser; EAA-specific applicability and actual submission were not tested. Seek SOI guidance before labeling it a dedicated EAA form.",
     "Follow-up: Identify the competent authority and usable route for 112 answering/handling accessibility; do not extend telecom remit automatically.",
     "Follow-up: Confirm the Council's multimodal-access form covers accessibility of access-to-AVMS services beyond broadcast subtitles/signing/audio-description; current publication stays within the displayed form purpose."
   ]
