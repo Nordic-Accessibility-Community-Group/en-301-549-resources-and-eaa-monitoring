@@ -513,22 +513,10 @@
   </tr>
   <tr>
     <td>Luxembourg</td>
-    <td>✖️<a href="https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html">No</a></td>
-    <td><a href="https://osaps.lu">OSAPS (Office de la Surveillance de l'Accessibilité des Produits et Services)</a> </td>
-    <td><ul><li><a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html">Reporting tool: English 🇬🇧, French 🇫🇷 , German 🇩🇪</a></li><li>Email is not accepted as reporting channel.</li></ul></td>
-    <td>
-      <ul>
-        <li>
-          <a href="https://accessibilite-produits-services.public.lu/en/actualites/wcag.html">WCAG: is it sufficient for the European Accessibility Act?"</a>
-        </li>
-        <li>
-          <a href="https://accessibilite-produits-services.public.lu/en/entreprises/demarches/decl.html">🇬🇧 Declaration of non-compliance</a>
-        </li>
-        <li>
-          <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html">🇬🇧 Instructions in English</a>
-        </li>
-      </ul>
-    <p>⚖️ EAA implementing law: <a href="https://accessibilite-produits-services.public.lu/fr/communaute/loi.html">Loi du 8 mars 2023 relative aux exigences en matière d’accessibilité applicables aux produits et services</a>.</p></td>
+    <td>✖️ <a href="https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html">No</a></td>
+    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li><a href="https://accessibilite-produits-services.public.lu/en/osaps.html">Office for monitoring the accessibility of products and services (OSAPS)</a>.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
+    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public reports (natural persons): <a href="https://guichet.public.lu/en/citoyens/citoyennete/accessibilite/accessibilite-produits-services/declaration-non-conformite-accessibilite-pp.html">MyGuichet report</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Non-compliance reports (legal persons): <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html">MyGuichet declaration</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Exemptions: <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/derogation-exigences-accessibilite.html">MyGuichet notification procedure</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li></ul></td>
+    <td><p>⚖️ EAA implementing law: <a href="https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo">Loi du 8 mars 2023 relative aux exigences en matière d’accessibilité applicables aux produits et services</a>.</p></td>
   </tr>
   <tr>
     <td>Malta</td>
