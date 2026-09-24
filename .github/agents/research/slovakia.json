@@ -308,7 +308,7 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "Purpose-specific public accessibility report route for electronic communications and 112 has been confirmed.",
+      "assertion": "A dedicated public EAA accessibility report route for electronic communications or 112 has been confirmed.",
       "status": "unknown",
       "sources": [
         {
@@ -319,9 +319,88 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Official telecom contact page reader returned internal error; post-draft single browser pass may verify. 112 answering/handling authority still unknown. The same single post-draft browser attempt to the telecom contact destination ended in a TLS-chain 502; no form or purpose was observed. Remain Unknown. Repeat attempt on 24 September 2026 had the same certificate-chain failure; no reporting route or audience confirmed.",
+      "review_note": "Official telecom contact page reader returned internal error; post-draft single browser pass may verify. 112 answering/handling authority still unknown. The same single post-draft browser attempt to the telecom contact destination ended in a TLS-chain 502; no form or purpose was observed. Remain Unknown. Repeat attempt on 24 September 2026 had the same certificate-chain failure; no reporting route or audience confirmed. A general electronic-communications inspection-request address is now established; EAA-specific eligibility and 112 answering/handling remain unknown.",
       "directive_context": "EAA",
       "scope": "Electronic communications; 112"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "SOI offers a general form for public tips requesting possible inspection concerning goods or services; the form does not identify a dedicated EAA intake.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.soi.sk/nahlasit-podnet",
+          "accessed_on": "2026-09-24",
+          "section": "Public report form and instructions",
+          "evidence": "The page displays submitter and trader details, goods/services selector, incident description and submit control; describes public tips and says an inspection tip is not a formal complaint under Act 9/2010.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Ordinary browser displayed the form and a CAPTCHA on 24 September 2026, twice. No form was filled or submitted; this verifies page and visible intake fields, not successful submission. Automated text extraction displayed an error notice. Link outcome: reachable in ordinary browser; destination unchanged. Isolated no-history Slovak-to-English review 24 September 2026: original 'Nahlásiť podnet', 'Druh (tovar alebo služba)', 'podnety verejnosti ... najmä od spotrebiteľov', 'Podnet ku kontrole NIE JE sťažnosťou'; literal 'submit a tip/referral', 'goods or services', 'public tips particularly from consumers', 'inspection tip is not a formal complaint'. Initial 'inspection-report form' was mildly ambiguous; corrected final table wording 'SOI form to submit a public tip for possible inspection (goods or services; EAA-specific purpose unconfirmed)' Supported.",
+      "directive_context": "EAA",
+      "scope": "SOI specified products and services",
+      "reporting_route": {
+        "authority": "Slovak Trade Inspection",
+        "sector": "Goods and services within SOI remit",
+        "channel": "form",
+        "destination": "https://www.soi.sk/nahlasit-podnet",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The telecom regulator publishes e-podatelna@teleoff.gov.sk for inspection requests concerning electronic communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.teleoff.gov.sk/urad/informacie-urade/vseobecne-informacie-zo-zakona/",
+          "accessed_on": "2026-09-24",
+          "section": "Inspection requests under electronic communications supervision",
+          "evidence": "Official indexed text states an inspection request (podnet na vykonanie kontroly) may be sent to e-podatelna@teleoff.gov.sk.",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.teleoff.gov.sk/kontakt/vseobecne-kontakty/egovernment/",
+          "accessed_on": "2026-09-24",
+          "section": "eGovernment correspondence",
+          "evidence": "Official indexed text says the address accepts questions, requests and submissions for all offices without electronic signature; 2 MB maximum.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "The user supplied the email address 24 September 2026 and both official regulator pages independently identify it. Their direct URLs yielded 502 certificate verification errors in this browser on earlier attempts; link outcome remains unreachable in this environment while official indexed text supports the exact address and inspection-request purpose. No email sent. The email is a general office correspondence address, not proof of a dedicated EAA accessibility route. Isolated no-history Slovak-language review 24 September 2026: original 'Podnet na vykonanie kontroly môžete ... poslať na e-podatelna@teleoff.gov.sk'; literal 'you may send an inspection request to the email'; initial 'Public reports (general telecom inspection requests)' needed narrowing; final 'Public reports (inspection requests)' Supported with the audience on the public page and EAA-specific qualification.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications",
+      "reporting_route": {
+        "authority": "Regulatory Authority for Electronic Communications and Postal Services",
+        "sector": "Electronic communications inspection requests",
+        "channel": "email",
+        "destination": "e-podatelna@teleoff.gov.sk",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "The telecom regulator's central correspondence email accepts general enquiries from companies; no dedicated EAA non-compliance or exemption intake is established.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.teleoff.gov.sk/kontakt/vseobecne-kontakty/egovernment/",
+          "accessed_on": "2026-09-24",
+          "section": "Correspondence address",
+          "evidence": "Official indexed text says the inbox receives questions, applications and submissions for all regulator workplaces and accepts email without an electronic signature.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "General enquiries only, not company statutory reporting. The official page was inaccessible in this browser due certificate-chain 502; indexed official text and user-supplied address provide provenance. Isolated no-history Slovak-language review 24 September 2026: original 'určený na prijatie otázok, žiadostí aj podnetov za všetky pracoviská úradu' and 'slúži len ako korešpondenčná adresa úradu'; literal 'intended to receive questions, requests and submissions for all offices' and 'serves only as correspondence address'. Reviewed exact 'Company enquiries: e-podatelna@teleoff.gov.sk (general office correspondence)' — Supported as one audience subset without suggesting a dedicated company filing route. No language acceptance asserted, no mail sent.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications",
+      "reporting_route": {
+        "authority": "Regulatory Authority for Electronic Communications and Postal Services",
+        "sector": "General correspondence concerning electronic communications",
+        "channel": "email",
+        "destination": "e-podatelna@teleoff.gov.sk",
+        "eaa_specific": false
+      }
     }
   ],
   "questions": [
@@ -330,8 +409,8 @@
     "Before merge: Slovakia / company reports email and accepted English/Slovak — maintainer inspect 19 February 2026 reply in supplied 'Questions about reporting for the EAA (7).eml'; resolved when provenance and exact wording are accepted.",
     "Follow-up: SOI did not answer 19 February dedicated accessibility-statement and monitoring questions; 24 September reminder sent by contributor; retain Unknown until explicit official answer.",
     "Follow-up: Determine whether info@soi.sk specifically accepts §6(1)(d) non-compliance and §7(5) exemptions; broad reporting confirmation alone does not distinguish these.",
-    "Follow-up: telecom contact https://www.teleoff.gov.sk/kontakt/ failed one 24 September 2026 browser attempt with certificate-chain 502; verify official intake in an environment that validates the certificate and confirm audience/EAA purpose. Do not bypass a browser certificate warning. User-requested second check on 24 September repeated the result.",
-    "Follow-up: SOI public form https://www.soi.sk/nahlasit-podnet displayed general product/service report intake fields in the 24 September 2026 ordinary browser; EAA-specific applicability and actual submission were not tested. Seek SOI guidance before labeling it a dedicated EAA form.",
+    "Follow-up: Official telecom pages indexed e-podatelna@teleoff.gov.sk for general inspection requests and correspondence, but direct page access still yielded certificate-chain 502; maintainer may verify page/link availability and ask whether the inbox accepts EAA-specific company non-compliance and exemption filings.",
+    "Follow-up: SOI general public-inspection-tip form has visible goods/service fields and is included as such; EAA-specific purpose and successful submission remain unverified.",
     "Follow-up: Identify the competent authority and usable route for 112 answering/handling accessibility; do not extend telecom remit automatically.",
     "Follow-up: Confirm the Council's multimodal-access form covers accessibility of access-to-AVMS services beyond broadcast subtitles/signing/audio-description; current publication stays within the displayed form purpose."
   ]
