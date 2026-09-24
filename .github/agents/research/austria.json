@@ -4,8 +4,8 @@
   "claims": [
     {
       "field": "statement",
-      "assertion": "Existing Yes and contributor claim of a required public accessibility statement are retained.",
-      "status": "unknown",
+      "assertion": "On 17 November 2025, Sozialministeriumservice confirmed that economic operators must make their accessibility statements publicly accessible.",
+      "status": "verified",
       "sources": [
         {
           "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Informations--und-Dokumentationspflichten.de.html",
@@ -15,10 +15,10 @@
           "section": "Pflichten der Dienstleistungserbringer"
         }
       ],
-      "review_note": "Existing additional text attributes the public-statement requirement directly to the agency. Original correspondence/date unavailable; preserved Yes, provenance retained here. Public sources verify a public information duty, not a standalone page requirement. No explicit contrary official evidence justifies changing Yes. Do not confuse the authority website's own WAD statement with BaFG duties.",
+      "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. This supports the existing Yes. The answer does not expressly require a separate standalone webpage or specific URL. The linked public guidance supports the broader information duty; the dated correspondence supports this statement requirement. Isolated English paraphrase review on 24 September 2026 supported the summary and this limitation.",
       "directive_context": "EAA",
       "existing_text": "✔️ Yes; Public accessibility statement is required by information directly from the monitoring agency.",
-      "information_mode": "dedicated_public_page"
+      "information_mode": "public_other"
     },
     {
       "field": "service_information",
@@ -284,7 +284,7 @@
       "assertion": "Exemptions reporting route is unknown.",
       "status": "unknown",
       "sources": [],
-      "review_note": "General company contact and mention of BaFG §§17–18 do not by themselves verify an accepted exemption-notification route. No new channel asserted. Shared label remains Exemptions:. EAA Article 14, particularly 14(8), is background only, not local channel evidence.",
+      "review_note": "General company contact and mention of BaFG §§17–18 do not by themselves verify an accepted exemption-notification route. No new channel asserted. Shared label remains Exemptions:. EAA Article 14, particularly 14(8), is background only, not local channel evidence. Subsequently supplied correspondence dated 10 November 2025 confirms prior receipt of company exemption reports by email. Current exemption-specific submission instructions remain a follow-up; this statement-evidence update does not change the table channel.",
       "directive_context": "EAA"
     },
     {
@@ -300,16 +300,16 @@
           "section": "§14(5)"
         }
       ],
-      "review_note": "Existing contributor entry has no dated correspondence supplied. Narrow statutory language rule does not independently verify every report category. No contradictory official policy found; retained without inventing provenance.",
+      "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. The 10 November reply supports general English company-reporting acceptance. It does not establish a blanket policy covering every public complaint or later correspondence. The existing table languages remain; the narrow statutory German/English evidence rule is separate.",
       "directive_context": "EAA",
       "existing_text": "Reports accepted in German 🇩🇪 and in English 🇬🇧."
     },
     {
       "field": "additional_information",
-      "assertion": "Existing claim that no company reporting tool is available retained in research.",
-      "status": "unknown",
+      "assertion": "The authority confirmed no dedicated company reporting tool as of 10 November 2025.",
+      "status": "verified",
       "sources": [],
-      "review_note": "Existing contributor information, not newly verified. The discovered public reporting form is for consumers' perceived barriers, so it does not contradict the claim about companies. Table now gives the verified company email route; absence-of-tool claim is kept here to minimize public text.",
+      "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. Historical confirmation only; this reply alone does not establish current availability. A public reporting form is a separate channel. Isolated English paraphrase review Supported.",
       "directive_context": "EAA",
       "existing_text": "No reporting tool available for companies."
     },
@@ -351,15 +351,23 @@
       "assertion": "Link audit, evidence verification and language review completed within the bounded run.",
       "status": "verified",
       "sources": [],
-      "review_note": "2026-09-24: all original authority-site links opened successfully; original agency name had no link. Exact corrected email independently corroborated in report and company/public contact pages. Public form purpose checked against its own instructions. RIS reachability failures recorded separately from indexed legal evidence. Research started 2026-09-24T14:29:10.012Z. Ten-minute budget shared by research, verification and language; remaining items Unknown, max two attempts per failing URL and two targeted follow-up searches per question. Isolated German-to-English agent /root/austrian_language, fork_turns=none, received only passages/URLs and candidate text; all four candidates Supported. Original 'mit dem Vollzug des Barrierefreiheitsgesetzes betraut' -> 'entrusted with implementing/enforcing the Barrierefreiheitsgesetz'; final grouped sector label with 'Sozialministeriumservice (BaFG-covered products and consumer services)' Supported, qualifier required. Original 'Wenn Sie einen Hinweis nach dem Barrierefreiheitsgesetz melden möchten' -> 'If you wish to report a concern under the Barrierefreiheitsgesetz'; final 'Public complaints: Sozialministeriumservice reporting form or marktueberwachung-bafg@sozialministeriumservice.gv.at' Supported as category, not formal appeal. Original 'Die Übermittlung der angeforderten Dokumente kann per Mail' -> 'The transmission of the requested documents can [be made] by email'; final 'Company non-compliance: marktueberwachung-bafg@sozialministeriumservice.gv.at (submission requirements)' Supported. Original 'diese der Allgemeinheit in schriftlicher und mündlicher Form bereitzustellen' -> 'to make these available to the general public in written and oral form'; final research phrase 'Service accessibility information must be made available to the public in written and oral form; this passage does not specify a standalone public page' Supported. Original law title retained. No corrections required. Preserved Yes and language policy not independently translation-verified without original correspondence. AI review is not human/legal approval. GitHub Actions intentionally deferred per user. Additional isolated research-text review: §14(5) 'auf dessen begründetes Verlangen' -> 'upon its reasoned request', German/English conformity-evidence summary Supported; Annex3 'in den allgemeinen Geschäftsbedingungen oder einem ähnlichen Dokument' -> 'in the general terms and conditions or a similar document', candidate terms/equivalent-document summary Supported. Comparisons based on supplied official indexed German passages, not successful live RIS retrieval. Direct §14 URL also returned 503. Research stopped after completing the bounded checks; no claim of full verification.",
+      "review_note": "2026-09-24: all original authority-site links opened successfully; original agency name had no link. Exact corrected email independently corroborated in report and company/public contact pages. Public form purpose checked against its own instructions. RIS reachability failures recorded separately from indexed legal evidence. Research started 2026-09-24T14:29:10.012Z. Ten-minute budget shared by research, verification and language; remaining items Unknown, max two attempts per failing URL and two targeted follow-up searches per question. Isolated German-to-English agent /root/austrian_language, fork_turns=none, received only passages/URLs and candidate text; all four candidates Supported. Original 'mit dem Vollzug des Barrierefreiheitsgesetzes betraut' -> 'entrusted with implementing/enforcing the Barrierefreiheitsgesetz'; final grouped sector label with 'Sozialministeriumservice (BaFG-covered products and consumer services)' Supported, qualifier required. Original 'Wenn Sie einen Hinweis nach dem Barrierefreiheitsgesetz melden möchten' -> 'If you wish to report a concern under the Barrierefreiheitsgesetz'; final 'Public complaints: Sozialministeriumservice reporting form or marktueberwachung-bafg@sozialministeriumservice.gv.at' Supported as category, not formal appeal. Original 'Die Übermittlung der angeforderten Dokumente kann per Mail' -> 'The transmission of the requested documents can [be made] by email'; final 'Company non-compliance: marktueberwachung-bafg@sozialministeriumservice.gv.at (submission requirements)' Supported. Original 'diese der Allgemeinheit in schriftlicher und mündlicher Form bereitzustellen' -> 'to make these available to the general public in written and oral form'; final research phrase 'Service accessibility information must be made available to the public in written and oral form; this passage does not specify a standalone public page' Supported. Original law title retained. No corrections required. At the initial audit, original correspondence was unavailable. The subsequently supplied 10/17 November 2025 replies now support public statements and dated English company reporting, as recorded in the updated claims. AI review is not human/legal approval. GitHub Actions intentionally deferred per user. Additional isolated research-text review: §14(5) 'auf dessen begründetes Verlangen' -> 'upon its reasoned request', German/English conformity-evidence summary Supported; Annex3 'in den allgemeinen Geschäftsbedingungen oder einem ähnlichen Dokument' -> 'in the general terms and conditions or a similar document', candidate terms/equivalent-document summary Supported. Comparisons based on supplied official indexed German passages, not successful live RIS retrieval. Direct §14 URL also returned 503. Research stopped after completing the bounded checks; no claim of full verification.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "On 10 November 2025, the authority stated that companies could generally report in English and that it had already received emails from foreign companies reporting non-conformities and exemptions.",
+      "status": "verified",
+      "directive_context": "EAA",
+      "sources": [],
+      "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. Dated confirmation, not a freshly checked universal language policy. A separate no-history English paraphrase review clarified the distinction between permission and reports already received; corrected wording rechecked Supported."
     }
   ],
   "questions": [
     "Before PR: Resolved — reporting mailbox typo corrected using two official sources; text and mailto must both contain sozialministeriumservice.gv.at.",
     "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
-    "Follow-up: Contributor may supply dated original authority confirmation of public-statement requirement and German/English reporting acceptance. Missing correspondence does not override existing Yes or languages.",
-    "Follow-up: Establish an officially accepted exemption-notification route. A law alone is insufficient without a form/email/postal route accepted for that purpose.",
+    "Resolved: Official correspondence dated 10/17 November 2025 now supports the public-statement claim and dated English company-reporting acceptance. No further request for that correspondence is needed.",
+    "Follow-up: The 10 November 2025 correspondence confirms prior exemption reports by email. Verify current exemption-specific submission instructions before updating that table channel.",
     "Follow-up: Establish current 112 emergency-answering accessibility supervisory authority and reporting route; do not infer them from operational emergency-service information.",
     "Follow-up: Revisit unavailable RIS pages for current consolidated law, full exceptions/transitions and any regulator-specific page-versus-terms/on-request practice.",
     "Follow-up: Inspect public form login and full input requirements without submission; extraction confirms purpose, not end-to-end operation."
