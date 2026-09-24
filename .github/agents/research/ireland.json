@@ -312,7 +312,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Reachable dedicated EAA page; no email sent. Language acceptance unknown. Do not reproduce apparent errors in the page's standards naming or terminal lifespan summary.",
+      "review_note": "Reachable dedicated EAA page; no email sent. Language acceptance unknown. Do not reproduce apparent errors in the page's standards naming or terminal lifespan summary. Rerun24 September2026: dedicated EAA page rechecked; no explicit separate public-complaint or exemption-notification process established beyond existing provider notification/contact evidence.",
       "directive_context": "EAA",
       "scope": "Transport: bus, rail and water",
       "reporting_route": {
@@ -328,7 +328,7 @@
       "assertion": "Banking: reporting route not verified in this run.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route.",
+      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: Central Bank EAA hub and EAA complaint guidance checked. Consumer email found separately; no specific company/exemption intake verified. Do not repurpose consumer route.",
       "directive_context": "EAA",
       "scope": "Banking"
     },
@@ -337,7 +337,7 @@
       "assertion": "Transport: air: reporting route not verified in this run.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route.",
+      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: IAA airline guidance and accessibility-query form page reachable; extracted form page still lacks input controls. IAA Access Officer/WAD contacts concern IAA's own services and were excluded. Company/exemption channel remains unverified.",
       "directive_context": "EAA",
       "scope": "Transport: air"
     },
@@ -346,7 +346,7 @@
       "assertion": "112 emergency calls: reporting route not verified in this run.",
       "status": "unknown",
       "sources": [],
-      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route.",
+      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: targeted ComReg search did not establish regulator112-specific intake. ECAS https://112.ie/contact-us/ is a reachable operator enquiry/complaint form, not established as a monitoring-authority reporting route; not added to table.",
       "directive_context": "EAA",
       "scope": "112 emergency calls"
     },
@@ -354,8 +354,16 @@
       "field": "company_reporting",
       "assertion": "Audiovisual access: companies and exemptions: reporting route not verified in this run.",
       "status": "unknown",
-      "sources": [],
-      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route.",
+      "sources": [
+        {
+          "url": "https://www.cnam.ie/industry-and-professionals/broadcasting-on-demand-digital/accessibility-of-audiovisual-media-services/industry-obligations/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exemptions section asks economic operators to contact CnaM and provide assessments; destination obscured in retrieved text.",
+          "source_type": "monitoring_body",
+          "section": "Exemptions"
+        }
+      ],
+      "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: page reachable but email obfuscated; link resolution failed and direct HTML retrieval returned403. Do not substitute footer usersupport address without evidence.",
       "directive_context": "EAA",
       "scope": "Audiovisual access: companies and exemptions"
     },
@@ -371,7 +379,7 @@
           "source_type": "monitoring_body"
         }
       ],
-      "review_note": "Existing official law URL retained. Statute retrieval failed twice (timeout,403); no further retries. Primary regulator corroborates instrument; no new statutory paragraph interpretation published.",
+      "review_note": "Existing official law URL retained. Statute retrieval failed twice (timeout,403); no further retries. Primary regulator corroborates instrument; no new statutory paragraph interpretation published. Targeted rerun24 September2026: both new statute access attempts failed again (403/internal error). Search index exposes official instrument, but direct reading remains unavailable.",
       "directive_context": "EAA"
     },
     {
@@ -397,14 +405,115 @@
       "sources": [],
       "review_note": "Not independently checked within budget; existing links labelled secondary in table. They do not support any new verified assertion.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "No official correspondence email contact has yet been established for this Ireland research.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Contributor update,24 September2026. This records the research contact gap, not absence of published authority email addresses. Published reporting/query mailboxes are not evidence of an established correspondence contact or an official reply. Research task: identify and verify the correct authority/team email for clarifying remaining questions; record sector, purpose, source and any response. No email sent.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Consumers can send EAA complaints to the Central Bank at enquiries@centralbank.ie using the subject EAA alleged non-compliance.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.centralbank.ie/contact-us/complaints-against-a-financial-service-provider",
+          "accessed_on": "2026-09-24",
+          "evidence": "EAA section names enquiries@centralbank.ie and the required subject; recommends raising issues with the firm first and encourages reporting widespread/systemic concerns.",
+          "source_type": "monitoring_body",
+          "section": "European Accessibility Act"
+        }
+      ],
+      "review_note": "Targeted rerun24 September2026: reachable official page. Email route needs no portal login; no email sent. Accepted languages and response time not established. Not a company self-reporting or exemption route. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+      "scope": "Banking",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Central Bank of Ireland",
+        "sector": "Banking",
+        "channel": "email",
+        "destination": "enquiries@centralbank.ie",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "ComReg Consumer Care accepts phone/broadband accessibility complaints through its published complaint form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.comreg.ie/advice-information/service-provider-requirements/service-provider-accessibility-requirements/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Complaints section directs phone/broadband accessibility concerns to Consumer Care and says it follows up EAA noncompliance.",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Contact page supplies an online complaint form with case/category/contact and query details.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Targeted rerun24 September2026: both pages reachable, form fields visible without login; no submission tested. Do not extend to112 answering complaints. Access Officer email concerns ComReg's own accessibility, not provider regulation. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+      "scope": "Electronic communications: phone/broadband",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "ComReg",
+        "sector": "Electronic communications: phone/broadband",
+        "channel": "form",
+        "destination": "https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "statement",
+      "assertion": "ComReg explicitly requires website accessibility statements for its electronic communications sector under existing measures; this does not establish a country-wide EAA dedicated-page duty.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.comreg.ie/advice-information/service-provider-requirements/service-provider-accessibility-requirements/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Providers must publish website accessibility statements; review section describes existing measures operating alongside EAA.",
+          "source_type": "monitoring_body",
+          "section": "ComReg Measures / An Accessibility Statement / Review"
+        }
+      ],
+      "review_note": "Targeted rerun24 September2026: reachable. Separate sector-specific measures; Ireland overall Unknown preserved. Do not reproduce page's apparent S.I.626/2023 typo; implementing instrument is636/2023. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+      "scope": "Electronic communications",
+      "directive_context": "other",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "statement",
+      "assertion": "IAA recommends including accessibility information in documents such as an accessibility statement; this passage does not prescribe a dedicated statement page.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility",
+          "accessed_on": "2026-09-24",
+          "evidence": "Accessible Information section says relevant information must be accessible and should be included in documents such as an Accessibility Statement.",
+          "source_type": "monitoring_body",
+          "section": "Accessible Information"
+        }
+      ],
+      "review_note": "Targeted rerun24 September2026: reachable. Mandatory accessible information distinguished from example document and recommended inclusion; no country-wide Yes inferred. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+      "scope": "Transport: air",
+      "directive_context": "EAA",
+      "information_mode": "public_other"
     }
   ],
   "questions": [
-    "Before PR: resolved by narrowing — do not publish IAA query-page shell as a verified usable form; air route remains Unknown.",
-    "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; current public page confirms queries only. Existing information retained.",
-    "Follow-up: check Central Bank public/company/exemption routes and IAA live query form; confirm intended audiences and any authentication requirements.",
-    "Follow-up: identify112-specific reporting, CnaM company/exemption destination (email was obfuscated), and transport public/exemption routes.",
-    "Follow-up: clarify sector-specific dedicated-page practices, including ComReg customer-charter rules, without generalising them to all EAA services.",
-    "Follow-up: recheck official statute on a future run; two failed attempts exhausted. Research stopped at shared ten-minute budget; not all baseline subchecks independently completed."
+    "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
+    "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; published CCPC page establishes queries only. Existing entry retained.",
+    "Follow-up: banking public route resolved in rerun; company/exemption intake remains unknown. Identify explicit official instructions; do not reuse consumer email without support.",
+    "Follow-up: IAA query page still lacks retrievable form controls. Reviewer can inspect in a browser and record destination, intended public/company audience and login requirements; air reporting remains Unknown until verified.",
+    "Follow-up: establish a ComReg route specifically for112 answering complaints/company reports; ECAS operator form is not a regulator route.",
+    "Follow-up: resolve CnaM exemption email from the official Exemptions section and verify company noncompliance intake; obfuscated email/link and403 prevented verification.",
+    "Follow-up: NTA public complaint and exemption routes remain unverified after rereading its EAA page.",
+    "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
+    "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown.",
+    "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete."
   ]
 }
