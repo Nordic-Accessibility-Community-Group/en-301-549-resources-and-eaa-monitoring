@@ -685,13 +685,18 @@
     <td>
       <p><strong>Products, E-commerce, Banking, Transport and E-books (SOI remit):</strong></p>
       <ul>
-        <li><strong>Public reports:</strong> <a href="mailto:podnety@soi.sk">podnety@soi.sk</a> (general SOI reports).</li>
+        <li><strong>Public reports:</strong> <a href="https://www.soi.sk/nahlasit-podnet">SOI form to submit a public tip for possible inspection</a> (goods or services; EAA-specific purpose unconfirmed), or <a href="mailto:podnety@soi.sk">podnety@soi.sk</a> (general SOI reports).</li>
         <li><strong>Company reports:</strong> <a href="mailto:info@soi.sk">info@soi.sk</a>; SOI accepts 🇸🇰 Slovak and 🇬🇧 English (official correspondence).</li>
         <li><strong>Company non-compliance:</strong> ❓ Purpose-specific filing route unknown.</li>
         <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
       </ul>
       <p><strong>Electronic communications:</strong></p>
-      <ul><li><strong>Public and company reporting:</strong> ❓ Unknown.</li></ul>
+      <ul>
+        <li><strong>Public reports (inspection requests):</strong> <a href="mailto:e-podatelna@teleoff.gov.sk">e-podatelna@teleoff.gov.sk</a> (general regulator intake; EAA-specific purpose unconfirmed).</li>
+        <li><strong>Company enquiries:</strong> <a href="mailto:e-podatelna@teleoff.gov.sk">e-podatelna@teleoff.gov.sk</a> (general office correspondence).</li>
+        <li><strong>Company non-compliance:</strong> ❓ Purpose-specific filing route unknown.</li>
+        <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
+      </ul>
       <p><strong>Audiovisual access (multimodal services):</strong></p>
       <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p>
