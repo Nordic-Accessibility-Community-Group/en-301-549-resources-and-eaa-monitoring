@@ -328,9 +328,49 @@
   <tr>
     <td>France</td>
     <td>✔️ <a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/">Yes</a> </td>
-    <td><ul><li>Main authority listed in the DGCCRF guidance: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a></li><li>DGCCRF controls covered products including computers, smartphones, tablets, payment terminals, self-service terminals, phones, internet boxes, modems, personal routers, TV equipment, decoders and e-readers.</li><li>DGCCRF coordinates checks for covered services with <a href="https://www.arcom.fr/">ARCOM</a>, <a href="https://www.arcep.fr/">ARCEP</a>, <a href="https://www.banque-france.fr/">Banque de France</a>, <a href="https://acpr.banque-france.fr/">ACPR</a> (Autorité de contrôle prudentiel et de résolution) and <a href="https://www.amf-france.org/fr">AMF</a> (Autorité des marchés financiers).</li><li>Electronic communications: <a href="https://www.arcep.fr/">ARCEP</a></li><li>Access to audiovisual media services: <a href="https://www.arcom.fr/">ARCOM</a></li><li>Banking, payment and financial services: <a href="https://www.banque-france.fr/">Banque de France</a>, <a href="https://acpr.banque-france.fr/">ACPR</a> and <a href="https://www.amf-france.org/fr">AMF</a></li></ul></td>
-    <td><ul><li>Reporting tool for the public: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso accessibility reporting route</a></li><li>Reporting tool for companies/professionals: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">Declaration of non-compliance or invocation of an accessibility exemption</a><ul><li>This procedure is managed by DGCCRF.</li><li>It is for economic operators declaring non-compliance or invoking an exemption.</li></ul></li></ul></td>
-    <td><ul><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance on EAA obligations</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">DGCCRF guidance on professional declarations</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">DGCCRF guidance on SignalConso reporting</a></li><li>DGCCRF says controls started when the rules entered into force on 28 June 2025, especially following reports.</li><li>DGCCRF agents may order professionals to bring products and services into compliance. These orders may include daily penalties and publicity measures.</li><li>France-specific transition rule: self-service terminals lawfully used before 28 June 2025 may continue to be used for similar services until the end of their economically useful life, but not more than 15 years after entry into service.</li><li>DGCCRF states that a website or mobile app is not a "product" for this transition rule.</li><li><a href="https://accessibilite.numerique.gouv.fr/">Référentiel Général d'Amélioration de l'Accessibilité (RGAA)</a></li><li><a href="https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/">TPGi overview of French accessibility law and RGAA</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777">Loi n° 2023-171</a>; <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349">décret n° 2023-931</a>; <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178413">arrêté du 9 octobre 2023</a> (additional sector measures may apply).</p></td>
+    <td>
+      <p><strong>Products and E-commerce:</strong></p>
+      <ul><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> — covered products and services</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> — covered passenger-service elements</li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li><a href="https://www.arcep.fr/">ARCEP</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> (coordinated checks)</li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li><a href="https://www.arcom.fr/">Arcom</a></li><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> (coordinated checks)</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li><a href="https://acpr.banque-france.fr/">ACPR</a> and <a href="https://www.amf-france.org/fr">AMF</a> — comprehensibility and complexity of consumer information, within their respective remits</li><li><a href="https://www.banque-france.fr/">Banque de France</a> — accessibility of identification methods, electronic signatures, and security and payment services</li><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> (coordinated checks)</li></ul>
+      <p><strong>E-books:</strong></p>
+      <ul><li><a href="https://www.arcom.fr/">Arcom</a> — e-books and specialised software</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown</li></ul>
+    </td>
+    <td>
+      <p><strong>Products and E-commerce:</strong></p>
+      <ul><li>DGCCRF — Consumer problem reports: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>DGCCRF — Business self-reporting of non-compliance: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>DGCCRF — Exemptions: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li>DGCCRF — Consumer problem reports: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>DGCCRF — Business self-reporting of non-compliance: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>DGCCRF — Exemptions: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li>DGCCRF — Consumer problem reports: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>DGCCRF — Business self-reporting of non-compliance: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>DGCCRF — Exemptions: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Other sector-authority channels: ❓ Unknown.</li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li>DGCCRF — Consumer problem reports: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>DGCCRF — Business self-reporting of non-compliance: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>DGCCRF — Exemptions: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Other sector-authority channels: ❓ Unknown.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li>DGCCRF — Consumer problem reports: <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>DGCCRF — Business self-reporting of non-compliance: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>DGCCRF — Exemptions: <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Other sector-authority channels: ❓ Unknown.</li></ul>
+      <p><strong>E-books:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p>Statement link: Article 47/RGAA framework, where applicable; EAA service information may be included in general terms and conditions or an equivalent document.</p>
+      <ul>
+        <li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a></li>
+        <li><a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">DGCCRF company declarations</a></li>
+        <li><a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">DGCCRF SignalConso guidance</a></li>
+        <li><a href="https://accessibilite.numerique.gouv.fr/">RGAA</a></li>
+        <li><a href="https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/">TPGi overview (secondary source)</a></li>
+      </ul>
+      <p>⚖️ EAA implementing law: <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777">Loi n° 2023-171</a>; <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349">décret n° 2023-931</a>; <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178413">arrêté du 9 octobre 2023</a> (additional sector measures may apply).</p>
+    </td>
   </tr>
   <tr>
 		<td>Germany</td>
