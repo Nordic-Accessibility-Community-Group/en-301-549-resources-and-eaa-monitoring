@@ -567,15 +567,32 @@
       ],
       "review_note": "PTS-ER-2025:1, dated 2025-02-05, reference 25-402. URL reachable. Historical activity report/plan, not evidence that planned checks occurred or that supervision-process version 3.0 was replaced. Does not resolve the outstanding request for an updated process document. Preserve reporting and statement answers.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PR review triage applied on 24 September 2026.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "section": "Konsumentverkets ansvar / Underrättelser",
+          "evidence": "Identifies covered transport elements and the company notification email/postal destinations.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "directive_context": "EAA",
+      "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment. Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified. Reopened Konsumentverket's passenger-transport page, sections Konsumentverkets ansvar and Underrättelser: supports sector scope, email and postal address. PTS language/fallback check used the contributor's quoted reply already available in this conversation; original private files were not re-opened."
     }
   ],
   "questions": [
-    "Unknown: current English acceptance and API policy; supplied official reply establishes only the position on 24 October 2025.",
-    "Unknown: usable PTS app forms, authentication and accepted languages; both URLs again returned application shells.",
-    "Unknown: direct MTM form destinations and usability; each destination resolution failed twice in this rerun.",
-    "Unknown: Mediemyndigheten form fields/authentication/languages beyond reachable introductions; Transportstyrelsen reporting routes and Konsumentverket public/exemption routes remain unresolved.",
-    "Unknown: dedicated-page mandate across all sectors; PTS visible-link recommendation remains verified.",
-    "Confirm the second constitutional decision/final enactment before treating the proposed 2027 media changes as effective law.",
-    "Human wording review: the 21/25 August 2025 email exchange supplies the missing provenance for corrected-defect reporting; distinguish initial notification including measures already taken from later updates on already-reported defects. Preserve the contributor's existing entry."
+    "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
+    "Before PR: Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified.",
+    "Before merge: Sweden / Reporting, “So far, PTS accepts reporting in English” — confirm the concise wording preserves the dated experience described in the 24 October 2025 PTS reply, without suggesting a guaranteed future policy; evidence: contributor-supplied reply, question 1, recorded in sweden.json. Owner: contributor/Swedish-reading reviewer. Resolved when: reviewer approves this wording or supplies a newer PTS confirmation. No new agency contact is required to review the existing reply.",
+    "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
+    "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
+    "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
+    "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
+    "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged."
   ]
 }
