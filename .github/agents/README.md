@@ -30,6 +30,22 @@ For each country, check and record a result (including `unknown` when unsupporte
 4. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
 5. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
 
+## Surface manual checks immediately
+
+Apply this rule at every stage, as soon as an issue is discovered. Do not wait until the research ends or a PR is opened to tell the user about a concrete check that affects the proposed change.
+
+Separate findings into:
+
+- **Before PR:** a missing check could make a proposed table addition or correction inaccurate. Examples include an ambiguous translation that determines an authority's remit, a reporting form whose intended audience is unconfirmed, conflicting official evidence, or shortened wording that overstates its source.
+- **Before merge:** the proposed wording has supporting evidence and no unresolved accuracy blocker, but a specific human review is still required. This must not be used to defer an unresolved Before PR issue.
+- **Follow-up:** an unknown does not affect the supported changes being proposed, such as another sector's missing reporting route or a future process update. Keep it in research notes; it does not block unrelated work.
+
+Immediately show Before PR items to the user as an unchecked checklist. Each item must identify the country and exact claim/cell, the uncertainty and its consequence, the specific action or evidence needed, who can resolve it (agent or contributor/reviewer), and what will count as resolved. Avoid vague requests such as "review translations" or "check legal scope."
+
+Resolve agent-checkable issues within the existing research budget. Continue unrelated supported work. If human input is necessary, ask the concrete question immediately. Do not include the affected assertion in a PR until resolved; alternatively, omit or narrow that proposed addition and record why. Preserve existing manually gathered entries under the common rules.
+
+Record the classification in the existing `questions` strings using `Before PR:`, `Before merge:`, or `Follow-up:`, with supporting detail in `review_note`. These priorities do not replace claim evidence statuses. Missing public confirmation alone is not a blocker for preserving a contributor-supplied entry. Do not manufacture blockers for every unknown.
+
 ## Research limits and evidence handling
 
 Apply these checks to every country. Record authority remit and coverage separately from link reachability. An indexed search result can identify an official source, but does not establish that its URL opens successfully. Keep the URL, check date, final destination where available, and link outcome (`reachable`, `unreachable`, `unknown`, or `missing`) in `review_note`; these are link outcomes, not replacements for the claim's evidence status.
