@@ -32,7 +32,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Existing Yes (Source needed) preserved as manually gathered claim; law alone establishes accessible public written and oral information in terms or equivalent. Do not infer Yes from Art. 13 alone; seek official regulator publication instruction or contributor correspondence.",
+      "review_note": "Existing Yes (Source needed) preserved as manually gathered claim; law alone establishes accessible public written and oral information in terms or equivalent. Do not infer Yes from Art. 13 alone; seek official regulator publication instruction or contributor correspondence. Contributor clarified on 2026-09-24 that the explicit dedicated-public-page check awaits an official email response. This is a nonblocking research follow-up, not a manual pre-merge checkbox. Preserve the existing Yes (Source needed) without treating the pending answer as verification.",
       "directive_context": "EAA",
       "existing_text": "✔️ Yes (Source needed)",
       "information_mode": "dedicated_public_page"
@@ -452,7 +452,7 @@
     }
   ],
   "questions": [
-    "Follow-up: Portugal / accessibility-statement Yes — preserve contributor's existing Yes; obtain explicit competent monitoring-body/government instruction demanding a public webpage comparable to WAD, or original correspondence, beyond Art. 13/Annex II terms/equivalent. Owner: researcher; resolved by direct official instruction.",
+    "Follow-up: Portugal / accessibility-statement Yes — awaiting an official email answer. Preserve contributor's existing Yes (Source needed); once the Portuguese competent monitoring body or government responds, verify whether it explicitly requires a dedicated public page comparable to a WAD accessibility declaration, rather than only public terms or an equivalent document under Art. 13/Annex II. Owner: researcher; nonblocking for this PR; resolved by dated official reply or direct government guidance recorded with provenance.",
     "Follow-up: Portugal / company non-compliance and exemptions — obtain purpose-specific form, email or postal routes from ANACOM, ASAE, Banco de Portugal, CMVM, ERC, AMT, ANAC, IMT and IGAC; IDiPD email confirms forwarding but supplies no designated intake; owner: researcher; resolved with direct destination and audience/purpose.",
     "Follow-up: Portugal / reporting languages — IDiPD 27 May 2026 email states no formal English rule; confirm each agency's accepted language, plus any login requirement or deadline. Owner: researcher; resolved by official guidance/correspondence.",
     "Follow-up: Portugal / Banco de Portugal payment-account service — Art. 28(1)(e) omits the Art. 2(3)(e)(iv) account-associated service subparagraph. Confirm supervisor assignment from competent authority before saying complete coverage. Owner: researcher; resolved by explicit statutory or agency source.",
