@@ -29,12 +29,30 @@ Use the same sector-first structure in Monitoring agencies and Reporting tools f
 
 In Monitoring agencies, use `<p><strong>Sector:</strong></p>` followed by a `<ul>` of responsible authorities linked to their verified official websites. An authority name alone is insufficient unless its sector heading states the full relevant remit. Add only essential scope limits or delegation details to each list item. Preserve local names. Do not imply every authority listed under a sector supervises the entire sector; retain banking subsets, transport elements, product boundaries and delegated responsibilities. Clearly distinguish statutory authority classes from identified offices.
 
-In Reporting tools, use matching sector labels, identify the responsible authority and separate Public complaints, Company non-compliance and Exemptions. Preserve channel prerequisites, relevant languages and existing contributor information. When all channels for a sector are unestablished, use one concise `Reporting channels: ❓ Unknown.` item. Unknown authority and unknown reporting channel are different findings.
+In Reporting tools, use matching sector labels, identify the responsible authority and use the audience-and-purpose labels below. Preserve channel prerequisites, relevant languages and existing contributor information. When all channels for a sector are unestablished, use one concise `Public and company reporting: ❓ Unknown.` item. Unknown authority and unknown reporting channel are different findings.
 
 Group sectors only when they share the listed authority or reporting routes; otherwise list them separately. A shared channel never expands an authority's remit. Prefer grouping over repeated long addresses, but keep sector-to-authority mapping explicit. Use paragraph labels and lists, never `<br>`. Keep evidence narration in research notes/PR feedback.
 
 Check both columns against the recorded sector-to-authority mapping before handoff. Reusing existing supported names and scopes is a layout change; new, translated or meaning-sensitive scope wording still requires the evidence and isolated language checks. An unknown channel must not erase a known authority.
 
+## Shared audience-and-purpose labels
+
+Use `Public` or `Company` plus the purpose for every established reporting route:
+
+- `Public complaints:` for complaint procedures.
+- `Public reports:` for barrier or suspected non-compliance reports; do not imply a formal complaint procedure.
+- `Public enquiries:` for consultations and questions, distinct from complaints or statutory filings.
+- `Public enforcement requests:` for a distinct formal enforcement procedure; preserve eligibility conditions.
+- `Company non-compliance:` for companies reporting their own non-compliance.
+- `Company exemptions:` for exemption notifications.
+- `Company non-compliance / exemptions:` only when the same verified route supports both purposes.
+
+Keep sector and authority headings above the routes. Put a narrower scope in parentheses when needed. Put the form, email or postal channel after the purpose label, not in place of it. Use `Public and company reporting: ❓ Unknown.` when all routes are unestablished; this does not establish applicability or a reporting obligation. Where some purposes are known, show unknown purposes separately.
+
+Do not infer audience or statutory purpose from a general contact address or a form title alone. Preserve contributor-supplied generic reporting entries while recording the exact missing classification as a research follow-up. `Company reporting email:` and `Company reports:` are temporary broad labels when company reporting is established but its precise purpose is not. Do not turn them into non-compliance or exemption routes without evidence. Keep source-specific eligibility in research and any essential restriction in the table; Public/Company navigation labels are not exhaustive legal definitions.
+
+This vocabulary supersedes the former bare `Exemptions:` label. Keep historical source excerpts and review records intact; they describe the wording reviewed at that time.
+
 ## Shared exemption label
 
-Use exactly `Exemptions:` as the reporting label for every country. Do not append wording such as “invoking derogation grounds” to the label. Keep the nature, conditions and scope of the local notification route in the research record. The shared legal reference is [EAA Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882) (fundamental alteration and disproportionate burden), particularly Article 14(8) for notification to authorities. That notification provision excludes microenterprises; do not infer a universal filing obligation. The EAA reference does not replace the national implementing law or official evidence of a usable local channel.
+Use exactly `Company exemptions:` as the standalone reporting label for every country, or `Company non-compliance / exemptions:` for a verified shared route. Do not append wording such as “invoking derogation grounds” to the label. Keep the nature, conditions and scope of the local notification route in the research record. The shared legal reference is [EAA Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882) (fundamental alteration and disproportionate burden), particularly Article 14(8) for notification to authorities. That notification provision excludes microenterprises; do not infer a universal filing obligation. The EAA reference does not replace the national implementing law or official evidence of a usable local channel.
