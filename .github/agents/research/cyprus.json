@@ -25,7 +25,7 @@
           "evidence": "Public availability and placement in general terms and conditions or an equivalent document."
         }
       ],
-      "review_note": "Microenterprise service providers are exempt under Article 5(5). This duty is not treated as proof of a dedicated public page.",
+      "review_note": "Microenterprise service providers are exempt under Article 5(5). This duty is not treated as proof of a dedicated public page. The same isolated review found the final Article 14/Annex III wording supported.",
       "directive_context": "EAA",
       "information_mode": "public_terms_or_equivalent"
     },
@@ -59,7 +59,7 @@
           "evidence": "Names the Deputy Minister as competent authority for the Act."
         }
       ],
-      "review_note": "Applies across the Act's covered products, services and 112 response. The Council of Ministers may designate public departments and services to support market surveillance; a complete current designation roster was not verified.",
+      "review_note": "Applies across the Act's covered products, services and 112 response. The Council of Ministers may designate public departments and services to support market surveillance; a complete current designation roster was not verified. Isolated Greek-to-English review on 2026-09-24 by /root/cypriot_language (fork_turns=none) found the final Article 3 wording supported after narrowing: the Deputy Minister is the competent authority; Council-designated departments cooperate and conduct surveillance.",
       "directive_context": "EAA",
       "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls"
     },
@@ -82,7 +82,7 @@
     {
       "field": "company_reporting",
       "assertion": "A service provider must immediately inform the competent authority of non-compliance; the submission channel is unknown.",
-      "status": "verified",
+      "status": "unknown",
       "sources": [
         {
           "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
@@ -92,14 +92,14 @@
           "evidence": "Immediate notification with non-compliance and corrective-measure details."
         }
       ],
-      "review_note": "No email, postal address or EAA-purpose form verified, so the table does not imply that a generic contact route is accepted.",
+      "review_note": "No email, postal address or EAA-purpose form verified, so the table does not imply that a generic contact route is accepted. Isolated review found the duty summary and final Exemptions label supported; route remains Unknown.",
       "directive_context": "EAA",
       "scope": "Covered services"
     },
     {
       "field": "company_reporting",
       "assertion": "Exemptions: economic operators other than microenterprises must inform the competent authority when relying on fundamental alteration or disproportionate burden; the submission channel is unknown.",
-      "status": "verified",
+      "status": "unknown",
       "sources": [
         {
           "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
@@ -109,7 +109,7 @@
           "evidence": "Assessment grounds and notification duty."
         }
       ],
-      "review_note": "Label kept as Exemptions. EAA Article 14 is the EU-law counterpart; this explanation remains research-only. No notification route or accepted language inferred.",
+      "review_note": "Label kept as Exemptions. EAA Article 14 is the EU-law counterpart; this explanation remains research-only. No notification route or accepted language inferred. Isolated review found the duty summary and final Exemptions label supported; route remains Unknown.",
       "directive_context": "EAA"
     },
     {
