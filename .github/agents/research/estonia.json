@@ -72,8 +72,8 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "Public accessibility questions, problems and general feedback may be sent to info@ttja.ee; an EAA-specific formal complaint designation has not been verified.",
-      "status": "unverified",
+      "assertion": "Formal EAA public complaint route: Unknown. TTJA publishes info@ttja.ee for accessibility questions, problems and general feedback.",
+      "status": "unknown",
       "sources": [
         {
           "url": "https://www.ttja.ee/eraklient/tarbija-oigused/ligipaasetavus/toodete-ligipaasetavus",
