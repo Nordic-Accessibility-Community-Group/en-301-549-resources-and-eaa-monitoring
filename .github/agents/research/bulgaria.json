@@ -486,14 +486,31 @@
       "sources": [],
       "review_note": "Unresolved: targeted government/authority searches did not establish a dedicated EAA page instruction. WAD statements about authorities' own sites were excluded.\nUnresolved: railway and culture homepages each failed twice again; remit evidence remains distinct from reachability.\nPartly resolved: statutory banking subsets and local/regional terminal scope rechecked; nuanced English translation still needs human review.\nUnresolved: KZP reporting URL redirects to login; EAA-specific intake and accepted languages remain unknown. No account created.\nUnresolved: company defect/exemption destinations were not established by targeted searches; statutory notification duties do not establish a usable channel.\nUnresolved: additional sector-specific public routes not verified; generic WAD/contact channels excluded.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PR review triage applied on 24 September 2026.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "section": "Article 34(1)",
+          "evidence": "Assigns covered-product surveillance to the agency chairman through its surveillance bodies.",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation"
+        }
+      ],
+      "directive_context": "EAA",
+      "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. No unresolved blocker identified in the proposed additions. Rechecked Article 34(1) for ДАМТН's product role. Existing bilingual service descriptions and the qualified general KZP reporting entry are preserved. Omitted: unverified railway/culture hyperlinks and new company-reporting routes. Banking/transport translation refinements are not part of this diff and have not been silently approved. Reopened Bulgarian law Article 34(1), which designates the agency chairman through agency market-surveillance bodies for covered products. Table unchanged in this triage. Existing banking/transport descriptions and general KZP channel qualifications are not newly certified."
     }
   ],
   "questions": [
-    "Unknown: dedicated EAA public-page instruction; searches found agency WAD statements, which do not establish an EAA duty.",
-    "Recheck railway and culture authority URLs in a later run; two retrieval attempts failed.",
-    "Human review: banking and local/regional transport cross-references have been rechecked; approve nuanced English translations before rewriting the bilingual authority descriptions.",
-    "Unknown: EAA-specific intake and accepted languages for the logged-in KZP form.",
-    "Unknown: company non-compliance and exemption destinations by authority.",
-    "Unknown: public complaint destinations for other sectors; request official guidance before publishing routes."
+    "Before PR: No unresolved blocker identified in the proposed additions. Rechecked Article 34(1) for ДАМТН's product role. Existing bilingual service descriptions and the qualified general KZP reporting entry are preserved.",
+    "Before PR: Omitted: unverified railway/culture hyperlinks and new company-reporting routes. Banking/transport translation refinements are not part of this diff and have not been silently approved.",
+    "Follow-up: Verify railway and culture website destinations in a later run; previous retrieval failures do not disprove their statutory remit.",
+    "Follow-up: Before rewriting existing service descriptions, have a Bulgarian-reading reviewer check Article 54(1)(7), (8), (10) banking subsets and Article 2(2)(3)–(4) local/regional transport limits.",
+    "Follow-up: Check KZP's logged-in general form for EAA intake and accepted languages without submitting; the existing entry remains qualified as a general route.",
+    "Follow-up: Identify usable public, company-defect and exemption routes for other authorities before publishing them.",
+    "Follow-up: Seek a government/monitoring-body instruction on a dedicated EAA public page; authority WAD statements are not evidence for that claim."
   ]
 }
