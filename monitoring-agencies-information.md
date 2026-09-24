@@ -528,9 +528,40 @@
   <tr>
     <td>Netherlands</td>
     <td>✔️ <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Yes</a></td>
-    <td><ul><li>Autoriteit Consument & Markt (ACM)</li><li>Autoriteit Financiële Markten (AFM)</li><li>Commissariaat voor de Media (CvdM)</li><li>Rijksinspectie Digitale Infrastructuur (RDI)</li><li>Inspectie Leefomgeving en Transport (ILT)</li><li>Inspectie Justitie en Veiligheid</li></ul></td>
-    <td><ul><li>Company non-compliance: <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid">Reporting obligation in case of non-compliance with accessibility, in Dutch 🇳🇱</a></li><li>Public reports: <a href="https://www.rijksoverheid.nl/onderwerpen/leven-met-een-beperking/vraag-en-antwoord/melden-producten-diensten-niet-toegankelijk">Where can I report products or services that are not accessible?, in Dutch 🇳🇱</a></li></ul><ul><li>Critical and Serious issues need to be reported within 1 week. </li><li> Moderate and Minor within a month. </li><li>If the date to solve the issue has changed, a new report must be sent to the monitoring agency.</li></ul></td>
-    <td>They have also created a form where additional information needs to be provided:<ul><li>A description of the accessibility problems and where they occur in the e-commerce service (websites or apps). </li><li>An estimation of the amount of consumers affected. </li><li>A declaration on when the issues will be resolved. </li><li>An estimate on the remediation date for the issues. </li><li>A description of the measures that are taken to resolve the issues with corresponding dates. </li></ul><p>⚖️ EAA implementing law: <a href="https://wetten.overheid.nl/BWBR0049571/">Implementatiewet toegankelijkheidsvoorschriften producten en diensten</a>.</p></td>
+    <td>
+      <p><strong>Products:</strong></p>
+      <ul><li><a href="https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn">Rijksinspectie Digitale Infrastructuur (RDI)</a>.</li></ul>
+      <p><strong>E-commerce:</strong></p>
+      <ul>
+        <li><a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Autoriteit Consument &amp; Markt (ACM)</a> — e-commerce services.</li>
+        <li><a href="https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid">Autoriteit Financiële Markten (AFM)</a> — financial e-commerce.</li>
+      </ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li><a href="https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid">AFM</a> — consumer banking services.</li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li><a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">ACM</a>.</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li><a href="https://www.ilent.nl/onderwerpen/passagiersrechten/digitale-toegankelijkheid">Inspectie Leefomgeving en Transport (ILT)</a> — covered passenger-transport elements.</li></ul>
+      <p><strong>Audiovisual access and E-books:</strong></p>
+      <ul><li><a href="https://www.cvdm.nl/">Commissariaat voor de Media (CvdM)</a> — access to audiovisual media services and e-books.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li><a href="https://www.inspectie-jenv.nl/service/contact/professional/contactformulier">Inspectie Justitie en Veiligheid</a> — accessibility of 112.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products — RDI:</strong></p>
+      <ul><li>Public reports: <a href="https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn/meldpunt-voor-consumenten">product reporting form</a>.</li><li>Company reporting: ❓ Unknown.</li></ul>
+      <p><strong>E-commerce and Electronic communications — ACM:</strong></p>
+      <ul><li>Public reports: <a href="https://consument.acm.nl/doe-uw-melding-bij-acm-consuwijzer">ACM ConsuWijzer form</a>.</li><li>Company non-compliance / exemptions: <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid">ACM reporting form</a> (qualifying fundamental change or disproportionate burden). English company reports accepted 🇬🇧; form in Dutch 🇳🇱.</li></ul>
+      <p><strong>Financial E-commerce and Banking — AFM:</strong></p>
+      <ul><li>Public reports: <a href="https://www.afm.nl/nl-nl/contact/contactformulier-consumenten">AFM contact form</a> or <a href="mailto:info@afm.nl">info@afm.nl</a> if the form cannot be used.</li><li>Company non-compliance / exemptions: <a href="https://portaal.afm.nl/">AFM Portaal</a> (AFM Portaal account for the organisation required).</li></ul>
+      <p><strong>Transport — ILT:</strong></p>
+      <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
+      <p><strong>Audiovisual access and E-books — CvdM:</strong></p>
+      <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls — Inspectie Justitie en Veiligheid:</strong></p>
+      <ul><li>Public reports (accessibility of 112): <a href="https://www.inspectie-jenv.nl/service/contact/professional/contactformulier">contact form</a>.</li><li>Company reporting: ❓ Unknown.</li></ul>
+    </td>
+    <td><p>⚖️ EAA implementing law: <a href="https://wetten.overheid.nl/BWBR0049571/">Implementatiewet toegankelijkheidsvoorschriften producten en diensten</a>.</p></td>
   </tr>
   <tr>
     <td>Poland</td>
