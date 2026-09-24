@@ -311,6 +311,7 @@
     "Follow-up: Verify EAA-purpose public complaint and company reporting routes for ČTÚ and each transport authority, including accepted languages and authentication.",
     "Follow-up: Establish the competent authority and usable reporting route for accessibility of the response to 112 emergency calls.",
     "Run scope: baseline main includes merged Cyprus PR #20. Only Czechia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
-    "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown."
+    "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
+    "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Czechia. The email date, recipient and original message were not supplied."
   ]
 }
