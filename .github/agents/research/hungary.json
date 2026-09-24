@@ -314,6 +314,30 @@
       "sources": [],
       "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Hungarian Act XVII/2022 section 12(5) defers the specified emergency-related requirements to 28 June 2027.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
+          "evidence": "Section 12(5) names section 1(4), Annex 1 point 4.1.3 and point 5 for the 28 June 2027 start.",
+          "section": "Section 12(5)",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Rechecked 2026-09-24 against current official text. This does not establish the exact current transport offices or territorial competence. Those remain unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Open-question follow-up on 24 September 2026 records partial resolutions and remaining unknowns.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Unresolved: NMHH public-terms guidance rechecked; no dedicated-page mandate established.\nUnresolved: searches did not establish EAA-specific office mappings for generic consumer/transport authority classes; generic office pages are insufficient.\nUnresolved: EAA-specific public routes outside MNB and company defect/exemption routes not established. NMHH general reporting material did not verify the required EAA scope.\nUnresolved: MNB accessibility instructions have no explicit accepted-language statement. Unrelated FIN-NET/older cases were not treated as evidence.\nPartly resolved: section 12(5) emergency-transition cross-references reconfirmed; sector translations and territorial competence still need human review.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
@@ -321,6 +345,6 @@
     "Unknown: actual current offices and websites for statutory transport and consumer-protection authority classes.",
     "Unknown: public reporting outside MNB, and company non-compliance/exemption reporting.",
     "Unknown: accepted languages for MNB complaints; the postal route is independently usable without online authentication.",
-    "Review Hungarian sector translations, territorial competence and emergency-service transition before expanding table coverage."
+    "Human review: sector translations and territorial competence remain unresolved. The exact emergency-transition cross-references in section 12(5) were reconfirmed."
   ]
 }
