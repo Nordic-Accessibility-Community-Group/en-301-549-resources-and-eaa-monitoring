@@ -195,9 +195,25 @@
   <tr>
     <td>Cyprus</td>
     <td>❓ Unknown</td>
-    <td><a href="https://www.gov.cy/dmsw/">Deputy Ministry of Social Welfare</a></td>
-    <td>❓ Unknown</td>
-    <td><p>⚖️ EAA implementing law: <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html">Law 57(I)/2024 on accessibility of products and services</a>.</p></td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p>
+      <ul>
+        <li><a href="https://www.gov.cy/dmsw/">Deputy Minister of Social Welfare</a> — competent authority under Law 57(I)/2024.</li>
+        <li>Supporting market-surveillance departments and services: ❓ Unknown.</li>
+      </ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p>
+      <ul>
+        <li>Public complaints: ❓ Unknown.</li>
+        <li>Company non-compliance: reporting channel ❓ Unknown.</li>
+        <li>Exemptions: reporting channel ❓ Unknown.</li>
+      </ul>
+    </td>
+    <td>
+      <p>Accessibility information: covered service providers publish information in their general terms and conditions or an equivalent document and make it publicly available in accessible written and oral forms (Article 14; Annex III). This does not establish a dedicated public page.</p>
+      <p>⚖️ EAA implementing law: <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html">Law 57(I)/2024 on accessibility of products and services</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>Czechia</td>
