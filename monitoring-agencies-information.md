@@ -271,15 +271,27 @@
   </tr>
   <tr>
     <td>Estonia</td>
-    <td>✖️ No</td>
-    <td>❓ Unknown</td>
-    <td>There is no know reporting tool available. In the meantime you can send you reports and exceptions to <a href="mailto:info@ttja.ee">info@ttja.ee</a></td>
+    <td>✔️ Yes</td>
     <td>
-		<ul>
-			<li><a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide#:~:text=%C2%A7%2016.%20%C2%A0Supervisory%20authority">Estonian law: Products and Services Accessibility Act</a></li>
-			<li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">Information for companies, in English 🇬🇧.</a></li>
-		</ul>
-	<p>⚖️ EAA implementing law: <a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide">Products and Services Accessibility Act</a>.</p></td>
+      <p><strong>Products and services:</strong></p>
+      <ul>
+        <li><a href="https://www.ttja.ee/en">Consumer Protection and Technical Regulatory Authority (TTJA)</a></li>
+      </ul>
+    </td>
+    <td>
+      <p><strong>Products and services:</strong></p>
+      <ul>
+        <li>Public reports: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
+        <li>Product non-compliance: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
+        <li>Exemptions: <a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">TTJA forms</a>, sent to <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">TTJA guidance for companies, in English 🇬🇧</a></li>
+      </ul>
+      <p>⚖️ EAA implementing law: <a href="https://www.riigiteataja.ee/en/eli/524082022008/consolide">Products and Services Accessibility Act</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>Finland</td>
