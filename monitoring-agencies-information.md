@@ -467,11 +467,11 @@
       <p><strong>Electronic communications and 112 emergency communications:</strong></p>
       <ul><li>Public complaints (phone/broadband): <a href="https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/">ComReg complaint form</a>.</li><li>Company non-compliance / exemptions (electronic communications): <a href="mailto:eaa@comreg.ie">eaa@comreg.ie</a>.</li><li>Public and company reporting (112): ❓ Unknown.</li></ul>
       <p><strong>Audiovisual access:</strong></p>
-      <ul><li>Public reports: <a href="https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/">Coimisiún na Meán form</a>.</li><li>Company non-compliance / exemptions: ❓ Unknown.</li></ul>
+      <ul><li>Public reports: <a href="https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/">Coimisiún na Meán form</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>Transport:</strong></p>
       <ul><li>Company non-compliance (bus, rail and water): <a href="mailto:euaccessibility@nationaltransport.ie">euaccessibility@nationaltransport.ie</a>.</li><li>Public and company reporting (air): ❓ Unknown.</li></ul>
       <p><strong>Banking:</strong></p>
-      <ul><li>Public complaints: <a href="mailto:enquiries@centralbank.ie">enquiries@centralbank.ie</a> (subject: “EAA alleged non-compliance”).</li><li>Company non-compliance / exemptions: ❓ Unknown.</li></ul>
+      <ul><li>Public complaints: <a href="mailto:enquiries@centralbank.ie">enquiries@centralbank.ie</a> (subject: “EAA alleged non-compliance”).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
     </td>
     <td><p>Covered services must publish accessible compliance information.</p><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">TPGi overview</a> (secondary source).</li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">MHC overview</a> (secondary source).</li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
   </tr>
@@ -594,7 +594,7 @@
       <p><strong>Banking — Financial Ombudsman:</strong></p>
       <ul><li>Company reports (inaccessible retail banking services): <a href="https://rf.gov.pl/dostepnosc/dla-uslugodawcow/ankieta-zgloszenia-do-rf-niedostepnosci-swiadczonych-uslug-bankowosci/">complete form</a>, sign the generated PDF and email it to <a href="mailto:dostepnosc@rf.gov.pl">dostepnosc@rf.gov.pl</a>.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>Products, E-commerce, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
-      <ul><li>Company non-compliance / exemptions: ❓ Unknown.</li></ul>
+      <ul><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
@@ -635,7 +635,7 @@
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul>
         <li>Public complaints (IDiPD form): <a href="https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos">IDiPD form</a>; first complain to the provider; the issue must remain unresolved or lack a timely reasoned reply. Each complaint is forwarded to the competent authority.</li>
-        <li>Company non-compliance / exemptions: ❓ Unknown.</li>
+        <li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li>
       </ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown (duties start 28 June 2027).</li></ul>
@@ -706,30 +706,26 @@
   </tr>
   <tr>
     <td>Slovenia</td>
-    <td>✔️ Yes</td>
-    <td><ul><li><a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/inspektorat-za-informacijsko-druzbo/">Inspectorate of the Republic of Slovenia for the Information Society</a><p>The Inspectorate carries out inspection supervision over the implementation of regulations governing electronic identification and trust services, regulations governing the accessibility of websites and mobile applications, and regulations on European data management.</p></li><li>The Agency for Communication Networks and Services of the Republic of Slovenia (<a href="https://www.akos-rs.si/en/">AKOS</a>)</li><li>Market Inspectorate of the Republic of Slovenia (TIRS)</li><li>Infrastructure Inspectorate of the Republic of Slovenia</li><li>Bank of Slovenia</li><li>Market Inspectorate of the Republic of Slovenia</li></ul>The Information Commissioner will be responsible for monitoring the implementation of the provisions of the ZDPSI on a case-by-case basis, and will be able to request the submission of all the necessary information and documents, to carry out inspections, to confiscate samples of the product, and to impose a prohibition on the use of the product and the provision of the service in the immediate event of any non-compliance, and to impose a fine on companies and sole proprietorships.</td>
+    <td>✔️ Yes (EAA-specific source needed)</td>
     <td>
-		<ul>
-			<li>Public and company reporting: There's no online reporting tool available. Reports may be submitted in English 🇬🇧 or 🇸🇮 Slovene through:
-				<ul>
-					<li>Regular mail: Davčna ulica 1, 1000 Ljubljana, Slovenija</li>
-					<li>Email to the official address of the Inspectorate <a href="mailto:gp.irsid@gov.si">gp.irsid@gov.si</a></li>
-				</ul>
-			</li>
-		</ul>
-	</td>
+      <p><strong>Products and E-commerce:</strong></p>
+      <ul><li><a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/trzni-inspektorat/">Market Inspectorate (TIRS)</a>.</li></ul>
+      <p><strong>Electronic communications, Audiovisual access, E-books and emergency communication services:</strong></p>
+      <ul><li><a href="https://www.akos-rs.si/">AKOS</a>.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li><a href="https://www.bsi.si/">Bank of Slovenia</a>, <a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/trzni-inspektorat/">TIRS</a> and <a href="https://www.ip-rs.si/">Information Commissioner</a> (consumer credit); <a href="https://www.atvp.si/">Securities Market Agency</a> (investment services); Bank of Slovenia (payment services and electronic money).</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li>Water: <a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-pomorstvo/">Maritime Administration</a> and TIRS.</li><li>Air: <a href="https://www.caa.si/">Civil Aviation Agency</a>.</li><li>Bus: <a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/inspektorat-za-infrastrukturo-in-energetiko/">Infrastructure and Energy Inspectorate</a>.</li><li>Rail: inspectorates responsible for rail/road infrastructure, road transport and public passenger transport under amended ZDPSI.</li></ul>
+      <p><strong>112 emergency calls:</strong> AKOS supervises the communication service; the authority for answering-centre accessibility is ❓ Unknown.</p>
+    </td>
     <td>
-		<ul>
-			<li>Accessibility statement must be published and:
-				<ul>
-					<li>describe any non-accessible content and the reasons for inaccessibility,</li>
-					<li>provide alternative means for accessing such content where possible,</li>
-					<li>include a mechanism through which users can contact the entity if they encounter accessibility barriers,</li>
-					<li>and contain contact information about the competent enforcement authority, enabling users to submit complaints if the entity does not respond adequately.</li>
-				</ul>
-			</li>
-		</ul>
-		<a href="https://www.podjetniski-portal.si/programi/enotna-tocka-za-krozno-gospodarstvo/novice/poslovni-nacrt-naj-odraza-tudi-ureditev-dostopnosti-za-invalide-2025-01-24">The Act on the Accessibility of Products and Services for Persons with Disabilities (ZDPSI)</a><p>⚖️ EAA implementing law: <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238">Zakon o dostopnosti do proizvodov in storitev za invalide (ZDPSI, 14/2023)</a>.</p></td>
+      <p><strong>Products and E-commerce — TIRS:</strong></p>
+      <ul><li>Public reports: <a href="https://e-uprava.gov.si/si/podrocja/drzava-druzba/inspekcijski-postopki/prijava-trzni-inspekciji?lang=si&amp;view_mode=2">General inspection report, without e-identity</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Electronic communications, Audiovisual access, E-books — AKOS:</strong></p>
+      <ul><li>Public reports: <a href="https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec">General regulatory-breach report</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Banking and Transport:</strong> Public and company reporting: ❓ Unknown.</p>
+    </td>
+    <td><p>⚖️ EAA implementing law: <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238">ZDPSI (2023)</a>, amended by <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563">ZDPSI-A (2026)</a>.</p></td>
   </tr>
   <tr>
     <td>Spain</td>
