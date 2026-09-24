@@ -146,6 +146,7 @@
     "Follow-up: Verify at least one usable EAA-purpose route (form, email or postal address) for public complaints, company non-compliance and Exemptions; record sector, accepted languages and authentication.",
     "Follow-up: Ask the competent authority whether it requires a dedicated public page comparable to a WAD accessibility statement, and preserve Unknown until explicit official evidence supports Yes or No.",
     "Run scope: baseline main includes merged Croatia PR #19. Only Cyprus research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
-    "Research cutoff: bounded research and evidence/language verification completed within the ten-minute shared budget; unsupported details were narrowed or omitted."
+    "Research cutoff: bounded research and evidence/language verification completed within the ten-minute shared budget; unsupported details were narrowed or omitted.",
+    "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Cyprus. The email date, recipient and original message were not supplied."
   ]
 }
