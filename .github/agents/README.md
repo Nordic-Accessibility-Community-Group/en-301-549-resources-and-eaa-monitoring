@@ -2,7 +2,7 @@
 
 These instructions govern experiments on `monitoring-agencies-information.md`. Run research, evidence verification, presentation, a separate language-fidelity check, and draft PR preparation in that order. A person reviews the evidence and diff before merging.
 
-The pilot covers **Denmark and Sweden** as audits of fuller existing entries, and **Bulgaria and Hungary** as research into incomplete entries. Apply the same research and verification checklist to all four countries; the difference is how much existing content needs checking. Do one country per research PR so reviewers can assess each set of sources. Keep research notes under `.github/agents/research/` during the pilot, using the schema in `.github/agents/country-record.schema.json`. The visible country table stays in its current location.
+The pilot covers **Denmark, Sweden and Finland** as audits of fuller existing entries, and **Bulgaria and Hungary** as research into incomplete entries. Apply the same research and verification checklist to all five countries; the difference is how much existing content needs checking. Do one country per research PR so reviewers can assess each set of sources. Keep research notes under `.github/agents/research/` during the pilot, using the schema in `.github/agents/country-record.schema.json`. The visible country table stays in its current location.
 
 The file `.github/scripts/check-verification-dates.py` validates dates for the events calendar. Do not change it or depend on it to verify this country research. Evidence review is a separate manual gate in this pilot.
 
@@ -29,7 +29,7 @@ For each country, check and record a result (including `unknown` when unsupporte
 3. Apply `presentation.md` to the verified record. Keep the five existing columns and propose only supported changes.
 4. Run the separate agent in `language-verification.md` on the proposed publication wording as described below. Apply corrections and have the corrected passages rechecked before PR preparation.
 5. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
-6. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
+6. Compare audit outcomes for Denmark, Sweden and Finland with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
 
 ## Separate language check for every country
 
