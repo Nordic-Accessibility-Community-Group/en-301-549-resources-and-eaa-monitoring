@@ -507,23 +507,9 @@
   <tr>
     <td>Lithuania</td>
     <td>✖️ No </td>
-    <td><ul><li><a href="https://vvtat.lrv.lt/lt/">VVTAT</a> (State Consumer Rights Protection Authority) </li><li><a href="https://ltsa.lrv.lt/lt/">LTSA</a> (Transport Safety authority)</li><li><a href="https://www.rrt.lt/en/about-rrt/">RRT</a> (Communication Regulatory authority)</li><li><a href="https://www.rtk.lt/en/">RTK</a> (Radio and Television Commission)</li></ul></td>
-    <td>
-		<ul>
-			<li>For companies: 
-				<ul>
-					<li>No specific service available for companies. You can use the consumer request at <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">How to submit a request, in English 🇬🇧 or Lithuanian 🇱🇹</a>.</li>
-					<li>Email: <a href="mailto:tarnyba@vvtat.lt">tarnyba@vvtat.lt</a>, in English 🇬🇧 or Lithuanian 🇱🇹</li>
-				</ul>
-			</li>
-			<li>For the public: 
-				<ul>
-					<li><a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">How to submit a request</a>.</li>
-				</ul>
-			</li>
-		</ul>
-	</td>
-    <td><p>⚖️ EAA implementing law: <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>.</p></td>
+    <td><p><strong>Products:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — consumer general-purpose computer hardware systems and their operating systems; interactive equipment for consumer access to audiovisual media services; self-service terminals; consumer terminal equipment with interactive computing capability used to provide electronic communications services; and e-readers.</li></ul><p><strong>E-commerce, Banking and E-books:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — e-commerce, consumer banking, e-books and dedicated software.</li></ul><p><strong>Transport:</strong></p><ul><li><a href="https://ltsa.lrv.lt/lt/">Lithuanian Transport Safety Administration (LTSA)</a> — covered air, bus, water and rail passenger-service elements, excluding urban and suburban transport where specified; and railway-system interoperability constituents.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href="https://rrt.lt/en/about-rrt/">Communications Regulatory Authority of the Republic of Lithuania (RRT)</a> — electronic communications services, except transmission services used to provide machine-to-machine services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href="https://www.rtk.lt/en/">Radio and Television Commission of Lithuania (LRTK)</a> — services providing access to audiovisual media services.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
+    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company reports: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT general request route</a> or <a href="mailto:tarnyba@vvtat.lt">tarnyba@vvtat.lt</a>. English or Lithuanian.</li><li>Public complaints: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT instructions</a> (first contact the seller/provider in writing).</li><li>Exemptions: ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>LTSA reporting channels: ❓ Unknown.</li></ul><p><strong>Electronic communications:</strong></p><ul><li>Public reports: <a href="https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos">RRT consultations</a> (unsigned enquiries; replies are not an official RRT position).</li><li>Company non-compliance: ❓ Unknown.</li><li>Exemptions: ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>Public complaints: <a href="mailto:lrtk@rtk.lt">lrtk@rtk.lt</a> (provider-first resolution encouraged).</li><li>Company non-compliance: ❓ Unknown.</li><li>Exemptions: ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Reporting channels: ❓ Unknown.</li></ul></td>
+    <td><p>EAA service information: publicly available general description of service provision conditions, or equivalent document.</p><p>⚖️ EAA implementing law: <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>.</p></td>
   </tr>
   <tr>
     <td>Luxembourg</td>
