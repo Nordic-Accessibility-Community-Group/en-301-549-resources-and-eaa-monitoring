@@ -10,7 +10,7 @@ Input: a research record and the current country row. Check each claim independe
 - If current official information conflicts with the table, retain both wordings and explain the conflict. Do not silently choose one.
 - Verify the recorded access date and never set a verification date for a claim you did not actually check.
 
-Output: an annotated research record and a list of human review questions. No public table edits.
+Output: an annotated research record and actionable manual-check list, classified under README.md as Before PR, Before merge, or Follow-up. Surface Before PR items immediately; do not bury them in the final handoff. No public table edits.
 
 ## Additional verification checks
 
