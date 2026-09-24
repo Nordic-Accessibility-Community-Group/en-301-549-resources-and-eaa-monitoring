@@ -80,7 +80,7 @@
     },
     {
       "field": "authority",
-      "assertion": "Erhvervsstyrelsen | Markedsovervågning: Products; audiovisual access; e-books; delegated banking and e-commerce checks.",
+      "assertion": "Erhvervsstyrelsen | Markedsovervågning: Products; audiovisual access; e-books; delegated banking, e-commerce and Smart-TV checks.",
       "status": "verified",
       "sources": [
         {
@@ -98,13 +98,13 @@
           "evidence": "Named official website opened."
         }
       ],
-      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.sik.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.sik.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen. Rechecked official roster on 2026-09-24, including Smart-TV delegation.",
       "directive_context": "EAA",
       "scope": "Products; audiovisual access; e-books; delegated banking and e-commerce checks"
     },
     {
       "field": "authority",
-      "assertion": "Digitaliseringsstyrelsen: Electronic communications.",
+      "assertion": "Digitaliseringsstyrelsen: Electronic communications; Smart-TV checks delegated to market surveillance.",
       "status": "verified",
       "sources": [
         {
@@ -122,9 +122,9 @@
           "evidence": "Named official website opened."
         }
       ],
-      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen. Rechecked official roster on 2026-09-24: Smart-TV checks are carried out on DIGST's behalf. Added this delegation to the short row.",
       "directive_context": "EAA",
-      "scope": "Electronic communications"
+      "scope": "Electronic communications; delegated Smart-TV checks"
     },
     {
       "field": "authority",
@@ -471,11 +471,51 @@
       "sources": [],
       "review_note": "Contributor confirmation supplied on 24 September 2026: last answer was eight days earlier. Verifies the contributor-reported recent mailbox activity, not independently inspected delivery logs, reply headers or automatic forwarding. Supports preserving the manually established address. Exact routing is not a useful unresolved requirement.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PR review triage applied on 24 September 2026.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "section": "Delegated responsibilities",
+          "evidence": "Identifies delegated banking, e-commerce and Smart-TV checks.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.sik.dk/tip",
+          "section": "Accessibility categories",
+          "evidence": "Offers terminal and service reports with optional contact details.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+          "section": "Reporting destination",
+          "evidence": "Names mo@erst.dk; legacy address also appears in extracted markup.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+          "section": "Prerequisites",
+          "evidence": "Lists MitID Business.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "directive_context": "EAA",
+      "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence. Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved. Reopened the authority roster, public tip form (accessibility categories and anonymous option), non-compliance guidance (mo@erst.dk), and Virk introduction (MitID Business). No submissions performed. Removed historical transfer/correspondence narration from Additional information; preserved it in this record."
     }
   ],
   "questions": [
-    "Unknown: complaint and company reporting routes for the other sector authorities.",
-    "Unknown: dedicated public page demand; DIGST confirms public terms/equivalent information, not a prescribed page.",
-    "Unknown: usable Produkter.dk form content in this reader."
+    "Before PR: Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence.",
+    "Before PR: Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved.",
+    "Before merge: Denmark / Monitoring agencies — compare the short delegated-role descriptions with the official roster, especially Smart-TV checks for DIGST and banking/e-commerce checks for Finanstilsynet/KFST; this prevents confusing the responsible authority with the body carrying out checks. Evidence: [official roster](https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven), “På vegne af andre myndigheder”. Owner: Danish-reading maintainer. Resolved when: reviewer confirms the agency/delegation labels or supplies corrected wording.",
+    "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
+    "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
+    "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check."
   ]
 }
