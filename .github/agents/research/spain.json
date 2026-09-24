@@ -50,7 +50,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Separate isolated Spanish-to-English language review on 2026-09-24: correction applied to retain 'assessing how' and Art. 3; final English wording rechecked against literal rendering.",
+      "review_note": "Separate isolated Spanish-to-English language review on 2026-09-24: correction applied to retain 'assessing how' and Art. 3; final English wording rechecked against literal rendering. Original excerpt 'incluirán, en las condiciones generales o documento equivalente, la información que evalúe de qué manera el servicio cumple...' Literal: include in general terms or equivalent information assessing how the service meets requirements. Initial shortened wording needed correction; final claim preserves assessment of how.",
       "directive_context": "EAA",
       "information_mode": "public_terms_or_equivalent",
       "scope": "Covered services"
@@ -103,7 +103,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Isolated language review corrected the shortened wording to retain 'all information necessary' and reasoned request.",
+      "review_note": "Isolated language review corrected the shortened wording to retain 'all information necessary' and reasoned request. Original excerpt 'Sobre la base de una solicitud motivada ... toda la información necesaria...' Literal: on a reasoned request, all necessary information. Final claim supported after correction.",
       "directive_context": "EAA",
       "information_mode": "authority_on_request",
       "scope": "Covered services"
@@ -121,7 +121,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Statutory authority class rather than an exhaustive current named roster. Isolated Spanish review supported wording with 'determine' and powers caveat. Existing UTAC-only display misleadingly suggested it was sole surveillance body. Individual regional designations were not verified within this pass.",
+      "review_note": "Statutory authority class rather than an exhaustive current named roster. Isolated Spanish review supported wording with 'determine' and powers caveat. Existing UTAC-only display misleadingly suggested it was sole surveillance body. Individual regional designations were not verified within this pass. Language agent final wording check: 'retain powers' was rejected; use 'may have powers' to preserve conditional pudiera tener. Table omits supplementary-powers detail for brevity.",
       "directive_context": "EAA",
       "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books"
     },
@@ -145,7 +145,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "UTAC government link opened to correct agency. It is not the universal designated regional supervisor.",
+      "review_note": "UTAC government link opened to correct agency. It is not the universal designated regional supervisor. Isolated agent found coordination/support not established by the supplied art. 3(g),(h) excerpts alone; art. 3(a) and official UTAC page explicitly supply that role.",
       "directive_context": "EAA",
       "scope": "All Ley 11/2023 Title I sectors"
     },
@@ -162,7 +162,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Isolated language review supported this precise conditional wording. Does not prove that a particular region/sector is currently undesignated.",
+      "review_note": "Isolated language review supported this precise conditional wording. Does not prove that a particular region/sector is currently undesignated. Language agent final verdict Supported: 'acts as surveillance authority where none has been designated.'",
       "directive_context": "EAA",
       "scope": "Undesignated areas only"
     },
@@ -220,7 +220,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Published UTAC page opened and identified the precise EAA purpose; email has no login prerequisite. UTAC coordinates and may direct matters within its remit; this is not proof it is the final local deciding authority.",
+      "review_note": "Published UTAC page opened and identified the precise EAA purpose; email has no login prerequisite. UTAC coordinates and may direct matters within its remit; this is not proof it is the final local deciding authority. Language agent final verdict Supported for 'Public complaints and reports' and instruction to describe the Ley 11/2023 case.",
       "directive_context": "EAA",
       "scope": "Ley 11/2023 covered products and services",
       "reporting_route": {
@@ -294,10 +294,17 @@
       ],
       "review_note": "20 Aug 2026 UTAC official reply in user-supplied EML: companies outside Spain can report in English or French if they do not speak Spanish or the relevant co-official language. This concerns UTAC contact, not all regional authorities. Correspondence content is summarized, not publicly reproduced.",
       "directive_context": "EAA",
-      "scope": "UTAC reports from companies outside Spain"
+      "scope": "UTAC reports from companies outside Spain",
+      "reporting_route": {
+        "authority": "UTAC",
+        "sector": "Ley 11/2023 Title I within UTAC competence",
+        "channel": "email",
+        "destination": "utac@dsca.gob.es",
+        "eaa_specific": true
+      }
     },
     {
-      "field": "company_reporting",
+      "field": "additional_information",
       "assertion": "Covered service providers notify competent national authorities immediately when their service is noncompliant.",
       "status": "verified",
       "sources": [
@@ -314,7 +321,7 @@
       "scope": "Covered services"
     },
     {
-      "field": "company_reporting",
+      "field": "additional_information",
       "assertion": "Agents invoking fundamental alteration or disproportionate burden send information to the relevant surveillance/service verification authority, except microenterprises.",
       "status": "verified",
       "sources": [
