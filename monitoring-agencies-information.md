@@ -521,9 +521,9 @@
   <tr>
     <td>Malta</td>
     <td>❓ Unknown</td>
-    <td>❓ Unknown</td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td><p>⚖️ EAA implementing law: <a href="https://legislation.mt/eli/ln/2022/214/eng">Accessibility Measures (European Accessibility Act) Regulations, 2022 (L.N. 214/2022)</a>.</p></td>
+    <td><p><strong>Products (listed categories), E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger-transport elements), Audiovisual access (access to audiovisual media services), and E-books and dedicated software:</strong></p><ul><li><a href="https://www.crpd.org.mt/">Commission for the Rights of Persons with Disability (CRPD)</a>.</li></ul><p><strong>Answering emergency communications to 112:</strong></p><ul><li><a href="https://www.crpd.org.mt/">CRPD</a>. The obligations in regulation 4(8) apply from 28 June 2027.</li></ul></td>
+    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public complaints: ❓ Unknown.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul></td>
+    <td><p>⚖️ EAA implementing law: <a href="https://legislation.mt/eli/sl/627.3/eng">Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)</a>.</p></td>
   </tr>
   <tr>
     <td>Netherlands</td>
