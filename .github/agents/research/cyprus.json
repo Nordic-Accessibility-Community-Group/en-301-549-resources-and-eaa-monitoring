@@ -1,0 +1,151 @@
+{
+  "country": "Cyprus",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Existing Unknown preserved; a regulator demand for a separate public page has not been verified.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No private correspondence supplied. Law Article 14 and Annex III establish public accessibility information in general terms or an equivalent document, not a dedicated webpage. No Yes/No inferred.",
+      "directive_context": "EAA",
+      "existing_text": "❓ Unknown",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Covered service providers must make accessibility information publicly available in accessible written and oral forms throughout service provision.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 14(b); Annex III point 1",
+          "evidence": "Public availability and placement in general terms and conditions or an equivalent document."
+        }
+      ],
+      "review_note": "Microenterprise service providers are exempt under Article 5(5). This duty is not treated as proof of a dedicated public page.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service conformity information must also be supplied to the competent authority or market-surveillance authorities on a reasoned request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 14(e)",
+          "evidence": "Authority-on-request conformity evidence."
+        }
+      ],
+      "review_note": "Separate from the public information duty.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Deputy Minister of Social Welfare is the competent authority under Law 57(I)/2024.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 3(1)",
+          "evidence": "Names the Deputy Minister as competent authority for the Act."
+        }
+      ],
+      "review_note": "Applies across the Act's covered products, services and 112 response. The Council of Ministers may designate public departments and services to support market surveillance; a complete current designation roster was not verified.",
+      "directive_context": "EAA",
+      "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls"
+    },
+    {
+      "field": "authority",
+      "assertion": "Supporting public departments and services designated for market surveillance: Unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 3(3)",
+          "evidence": "Council of Ministers determines supporting bodies according to staffing and expertise."
+        }
+      ],
+      "review_note": "No current designation decision or complete official roster was located within the bounded run; none invented.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A service provider must immediately inform the competent authority of non-compliance; the submission channel is unknown.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 14(d)",
+          "evidence": "Immediate notification with non-compliance and corrective-measure details."
+        }
+      ],
+      "review_note": "No email, postal address or EAA-purpose form verified, so the table does not imply that a generic contact route is accepted.",
+      "directive_context": "EAA",
+      "scope": "Covered services"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Exemptions: economic operators other than microenterprises must inform the competent authority when relying on fundamental alteration or disproportionate burden; the submission channel is unknown.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 15(1), (7)",
+          "evidence": "Assessment grounds and notification duty."
+        }
+      ],
+      "review_note": "Label kept as Exemptions. EAA Article 14 is the EU-law counterpart; this explanation remains research-only. No notification route or accepted language inferred.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Public complaint routes for all covered sectors: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose form, email or postal route was verified. Generic government contact points were not promoted.",
+      "directive_context": "EAA",
+      "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Law 57(I)/2024 implements the EAA in Cyprus and applies from 28 June 2025 to covered products and services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 3–5",
+          "evidence": "Competent authority, scope and accessibility requirements."
+        }
+      ],
+      "review_note": "Existing local-law link retained. Targeted searches did not establish later amendments; no exhaustive consolidation claim.",
+      "directive_context": "EAA"
+    }
+  ],
+  "questions": [
+    "Before PR: NARROWED — the law identifies the Deputy Minister of Social Welfare as competent authority, but the current complete roster of supporting market-surveillance departments was not verified; no sector departments were invented.",
+    "Before PR: OMITTED — no EAA-purpose complaint, company non-compliance or Exemptions submission channel was verified; generic contacts were not promoted.",
+    "Before PR: PRESERVED — statement remains Unknown. Article 14/Annex III public-information duties do not prove that the monitoring authority demands a dedicated public page.",
+    "Before merge: Verify the current Council of Ministers designation of departments/services supporting EAA market surveillance, if available, and link each official site.",
+    "Before merge: Verify at least one usable EAA-purpose route (form, email or postal address) for public complaints, company non-compliance and Exemptions; record sector, accepted languages and authentication.",
+    "Follow-up: Ask the competent authority whether it requires a dedicated public page comparable to a WAD accessibility statement, and preserve Unknown until explicit official evidence supports Yes or No.",
+    "Run scope: baseline main includes merged Croatia PR #19. Only Cyprus research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
+    "Research cutoff: bounded research and evidence/language verification completed within the ten-minute shared budget; unsupported details were narrowed or omitted."
+  ]
+}
