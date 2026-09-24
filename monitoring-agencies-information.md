@@ -133,27 +133,35 @@
   </tr>
   <tr>
     <td>Finland</td>
-    <td>✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet">Yes</a> </td>
-    <td><ul><li><a href="https://www.traficom.fi/fi/traficom/esteettomyys">Traficom</a></li></ul></td>
+    <td>✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet">Yes</a></td>
     <td>
-      <ul>
-       <li>Reporting tools for companies: 
-         <ul>
-          <li><a href="https://www.saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services/obligation-notify-deficiencies-and-grounds-derogation">Reporting tool, in English 🇬🇧</a></li>
-          <li><a href="https://saavutettavuusvaatimukset.fi/fi/digipalvelulain-vaatimukset/ilmoitusvelvollisuus-puutteista-ja-poikkeamisperusteista/palvelujen-ja">Reporting tool, in Finnish 🇫🇮</a></li>
-          <li><a href="https://saavutettavuusvaatimukset.fi/sv/kraven-i-lagen-om-digitala-tjanster/skyldighet-att-anmala-brister-och-undantagsgrunder/anmalan-om">Reporting tool, in Swedish 🇸🇪</a></li>
-        </ul>
-       </li>
-		<li>Reporting tools for the public: 
-         <ul>
-          <li><a href="https://www.saavutettavuusvaatimukset.fi/en/user-rights/submit-complaint-web-accessibility-or-request-clarification">E-service, in English 🇬🇧</a></li>
-          <li><a href="https://www.saavutettavuusvaatimukset.fi/fi/kayttajan-oikeudet/tee-saavutettavuuskantelu-tai-pyyda-selvitysta">E-service, in Finnish 🇫🇮</a></li>
-          <li><a href="https://www.saavutettavuusvaatimukset.fi/sv/dina-rattigheter/lamna-en-tillganglighetsklagan-eller-be-om-en-utredning">E-service, in Swedish 🇸🇪</a></li>
-        </ul>
-       </li>
-    </ul>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul><li><a href="https://www.traficom.fi/fi/esteettomyys-ja-saavutettavuus">Traficom</a> (covered products and services).</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li><a href="https://intermin.fi/en/frontpage">Ministry of the Interior</a> (answering and accessibility).</li></ul>
     </td>
-    <td><a href="https://www.saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services/obligation-notify-deficiencies-and-grounds-derogation">Instructions in English 🇬🇧</a><p>Reporting is accepted in English even if the official languages are Finnish and Swedish. Additional communication needs is not guaranteed to follow in English. Using the reporting tool is preferred since it is designed to gather all the needed information.</p><p>⚖️ EAA implementing law: <a href="https://finlex.fi/fi/lainsaadanto/2023/102">Laki eräiden tuotteiden esteettömyysvaatimuksista (102/2023)</a>; services: <a href="https://finlex.fi/fi/lainsaadanto/2019/306">Laki digitaalisten palvelujen tarjoamisesta (306/2019, chapter 3a)</a>.</p></td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li>Public complaints (digital services): <a href="https://eservices.traficom.fi/ContactForms/form/tee-saavutettavuuskantelu-tai-pyyda-selvitysta?langid=en">Traficom complaint form</a> or <a href="mailto:saavutettavuus@traficom.fi">saavutettavuus@traficom.fi</a>.
+          <ul>
+            <li><a href="https://www.saavutettavuusvaatimukset.fi/fi/tee-saavutettavuuskantelu-tai-pyyda-selvitysta">Instructions in Finnish 🇫🇮</a></li>
+            <li><a href="https://www.saavutettavuusvaatimukset.fi/sv/anfor-tillganglighetsklagan-eller-begar-utredning">Instructions in Swedish 🇸🇪</a></li>
+          </ul>
+        </li>
+        <li>Public complaints (products and non-digital services): ❓ Unknown.</li>
+        <li>Company non-compliance: <a href="https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en">Traficom notification form</a>.</li>
+        <li>Exemptions (invoking derogation grounds): <a href="https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en">Traficom notification form</a>.</li>
+        <li>Company reporting instructions: <a href="https://saavutettavuusvaatimukset.fi/fi/digipalvelulain-vaatimukset/ilmoitusvelvollisuus-puutteista-ja-poikkeamisperusteista/palvelujen-ja">Finnish 🇫🇮</a>; <a href="https://saavutettavuusvaatimukset.fi/sv/skyldighet-att-anmala-brister-och-undantagsgrunder/anmalan-om-brister-och-undantagsgrunder-i-tjanster-och-produkter">Swedish 🇸🇪</a>.</li>
+        <li>Reporting accepted in English 🇬🇧; further correspondence in English is not guaranteed.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><a href="https://www.saavutettavuusvaatimukset.fi/en/obligation-notify-deficiencies-and-grounds-derogation">Company reporting instructions in English 🇬🇧</a></p>
+      <p>⚖️ EAA implementing law: products: <a href="https://finlex.fi/fi/lainsaadanto/2023/102">Laki eräiden tuotteiden esteettömyysvaatimuksista (102/2023)</a>; digital services: <a href="https://finlex.fi/fi/lainsaadanto/2019/306">Laki digitaalisten palvelujen tarjoamisesta (306/2019, chapter 3a)</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>France</td>
