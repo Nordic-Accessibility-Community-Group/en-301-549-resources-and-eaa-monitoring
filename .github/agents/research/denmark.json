@@ -249,24 +249,31 @@
     {
       "field": "authority",
       "assertion": "Energistyrelsen's current EAA remit is confirmed.",
-      "status": "unknown",
+      "status": "disputed",
       "sources": [
         {
-          "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
-          "accessed_on": "2026-09-23",
-          "source_type": "legislation",
-          "section": "Section 45(3)",
-          "evidence": "Original 2022 law names Energistyrelsen."
+          "url": "https://ens.dk/presse/center-tele-flytter-til-styrelsen-dataforsyning-og-effektivisering",
+          "evidence": "Telecom moved out of Energistyrelsen on 7 June 2022.",
+          "section": "Transfer announcement",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        },
+        {
+          "url": "https://digst.dk/media/uhwpy1f5/digitaliseringsstyrelsens-rapport-for-2024-i-henhold-til-teledirektivets-artikel-8-stk-2.pdf",
+          "evidence": "Telecom became part of DIGST on 21 October 2024.",
+          "section": "Page 1",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
         },
         {
           "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
-          "accessed_on": "2026-09-23",
+          "evidence": "DIGST supervises EAA electronic communications services.",
+          "section": "Supervision",
           "source_type": "monitoring_body",
-          "section": "Introduction",
-          "evidence": "Current regulator page identifies DIGST."
+          "accessed_on": "2026-09-24"
         }
       ],
-      "review_note": "Existing name retained for review. Website https://ens.dk/ reachable on 2026-09-23; correct identity does not verify a current remit.",
+      "review_note": "Existing name retained for review. Website https://ens.dk/ reachable on 2026-09-23; correct identity does not verify a current remit. Follow-up 2026-09-24: official transfer history and current EAA supervision identify DIGST. The old Energistyrelsen entry is outdated for telecom; remove it from the current authority list and explain the correction in Additional information. URLs reachable; historical source dates 2022-05-05 and 2025-05-28.",
       "directive_context": "EAA",
       "existing_text": "Energistyrelsen"
     },
@@ -432,11 +439,41 @@
       "sources": [],
       "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The Danish Safety Technology Authority stated on 19 December 2025 that companies outside Denmark can submit reports in English.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official SIK main-mailbox response dated 19 December 2025 at 10:14 supplied by the contributor on 24 September 2026. Non-public correspondence; no public URL, so sources is intentionally empty. Original headers not independently authenticated. Dated confirmation covers companies outside Denmark, not all companies or guaranteed future policy. The reply distinguishes non-compliance email notification from exemption reporting through Virk. Full email and personal signature are not reproduced.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "SIK's 19 December 2025 reply distinguishes email notification of non-compliance and corrective measures from the Virk exemption declaration.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor-supplied official SIK main-mailbox response, dated 19 December 2025; inspected 24 September 2026. No public URL. The sender was sik@sik.dk, but the quoted instructions do not separately state the destination address or prove current forwarding. Current mo@erst.dk guidance remains separately sourced.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Open-question follow-up on 24 September 2026 records partial resolutions and remaining unknowns.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Resolved: official telecom transfer history supports DIGST replacing the outdated Energistyrelsen listing.\nResolved with dated contributor evidence: SIK's official 19 December 2025 reply confirms English reporting for companies outside Denmark and separates email defect notices from Virk exemptions. The contributor reports a reply to emails sent to sik@sik.dk around 16 September 2026, supporting its continued listing. Automatic forwarding was not inspected and is no longer an open research question.\nUnresolved: DIGST and Danish transport guidance identifies remit/duties but did not establish additional usable sector-specific complaint, company-defect and exemption destinations. Generic contact details were not promoted to reporting channels.\nUnresolved: DIGST expressly allows public terms/equivalent with no prescribed format. This does not establish a dedicated public-page mandate across all sectors. Existing Yes preserved.\nUnresolved: Produkter.dk again returned no readable form content; no report submitted.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The contributor reports receiving a reply to emails sent to sik@sik.dk approximately 16 September 2026.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor confirmation supplied on 24 September 2026: last answer was eight days earlier. Verifies the contributor-reported recent mailbox activity, not independently inspected delivery logs, reply headers or automatic forwarding. Supports preserving the manually established address. Exact routing is not a useful unresolved requirement.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
-    "Confirm Energistyrelsen's historical-to-current assignment before removing the existing name.",
-    "Confirm legacy sik@sik.dk forwarding and accepted reporting languages from contributor evidence or agency guidance.",
     "Unknown: complaint and company reporting routes for the other sector authorities.",
     "Unknown: dedicated public page demand; DIGST confirms public terms/equivalent information, not a prescribed page.",
     "Unknown: usable Produkter.dk form content in this reader."
