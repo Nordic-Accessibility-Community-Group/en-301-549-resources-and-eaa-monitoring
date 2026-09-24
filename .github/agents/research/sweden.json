@@ -551,6 +551,22 @@
       "sources": [],
       "directive_context": "other",
       "review_note": "Contributor-supplied PDF: Textuell beskrivning av PTS tillsynsprocess 3.0, reference 24-7906 (cover 24-7906-1), 50 pages. Decision date 2024-06-26; effective 2024-07-01; stated expiry 2028-07-01 (page 3). Contributor reports receipt 2024-09-26 at 10:31; timezone unspecified. Inspected 2026-09-24. Pages 4-6 explain the general process and LPTT-specific differences; page 5 restricts subprocess 3.3 to LEK; section 3.7.1, pages 46-47, describes closure after correction in specified circumstances. These supervision/closure steps do not establish an exemption from initial company reporting or a fixed EAA remediation deadline. No explicit 14-day/two-week reporting rule located in the extracted PDF. No public URL established; sources empty. Current version/supersession not independently checked. Original PDF not published."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS's February 2025 report planned EAA supervision from the second half of 2025, including e-commerce checks of larger Swedish-established actors.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/contentassets/0b908eb126fa4f52a90bd00d45756201/rapport-divisionen-for-marknadsutveckling-tillsyn-ar-2024---2025.pdf",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "2.12, pages 22–24",
+          "evidence": "Identifies the five-agency coordination group, product market surveillance and service supervision; describes planned e-commerce sampling."
+        }
+      ],
+      "review_note": "PTS-ER-2025:1, dated 2025-02-05, reference 25-402. URL reachable. Historical activity report/plan, not evidence that planned checks occurred or that supervision-process version 3.0 was replaced. Does not resolve the outstanding request for an updated process document. Preserve reporting and statement answers.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
