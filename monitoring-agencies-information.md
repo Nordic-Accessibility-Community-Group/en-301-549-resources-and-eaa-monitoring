@@ -78,9 +78,8 @@
       <p>Economic Inspection</p>
       <ul>
         <li>Public reports: <a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">ConsumerConnect</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱); <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">email</a>.</li>
-        <li>Company non-compliance: <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">toegankelijkheid-accessibilite@economie.fgov.be</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱).</li>
-        <li>Business issues: <a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Meldpunt</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱); self-notification: Unverified.</li>
-        <li>Exemptions: <a href="https://accessibility-exceptions.economie.fgov.be/fr/index">advance notification form</a> (French 🇫🇷, Dutch 🇳🇱).</li>
+        <li>Company non-compliance: <a href="https://accessibility-exceptions.economie.fgov.be/fr/index">reporting form</a> (French 🇫🇷, Dutch 🇳🇱); <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">email</a> (English accepted 🇬🇧).</li>
+        <li>Exemptions: <a href="https://accessibility-exceptions.economie.fgov.be/fr/index">notification form</a> (French 🇫🇷, Dutch 🇳🇱); <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">email</a> (English accepted 🇬🇧).</li>
       </ul>
       <p><strong>Products:</strong></p>
       <ul>
