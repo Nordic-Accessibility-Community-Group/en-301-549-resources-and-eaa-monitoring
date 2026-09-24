@@ -465,13 +465,13 @@
       <p><strong>Products, E-commerce and E-books:</strong></p>
       <ul><li>Public: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form">CCPC complaint form</a>.</li><li>Company non-compliance / Exemptions: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue">CCPC form</a> (English).</li><li>Company email: <a href="mailto:access@ccpc.ie">access@ccpc.ie</a> (English).</li></ul>
       <p><strong>Electronic communications and 112 emergency communications:</strong></p>
-      <ul><li>Electronic communications — company non-compliance / Exemptions: <a href="mailto:eaa@comreg.ie">eaa@comreg.ie</a>.</li><li>112: ❓ Unknown.</li></ul>
+      <ul><li>Phone/broadband — public: <a href="https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/">ComReg complaint form</a>.</li><li>Electronic communications — company non-compliance / Exemptions: <a href="mailto:eaa@comreg.ie">eaa@comreg.ie</a>.</li><li>112: ❓ Unknown.</li></ul>
       <p><strong>Audiovisual access:</strong></p>
       <ul><li>Public: <a href="https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/">Coimisiún na Meán form</a>.</li><li>Companies / Exemptions: ❓ Unknown.</li></ul>
       <p><strong>Transport:</strong></p>
       <ul><li>Bus, rail and water — companies: <a href="mailto:euaccessibility@nationaltransport.ie">euaccessibility@nationaltransport.ie</a>.</li><li>Air: ❓ Unknown.</li></ul>
       <p><strong>Banking:</strong></p>
-      <p>❓ Unknown.</p>
+      <ul><li>Public: <a href="mailto:enquiries@centralbank.ie">enquiries@centralbank.ie</a> (subject: “EAA alleged non-compliance”).</li><li>Companies / Exemptions: ❓ Unknown.</li></ul>
     </td>
     <td><p>Covered services must publish accessible compliance information.</p><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">TPGi overview</a> (secondary source).</li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">MHC overview</a> (secondary source).</li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
   </tr>
