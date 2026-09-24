@@ -56,12 +56,21 @@
     },
     {
       "field": "service_information",
-      "assertion": "Information and documents must be supplied to competent authorities on request.",
-      "status": "unknown",
-      "sources": [],
-      "review_note": "Expected under EAA operator duties but exact Lithuanian provision was not retrieved within the budget.",
+      "assertion": "Electronic communications providers must supply compliance information and documents on RRT’s reasoned request within its specified period, no shorter than three working days.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-teikejai/paslaugu-prieinamumas",
+          "accessed_on": "2026-09-24",
+          "evidence": "RRT explains its power to request information and documents needed to demonstrate compliance.",
+          "section": "Kokią informaciją teikėjas turi parengti ir skelbti?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Rerun 24 September 2026: source reachable. Verified for RRT only; duties in other sectors remain unverified pending consolidated legislation. Isolated language review /root/lithuania_rerun_language, no history fork: Supported. Original: Gavęs motyvuotą RRT prašymą ... negali būti trumpesnis kaip 3 darbo dienos. Literal: upon reasoned request, supply compliance evidence within the specified period, which cannot be shorter than three working days. This is a minimum response period, not a fixed three-day deadline.",
       "directive_context": "EAA",
-      "information_mode": "authority_on_request"
+      "information_mode": "authority_on_request",
+      "scope": "Electronic communications only"
     },
     {
       "field": "authority",
@@ -188,7 +197,7 @@
       "assertion": "112 emergency-call oversight remains unknown.",
       "status": "unknown",
       "sources": [],
-      "review_note": "VVTAT overview lists112 in directive scope, but the audited authority roster does not identify the responsible body. Do not infer.",
+      "review_note": "VVTAT overview lists112 in directive scope, but the audited authority roster does not identify the responsible body. Do not infer. Rerun 24 September 2026: official search results expose amendment proposals concerning 112 implementation, but draft/proposal text is not proof of enacted duties or designation. Two targeted searches did not resolve the current oversight body. Do not confuse the emergency-service operator with its monitoring authority. Obtain the current Act and designation instrument before changing the table.",
       "directive_context": "EAA"
     },
     {
@@ -239,18 +248,41 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "LTSA, RRT and LRTK EAA reporting routes are not established.",
+      "assertion": "LTSA EAA public reporting route remains unconfirmed.",
       "status": "unknown",
-      "sources": [],
-      "review_note": "Official agency websites are reachable, but general contacts were not promoted without EAA-purpose confirmation.",
+      "sources": [
+        {
+          "url": "https://ltsa.lrv.lt/lt/struktura-ir-kontaktine-informacija/asmenu-priemimas/",
+          "accessed_on": "2026-09-24",
+          "evidence": "General reception page lists complaint intake and consultation contacts, but does not expressly address EAA reporting.",
+          "section": "",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Rerun 24 September 2026: reachable. Official consultation email konsultavimas@ltsa.lt identified for clarification research, not promoted as a verified EAA filing channel. In-person service languages cannot establish languages accepted for written EAA reports. Two targeted follow-up searches found general/air-passenger channels, not EAA-specific instructions. Ask LTSA which general channel accepts EAA consumer complaints, company notifications and exemptions; request languages, signature and deadlines.",
       "directive_context": "EAA"
     },
     {
       "field": "company_reporting",
       "assertion": "LTSA, RRT and LRTK EAA reporting routes are not established.",
       "status": "unknown",
-      "sources": [],
-      "review_note": "Official agency websites are reachable, but general contacts were not promoted without EAA-purpose confirmation.",
+      "sources": [
+        {
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-teikejai/paslaugu-prieinamumas",
+          "accessed_on": "2026-09-24",
+          "evidence": "Providers must inform RRT about non-compliance and corrective measures; a filing destination is not identified.",
+          "section": "",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+          "accessed_on": "2026-09-24",
+          "evidence": "Section 30 says to inform LRTK when the assessment establishes an exception; no filing destination is specified.",
+          "section": "30",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Official agency websites are reachable, but general contacts were not promoted without EAA-purpose confirmation. Rerun 24 September 2026: RRT provider guidance confirms a company notification duty but does not name a submission destination. LRTK guidance confirms exemption notification duty; its general form is oriented to broadcast-content complaints. Do not infer company/exemption intake from these pages. Languages, signature and deadlines remain unknown except the RRT exemption timing separately recorded.",
       "directive_context": "EAA"
     },
     {
@@ -258,7 +290,7 @@
       "assertion": "Exemptions route is not established.",
       "status": "unknown",
       "sources": [],
-      "review_note": "The VVTAT answer says the general route accepts accessibility reports on any topic, but it does not explicitly confirm exemption notifications. Keep Exemptions: Unknown rather than infer.",
+      "review_note": "The VVTAT answer says the general route accepts accessibility reports on any topic, but it does not explicitly confirm exemption notifications. Keep Exemptions: Unknown rather than infer. Rerun 24 September 2026: two targeted VVTAT follow-up searches and FAQ review did not establish a purpose-specific route. Ask VVTAT whether tarnyba@vvtat.lt/general form accepts Article 14 notifications, and which submission requirements apply. Existing official functional email is known; the uncertainty is its exemption purpose.",
       "directive_context": "EAA"
     },
     {
@@ -281,7 +313,7 @@
           "source_type": "government"
         }
       ],
-      "review_note": "The direct e-Seimas page returned403 twice in this environment; official VVTAT and Ministry pages independently link/identify it. Later consolidation amendments were not fully audited.",
+      "review_note": "The direct e-Seimas page returned403 twice in this environment; official VVTAT and Ministry pages independently link/identify it. Later consolidation amendments were not fully audited. Rerun 24 September 2026: /asr consolidated URL failed on initial attempt and retry; RRT-linked e-TAR text also failed. The official search index identifies a consolidation dated 2026-06-30–2027-06-27, but its operative provisions were not retrieved. This is a discovery lead, not verification of amendments or transition dates. Earlier commencement claim does not certify the current consolidated text.",
       "directive_context": "EAA"
     },
     {
@@ -291,15 +323,94 @@
       "sources": [],
       "review_note": "Attached official thread: VVTAT answered reporting-tool/email/English questions22January2026. Accessibility-statement and monitoring questions sent22January, nudged14August and24September2026; no reply in the thread as of24September. Record as research task; no emails sent by agent.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Public reports: RRT consultations (unsigned enquiries; replies are not an official RRT position).",
+      "status": "verified",
+      "directive_context": "EAA",
+      "sources": [
+        {
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+          "accessed_on": "2026-09-24",
+          "evidence": "Accessibility-violation reports are directed to Consultations; disputes have a separate procedure.",
+          "section": "Kur kreiptis, jei paslauga ar informacija neprieinama?",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+          "accessed_on": "2026-09-24",
+          "evidence": "An unsigned enquiry form is available; its replies are an official’s opinion rather than RRT’s official position.",
+          "section": "",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "reporting_route": {
+        "authority": "RRT",
+        "sector": "Electronic communications",
+        "channel": "form",
+        "destination": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+        "eaa_specific": false
+      },
+      "review_note": "Both pages reachable 24 September 2026. Form fields visible without login; no submission performed. Language acceptance unconfirmed. Five working days is the usual handling period for unsigned enquiries, not a complainant filing deadline. Isolated no-history language review /root/lithuania_rerun_language: final exact assertion Supported after correction. Original: toks pasiteiravimas nebus laikomas prašymu, pateiktu raštu, nes bus nepasirašytas; nėra oficiali RRT pozicija. Literal: an unsigned enquiry is not regarded as a written application; the reply is not RRT’s official position. This is an informal reporting route, not a verified formal dispute filing."
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Public complaints: lrtk@rtk.lt (provider-first resolution encouraged).",
+      "status": "verified",
+      "directive_context": "EAA",
+      "sources": [
+        {
+          "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+          "accessed_on": "2026-09-24",
+          "evidence": "LRTK encourages resolving access-service accessibility disputes with the provider; consumers may complain to LRTK if agreement is not reached.",
+          "section": "35",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+          "accessed_on": "2026-09-24",
+          "evidence": "General requests, complaints and notifications can be submitted by email to lrtk@rtk.lt.",
+          "section": "",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "reporting_route": {
+        "authority": "LRTK",
+        "sector": "Audiovisual access",
+        "channel": "email",
+        "destination": "lrtk@rtk.lt",
+        "eaa_specific": false
+      },
+      "review_note": "Both sources reachable 24 September 2026. General email intake combined with explicit EAA complaint remit; not a dedicated EAA form. The online form asks broadcast-programme details, so it is not promoted for EAA use. Accepted languages, signature requirements and filing deadline remain unknown. Isolated no-history language review /root/lithuania_rerun_language corrected mandatory-sounding contact-provider-first to provider-first resolution encouraged. Original: LRTK skatina ... tiesiogiai kreipiantis į paslaugų teikėją. Literal: LRTK encourages approaching the provider directly. Final assertion uses the reviewer’s exact replacement."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "RRT guidance requires providers relying on fundamental alteration or disproportionate burden to provide information to RRT no later than three working days from the assessment date.",
+      "status": "verified",
+      "directive_context": "EAA",
+      "scope": "Electronic communications; guidance on local Article 14, separate from a verified filing route",
+      "sources": [
+        {
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-teikejai/paslaugu-prieinamumas",
+          "accessed_on": "2026-09-24",
+          "evidence": "Guidance describes notification timing when an exception is relied on.",
+          "section": "Kada reikalavimai gali būti netaikomi visa apimtimi?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Reachable 24 September 2026. No submission destination established: Exemptions remains Unknown in the table. Isolated /root/lithuania_rerun_language, no history fork: Supported. Original: ne vėliau kaip per 3 darbo dienas nuo vertinimo atlikimo dienos. Literal: no later than three working days from the date of assessment. Broader local-law conditions and current amendments remain a follow-up."
     }
   ],
   "questions": [
-    "Before PR: Existing No preserved; official guidance verifies public terms/equivalent information but does not establish a dedicated WAD-style page. No contradictory Yes/No change proposed.",
-    "Before PR: VVTAT company route limited to VVTAT remit; other authorities remain Unknown. No unresolved accuracy blocker remains for narrowed additions.",
-    "Follow-up: Record any VVTAT reply to the accessibility-statement and monitoring questions sent22January and reminded14August and24September2026.",
-    "Follow-up: Verify LTSA, RRT and LRTK public complaints, company non-compliance and Exemptions routes, including languages, login/signature and deadlines.",
-    "Research task: Identify the competent authority and reporting route for112 emergency communications.",
-    "Follow-up: Retrieve the consolidated implementing Act and verify authority-on-request, exemptions and transition provisions section by section.",
-    "Follow-up: Shared ten-minute research/verification budget reached; remaining questions are explicit and no completeness claim is made."
+    "Before PR: Rerun narrowed RRT public reporting to unsigned consultations; LRTK provider-first wording is encouragement, not a mandatory prerequisite. Language corrections applied. Existing No and correspondence facts preserved.",
+    "Follow-up: Await VVTAT’s reply to the statement/monitoring questions reminded 24 September 2026; published guidance does not answer the pending correspondence.",
+    "Follow-up: Ask LTSA to confirm EAA public, company and exemption filing routes; konsultavimas@ltsa.lt is an official consultation contact, not an established EAA filing route.",
+    "Follow-up: Confirm RRT and LRTK company non-compliance and exemption destinations; do not infer them from public-consultation/complaint routes. Confirm accepted languages, signature/login requirements and filing deadlines for each route.",
+    "Follow-up: Ask VVTAT whether its known official email tarnyba@vvtat.lt accepts exemption notifications and which requirements apply.",
+    "Research task: Identify current 112 oversight and reporting from enacted law/designation, not the emergency operator or amendment proposals.",
+    "Follow-up: Retrieve the current consolidated Act XIV-1633 (official index lists 2026-06-30–2027-06-27); check amendments, transitions, exemption conditions and authority-on-request duties outside RRT. Direct text access failed on retry.",
+    "Follow-up: Run full rendered HTML validation when tidy is available; package download attempt could not locate tidy/libtidy5deb1. Full JSON Schema validation passed on this rerun.",
+    "Rerun 24 September 2026: targeted checks completed within the new ten-minute research budget; remaining unknowns are scoped above. No authority contacted and no form submitted."
   ]
 }
