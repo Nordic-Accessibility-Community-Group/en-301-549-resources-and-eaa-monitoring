@@ -721,8 +721,10 @@
     <td>
       <p><strong>Products and E-commerce — TIRS:</strong></p>
       <ul><li>Public reports: <a href="https://e-uprava.gov.si/si/podrocja/drzava-druzba/inspekcijski-postopki/prijava-trzni-inspekciji?lang=si&amp;view_mode=2">General inspection report, without e-identity</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
-      <p><strong>Electronic communications, Audiovisual access, E-books — AKOS:</strong></p>
-      <ul><li>Public reports: <a href="https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec">General regulatory-breach report</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Electronic communications — AKOS:</strong></p>
+      <ul><li>Public reports: <a href="https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec">AKOS general regulatory-violation reporting form; select the applicable field</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Audiovisual access and E-books — AKOS:</strong></p>
+      <ul><li>Public reports: ❓ Unknown.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>Banking and Transport:</strong> Public and company reporting: ❓ Unknown.</p>
     </td>
     <td><p>⚖️ EAA implementing law: <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238">ZDPSI (2023)</a>, amended by <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563">ZDPSI-A (2026)</a>.</p></td>
