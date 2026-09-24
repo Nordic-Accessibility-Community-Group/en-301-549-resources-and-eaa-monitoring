@@ -1,0 +1,422 @@
+{
+  "country": "France",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Existing Yes and RGAA declaration link retained; the linked page requires a dedicated accessibility page within the Article 47 framework.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/",
+          "evidence": "Requires an online accessibility declaration on a page accessible throughout the website.",
+          "section": "Publication de la déclaration; Article 47 template",
+          "source_type": "government",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Link reachable 2026-09-24. Article 47 scope is separate from universal EAA coverage; do not extrapolate this source to every EAA service. No French agency correspondence supplied. Existing Yes preserved, not newly established for the entire EAA scope. Isolated language review and final recheck Supported: 'Statement link: Article 47/RGAA framework, where applicable; EAA service information may be included in general terms and conditions or an equivalent document.' Original: 'page accessibilité'; literal: accessibility page.",
+      "directive_context": "other",
+      "existing_text": "✔️ <a href=\"https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/\">Yes</a>",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "statement",
+      "assertion": "A dedicated public webpage requirement for every covered EAA service: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Retrieved EAA sources establish public information, not a universal dedicated-page format. Existing contributor Yes is not overturned by that evidence gap.",
+      "directive_context": "EAA",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Covered service providers include information explaining compliance with applicable accessibility requirements in their general terms and conditions or an equivalent document, and make it publicly available in accessible written and oral form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349",
+          "evidence": "D.412-57(2) requires public written/oral information; its annex places it in terms or an equivalent document.",
+          "section": "Article 1, D.412-57(2), Annex I",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Source reachable. This is a public-information duty, not merely authority-on-request disclosure; no audio/video recording or standalone-page duty inferred. Statutory scope and exclusions apply. Isolated review/recheck Supported for exact assertion. Original: 'dans les clauses et conditions générales ou dans un document équivalent'; literal: in general terms and conditions or an equivalent document.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Whether oral information is supplied only upon a public request: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Public oral availability is established, but the retrieved text does not define request-only delivery or recordings.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "ACPR may request banking-service conformity information and the assessment supporting an exemption.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://acpr.banque-france.fr/fr/declaration-de-non-conformite-ou-invocation-dune-exemption-aux-obligations-daccessibilite",
+          "evidence": "ACPR may obtain evidence of conformity and an exemption assessment.",
+          "section": "À savoir",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Reachable 2026-09-24; banking scope only.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "DGCCRF",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "evidence": "DGCCRF names covered products and e-commerce among its checks.",
+          "section": "Quels produits et services sont contrôlés ?",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing guidance link reachable; long product inventory condensed. No authority removed. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   DGCCRF  — covered products and services .",
+      "directive_context": "EAA",
+      "scope": "Products and E-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "DGCCRF — covered passenger-service elements",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "evidence": "DGCCRF lists passenger-service websites, apps, ticketing, information and terminals.",
+          "section": "Quels produits et services sont contrôlés ?",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Do not imply oversight of every aspect of transport or physical infrastructure. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   DGCCRF  — covered passenger-service elements .",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "ARCEP, alongside DGCCRF",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "L.511-25-1(1) authorizes ARCEP agents in addition to DGCCRF.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing https://www.arcep.fr/ reachable 2026-09-24. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ARCEP    DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "Arcom, alongside DGCCRF",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "L.511-25-1(2) assigns audiovisual-access checks to Arcom agents in addition to DGCCRF.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing https://www.arcom.fr/ reachable 2026-09-24. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   Arcom    DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "authority",
+      "assertion": "ACPR",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "L.511-25-1(3)(a) assigns consumer-information comprehensibility/complexity checks within ACPR's powers.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing https://acpr.banque-france.fr/ redirects to /fr, reachable. Own guidance identifies credit, payment-account services and electronic-money operations; not the whole financial sector. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "AMF",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "L.511-25-1(3)(a) assigns consumer-information comprehensibility/complexity checks within AMF's powers.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing https://www.amf-france.org/fr retained. Two direct attempts failed, second 403; reachability unknown, not evidence of wrong authority. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "Banque de France",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "L.511-25-1(3)(b) covers identification methods, electronic signatures, security and payment services.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Existing https://www.banque-france.fr/ redirects to /fr, reachable. Keep this functional remit distinct from ACPR/AMF information checks. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "DGCCRF — coordinated checks",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "evidence": "DGCCRF lists banking services among coordinated checks.",
+          "section": "Quels produits et services sont contrôlés ?",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Guidance reachable; authority retained and shared remit explicit. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "Arcom — e-books and dedicated software",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "Article 16 inserts Article 48 VI assigning e-book/software supervision to Arcom.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Missing sector added. Separately corroborated by Ministry of Culture press release of 27 June 2025, retrieved https://www.culture.gouv.fr/presse/communiques-de-presse/l-offre-de-livres-numeriques-accessible-se-developpe-mise-en-application-d-une-directive-europeenne-le-28-juin-2025. Hardware e-readers remain in DGCCRF Products scope. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   Arcom  — e-books and specialised software .",
+      "directive_context": "EAA",
+      "scope": "E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "Authority responsible for accessibility of answering 112 calls: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Emergency communication is in scope, but network-provider oversight is not treated as receiver-side oversight.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "DGCCRF public accessibility reports: SignalConso.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement",
+          "evidence": "Accessibility reporting wizard for consumers is available.",
+          "section": "Accessibility report, step 1",
+          "source_type": "government",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Reachable 2026-09-24, step 1 of 5. No submission. French interface; accepted other languages and later-step identification requirements unknown. This DGCCRF route is not a substitute for all sector-regulator channels. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only.",
+      "directive_context": "EAA",
+      "scope": "DGCCRF-covered products and service elements",
+      "reporting_route": {
+        "authority": "DGCCRF",
+        "sector": "DGCCRF-covered products and service elements",
+        "channel": "form",
+        "destination": "https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Company non-compliance: existing DGCCRF declaration form retained.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+          "evidence": "Official guidance directs economic operators to the linked declaration procedure for this purpose.",
+          "section": "Une démarche en ligne pour déclarer une non-conformité",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Official instructions reachable; form itself failed two retrieval attempts. Purpose verified; end-to-end usability, login and languages unverified. Preserve existing route and require browser review. Does not replace ACPR or other sector filings. Exemptions concerns fundamental alteration/disproportionate burden (EAA Article 14); no universal microenterprise filing duty inferred. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only.",
+      "directive_context": "EAA",
+      "scope": "DGCCRF-covered products and service elements",
+      "reporting_route": {
+        "authority": "DGCCRF",
+        "sector": "DGCCRF-covered products and service elements",
+        "channel": "form",
+        "destination": "https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Exemptions: existing DGCCRF declaration form retained.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+          "evidence": "Official guidance directs economic operators to the linked declaration procedure for this purpose.",
+          "section": "Une démarche en ligne pour invoquer une exemption",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Official instructions reachable; form itself failed two retrieval attempts. Purpose verified; end-to-end usability, login and languages unverified. Preserve existing route and require browser review. Does not replace ACPR or other sector filings. Exemptions concerns fundamental alteration/disproportionate burden (EAA Article 14); no universal microenterprise filing duty inferred. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only.",
+      "directive_context": "EAA",
+      "scope": "DGCCRF-covered products and service elements",
+      "reporting_route": {
+        "authority": "DGCCRF",
+        "sector": "DGCCRF-covered products and service elements",
+        "channel": "form",
+        "destination": "https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "ACPR banking non-compliance and exemption instructions require a portal request after the Démarche.Numérique form.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://acpr.banque-france.fr/fr/declaration-de-non-conformite-ou-invocation-dune-exemption-aux-obligations-daccessibilite",
+          "evidence": "Instructions say the initial form routes the declarant to the ACPR portal, where a request must be created.",
+          "section": "Procédure",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Procedure verified, direct usable portal destination and login path not checked. Do not publish the DGCCRF form as the complete ACPR filing process; retain as a follow-up.",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Sector-regulator channels beyond the verified DGCCRF route: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "ARCEP, Arcom, ACPR, AMF, Banque de France routes need separate confirmation. E-books and 112 have no established usable route in this run.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications, Audiovisual access, Banking, E-books and 112 emergency calls"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Sector-regulator channels beyond the verified DGCCRF route: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "ARCEP, Arcom, ACPR, AMF, Banque de France routes need separate confirmation. E-books and 112 have no established usable route in this run.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications, Audiovisual access, Banking, E-books and 112 emergency calls"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "France implements the EAA through Loi 2023-171 (Article 16), décret 2023-931 and arrêté du 9 octobre 2023; sector measures also apply.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+          "evidence": "Article 16 establishes transposition and sector allocations.",
+          "section": "Article 16",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349",
+          "evidence": "Decree implements L.412-13, generally applying from 28 June 2025.",
+          "section": "Notice",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178413",
+          "evidence": "Sets accessibility requirements.",
+          "section": "Title",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "All three existing official law links reachable. JORF enacted texts, not a claim of exhaustive current consolidation. E-books also have sector measures (not fully audited in this bounded run).",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Existing enforcement and transition facts retained in research: checks started on 28 June 2025; compliance orders may carry daily penalties/publicity; pre-existing self-service terminals have a 15-year limit from entry into service; websites/apps are not products for the product transition.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "evidence": "Guidance confirms enforcement, sanctions and specific transition boundaries.",
+          "section": "Sanctions; Quand seront mis en œuvre les contrôles ?",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Moved detailed existing explanations out of the public table for concision. General service-contract/product transition rules to 2030 are conditional, not a universal grace period.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Existing TPGi overview retained only as a secondary reading link.",
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/",
+          "evidence": "Existing secondary overview, not used to verify claims.",
+          "section": "Existing table link",
+          "source_type": "other_unverified",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Not fetched in this run; no substantive claim promoted from it. Official RGAA homepage link retained.",
+      "directive_context": "other"
+    }
+  ],
+  "questions": [
+    "Before PR: NARROWED — preserve existing Yes/RGAA link but explicitly distinguish Article 47 from EAA terms/equivalent-document obligations.",
+    "Before PR: RESOLVED — E-books assigned to Arcom under Article 16/Article 48; e-reader hardware remains Products.",
+    "Before PR: NARROWED — shared banking powers qualified; no claim that each body supervises all banking aspects.",
+    "Before PR: NARROWED — no unverified sector-regulator portal is promoted to a usable new reporting route.",
+    "Before merge: France / existing DGCCRF company declaration link — maintainer opens the retained form in a browser and confirms it still accepts non-compliance and exemption declarations for the relevant sector, records login prerequisites and any redirect; resolved when current destination/purpose is confirmed or the link is corrected. Two agent access attempts failed.",
+    "Follow-up: Establish independent EAA-specific publication requirements beyond Article 47/RGAA and obtain any original France correspondence; existing Yes preserved.",
+    "Follow-up: Verify sector-regulator complaint/company/Exemptions channels, especially the ACPR portal handoff, and accepted languages, authentication and deadlines.",
+    "Follow-up: Identify authority and routes for accessibility of answering 112 calls; complete sector-specific law/transition review.",
+    "Follow-up: Recheck AMF homepage reachability; 403 after two attempts does not invalidate its statutory remit.",
+    "Coverage: existing six authorities retained; missing E-books remit added. Products, E-commerce, Transport, Electronic communications, Audiovisual access and Banking mapped; 112 remains Unknown. Not a complete-country certification.",
+    "Baseline: merged Estonia PR22 reached main at a2a39b7cfe4d88c26beaa6e24805ccf6e8395c20. France is first table country without a merged record; no open PR or France branch at start. All agency/research information remains beneath .github; Actions deferred and events date script untouched.",
+    "Budget: one bounded research run on 2026-09-24, up to ten minutes shared with verification and isolated language review; two failed-form/AMF attempts, no submissions or correspondence."
+  ]
+}
