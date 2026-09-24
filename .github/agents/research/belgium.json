@@ -15,7 +15,7 @@
           "source_type": "other_unverified"
         }
       ],
-      "review_note": "Existing Yes retained unchanged. No Belgian correspondence supplied. Bank guideline contents identify section 4.1, but substantive passage was not retrieved before access failures; WAD statements on agency websites do not establish EAA duties.",
+      "review_note": "Existing Yes retained unchanged. Correspondence supplied 2026-09-24; the 11 December 2025 public-statement question is not answered in the supplied replies. Bank guideline contents identify section 4.1, but substantive passage was not retrieved before access failures; WAD statements on agency websites do not establish EAA duties.",
       "directive_context": "EAA",
       "existing_text": "Yes",
       "information_mode": "dedicated_public_page"
@@ -286,12 +286,12 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Direct https://cc.consumerconnect.be/csp?id=report_form&lang=en failed twice; purpose supported, end-to-end usability unknown. Existing language labels preserved, not newly verified accepted submission languages. Login and deadline unknown.",
+      "review_note": "Direct https://cc.consumerconnect.be/csp?id=report_form&lang=en failed twice; purpose supported, end-to-end usability unknown. Existing language labels preserved, not newly verified accepted submission languages. Login and deadline unknown. Supplied 7 November and 19 December 2025 government replies confirm ConsumerConnect consumer reporting and four form languages; not blanket email-language acceptance.",
       "directive_context": "EAA"
     },
     {
       "field": "company_reporting",
-      "assertion": "Existing business-issues portal retained with narrower label; self-notification purpose unverified.",
+      "assertion": "Report Point historically recommended by contact centre; own EAA notifications now mapped to specialist-designated form/email.",
       "status": "unknown",
       "sources": [
         {
@@ -302,29 +302,28 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Old URL failed twice. Official successor https://meldpunt.belgie.be/meldpunt/nl/welkom loaded; it collects business infringement reports. Does not explicitly establish own EAA non-compliance submission. Preserve old contributor route and language labels, clearly unverified for self-notification. No private correspondence supplied.",
+      "review_note": "Old URL failed twice. Official successor https://meldpunt.belgie.be/meldpunt/nl/welkom loaded; it collects business infringement reports. Does not explicitly establish own EAA non-compliance submission. Preserve old contributor route and language labels, clearly unverified for self-notification. The 7 November 2025 contact-centre reply supports historical Report Point guidance; the 19 December specialist reply directs own EAA non-compliance and exemptions to the dedicated form/email. General business route removed from concise EAA cell after explicit specialist clarification; historical URL https://meldpunt.economie.fgov.be/meldpunt/en/welcome and EN/FR/DE/NL labels retained here. Not evidence Report Point rejects notifications.",
       "directive_context": "EAA"
     },
     {
       "field": "company_reporting",
-      "assertion": "Existing company email and EN/FR/DE/NL acceptance retained.",
-      "status": "unknown",
-      "sources": [
-        {
-          "url": "https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant",
-          "accessed_on": "2026-09-24",
-          "evidence": "Address listed for accessibility problems, not explicit self-notification language acceptance.",
-          "section": "Signaler un problème",
-          "source_type": "government"
-        }
-      ],
-      "review_note": "Do not remove manually gathered fact for lack of public evidence. Claimed purpose/languages not contradicted, but independent self-report acceptance, login and deadline remain unknown.",
-      "directive_context": "EAA"
+      "assertion": "Economic Inspection accepts company non-compliance and exemption notifications by email; English accepted.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Q2 accepts email for both purposes; Q3 explicitly accepts English and replies in English. Earlier four-language email claim narrowed to the explicitly confirmed language, not a claim other languages are refused. Forms preferred. Deadline not supplied. Isolated English-to-English fidelity review, /root/belgium_correspondence_language, fork_turns=none, 2026-09-24. Source excerpts: 'This email address can be used for both aforementioned purposes'; 'companies can also reach us in English'. Literal rendering unchanged (English original). Exact final wording: 'Company non-compliance: reporting form (French, Dutch); email (English accepted).' / 'Exemptions: notification form (French, Dutch); email (English accepted).' Verdict Supported, no corrections required. Dated January 5 standards/counts paraphrase also Supported. Reviewer received only source passages and candidate wording, not prior conclusions. No certification of current form operation or legal interpretation.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "General Directorate of Economic Inspection",
+        "sector": "Banking and E-commerce (consumer services)",
+        "channel": "email",
+        "destination": "toegankelijkheid-accessibilite@economie.fgov.be",
+        "eaa_specific": true
+      }
     },
     {
       "field": "company_reporting",
-      "assertion": "Exemptions form: official purpose verified; usability unknown.",
-      "status": "unknown",
+      "assertion": "Economic Inspection identifies the dedicated form for company non-compliance and exemption notifications; available in French and Dutch.",
+      "status": "verified",
       "sources": [
         {
           "url": "https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant",
@@ -341,8 +340,15 @@
           "source_type": "government"
         }
       ],
-      "review_note": "Existing FR/NL label retained. No submission attempted. Official guidance says notify in advance for the described exemptions; not a universal filing obligation. EAA Article 14(8) context concerns fundamental alteration/disproportionate burden, excluding microenterprises from that EU notification provision. Exact local scope in PDF remains follow-up.",
-      "directive_context": "EAA"
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Q1 confirms both purposes and FR/NL form languages. Earlier HTML-shell observation remains: functional availability/login not tested. Verified authority-designated purpose, not successful submission. EAA Article 14 context remains research only.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "General Directorate of Economic Inspection",
+        "sector": "Banking and E-commerce (consumer services)",
+        "channel": "form",
+        "destination": "https://accessibility-exceptions.economie.fgov.be/fr/index",
+        "eaa_specific": true
+      }
     },
     {
       "field": "public_reporting",
@@ -436,18 +442,35 @@
       ],
       "review_note": "ConsumerConnect public information pages reachable on 2026-09-24. Secondary link now explicitly labelled unverified. No new penalties claim.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "On 5 January 2026 Economic Inspection described assessing EAA legal requirements with overlap to WCAG/EN 301 549 and declined to disclose investigation/complaint counts.",
+      "status": "verified",
+      "sources": [],
+      "directive_context": "EAA",
+      "scope": "Consumer banking and e-commerce",
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Outer 5 January reply withholds testing details to protect investigations. 19 December reply confirms investigations following complaints. No inference of zero cases or no enforcement. Its WCAG 2.2/dark-mode replies describe dated practice, not EU-wide legal conclusions; kept out of table."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Inter offers contextual observations on early enforcement and unavailable statistics; not competent monitoring-body verification.",
+      "status": "unverified_source",
+      "sources": [],
+      "directive_context": "EAA",
+      "review_note": "Contributor attachment EAA enforcement in Belgium.eml, Inter reply 16 February 2026, inspected 2026-09-24. Describes limited knowledge/current experience and suggests Unia as further contact. Its broad reference to most other covered services must not expand Economic Inspection remit: primary reply expressly restricts answers to banking/e-commerce. Not evidence of exhaustive absence of statistics or that Unia is the EAA monitoring authority. Raw emails and personal contact details not published."
     }
   ],
   "questions": [
-    "Before PR: RESOLVED BY NARROWING — do not assert the business complaint portal is verified for companies reporting their own EAA non-compliance. Retain existing link as business issues, purpose unverified.",
+    "Before PR: RESOLVED WITH PRIMARY CORRESPONDENCE — 19 December 2025 reply confirms company non-compliance/exemption form and email purposes plus English email. General Report Point retained in historical notes.",
     "Before PR: RESOLVED BY PRESERVATION — preserve statement Yes, flag secondary basis; do not add a new mandatory public-page assertion from inaccessible guideline content.",
     "Follow-up: Obtain official guideline sections 4.1–4.2 and determine dedicated page, public terms/equivalent, public-on-request and authority-on-request separately.",
     "Follow-up: Identify named monitoring offices within each Community/Region, especially the German-speaking Community parliament contact; compare updated laws/rosters before claiming exhaustive coverage.",
-    "Follow-up: Inspect ConsumerConnect and exemptions forms without submission; establish login, accepted languages, own-noncompliance intake and deadline. Contributor can supply existing reporting-language/email evidence.",
     "Follow-up: Replace or supplement EUR-Lex index with verified official Belgian implementing texts for each sector; statutory retrieval failed.",
     "Follow-up: Retrieve specific reporting routes for products, electronic communications, audiovisual access, e-books, transport and 112 oversight; do not use emergency number as complaint channel.",
     "Before merge: Ordinary maintainer evidence/diff review; no additional manual accuracy gate identified for narrowed additions.",
     "Run scope: merged main a288041bbd7665d61056d447bcd929110fff3add includes merged Austria PR17 via PR16. One-country rollout; no workflows/events date script changed. Research/verification limited to ten minutes; unsuccessful access/search attempts not extended.",
-    "Research cutoff: substantive research and two-pass evidence review stopped at approximately seven minutes; required isolated language recheck completed within the ten-minute shared budget. Publication/validation continue without further country research. Unknown does not mean absent. No full-country-verification claim."
+    "Research cutoff: substantive research and two-pass evidence review stopped at approximately seven minutes; required isolated language recheck completed within the ten-minute shared budget. Publication/validation continue without further country research. Unknown does not mean absent. No full-country-verification claim.",
+    "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered."
   ]
 }
