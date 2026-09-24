@@ -123,9 +123,74 @@
   <tr>
     <td>Croatia</td>
     <td>✖️ No (Source needed)</td>
-    <td><ul><li><a href="https://www.hakom.hr/">HAKOM (Croatian Regulatory Authority for Network Industries)</a> – responsible for products considered radio equipment (like phones or wireless-enabled terminals)</li><li><a href="https://inspektorat.gov.hr/">Državni inspektorat (State Inspectorate)</a> – responsible for all other products and services covered by the law.</li></ul> </td>
-    <td>❓ Unknown</td>
-    <td><p>⚖️ EAA implementing law: <a href="https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html">Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025)</a>.</p></td>
+    <td>
+      <p><strong>Products:</strong></p>
+      <ul>
+        <li><a href="https://www.hakom.hr/">HAKOM</a> — covered radio equipment.</li>
+        <li><a href="https://inspektorat.gov.hr/">Državni inspektorat</a> — other covered products.</li>
+      </ul>
+      <p><strong>E-commerce:</strong></p>
+      <ul>
+        <li><a href="https://inspektorat.gov.hr/">Državni inspektorat</a></li>
+      </ul>
+      <p><strong>Electronic communications and E-books:</strong></p>
+      <ul>
+        <li><a href="https://www.hakom.hr/">HAKOM</a> — covered communications services; e-books and dedicated software.</li>
+      </ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul>
+        <li><a href="https://aem.hr/">Agencija za elektroničke medije (AEM)</a></li>
+      </ul>
+      <p><strong>Banking:</strong></p>
+      <ul>
+        <li><a href="https://www.hnb.hr/">Hrvatska narodna banka (HNB)</a> and <a href="https://www.hanfa.hr/">Hrvatska agencija za nadzor financijskih usluga (HANFA)</a> — consumer banking, each within its statutory remit.</li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li><a href="https://www.ccaa.hr/">Hrvatska agencija za civilno zrakoplovstvo (CCAA)</a> — covered air passenger service elements.</li>
+        <li><a href="https://www.hakom.hr/">HAKOM</a> — covered rail passenger service elements.</li>
+        <li><a href="https://mmpi.gov.hr/">Ministarstvo mora, prometa i infrastrukture (MMPI)</a> — covered bus and waterborne passenger service elements.</li>
+      </ul>
+      <p>Urban, suburban and regional transport: interactive self-service terminals only.</p>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul>
+        <li>❓ Unknown.</li>
+      </ul>
+    </td>
+    <td>
+      <p><strong>Products:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>E-commerce:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Electronic communications and E-books:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Banking:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+    </td>
+    <td>
+      <p>Accessibility information: public availability required for covered services; microenterprise service providers excluded (Articles 4(2), 15; Annex V).</p>
+      <p>⚖️ EAA implementing law: <a href="https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html">Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025)</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>Cyprus</td>
