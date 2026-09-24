@@ -583,7 +583,7 @@
         <li><a href="https://utk.gov.pl/">President of UTK</a> — rail.</li>
         <li><a href="https://ulc.gov.pl/">President of ULC</a> — air.</li>
         <li>Maritime office directors — sea: <a href="https://www.umgdy.gov.pl/">Gdynia</a> and <a href="https://www.ums.gov.pl/">Szczecin</a>.</li>
-        <li><a href="https://bydg.uzs.gov.pl/">Director of the Inland Navigation Office in Bydgoszcz</a> — inland waterways.</li>
+        <li><a href="https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/">Director of the Inland Navigation Office in Bydgoszcz</a> — inland waterways.</li>
       </ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown.</li></ul>
