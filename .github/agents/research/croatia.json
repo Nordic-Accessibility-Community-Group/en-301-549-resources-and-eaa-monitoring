@@ -1,0 +1,546 @@
+{
+  "country": "Croatia",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Existing No preserved; regulator demand for a separate public page unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Existing text No (Source needed) retained exactly. No Croatian private correspondence supplied. Law's public information duty is not proof of mandatory separate webpage, nor proof of No. Targeted government/regulator searches mainly returned WAD statements on their own websites; these were excluded.",
+      "directive_context": "EAA",
+      "existing_text": "✖️ No (Source needed)",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "For covered service providers, excluding microenterprise service providers, accessibility information belongs in general terms or an equivalent document and must be publicly available in accessible written and oral forms.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 15(2)–(3); Annex V(1)",
+          "evidence": "Service information and its public delivery are specified."
+        }
+      ],
+      "review_note": "Legal duty, not a finding about regulator publication practice. Article 4(2) exempts microenterprise service providers. No standalone webpage inferred.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Public-on-request-only delivery: Unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 15(3)",
+          "evidence": "Public availability specified without an on-request-only limitation."
+        }
+      ],
+      "review_note": "Do not replace public information duty with availability only upon request. Article 22(5) concerns inspectors optionally providing held product compliance information to consumers on request, subject to confidentiality; different audience/provider from service information.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service conformity information to competent inspector upon reasoned request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 16(3)",
+          "evidence": "Inspector may request conformity evidence."
+        }
+      ],
+      "review_note": "Separate from public information. Product evidence under Article16(1) expressly Croatian and Latin script; not extrapolated to complaint languages.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "NN 89/2025 transposes EAA; effective 28 June 2025.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 2–4, 37–38",
+          "evidence": "Scope, exemptions, transitions and commencement."
+        }
+      ],
+      "review_note": "Official gazette enacted law retrieved successfully 2026-09-24. Existing local law link retained. Article37 has specific legacy contract/product/terminal transitions; not universal grace period. 112 refers to electronic-communications law. Targeted amendment search did not establish any later text; no exhaustive consolidation claim.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "authority",
+      "assertion": "Existing State Inspectorate all-other-services assertion contradicted by Article25.",
+      "status": "disputed",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(1)–(9)",
+          "evidence": "Multiple sector authorities expressly designated."
+        }
+      ],
+      "review_note": "Before PR issue resolved by replacing broad claim with explicit statutory sectors. No change to original No answer.",
+      "directive_context": "EAA",
+      "existing_text": "responsible for all other products and services covered by the law."
+    },
+    {
+      "field": "authority",
+      "assertion": "HAKOM — Products",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 22(2)",
+          "evidence": "Covered radio equipment."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hakom.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "authority",
+      "assertion": "Državni inspektorat — Products",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 22(3)",
+          "evidence": "Other covered products."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://inspektorat.gov.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "authority",
+      "assertion": "Državni inspektorat — E-commerce",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(9)",
+          "evidence": "Covered e-commerce services."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://inspektorat.gov.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "E-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "HAKOM — Electronic communications",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(1)",
+          "evidence": "Covered electronic communications services; Article 3(2) excludes machine-to-machine transmission services."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hakom.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "HAKOM — E-books",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(8)",
+          "evidence": "E-books and dedicated software."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hakom.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "Agencija za elektroničke medije (AEM) — Audiovisual access",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(2)",
+          "evidence": "Services giving access to audiovisual media."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://aem.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "authority",
+      "assertion": "Hrvatska narodna banka (HNB) — Banking",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(7)",
+          "evidence": "Consumer banking, within its statutory remit."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hnb.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "Hrvatska agencija za nadzor financijskih usluga (HANFA) — Banking",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(7)",
+          "evidence": "Consumer banking, within its statutory remit."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hanfa.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "Hrvatska agencija za civilno zrakoplovstvo (CCAA) — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(3)",
+          "evidence": "Covered air passenger service elements."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.ccaa.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "HAKOM — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(5)",
+          "evidence": "Covered rail passenger service elements."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.hakom.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "Ministarstvo mora, prometa i infrastrukture (MMPI) — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Article 25(4), (6)",
+          "evidence": "Covered bus and waterborne passenger service elements; road-traffic inspectors and navigation-safety inspectors/authorized persons respectively."
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://mmpi.gov.hr/ reachable, correct official site. AEM www variant redirected to https://aem.hr/. Law, not website title, verifies remit.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "112 emergency response oversight: Unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 3(3), 37(4)",
+          "evidence": "References electronic-communications law and implementing rules."
+        }
+      ],
+      "review_note": "Do not infer receiver-side oversight from HAKOM's network/provider roles. Civil Protection documents list EAA as a reference, but do not establish exact oversight in retrieved material. Table explicitly Unknown.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "authority",
+      "assertion": "Coverage checked against Articles22 and25; complete 112 and banking sub-remit detail not established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 3, 22, 25",
+          "evidence": "Sector inventory and assignments compared."
+        }
+      ],
+      "review_note": "Existing two authority links both correct/reachable; missing AEM, CCAA, MMPI, HNB, HANFA added. Statutory banking 'each within its competence' retained without inventing allocation. Urban/suburban/regional transport restricted to interactive terminals under Article3(2); other transport only covered service elements. Not a claim of full country verification. Isolated Croatian-to-English language review on 2026-09-24 by /root/croatian_language (fork_turns=none): source excerpts/URL and candidates only, no repository/history/statuses. Original 'koji imaju obilježje radijske opreme' -> 'which have the characteristics of radio equipment'; 'svatko u okviru svoje nadležnosti' -> 'each within its own competence'; 'u općim uvjetima ili istovrijednom dokumentu' -> 'in general terms and conditions or an equivalent document'; 'na obrazložen zahtjev' -> 'upon reasoned request'. All authority mappings Supported as institutional shorthand for named inspectors. Correction needed for ambiguous public-service wording and missing microenterprise qualifier; corrected final sentence rechecked Supported: 'Accessibility information: public availability required for covered services; microenterprise service providers excluded (Articles 4(2), 15; Annex V).' Rechecked final transport qualifier Supported: 'Urban, suburban and regional transport: interactive self-service terminals only.' Article17 research correction rechecked Supported: 'An economic operator applying Article17(1), other than a microenterprise, must notify the relevant authority under Article17(8); supplied excerpt does not specify the notification channel.' Final information paragraph also rechecked Supported; no independent human/legal approval. Law passages were supplied to isolated reviewer, not independently re-retrieved by it.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Products — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Products — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "E-commerce — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "E-commerce"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "E-commerce — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "E-commerce"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Electronic communications and E-books — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications and E-books"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Electronic communications and E-books — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications and E-books"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Audiovisual access — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Audiovisual access — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Banking — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Banking — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "Banking"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Transport — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Transport — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "112 emergency calls — complaint route unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No EAA-purpose route verified within bounded checks. Generic contact points not promoted to reporting channels. Unknown is not absence.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "112 emergency calls — non-compliance and exemption channels unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Articles 15(5), 17(8)",
+          "evidence": "Duties do not specify a submission destination."
+        }
+      ],
+      "review_note": "Service non-compliance without delay; no numeric deadline inferred. Exemptions under Article17(8) exclude microenterprises. EU counterpart Article14 background remains research-only. No claim of universal notification duty. Accepted reporting languages/login unknown; no forms submitted.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "State Inspectorate general form retrieved; EAA intake not established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://dirh.gov.hr/podnosenje-prijava/83",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Podnošenje prijava",
+          "evidence": "General complaint form with regional-office, reported entity and description fields."
+        }
+      ],
+      "review_note": "Reachable, visible required fields and CAPTCHA; separate e-Građani option. No explicit EAA routing in retrieved content. Not added to public table; login/acceptance not tested.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "AEM form addresses programme/publication content; EAA access-service intake unverified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://aem.hr/prituzbe-gradana/",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Upiti i pritužbe",
+          "evidence": "Programme/publication-content complaint instructions and form."
+        }
+      ],
+      "review_note": "First retrieval challenged, retry succeeded. Requires programme/broadcast details or publication URL; not evidence of EAA access-service intake. Do not treat general postal address as verified EAA route.",
+      "directive_context": "EAA"
+    }
+  ],
+  "questions": [
+    "Before PR: RESOLVED — State Inspectorate all-other-services claim conflicts with law Article25; corrected to statute-based sectors, original statement No untouched.",
+    "Before PR: OMITTED — generic DIRH/AEM forms lack established EAA intake scope; reporting entries remain Unknown.",
+    "Before PR: NARROWED — 112 receiver-side oversight not established from cross-referenced communications law; authority remains Unknown rather than inferred.",
+    "Before merge: No additional accuracy checks identified for narrowed additions; ordinary maintainer evidence/diff review remains required.",
+    "Follow-up: Ask relevant regulators whether service information requires a separate public page. Preserve No until explicit official contradiction; Article15/AnnexV duties are separate.",
+    "Follow-up: Establish public complaint, company non-compliance and Exemptions routes with purpose, authority, sector, accepted languages and login requirements.",
+    "Follow-up: Resolve 112 competent oversight body and applicable date from electronic-communications legislation; distinguish network/provider obligations from emergency response.",
+    "Follow-up: Resolve HNB/HANFA detailed product/provider allocation under their separate statutory competences; present shared limitation meanwhile.",
+    "Run scope: baseline main ef277200cf90a84bb9dccd42036c7e9bac539245 includes merged Belgium PR18 and record. Five pilots and Austria skipped. Only Croatia research/table changed; workflows deferred and events date script untouched. Maximum ten-minute shared research/verification/language budget and two attempts per failing URL.",
+    "Research cutoff: evidence checks and isolated language recheck completed within six minutes of shared ten-minute limit; follow-up searches for unconfirmed routes/statement practice produced no explicit usable confirmation. No full-verification claim. Draft preparation and local checks continue without new research."
+  ]
+}
