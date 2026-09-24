@@ -34,3 +34,7 @@ In Reporting tools, use matching sector labels, identify the responsible authori
 Group sectors only when they share the listed authority or reporting routes; otherwise list them separately. A shared channel never expands an authority's remit. Prefer grouping over repeated long addresses, but keep sector-to-authority mapping explicit. Use paragraph labels and lists, never `<br>`. Keep evidence narration in research notes/PR feedback.
 
 Check both columns against the recorded sector-to-authority mapping before handoff. Reusing existing supported names and scopes is a layout change; new, translated or meaning-sensitive scope wording still requires the evidence and isolated language checks. An unknown channel must not erase a known authority.
+
+## Shared exemption label
+
+Use exactly `Exemptions:` as the reporting label for every country. Do not append wording such as “invoking derogation grounds” to the label. Keep the nature, conditions and scope of the local notification route in the research record. The shared legal reference is [EAA Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882) (fundamental alteration and disproportionate burden), particularly Article 14(8) for notification to authorities. That notification provision excludes microenterprises; do not infer a universal filing obligation. The EAA reference does not replace the national implementing law or official evidence of a usable local channel.
