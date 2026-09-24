@@ -142,8 +142,8 @@
     "Before PR: NARROWED — the law identifies the Deputy Minister of Social Welfare as competent authority, but the current complete roster of supporting market-surveillance departments was not verified; no sector departments were invented.",
     "Before PR: OMITTED — no EAA-purpose complaint, company non-compliance or Exemptions submission channel was verified; generic contacts were not promoted.",
     "Before PR: PRESERVED — statement remains Unknown. Article 14/Annex III public-information duties do not prove that the monitoring authority demands a dedicated public page.",
-    "Before merge: Verify the current Council of Ministers designation of departments/services supporting EAA market surveillance, if available, and link each official site.",
-    "Before merge: Verify at least one usable EAA-purpose route (form, email or postal address) for public complaints, company non-compliance and Exemptions; record sector, accepted languages and authentication.",
+    "Follow-up: Verify the current Council of Ministers designation of departments/services supporting EAA market surveillance, if available, and link each official site.",
+    "Follow-up: Verify at least one usable EAA-purpose route (form, email or postal address) for public complaints, company non-compliance and Exemptions; record sector, accepted languages and authentication.",
     "Follow-up: Ask the competent authority whether it requires a dedicated public page comparable to a WAD accessibility statement, and preserve Unknown until explicit official evidence supports Yes or No.",
     "Run scope: baseline main includes merged Croatia PR #19. Only Cyprus research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
     "Research cutoff: bounded research and evidence/language verification completed within the ten-minute shared budget; unsupported details were narrowed or omitted."
