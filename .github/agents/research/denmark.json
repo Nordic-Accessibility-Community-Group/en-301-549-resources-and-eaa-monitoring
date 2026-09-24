@@ -508,14 +508,58 @@
       ],
       "directive_context": "EAA",
       "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence. Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved. Reopened the authority roster, public tip form (accessibility categories and anonymous option), non-compliance guidance (mo@erst.dk), and Virk introduction (MitID Business). No submissions performed. Removed historical transfer/correspondence narration from Additional information; preserved it in this record."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Separate language-fidelity review completed on 24 September 2026.",
+      "status": "unknown",
+      "directive_context": "EAA",
+      "sources": [
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+          "section": "Authority roster",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://www.sik.dk/sikkerhedsstyrelsen-del-erhvervsstyrelsen",
+          "section": "Introduction / merger",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+          "section": "Tilgængelighedserklæring",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://www.sik.dk/tip",
+          "section": "Accessibility categories / optional contacts",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+          "section": "Prerequisites",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        }
+      ],
+      "review_note": "Agent /root/danish_language started with fork_turns=none; supplied only neutral fidelity instructions, original URLs, proposed wording and the relevant original English agency sentence from 19 December 2025. No research conclusions/statuses or PR discussion supplied. Initial identity ambiguity: roster names Sikkerhedsstyrelsen while footer names Erhvervsstyrelsen. Additional official source https://www.sik.dk/sikkerhedsstyrelsen-del-erhvervsstyrelsen resolves this: “en afdeling i Erhvervsstyrelsen under navnet Markedsovervågning” = a department in the Danish Business Authority under the name Market Surveillance; same tasks retained from January 2026.\nRoster section Fordeling af ansvar: “På vegne af” = on behalf of; delegated banking/ATM, e-commerce and Smart-TV wording supported. “TV- og streamingtjenester” = TV and streaming services; replaced audiovisual access. Trafikstyrelsen digital passenger-transport/land-side port wording sharpened; Finanstilsynet ATM role explicit. Søfartsstyrelsen and Rigspolitiet concise scopes supported.\nDIGST Tilgængelighedserklæring: “i de almindelige betingelser eller et tilsvarende dokument” = in general terms or equivalent document; final general terms and conditions wording supported.\nVirk Dette skal du bruge = what you need; MitID Business supported at landing-page level. sik.dk/tip Kontaktinformation (valgfri) = contact information (optional); anonymous reporting offered is supported. Supplied English agency excerpt directly supports English reports by companies outside Denmark.\nFinal corrected language recheck: Supported. Legacy sik@sik.dk and Danish submission acceptance are not established by the language-only public-source check; preserved contributor information has separate dated provenance in this record, including the recent mailbox reply. Malformed current-page email markup is not treated as two independently verified alternatives. Actual email operation, form authentication and submission not tested. The prior Danish-reading checkbox is superseded, not falsely marked human-completed.\nExact final public row (unchanged source-language names retained):\n<tr>\n    <td>Denmark</td>\n    <td>✔️ <a href=\"https://www.retsinformation.dk/eli/lta/2022/801/pdf\">Yes</a></td>\n    <td><ul>\n      <li><a href=\"https://www.sik.dk/\">Erhvervsstyrelsen | Markedsovervågning</a> – Products; TV/streaming services; e-books; delegated banking/ATM, e-commerce and Smart-TV checks.</li>\n      <li><a href=\"https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/\">Digitaliseringsstyrelsen</a> – Electronic communications; Smart-TV checks delegated to market surveillance.</li>\n      <li><a href=\"https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven\">Trafikstyrelsen</a> – Digital passenger-transport services: air, bus, rail and land-side port elements.</li>\n      <li><a href=\"https://www.soefartsstyrelsen.dk/\">Søfartsstyrelsen</a> – Ship passenger services.</li>\n      <li><a href=\"https://www.finanstilsynet.dk/\">Finanstilsynet</a> – Banking and ATMs; checks delegated to market surveillance.</li>\n      <li><a href=\"https://kfst.dk/\">Konkurrence- og Forbrugerstyrelsen</a> – E-commerce; checks delegated to market surveillance.</li>\n      <li><a href=\"https://politi.dk/\">Rigspolitiet</a> – 112 emergency service.</li>\n    </ul></td>\n    <td>\n\t\t<ul>\n\t\t\t<li>Report exemptions (companies; MitID Business required): \n\t\t\t\t<ul>\n\t\t\t\t\t<li> <a href=\"https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements\">Declaration of Exemption from Accessibility Requirements, Reporting tool, in English 🇬🇧</a></li>\n\t\t\t\t\t<li><a href=\"https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements\">Declaration of Exemption from Accessibility Requirements, Reporting tool, in Danish 🇩🇰</a></li>\n\t\t\t\t</ul></li>\n\t\t\t<li>Report non-compliance (companies, market-surveillance remit): <a href=\"mailto:mo@erst.dk\">mo@erst.dk</a> or <a href=\"mailto:sik@sik.dk\">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li>\n\t\t\t<li>Reporting tool (for the public): \n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://produkter.dk\">Reporting tool for products, in Danish 🇩🇰</a></li>\n\t\t\t\t</ul></li>\n\t\t<li>Erhvervsstyrelsen | Markedsovervågning: <a href=\"https://www.sik.dk/tip\">public accessibility reporting form</a> for self-service terminals, e-commerce, banking, streaming and e-book services; anonymous reporting offered.</li></ul>\n\t</td>\n    <td><ul><li><a href=\"https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/\">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href=\"https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/\">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href=\"https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester\">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href=\"https://retsinformation.dk/eli/lta/2022/801\">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href=\"https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/\">DIGST: public accessibility information in general terms and conditions or an equivalent document.</a></p></td>\n  </tr>\nThis is separate AI fidelity review, not independent human approval, legal interpretation or a full renewed country audit."
     }
   ],
   "questions": [
     "Before PR: Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence.",
     "Before PR: Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved.",
-    "Before merge: Denmark / Monitoring agencies — compare the short delegated-role descriptions with the official roster, especially Smart-TV checks for DIGST and banking/e-commerce checks for Finanstilsynet/KFST; this prevents confusing the responsible authority with the body carrying out checks. Evidence: [official roster](https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven), “På vegne af andre myndigheder”. Owner: Danish-reading maintainer. Resolved when: reviewer confirms the agency/delegation labels or supplies corrected wording.",
     "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
     "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
-    "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check."
+    "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
+    "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains."
   ]
 }
