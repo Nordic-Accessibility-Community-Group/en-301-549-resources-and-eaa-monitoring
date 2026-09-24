@@ -450,60 +450,30 @@
     <td>Ireland</td>
     <td>❓ Unknown</td>
     <td>
-		<ul>
-			<li>
-				<a href="https://www.comreg.ie/">Commission for Communications Regulation</a>
-				<ul>
-					<li>Electronic communication services, other than transmission services used for the provision of machine-to-machine services.</li>
-					<li>Answering emergency communications to the single European emergency number ‘112’</li>
-				</ul>
-			</li>	
-			<li>
-				<a href="https://www.cnam.ie/">Coimisiún na Meán</a>
-				<ul>
-					<li>Services providing access to audiovisual media services.</li>
-				</ul>
-			</li>	
-			<li>
-				<a href="https://www.iaa.ie/">Irish Aviation Authority</a>
-				The following elements of air passenger transport services (other than urban and suburban transport services and regional transport services):
-				<ul>
-					<li>Websites.</li>
-					<li>Mobile device-based services, including mobile applications.</li>
-					<li>Electronic tickets and electronic ticketing services.</li>
-					<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>
-					<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).</li>
-				</ul>
-			</li>
-			<li>
-				<a href="https://www.nationaltransport.ie/">National Transport Authority</a>
-				The following elements of bus passenger transport services, rail passenger transport services, and waterborne passenger transport services (other than urban and suburban transport services and regional transport services):
-					<ul>
-						<li>Websites.</li>
-						<li>Mobile device-based services, including mobile applications.</li>
-						<li>Electronic tickets and electronic ticketing services.</li>
-						<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>
-						<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).
-						</li>
-					</ul>
-				</li>
-			<li>
-				The following elements of urban and suburban transport services and regional transport services:
-				<ul>
-					<li>Interactive self-service terminals located within the territory of the Union, other than those installed as integrated parts of vehicles and rolling stock used in the provision of any part of such passenger transport services.</li>
-				</ul>
-			</li>	
-			<li>
-				<a href="https://www.centralbank.ie/regulation/central-bank-portal">Central Bank of Ireland</a> (Consumer banking services)		</li>	
-			<li>
-				<a href="https://www.ccpc.ie/">Irish Competition and Consumer Protection Commission (CCPC)</a>
-			</li>
-		</ul>
-	</td>
-    <td><ul><li>Reporting tool for companies: <a href="https://www.ccpc.ie/business/enforcement/accessibility/notify-the-ccpc-of-a-non-compliant-product-service-or-claim-an-exemption/">Reporting tool, in English 🇬🇧</a></li>
-	<li>Report through email for companies: <a href="mailto:access@ccpc.ie">access@ccpc.ie</a>, in English 🇬🇧</li>
-	</ul></td>
-    <td><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">Article about Ireland from TPGi</a></li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">Overview of the Irish implementing measures</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
+      <p><strong>Products, E-commerce and E-books:</strong></p>
+      <ul><li><a href="https://www.ccpc.ie/">Competition and Consumer Protection Commission (CCPC)</a> — covered products; e-commerce; e-books and dedicated software.</li></ul>
+      <p><strong>Electronic communications and 112 emergency communications:</strong></p>
+      <ul><li><a href="https://www.comreg.ie/">Commission for Communications Regulation (ComReg)</a> — electronic communications excluding machine-to-machine transmission services; answering emergency communications to 112.</li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li><a href="https://www.cnam.ie/">Coimisiún na Meán</a> — services providing access to audiovisual media.</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li><a href="https://www.iaa.ie/">Irish Aviation Authority</a> — covered air passenger service elements.</li><li><a href="https://www.nationaltransport.ie/">National Transport Authority</a> — covered bus, rail and water passenger service elements.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li><a href="https://www.centralbank.ie/consumer-hub/european-accessibility-act">Central Bank of Ireland</a> — consumer banking.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce and E-books:</strong></p>
+      <ul><li>Public: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form">CCPC complaint form</a>.</li><li>Company non-compliance / Exemptions: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue">CCPC form</a> (English).</li><li>Company email: <a href="mailto:access@ccpc.ie">access@ccpc.ie</a> (English).</li></ul>
+      <p><strong>Electronic communications and 112 emergency communications:</strong></p>
+      <ul><li>Phone/broadband — public: <a href="https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/">ComReg complaint form</a>.</li><li>Electronic communications — company non-compliance / Exemptions: <a href="mailto:eaa@comreg.ie">eaa@comreg.ie</a>.</li><li>112: ❓ Unknown.</li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li>Public: <a href="https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/">Coimisiún na Meán form</a>.</li><li>Companies / Exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li>Bus, rail and water — companies: <a href="mailto:euaccessibility@nationaltransport.ie">euaccessibility@nationaltransport.ie</a>.</li><li>Air: ❓ Unknown.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li>Public: <a href="mailto:enquiries@centralbank.ie">enquiries@centralbank.ie</a> (subject: “EAA alleged non-compliance”).</li><li>Companies / Exemptions: ❓ Unknown.</li></ul>
+    </td>
+    <td><p>Covered services must publish accessible compliance information.</p><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/">TPGi overview</a> (secondary source).</li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">MHC overview</a> (secondary source).</li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
   </tr>
   <tr>
     <td>Italy</td>
