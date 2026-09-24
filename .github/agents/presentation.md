@@ -22,3 +22,15 @@ Output: proposed row diff, source-to-claim mapping, and unresolved presentation 
 ## Language handoff
 
 Send the final proposed translated or meaning-sensitive wording, source passages and section references to the isolated language check specified in `README.md`. Keep research conclusions out of that handoff. Apply supported corrections without expanding the public table with translation commentary. Recheck changed passages after shortening or correction; retain exact comparisons in the country record.
+
+## Consistent sector structure in both columns
+
+Use the same sector-first structure in Monitoring agencies and Reporting tools for every country. Use these shared labels where applicable: Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books, and 112 emergency calls. Country-specific subcategories add precision beneath a label rather than replace the common vocabulary.
+
+In Monitoring agencies, use `<p><strong>Sector:</strong></p>` followed by a `<ul>` of responsible authorities linked to their verified official websites. An authority name alone is insufficient unless its sector heading states the full relevant remit. Add only essential scope limits or delegation details to each list item. Preserve local names. Do not imply every authority listed under a sector supervises the entire sector; retain banking subsets, transport elements, product boundaries and delegated responsibilities. Clearly distinguish statutory authority classes from identified offices.
+
+In Reporting tools, use matching sector labels, identify the responsible authority and separate Public complaints, Company non-compliance and Exemptions. Preserve channel prerequisites, relevant languages and existing contributor information. When all channels for a sector are unestablished, use one concise `Reporting channels: ❓ Unknown.` item. Unknown authority and unknown reporting channel are different findings.
+
+Group sectors only when they share the listed authority or reporting routes; otherwise list them separately. A shared channel never expands an authority's remit. Prefer grouping over repeated long addresses, but keep sector-to-authority mapping explicit. Use paragraph labels and lists, never `<br>`. Keep evidence narration in research notes/PR feedback.
+
+Check both columns against the recorded sector-to-authority mapping before handoff. Reusing existing supported names and scopes is a layout change; new, translated or meaning-sensitive scope wording still requires the evidence and isolated language checks. An unknown channel must not erase a known authority.
