@@ -116,8 +116,8 @@
     <td>Denmark</td>
     <td>✔️ <a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf">Yes</a></td>
     <td><ul>
-      <li><a href="https://www.sik.dk/">Erhvervsstyrelsen | Markedsovervågning</a> – Products; audiovisual access; e-books; delegated banking and e-commerce checks.</li>
-      <li><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/">Digitaliseringsstyrelsen</a> – Electronic communications.</li>
+      <li><a href="https://www.sik.dk/">Erhvervsstyrelsen | Markedsovervågning</a> – Products; audiovisual access; e-books; delegated banking, e-commerce and Smart-TV checks.</li>
+      <li><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/">Digitaliseringsstyrelsen</a> – Electronic communications; Smart-TV checks delegated to market surveillance.</li>
       <li><a href="https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven">Trafikstyrelsen</a> – Air, bus, rail and land-side ship transport elements.</li>
       <li><a href="https://www.soefartsstyrelsen.dk/">Søfartsstyrelsen</a> – Ship passenger services.</li>
       <li><a href="https://www.finanstilsynet.dk/">Finanstilsynet</a> – Banking; checks delegated to market surveillance.</li>
@@ -126,19 +126,19 @@
     </ul></td>
     <td>
 		<ul>
-			<li>Report exemptions (companies): 
+			<li>Report exemptions (companies; MitID Business required): 
 				<ul>
 					<li> <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in English 🇬🇧</a></li>
 					<li><a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements, Reporting tool, in Danish 🇩🇰</a></li>
-				</ul>
-			<li>Report non-compliance through email (companies): <a href="mailto:sik@sik.dk">sik@sik.dk</a> in English 🇬🇧 or Danish 🇩🇰</li>
+				</ul></li>
+			<li>Report non-compliance (companies, market-surveillance remit): <a href="mailto:mo@erst.dk">mo@erst.dk</a> or <a href="mailto:sik@sik.dk">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li>
 			<li>Reporting tool (for the public): 
 				<ul>
 					<li><a href="https://produkter.dk">Reporting tool for products, in Danish 🇩🇰</a></li>
-				</ul>
+				</ul></li>
 		<li>Erhvervsstyrelsen | Markedsovervågning: <a href="https://www.sik.dk/tip">public accessibility reporting form</a> for self-service terminals, e-commerce, banking, streaming and e-book services; anonymous reports accepted.</li></ul>
 	</td>
-    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/">DIGST guidance</a> requires public accessibility information in terms or an equivalent document, without prescribing its form. Telecom responsibilities <a href="https://ens.dk/presse/center-tele-flytter-til-styrelsen-dataforsyning-og-effektivisering">left Energistyrelsen in 2022</a> and <a href="https://digst.dk/media/uhwpy1f5/digitaliseringsstyrelsens-rapport-for-2024-i-henhold-til-teledirektivets-artikel-8-stk-2.pdf">became part of DIGST in 2024</a>.</p><p>The <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/">company exemption form</a> requires MitID Business. <a href="https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig">Current non-compliance reporting guidance</a> identifies <a href="mailto:mo@erst.dk">mo@erst.dk</a>; the contributor confirms a reply to emails sent to <a href="mailto:sik@sik.dk">sik@sik.dk</a> around 16 September 2026.</p><p>In an official reply dated 19 December 2025, SIK confirmed that companies outside Denmark can submit reports in English 🇬🇧. Source: contributor-supplied agency correspondence.</p></td>
+    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/">DIGST: public accessibility information in terms or an equivalent document.</a></p></td>
   </tr>
   <tr>
     <td>Estonia</td>
