@@ -10,7 +10,7 @@ Input: a research record and the current country row. Check each claim independe
 - If current official information conflicts with the table, retain both wordings and explain the conflict. Do not silently choose one.
 - Verify the recorded access date and never set a verification date for a claim you did not actually check.
 
-Output: an annotated research record and a list of human review questions. No public table edits.
+Output: an annotated research record and actionable manual-check list, classified under README.md as Before PR, Before merge, or Follow-up. Surface Before PR items immediately; do not bury them in the final handoff. No public table edits.
 
 ## Additional verification checks
 
@@ -20,3 +20,7 @@ Output: an annotated research record and a list of human review questions. No pu
 - Confirm whether cited material is enacted law, a proposal, a binding requirement, or guidance. Verify effective dates and transition periods before treating a requirement as current.
 - Preserve existing contributor-supplied details when public confirmation is missing. Record available correspondence provenance and any review question; lack of access to that evidence does not establish that the entry is wrong.
 - Use the remaining research budget from the handoff and the limits in `README.md`; do not start a fresh budget. On reaching a limit, return the completed checks and identify unfinished ones as `unknown`, with the reason and next useful step. Do not claim independent verification for checks not performed.
+
+## Separate language fidelity
+
+Prepare sufficient original source context for the isolated language check described in `README.md`. Keep your conclusions and evidence statuses out of its input. After presentation, compare its result with the exact final wording; resolve material differences before PR preparation. Do not require a fluent human reviewer solely because the source is in another language. A Supported language verdict does not change a claim's evidence status or replace this evidence review.
