@@ -45,7 +45,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Preserved existing ✔️ Yes pending contributor review. Supplied 'FW_ Question on contacting the EAA enforcement authority in Slovenia.eml': official IRSID Jan 21 2026 described a statement and IRSID reporting; its Jan 26 reply explicitly limits IRSID website/app monitoring to WAD and assigns product/service EAA to other authorities. The statement description appears to concern WAD; no direct official answer on a dedicated private-sector EAA page. Do not cite correspondence as proof of EAA Yes.",
+      "review_note": "Preserved existing ✔️ Yes pending contributor review. Supplied 'FW_ Question on contacting the EAA enforcement authority in Slovenia.eml': official IRSID Jan 21 2026 described a statement and IRSID reporting; its Jan 26 reply explicitly limits IRSID website/app monitoring to WAD and assigns product/service EAA to other authorities. The statement description appears to concern WAD; no direct official answer on a dedicated private-sector EAA page. Do not cite correspondence as proof of EAA Yes. Manual research task retained for maintainer: obtain explicit EAA competent-authority evidence for the legacy Yes or record a decision to change it; IRSID WAD correspondence is insufficient.",
       "directive_context": "EAA",
       "existing_text": "✔️ Yes",
       "information_mode": "dedicated_public_page"
@@ -186,7 +186,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Bank of Slovenia homepage reachable. Securities Market Agency direct site returned 403 and Information Commissioner 429 in reader on 2026-09-24; official statutory remit independently established, link reachability unknown. Avoid implying each oversees all banking.",
+      "review_note": "Post-draft ordinary-browser pass 2026-09-24: Information Commissioner homepage opened and identified the authority; its general violation links concern data protection, public information and AI, not an observed ZDPSI intake. Securities Market Agency homepage remained behind a Cloudflare human-verification page after one permitted reload; reachability remains unknown. Statutory sub-sector remits remain independently verified. Avoid implying each authority oversees all banking.",
       "directive_context": "EAA",
       "scope": "Banking sub-sectors"
     },
@@ -276,7 +276,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Portal landing URL opened 2026-09-24; no form submitted. General TIRS inspection channel, not EAA-specific. No reporting languages established.",
+      "review_note": "Portal landing URL opened 2026-09-24; no form submitted. General TIRS inspection channel, not EAA-specific. No reporting languages established. Post-draft ordinary-browser pass 2026-09-24 confirmed the eUprava landing page: signed route requires e-identity; separate anonymous route supports electronic, postal and in-person submission. Page states reports are handled within TIRS's statutory competence but does not name ZDPSI.",
       "directive_context": "EAA",
       "scope": "Products; E-commerce",
       "reporting_route": {
@@ -289,7 +289,7 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "Public can report suspected AKOS-sector infringements via AKOS general inspection-report form.",
+      "assertion": "Public can use the AKOS general regulatory-violation form for electronic-communications breaches.",
       "status": "verified",
       "sources": [
         {
@@ -307,16 +307,53 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Form opened 2026-09-24 and visible fields; no submission. Broad inspection form, not EAA-specific; language acceptance unknown.",
+      "review_note": "Post-draft ordinary-browser pass 2026-09-24 inspected the visible form and its required area selector without submission. The selector explicitly lists electronic communications. Isolated Slovenian-language review supports describing it as a general regulatory-violation form, not an EAA-specific intake.",
       "directive_context": "EAA",
-      "scope": "Electronic communications; audiovisual access; e-books; emergency communications",
+      "scope": "Electronic communications",
       "reporting_route": {
         "authority": "AKOS",
-        "sector": "Electronic communications, audiovisual access, e-books and emergency communication services",
+        "sector": "Electronic communications and audiovisual access",
         "channel": "form",
         "destination": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
         "eaa_specific": false
       }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "A public reporting route for accessibility of services providing access to audiovisual media services under AKOS is established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+          "title": "Prijava kršitev na področjih delovanja Agencije za komunikacijska omrežja in storitve Republike Slovenije",
+          "publisher": "AKOS",
+          "accessed": "2026-09-24",
+          "locator": "Required area selector",
+          "evidence": "The selector includes 'elektronski mediji' (electronic media), but does not explicitly identify accessibility of services providing access to audiovisual media services.",
+          "evidence_type": "paraphrase",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Post-draft ordinary-browser and isolated Slovenian-language review found 'electronic media', but that wording does not establish a dedicated audiovisual-access route or precise accessibility-topic routing. No submission was made.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "A public reporting route for e-book accessibility under AKOS is established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+          "accessed_on": "2026-09-24",
+          "section": "Required area selector",
+          "evidence": "Visible options include electronic communications, electronic media, digital services, postal services and rail, but no e-book category.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Post-draft ordinary-browser pass narrowed the table route rather than inferring e-book intake from AKOS's statutory remit. No submission was made.",
+      "directive_context": "EAA",
+      "scope": "E-books"
     },
     {
       "field": "public_reporting",
@@ -411,10 +448,10 @@
     }
   ],
   "questions": [
-    "Before merge: Slovenia / existing ✔️ Yes — contributor must distinguish IRSID's WAD statement reply (21 and 26 January 2026 official correspondence) from any dedicated EAA private-service statement requirement; resolved by explicit competent EAA authority answer or documented decision to retain the legacy Yes with source-needed qualification.",
+    "Research task (Before merge): Slovenia / existing ✔️ Yes — distinguish IRSID's WAD statement reply (21 and 26 January 2026 official correspondence) from any dedicated EAA private-service statement requirement; obtain an explicit answer or official EAA source from a competent EAA authority, or document the maintainer decision to revise/retain the legacy Yes with source-needed qualification.",
     "Follow-up: Identify official company non-compliance and Company exemptions intake routes separately for TIRS, AKOS and banking/transport authorities; statutory duties alone do not establish an email/form for each sector.",
     "Follow-up: Verify banking and transport public complaint channels and whether 112/113/116000 answering centre oversight has a designated authority; do not use AKOS communications supervision as evidence for centre supervision.",
-    "Follow-up: Verify direct ATVP and Information Commissioner authority links in an ordinary browser: automated reader returned 403 and 429 on 24 September 2026; statutory remits independently verified.",
-    "Follow-up: Determine whether public reports through TIRS and AKOS general forms are processed under ZDPSI; forms opened but no submission was made."
+    "Follow-up: Retry the Securities Market Agency authority link outside this cloud browser; the text reader returned 403 and the post-draft browser remained on Cloudflare human verification after one reload on 24 September 2026. The Information Commissioner homepage opened successfully in the post-draft browser; statutory remit remains verified separately.",
+    "Follow-up: Confirm with TIRS and AKOS whether their general public forms process ZDPSI reports. Post-draft browser checks found no ZDPSI label. AKOS's selector explicitly supports electronic communications; 'electronic media' is too broad to establish an audiovisual-accessibility route, and no option explicitly names e-books. Audiovisual-access and e-book public routes therefore remain Unknown."
   ]
 }
