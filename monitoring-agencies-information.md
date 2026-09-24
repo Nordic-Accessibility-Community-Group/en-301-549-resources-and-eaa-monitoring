@@ -646,18 +646,28 @@
     <td>Romania</td>
     <td>✔️ Yes</td>
     <td>
-		<ul>
-			<li><a href="https://anpc.ro/">The National Authority for Consumers' Protection</a>(for banking, e-commerce, transport)</li>
-			<li>The Ministry of Economy (currently the <a href="https://economie.gov.ro/">Ministry of Economy, Digitalisation, Entrepreneurship and Tourism</a>) (for banking, transport)</li>
-			<li><a href="https://www.ancom.ro/">The National Authority for Administration and Regulation in Communications</a> (for electronic communication services)</li>
-			<li><a href="https://www.adr.gov.ro/">The Romanian Authority for Digitalisation</a> (for e-books, e-commerce)</li>
-			<li><a href="https://www.cna.ro/">The National Audiovisual Council</a> (for audio-visual mass media)</li>
-			<li><a href="https://www.mt.ro/web14/">The Ministry of Transport and Infrastructure</a> (for transport)</li>
-			<li><a href="https://www.consiliulconcurentei.ro/en/">The Competition Council</a></li>
-		</ul>
-	</td>
-    <td>No reporting tool available. Reporting can be done in English 🇬🇧 or Romanian 🇷🇴 through email <a href="mailto:registratura@anpd.gov.ro">registratura@anpd.gov.ro</a></td>
-    <td><ul><li><a href="https://legislatie.just.ro/public/DetaliiDocument/257778">LAW No. 232 of July 19, 2022</a></li></ul>  <p>⚖️ EAA implementing law: <a href="https://legislatie.just.ro/public/DetaliiDocument/257778">Legea nr. 232/2022</a>.</p></td>
+      <p><strong>Products:</strong> <a href="https://anpc.ro/">National Authority for Consumer Protection (ANPC)</a> — specified consumer computer systems and terminals, and e-readers; <a href="https://economie.gov.ro/">Ministry of Economy, Digitalisation, Entrepreneurship and Tourism</a> — payment and other covered self-service terminals.</p>
+      <p><strong>Banking:</strong> <a href="https://anpc.ro/">ANPC</a>.</p>
+      <p><strong>E-commerce and e-books:</strong> <a href="https://www.adr.gov.ro/">Authority for the Digitalisation of Romania (ADR)</a>.</p>
+      <p><strong>Electronic communications:</strong> <a href="https://www.ancom.ro/">National Authority for Management and Regulation in Communications (ANCOM)</a>.</p>
+      <p><strong>Audiovisual access:</strong> <a href="https://www.cna.ro/">National Audiovisual Council (CNA)</a>.</p>
+      <p><strong>Transport:</strong> <a href="https://www.adr.gov.ro/">ADR</a> — websites and mobile applications; <a href="https://economie.gov.ro/">Ministry of Economy</a> — electronic tickets and ticketing; <a href="https://www.mt.ro/">Ministry of Transport and Infrastructure</a> — transport information and interactive terminals.</p>
+      <p><strong>112 emergency communications:</strong> ❓ Unknown; the accessibility duty applies from 28 June 2027.</p>
+      <p><strong>Cross-sector operator information:</strong> <a href="https://www.consiliulconcurentei.ro/en/">Competition Council</a> — the Article 4(7) information role.</p>
+    </td>
+    <td>
+      <p><strong>Products and consumer banking:</strong></p>
+      <ul>
+        <li><strong>Public complaints:</strong> <a href="https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&amp;serviciupagesize=8">ANPC consumer portal</a> (general consumer route).</li>
+        <li><strong>Company non-compliance / exemptions:</strong> ❓ Unknown.</li>
+      </ul>
+      <p><strong>All other sectors:</strong></p>
+      <ul>
+        <li><strong>Public complaints:</strong> ❓ Unknown.</li>
+        <li><strong>Company non-compliance / exemptions:</strong> ❓ Unknown.</li>
+      </ul>
+    </td>
+    <td><p>⚖️ EAA implementing law: <a href="https://legislatie.just.ro/public/DetaliiDocument/257778">Legea nr. 232/2022</a>.</p></td>
   </tr>
   <tr>
     <td>Slovakia</td>

@@ -1,0 +1,358 @@
+{
+  "country": "Romania",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "Legea nr. 232/2022 implements Directive (EU) 2019/882; most product and service duties apply from 28 June 2025, while accessibility of answering and handling 112 emergency communications applies from 28 June 2027.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Arts. 1, 30",
+          "evidence": "Implementation and the two application dates are expressly stated.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The official national legislation portal is the authoritative public link. AccessibleEU independently identifies the act as Romania's EAA implementation. Existing row retained in existing_text for provenance.",
+      "directive_context": "EAA",
+      "existing_text": "  <tr>\n    <td>Romania</td>\n    <td>✔️ Yes</td>\n    <td>\n\t\t<ul>\n\t\t\t<li><a href=\"https://anpc.ro/\">The National Authority for Consumers' Protection</a>(for banking, e-commerce, transport)</li>\n\t\t\t<li>The Ministry of Economy (currently the <a href=\"https://economie.gov.ro/\">Ministry of Economy, Digitalisation, Entrepreneurship and Tourism</a>) (for banking, transport)</li>\n\t\t\t<li><a href=\"https://www.ancom.ro/\">The National Authority for Administration and Regulation in Communications</a> (for electronic communication services)</li>\n\t\t\t<li><a href=\"https://www.adr.gov.ro/\">The Romanian Authority for Digitalisation</a> (for e-books, e-commerce)</li>\n\t\t\t<li><a href=\"https://www.cna.ro/\">The National Audiovisual Council</a> (for audio-visual mass media)</li>\n\t\t\t<li><a href=\"https://www.mt.ro/web14/\">The Ministry of Transport and Infrastructure</a> (for transport)</li>\n\t\t\t<li><a href=\"https://www.consiliulconcurentei.ro/en/\">The Competition Council</a></li>\n\t\t</ul>\n\t</td>\n    <td>No reporting tool available. Reporting can be done in English 🇬🇧 or Romanian 🇷🇴 through email <a href=\"mailto:registratura@anpd.gov.ro\">registratura@anpd.gov.ro</a></td>\n    <td><ul><li><a href=\"https://legislatie.just.ro/public/DetaliiDocument/257778\">LAW No. 232 of July 19, 2022</a></li></ul>  <p>⚖️ EAA implementing law: <a href=\"https://legislatie.just.ro/public/DetaliiDocument/257778\">Legea nr. 232/2022</a>.</p></td>\n  </tr>"
+    },
+    {
+      "field": "statement",
+      "assertion": "A competent Romanian EAA authority explicitly requires a dedicated public accessibility-statement page comparable to a WAD declaration.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 13(2)(a)-(d); Annex 5",
+          "evidence": "The act requires public written and oral accessibility information in general terms and conditions or an equivalent document; it does not itself specify a dedicated page.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Preserve the existing Yes as a manually gathered fact. Official ADR correspondence dated 9 February 2026 transmitted letter ADR 3190/16.01.2026, but the letter itself was not included in the attached .eml. Follow-up questions sent 16 February and reminded 24 September 2026 about a dedicated statement and monitoring remained unanswered in the supplied thread. Do not infer a dedicated page from the statutory public-information duty.",
+      "directive_context": "EAA",
+      "existing_text": "✔️ Yes",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service providers must make accessibility-conformity information available to the public in written and oral accessible forms, with the information included in general terms and conditions or an equivalent document.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 13(2)(a)-(d); Annex 5",
+          "evidence": "Public written and oral availability and terms-or-equivalent placement are express requirements.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Isolated no-history Romanian-language review on 2026-09-24 confirmed that oral means spoken presentation, not necessarily a recording, and that this duty is distinct from a dedicated accessibility-statement page.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service providers must give the competent authority the information needed to demonstrate conformity on a reasoned request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 13(2)(f)",
+          "evidence": "Provider-to-authority disclosure on reasoned request is express.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "This is an authority-request duty, not a public complaint route.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Consumers may request, in accessible format, authority-held information about operators' conformity and Article 14 assessments, subject to confidentiality.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(4)",
+          "evidence": "Authorities must provide held conformity and assessment information to consumers on request, subject to confidentiality.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "This concerns information held by authorities, not provider publication.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "ANPC supervises consumer general-purpose computer hardware and operating systems, interactive electronic-communications terminals, audiovisual-access terminals, e-readers, and covered consumer-banking services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(a), cross-referencing Art. 2(1)(a)-(d) and 2(3)(c)",
+          "evidence": "The statutory product and banking remit is explicit.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://anpc.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency identity",
+          "evidence": "Official ANPC domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "The old row incorrectly described ANPC as responsible for e-commerce and transport. The language review confirmed the narrower consumer product and consumer-banking categories.",
+      "directive_context": "EAA",
+      "scope": "Products (specified); consumer banking"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Ministry of Economy supervises payment terminals and the other covered self-service terminals, plus electronic tickets and electronic ticketing services for passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(b), cross-referencing Art. 2(1)(e), 2(2), 2(4)(c)",
+          "evidence": "The statutory product and transport-ticketing remit is explicit.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://economie.gov.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official ministry identity",
+          "evidence": "Current official ministry domain identifies the Ministry of Economy, Digitalisation, Entrepreneurship and Tourism.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Use the statutory Ministry of Economy label with the current official ministry site/name.",
+      "directive_context": "EAA",
+      "scope": "Products (payment and self-service terminals); transport ticketing"
+    },
+    {
+      "field": "authority",
+      "assertion": "ANCOM supervises electronic communications services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(c), cross-referencing Art. 2(3)(a)",
+          "evidence": "The statutory service remit is explicit.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.ancom.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency identity",
+          "evidence": "Official ANCOM domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Do not extend this clause to 112 answering/handling; Art. 19 does not expressly assign the Art. 2(5) duty here.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "ADR supervises e-books and dedicated software, e-commerce, and passenger-transport websites, mobile services and mobile applications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(d), cross-referencing Art. 2(3)(d)-(e), 2(4)(a)-(b)",
+          "evidence": "The statutory service remit is explicit.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.adr.gov.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency identity",
+          "evidence": "Official ADR domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Official correspondence exists but the supplied thread lacks the attached official letter; the statutory remit does not depend on that missing attachment.",
+      "directive_context": "EAA",
+      "scope": "E-books; e-commerce; transport websites and apps"
+    },
+    {
+      "field": "authority",
+      "assertion": "CNA supervises services providing access to audiovisual media services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(e), cross-referencing Art. 2(3)(b)",
+          "evidence": "The statutory service remit is explicit.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.cna.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency identity",
+          "evidence": "Official CNA domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Use 'audiovisual access', not the broader 'audiovisual mass media'.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Ministry of Transport and Infrastructure supervises transport information and interactive self-service terminals for covered passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 19(1)(f), cross-referencing Art. 2(4)(d)-(e); Art. 27(5)(f)",
+          "evidence": "The statutory remit is explicit; enforcement is carried out by control staff of authorities coordinated by the ministry.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.mt.ro/",
+          "accessed_on": "2026-09-24",
+          "section": "Official ministry identity",
+          "evidence": "Current official ministry domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "The old /web14 URL is replaced by the current official homepage.",
+      "directive_context": "EAA",
+      "scope": "Transport information; interactive terminals"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Competition Council has the Article 4(7) role of informing economic operators about non-binding Annex 2 examples and possible accessibility solutions.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Arts. 19(1)(g), 4(7)",
+          "evidence": "The law assigns this operator-information role; it is not a distinct product or service sector.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.consiliulconcurentei.ro/en/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency identity",
+          "evidence": "Official Competition Council domain.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Isolated Romanian-language review confirmed that this should not be presented as a general sector-monitoring remit.",
+      "directive_context": "EAA",
+      "scope": "Cross-sector operator information"
+    },
+    {
+      "field": "authority",
+      "assertion": "The authority responsible for the EAA accessibility of answering and handling communications to 112 is explicitly identified for the duty taking effect on 28 June 2027.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Arts. 2(5), 4(8), 19(1), 30",
+          "evidence": "The 112 duty and deferred date are explicit, but the Article 19 roster does not expressly assign that paragraph.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Research the competent authority before adding one to the table.",
+      "directive_context": "EAA",
+      "scope": "112 emergency communications"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Consumers and eligible bodies may bring EAA non-compliance to the competent Article 19 authority or courts; ANPC provides a general consumer-complaint portal for its product and consumer-banking remit.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 26",
+          "evidence": "The statutory right to address the competent authority or courts is express.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&serviciupagesize=8",
+          "accessed_on": "2026-09-24",
+          "section": "Consumer complaints category",
+          "evidence": "Official portal shows 'Reclamații Consumatori'; the category page was observable, while the intake itself appears session-dependent.",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "The portal is a general consumer route, not visibly EAA-specific. No form was submitted. A post-draft browser check should confirm the destination and login requirement; do not infer other authorities' routes from Article 26.",
+      "directive_context": "EAA",
+      "scope": "ANPC products and consumer banking",
+      "reporting_route": {
+        "authority": "ANPC",
+        "sector": "Products and consumer banking",
+        "channel": "portal",
+        "destination": "https://eservicii.anpc.ro/Depune-Cerere?serviciufilter-Category=Reclamatii+Consumatori&serviciupagesize=8",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Purpose-specific public complaint routes have been verified for ADR, ANCOM, CNA, the Ministry of Economy, the Ministry of Transport and Infrastructure, and the Competition Council's Article 4(7) role.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Art. 26",
+          "evidence": "The law grants standing but does not specify intake destinations.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Keep the table Unknown until a route's authority, audience and purpose are observable.",
+      "directive_context": "EAA",
+      "scope": "E-commerce; e-books; electronic communications; audiovisual access; transport; operator information"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Purpose-specific company non-compliance and Article 14 exemption notification routes have been verified for the Romanian sector authorities.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislatie.just.ro/public/DetaliiDocument/257778",
+          "accessed_on": "2026-09-24",
+          "section": "Arts. 13(2)(e), 14(7), 19",
+          "evidence": "The duties and competent authorities are stated, but filing destinations and accepted languages are not.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Article 14(7) applies to operators invoking Article 14(1), except service-providing microenterprises. The excerpt does not establish timing or a usable channel. The old ANPD general email is not verified as an EAA company intake.",
+      "directive_context": "EAA",
+      "scope": "All covered products and services"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The previously listed ANPD email and English/Romanian language claim constitute a verified EAA reporting route.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "AccessibleEU Romania national-expert correspondence dated 20 January 2026 says the ANPD address belongs to the national UN disability-convention coordination mechanism and was not identified as an EAA enforcement contact; it separately distinguishes ADR's public-sector web-accessibility mailbox. This is contributor correspondence from a non-government source and is recorded as unverified. Narrow the public table to Unknown rather than mislabel a general contact as EAA reporting. Do not publish personal contact details.",
+      "directive_context": "EAA"
+    }
+  ],
+  "questions": [
+    "Follow-up: Romania / dedicated accessibility statement — obtain the missing official ADR letter no. 3190/16.01.2026 or a dated reply to the 16 February and 24 September 2026 questions; preserve the existing Yes until explicit official evidence confirms or contradicts it. Owner: researcher; nonblocking for this PR.",
+    "Follow-up: Romania / ANPC portal — after the draft opens, use an ordinary browser once to confirm what the consumer-complaint destination shows, whether authentication is required, and whether accessibility non-compliance fits the observable intake. Do not submit. Owner: post-draft agent.",
+    "Follow-up: Romania / public complaint routes — identify purpose-specific usable routes for ADR, ANCOM, CNA, the Ministry of Economy and the Ministry of Transport, with exact audience, sector and purpose. Owner: researcher.",
+    "Follow-up: Romania / company non-compliance and exemptions — obtain the form, email or postal destination each Article 19 authority expects for Articles 13(2)(e) and 14(7), including accepted language. Owner: researcher.",
+    "Follow-up: Romania / 112 — identify the competent authority and future public/company route for the Article 2(5) duty before it applies on 28 June 2027. Owner: researcher.",
+    "Follow-up: Romania / official correspondence — the 9 February 2026 ADR email refers to attached official letter ADR 3190/16.01.2026, but that letter is absent from the supplied .eml; add it if recovered and reassess affected claims. Owner: contributor."
+  ]
+}
