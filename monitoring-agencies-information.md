@@ -478,9 +478,24 @@
   <tr>
     <td>Italy</td>
     <td>✔️ <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati">Yes</a></td>
-    <td><a href="https://www.agid.gov.it/en/intervention-areas/accessibility-usability">AGID</a></td>
-    <td><a href="https://trustservices.agid.gov.it/SegnalazioneUtente">Reporting to AGID</a></td>
-    <td><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/">Article from TPGi about The Stanca Act, the Italian digital accessibility law</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=">Decreto legislativo 27 maggio 2022, n. 82</a>.</p></td>
+    <td>
+      <p><strong>Products:</strong></p>
+      <ul><li><a href="https://www.mimit.gov.it/it/">Ministero delle Imprese e del Made in Italy (MIMIT)</a> — covered products.</li></ul>
+      <p><strong>E-commerce, Banking, Electronic communications, Audiovisual access and E-books:</strong></p>
+      <ul><li><a href="https://accessibilita.agid.gov.it/domande-frequenti/">Agenzia per l’Italia Digitale (AgID)</a> — covered services; consumer banking, audiovisual-access services, e-books and dedicated software. Transmission services used to provide machine-to-machine services are excluded.</li></ul>
+      <p><strong>Transport:</strong></p>
+      <ul><li><a href="https://accessibilita.agid.gov.it/domande-frequenti/">AgID</a> — covered websites, mobile services and apps, electronic tickets and ticketing services, and transport information.</li><li><a href="https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&amp;art.dataPubblicazioneGazzetta=2022-07-01&amp;art.flagTipoArticolo=0&amp;art.idArticolo=21&amp;art.idGruppo=0&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.progressivo=0&amp;art.versione=1">Public bodies awarding or authorising the transport service</a> — covered interactive self-service terminals. Specific offices: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <p>❓ Unknown.</p>
+    </td>
+    <td>
+      <p><strong>Products:</strong></p><ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>E-commerce, Banking, Electronic communications, Audiovisual access and E-books:</strong></p><ul><li>EAA reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>Transport:</strong></p><ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p><ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p>Existing <a href="https://trustservices.agid.gov.it/SegnalazioneUtente">AgID reporting portal</a>.</p>
+    </td>
+    <td><p>Stanca Act statement requirements and EAA public-information duties differ.</p><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/">TPGi overview of the Stanca Act (unverified secondary source)</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.gazzettaufficiale.it/eli/id/2022/07/01/22G00089/sg">Decreto legislativo 27 maggio 2022, n. 82</a>.</p></td>
   </tr>  
   <tr>
     <td>Latvia</td>
