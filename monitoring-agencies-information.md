@@ -41,64 +41,78 @@
     </td>
   </tr>
   <tr>
-     <td>Belgium</td>
+    <td>Belgium</td>
     <td>✔️ <a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-the-transposition-into-belgian-legislation#:~:text=From%202025%20on%2C%20every%20relevant%20company%20under%20the%20new%20legislation%20will%20have%20to%20publish%20an%20accessibility%20statement">Yes</a>  
     </td>
     <td>
-		<ul>
-			<li><a href="https://economie.fgov.be/nl/over-de-fod/structuur-fod-economie/organigrammen/de-algemene-directie">General Directorate of Economic Inspection for consumer banking and e-commerce</a></li>
-			<li>
-				<a href="https://www.ibpt.be/consommateurs">Belgian Institute for Postal Services and Telecommunications (IBPT) / Institut Belge des services Postaux et des Télécommunications (IBPT)</a>
-				<ul>
-					<li>Self-service terminals (payment terminals, ATMs, ticket vending machines, self-check-in kiosks, etc.)</li>
-					<li>Computer hardware and operating systems</li>
-					<li>Terminal equipment with interactive computing capabilities, used for electronic communications services;</li>
-					<li>Terminal equipment with interactive computing capabilities, used to access audiovisual media services;</li>
-					<li>Digital e-readers</li>
-				</ul>
-			</li>
-			<li>Audiovisual media + E-books:
-				<ul>
-					<li><a href="https://www.federation-wallonie-bruxelles.be/index.php?id=contact">French Community / Communauté Française</a></li>
-					<li><a href="https://www.vlaanderen.be/contacteer-de-vlaamse-overheid">Flemish Community / Communauté Flamande</a></li>
-					<li><a href="https://pdg.be/desktopdefault.aspx/tabid-4052/">German-speaking Community / Communauté Germanophone</a></li>
-					<li>Services providing access to audiovisual content (websites, online applications, etc.).</li>
-					<li>Digital books (e-books)</li>
-				</ul>
-			<li>
-				<a href="https://www.ibpt.be/consommateurs">IBPT</a>
-				<ul>
-					<li>Electronic communication services</li>
-					<li>Telephone and SMS services</li>
-					<li>Internet access</li>
-				</ul>
-			</li>
-			<li>
-				<a href="https://ibz.be/fr">Federal Public Service Interior (IBZ) / SPF Intérieur (IBZ)</a>
-				<ul>
-					<li>Emergency number "112": Receiving emergency messages directed to the European emergency number "112".</li>
-				</ul>
-			</li>
-			<li>Rail, air, boat or bus transport (>250 km) of people: <a href="https://mobilit.belgium.be/fr">Federal Public Service Mobility and Transport / SPF Mobilité et Transports</a></li>
-			<li>
-				Urban, suburban and regional transport (buses, trams and metro):
-				<ul>
-					<li>Walloon Region / Région Wallonne</li>
-					<li>Brussels-Capital Region / Région de Bruxelles-Capitale</li>
-					<li>Flemish Region / Région Flamande</li>
-				</ul>
-			</li>
-			<li><a href="https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant">List of all monitoring agencies in Belgium in French 🇫🇷, Dutch 🇳🇱</a></li>
-		</ul>
+      <p><strong>Banking and E-commerce:</strong></p>
+      <ul>
+        <li><a href="https://economie.fgov.be/nl/over-de-fod/structuur-fod-economie/organigrammen/de-algemene-directie">General Directorate of Economic Inspection</a> — services for consumers.</li>
+      </ul>
+      <p><strong>Products:</strong></p>
+      <ul>
+        <li><a href="https://www.ibpt.be/consommateurs">IBPT</a> — self-service terminals; computers and operating systems; terminal equipment with interactive computer functions for electronic communications services or access to audiovisual media services; e-readers.</li>
+      </ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul>
+        <li><a href="https://www.ibpt.be/consommateurs">IBPT</a> — telephone and SMS services; internet access.</li>
+      </ul>
+      <p><strong>Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li><a href="https://www.federation-wallonie-bruxelles.be/index.php?id=contact">French Community</a></li>
+        <li><a href="https://www.vlaanderen.be/contacteer-de-vlaamse-overheid">Flemish Community</a></li>
+        <li><a href="https://pdg.be/desktopdefault.aspx/tabid-4052/">German-speaking Community</a></li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li><a href="https://mobilit.belgium.be/fr">SPF Mobilité et Transports</a> — passenger transport by rail, air, boat and bus (&gt;250 km).</li>
+        <li>Urban, suburban and regional transport services (bus, tram and metro): <a href="https://wallonie.be/fr/demarches?f%5B0%5D=public:284">Walloon Region</a>; <a href="https://be.brussels/fr/propos-de-la-region/plaintes-et-litiges/plaintes">Brussels-Capital Region</a>; <a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/contacteer-het-departement-mobiliteit-en-openbare-werken">Flemish Region</a>.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul>
+        <li><a href="https://ibz.be/fr">SPF Intérieur (IBZ)</a> — receiving 112 emergency calls.</li>
+      </ul>
+    </td>
+    <td>
+      <p><strong>Banking and E-commerce:</strong></p>
+      <p>Economic Inspection</p>
+      <ul>
+        <li>Public reports: <a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">ConsumerConnect</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱); <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">email</a>.</li>
+        <li>Company non-compliance (existing, unverified): <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">toegankelijkheid-accessibilite@economie.fgov.be</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱).</li>
+        <li>Business issues: <a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Meldpunt</a> (English 🇬🇧, French 🇫🇷, German 🇩🇪, Dutch 🇳🇱); self-notification: Unverified.</li>
+        <li>Exemptions: <a href="https://accessibility-exceptions.economie.fgov.be/fr/index">advance notification form</a> (French 🇫🇷, Dutch 🇳🇱).</li>
+      </ul>
+      <p><strong>Products:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul>
+        <li>Reporting channels: ❓ Unknown.</li>
+      </ul>
     </td>
     <td>
       <ul>
-        <li><a href="https://cc.consumerconnect.be/csp?id=report_form&amp;lang=en">Reporting tool for the public, English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li><li><a href="https://meldpunt.economie.fgov.be/meldpunt/en/welcome">Reporting tool for companies (issues), English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</a></li>
-        <li><a href="https://accessibility-exceptions.economie.fgov.be/fr/index">Reporting tool for companies (exceptions): French 🇫🇷, Dutch 🇳🇱</a></li>
-		  <li>Reporting E-mail for companies: <a href="mailto:toegankelijkheid-accessibilite@economie.fgov.be">toegankelijkheid-accessibilite@economie.fgov.be</a>, you can report in: English 🇬🇧, French 🇫🇷 , German 🇩🇪, Dutch 🇳🇱</li>
+        <li><a href="https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over">Official authority roster</a></li>
+        <li><a href="https://consumerconnect.be/nl/meld-ons-iets">ConsumerConnect information</a></li>
+        <li><a href="https://consumerconnect.be/nl/themas/aankoop-product-of-dienst/wettelijk/wettelijk/toegankelijkheid">Accessibility information (Dutch 🇳🇱 and French 🇫🇷)</a></li>
+        <li><a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-in-belgium-compliance-complaints-penalties">Craftzing overview</a> — unverified source.</li>
       </ul>
+      <p>Statement source: Unverified.</p>
+      <p>⚖️ EAA implementing law: <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">Belgian national transposition measures (multiple acts, EUR-Lex)</a>.</p>
     </td>
-    <td><ul><li>Information for the public: <a href="https://consumerconnect.be/nl/meld-ons-iets">ConsumerConnect</a></li><li><a href="https://consumerconnect.be/nl/themas/aankoop-product-of-dienst/wettelijk/wettelijk/toegankelijkheid">Information pages (in Dutch 🇳🇱 and French 🇫🇷)</a></li><li><a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-in-belgium-compliance-complaints-penalties">European Accessibility Act in Belgium: Compliance, Complaints & Penalties</a> </li></ul><p>⚖️ EAA implementing law: <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">Belgian national transposition measures (multiple acts, EUR-Lex)</a>.</p></td>
   </tr>  
   <tr>
     <td>Bulgaria</td>
