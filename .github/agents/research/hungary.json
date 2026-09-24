@@ -338,13 +338,47 @@
       "sources": [],
       "review_note": "Unresolved: NMHH public-terms guidance rechecked; no dedicated-page mandate established.\nUnresolved: searches did not establish EAA-specific office mappings for generic consumer/transport authority classes; generic office pages are insufficient.\nUnresolved: EAA-specific public routes outside MNB and company defect/exemption routes not established. NMHH general reporting material did not verify the required EAA scope.\nUnresolved: MNB accessibility instructions have no explicit accepted-language statement. Unrelated FIN-NET/older cases were not treated as evidence.\nPartly resolved: section 12(5) emergency-transition cross-references reconfirmed; sector translations and territorial competence still need human review.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PR review triage applied on 24 September 2026.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+          "section": "Sections 1–2",
+          "evidence": "Assigns sector authority classes and sets territorial competence; statutory class does not establish current office identity.",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
+          "section": "Sections 1, 12(5)",
+          "evidence": "Defines covered services, terminal-only urban/suburban/regional transport scope and specified emergency requirements' 2027 application.",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
+          "section": "II.1",
+          "evidence": "Sets complaint prerequisites, content, attachments and postal destination.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "directive_context": "EAA",
+      "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Resolved: rechecked decree §1 and Act XVII §1 cross-references. Labelled generic entries as statutory authority classes, limited transport wording to covered elements and retained the fact that local offices/websites are unknown. Narrowed: made MNB complaint eligibility explicit through its linked conditions and retained the provider-first prerequisite and postal destination. Rechecked MNB II.1; accepted languages remain unknown. Resolved: decree §2 gives a place-based competence rule, with nationwide competence for Budapest Főváros Kormányhivatala. This does not identify every current local office; those mappings remain follow-up work. Reopened decree 605/2022 sections 1–2, Act XVII sections 1 and 12(5), and MNB guidance II.1. Sector cross-references support authority classes; Act section 1(2)(c) limits urban/suburban/regional transport services to covered terminals. Decree section 2 gives place-based jurisdiction and a nationwide exception for Budapest Főváros Kormányhivatala. MNB II.1 requires prior provider complaint plus absent response, improper handling or suspected rights infringement; the table links full conditions. No local-office map or accepted-language claim is verified."
     }
   ],
   "questions": [
-    "Unknown: dedicated public-page demand; law and NMHH guidance establish public documentation/general terms.",
-    "Unknown: actual current offices and websites for statutory transport and consumer-protection authority classes.",
-    "Unknown: public reporting outside MNB, and company non-compliance/exemption reporting.",
-    "Unknown: accepted languages for MNB complaints; the postal route is independently usable without online authentication.",
-    "Human review: sector translations and territorial competence remain unresolved. The exact emergency-transition cross-references in section 12(5) were reconfirmed."
+    "Before PR: Resolved: rechecked decree §1 and Act XVII §1 cross-references. Labelled generic entries as statutory authority classes, limited transport wording to covered elements and retained the fact that local offices/websites are unknown.",
+    "Before PR: Narrowed: made MNB complaint eligibility explicit through its linked conditions and retained the provider-first prerequisite and postal destination. Rechecked MNB II.1; accepted languages remain unknown.",
+    "Before PR: Resolved: decree §2 gives a place-based competence rule, with nationwide competence for Budapest Főváros Kormányhivatala. This does not identify every current local office; those mappings remain follow-up work.",
+    "Before merge: Hungary / Monitoring agencies — review the English names of the statutory transport authority classes against decree §1(1)(c), (e) and §1(2), including the railway body's integrated/linked-service role; evidence: [Decree 605/2022](https://njt.jog.gov.hu/jogszabaly/2022-605-20-22). Owner: Hungarian-reading reviewer. Resolved when: reviewer approves the translations and confirms they identify classes, not verified local offices.",
+    "Before merge: Hungary / Reporting, MNB complaint route — review the shortened prerequisite and attachment wording against [MNB guidance, II.1](https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg); first contacting the provider alone must not imply every complaint is eligible. Owner: Hungarian-reading reviewer. Resolved when: reviewer confirms the eligibility link and summary retain the source's conditions.",
+    "Follow-up: Map statutory consumer/transport authority classes to current offices and official sites, applying decree §2 territorial competence; do not invent an office from a generic title.",
+    "Follow-up: Establish public reporting outside MNB and company-defect/exemption destinations before adding routes.",
+    "Follow-up: Obtain an explicit MNB accepted-language statement before publishing a language claim.",
+    "Follow-up: Seek explicit regulator guidance on a dedicated public page; preserve Unknown while public-documentation evidence remains separately recorded."
   ]
 }
