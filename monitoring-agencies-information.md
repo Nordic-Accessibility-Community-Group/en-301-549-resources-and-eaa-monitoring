@@ -151,7 +151,7 @@
         </li>
         <li>Public complaints (products and non-digital services): ❓ Unknown.</li>
         <li>Company non-compliance: <a href="https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en">Traficom notification form</a>.</li>
-        <li>Exemptions (invoking derogation grounds): <a href="https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en">Traficom notification form</a>.</li>
+        <li>Exemptions: <a href="https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en">Traficom notification form</a>.</li>
         <li>Company reporting instructions: <a href="https://saavutettavuusvaatimukset.fi/fi/digipalvelulain-vaatimukset/ilmoitusvelvollisuus-puutteista-ja-poikkeamisperusteista/palvelujen-ja">Finnish 🇫🇮</a>; <a href="https://saavutettavuusvaatimukset.fi/sv/skyldighet-att-anmala-brister-och-undantagsgrunder/anmalan-om-brister-och-undantagsgrunder-i-tjanster-och-produkter">Swedish 🇸🇪</a>.</li>
         <li>Reporting accepted in English 🇬🇧; further correspondence in English is not guaranteed.</li>
       </ul>
