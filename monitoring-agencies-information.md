@@ -14,15 +14,31 @@
   <tr>
     <td>Austria</td>
     <td>✔️ Yes</td>
-    <td>Sozialministeriumsservice</td>
-    <td><ul><li>Email: <a href="mailto:marktueberwachung-bafg@socialministeriumservice.gv.at">marktueberwachung-bafg@socialministeriumservice.gv.at</a>. Reports accepted in German 🇩🇪 and in English 🇬🇧.</li></ul></td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul><li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html">Sozialministeriumservice</a> (BaFG-covered products and consumer services).</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li>Public complaints: <a href="https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&amp;pn=Bc6cc641ebd1347bcb13ee1ee08f4d520">Sozialministeriumservice reporting form</a> or <a href="mailto:marktueberwachung-bafg@sozialministeriumservice.gv.at">marktueberwachung-bafg@sozialministeriumservice.gv.at</a>.</li>
+        <li>Company non-compliance: <a href="mailto:marktueberwachung-bafg@sozialministeriumservice.gv.at">marktueberwachung-bafg@sozialministeriumservice.gv.at</a> (<a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Kontakt_fuer_Unternehmen/Uebermittlung_schriftlicher_Anbringen/Uebermittlung-schriftlicher-Anbringen.de.html">submission requirements</a>).</li>
+        <li>Exemptions: ❓ Unknown.</li>
+        <li>Reports accepted in German 🇩🇪 and English 🇬🇧.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+    </td>
     <td>
       <ul>
-        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html">General information from Sozialministeriumsservice</a></li>
-        <li>No reporting tool available for companies.</li>
-        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Informationen-fuer-Verbraucher-und-Vebraucherinnen.de.html">Information for consumers and reporting guidance, German 🇩🇪.</a></li>
-        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html">Information about reporting</a></li><li>Public accessibility statement is required by information directly from the monitoring agency.</li></ul>
-    <p>⚖️ EAA implementing law: <a href="https://www.ris.bka.gv.at/eli/bgbl/I/2023/76">Barrierefreiheitsgesetz (BGBl. I Nr. 76/2023)</a>.</p></td>
+        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html">General information from Sozialministeriumservice</a></li>
+        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontakt-fuer-Hinweisgeberinnen-nach-Barrierefreiheitsgesetz/Kontakt-fuer-Hinweisgeber-innen-nach-Barrierefre.de.html">Public reporting guidance, German 🇩🇪</a></li>
+        <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html">Company reporting guidance, German 🇩🇪</a></li>
+      </ul>
+      <p>⚖️ EAA implementing law: <a href="https://www.ris.bka.gv.at/eli/bgbl/I/2023/76">Barrierefreiheitsgesetz (BGBl. I Nr. 76/2023)</a>.</p>
+    </td>
   </tr>
   <tr>
      <td>Belgium</td>
