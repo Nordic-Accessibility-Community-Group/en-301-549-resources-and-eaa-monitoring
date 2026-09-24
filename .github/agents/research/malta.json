@@ -1,0 +1,198 @@
+{
+  "country": "Malta",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "Malta implements the EAA through the Accessibility Measures (European Accessibility Act) Regulations, S.L. 627.03, generally in force from 28 June 2025.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official consolidated English publication identifies S.L. 627.03; regulation 1 transposes Directive (EU) 2019/882 and sets the general commencement date.",
+          "section": "Regulation 1",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Official Legislation Malta page and its 48-page English PDF opened on 24 September 2026. The table's original Legal Notice link was valid but was replaced by the current consolidated-law page. The law contains a separate 28 June 2027 date for regulation 4(8).",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "A government or competent monitoring-body requirement for a dedicated public page comparable to a WAD accessibility statement is not established.",
+      "existing_text": "❓ Unknown",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 13(2) and Annex V require public conformity information in accessible written and oral form and place it in general terms and conditions or an equivalent document; they do not explicitly require a dedicated page comparable to a WAD statement.",
+          "section": "Regulation 13(2); Annex V",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Preserve Unknown. The law establishes public information, but the project requires an explicit government or monitoring-body claim before treating that as a dedicated accessibility-statement page. No separate CRPD/government guidance making that comparison was verified within the bounded run.",
+      "directive_context": "EAA",
+      "information_mode": "not_established"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Covered service providers must make conformity information public in accessible written and oral formats and include it in their general terms and conditions or an equivalent document.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 13(2) requires public accessible written and oral information explaining conformity; Annex V specifies general terms and conditions or an equivalent document and its minimum contents.",
+          "section": "Regulation 13(2); Annex V, point 1",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "This is a public-information obligation, not evidence of a mandatory standalone webpage. The page table remains minimal; the distinction is retained in this record.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "A separate public-on-request delivery mechanism for service conformity information is not established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 13(2) requires the information to be made public; it does not define a distinct requester-initiated mechanism.",
+          "section": "Regulation 13(2)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Do not turn an affirmative public-availability duty into an on-request-only claim.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service providers must supply conformity information to a competent national authority following a reasoned request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Service providers must provide all information necessary to demonstrate conformity after a reasoned authority request and cooperate on corrective action.",
+          "section": "Regulation 13(5)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "This authority-facing duty is separate from the public information duty and from any public reporting route.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Commission for the Rights of Persons with Disability (CRPD) is the market-surveillance authority for the Directive and therefore covers the listed product categories, e-commerce, consumer banking, electronic communications, covered passenger-transport elements, access to audiovisual media services, and e-books and dedicated software.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 2 defines CRPD as the market-surveillance authority for the Directive; regulation 3 lists the covered products and services; regulations 19–23 assign product and service compliance functions to that authority.",
+          "section": "Regulations 2, 3 and 19–23",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Sector-by-sector reconciliation covers every current EAA product/service category in regulation 3(1)–(2). The reader-facing row retains the project's common sector labels with the law's narrower limits in parentheses. CRPD's official website https://www.crpd.org.mt/ and complaint page returned 403 in the text reader; the remote browser returned ERR_BLOCKED_BY_CLIENT. The official domain and authority identity were found, but link reachability remains a specific Before merge check.",
+      "directive_context": "EAA",
+      "scope": "Listed EAA products; e-commerce; consumer banking; electronic communications; covered passenger transport; access to audiovisual media; e-books and dedicated software"
+    },
+    {
+      "field": "authority",
+      "assertion": "CRPD is the market-surveillance authority for answering emergency communications to 112; the obligations in regulation 4(8) apply from 28 June 2027.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "The CRPD definition applies in respect of the Directive; regulation 3(3) covers answering emergency communications to 112; regulation 1(3) defers the obligations in regulation 4(8) until 28 June 2027.",
+          "section": "Regulations 1(3), 2, 3(3) and 4(8)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The table says only that regulation 4(8) obligations have the later date; it does not generalise that date to every 112-related provision. Isolated English-to-English review required this correction and the final wording follows it.",
+      "directive_context": "EAA",
+      "scope": "Answering emergency communications to 112"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "A usable EAA public complaint or report destination has not been verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 23 requires the market-surveillance authority to follow complaints or reports about service non-compliance but does not provide a submission destination.",
+          "section": "Regulation 23(1)(b)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.crpd.org.mt/investigations/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official CRPD search result identifies a general complaint page covering disability discrimination including accessibility and goods/services; EAA-specific intake and the actual form destination could not be checked.",
+          "section": "File Your Complaint",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "No route is published in the table. The CRPD page failed twice within the attempt limit (403 in the text reader; ERR_BLOCKED_BY_CLIENT in the remote browser). A search result can identify the page but cannot establish end-to-end usability or EAA scope. Isolated review agreed the law establishes complaint/report remit but not the mechanism.",
+      "directive_context": "EAA",
+      "scope": "Covered services and products"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A usable company non-compliance reporting destination has not been verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 13(4) requires service providers to inform competent authorities immediately of service non-compliance and corrective measures; equivalent product duties appear in regulations 7, 9 and 10, but the law gives no filing destination.",
+          "section": "Regulations 7(8), 9(8), 10(5) and 13(4)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The duty is known, but a verified form, email or postal/in-person route is required before publishing a reporting claim. Languages, authentication and operational deadlines beyond 'immediately' remain unverified.",
+      "directive_context": "EAA",
+      "scope": "Covered products and services"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A usable company exemption-notification destination has not been verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://legislation.mt/eli/sl/627.3/eng",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulation 14(7) requires non-microenterprise economic operators relying on fundamental alteration or disproportionate burden to send information to the relevant authority but gives no filing destination.",
+          "section": "Regulation 14(7)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The legal notification duty is known; the route remains Unknown. The table label refers to the missing mechanism, not absence of the obligation. EAA Article 14/local regulation details and the microenterprise exclusion remain in research.",
+      "directive_context": "EAA",
+      "scope": "Covered products and services"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Reporting languages, authentication requirements and any usable EAA-specific form or email remain unverified.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "The run stopped at the shared ten-minute research/verification budget after the official law, authority coverage, public-information modes and the blocked CRPD complaint page were checked. No form was submitted and no account was created. Next useful step is official CRPD guidance or correspondence specifying each route.",
+      "directive_context": "EAA"
+    }
+  ],
+  "questions": [
+    "Before merge: Malta / Monitoring agencies CRPD link — open https://www.crpd.org.mt/ in an ordinary browser and confirm it resolves to the official Commission for the Rights of Persons with Disability website; this matters because both automated readers were blocked; owner: maintainer; resolved when the official CRPD identity is visible at the linked destination.",
+    "Follow-up: Malta / Public complaints — ask CRPD or find explicit current CRPD guidance identifying the EAA complaint/report form, email or postal route, including whether the general investigations page accepts EAA product and service matters; owner: research agent or contributor; resolved when official instructions name a usable route and audience.",
+    "Follow-up: Malta / Company non-compliance and exemptions — identify separate or shared CRPD destinations, accepted languages, authentication/signature requirements and any deadlines; owner: research agent or contributor; resolved when official guidance or correspondence confirms each purpose.",
+    "Follow-up: Malta / Demands statement — seek CRPD or government guidance stating whether the Annex V information must be a dedicated public page comparable to a WAD statement, or whether general terms and conditions/equivalent documents suffice; owner: research agent or contributor; resolved by an explicit official statement.",
+    "Follow-up: Malta / 112 reporting — recheck CRPD guidance before regulation 4(8) takes effect on 28 June 2027 and identify a complaint/company route for answering emergency communications to 112; owner: research agent; resolved by official instructions."
+  ]
+}
