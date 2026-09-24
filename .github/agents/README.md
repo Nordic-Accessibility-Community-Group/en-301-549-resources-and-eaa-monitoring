@@ -22,7 +22,7 @@ The file `.github/scripts/check-verification-dates.py` validates dates for the e
 
 For each country, check and record a result (including `unknown` when unsupported) for: EAA scope and the relevant law; a dedicated public page comparable to a WAD statement; EAA information in terms or another public document; information available to the public on request; information supplied to an authority on request; responsible authorities with sector scope; whether the listed monitoring agencies cover every relevant product and service sector; whether each existing authority link points to the correct official agency website or relevant official page; public complaints; and company reporting. Check any existing extra claims, such as languages, deadlines, and contact details. Country-specific questions add to this baseline and never replace it.
 
-## Pilot order
+## Research order
 
 1. Copy the blank record at `.github/agents/research/template.json` for a country. Capture each existing table assertion as a claim, then find official evidence independently.
 2. Apply `research.md` and then `verification.md`. A second pass checks URLs and whether each source actually supports the wording.
@@ -68,3 +68,11 @@ Separate consumer complaints, company non-compliance reports, and exemption noti
 Preserve contributor evidence from agency email or personal contact. Record its provenance and date when available, and flag missing public confirmation for review. Do not remove existing information merely because a public source cannot be found, or publish private correspondence or personal contact details without authorization.
 
 Unless the user specifies another budget, allow at most two access attempts per failing URL (the initial attempt and one retry), two targeted follow-up searches per unresolved question, ten minutes of research and verification per country, and thirty minutes across a multi-country run. Stop when the first applicable limit is reached. Do not restart a budget on handoff between stages. Record unresolved checks as `unknown`, give the reason and next useful step in research feedback, and complete the handoff with the evidence already gathered. A failed URL does not by itself invalidate separately verified remit evidence. Never mark a country fully checked when required checks remain unfinished. Preparing the record and draft PR may continue after the research cutoff; further searching must wait for a new run.
+
+## Sequential rollout
+
+Following the five-country pilot, research one new country or jurisdiction at a time in the top-to-bottom order of `monitoring-agencies-information.md`. Apply the same baseline checks to every entry. Select the first entry without a merged research record; skip Denmark, Sweden, Bulgaria, Hungary and Finland, which already completed the pilot. Austria is first, then Belgium. Do not assume EAA applicability outside the EU; establish the applicable local/EEA position for each jurisdiction.
+
+Keep at most one country research PR open. Before starting, check current main, existing research records and open PRs to prevent duplicate work. A merged country PR is the handoff to the next country; a closed, unmerged PR is not. Confirm changes reached main, including when a PR had a stacked base. Do not proceed until that handoff is complete. A merge-triggered assistant automation performs this check; it is separate from repository GitHub Actions. Ignore GitHub Actions workflows for now at the user's request; continue evidence, language and available local content checks. Never merge on the user's behalf.
+
+Keep the country PR title `Audit <country> EAA authorities and reporting routes` for the merge trigger. A separate infrastructure PR can carry shared instructions/schema changes; it must not contain another country's research. When infrastructure is a prerequisite, merge it first and ensure the country PR targets main before merging. Retain the ten-minute research/verification budget per country; report remaining unknowns and concrete blockers in the PR. Stop after preparing that one country PR.
