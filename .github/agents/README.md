@@ -1,6 +1,6 @@
 # Monitoring information agent prototype
 
-These instructions govern experiments on `monitoring-agencies-information.md`. Run the four stages in order: research, independent verification, presentation, and draft PR preparation. A person reviews the evidence and diff before merging.
+These instructions govern experiments on `monitoring-agencies-information.md`. Run research, evidence verification, presentation, a separate language-fidelity check, and draft PR preparation in that order. A person reviews the evidence and diff before merging.
 
 The pilot covers **Denmark and Sweden** as audits of fuller existing entries, and **Bulgaria and Hungary** as research into incomplete entries. Apply the same research and verification checklist to all four countries; the difference is how much existing content needs checking. Do one country per research PR so reviewers can assess each set of sources. Keep research notes under `.github/agents/research/` during the pilot, using the schema in `.github/agents/country-record.schema.json`. The visible country table stays in its current location.
 
@@ -27,8 +27,21 @@ For each country, check and record a result (including `unknown` when unsupporte
 1. Copy the blank record at `.github/agents/research/template.json` for a country. Capture each existing table assertion as a claim, then find official evidence independently.
 2. Apply `research.md` and then `verification.md`. A second pass checks URLs and whether each source actually supports the wording.
 3. Apply `presentation.md` to the verified record. Keep the five existing columns and propose only supported changes.
-4. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
-5. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
+4. Run the separate agent in `language-verification.md` on the proposed publication wording as described below. Apply corrections and have the corrected passages rechecked before PR preparation.
+5. Apply `pr.md` to prepare a branch, diff, and draft PR. Include disputed and unknown claims as review questions instead of filling gaps by inference.
+6. Compare audit outcomes for Denmark and Sweden with the discovery outcomes for Bulgaria and Hungary. Review accuracy, source coverage, unresolved questions, and the readability of proposed rows before changing the schema or automating the process.
+
+## Separate language check for every country
+
+Apply the same rule to every source language; do not require a fluent human reviewer by default. Translated claims and meaning-sensitive paraphrases receive a separate language-fidelity check after presentation, including wording shortened for the table.
+
+The orchestrator starts a separate agent with no conversation-history fork (for example, `fork_turns="none"`). Give it only the neutral brief in `language-verification.md`, source passages with enough surrounding context and cross-references, source URLs/sections, and proposed publication wording. Do not pass research instructions, prior conclusions, evidence statuses, desired verdicts, PR comments or reasons for the proposed change. The language agent may retrieve source context; it must not inspect the research record or repository workflow. If isolation is unavailable, record the check as not performed; do not label a same-context self-review as separate.
+
+Record the original excerpts, literal renderings, exact reviewed wording, verdicts and agent/date in the relevant claim's existing `review_note`, with public source references in `sources`. Keep comparisons in research records, not the public table. Language verdicts (Supported / Correction needed / Ambiguous) are distinct from claim evidence statuses.
+
+Apply corrections and recheck the final changed wording. A material unresolved ambiguity is a Before PR issue: surface it immediately and resolve, narrow or omit the affected addition. Ask a human or authority a precise question only when needed; do not impose a blanket language-review gate. Do not send correspondence without authorization. Ordinary supported wording can proceed to maintainer review with the comparison available. Missing checks or budget expiry must be reported honestly; preserve existing contributor entries under the common rules.
+
+A separate AI language check is not independent human verification, legal advice or proof that the authority list is complete. Evidence verification and maintainer approval remain separate. All passes share the existing research budget.
 
 ## Surface manual checks immediately
 
