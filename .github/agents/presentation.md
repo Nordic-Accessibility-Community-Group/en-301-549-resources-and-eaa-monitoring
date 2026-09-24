@@ -18,3 +18,7 @@ For every listed jurisdiction, use the last column for a short `⚖️ EAA imple
 - Before handing off, remove repetition and research narration from the proposed row. Preserve useful manually gathered information and existing Yes/No answers under the rules above.
 
 Output: proposed row diff, source-to-claim mapping, and unresolved presentation questions. Any alternative layout suggestion belongs in the PR description and must not trigger an unrelated table redesign.
+
+## Language handoff
+
+Send the final proposed translated or meaning-sensitive wording, source passages and section references to the isolated language check specified in `README.md`. Keep research conclusions out of that handoff. Apply supported corrections without expanding the public table with translation commentary. Recheck changed passages after shortening or correction; retain exact comparisons in the country record.
