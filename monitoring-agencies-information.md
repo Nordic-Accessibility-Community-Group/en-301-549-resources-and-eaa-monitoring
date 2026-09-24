@@ -373,23 +373,29 @@
     </td>
   </tr>
   <tr>
-		<td>Germany</td>
-		<td>
-			✔️ <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz/FAQ-Dienstleistungen/faq-dienstleistungen_node">Yes</a>
-		</td>
-		<td><a href="https://mlbf-barrierefrei.de/" lang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> (Market Surveillance Agency of the States for the Accessibility of Products and Services)</td>
-		<td>Email: <a href="mailto:kontakt@mlbf-barrierefrei.de">kontakt@mlbf-barrierefrei.de</a>.</td>
-		<td>
-			<a href="https://marcus-herrmann.com/blog/mlbf-verraet-wie-sie-pruefen-will" lang="de">The MLBF reveals how it intends to conduct the audit. In German 🇩🇪 </a>
-			<p>The <span lang="de">Marktüberwachungsstelle</span> started its work on 2025-09-29 after ratification of the agency through all states. Productive work will likely start in Q1/2026.</p>
-		<p>⚖️ EAA implementing law: <a href="https://www.gesetze-im-internet.de/bfsg/">Barrierefreiheitsstärkungsgesetz (BFSG)</a>.</p></td>
-	</tr>
-  <tr>
-    <td>Greece</td>
-    <td>✖️ No</td>
-    <td><ul><li>The Ministry of Economy & Development designates and coordinates the surveillance authorities.</li><li>Telecommunications: <a href="https://www.eett.gr/en/">Hellenic Telecommunications and Post Commission</a></li><li>Banking/financial services: <a href="https://www.bankofgreece.gr/en/homepage">Bank of Greece</a></li><li>Commerce and e-commerce platforms: Ministry of Development & Investments through the <a href="https://kataggelies.mindev.gov.gr/">General Secretariat for Commerce & Consumer Protection</a></li></ul>The above authorities collaborate with organizations of people with disabilities for real-use inspections, as stipulated by Law 4994/2022.         </td>
-    <td>❓ Unknown</td>
-    <td><a href="https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=NIM:202207302">Government Gazette (Official Journal of the Hellenic Republic) that introduces the Law 4994/2022 for compliance to EAA for Greece</a>. <p>⚖️ EAA implementing law: <a href="https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=NIM:202207302">Law 4994/2022 (Government Gazette)</a>.</p></td>
+    <td>Germany</td>
+    <td>
+      ✔️ <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz/FAQ-Dienstleistungen/faq-dienstleistungen_node.html">Yes</a>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <ul>
+        <li><a href="https://mlbf-barrierefrei.de/" lang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> — nationwide BFSG market surveillance.</li>
+      </ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <ul>
+        <li>Consumer barrier reports: <a href="https://www.mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Meldung-von-Barrieren/">MLBF reporting form</a>.</li>
+        <li>Formal consumer applications: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Antrag-nach-Paragraf-32-Absatz-1-BFSG/">MLBF § 32 BFSG form</a>.</li>
+        <li>Company non-compliance notifications: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/">MLBF contact form for companies, organisations and institutions</a>.</li>
+        <li>Exemptions: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/">MLBF contact form for companies, organisations and institutions</a>.</li>
+      </ul>
+    </td>
+    <td>
+      <p>BFSG accessibility information is distinct from the accessibility statement required under the BGG. It must be provided in an accessible form and be clearly perceptible and easy to find; official guidance recommends an “Accessibility” link in the website header or footer to the relevant information page as an alternative to placing the information in the general terms and conditions.</p>
+      <p>⚖️ EAA implementing law: <a href="https://www.gesetze-im-internet.de/bfsg/">Barrierefreiheitsstärkungsgesetz (BFSG)</a> and <a href="https://www.gesetze-im-internet.de/bfsgv/">Verordnung zum Barrierefreiheitsstärkungsgesetz (BFSGV)</a>.</p>
+    </td>
   </tr>
   <tr>
     <td>Hungary</td>
