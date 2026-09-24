@@ -457,7 +457,7 @@
           "section": "Contatti"
         }
       ],
-      "review_note": "Reachable24 September2026. Research contact candidate only: not verified as statutory reporting channel or established correspondence relationship. No official correspondence supplied for Italy and no email sent; confirm responsible team and record any authorized response. Separate language check Supported: 'Per informazioni scrivi a accessibilita@agid.gov.it' means 'For information, write to accessibilita@agid.gov.it'; operational/correspondence qualifications are research limits.",
+      "review_note": "Reachable24 September2026. Research contact candidate only: not verified as statutory reporting channel or established correspondence relationship. Contributor reports having contacted direzione.generale@agid.gov.it, with no answer since a reminder on15 April2026. Original email contents and initial-send date were not supplied. No email was sent by the research agent; confirm the responsible team and record any later reply. Separate language check Supported: 'Per informazioni scrivi a accessibilita@agid.gov.it' means 'For information, write to accessibilita@agid.gov.it'; operational/correspondence qualifications are research limits.",
       "directive_context": "EAA"
     },
     {
@@ -466,6 +466,14 @@
       "status": "unverified_source",
       "sources": [],
       "review_note": "2024 AgID monitoring PDF belongs to Stanca context based on existing title; content not independently rechecked. TPGi retained as explicitly secondary/unverified source, not evidence for new claims.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The contributor contacted direzione.generale@agid.gov.it and reports no answer since the reminder sent on15 April2026.",
+      "status": "unverified_source",
+      "sources": [],
+      "review_note": "Contributor-supplied correspondence history recorded24 September2026. This is an unanswered outreach attempt, not an official AgID response or evidence for a legal claim. Original message and reminder not inspected; initial contact date unknown. The address is recorded as the destination used, not independently verified here as an EAA reporting channel. Do not infer that no contact attempt exists. No follow-up email sent by the agent.",
       "directive_context": "EAA"
     }
   ],
@@ -476,7 +484,7 @@
     "Follow-up: identify MIMIT product public/company/exemption channels with official purpose-specific instructions.",
     "Follow-up: identify public offices responsible for transport terminals by sector and their reporting channels; statutory class is verified.",
     "Follow-up: establish112 emergency answering authority and reporting routes.",
-    "Research task: confirm an official correspondence contact for Italy clarification questions. AgID information mailbox accessibilita@agid.gov.it is a published candidate; no correspondence relationship or official reply established in this audit. Record scope and response if contributor authorizes contact.",
+    "Research task: follow up on unanswered AgID correspondence to direzione.generale@agid.gov.it; latest reminder15 April2026, no answer reported as of24 September2026. Confirm the responsible team for the outstanding Italy questions and record any reply. Published information mailbox accessibilita@agid.gov.it is an alternative enquiry contact, not a verified statutory reporting route. Owner: contributor/researcher; resolved when a substantive official response or confirmed responsible contact is documented. Do not send correspondence without authorization.",
     "Follow-up: establish whether a regulator requires an EAA public page comparable to a statement beyond terms/equivalent document; current sources establish public information and removal of old declaration for specified private EAA providers.",
     "Follow-up: review consolidated legislation and June2026 vigilance regulation when institutional access succeeds. No full completeness claim; ten-minute shared research/verification limit observed."
   ]
