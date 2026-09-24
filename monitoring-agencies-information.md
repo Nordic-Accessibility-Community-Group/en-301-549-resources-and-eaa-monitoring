@@ -672,14 +672,37 @@
   <tr>
     <td>Slovakia</td>
     <td>❓ Unknown</td>
-    <td>Slovak Trade Inspection (Slovenská obchodná inšpekcia)</td>
     <td>
-		<ul>
-			<li>No reporting tool available.</li>
-			<li>Email reports to: <a href="mailto:info@soi.sk">info@soi.sk</a> in 🇬🇧 English or 🇸🇰 Slovak</li>
-		</ul>
-	</td>
-    <td><a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/351/20250628.html#paragraf-8">Act No. 351/2022 </a> Coll. on the Accessibility of Products and Services for Persons with Disabilities and on Amendments and Supplements to Certain Acts<p>⚖️ EAA implementing law: <a href="https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/351/20250628.html">Zákon č. 351/2022 Z. z.</a>.</p></td>
+      <p><strong>Products, E-commerce, Banking, Transport and E-books:</strong></p>
+      <ul><li><a href="https://www.soi.sk/soi/opravnenia-soi">Slovak Trade Inspection (Slovenská obchodná inšpekcia)</a> — specified products and consumer services under Act 351/2022.</li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li><a href="https://www.teleoff.gov.sk/">Regulatory Authority for Electronic Communications and Postal Services</a>.</li></ul>
+      <p><strong>Audiovisual access (multimodal services):</strong></p>
+      <ul><li><a href="https://rpms.sk/">Council for Media Services (Rada pre mediálne služby)</a>.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown authority for answering and handling accessibility.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Transport and E-books (SOI remit):</strong></p>
+      <ul>
+        <li><strong>Public reports:</strong> <a href="https://www.soi.sk/nahlasit-podnet">SOI form to submit a public tip for possible inspection</a> (goods or services; EAA-specific purpose unconfirmed), or <a href="mailto:podnety@soi.sk">podnety@soi.sk</a> (general SOI reports).</li>
+        <li><strong>Company reports:</strong> <a href="mailto:info@soi.sk">info@soi.sk</a>; SOI accepts 🇸🇰 Slovak and 🇬🇧 English (official correspondence).</li>
+        <li><strong>Company non-compliance:</strong> ❓ Purpose-specific filing route unknown.</li>
+        <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
+      </ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul>
+        <li><strong>Public reports (inspection requests):</strong> <a href="mailto:e-podatelna@teleoff.gov.sk">e-podatelna@teleoff.gov.sk</a> (general regulator intake; EAA-specific purpose unconfirmed).</li>
+        <li><strong>Company enquiries:</strong> <a href="mailto:e-podatelna@teleoff.gov.sk">e-podatelna@teleoff.gov.sk</a> (general office correspondence).</li>
+        <li><strong>Company non-compliance:</strong> ❓ Purpose-specific filing route unknown.</li>
+        <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
+      </ul>
+      <p><strong>Audiovisual access (multimodal services):</strong></p>
+      <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li><strong>Public and company reporting:</strong> ❓ Unknown.</li></ul>
+    </td>
+    <td><p>⚖️ EAA implementing laws: <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html">Act No. 351/2022</a> (products and listed services); <a href="https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html">Act No. 452/2021</a> (electronic communications); <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html">Act No. 264/2022</a> (multimodal audiovisual access).</p></td>
   </tr>
   <tr>
     <td>Slovenia</td>

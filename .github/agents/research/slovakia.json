@@ -1,0 +1,417 @@
+{
+  "country": "Slovakia",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "Act 351/2022 covers specified products and consumer services and separately routes electronic communications, audiovisual access, and 112 accessibility to other legislation.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§§2, 8–9; current 30 May 2026 consolidated text",
+          "evidence": "Services and exceptions, SOI oversight, product oversight and the separate-act clause are explicit.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Current law version 30 May 2026; version-specific statutory URL opened 24 September 2026. Do not extend the SOI remit to sectors expressly governed by separate acts.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "A dedicated public accessibility-statement page comparable to a WAD declaration is explicitly required of covered services.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§6(1)(b), (2)",
+          "evidence": "Public conformity information in terms or similar document is required, but a dedicated page is not prescribed.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Existing ❓ Unknown preserved. SOI official follow-up received 19 February 2026 asking about a dedicated page, and reminder on 24 September 2026; no response in the supplied thread.",
+      "directive_context": "EAA",
+      "existing_text": "❓ Unknown",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Providers must make conformity information publicly available in general service conditions or comparable document, in accessible written and oral forms for the service duration.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§6(1)(b), (2)(a)–(c)",
+          "evidence": "Public information, placement, accessible written and oral modes and availability duration stated expressly.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Isolated no-history Slovak-language review 24 September 2026: original 'vo všeobecných podmienkach na poskytovanie služby alebo v obdobnom dokumente', literal 'in general conditions for providing the service or similar document'; final wording supported with precision; no dedicated page implied. isolated no-history Slovak-to-English language agent, 2026-09-24: §6(2) original 'vo všeobecných podmienkach na poskytovanie služby alebo v obdobnom dokumente' and 'v písomnej forme a ústnej forme'; literal 'in general conditions for provision of service or a comparable document', 'in written and oral form'. Reviewed wording 'Service accessibility information appears in general terms or equivalent document, in accessible written and oral form'; verdict Supported with precision that terms concern the service and no dedicated page follows from this provision. Final wording in record uses 'general service conditions or comparable document'.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The provider must give necessary conformity documents to the competent authority on reasoned request in the state language.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§6(1)(f)",
+          "evidence": "Reasoned request, documentary response and state language are express.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Distinct from public access.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Provider conformity documents must be handed to any member of public on request.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§6(1)(b),(f); §8(3)",
+          "evidence": "Provider public information duty and authority-on-request duty do not establish this broader document disclosure.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "§8(3) concerns authority information on request; do not conflate provider and authority.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "SOI oversees covered consumer services (specified passenger-transport channels and terminals, financial services, e-books and specialized software, and information-society services) and specified products under product accessibility technical regulation.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§2(1)–(2), §§8–9",
+          "evidence": "SOI service and specified-product roles are explicit; urban/suburban/regional passenger transport exclusions apply to listed digital channels.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.soi.sk/soi/opravnenia-soi",
+          "accessed_on": "2026-09-24",
+          "section": "Act 351/2022",
+          "evidence": "SOI lists the Act among its powers.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "SOI official site reached 24 September 2026. Isolated language review corrected overbroad 'banking' and 'e-commerce' summaries to statutory categories. isolated no-history Slovak-to-English language agent, 2026-09-24: §2(1) original 'služby poskytované spotrebiteľom ... finančné služby ... elektronické knihy a špecializovaný softvér ... služby informačnej spoločnosti'; literal 'consumer services ... financial services ... e-books and specialized software ... information society services'. Reviewed initial wording 'banking, e-commerce, transport digital channels and terminals'; verdict Correction needed because categories and transport exclusions were compressed. Final publication wording 'specified products and consumer services under Act 351/2022' is narrowed; agency headings are navigational labels, not an exhaustive legal scope. §2(5) original 'ustanovujú osobitné predpisy'; literal 'separate regulations establish them'; final separate-agency headings reflect this without assigning 112 by inference.",
+      "directive_context": "EAA",
+      "scope": "Products; passenger transport; financial services; e-books; information society services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Regulatory Authority for Electronic Communications and Postal Services supervises accessibility duties of publicly available electronic communications services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§83a(1)–(2); §109(4)(a)",
+          "evidence": "Provider duty and regulator's oversight of obligations under the act are express.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.teleoff.gov.sk/kontakt/",
+          "accessed_on": "2026-09-24",
+          "section": "Official agency",
+          "evidence": "The official government domain identifies the regulator.",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "The teleoff.gov.sk contact page was indexed but reader returned an internal error on opening; authority legal remit verified independently. Agency link reachability unknown. The §83a(2)(d) nonconformity duty explicitly identifies the regulator. Post-draft ordinary-browser attempt on https://www.teleoff.gov.sk/kontakt/ (24 September 2026) returned 502 Bad Gateway and 'Certificate verify failed: unable to get local issuer certificate'; did not bypass certificate validation. Agency remit remains independently verified by the current statute; site destination and EAA intake remain unverified in this browser. Requested retry on 24 September 2026: direct ordinary browser again returned 502 Bad Gateway with certificate verification failure at https://www.teleoff.gov.sk/kontakt/; no bypass or intake observation.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "Council for Media Services supervises audiovisual multimodal access services under media-services law.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§1(1)(c),(e); §60b; §145a",
+          "evidence": "The media act covers multimodal providers, identifies the regulator and assigns sanctions for §60b violations.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://rpms.sk/",
+          "accessed_on": "2026-09-24",
+          "section": "Official Council website",
+          "evidence": "The linked official website and forms resolve.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Limit this to multimodal access under §60b; do not imply every type of audiovisual accessibility is within the same duty. Site and relevant report form reached 24 September 2026.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access: multimodal services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Authority supervising 112 answering/handling accessibility can be identified from the checked sources.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§2(5)",
+          "evidence": "112 routed to other acts.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Exact competent body for the answering/handling aspect unresolved; do not infer from electronic communications provider duty.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "SOI accepts public reports for its covered product and service remit at podnety@soi.sk.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.soi.sk/contact",
+          "accessed_on": "2026-09-24",
+          "section": "Contact, line 56",
+          "evidence": "Official English contact identifies this as email for submissions intended for SOI.",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§8(2)(b)",
+          "evidence": "SOI investigates alleged service noncompliance.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Official public instructions direct inspection reports and enquiries to its form. Post-draft ordinary-browser pass 24 September 2026 reached https://www.soi.sk/nahlasit-podnet and displayed name, trader, product/service, incident-description and attachment fields, a declaration checkbox, CAPTCHA and submit button, with no error banner in this browser. Its EAA-specific purpose and actual submission were not observed; the form is a general inspection-report intake. No form filled or submitted. Email is general SOI reports, not labelled dedicated EAA. Website says info@soi.sk for information requests; public email distinct from company correspondence. isolated no-history Slovak-to-English language agent, 2026-09-24: §8(2)(b) original 'prešetruje podnety týkajúce sa nesúladu služby s požiadavkami na prístupnosť'; literal 'investigates submissions concerning a service's failure to meet accessibility requirements'. Reviewed 'SOI investigates public reports about noncompliant services'; verdict Correction needed because 'public' is unstated and noncompliance may be alleged. Final research wording: 'SOI investigates reports alleging that a service fails to meet accessibility requirements'; public route audience follows SOI's public reporting instructions, not §8 alone. Requested retry on 24 September 2026: direct ordinary browser again opened the page and displayed a general report form (product/service selector, trader details, description, CAPTCHA, submit button) without an in-browser error; the automated text extraction still displayed an error notice. No fields were submitted, so operational submission and EAA-specific purpose remain unverified.",
+      "directive_context": "EAA",
+      "scope": "SOI products and Act 351 services",
+      "reporting_route": {
+        "authority": "Slovak Trade Inspection",
+        "sector": "Specified products and consumer services under Act 351/2022",
+        "channel": "email",
+        "destination": "podnety@soi.sk",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "SOI accepted company reports by email to info@soi.sk in Slovak and English, according to a direct official reply.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Private official correspondence from Tímea Mogyorosiová, Department of Market Surveillance, SOI Central Inspectorate, 19 February 2026, in user-provided 'Questions about reporting for the EAA (7).eml': reports may be emailed to info@soi.sk and are accepted in Slovak or English, including companies outside Slovakia. The website lists this email for information-access requests; direct EAA correspondence supports company reporting specifically. No private personal addresses or full email published.",
+      "directive_context": "EAA",
+      "existing_text": "Email reports to info@soi.sk in English or Slovak",
+      "scope": "SOI products and Act 351 services",
+      "reporting_route": {
+        "authority": "Slovak Trade Inspection",
+        "sector": "Specified products and consumer services under Act 351/2022",
+        "channel": "email",
+        "destination": "info@soi.sk",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "service_information",
+      "assertion": "The §6(1)(d) duty requires providers of Act 351 services to report actual nonconformity and corrective measures promptly to domestic and relevant host-state authorities.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§6(1)(d)",
+          "evidence": "Reasons for noncompliance and corrective measures to both authorities are explicit.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "SOI's direct email confirms reports generally; whether this specific statutory notice and exemptions use that same inbox was not expressly answered; table uses broad 'Company reports', not purpose-specific statutory label. isolated no-history Slovak-to-English language agent, 2026-09-24: original §6(1)(d) 'bezodkladne informovať príslušný orgán dohľadu ... o dôvodoch ... nie je v súlade ... a o nápravných opatreniach'; literal 'promptly inform the competent authority of reasons why the service is not compliant and corrective measures'. Reviewed 'when they cannot meet accessibility requirements'; verdict Correction needed because actual nonconformity and host-state authority were omitted. Final claim states actual nonconformity and corrective measures to domestic and relevant host-state authorities.",
+      "directive_context": "EAA",
+      "scope": "Act 351 services"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The §7(5) written notification for fundamental alteration or disproportionate burden is a mandatory, purpose-specific EAA Article 14 analogue.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§7(1),(5)",
+          "evidence": "Provider invoking the limited-application grounds notifies competent authorities in writing.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Do not infer that the general SOI reporting email is the purpose-specific exemption channel; §7(2) assessment retained five years and provided to authority on request. Service microenterprises exempt under §2(3).",
+      "directive_context": "EAA",
+      "scope": "Act 351 services"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The Council for Media Services has a visible form for reports alleging multimodal-access failures.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu",
+          "accessed_on": "2026-09-24",
+          "section": "Page 'Podanie podnetu týkajúceho sa multimodálneho prístupu'",
+          "evidence": "Official page displays relevant form fields and states the purpose and submission requirements.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Official form reached 24 September 2026; no form submitted. Date/time and service identity required. No languages assumed.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access: multimodal services",
+      "reporting_route": {
+        "authority": "Council for Media Services",
+        "sector": "Multimodal audiovisual access",
+        "channel": "form",
+        "destination": "https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Company nonconformity and exemption filing routes for electronic communications, audiovisual access and 112 were confirmed.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§83a",
+          "evidence": "Regulator duties described, specific filing destination not checked.",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§60b",
+          "evidence": "Multimodal information duty described; filing route not established.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Research exact legal duty and route for each before adding to table.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications; audiovisual access; 112"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "A dedicated public EAA accessibility report route for electronic communications or 112 has been confirmed.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html",
+          "accessed_on": "2026-09-24",
+          "section": "§109",
+          "evidence": "General oversight stated without inspected purpose-specific intake.",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Official telecom contact page reader returned internal error; post-draft single browser pass may verify. 112 answering/handling authority still unknown. The same single post-draft browser attempt to the telecom contact destination ended in a TLS-chain 502; no form or purpose was observed. Remain Unknown. Repeat attempt on 24 September 2026 had the same certificate-chain failure; no reporting route or audience confirmed. A general electronic-communications inspection-request address is now established; EAA-specific eligibility and 112 answering/handling remain unknown.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications; 112"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "SOI offers a general form for public tips requesting possible inspection concerning goods or services; the form does not identify a dedicated EAA intake.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.soi.sk/nahlasit-podnet",
+          "accessed_on": "2026-09-24",
+          "section": "Public report form and instructions",
+          "evidence": "The page displays submitter and trader details, goods/services selector, incident description and submit control; describes public tips and says an inspection tip is not a formal complaint under Act 9/2010.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Ordinary browser displayed the form and a CAPTCHA on 24 September 2026, twice. No form was filled or submitted; this verifies page and visible intake fields, not successful submission. Automated text extraction displayed an error notice. Link outcome: reachable in ordinary browser; destination unchanged. Isolated no-history Slovak-to-English review 24 September 2026: original 'Nahlásiť podnet', 'Druh (tovar alebo služba)', 'podnety verejnosti ... najmä od spotrebiteľov', 'Podnet ku kontrole NIE JE sťažnosťou'; literal 'submit a tip/referral', 'goods or services', 'public tips particularly from consumers', 'inspection tip is not a formal complaint'. Initial 'inspection-report form' was mildly ambiguous; corrected final table wording 'SOI form to submit a public tip for possible inspection (goods or services; EAA-specific purpose unconfirmed)' Supported.",
+      "directive_context": "EAA",
+      "scope": "SOI specified products and services",
+      "reporting_route": {
+        "authority": "Slovak Trade Inspection",
+        "sector": "Goods and services within SOI remit",
+        "channel": "form",
+        "destination": "https://www.soi.sk/nahlasit-podnet",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The telecom regulator publishes e-podatelna@teleoff.gov.sk for inspection requests concerning electronic communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.teleoff.gov.sk/urad/informacie-urade/vseobecne-informacie-zo-zakona/",
+          "accessed_on": "2026-09-24",
+          "section": "Inspection requests under electronic communications supervision",
+          "evidence": "Official indexed text states an inspection request (podnet na vykonanie kontroly) may be sent to e-podatelna@teleoff.gov.sk.",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.teleoff.gov.sk/kontakt/vseobecne-kontakty/egovernment/",
+          "accessed_on": "2026-09-24",
+          "section": "eGovernment correspondence",
+          "evidence": "Official indexed text says the address accepts questions, requests and submissions for all offices without electronic signature; 2 MB maximum.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "The user supplied the email address 24 September 2026 and both official regulator pages independently identify it. Their direct URLs yielded 502 certificate verification errors in this browser on earlier attempts; link outcome remains unreachable in this environment while official indexed text supports the exact address and inspection-request purpose. No email sent. The email is a general office correspondence address, not proof of a dedicated EAA accessibility route. Isolated no-history Slovak-language review 24 September 2026: original 'Podnet na vykonanie kontroly môžete ... poslať na e-podatelna@teleoff.gov.sk'; literal 'you may send an inspection request to the email'; initial 'Public reports (general telecom inspection requests)' needed narrowing; final 'Public reports (inspection requests)' Supported with the audience on the public page and EAA-specific qualification.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications",
+      "reporting_route": {
+        "authority": "Regulatory Authority for Electronic Communications and Postal Services",
+        "sector": "Electronic communications inspection requests",
+        "channel": "email",
+        "destination": "e-podatelna@teleoff.gov.sk",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "The telecom regulator's central correspondence email accepts general enquiries from companies; no dedicated EAA non-compliance or exemption intake is established.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.teleoff.gov.sk/kontakt/vseobecne-kontakty/egovernment/",
+          "accessed_on": "2026-09-24",
+          "section": "Correspondence address",
+          "evidence": "Official indexed text says the inbox receives questions, applications and submissions for all regulator workplaces and accepts email without an electronic signature.",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "General enquiries only, not company statutory reporting. The official page was inaccessible in this browser due certificate-chain 502; indexed official text and user-supplied address provide provenance. Isolated no-history Slovak-language review 24 September 2026: original 'určený na prijatie otázok, žiadostí aj podnetov za všetky pracoviská úradu' and 'slúži len ako korešpondenčná adresa úradu'; literal 'intended to receive questions, requests and submissions for all offices' and 'serves only as correspondence address'. Reviewed exact 'Company enquiries: e-podatelna@teleoff.gov.sk (general office correspondence)' — Supported as one audience subset without suggesting a dedicated company filing route. No language acceptance asserted, no mail sent.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications",
+      "reporting_route": {
+        "authority": "Regulatory Authority for Electronic Communications and Postal Services",
+        "sector": "General correspondence concerning electronic communications",
+        "channel": "email",
+        "destination": "e-podatelna@teleoff.gov.sk",
+        "eaa_specific": false
+      }
+    }
+  ],
+  "questions": [
+    "Before PR: Resolved by narrowing: SOI info@soi.sk direct official company correspondence is broad reports, not explicitly §6 non-compliance or §7 exemption filing; table uses Company reports and leaves purposes unassigned.",
+    "Before PR: Resolved by narrowing: SOI public form displayed an error; use the official public reporting email and queue form usability rather than claiming successful submission.",
+    "Before merge: Slovakia / company reports email and accepted English/Slovak — maintainer inspect 19 February 2026 reply in supplied 'Questions about reporting for the EAA (7).eml'; resolved when provenance and exact wording are accepted.",
+    "Follow-up: SOI did not answer 19 February dedicated accessibility-statement and monitoring questions; 24 September reminder sent by contributor; retain Unknown until explicit official answer.",
+    "Follow-up: Determine whether info@soi.sk specifically accepts §6(1)(d) non-compliance and §7(5) exemptions; broad reporting confirmation alone does not distinguish these.",
+    "Follow-up: Official telecom pages indexed e-podatelna@teleoff.gov.sk for general inspection requests and correspondence, but direct page access still yielded certificate-chain 502; maintainer may verify page/link availability and ask whether the inbox accepts EAA-specific company non-compliance and exemption filings.",
+    "Follow-up: SOI general public-inspection-tip form has visible goods/service fields and is included as such; EAA-specific purpose and successful submission remain unverified.",
+    "Follow-up: Identify the competent authority and usable route for 112 answering/handling accessibility; do not extend telecom remit automatically.",
+    "Follow-up: Confirm the Council's multimodal-access form covers accessibility of access-to-AVMS services beyond broadcast subtitles/signing/audio-description; current publication stays within the displayed form purpose."
+  ]
+}
