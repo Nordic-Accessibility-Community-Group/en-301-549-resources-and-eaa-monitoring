@@ -100,7 +100,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Sector-by-sector reconciliation covers every current EAA product/service category in regulation 3(1)–(2). The reader-facing row retains the project's common sector labels with the law's narrower limits in parentheses. CRPD's official website https://www.crpd.org.mt/ and complaint page returned 403 in the text reader; the remote browser returned ERR_BLOCKED_BY_CLIENT. The official domain and authority identity were found, but link reachability remains a specific Before merge check.",
+      "review_note": "Sector-by-sector reconciliation covers every current EAA product/service category in regulation 3(1)–(2). The reader-facing row retains the project's common sector labels with the law's narrower limits in parentheses. CRPD's official website https://www.crpd.org.mt/ and complaint page returned 403 in the text reader; the remote browser returned ERR_BLOCKED_BY_CLIENT. On 24 September 2026, the contributor confirmed that https://www.crpd.org.mt/ is the website of the Commission for the Rights of Persons with Disability, resolving the link-identity check. Automated readers still could not open it; this confirmation does not verify EAA complaint intake.",
       "directive_context": "EAA",
       "scope": "Listed EAA products; e-commerce; consumer banking; electronic communications; covered passenger transport; access to audiovisual media; e-books and dedicated software"
     },
@@ -189,7 +189,6 @@
     }
   ],
   "questions": [
-    "Before merge: Malta / Monitoring agencies CRPD link — open https://www.crpd.org.mt/ in an ordinary browser and confirm it resolves to the official Commission for the Rights of Persons with Disability website; this matters because both automated readers were blocked; owner: maintainer; resolved when the official CRPD identity is visible at the linked destination.",
     "Follow-up: Malta / Public complaints — ask CRPD or find explicit current CRPD guidance identifying the EAA complaint/report form, email or postal route, including whether the general investigations page accepts EAA product and service matters; owner: research agent or contributor; resolved when official instructions name a usable route and audience.",
     "Follow-up: Malta / Company non-compliance and exemptions — identify separate or shared CRPD destinations, accepted languages, authentication/signature requirements and any deadlines; owner: research agent or contributor; resolved when official guidance or correspondence confirms each purpose.",
     "Follow-up: Malta / Demands statement — seek CRPD or government guidance stating whether the Annex V information must be a dedicated public page comparable to a WAD statement, or whether general terms and conditions/equivalent documents suffice; owner: research agent or contributor; resolved by an explicit official statement.",
