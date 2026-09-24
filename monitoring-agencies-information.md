@@ -398,6 +398,48 @@
     </td>
   </tr>
   <tr>
+    <td>Greece</td>
+    <td>✖️ No</td>
+    <td>
+      <p><strong>Products — computer hardware and operating systems, e-readers, payment terminals and ATMs:</strong></p>
+      <ul><li><a href="https://www.mindev.gov.gr/">Industrial Products Safety and Compliance Directorate, General Secretariat for Industry</a></li></ul>
+      <p><strong>Products — electronic-communications terminal equipment:</strong></p>
+      <ul><li><a href="https://www.eett.gr/en/">Hellenic Telecommunications and Post Commission (EETT)</a></li></ul>
+      <p><strong>Products — ticketing, check-in and interactive information terminals:</strong></p>
+      <ul><li><a href="https://www.yme.gov.gr/">General Secretariat for Transport</a>, jointly with the Industrial Products Safety and Compliance Directorate.</li></ul>
+      <p><strong>Products — audiovisual-access terminal equipment:</strong></p>
+      <ul><li><a href="https://www.esr.gr/">National Council for Radio and Television (ESR)</a>, jointly with the Industrial Products Safety and Compliance Directorate.</li></ul>
+      <p><strong>Electronic communications:</strong></p>
+      <ul><li><a href="https://www.eett.gr/en/">EETT</a> — monitoring and checking compliance of covered services.</li></ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li><a href="https://www.esr.gr/">ESR</a> — imposes sanctions on media service providers for breaches of Law 4994/2022.</li></ul>
+      <p><strong>E-commerce, Banking, Transport services and E-books:</strong></p>
+      <ul><li>❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>Electronic communications — EETT:</strong></p>
+      <ul>
+        <li>Public complaints: <a href="https://www.eett.gr/en/submit-a-complaint/">general EETT complaint page</a>; EAA-specific intake is unconfirmed.</li>
+        <li>Company non-compliance: ❓ Unknown.</li>
+        <li>Exemptions: ❓ Unknown.</li>
+      </ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>E-commerce, Banking, Transport services and E-books:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Reporting channels: ❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p>Accessibility information: covered service providers must make information explaining conformity publicly available in accessible written and oral forms. Law 4994/2022 does not expressly require a dedicated accessibility-statement page.</p>
+      <p>⚖️ EAA implementing law: <a href="https://api.et.gr/apiLAW/1/2022/4994/pdf">Law 4994/2022 (Government Gazette A 215/18.11.2022)</a>.</p>
+    </td>
+  </tr>
+  <tr>
     <td>Hungary</td>
     <td>❓ Unknown </td>
     <td><p>Authorities and statutory authority classes:</p><p><strong>Products</strong></p><ul><li><a href="https://nmhh.hu/">Office of NMHH</a> — specified products.</li><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg">Magyar Nemzeti Bank (MNB)</a> — ATMs and payment terminals for payment-transaction acquiring services.</li><li>Consumer-protection authority — e-readers and payment terminals outside MNB's remit.</li><li>Civil aviation, bus, railway and maritime authority classes — related covered transport terminals.</li></ul><p><strong>E-commerce and E-books</strong></p><ul><li>Consumer-protection authority — e-commerce, e-books and dedicated software.</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg">Magyar Nemzeti Bank (MNB)</a> — consumer banking.</li></ul><p><strong>Electronic communications and Audiovisual access</strong></p><ul><li><a href="https://nmhh.hu/">Office of NMHH</a></li></ul><p><strong>Transport</strong></p><ul><li>Civil aviation authority – covered air-passenger services and terminals.</li><li>Bus market-surveillance and passenger-rights authority – covered bus-passenger services and terminals.</li><li>Railway administrative body – covered rail services and terminals; integrated or linked public passenger services.</li><li>Maritime authority – covered water-passenger services and terminals.</li></ul><p><strong>112 emergency calls</strong></p><ul><li>Budapest Főváros Kormányhivatala – 112 emergency calls.</li></ul></td>
