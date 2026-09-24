@@ -1,0 +1,191 @@
+{
+  "country": "Estonia",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Yes — covered service providers must make an accessibility information document available to the public in accessible written and oral formats. TTJA says its purpose is similar to the public-sector accessibility statement, although the Act sets no required structure.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Frequently Asked Questions → Overview of the Products and Services Accessibility Act → What must the information document describing the conformity of the service with accessibility requirements contain?",
+          "evidence": "Subsection 2 of § 11 of the Products and Services Accessibility Act requires service providers to prepare an information document explaining the conformity of the service with accessibility requirements. This document must be made available to the public in written and oral accessible format and retained throughout the entire period during which the service is provided.\n\nThe information document is similar to the accessibility statement currently mandatory in the public sector. Its purpose is to inform users, provide explanations and offer a practical and user-friendly solution for accessibility-related concerns. The statement must include information about the owner of the relevant website and/or application and explain how the service complies with accessibility requirements.\n\nThe Products and Services Accessibility Act does not prescribe a specific structure for the information document, meaning that service providers may determine its format at their own discretion. Service providers may consult public sector accessibility statement templates and guidance materials; however, the information document itself must comply with the requirements established by the Products and Services Accessibility Act.\n\nIn addition, it is recommended to continue the common practice widely used in Estonia, where a clearly distinguishable link to the accessibility statement is placed in the header or footer of every webpage. The statement may be prepared on the basis of an accessibility assessment carried out either internally or by a partner organisation (such as a developer or an accessibility assessment provider)."
+        }
+      ],
+      "review_note": "Existing No changed to Yes because the competent authority now explicitly confirms a public information document comparable in purpose to an accessibility statement. The quoted passage does not specify whether oral availability requires an audio or video recording; clarification from TTJA is pending. Isolated Estonian-language review on 2026-09-24 by /root/estonian_language (fork_turns=none) found this wording Supported. Maintainer clarification on 2026-09-24: Erik supplied the full English FAQ passage reproduced verbatim in sources[0].evidence and accepted Yes because TTJA explicitly compares the public document with the public-sector statement and recommends the established practice. Yes is retained on that basis. A dedicated webpage or header/footer link is not expressly mandatory: the link is recommended and the document format is discretionary. The information_mode is public_other to preserve that distinction; this is not a claim that WAD applies to private-sector services. No translation or new public-table wording is introduced by this documentation update.",
+      "directive_context": "EAA",
+      "existing_text": "✖️ No",
+      "information_mode": "public_other"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Accessibility information may be consolidated into a general accessibility policy if each service refers to it.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Accessibility Information Document",
+          "evidence": "TTJA permits one general accessibility policy covering multiple services when each service links or refers to it."
+        }
+      ],
+      "review_note": "This is part of the public information duty and does not establish a prescribed statement template.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Information supplied to an authority on reasoned request: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Not established in the retrieved guidance within the bounded run.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Consumer Protection and Technical Regulatory Authority (TTJA) supervises conformity with Estonia’s Products and Services Accessibility Act for covered products and services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.riigiteataja.ee/en/eli/524082022008/consolide#:~:text=%C2%A7%2016.%20%C2%A0Supervisory%20authority",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "§ 16 Supervisory authority",
+          "evidence": "The Act assigns state supervision of its product and service requirements to TTJA."
+        },
+        {
+          "url": "https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Digital Accessibility of Services",
+          "evidence": "TTJA publishes sector guidance for e-commerce, electronic communications, e-books, financial services, passenger transport and audiovisual-access services."
+        }
+      ],
+      "review_note": "The official law supports a single competent authority across the Act’s covered sectors. Isolated language review found the mapping Supported.",
+      "directive_context": "EAA",
+      "scope": "Products and all covered services"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Formal EAA public complaint route: Unknown. TTJA publishes info@ttja.ee for accessibility questions, problems and general feedback.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.ttja.ee/eraklient/tarbija-oigused/ligipaasetavus/toodete-ligipaasetavus",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "TTJA accessibility contact information",
+          "evidence": "The page provides info@ttja.ee for accessibility-related contact but does not expressly label it a formal EAA complaint channel."
+        }
+      ],
+      "review_note": "The table preserves the existing info@ttja.ee public-report route. The isolated review confirmed that it should remain qualified in research as a general route, not an explicitly EAA-labelled complaint intake.",
+      "directive_context": "EAA",
+      "scope": "Products and services"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "For products, a manufacturer, importer or distributor reporting its own product’s non-compliance sends an unsigned, free-form notice to info@ttja.ee with details of the non-compliance and corrective measures.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ttja.ee/eraklient/tarbija-oigused/ligipaasetavus/toodete-ligipaasetavus",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Economic-operator obligations",
+          "evidence": "TTJA instructs economic operators to email a free-form, unsigned notice about product non-compliance and corrective measures."
+        }
+      ],
+      "review_note": "The isolated language review corrected the wording so it cannot be mistaken for a public complaint about a company.",
+      "directive_context": "EAA",
+      "scope": "Products",
+      "reporting_route": {
+        "authority": "Consumer Protection and Technical Regulatory Authority",
+        "sector": "Products",
+        "channel": "email",
+        "destination": "info@ttja.ee",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Service-provider non-compliance reporting route: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "The bounded run did not verify a distinct destination for a service provider reporting its own non-compliance; do not infer it from the product instructions or general contact address.",
+      "directive_context": "EAA",
+      "scope": "Services"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Exemptions: for products and services, complete and sign the corresponding TTJA notification form, then email it to info@ttja.ee.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ttja.ee/eraklient/tarbija-oigused/ligipaasetavus/toodete-ligipaasetavus",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Disproportionate burden form",
+          "evidence": "TTJA provides a product form and directs the signed file to info@ttja.ee."
+        },
+        {
+          "url": "https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Guidance and Form for Assessing Disproportionate Burden",
+          "evidence": "TTJA provides a separate service form and directs the signed file to its email address."
+        }
+      ],
+      "review_note": "Table label kept as Exemptions. This concerns EAA Article 14 non-application based on disproportionate burden or fundamental alteration, not a blanket or regulator-granted exemption. Products and services use separate corresponding forms. Isolated language review found the concise label acceptable with this research context.",
+      "directive_context": "EAA",
+      "scope": "Products and services",
+      "reporting_route": {
+        "authority": "Consumer Protection and Technical Regulatory Authority",
+        "sector": "Products and services",
+        "channel": "email",
+        "destination": "info@ttja.ee",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The Products and Services Accessibility Act implements Directive (EU) 2019/882 in Estonia; its accessibility requirements apply from 28 June 2025.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.riigiteataja.ee/en/eli/524082022008/consolide",
+          "accessed_on": "2026-09-24",
+          "source_type": "legislation",
+          "section": "Official consolidated Act",
+          "evidence": "National implementing law."
+        },
+        {
+          "url": "https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "Introduction",
+          "evidence": "TTJA states the Act transposes the EAA and requirements apply from 28 June 2025."
+        }
+      ],
+      "review_note": "Official English consolidated text retained as the legal link.",
+      "directive_context": "EAA"
+    }
+  ],
+  "questions": [
+    "Before PR: RESOLVED — existing statement No changed to Yes only after TTJA explicitly stated that the accessibility information document must be public and is similar in purpose to the public-sector accessibility statement.",
+    "Before PR: VERIFIED — § 16 assigns supervision of the Act’s covered products and services to TTJA.",
+    "Before PR: NARROWED — info@ttja.ee is preserved as a public reporting/contact route, but TTJA has not explicitly labelled it formal EAA complaint intake.",
+    "Before merge: RESOLVED — Erik reviewed the supplied TTJA FAQ passage on 2026-09-24 and accepted Yes based on the required public document, comparison with the public-sector statement and recommended common practice. The audio/video recording question is a separate nonblocking follow-up.",
+    "Before merge: Open both TTJA exemption form links and confirm that the product and service forms remain distinct and usable, and that the submission address remains info@ttja.ee.",
+    "Follow-up: Ask TTJA whether info@ttja.ee is the designated EAA public complaint route, and whether a specific complaint form is planned.",
+    "Follow-up: Verify a specific service-provider route for reporting its own service non-compliance.",
+    "Follow-up: Verify accepted submission languages and whether any authentication or signature requirement applies outside the signed exemption forms.",
+    "Run scope: baseline main includes merged Czechia PR #21. Only Estonia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
+    "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
+    "Follow-up: Ask TTJA whether the requirement to provide the accessibility information document in an oral accessible format requires a published audio or video recording, or whether oral provision on request is sufficient. Record TTJA’s answer and the accepted delivery formats."
+  ]
+}
