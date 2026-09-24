@@ -1,0 +1,492 @@
+{
+  "country": "Poland",
+  "record_type": "incomplete_entry_research",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "The enacted Act of 26 April 2024 (Dz.U. 2024 poz. 731) implements Directive (EU) 2019/882; core obligations took effect 28 June 2025.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Act states implementation of Directive 2019/882 and its commencement.",
+          "section": "Title, footnote 1 and commencement",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://rf.gov.pl/dostepnosc/dla-konsumentow/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Financial Ombudsman confirms 28 June 2025 commencement.",
+          "section": "Introduction",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Existing legislation link retained; official statute reachable in web reader, scope subject to local provisions and transition rules. Accessed 2026-09-24; reachable.",
+      "directive_context": "EAA",
+      "existing_text": "Dz.U. 2024 poz. 731; implementing-law link"
+    },
+    {
+      "field": "statement",
+      "assertion": "A dedicated public page comparable to a WAD accessibility statement is explicitly demanded by a Polish competent EAA body.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Act requires written public service information in service terms or equivalent, without prescribing a standalone statement page.",
+          "section": "Art. 32(2)(1)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Current Unknown preserved. Do not confuse public-sector WAD declarations on agency sites with EAA provider obligations. No explicit demand for a separate public page found in bounded official-source review; verify regulator guidance on this exact question.",
+      "directive_context": "EAA",
+      "existing_text": "❓ Unknown",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service providers must publicly provide accessible written information in service terms or equivalent document about the service, its use and how it meets accessibility requirements.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Written public terms/equivalent information on the service, its use and accessibility conformity; paper or electronic.",
+          "section": "Art. 32(2)(1)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government search index identifies public terms or equivalent for e-commerce.",
+          "section": "Information obligations",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Law directly available; separate government e-commerce page timed out in web reader and only its indexed summary was visible. Polish-language reviewer confirmed 'terms or equivalent' and paper/electronic scope 2026-09-24.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Providers may supply written conformity information only when a member of the public requests it.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Written service information is publicly disclosed in terms/equivalent rather than withheld pending a public request.",
+          "section": "Art. 32(2)(1)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "No on-request-only model established. PFRON Art. 42 consumer request for state-held information is different from provider publication.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "On request of PFRON or a competent sector regulator, a service provider supplies information needed to demonstrate accessibility conformity by the stated deadline.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Law sets written information duty on request by competent authority.",
+          "section": "Art. 32(2)(7)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "Separate from public disclosure under Art. 32(2)(1); reviewed literal rendering by isolated Polish-language agent 2026-09-24.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "A consumer may request from PFRON or the competent regulator the conformity information it holds.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://dostepnosc.pfron.org.pl/dostepnosc-produktow-i-uslug/prawa-konsumentow/informacja",
+          "accessed_on": "2026-09-24",
+          "evidence": "PFRON explains requests to it or competent authority; electronic delivery, in person, or by mail.",
+          "section": "Kto może złożyć / Jak składasz",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "This is public access to authority-held information under Art. 42, not an EAA provider accessibility-statement page.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "PFRON's Management Board President monitors the operation of the market-surveillance system and receives accessibility notifications, considering or referring them.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(2), 39; reporting guidance",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://dostepnosc.pfron.org.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Original 'monitoruje funkcjonowanie systemu nadzoru rynku' literally monitors operation of market-surveillance system; isolated final wording supported (avoids calling PFRON the sector regulator). Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Market surveillance system"
+    },
+    {
+      "field": "authority",
+      "assertion": "The President of UKE supervises covered products, telecommunications services, access to audiovisual media services and e-book distribution services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(1)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://uke.gov.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Source 'Prezes Urzędu Komunikacji Elektronicznej' / literal President of UKE; final wording lists telecommunications, access to audiovisual media and e-book distribution rather than generic audiovisual/e-book content. Isolated no-history agent final verdict Supported with that scope. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Products; Electronic communications; Audiovisual access; E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Minister responsible for computerization (currently Minister of Digital Affairs) supervises e-commerce services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(2)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "E-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Financial Ombudsman supervises retail banking services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(3)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://rf.gov.pl/dostepnosc/dla-uslugodawcow/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Banking (retail)"
+    },
+    {
+      "field": "authority",
+      "assertion": "Provincial road transport inspectors supervise digital services accompanying bus/coach passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(4)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://www.gov.pl/web/gitd/witd identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Transport (bus/coach)"
+    },
+    {
+      "field": "authority",
+      "assertion": "The President of UTK supervises digital services accompanying rail passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(5)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://utk.gov.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Transport (rail)"
+    },
+    {
+      "field": "authority",
+      "assertion": "The President of ULC supervises digital services accompanying air passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(6)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://ulc.gov.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct 2026-09-24 check: named agency/government destination reached in web reader, with correct site title (PFRON, UKE, Ministry, Financial Ombudsman, road inspector roster, UTK or ULC as applicable).",
+      "directive_context": "EAA",
+      "scope": "Transport (air)"
+    },
+    {
+      "field": "authority",
+      "assertion": "Directors of the Gdynia and Szczecin maritime offices supervise services accompanying sea passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(7)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://www.umgdy.gov.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct check 2026-09-24: Gdynia homepage redirected to /en/; Szczecin site reached and identified correct office.",
+      "directive_context": "EAA",
+      "scope": "Transport (sea)"
+    },
+    {
+      "field": "authority",
+      "assertion": "The director of the Bydgoszcz Inland Navigation Office supervises services accompanying inland-waterway passenger transport.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)(7)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Government/UKE roster and statute aligned; URL destination is a government or named agency site. Link outcome: UKE roster reachable; linked destination https://bydg.uzs.gov.pl/ identified on the official UKE roster, direct reachability of every subpage not independently established in bounded pass. Polish wording reviewed 2026-09-24. Direct link test 2026-09-24: https://bydg.uzs.gov.pl/ and www variant returned 502 to web reader; official site indexed independently and UKE links it. Reachability unknown; ordinary-browser retry after draft.",
+      "directive_context": "EAA",
+      "scope": "Transport (inland waterways)"
+    },
+    {
+      "field": "authority",
+      "assertion": "The Polish Act's sector market-surveillance roster does not identify a separate 112 emergency-call authority in Article 38(3).",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Exact statutory market-surveillance remit and PFRON system role.",
+          "section": "Art. 38(3)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists the PFRON role and sector offices; links to official sites.",
+          "section": "Kto sprawuje nadzór nad spełnieniem wymagań dostępności",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "112 is addressed in Art. 80 by amendment to emergency system law; no competent EAA regulator in Art. 38(3) established. Polish wording reviewed 2026-09-24.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "authority",
+      "assertion": "Customs authorities oversee accessibility of products that are to be placed on the market, as part of the market-surveillance system.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Customs authorities are listed as a constituent of the system.",
+          "section": "Art. 38(2)(3)",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/",
+          "accessed_on": "2026-09-24",
+          "evidence": "UKE lists customs authorities for products entering the market.",
+          "section": "Nadzór",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.gov.pl/web/kas/sluzba-celno-skarbowa",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official government page identifies the Customs and Tax Service within KAS; used as the customs-authority class website, without implying that KAS is an Article 38(3) sector regulator.",
+          "section": "Służba Celno-Skarbowa",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Statutory class, not one named Article 38(3) sector regulator. Listed separately under Products for checks on products to be placed on the market; individual customs offices not exhaustively audited.",
+      "directive_context": "EAA",
+      "scope": "Products (customs authorities)"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The public can report inaccessibility of covered products/services to PFRON by email; PFRON considers or refers the notice to the competent market-surveillance authority.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://dostepnosc.pfron.org.pl/dostepnosc-produktow-i-uslug/prawa-konsumentow/zawiadomienie",
+          "accessed_on": "2026-09-24",
+          "evidence": "PFRON identifies accessibility email dostepnosc@pfron.org.pl and routes notifications onward or handles them.",
+          "section": "Jak składasz / Co to oznacza",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.gov.pl/web/gov/zloz-zawiadomienie-o-braku-dostepnosci-produktu-lub-uslugi",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government says anyone may file with PFRON for covered product/service barriers.",
+          "section": "Kto może złożyć / Gdzie składasz",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Current PFRON page is reachable; name of receiving authority, sector and purpose explicit. Anonymous reports are allowed per source, but email sender may still be visible and no anonymity assurance is published in table. Polish reviewer corrected 'always forwards' to 'considers or refers'. No form submitted. Original 'Prezes Zarządu PFRON rozpatrzy zawiadomienie lub przekaże zawiadomienie do właściwego organu nadzoru' literally considers the notice or forwards it to the competent authority; final corrected table wording supported by isolated reviewer.",
+      "directive_context": "EAA",
+      "scope": "All covered products and services",
+      "reporting_route": {
+        "authority": "PFRON",
+        "sector": "All covered products and services",
+        "channel": "email",
+        "destination": "dostepnosc@pfron.org.pl",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "An economic operator reporting inaccessible retail-banking services may complete the Financial Ombudsman form, sign the generated PDF and email it to dostepnosc@rf.gov.pl.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://rf.gov.pl/dostepnosc/dla-uslugodawcow/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Regulator specifies retail-banking company form, signed PDF and accepted email; ePUAP/e-delivery alternatives.",
+          "section": "Zgłoszenie przez podmiot niedostępności oferowanych lub świadczonych usług bankowości detalicznej",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Official page reachable; no submission, accepted language other than Polish not verified. Isolated language reviewer narrowed to retail banking, identified signed PDF and email as one available delivery route. Final table says 'Company reports (inaccessible retail banking services)' per isolated 2026-09-24 Polish-language recheck; broader 'Company non-compliance' would overstate the Polish form. Source 'zgłoszenie przez podmiot gospodarczy niedostępności usług bankowości detalicznej' literally means economic operator report of retail-banking inaccessibility.",
+      "directive_context": "EAA",
+      "scope": "Banking (retail)",
+      "reporting_route": {
+        "authority": "Financial Ombudsman",
+        "sector": "Retail banking",
+        "channel": "email",
+        "destination": "dostepnosc@rf.gov.pl",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Company non-compliance routes for UKE, Minister of Digital Affairs, road/rail/air/sea/inland transport authorities have been established.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Act requires service providers to notify competent regulator of own non-compliance and corrective actions.",
+          "section": "Art. 32(2)(6)",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "The legal obligation is verified; a usable, purpose-specific destination for each named authority was not established within bounded research. Do not repurpose generic contact forms as confirmed statutory filing routes.",
+      "directive_context": "EAA",
+      "scope": "Products; Electronic communications; Audiovisual access; E-books; E-commerce; Transport"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "A purpose-specific company exemption-notification route is published for Poland.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+          "accessed_on": "2026-09-24",
+          "evidence": "Law covers fundamental change and disproportionate burden assessments; no all-sector submission route verified.",
+          "section": "Art. 21",
+          "source_type": "legislation"
+        }
+      ],
+      "review_note": "EAA Article 14 provides context only. Check precise Polish Art. 21 company notification conditions and official destinations before showing a company exemption route.",
+      "directive_context": "EAA",
+      "scope": "All covered sectors"
+    }
+  ],
+  "questions": [
+    "Follow-up: Poland / dedicated public page — ask a competent EAA regulator whether it explicitly requires a standalone accessibility-information page comparable to a WAD declaration, beyond the statutory terms/equivalent publication; owner: researcher or agency; resolved by explicit official instruction.",
+    "Follow-up: Poland / company non-compliance — identify official purpose-specific form/email/postal routes for UKE products and services, Minister of Digital Affairs e-commerce, and provincial/rail/air/sea/inland passenger-transport regulators; owner: researcher; resolved when each destination and audience is explicit.",
+    "Follow-up: Poland / company exemptions — confirm Art. 21 notification scope and each regulator's accepted channel without inferring one from a general mailbox; owner: researcher; resolved by law plus purpose-specific regulator guidance.",
+    "Follow-up: Poland / 112 emergency calls — confirm applicable Polish EAA 112 implementation and competent authority outside Art. 38(3); owner: researcher; resolved by official sector law/roster and link.",
+    "Follow-up: Poland / Bydgoszcz inland-navigation office link — UKE's official roster links bydg.uzs.gov.pl but both hostname variants returned 502 in the text reader on 2026-09-24; try once in an ordinary browser after the draft to confirm current official homepage, redirect and accessibility. Owner: researcher; resolved by observed destination and office identity.",
+    "Follow-up: Poland / languages/login — check accepted languages and any authentication prerequisites for PFRON public email and Financial Ombudsman company reporting; owner: researcher or authority; resolved by explicit official guidance or correspondence.",
+    "Follow-up: Poland / customs offices — confirm whether individual border-inspection authorities should be listed separately or the statutory customs-authority class suffices; owner: researcher; resolved by an official EAA roster."
+  ]
+}
