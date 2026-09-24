@@ -603,9 +603,44 @@
   <tr>
     <td>Portugal</td>
     <td>✔️ Yes (Source needed)</td>
-    <td><ul><li><a href="http://www.anacom.pt/">ANACOM (Autoridade Nacional de Comunicações)</a><ul><li>Supervises products such as computer equipment and electronic communications equipment that operate via radio.</li><li>Supervises electronic communications services and services related to emergency communications. </li></ul></li><li><a href="https://www.erc.pt/">ERC (Entidade Reguladora para a Comunicação Social)</a> - audiovisual media services.</li><li><a href="http://www.amt-autoridade.pt/">Autoridade da Mobilidade e dos Transportes (AMT)</a> - air transport services.</li><li><a href="http://www.imt-ip.pt/">Instituto da Mobilidade e dos Transportes, I. P. (IMT)</a> - Supervises interactive self-service terminals of urban and suburban transport services, and regional transport services. </li><li><a href="http://www.bportugal.pt/">Banco de Portugal</a> - Supervises banking services, including payment services.</li><li><a href="http://www.cmvm.pt/">Comissão do Mercado de Valores Mobiliários (CMVM)</a> - Supervises financial investment services. </li><li><a href="https://www.asae.gov.pt/">Autoridade de Segurança Alimentar e Económica (ASAE)</a> - Supervises the certification of products and services, including with the CE marking, and computer systems, except for those related to communications or covered by other entities. This authority also supervises the compliance of the free market access and goods and services access.</li><li><a href="http://www.igac.gov.pt/">Inspeção-Geral das Atividades Culturais (IGAC)</a> - Supervises the implementation in cultural services and products, including monuments and museums.</li></ul> </td>
-    <td>As of 2026-06-02 Portugal does not have any reporting procedures.</td>
-    <td><ul><li>2026-06-02: "The practical implementation of monitoring and reporting mechanisms is still being developed at national level."</li><li>All the responsibilities regarding the built environment are under the supervision of the municipalities.</li> <li>The autonomous regions of Açores and Madeira delegates part of the responsibilities on their regional authorities, if existent. </li> <li>The Instituto Nacional para a Reabilitação (INR, I.P.) (National Institute for Rehabilitation) is in charge of collecting data and supervising the compliance of these authorities.</li> </ul><p>⚖️ EAA implementing law: <a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Decreto-Lei n.º 82/2022</a>.</p></td>
+    <td>
+      <p><strong>Market coordination:</strong></p>
+      <ul><li><a href="https://idipd.mtsss.gov.pt/acessibilidade-a-produtos-e-servicos">Instituto para os Direitos das Pessoas com Deficiência (IDiPD, formerly INR)</a> — monitors implementation and forwards complaints addressed directly to it; Article 28 bodies supervise compliance.</li></ul>
+      <p><strong>Products:</strong></p>
+      <ul>
+        <li><a href="https://www.anacom.pt/">ANACOM</a> — specified computer/terminal equipment operating by radio or constituting electronic communications equipment; excluding operating systems.</li>
+        <li><a href="https://www.asae.gov.pt/">ASAE</a> — specified equipment that does not operate via radio or is not electronic communications equipment, and the specified operating systems, including those for radio or electronic-communications computers.</li>
+        <li><a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Municipalities</a> — ATMs.</li>
+      </ul>
+      <p><strong>E-commerce and Electronic communications:</strong></p>
+      <ul><li><a href="https://www.anacom.pt/">ANACOM</a> — e-commerce and electronic communications services.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul>
+        <li><a href="https://www.bportugal.pt/">Banco de Portugal</a> — specified consumer credit, investment and ancillary services, payment services, and electronic money.</li>
+        <li><a href="https://www.cmvm.pt/">Comissão do Mercado de Valores Mobiliários (CMVM)</a> — specified consumer investment and ancillary services.</li>
+      </ul>
+      <p><strong>Transport:</strong></p>
+      <ul>
+        <li><a href="https://www.amt-autoridade.pt/">Autoridade da Mobilidade e dos Transportes (AMT)</a> and <a href="https://www.anac.pt/">Autoridade Nacional da Aviação Civil (ANAC)</a> — covered passenger-transport service elements.</li>
+        <li><a href="https://www.imt-ip.pt/">Instituto da Mobilidade e dos Transportes (IMT)</a> — interactive terminals for urban, suburban and regional transport.</li>
+      </ul>
+      <p><strong>Audiovisual access:</strong></p>
+      <ul><li><a href="https://www.erc.pt/">Entidade Reguladora para a Comunicação Social (ERC)</a> — access services.</li></ul>
+      <p><strong>E-books:</strong></p>
+      <ul><li><a href="https://www.igac.gov.pt/">Inspeção-Geral das Atividades Culturais (IGAC)</a> — e-books and dedicated software.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li><a href="https://www.anacom.pt/">ANACOM</a> — 112 answering and handling duties start 28 June 2027.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul>
+        <li>Public complaints (IDiPD form): <a href="https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos">IDiPD form</a>; first complain to the provider; the issue must remain unresolved or lack a timely reasoned reply. Each complaint is forwarded to the competent authority.</li>
+        <li>Company non-compliance / exemptions: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Public and company reporting: ❓ Unknown (duties start 28 June 2027).</li></ul>
+    </td>
+    <td><p>⚖️ EAA implementing law: <a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Decreto-Lei n.º 82/2022</a>.</p></td>
   </tr>
   <tr>
     <td>Romania</td>
