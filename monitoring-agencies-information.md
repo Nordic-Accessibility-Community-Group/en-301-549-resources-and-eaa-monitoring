@@ -566,9 +566,39 @@
   <tr>
     <td>Poland</td>
     <td>❓ Unknown</td>
-    <td>Article 38(2) states: "The market surveillance system shall be formed by:<ul><li>the President of the Management Board of PFRON (State Fund for Rehabilitation of Persons with Disabilities)</li><li>market surveillance authorities referred to in Art.38(3)</li><li>customs authorities.</li></ul>In addition, Article 39(1) of that law specifies that: "The President of the Management Board of PFRON: monitors the functioning of the market surveillance system by requesting from the market surveillance and customs authorities information, including statistical data, on market surveillance activities undertaken.  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td><a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000731">Dz.U. 2024 poz. 731</a><p>⚖️ EAA implementing law: <a href="https://eli.gov.pl/eli/DU/2024/731/ogl">Ustawa z dnia 26 kwietnia 2024 r. (Dz.U. 2024 poz. 731)</a>.</p></td>
+    <td>
+      <p><strong>Market surveillance system:</strong></p>
+      <ul><li><a href="https://dostepnosc.pfron.org.pl/">PFRON Management Board President</a> — monitors its operation; receives public notifications.</li></ul>
+      <p><strong>Products, Electronic communications, Audiovisual access and E-books:</strong></p>
+      <ul><li><a href="https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/">President of the Office of Electronic Communications (UKE)</a> — covered products, telecommunications services, access to audiovisual media services and e-book distribution services.</li></ul>
+      <p><strong>Products — customs checks:</strong></p>
+      <ul><li><a href="https://www.gov.pl/web/kas/sluzba-celno-skarbowa">Customs authorities (KAS)</a> — products to be placed on the market.</li></ul>
+      <p><strong>E-commerce:</strong></p>
+      <ul><li><a href="https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego">Minister of Digital Affairs</a> — e-commerce services.</li></ul>
+      <p><strong>Banking:</strong></p>
+      <ul><li><a href="https://rf.gov.pl/dostepnosc/dla-uslugodawcow/">Financial Ombudsman</a> — retail banking services.</li></ul>
+      <p><strong>Transport — digital services accompanying passenger transport:</strong></p>
+      <ul>
+        <li><a href="https://www.gov.pl/web/gitd/witd">Provincial road transport inspectors</a> — bus and coach.</li>
+        <li><a href="https://utk.gov.pl/">President of UTK</a> — rail.</li>
+        <li><a href="https://ulc.gov.pl/">President of ULC</a> — air.</li>
+        <li>Maritime office directors — sea: <a href="https://www.umgdy.gov.pl/">Gdynia</a> and <a href="https://www.ums.gov.pl/">Szczecin</a>.</li>
+        <li><a href="https://uke.gov.pl/dostepnosc-produktow-i-uslug/nadzor/">Director of the Inland Navigation Office in Bydgoszcz</a> — inland waterways.</li>
+      </ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>❓ Unknown.</li></ul>
+    </td>
+    <td>
+      <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books — PFRON intake:</strong></p>
+      <ul><li>Public reports (consumer notifications): <a href="mailto:dostepnosc@pfron.org.pl">dostepnosc@pfron.org.pl</a>. PFRON considers or forwards the notice to the competent authority.</li></ul>
+      <p><strong>Banking — Financial Ombudsman:</strong></p>
+      <ul><li>Company reports (inaccessible retail banking services): <a href="https://rf.gov.pl/dostepnosc/dla-uslugodawcow/ankieta-zgloszenia-do-rf-niedostepnosci-swiadczonych-uslug-bankowosci/">complete form</a>, sign the generated PDF and email it to <a href="mailto:dostepnosc@rf.gov.pl">dostepnosc@rf.gov.pl</a>.</li><li>Company exemptions: ❓ Unknown.</li></ul>
+      <p><strong>Products, E-commerce, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
+      <ul><li>Company non-compliance / exemptions: ❓ Unknown.</li></ul>
+      <p><strong>112 emergency calls:</strong></p>
+      <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
+    </td>
+    <td><p>⚖️ EAA implementing law: <a href="https://eli.gov.pl/eli/DU/2024/731/ogl">Ustawa z dnia 26 kwietnia 2024 r. (Dz.U. 2024 poz. 731)</a>.</p></td>
   </tr>
   <tr>
     <td>Portugal</td>
