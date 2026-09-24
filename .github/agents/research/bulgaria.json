@@ -462,12 +462,36 @@
       "sources": [],
       "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Bulgaria's banking oversight is split by statutory subset; urban, suburban and regional transport coverage is limited to specified interactive self-service terminals.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+          "evidence": "Article 54(1)(7)-(10) maps banking subsets to FSC, BNB and KZP; Article 2(2)(4) limits local/regional transport coverage to specified terminals.",
+          "section": "Articles 2(2)(3)-(4), 54(1)(7)-(10)",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "Rechecked 2026-09-24. Banking cross-references: FSC = supplementary provision 1(1)(25)(b); BNB = (c)-(e); KZP = (a). Keep native legal references; nuanced English translations still need human review. These are scope findings, not reporting destinations.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Open-question follow-up on 24 September 2026 records partial resolutions and remaining unknowns.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Unresolved: targeted government/authority searches did not establish a dedicated EAA page instruction. WAD statements about authorities' own sites were excluded.\nUnresolved: railway and culture homepages each failed twice again; remit evidence remains distinct from reachability.\nPartly resolved: statutory banking subsets and local/regional terminal scope rechecked; nuanced English translation still needs human review.\nUnresolved: KZP reporting URL redirects to login; EAA-specific intake and accepted languages remain unknown. No account created.\nUnresolved: company defect/exemption destinations were not established by targeted searches; statutory notification duties do not establish a usable channel.\nUnresolved: additional sector-specific public routes not verified; generic WAD/contact channels excluded.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
     "Unknown: dedicated EAA public-page instruction; searches found agency WAD statements, which do not establish an EAA duty.",
     "Recheck railway and culture authority URLs in a later run; two retrieval attempts failed.",
-    "Review banking subset translations and urban/regional transport scope.",
+    "Human review: banking and local/regional transport cross-references have been rechecked; approve nuanced English translations before rewriting the bilingual authority descriptions.",
     "Unknown: EAA-specific intake and accepted languages for the logged-in KZP form.",
     "Unknown: company non-compliance and exemption destinations by authority.",
     "Unknown: public complaint destinations for other sectors; request official guidance before publishing routes."
