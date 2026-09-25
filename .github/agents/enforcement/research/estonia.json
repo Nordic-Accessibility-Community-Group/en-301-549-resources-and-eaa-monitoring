@@ -3,23 +3,121 @@
   "country": "Estonia",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
-  "search_result": "not_assessed",
-  "attempted_on": null,
-  "verified_on": null,
+  "research_state": "partially_researched",
+  "search_result": "reportable_activity_found",
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "No public entry for this country is mapped at setup. This is not evidence that no enforcement exists; no country research has been undertaken in this workflow."
+    "Official TTJA/CPTRA second reply of 25 September 2026 supplied and inspected. Monitoring activity is attributed to that reply, not independently observed. Related service-information/testing details are retained in ../../research/estonia.json (PR #55 until merged)."
   ],
-  "public_entry_ids": [],
-  "attempts": [],
-  "claims": [],
+  "public_entry_ids": [
+    "estonia-1"
+  ],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Read contributor-supplied TTJA reply and route monitoring facts to enforcement.",
+      "sources_checked": [],
+      "limitations": "Correspondence-only evidence pass; no independent authentication, exact start date, case identifiers, formal warning decisions, fines or completed remediation established.",
+      "next_check": "Obtain later dated outcomes or decisions before expanding procedural claims."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ee-ttja-monitoring-20260925",
+      "kind": "monitoring_activity",
+      "text": "TTJA (CPTRA) reports active monitoring of e-commerce, services providing access to audiovisual media services, and financial services.",
+      "authority_or_court": "Consumer Protection and Technical Regulatory Authority (TTJA/CPTRA)",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce",
+        "Banking",
+        "Audiovisual access"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Products and Services Accessibility Act, identified in the authority's EAA reply; this pass does not independently interpret legal duties.",
+      "action_type": "Authority-reported monitoring",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Financial services is the source wording; Banking is a navigation category, not an inferred narrower or expanded remit. No formal warning, order or penalty inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "official_authority_correspondence",
+          "reference": "Estonia CPTRA answer - Questions about reporting for the EAA (1).eml; TTJA reply 25 September 2026 11:19:58 UTC; monitoring answers 1–2",
+          "passage": "CPTRA has started monitoring activities. Current focus: e-commerce, services providing access to audiovisual media services and financial services. CPTRA has contacted service providers about identified accessibility concerns; the organisations involved have submitted plans outlining intended corrective actions.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Direct official reply supplied by contributor; original EML read. Public record contains a factual summary, not full private correspondence or signatures. Documentary review is not independent authentication.",
+          "correspondence_review": {
+            "authority": "Consumer Protection and Technical Regulatory Authority, Expert on Digital Accessibility",
+            "source_date": "2026-09-25",
+            "document_sha256": "2b83af29feaf6a3b3f1728b30f50f027c78f8a29211264fdc082fe2a366862d5",
+            "reviewed_by": "Assistant source review and isolated /root/estonia_enforcement_language",
+            "reviewed_on": "2026-09-25",
+            "scope_limit": "Attributed current monitoring and submitted plans only; no named cases, formal sanctions or completed compliance inferred."
+          }
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Exact monitoring start date, individual cases and formal sanctions not established.",
+      "next_check": "Obtain dated decisions or subsequent outcomes before changing the procedural stage."
+    },
+    {
+      "id": "ee-ttja-corrective-plans-20260925",
+      "kind": "monitoring_activity",
+      "text": "It has contacted service providers about identified accessibility concerns. These service providers have submitted corrective-action plans.",
+      "authority_or_court": "Consumer Protection and Technical Regulatory Authority (TTJA/CPTRA)",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce",
+        "Banking",
+        "Audiovisual access"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Products and Services Accessibility Act, identified in the authority's EAA reply; this pass does not independently interpret legal duties.",
+      "action_type": "Provider contacts and corrective-action plans",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Financial services is the source wording; Banking is a navigation category, not an inferred narrower or expanded remit. No formal warning, order or penalty inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "official_authority_correspondence",
+          "reference": "Estonia CPTRA answer - Questions about reporting for the EAA (1).eml; TTJA reply 25 September 2026 11:19:58 UTC; monitoring answers 1–2",
+          "passage": "CPTRA has started monitoring activities. Current focus: e-commerce, services providing access to audiovisual media services and financial services. CPTRA has contacted service providers about identified accessibility concerns; the organisations involved have submitted plans outlining intended corrective actions.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Direct official reply supplied by contributor; original EML read. Public record contains a factual summary, not full private correspondence or signatures. Documentary review is not independent authentication.",
+          "correspondence_review": {
+            "authority": "Consumer Protection and Technical Regulatory Authority, Expert on Digital Accessibility",
+            "source_date": "2026-09-25",
+            "document_sha256": "2b83af29feaf6a3b3f1728b30f50f027c78f8a29211264fdc082fe2a366862d5",
+            "reviewed_by": "Assistant source review and isolated /root/estonia_enforcement_language",
+            "reviewed_on": "2026-09-25",
+            "scope_limit": "Attributed current monitoring and submitted plans only; no named cases, formal sanctions or completed compliance inferred."
+          }
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Exact monitoring start date, individual cases and formal sanctions not established.",
+      "next_check": "Obtain dated decisions or subsequent outcomes before changing the procedural stage."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "On a separately authorised research pass, inventory available enforcement knowledge and record sources and limits; add a public entry only if supported relevant activity is found.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Were formal warnings, orders or penalties issued, and what outcomes followed the submitted plans?",
+      "owner": "Contributor / enforcement researcher",
+      "resolved_when": "Dated competent-authority evidence distinguishes contacts, plans, formal measures and completed outcomes."
     }
   ]
 }

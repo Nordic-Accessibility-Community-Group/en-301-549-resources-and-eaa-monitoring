@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "Cross-page update 2026-09-25: official DGCCRF correspondence and the new declaration URL are recorded in ../../research/france.json (merged PR #51). Foreign companies may use the French platform and attach English reports; no English interface or completed submission is inferred. Enforcement page needs only the current destination link; language details remain in monitoring research."
   ],
   "public_entry_ids": [
     "france-1",
@@ -101,11 +102,21 @@
           "retrieved_on": "2026-09-25",
           "access_result": "reachable",
           "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        },
+        {
+          "url": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+          "source_type": "official_authority_publication",
+          "reference": "Public procedure landing page: purpose and intended users; same-day direct read during DGCCRF correspondence update",
+          "passage": "Landing page identifies non-conformity declarations and exemption invocations for economic operators, with assessment/audit attachments and account sign-in options.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Previously inspected in this conversation on 25 September 2026; not a fresh end-to-end test. Reader showed an unsupported-browser warning; no sign-in or submission."
         }
       ],
       "statistics": null,
       "uncertainty": "Route availability described by authority; forms were not submitted or checked beyond the linked guidance.",
-      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive. The supplied correspondence's current destination is recorded; form operation remains untested."
     },
     {
       "id": "fr-dgccrf-powers",

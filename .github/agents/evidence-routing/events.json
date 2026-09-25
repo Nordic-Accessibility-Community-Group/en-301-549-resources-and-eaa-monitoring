@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "estonia-ttja-20260925",
+      "country": "Estonia",
+      "recorded_on": "2026-09-25",
+      "status": "proposed",
+      "reason": "TTJA active monitoring and provider plans; enforcement row proposed; broader monitoring record in PR55; sanctions not_applicable.",
+      "next_action": "Maintainer review of content handoff PR"
+    },
+    {
+      "id": "france-dgccrf-20260925",
+      "country": "France",
+      "recorded_on": "2026-09-25",
+      "status": "proposed",
+      "reason": "Current official declaration URL proposed for enforcement; monitoring already records correspondence; sanctions not_applicable.",
+      "next_action": "Maintainer review of content handoff PR"
+    },
+    {
+      "id": "luxembourg-osaps-20251117",
+      "country": "Luxembourg",
+      "recorded_on": "2026-09-25",
+      "status": "needs_evidence",
+      "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
+      "next_action": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable."
+    },
+    {
+      "id": "belgium-inter-context",
+      "country": "Belgium",
+      "recorded_on": "2026-09-25",
+      "status": "research_only",
+      "reason": "Secondary enforcement context backfilled, no official finding; monitoring already_present; sanctions not_applicable.",
+      "next_action": "Secondary enforcement context backfilled, no official finding; monitoring already_present; sanctions not_applicable."
+    },
+    {
+      "id": "seed-discovery-2-2026-09-25",
+      "country": "Sweden",
+      "recorded_on": "2026-09-25",
+      "status": "needs_evidence",
+      "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+      "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable."
+    },
+    {
+      "id": "seed-discovery-3-2026-09-25",
+      "country": "Italy",
+      "recorded_on": "2026-09-25",
+      "status": "needs_evidence",
+      "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+      "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable."
+    }
+  ]
+}
