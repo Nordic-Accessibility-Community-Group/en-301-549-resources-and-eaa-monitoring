@@ -12,6 +12,10 @@ Use only erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing unless t
 
 Record important evidence in relevant research files and assess monitoring, sanctions, enforcement and future registered destinations under [evidence.md](evidence.md). Public scope and necessary research handoffs are distinct. A missing public result never means a missing research record should be silently discarded.
 
+## Presentation formatting
+
+In HTML tables embedded in Markdown, do not put an empty or whitespace-only line immediately before a `<p>` tag. Keep the paragraph directly after the preceding HTML line: a blank line can end the HTML block and cause indented markup to display as plain text/code. Check the rendered GitHub preview after editing table paragraphs. This rule applies to monitoring, sanctions, enforcement and future pages.
+
 ## Budgets and access
 
 Unless the user specifies otherwise, research and verification share ten minutes per country and thirty minutes per multi-country run, at most two attempts per failing URL and two targeted follow-up searches per unresolved question. Stop at the first applicable limit. Record start time, remaining budget and attempt history in handoffs; reviewers and retries do not reset them. Record unfinished checks as unknown with the reason and next useful step. Presentation, validation and PR preparation may continue after research ends; fresh research waits for a newly authorised pass.
