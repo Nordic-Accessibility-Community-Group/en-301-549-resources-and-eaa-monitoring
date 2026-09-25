@@ -12,19 +12,13 @@ These are review-note records, not monitoring-agency claim records, so `country-
 
 `editorial_reviews` preserves previous public wording by column, the replacement text and a link to the original version. This includes research instructions, unfinished checks and historical amounts removed from the table. Editorial changes do not update `last_checked` or confirm a legal claim.
 
-## Independent language check
+## Workflow and validation
 
-Run a separate reviewer after editing the public page, with no conversation-history fork (`fork_turns="none"`). Give the reviewer only the public page and a neutral brief to check B2-level English, clarity and ambiguity. Do not provide research records, earlier conclusions, PR discussions or reasons for the changes.
+Follow [shared workflow](../../workflow.md), [evidence](../../evidence.md) and [review](../../review.md), including distinct isolated source-fidelity/readability and independent actual-PR review. Sanctions covers statutory powers, conditions and maxima, not proof of actual enforcement. Distinguish administrative/criminal amounts, natural/legal persons, product/service scope, repeat or turnover conditions and coercive versus punitive payments. Explicitly authorised multi-country work is allowed; monitoring's one-country restriction and post-draft intake pass do not apply.
 
-The reviewer should identify the exact wording, explain the problem and suggest a correction without adding legal claims. Record the reviewed version, findings, changes and remaining questions in a language-check report in this folder. Recheck corrected wording before completing the review. Keep the source-review dates unchanged.
+Run `python3 .github/scripts/check-sanctions.py` and `python3 .github/scripts/test-sanctions.py`. The public table retains EU-27 alphabetical coverage, seven columns, canonical sector labels, source agreement, dates and row fingerprints. Each country's public_row_sha256 changes only after review; editorial changes do not create new last_checked dates. These checks do not certify legal claims. Store review reports here against exact commits/content hashes, with distinct verdicts and limits; preserve historical reports.
 
-This readability check is separate from translation fidelity and legal verification. If a wording change depends on the meaning of a source, use the isolated source-to-wording process in [language-verification.md](../../language-verification.md) with original passages and enough context.
-
-## PR and consistency checks
-
-Follow the [sanctions PR check](../../sanctions-pr.md). Run `python3 .github/scripts/check-sanctions.py` from the repository root after edits. Each country’s `public_row_sha256` binds its record to the current row; update it only after reviewing the change. This does not certify legal accuracy.
-
-See the [language report](language-check.json), [PR report](pr-check.json) and [quality-check recommendations](quality-checks.md).
+[Quality recommendations](quality-checks.md) describe future storage work, not current publication evidence. Shared evidence intake updates relevant research across pages; no unsupported public update follows automatically.
 
 ## Countries
 
@@ -55,7 +49,3 @@ See the [language report](language-check.json), [PR report](pr-check.json) and [
 - [Slovenia](slovenia.json)
 - [Spain](spain.json)
 - [Sweden](sweden.json)
-
-## Cross-page evidence handoff
-
-Follow [shared evidence routing](../../evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.
