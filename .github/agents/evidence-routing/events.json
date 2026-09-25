@@ -5,24 +5,24 @@
       "id": "estonia-ttja-20260925",
       "country": "Estonia",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "TTJA active monitoring and provider plans; enforcement row proposed; broader monitoring record in PR55; sanctions not_applicable.",
-      "next_action": "Maintainer review of content handoff PR",
+      "status": "already_present",
+      "reason": "Monitoring research merged in PR #55 and attributed enforcement entry merged in PR #57; no sanctions update supported.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/estonia.json",
-          "disposition": "proposed",
-          "reason": "TTJA active monitoring and provider plans; enforcement row proposed; broader monitoring record in PR55; sanctions not_applicable.",
-          "next_action": "Review and merge PR #55.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #55; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 55
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/estonia.json",
-          "disposition": "proposed",
-          "reason": "TTJA active monitoring and provider plans; enforcement row proposed; broader monitoring record in PR55; sanctions not_applicable.",
-          "next_action": "Maintainer review of content handoff PR",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #57; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 57
         },
         {
@@ -39,24 +39,24 @@
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Current official declaration URL proposed for enforcement; monitoring already records correspondence; sanctions not_applicable.",
-      "next_action": "Maintainer review of content handoff PR",
+      "status": "already_present",
+      "reason": "Monitoring correspondence was already recorded; the enforcement declaration URL and research handoff merged in PR #57.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/france.json",
           "disposition": "already_present",
-          "reason": "Current official declaration URL proposed for enforcement; monitoring already records correspondence; sanctions not_applicable.",
-          "next_action": "Maintainer review of content handoff PR",
+          "reason": "Monitoring correspondence was already recorded; the enforcement declaration URL and research handoff merged in PR #57.",
+          "next_action": "None for this delivered change.",
           "pr": null
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/france.json",
-          "disposition": "proposed",
-          "reason": "Current official declaration URL proposed for enforcement; monitoring already records correspondence; sanctions not_applicable.",
-          "next_action": "Maintainer review of content handoff PR",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #57; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 57
         },
         {
@@ -271,21 +271,21 @@
       "id": "fi-consumer-service-complaints-june-2026",
       "country": "Finland",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/finland.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/finland.json",
+          "record": ".github/agents/research/finland.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
           "next_action": "No public change proposed from this claim.",
@@ -293,7 +293,7 @@
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/finland.json",
+          "record": ".github/agents/research/sanctions/finland.json",
           "disposition": "not_applicable",
           "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
           "next_action": "No public change proposed from this claim.",
@@ -305,21 +305,21 @@
       "id": "fr-dgccrf-ecommerce-interim-september-2026",
       "country": "France",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/france.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/france.json",
+          "record": ".github/agents/research/france.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
           "next_action": "No public change proposed from this claim.",
@@ -327,7 +327,7 @@
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/france.json",
+          "record": ".github/agents/research/sanctions/france.json",
           "disposition": "not_applicable",
           "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
           "next_action": "No public change proposed from this claim.",
@@ -339,21 +339,21 @@
       "id": "de-mlbf-nationwide-monitoring-2026",
       "country": "Germany",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/germany.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/germany.json",
+          "record": ".github/agents/research/germany.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
           "next_action": "No public change proposed from this claim.",
@@ -361,7 +361,7 @@
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/germany.json",
+          "record": ".github/agents/research/sanctions/germany.json",
           "disposition": "not_applicable",
           "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
           "next_action": "No public change proposed from this claim.",
@@ -373,21 +373,21 @@
       "id": "ie-ccpc-2025-eaa-submissions",
       "country": "Ireland",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/ireland.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/ireland.json",
+          "record": ".github/agents/research/ireland.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
           "next_action": "No public change proposed from this claim.",
@@ -395,7 +395,7 @@
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/ireland.json",
+          "record": ".github/agents/research/sanctions/ireland.json",
           "disposition": "not_applicable",
           "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
           "next_action": "No public change proposed from this claim.",
@@ -407,21 +407,21 @@
       "id": "si-akos-rtv-accessibility-inspection-2026",
       "country": "Slovenia",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/slovenia.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/slovenia.json",
+          "record": ".github/agents/research/slovenia.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
           "next_action": "No public change proposed from this claim.",
@@ -429,7 +429,7 @@
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/slovenia.json",
+          "record": ".github/agents/research/sanctions/slovenia.json",
           "disposition": "not_applicable",
           "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
           "next_action": "No public change proposed from this claim.",
@@ -441,31 +441,31 @@
       "id": "ca-accessibility-commissioner-inspections-2025-2026",
       "country": "Canada",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/canada.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/canada.json",
+          "record": null,
           "disposition": "not_applicable",
-          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
           "next_action": "No public change proposed from this claim.",
           "pr": null
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/canada.json",
+          "record": null,
           "disposition": "not_applicable",
-          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
           "next_action": "No public change proposed from this claim.",
           "pr": null
         }
@@ -475,31 +475,31 @@
       "id": "uk-gds-ehrc-monitoring-2022-2024",
       "country": "United Kingdom",
       "recorded_on": "2026-09-25",
-      "status": "proposed",
-      "reason": "Bounded enforcement research: actual activity or submission statistics; see canonical claim for evidence and limits.",
-      "next_action": "Review the all-jurisdictions enforcement research draft.",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/enforcement/research/united kingdom.json",
-          "disposition": "proposed",
-          "reason": "Seven-country publication proposal; exact evidence and wording in the canonical claim.",
-          "next_action": "Maintainer review of enforcement draft.",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
           "pr": 59
         },
         {
           "page": "monitoring-agencies-information.md",
-          "record": ".github/agents/enforcement/research/united kingdom.json",
+          "record": null,
           "disposition": "not_applicable",
-          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
           "next_action": "No public change proposed from this claim.",
           "pr": null
         },
         {
           "page": "EAA sanctions.md",
-          "record": ".github/agents/enforcement/research/united kingdom.json",
+          "record": null,
           "disposition": "not_applicable",
-          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
           "next_action": "No public change proposed from this claim.",
           "pr": null
         }
@@ -511,7 +511,7 @@
       "recorded_on": "2026-09-25",
       "status": "proposed",
       "reason": "Official PTS report dated 2026-01-30 supplies historical 2025 enforcement statistics.",
-      "next_action": "Review separate Sweden report draft PR; preserve PR60's unrelated ledger changes when merging.",
+      "next_action": "Review PR #61.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
@@ -527,7 +527,7 @@
           "disposition": "proposed",
           "reason": "Add explicitly dated 2025 counts with official report link, preserving later figures.",
           "next_action": "Review draft PR.",
-          "pr": null
+          "pr": 61
         },
         {
           "page": "EAA sanctions.md",
