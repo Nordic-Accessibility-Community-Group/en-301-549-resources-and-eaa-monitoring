@@ -1,0 +1,28 @@
+{
+  "country": "Latvia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#latvia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#latvia",
+  "sources": [
+    {
+      "url": "https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums",
+      "label": "Preču un pakalpojumu piekļūstamības likums",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Preču un pakalpojumu piekļūstamības likums."
+    },
+    {
+      "url": "https://likumi.lv/ta/id/55567-administrativa-procesa-likums",
+      "label": "Administrative Procedure Law, § 370",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Administrative Procedure Law, § 370."
+    },
+    {
+      "url": "https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy",
+      "label": "Ministry of Welfare: Accessibility Directive",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Ministry of Welfare: Accessibility Directive — existing background link; retrieval unsuccessful."
+    }
+  ]
+}

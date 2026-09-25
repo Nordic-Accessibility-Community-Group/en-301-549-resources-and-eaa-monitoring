@@ -1,0 +1,22 @@
+{
+  "country": "Luxembourg",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#luxembourg",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#luxembourg",
+  "sources": [
+    {
+      "url": "https://mfsva.gouvernement.lu/dam-assets/publications/loi/loi-du-8-mars-2023-relative-aux-exigences-en-matire-daccessibilit.pdf",
+      "label": "Law of 8 March 2023, Articles 32–33",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law of 8 March 2023, Articles 32–33 — official gazette copy, page 19."
+    },
+    {
+      "url": "https://mfsva.gouvernement.lu/en/le-ministere/attributions/osaps.html",
+      "label": "Ministry: accessibility of products and services",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Ministry: accessibility of products and services."
+    }
+  ]
+}

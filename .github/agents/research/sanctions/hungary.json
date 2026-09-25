@@ -1,0 +1,22 @@
+{
+  "country": "Hungary",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#hungary",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#hungary",
+  "sources": [
+    {
+      "url": "https://njt.jog.gov.hu/jogszabaly/2022-605-20-22",
+      "label": "Decree 605/2022, §§ 7–9",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Decree 605/2022, §§ 7–9."
+    },
+    {
+      "url": "https://njt.jog.gov.hu/jogszabaly/2022-17-00-00",
+      "label": "Act XVII/2022",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act XVII/2022."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "country": "Poland",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#poland",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#poland",
+  "sources": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+      "label": "Act of 26 April 2024, Article 73",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act of 26 April 2024, Article 73."
+    }
+  ]
+}

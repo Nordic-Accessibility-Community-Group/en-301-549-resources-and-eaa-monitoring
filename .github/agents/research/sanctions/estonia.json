@@ -1,0 +1,16 @@
+{
+  "country": "Estonia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official indexed translation checked; current original-language provisions pending.",
+  "public_page": "EAA sanctions.md#estonia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#estonia",
+  "sources": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/524082022008",
+      "label": "Official English translation, § 20",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Official English translation, § 20 — indexed translation; current Estonian consolidation requires checking."
+    }
+  ]
+}

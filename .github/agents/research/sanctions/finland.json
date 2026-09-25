@@ -1,0 +1,16 @@
+{
+  "country": "Finland",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official guidance checked; product and other sector regimes not verified.",
+  "public_page": "EAA sanctions.md#finland",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#finland",
+  "sources": [
+    {
+      "url": "https://saavutettavuusvaatimukset.fi/en/tasks-supervisory-authority-0",
+      "label": "Traficom: tasks of the supervisory authority",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Traficom: tasks of the supervisory authority — updated 12 August 2025."
+    }
+  ]
+}

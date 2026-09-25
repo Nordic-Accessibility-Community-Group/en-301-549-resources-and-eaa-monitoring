@@ -1,0 +1,22 @@
+{
+  "country": "Spain",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#spain",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#spain",
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022#a30",
+      "label": "Law 11/2023, Article 30",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law 11/2023, Article 30."
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632#a83",
+      "label": "Royal Legislative Decree 1/2013, Article 83",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Royal Legislative Decree 1/2013, Article 83."
+    }
+  ]
+}

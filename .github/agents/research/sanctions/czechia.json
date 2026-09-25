@@ -1,0 +1,22 @@
+{
+  "country": "Czechia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#czechia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#czechia",
+  "sources": [
+    {
+      "url": "https://portal.gov.cz/sluzby-vs/vyzva-k-prijeti-opatreni-k-naprave-u-sluzeb-ze-strany-ceske-obchodni-inspekce-S93672",
+      "label": "Government portal: corrective measures for services",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Government portal: corrective measures for services."
+    },
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2023/424",
+      "label": "Zákon č. 424/2023 Sb.",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Zákon č. 424/2023 Sb.."
+    }
+  ]
+}

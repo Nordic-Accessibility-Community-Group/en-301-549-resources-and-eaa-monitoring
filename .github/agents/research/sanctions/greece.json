@@ -1,0 +1,16 @@
+{
+  "country": "Greece",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Source search attempted; penalty provisions not verified.",
+  "public_page": "EAA sanctions.md#greece",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#greece",
+  "sources": [
+    {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "label": "Law 4994/2022, Government Gazette",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law 4994/2022, Government Gazette — source located in the monitoring page; could not be retrieved for this review."
+    }
+  ]
+}

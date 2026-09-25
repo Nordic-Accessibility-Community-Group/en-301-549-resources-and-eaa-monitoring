@@ -1,0 +1,16 @@
+{
+  "country": "Cyprus",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Legislation checked in an external legal database; official publication cross-check pending.",
+  "public_page": "EAA sanctions.md#cyprus",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#cyprus",
+  "sources": [
+    {
+      "url": "https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html",
+      "label": "CyLaw: Law 57(I)/2024, Articles 35–38",
+      "source_type": "📘 External — legal database",
+      "review_note": "📘 External — legal database: CyLaw: Law 57(I)/2024, Articles 35–38 — reproduced legislation; not a government website."
+    }
+  ]
+}

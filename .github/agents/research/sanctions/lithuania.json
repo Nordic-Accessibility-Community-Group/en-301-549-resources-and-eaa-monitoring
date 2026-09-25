@@ -1,0 +1,22 @@
+{
+  "country": "Lithuania",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Source search completed; penalty amounts not verified.",
+  "public_page": "EAA sanctions.md#lithuania",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#lithuania",
+  "sources": [
+    {
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e",
+      "label": "Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633). Official law endpoint could not be retrieved."
+    },
+    {
+      "url": "https://vvtat.lrv.lt/lt/prieinamumo-reikalavimai/duk/",
+      "label": "VVTAT: accessibility guidance",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: VVTAT: accessibility guidance — source for follow-up; penalty schedule not established."
+    }
+  ]
+}

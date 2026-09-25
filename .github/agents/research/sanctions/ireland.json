@@ -1,0 +1,34 @@
+{
+  "country": "Ireland",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Existing figures corroborated by legal analysis; official law retrieval blocked. RTÉ indexed article checked.",
+  "public_page": "EAA sanctions.md#ireland",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#ireland",
+  "sources": [
+    {
+      "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print",
+      "label": "S.I. 636/2023, Regulation 32",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: S.I. 636/2023, Regulation 32 — existing source; retrieval blocked."
+    },
+    {
+      "url": "https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print",
+      "label": "Fines Act 2010",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Fines Act 2010 — existing source for class A fines; not reverified."
+    },
+    {
+      "url": "https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law",
+      "label": "Mason Hayes & Curran: Irish implementing measures",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Mason Hayes & Curran: Irish implementing measures — 23 January 2024; corroborates penalty ranges."
+    },
+    {
+      "url": "https://www.rte.ie/news/technology/2025/0627/1520552-digital-accessibility/",
+      "label": "RTÉ: new EU rules on digital accessibility",
+      "source_type": "📰 External — news",
+      "review_note": "📰 External — news: RTÉ: new EU rules on digital accessibility — Brian O’Donovan, 27 June 2025; reporting on possible penalties, not an imposed sanction."
+    }
+  ]
+}

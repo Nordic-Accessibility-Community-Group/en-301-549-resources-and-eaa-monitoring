@@ -1,0 +1,28 @@
+{
+  "country": "Netherlands",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official scope guidance and external overview checked; penalty schedule pending.",
+  "public_page": "EAA sanctions.md#netherlands",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#netherlands",
+  "sources": [
+    {
+      "url": "https://wetten.overheid.nl/BWBR0049571/",
+      "label": "Implementatiewet toegankelijkheidsvoorschriften producten en diensten",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Implementatiewet toegankelijkheidsvoorschriften producten en diensten."
+    },
+    {
+      "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+      "label": "ACM: e-commerce and electronic communications accessibility",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: ACM: e-commerce and electronic communications accessibility — scope guidance; does not establish a fine amount."
+    },
+    {
+      "url": "https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities",
+      "label": "Fieldfisher: risks of non-compliance",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Fieldfisher: risks of non-compliance — 2 May 2025; historical sector context."
+    }
+  ]
+}

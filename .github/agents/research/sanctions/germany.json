@@ -1,0 +1,28 @@
+{
+  "country": "Germany",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#germany",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#germany",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/BFSG.pdf",
+      "label": "BFSG, § 1",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BFSG, § 1 — product and service scope."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__37.html",
+      "label": "BFSG § 37",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BFSG § 37."
+    },
+    {
+      "url": "https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities",
+      "label": "Fieldfisher: risks of non-compliance",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Fieldfisher: risks of non-compliance — 2 May 2025; additional sector context."
+    }
+  ]
+}

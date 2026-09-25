@@ -1,0 +1,22 @@
+{
+  "country": "Slovakia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Main service penalty provisions checked; product and audiovisual sanctions need separate verification.",
+  "public_page": "EAA sanctions.md#slovakia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#slovakia",
+  "sources": [
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html",
+      "label": "Act 351/2022, §§ 2, 7 and 10",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act 351/2022, §§ 2, 7 and 10 — version effective 30 May 2026."
+    },
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html",
+      "label": "Act 264/2022, Media Services Act",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act 264/2022, Media Services Act — sector follow-up; penalty provision not reverified."
+    }
+  ]
+}

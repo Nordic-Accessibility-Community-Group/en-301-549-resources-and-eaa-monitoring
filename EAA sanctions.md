@@ -30,12 +30,12 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>Section 36 provides reduced ceilings for microenterprises and SMEs. The applicable tier depends on the offence; these are not automatic fines.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20012316&amp;Paragraf=2">BaFG § 2</a> — product and service scope.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20012316&amp;Paragraf=2">BaFG § 2</a>.</li>
           <li><strong>⚖️ Official law:</strong> <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20012316&amp;Paragraf=36">BaFG § 36</a>.</li>
-          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025; corroborating overview.</li>
+          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official indexed text and external analysis checked; direct retrieval of § 36 was blocked. Full tier detail needs rechecking.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="belgium">Belgium</th>
@@ -46,10 +46,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td>
         <ul>
           <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">EUR-Lex national transposition measures</a> — legislation index; Belgian penalty provisions still require review.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">EUR-Lex national transposition measures</a> — legislation index.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>External source checked; official penalty verification pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="bulgaria">Bulgaria</th>
@@ -59,10 +59,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>The figures are the amounts printed in the located text, not a verified current euro schedule. Other offences have separate provisions.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf">Accessibility Requirements for Products and Services Act</a> — copy hosted by KZP; Articles 68 and 73.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf">Accessibility Requirements for Products and Services Act</a> — KZP copy; Articles 68 and 73.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official indexed text checked; current currency/amendments and service penalty tiers remain unverified.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="croatia">Croatia</th>
@@ -75,7 +75,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html">Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025)</a>. Articles 32–36.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="cyprus">Cyprus</th>
@@ -85,10 +85,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>Different offences and procedures apply to administrative penalties and criminal convictions.</p></td>
       <td>
         <ul>
-          <li><strong>📘 External — legal database:</strong> <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html">CyLaw: Law 57(I)/2024, Articles 35–38</a> — reproduced legislation; not a government website.</li>
+          <li><strong>📘 External — legal database:</strong> <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html">CyLaw: Law 57(I)/2024, Articles 35–38</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Legislation checked in an external legal database; official publication cross-check pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="czechia">Czechia</th>
@@ -102,7 +102,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://e-sbirka.gov.cz/sb/2023/424">Zákon č. 424/2023 Sb.</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="denmark">Denmark</th>
@@ -113,10 +113,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td>
         <ul>
           <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/kontrol-og-tilsyn/sikkerhedsstyrelsens-kontrol">Sikkerhedsstyrelsens kontrol</a>.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.retsinformation.dk/eli/lta/2022/801">Act 801/2022</a> — law linked for reference; full penalty provisions not retrieved.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.retsinformation.dk/eli/lta/2022/801">Act 801/2022</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="estonia">Estonia</th>
@@ -126,10 +126,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>This is the service offence in the located translation. It must not be treated as the ceiling for all product violations or coercive payments.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.riigiteataja.ee/en/tolge/pdf/524082022008">Official English translation, § 20</a> — indexed translation; current Estonian consolidation requires checking.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.riigiteataja.ee/en/tolge/pdf/524082022008">Official English translation, § 20</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official indexed translation checked; current original-language provisions pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="finland">Finland</th>
@@ -142,7 +142,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>🏛️ Official government / regulator:</strong> <a href="https://saavutettavuusvaatimukset.fi/en/tasks-supervisory-authority-0">Traficom: tasks of the supervisory authority</a> — updated 12 August 2025.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official guidance checked; product and other sector regimes not verified.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="france">France</th>
@@ -153,10 +153,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td>
         <ul>
           <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF: accessibility requirements for products and services</a> — 13 November 2025.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006417259/2023-02-01">Criminal Code, Article 131-13</a> — natural-person fifth-class fine.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006417259/2023-02-01">Criminal Code, Article 131-13</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="germany">Germany</th>
@@ -166,12 +166,12 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>The two ceilings correspond to the offence groups in § 37(2). Separate audiovisual media provisions are not included.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.gesetze-im-internet.de/bfsg/BFSG.pdf">BFSG, § 1</a> — product and service scope.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.gesetze-im-internet.de/bfsg/BFSG.pdf">BFSG, § 1</a>.</li>
           <li><strong>⚖️ Official law:</strong> <a href="https://www.gesetze-im-internet.de/bfsg/__37.html">BFSG § 37</a>.</li>
-          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025; additional sector context.</li>
+          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="greece">Greece</th>
@@ -181,10 +181,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>The sanctions framework in Article 26 and subsequent amendments needs a verified consolidated-law review before amounts are added.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://api.et.gr/apiLAW/1/2022/4994/pdf">Law 4994/2022, Government Gazette</a> — source located in the monitoring page; could not be retrieved for this review.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://api.et.gr/apiLAW/1/2022/4994/pdf">Law 4994/2022, Government Gazette</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Source search attempted; penalty provisions not verified.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="hungary">Hungary</th>
@@ -198,7 +198,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00">Act XVII/2022</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="ireland">Ireland</th>
@@ -208,13 +208,13 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>The conviction route matters. The legal analysis describes a due-diligence defence; imprisonment concerns individuals, not companies.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">S.I. 636/2023, Regulation 32</a> — existing source; retrieval blocked.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print">Fines Act 2010</a> — existing source for class A fines; not reverified.</li>
-          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">Mason Hayes &amp; Curran: Irish implementing measures</a> — 23 January 2024; corroborates penalty ranges.</li>
-          <li><strong>📰 External — news:</strong> <a href="https://www.rte.ie/news/technology/2025/0627/1520552-digital-accessibility/">RTÉ: new EU rules on digital accessibility</a> — Brian O’Donovan, 27 June 2025; reporting on possible penalties, not an imposed sanction.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print">S.I. 636/2023, Regulation 32</a>.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print">Fines Act 2010</a>.</li>
+          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law">Mason Hayes &amp; Curran: Irish implementing measures</a> — 23 January 2024.</li>
+          <li><strong>📰 External — news:</strong> <a href="https://www.rte.ie/news/technology/2025/0627/1520552-digital-accessibility/">RTÉ: new EU rules on digital accessibility</a> — Brian O’Donovan, 27 June 2025.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Existing figures corroborated by legal analysis; official law retrieval blocked. RTÉ indexed article checked.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="italy">Italy</th>
@@ -224,10 +224,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>Article 24(1) refers certain entities covered by Law 4/2004 to that law’s penalty regime. The €40,000 ceiling is therefore not universal. Exemptions and public procurement exclusions apply as specified in Article 24.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&amp;art.dataPubblicazioneGazzetta=2022-07-01&amp;art.flagTipoArticolo=0&amp;art.idArticolo=24&amp;art.idGruppo=0&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.progressivo=0&amp;art.versione=1">Legislative Decree 82/2022, Article 24</a> — original published provision; separate Law 4/2004 regime not verified.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&amp;art.dataPubblicazioneGazzetta=2022-07-01&amp;art.flagTipoArticolo=0&amp;art.idArticolo=24&amp;art.idGruppo=0&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.progressivo=0&amp;art.versione=1">Legislative Decree 82/2022, Article 24</a> — original published provision.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="latvia">Latvia</th>
@@ -239,10 +239,10 @@ This information is provided as a community resource and is not legal advice. Pl
         <ul>
           <li><strong>⚖️ Official law:</strong> <a href="https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums">Preču un pakalpojumu piekļūstamības likums</a>.</li>
           <li><strong>⚖️ Official law:</strong> <a href="https://likumi.lv/ta/id/55567-administrativa-procesa-likums">Administrative Procedure Law, § 370</a>.</li>
-          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy">Ministry of Welfare: Accessibility Directive</a> — existing background link; retrieval unsuccessful.</li>
+          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy">Ministry of Welfare: Accessibility Directive</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="lithuania">Lithuania</th>
@@ -252,11 +252,11 @@ This information is provided as a community resource and is not legal advice. Pl
       <td><p>Official guidance was located, but the applicable penalty provisions and repeat-offence rules still need verification.</p></td>
       <td>
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>. Official law endpoint could not be retrieved.</li>
-          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://vvtat.lrv.lt/lt/prieinamumo-reikalavimai/duk/">VVTAT: accessibility guidance</a> — source for follow-up; penalty schedule not established.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>.</li>
+          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://vvtat.lrv.lt/lt/prieinamumo-reikalavimai/duk/">VVTAT: accessibility guidance</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Source search completed; penalty amounts not verified.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="luxembourg">Luxembourg</th>
@@ -270,7 +270,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>🏛️ Official government / regulator:</strong> <a href="https://mfsva.gouvernement.lu/en/le-ministere/attributions/osaps.html">Ministry: accessibility of products and services</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="malta">Malta</th>
@@ -284,7 +284,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://legislation.mt/eli/sl/627.3/eng">Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official copy of regulations checked; cross-referenced penalty amounts pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="netherlands">Netherlands</th>
@@ -295,11 +295,11 @@ This information is provided as a community resource and is not legal advice. Pl
       <td>
         <ul>
           <li><strong>⚖️ Official law:</strong> <a href="https://wetten.overheid.nl/BWBR0049571/">Implementatiewet toegankelijkheidsvoorschriften producten en diensten</a>.</li>
-          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">ACM: e-commerce and electronic communications accessibility</a> — scope guidance; does not establish a fine amount.</li>
-          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025; historical sector context.</li>
+          <li><strong>🏛️ Official government / regulator:</strong> <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">ACM: e-commerce and electronic communications accessibility</a>.</li>
+          <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official scope guidance and external overview checked; penalty schedule pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="poland">Poland</th>
@@ -312,7 +312,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://eli.gov.pl/api/acts/DU/2024/731/text.html">Act of 26 April 2024, Article 73</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="portugal">Portugal</th>
@@ -325,7 +325,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Decreto-Lei n.º 82/2022</a>. Article 29.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official provision checked; cross-referenced maxima pending.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="romania">Romania</th>
@@ -338,7 +338,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://legislatie.just.ro/Public/DetaliiDocument/257778">Law 232/2022, Article 29</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="slovakia">Slovakia</th>
@@ -349,10 +349,10 @@ This information is provided as a community resource and is not legal advice. Pl
       <td>
         <ul>
           <li><strong>⚖️ Official law:</strong> <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html">Act 351/2022, §§ 2, 7 and 10</a> — version effective 30 May 2026.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html">Act 264/2022, Media Services Act</a> — sector follow-up; penalty provision not reverified.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html">Act 264/2022, Media Services Act</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Main service penalty provisions checked; product and audiovisual sanctions need separate verification.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="slovenia">Slovenia</th>
@@ -365,7 +365,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238">ZDPSI (2023)</a>, amended by <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563">ZDPSI-A (2026)</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Cited 2023 penalty provisions and 2026 amendment checked; sector coverage remains partial.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="spain">Spain</th>
@@ -379,7 +379,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632#a83">Royal Legislative Decree 1/2013, Article 83</a>.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
     <tr>
       <th scope="row" id="sweden">Sweden</th>
@@ -392,7 +392,7 @@ This information is provided as a community resource and is not legal advice. Pl
           <li><strong>⚖️ Official law:</strong> <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>. Sections 3–4 and 32–39.</li>
         </ul>
       </td>
-      <td><p>2026-09-25</p><p>Official source checked; summary limited to the provisions cited.</p></td>
+      <td><p>2026-09-25</p></td>
     </tr>
   </tbody>
 </table>
@@ -403,4 +403,4 @@ This information is provided as a community resource and is not legal advice. Pl
 - **EAA areas covered: Unknown**: We found information about sanctions, but have not confirmed which EAA areas they apply to.
 - A sanction for a product does not automatically apply to the service used through that product.
 - A **conditional fine** is a payment used to make a business follow an order.
-- **Last checked** shows when the sources were reviewed. Some details may still need checking.
+- **Last checked** shows the date of the source review. Details and open checks are in the [country research notes](.github/agents/research/sanctions/README.md).

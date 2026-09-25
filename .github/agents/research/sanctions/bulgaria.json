@@ -1,0 +1,16 @@
+{
+  "country": "Bulgaria",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official indexed text checked; current currency/amendments and service penalty tiers remain unverified.",
+  "public_page": "EAA sanctions.md#bulgaria",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#bulgaria",
+  "sources": [
+    {
+      "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+      "label": "Accessibility Requirements for Products and Services Act",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Accessibility Requirements for Products and Services Act — copy hosted by KZP; Articles 68 and 73."
+    }
+  ]
+}
