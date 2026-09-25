@@ -3,25 +3,104 @@
   "country": "Netherlands",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
-  "search_result": "not_assessed",
-  "attempted_on": null,
-  "verified_on": null,
+  "research_state": "partially_researched",
+  "search_result": "reportable_activity_found",
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "netherlands-1"
   ],
-  "attempts": [],
-  "claims": [],
-  "questions": [
+  "attempts": [
     {
-      "priority": "Follow-up",
-      "question": "Verify source dates, sector scope and ongoing versus completed monitoring; distinguish statistics from individual outcomes.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "attempted_on": "2026-09-25",
+      "scope": "Check all existing sample, percentage and follow-up assertions.",
+      "sources_checked": [
+        "https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities"
+      ],
+      "limitations": "Historical report confirmed. No later sanction or inspection outcome claimed.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
     }
-  ]
+  ],
+  "claims": [
+    {
+      "id": "nl-acm-tests-20260324",
+      "kind": "statistics",
+      "text": "On 24 March 2026, ACM reported tests of around 100 of the largest Dutch online stores, as well as large telecom and energy providers' websites. On 61% of checked websites, ordering with assistive technology was impossible; 33% had serious problems that made ordering harder.",
+      "authority_or_court": "Netherlands Authority for Consumers and Markets (ACM)",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce",
+        "Electronic communications"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "EAA; ACM publication describes supervision of e-commerce and electronic communications services.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2026-03-24",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities",
+          "source_type": "official_authority_publication",
+          "reference": "24 March 2026; opening and Lived-experience experts involved",
+          "passage": "ACM reports testing about 100 large online stores plus large telecom/energy providers' websites. On 61% of checked sites assistive-technology users could not order; 33% had serious problems. It planned to approach large firms with poor results; insufficient improvement could lead to enforcement.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-03-24",
+        "period": "Snapshot in the cited source; exact measurement period not specified.",
+        "units": "Tested websites and percentages",
+        "counting_basis": "Source reports approximately 100 online stores as well as telecom/energy websites; not an exact combined denominator.",
+        "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+      },
+      "uncertainty": "Do not calculate absolute website counts or a combined failure percentage from the approximate sample. Publication date used as reporting snapshot, not test date.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "nl-acm-followup-20260324",
+      "kind": "monitoring_activity",
+      "text": "ACM said it would contact the largest companies with the poorest results. Companies contacted by ACM that failed to make sufficient improvements would risk enforcement action.",
+      "authority_or_court": "ACM",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce",
+        "Electronic communications"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "EAA, as described by ACM.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "announced_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2026-03-24",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities",
+          "source_type": "official_authority_publication",
+          "reference": "24 March 2026; opening and Lived-experience experts involved",
+          "passage": "ACM reports testing about 100 large online stores plus large telecom/energy providers' websites. On 61% of checked sites assistive-technology users could not order; 33% had serious problems. It planned to approach large firms with poor results; insufficient improvement could lead to enforcement.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The source describes intended follow-up and risk of enforcement; it does not establish completed sanctions or current progress.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
+  "questions": []
 }

@@ -55,9 +55,13 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "60326045c5f673abaeb10e74ec910aba6f5ed682211d1257c5d4ed53f0e246cc",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "7c22a56de641153e254c4939df08213e1fe495297a85ddfb59c0430fea35a0c6",
+      "state": "reviewed",
+      "claim_ids": [
+        "fr-dgccrf-controls",
+        "fr-dgccrf-reporting",
+        "fr-dgccrf-powers"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L96"
     },
     {
@@ -66,9 +70,12 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "219f59df67c53f39e206747958c95c1d99a784d2cb8740a48415589614c5b1eb",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "9ede836c504d4fd736ee08e48a8e7da5e0b64e0aa1bc03ea233afe968822d959",
+      "state": "reviewed",
+      "claim_ids": [
+        "fr-carrefour-interim-order-20260604",
+        "fr-carrefour-accessibility-assessment"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L111"
     },
     {
@@ -99,9 +106,12 @@
         "Netherlands"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "732866ade9159b3450bb0b5b259a46687f78a0dfb3b908f96c854aabea73a48a",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "811dcf3207b75c5101e83d0d152bc0afc2f1179f9833d7cd5a7cb147e393df1f",
+      "state": "reviewed",
+      "claim_ids": [
+        "nl-acm-tests-20260324",
+        "nl-acm-followup-20260324"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L152"
     },
     {
@@ -121,9 +131,15 @@
         "Sweden"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "b8159591a318a3dc899228b2e141297472f0f38471a365e1a24a29290175c5dd",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "9319aee58e58eeed61a18ff526a7c3213de07fe69f3a330270105741369c8e9d",
+      "state": "reviewed",
+      "claim_ids": [
+        "se-pts-products-launch",
+        "se-pts-ecommerce-launch",
+        "se-pts-banking-launch",
+        "se-complaints-20260217",
+        "se-complaint-selection"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L175"
     },
     {
@@ -133,9 +149,11 @@
         "Germany"
       ],
       "section": "Decisions from the EU commission",
-      "row_sha256": "f20c02feed15505610cc92e5501c3ac0ebff8934f914330ba8aa721ae2bc011f",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "a307bead71f003522f24dda4920ae2b50dbd0ef4c7b72648f8b5d4938b16457c",
+      "state": "reviewed",
+      "claim_ids": [
+        "eu-croatia-germany-additional-opinions-20260311"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L221"
     },
     {
@@ -144,9 +162,11 @@
         "Norway"
       ],
       "section": "Table of Non-EU legal enforcement status",
-      "row_sha256": "f7f5deba81eeb345fa04dc5582fbe087c4e13afe2efd3634ddb6c6788f0b7fdb",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "3c1a5260f8912098717945a30da63c5af6cedd0f7045e4d6f025122954739550",
+      "state": "reviewed",
+      "claim_ids": [
+        "no-helsami-closure-20251223"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L241"
     }
   ]

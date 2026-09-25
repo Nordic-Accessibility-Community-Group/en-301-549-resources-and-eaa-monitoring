@@ -3,26 +3,305 @@
   "country": "France",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
-  "search_result": "not_assessed",
-  "attempted_on": null,
-  "verified_on": null,
+  "research_state": "partially_researched",
+  "search_result": "reportable_activity_found",
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "france-1",
     "france-2"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit both existing rows, including controls, reporting routes, powers, Carrefour remedy and Auchan/notice provenance. Search queries: \"Carrefour\" \"4 juin 2026\" \"ordonnance\" pdf; \"Auchan\" \"5 mai 2026\" \"tribunal\" décision pdf",
+      "sources_checked": [
+        "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+        "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso",
+        "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+        "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+        "https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-lille-le-6-mai-2026apidv-et-droit-pluriel-c-auchan-e-commerce-une-interpretation-gravement-erronee-du-droit-de-laccessibilite-numerique/",
+        "https://www.courdecassation.fr/decision/69fb8571cdc6046d47d58979",
+        "https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/",
+        "https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/"
+      ],
+      "limitations": "Carrefour original PDF retrieved and visually checked. Accessible-copy link returned Internal Error; original scan used. Auchan text reader and browser access failed; stopped after two attempts. No appeal docket or later enforcement outcome obtained. Le Figaro coverage not needed to corroborate primary/party records.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "fr-dgccrf-controls",
+      "kind": "monitoring_activity",
+      "text": "DGCCRF states that controls began on 28 June 2025, particularly following reports.",
+      "authority_or_court": "DGCCRF",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "French Consumer Code accessibility provisions implementing Directive (EU) 2019/882, identified by the guidance.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": "2025-06-28",
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "source_type": "official_authority_publication",
+          "reference": "Quand seront mis en œuvre les contrôles?; Quelles sont les sanctions?",
+          "passage": "DGCCRF states controls began on 28 June 2025, particularly following reports. Its agents may order compliance, potentially with penalty payments and publicity measures; this describes powers, not measures imposed in a named case.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No counts, named cases or later results established. Publication date not exposed as a reliable date in retrieved text.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-dgccrf-reporting",
+      "kind": "monitoring_activity",
+      "text": "Official guidance identifies SignalConso for consumer accessibility reports and Démarches Simplifiées for professional non-compliance/exemption declarations.",
+      "authority_or_court": "DGCCRF",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "French accessibility rules implementing Directive (EU) 2019/882, as identified in the guidance.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso",
+          "source_type": "official_authority_publication",
+          "reference": "9 December 2025; Signaler facilement",
+          "passage": "Consumers can report accessibility failures through the dedicated SignalConso route.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        },
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+          "source_type": "official_authority_publication",
+          "reference": "13 November 2025; declaration routes",
+          "passage": "DGCCRF identifies an online process for professional non-compliance declarations or invocation of exemptions.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Route availability described by authority; forms were not submitted or checked beyond the linked guidance.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-dgccrf-powers",
+      "kind": "monitoring_activity",
+      "text": "DGCCRF guidance describes powers to order compliance, with possible penalty payments and publicity measures.",
+      "authority_or_court": "DGCCRF",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "French Consumer Code accessibility framework described by DGCCRF.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+          "source_type": "official_authority_publication",
+          "reference": "Quand seront mis en œuvre les contrôles?; Quelles sont les sanctions?",
+          "passage": "DGCCRF states controls began on 28 June 2025, particularly following reports. Its agents may order compliance, potentially with penalty payments and publicity measures; this describes powers, not measures imposed in a named case.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Not evidence of an imposed penalty. The passage says astreinte but does not itself specify a daily interval; avoid expanding the general power into a daily outcome.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-carrefour-interim-order-20260604",
+      "kind": "case",
+      "text": "In an interim order dated 4 June 2026, the Tribunal judiciaire de Caen ordered Carrefour France to provide e-commerce services complying with French accessibility requirements. A €500 daily penalty applies if non-compliance continues six months after the order. The court also ordered Carrefour to pay a total of €10,000 in provisional damages to apiDV and Droit Pluriel, the costs of the proceedings, and €3,000 under article 700 of the French Code of Civil Procedure.",
+      "authority_or_court": "Tribunal judiciaire de Caen",
+      "case_identifier": "RG 25/00691",
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Consumer Code L.412-13; order of 9 October 2023; CPC Article 700.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "order_issued",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": "2026-06-04",
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+          "source_type": "official_court_decision",
+          "reference": "Court order 4 June 2026, RG 25/00691, pp.1 and 7–8",
+          "passage": "The interim order requires Carrefour France to provide accessible e-commerce services under Consumer Code L.412-13 and the 9 October 2023 order. A EUR500 daily penalty applies six months after pronouncement. It awards the associations EUR10,000 provisionally, costs of these proceedings, and EUR3,000 under CPC Article 700.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Court-document copy hosted by an association involved in the case, not a court-hosted download. Original scan pp.1 and 8 visually inspected; legal reasoning and operative text read. Court document distinguished from the host’s interpretation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Not a final appeal outcome; no evidence that the conditional penalty has accrued or been paid. Damages and Article 700 amounts are not stated as separate awards to each association. Publication date of the court document unknown.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-carrefour-accessibility-assessment",
+      "kind": "case",
+      "text": "The court discusses Carrefour’s 71.21% assessment and rejects partial accessibility as sufficient for the e-commerce service.",
+      "authority_or_court": "Tribunal judiciaire de Caen",
+      "case_identifier": "RG 25/00691",
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Consumer Code L.412-13, as applied in this court order.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "order_issued",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": "2026-06-04",
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+          "source_type": "official_court_decision",
+          "reference": "pp.5–6, reasoning",
+          "passage": "The court records a 71.21% RGAA assessment and reasons that the service must meet the applicable accessibility requirements in full.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Reasoning in this interim case, not an independent statement that every RGAA criterion applies to every business.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-auchan-reported-dismissal-appeal",
+      "kind": "case",
+      "text": "Droit Pluriel reports a 5 May 2026 rejection of the Auchan claim and says the associations appealed to Douai, criticising the use of the older EUR250 million threshold.",
+      "authority_or_court": "Tribunal judiciaire de Lille; reported appeal to Cour d’appel de Douai",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Party account discusses Article 47 of the 2005 law and Consumer Code L.412-13; primary reasoning not independently retrieved.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "appeal_pending",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-lille-le-6-mai-2026apidv-et-droit-pluriel-c-auchan-e-commerce-une-interpretation-gravement-erronee-du-droit-de-laccessibilite-numerique/",
+          "source_type": "external_party_statement",
+          "reference": "Body: Ce mardi 5 mai; threshold discussion; appeal heading",
+          "passage": "The party account reports rejection on 5 May, describes the turnover-threshold reasoning and announces an appeal; its title says 6 May. Criticism is the associations’ position.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        },
+        {
+          "url": "https://www.courdecassation.fr/decision/69fb8571cdc6046d47d58979",
+          "source_type": "official_court_decision",
+          "reference": "Official decision lead RG 25/01796",
+          "passage": "",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": null,
+          "access_result": "unreachable",
+          "provenance_note": "Text reader returned a JS/cookies requirement. Browser retry denied because the admin-enforced security check was unavailable; no workaround attempted. Search snippet is not treated as retrieved decision text."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Primary court text and appeal docket unavailable in this pass; source title/body date discrepancy recorded. No current appeal status or authoritative interpretation inferred.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-retailer-notices-reported",
+      "kind": "case",
+      "text": "The associations report July 2025 formal notices concerning Auchan, Carrefour, E. Leclerc and Picard Surgelés and later court actions.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Party account invoking French accessibility requirements.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/",
+          "source_type": "external_party_statement",
+          "reference": "Communiqué de presse, opening",
+          "passage": "The associations state that on 7 July they put the four retailers on notice about inaccessible online grocery services.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        },
+        {
+          "url": "https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/",
+          "source_type": "external_party_statement",
+          "reference": "Court-action summary",
+          "passage": "Association page describes interim court actions following notices to the four retailers.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Not proof of a judgment against all four retailers. Exact notice dates vary: the Carrefour order discusses a 9 July 2025 registered letter; preserve July-level description. No new claims for Leclerc/Picard researched.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Verify court documents, operative dates, remedies, conditional penalties and appeal status; distinguish party interpretation from rulings.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Retrieve the Auchan order and appeal docket; check whether any later Carrefour appeal or execution decision exists.",
+      "owner": "Maintainer / future authorised researcher",
+      "resolved_when": "Read primary operative terms and dated procedural status; preserve attribution to associations until then."
     }
   ]
 }

@@ -3,25 +3,61 @@
   "country": "Croatia",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
-  "search_result": "not_assessed",
-  "attempted_on": null,
-  "verified_on": null,
+  "research_state": "partially_researched",
+  "search_result": "reportable_activity_found",
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "commission-croatia-germany-1"
   ],
-  "attempts": [],
-  "claims": [],
-  "questions": [
+  "attempts": [
     {
-      "priority": "Follow-up",
-      "question": "Verify the shared Commission entry publication date and procedural stage. Keep it separate from enforcement against businesses.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "attempted_on": "2026-09-25",
+      "scope": "Audit the shared Croatia/Germany Commission entry, stored once in Croatia.",
+      "sources_checked": [
+        "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf",
+        "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_431"
+      ],
+      "limitations": "HTML page returned no text; official PDF retrieved. No subsequent case-register research undertaken.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
     }
-  ]
+  ],
+  "claims": [
+    {
+      "id": "eu-croatia-germany-additional-opinions-20260311",
+      "kind": "commission_proceeding",
+      "text": "On 11 March 2026, the European Commission decided to send additional reasoned opinions to Croatia and Germany for incomplete transposition of the EAA. The countries were given two months to respond and take the necessary measures.",
+      "authority_or_court": "European Commission",
+      "case_identifier": "Croatia INFR(2022)0306; Germany INFR(2022)0295",
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "Directive (EU) 2019/882, European Accessibility Act.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Additional reasoned opinions; the generic procedural_stage remains unknown because the schema has no matching Commission-specific value.",
+      "event_on": "2026-03-11",
+      "published_on": "2026-03-11",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf",
+          "source_type": "european_commission_publication",
+          "reference": "11 March 2026; pp.6–7, Reasoned opinions / accessibility",
+          "passage": "Commission decided to send additional reasoned opinions to Germany INFR(2022)0295 and Croatia INFR(2022)0306 over incomplete EAA transposition. It allowed two months for a response and measures; possible later court referral and financial-sanction requests were conditional.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Historical procedural step only. No court referral, judgment, sanction or current case status established; the two-month period is historical, not a new deadline.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
+  "questions": []
 }

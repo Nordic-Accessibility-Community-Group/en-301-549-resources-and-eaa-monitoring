@@ -11,7 +11,9 @@
     "Inherited row germany-1 and Commission row are preserved at base f06450eca836087e73c9295485d52c338996a28b; see baseline-map.json for original row locations. Public wording remains unchanged.",
     "The cited article describes BIK certification/testing policy. Its linked BIK method section 4.1.1 supports that policy description but identifies no court or civil proceeding. This disputes the row classification, not the existence of any German enforcement.",
     "BIK is a first-party source for its own methodology, but is not treated as a competent enforcement authority under this workflow. Its source type remains other_unverified for enforcement claims; this does not mean the methodology page was unreadable or its authorship disputed.",
-    "The separate Croatia/Germany Commission entry is outside this pass; no verification status or date is assigned to it."
+    "The separate Croatia/Germany Commission entry is outside this pass; no verification status or date is assigned to it.",
+    "Shared Commission entry audited in this pass; the single proceeding record is Croatia claim eu-croatia-germany-additional-opinions-20260311. Prior Germany overlay audit is unchanged.",
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "germany-1",
@@ -27,6 +29,15 @@
       ],
       "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:bitvtest.de Overlay Konformität Aussage Prüfverbund 2025. Follow-ups: site:bitvtest.de Overlay Gericht Klage BIK Prüfstellen; site:bundesfachstelle-barrierefreiheit.de Overlay Überwachungsstellen Einschätzung. No court document located. Search-only leads were not treated as opened evidence.",
       "next_check": "Obtain a case reference or agree how to relocate the testing-policy material before changing the public classification."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Cross-reference shared Commission proceeding in Croatia; no repeat overlay research.",
+      "sources_checked": [
+        "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf"
+      ],
+      "limitations": "Do not duplicate the shared claim or treat the Commission proceeding as business enforcement.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
     }
   ],
   "claims": [
