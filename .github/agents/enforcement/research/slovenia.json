@@ -3,25 +3,77 @@
   "country": "Slovenia",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "slovenia-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit warning and no-fines assertions. Search queries: site.gov.si dostopnosti proizvodov storitev opozorila 2026 inšpektorat; site.gov.si dostopnost \"opozorila\" \"2026\"; site.gov.si \"ZDPSI\" \"nadzor\"",
+      "sources_checked": [
+        "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod"
+      ],
+      "limitations": "No dated source for inherited assertions found. Index references are leads, not findings about warnings, fines or final outcomes.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "si-inherited-warning",
+      "kind": "monitoring_activity",
+      "text": "Non-compliance warnings have been issued. No fines so far.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "slovenia inherited public entry",
+          "passage": "Non-compliance warnings have been issued. No fines so far.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod",
+          "source_type": "official_authority_publication",
+          "reference": "Decisions index, entries 0612-6/2026/6 and 0612-5/2026/3",
+          "passage": "AKOS index lists e-book accessibility inspection matters under Article 21 ZDPSI. The index alone does not establish the existing warning/no-fines claim; underlying decisions were not read.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The entry supplies no authority, sector, warning date or source. No-fines coverage and cutoff unknown.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Identify dated provenance for the inherited activity claims.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Which authority, cases and cutoff support the warnings/no-fines entry?",
+      "owner": "Maintainer / future authorised researcher",
+      "resolved_when": "Retrieve the original dated provenance; do not generalise across authorities or rely on an index as a decision."
     }
   ]
 }

@@ -3,25 +3,211 @@
   "country": "Denmark",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "denmark-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit September counts and warning/absence claim. Search queries: site.sik.dk tilgængelighed 179 148 2026; site.sik.dk tilgængelighed \"179\"; site.sik.dk \"tilgængelighed\" \"markedsovervågning\"",
+      "sources_checked": [
+        "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning"
+      ],
+      "limitations": "Searches did not retrieve the figures or warning. General guidance does not verify a case.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "dk-inherited-online",
+      "kind": "statistics",
+      "text": "179 online inspections, with listed categories 148 e-commerce, 12 e-books and 2 banking.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "denmark inherited public entry",
+          "passage": "179 online inspections, with listed categories 148 e-commerce, 12 e-books and 2 banking.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning",
+          "source_type": "official_authority_publication",
+          "reference": "Dialog om forpligtelser; Tilgængelighed",
+          "passage": "Guidance describes company-based visits and dialogue on compliance and accessibility. It gives no September 2026 inspection totals.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-16",
+        "period": "Snapshot in the cited source; exact measurement period not specified.",
+        "units": "Online inspections",
+        "counting_basis": "Inherited public assertion; original source not supplied.",
+        "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+      },
+      "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "dk-inherited-products",
+      "kind": "statistics",
+      "text": "33 product controls.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "denmark inherited public entry",
+          "passage": "33 product controls.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning",
+          "source_type": "official_authority_publication",
+          "reference": "Dialog om forpligtelser; Tilgængelighed",
+          "passage": "Guidance describes company-based visits and dialogue on compliance and accessibility. It gives no September 2026 inspection totals.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-16",
+        "period": "Snapshot in the cited source; exact measurement period not specified.",
+        "units": "Product controls",
+        "counting_basis": "Inherited public assertion; original source not supplied.",
+        "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+      },
+      "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "dk-inherited-company",
+      "kind": "statistics",
+      "text": "73 company-based market-surveillance activities.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "denmark inherited public entry",
+          "passage": "73 company-based market-surveillance activities.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning",
+          "source_type": "official_authority_publication",
+          "reference": "Dialog om forpligtelser; Tilgængelighed",
+          "passage": "Guidance describes company-based visits and dialogue on compliance and accessibility. It gives no September 2026 inspection totals.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-16",
+        "period": "Snapshot in the cited source; exact measurement period not specified.",
+        "units": "Unit behind company-based market-surveillance total not defined",
+        "counting_basis": "Inherited public assertion; original source not supplied.",
+        "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+      },
+      "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "dk-inherited-warning",
+      "kind": "monitoring_activity",
+      "text": "At least one major online retailer was notified of accessibility issues in mid-2025, described as a warning; no fines or other measures have been reported.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "denmark inherited public entry",
+          "passage": "At least one major online retailer was notified of accessibility issues in mid-2025, described as a warning; no fines or other measures have been reported.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No dated warning, named company or defined reporting coverage supplied. A country-wide absence of fines cannot be established by this bounded search.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Identify dated provenance and the counting basis for inherited totals and sector subtotals; do not infer exhaustive categories.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Supply the 16 September report and provenance for the retailer warning.",
+      "owner": "Maintainer / future authorised researcher",
+      "resolved_when": "Confirm units, scope, overlap and whether sector subtotals are partial; qualify no-fines wording by source/date."
     }
   ]
 }

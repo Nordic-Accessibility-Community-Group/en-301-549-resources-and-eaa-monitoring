@@ -3,25 +3,203 @@
   "country": "Austria",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "austria-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit all four inherited operational claims. Search queries: site.sozialministeriumservice.gv.at Barrierefreiheitsgesetz Marktüberwachung Prüfungen Unternehmen 2026; site.sozialministeriumservice.gv.at Barrierefreiheit \"quartalsweise\"",
+      "sources_checked": [
+        "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html"
+      ],
+      "limitations": "General powers are not proof of these specific monitoring practices. No case outcomes inferred.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "at-inherited-1",
+      "kind": "monitoring_activity",
+      "text": "Austria is actively testing and contacting companies with accessibility findings.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "austria inherited public entry",
+          "passage": "Austria is actively testing and contacting companies with accessibility findings.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "source_type": "official_authority_publication",
+          "reference": "Marktüberwachung",
+          "passage": "Official guidance identifies Sozialministeriumservice, Upper Austria, as the central BaFG market-surveillance body and describes its powers. It does not date individual tests, quarterly reporting requirements or current cases.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "at-inherited-2",
+      "kind": "monitoring_activity",
+      "text": "Compliance deadlines vary, but quarterly progress reports are generally required.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "austria inherited public entry",
+          "passage": "Compliance deadlines vary, but quarterly progress reports are generally required.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "source_type": "official_authority_publication",
+          "reference": "Marktüberwachung",
+          "passage": "Official guidance identifies Sozialministeriumservice, Upper Austria, as the central BaFG market-surveillance body and describes its powers. It does not date individual tests, quarterly reporting requirements or current cases.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "at-inherited-3",
+      "kind": "monitoring_activity",
+      "text": "Monitoring selection uses disability organisations' feedback, service importance and market share.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "austria inherited public entry",
+          "passage": "Monitoring selection uses disability organisations' feedback, service importance and market share.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "source_type": "official_authority_publication",
+          "reference": "Marktüberwachung",
+          "passage": "Official guidance identifies Sozialministeriumservice, Upper Austria, as the central BaFG market-surveillance body and describes its powers. It does not date individual tests, quarterly reporting requirements or current cases.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "at-inherited-4",
+      "kind": "monitoring_activity",
+      "text": "Monitoring will not close until EAA conformity is proven.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "austria inherited public entry",
+          "passage": "Monitoring will not close until EAA conformity is proven.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        },
+        {
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "source_type": "official_authority_publication",
+          "reference": "Marktüberwachung",
+          "passage": "Official guidance identifies Sozialministeriumservice, Upper Austria, as the central BaFG market-surveillance body and describes its powers. It does not date individual tests, quarterly reporting requirements or current cases.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Identify dated provenance for the inherited activity claims.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Provide dated support for testing, company contacts, quarterly reports, selection criteria and closure policy.",
+      "owner": "Maintainer / future authorised researcher",
+      "resolved_when": "A shareable correspondence reference or primary operational publication identifies the authority, date and scope."
     }
   ]
 }

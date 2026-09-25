@@ -4,16 +4,17 @@
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
   "research_state": "partially_researched",
-  "search_result": "not_assessed",
+  "search_result": "reportable_activity_found",
   "attempted_on": "2026-09-25",
-  "verified_on": null,
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
     "Attachment-only research for existing Sweden statistics; no public page, map or other country is changed. The existing public entry remains inherited_unreviewed.",
     "The quoted PTS reply is dated 7 September 2026, while the outer follow-up email is dated 14 September. Neither establishes the public heading Statistics from 2026-09-09. All four PDFs carry export timestamps on 7 September; report-title dates (3 September for complaints and 21 May for deficiencies) are not established data cutoffs.",
     "Local contents and arithmetic were checked. unverified_source reflects the existing schema restriction on correspondence-only evidence, not a finding that the supplied figures are false. No external retrieval or new general Sweden research was performed.",
     "The requester asked for company totals, but PTS explicitly answered in reports. PTS said statistics were unavailable for questions 3 (companies not stating compliance), 6 (planned cases not started) and 8 (cases meeting documentation requirements); this does not mean zero.",
     "The 14 September follow-up asks for names of companies in active cases; no answer is present. The deficiency-report list must not be substituted for a list of active enforcement cases.",
-    "The earlier 124 complaints / 110 services / 14 products assertion and other monitoring assertions are outside this pass. Requests and invitations in the email are evidence context, not instructions to contact anyone."
+    "The earlier 124 complaints / 110 services / 14 products assertion and other monitoring assertions are outside this pass. Requests and invitations in the email are evidence context, not instructions to contact anyone.",
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
   ],
   "public_entry_ids": [
     "sweden-1"
@@ -25,6 +26,18 @@
       "sources_checked": [],
       "limitations": "Local files only; no original MIME attachments or public URLs. Text extracted from all 38 PDF pages; visually inspected complaint totals p.2, product/service exemption totals p.2 and deficiency-list first/last pages. Counted 535 dated rows across 32 pages, but did not manually audit every organisation or derive unique-company/sector counts. Source review remained within the ten-minute country budget.",
       "next_check": "Resolve date and sector qualifiers before public edits; obtain public primary provenance or a separately authorised correspondence-policy decision before verified status."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit remaining launch, February complaint and selection/contact assertions; September correspondence claims are unchanged. Search queries: site.pts.se \"tillsyn\" \"marknadsandelar\" tillgänglighet; site.pts.se \"tillgänglighet\" \"plan\" \"kontakta\" tillsyn företag",
+      "sources_checked": [
+        "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-marknadskontroll/",
+        "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-en-tillsyn-av-e-handelstjanster/",
+        "https://pts.se/nyheter-och-pressmeddelanden/klaga-pa-produkters-och-tjansters-tillganglighet/",
+        "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/"
+      ],
+      "limitations": "Two targeted searches did not establish the additional unlinked criteria/contact practice. Announcements are dated history, not proof that the same phases are still open.",
+      "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
     }
   ],
   "claims": [
@@ -299,6 +312,210 @@
       },
       "uncertainty": "No case identifier, closure date, decision, reason, penalty or compliance finding is provided. Closure alone is not proof of compliance. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
       "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-pts-products-launch",
+      "kind": "monitoring_activity",
+      "text": "On 23 October 2025, Sweden’s Post and Telecom Authority (PTS) announced checks of laptops, smartphones and tablets, focusing on EU declarations of conformity and certain digital product information.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [
+        "Products"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Lagen om vissa produkters och tjänsters tillgänglighet, as described in the PTS announcement.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2025-10-23",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-marknadskontroll/",
+          "source_type": "official_authority_publication",
+          "reference": "23 October 2025, first market-surveillance round",
+          "passage": "PTS announced checks of laptops, smartphones and tablets, focusing on EU declarations of conformity and digital product information, with work planned through early 2026.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Historical launch announcement; current completion or individual outcomes not established.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "se-pts-ecommerce-launch",
+      "kind": "monitoring_activity",
+      "text": "On 15 October 2025, PTS announced that its first checks of e-commerce services had begun. This round covered the websites of larger operators established in Sweden that sell products online. The checks focused on the homepage, a product page and search; apps were excluded.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Lagen om vissa produkters och tjänsters tillgänglighet, as described in the PTS announcement.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2025-10-15",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-en-tillsyn-av-e-handelstjanster/",
+          "source_type": "official_authority_publication",
+          "reference": "15 October 2025, first e-commerce supervision round",
+          "passage": "PTS had begun supervision of larger e-commerce operators established in Sweden. This round covered websites, not apps, focusing on the homepage, a product page and search. Work would continue in stages during 2025–2026.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Historical launch announcement; current completion or individual outcomes not established.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "se-pts-banking-launch",
+      "kind": "monitoring_activity",
+      "text": "On 8 September 2026, PTS announced that checks of banking services had begun, targeting larger operators established in Sweden. The checks would start with these operators’ reports of shortcomings. Work was planned for 2026–2027.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [
+        "Banking"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Lagen om vissa produkters och tjänsters tillgänglighet, as described in the PTS announcement.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2026-09-08",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
+          "source_type": "official_authority_publication",
+          "reference": "8 September 2026, first banking supervision round",
+          "passage": "PTS had begun its first banking supervision, targeting larger established actors and initially their deficiency reports. Website/app checks could follow. Work was planned for 2026–2027.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Historical launch announcement; current completion or individual outcomes not established.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "se-complaints-20260217",
+      "kind": "statistics",
+      "text": "PTS reported 124 complaints on 17 February 2026: 110 concerning services and 14 concerning products.",
+      "authority_or_court": "PTS",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "Swedish law on accessibility of certain products and services, as identified by PTS.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2026-02-17",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/klaga-pa-produkters-och-tjansters-tillganglighet/",
+          "source_type": "official_authority_publication",
+          "reference": "17 February 2026, complaint totals and selection",
+          "passage": "PTS reported 124 complaints: 110 about services and 14 about products. Complaints informed planned supervision and market-surveillance selection for 2025–2026.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-02-17",
+        "period": "Snapshot in the cited source; exact measurement period not specified.",
+        "units": "Complaints",
+        "counting_basis": "PTS cumulative reported snapshot: 110 services + 14 products = 124.",
+        "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+      },
+      "uncertainty": "Complaints are not confirmed breaches or unique companies; historical snapshot must not be added to September total.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "se-complaint-selection",
+      "kind": "monitoring_activity",
+      "text": "PTS states that received complaints informed its selection for planned supervision in 2025–2026.",
+      "authority_or_court": "PTS",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "Swedish accessibility law identified in the PTS publication.",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": "2026-02-17",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/klaga-pa-produkters-och-tjansters-tillganglighet/",
+          "source_type": "official_authority_publication",
+          "reference": "17 February 2026, complaint totals and selection",
+          "passage": "PTS reported 124 complaints: 110 about services and 14 about products. Complaints informed planned supervision and market-surveillance selection for 2025–2026.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "This supports the complaints component of the inherited selection claim, not all market-share/service-importance criteria.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "se-selection-other",
+      "kind": "monitoring_activity",
+      "text": "Monitoring uses important and representative services and market share; companies are encouraged to contact PTS about conformity and plans.",
+      "authority_or_court": "",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "Evidence audit of existing entry",
+      "procedural_stage": "unknown",
+      "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+          "source_type": "other_unverified",
+          "reference": "sweden inherited public entry",
+          "passage": "Monitoring uses important and representative services and market share; companies are encouraged to contact PTS about conformity and plans.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The retrieved announcements support complaints and larger-operator selection but do not establish all these criteria or the requested conformity-plan contact practice. Preserve inherited wording pending provenance.",
+      "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
     }
   ],
   "questions": [
@@ -331,6 +548,12 @@
       "question": "What was the basis and date of the Apotea case closure?",
       "owner": "Maintainer / future authorised Sweden researcher",
       "resolved_when": "The closure decision or case reference is obtained without inferring a compliance finding from closure alone."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Provide dated support for service importance/representativeness, market-share criteria and conformity-plan contact practice.",
+      "owner": "Maintainer / future authorised researcher",
+      "resolved_when": "Exact primary passage or shareable correspondence identifies each practice; retain prior September follow-ups."
     }
   ]
 }

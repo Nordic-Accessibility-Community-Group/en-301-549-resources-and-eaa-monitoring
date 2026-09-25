@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-25",
+  "scope": "Nine changed factual wording groups across six public rows; source-label links also inspected.",
+  "source_fidelity": {
+    "reviewer": "remaining_fidelity",
+    "isolation": "Separate no-history agent; source passages/reference metadata and exact proposed text only. No evidence statuses, research conclusions or PR discussion.",
+    "result": "Supported after corrections and final recheck",
+    "corrections": [
+      "Retain Dutch comparison group and ACM contact condition.",
+      "Retain Swedish geographic/operator scope and planned banking method.",
+      "Use the court’s e-commerce-service scope; identify interim order and conditional daily penalty.",
+      "Avoid implying a separate EUR10,000 award to each association.",
+      "Label complaints received without adding source scope."
+    ]
+  },
+  "readability": {
+    "reviewer": "remaining_readability",
+    "isolation": "Different no-history agent; proposed public wording only.",
+    "result": "Final B2 readability pass; no necessary corrections remain.",
+    "corrections": [
+      "Explain national incorporation rather than transposition.",
+      "Use checks/reports of shortcomings in Swedish public wording.",
+      "Clarify the referent of publicity measures."
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "fr-powers",
+      "reference": "DGCCRF professional guidance, Quelles sont les sanctions?",
+      "reviewed_wording": "DGCCRF agents may order professionals to bring products and services into compliance. Orders may include penalty payments and measures to publicise the orders.",
+      "wording_sha256": "0abc4eec713e47f40110b7bc0cba895b5af73dcf70c6ba2f57ab0c7fff6fe5c3",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "fr-carrefour",
+      "reference": "Court order 4 June 2026 RG25/00691, pp.1,7–8; /tmp/enforcement-remaining/carrefour.pdf",
+      "reviewed_wording": "In an interim order dated 4 June 2026, the Tribunal judiciaire de Caen ordered Carrefour France to provide e-commerce services complying with French accessibility requirements. A €500 daily penalty applies if non-compliance continues six months after the order. The court also ordered Carrefour to pay a total of €10,000 in provisional damages to apiDV and Droit Pluriel, the costs of the proceedings, and €3,000 under article 700 of the French Code of Civil Procedure.",
+      "wording_sha256": "fbefc03aac0815344ef335889a51f7e46344ad23f08537d9d4cdbe54a9f3680d",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "nl",
+      "reference": "ACM publication 24 March 2026",
+      "reviewed_wording": "On 24 March 2026, the Netherlands Authority for Consumers and Markets (ACM) reported tests of approximately 100 of the largest Dutch online stores, as well as websites operated by large telecom and energy providers. In its 24 March 2026 report, ACM said it would contact the largest companies with the poorest results. Companies contacted by ACM that failed to make sufficient improvements would risk enforcement action.",
+      "wording_sha256": "a605733a789f521383aa56f6d1e7ee3ddf74aeb1f10094933502e0cf1cb6f4b2",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "se-products",
+      "reference": "PTS 23 October 2025, pts-inleder-marknadskontroll",
+      "reviewed_wording": "Products: On 23 October 2025, Sweden’s Post and Telecom Authority (PTS) announced checks of laptops, smartphones and tablets, focusing on EU declarations of conformity and certain digital product information.",
+      "wording_sha256": "057cd5dec9fa587ee2fdf0286204ec28aed5a06980c8c2966aaf777cda9b966c",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "se-ecommerce",
+      "reference": "PTS 15 October 2025, pts-inleder-en-tillsyn-av-e-handelstjanster",
+      "reviewed_wording": "E-commerce: On 15 October 2025, PTS announced that its first checks of e-commerce services had begun. This round covered the websites of larger operators established in Sweden that sell products online. The checks focused on the homepage, a product page and search; apps were excluded.",
+      "wording_sha256": "4826553ac2923a941a104bb31931b03c751ee65f2f0bb82b30d859df52059566",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "se-banking",
+      "reference": "PTS 8 September 2026, pts-inleder-tillsyn-av-banktjanster",
+      "reviewed_wording": "Banking: On 8 September 2026, PTS announced that checks of banking services had begun, targeting larger operators established in Sweden. The checks would start with these operators’ reports of shortcomings. Work was planned for 2026–2027.",
+      "wording_sha256": "44dc97266d19994e3b0d7a2190f65a2118238f81bf6f0707ddb3106904418519",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "se-complaints",
+      "reference": "PTS 17 February 2026, klaga-pa-produkters-och-tjansters-tillganglighet",
+      "reviewed_wording": "Complaints received: PTS reported 124 complaints on 17 February 2026: 110 concerning services and 14 concerning products.",
+      "wording_sha256": "7f76771235780bafc03f2f5ae62cb1e56327db734e30b384f11bd10305ed716e",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "commission",
+      "reference": "European Commission,11 March 2026, INF_26_431_EN.pdf pp.6–7",
+      "reviewed_wording": "On 11 March 2026, the European Commission decided to send additional reasoned opinions to Croatia (INFR(2022)0306) and Germany (INFR(2022)0295) for not fully incorporating the EAA into national law. The countries were given two months to respond and take the necessary measures.",
+      "wording_sha256": "6c00bc646001b38a54368fbc54a90ef26ea208072a864ef6929a96281edda57f",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    },
+    {
+      "id": "norway",
+      "reference": "Uu-tilsynet closure notice,23 December 2025,https://www.uutilsynet.no/tilsyn/tilsyn-med-helseplattformen-vert-avslutta/3123",
+      "reviewed_wording": "Type: Government agency — other accessibility law. Status: Closed. Norway’s ICT accessibility authority (Uu-tilsynet) closed its case concerning Helseplattformen AS’s HelsaMi website on 23 December 2025 after the remaining identified errors were corrected. Daily penalties of NOK 50,000 began on 20 December; the authority reports that the penalties applied for two days. The case concerned Norway’s Equality and Anti-Discrimination Act and ICT accessibility regulation.",
+      "wording_sha256": "7999ee707d889b7e02bec2cb70dd85865d9cdacf931d9656e7465250ce131b74",
+      "source_summary": "See matching claim passage and reference in country research; full original-language reviewer packet was supplied independently.",
+      "verdict": "Supported"
+    }
+  ],
+  "limits": "Language comparison does not authenticate sources, certify current procedural status or verify unchanged legacy text. Source metadata supplies publication dates; court pp.1 and8 visually checked."
+}
