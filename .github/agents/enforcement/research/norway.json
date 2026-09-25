@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "country": "Norway",
+  "jurisdiction_group": "non-EU",
+  "created_on": "2026-09-25",
+  "research_state": "not_yet_researched",
+  "search_result": "not_assessed",
+  "attempted_on": null,
+  "verified_on": null,
+  "knowledge_notes": [
+    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
+    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+  ],
+  "public_entry_ids": [
+    "norway-1"
+  ],
+  "attempts": [],
+  "claims": [],
+  "questions": [
+    {
+      "priority": "Follow-up",
+      "question": "Verify authority, applicable law, app name, deadline and whether the daily fine was conditional or imposed; do not assume EAA applicability.",
+      "owner": "Future enforcement researcher",
+      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+    }
+  ]
+}
