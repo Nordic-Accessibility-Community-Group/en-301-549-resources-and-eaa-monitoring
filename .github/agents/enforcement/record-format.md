@@ -8,7 +8,7 @@ Store one file named for the lowercase English country name under `research/`. U
 
 | Field | Meaning |
 | --- | --- |
-| `schema_version`, `country`, `jurisdiction_group` | Version 1, jurisdiction name, EU or non-EU |
+| `schema_version`, `country`, `jurisdiction_group` | Version 1, jurisdiction name, EU (Member State), EU territory (Åland), or non-EU |
 | `created_on` | Administrative record creation date; never a source check |
 | `research_state` | not_yet_researched, partially_researched or bounded_pass_completed |
 | `search_result` | not_assessed, reportable_activity_found or no_reportable_activity_found_in_checked_sources |

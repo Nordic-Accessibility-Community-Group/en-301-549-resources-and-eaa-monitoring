@@ -62,6 +62,24 @@ class RecordChecks(unittest.TestCase):
         (self.folder / 'research/belgium.json').unlink()
         self.rejects('Missing EU research')
 
+    def test_aland_territory_record_does_not_require_public_entry(self):
+        record = self.read('record-template.json')
+        record.update(country='Åland', jurisdiction_group='EU territory')
+        self.write('research/åland.json', record)
+        self.assertEqual(CHECK.check(self.root), (29, 3))
+
+    def test_aland_cannot_be_classified_as_non_eu(self):
+        record = self.read('record-template.json')
+        record.update(country='Åland', jurisdiction_group='non-EU')
+        self.write('research/åland.json', record)
+        self.rejects('EU territory mismatch')
+
+    def test_non_eu_country_cannot_be_classified_as_eu_territory(self):
+        record = self.read('research/norway.json')
+        record['jurisdiction_group'] = 'EU territory'
+        self.write('research/norway.json', record)
+        self.rejects('EU territory mismatch')
+
     def test_public_change_cannot_keep_stale_mapping(self):
         page = self.root / CHECK.PAGE
         page.write_text(page.read_text().replace('Actively testing.', 'All companies fined.'))

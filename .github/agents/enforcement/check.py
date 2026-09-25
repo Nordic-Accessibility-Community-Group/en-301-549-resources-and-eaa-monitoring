@@ -79,8 +79,9 @@ def check(root):
         require(path.stem == name.lower(), name + ': filename mismatch')
         require(name not in records, 'Duplicate country: ' + name)
         records[name] = record
-        require(record['jurisdiction_group'] in ['EU', 'non-EU'], name + ': jurisdiction group')
+        require(record['jurisdiction_group'] in ['EU', 'EU territory', 'non-EU'], name + ': jurisdiction group')
         require((name in EU) == (record['jurisdiction_group'] == 'EU'), name + ': EU membership mismatch')
+        require((name == 'Åland') == (record['jurisdiction_group'] == 'EU territory'), name + ': EU territory mismatch')
         require(record['research_state'] in ['not_yet_researched', 'partially_researched', 'bounded_pass_completed'], name + ': research state')
         require(record['search_result'] in ['not_assessed', 'reportable_activity_found', 'no_reportable_activity_found_in_checked_sources'], name + ': search result')
         for key in ['created_on', 'attempted_on', 'verified_on']:
