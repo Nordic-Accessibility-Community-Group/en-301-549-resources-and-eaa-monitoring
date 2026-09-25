@@ -10,11 +10,11 @@ Public prose is unchanged. Only the Estonia local research link and its current 
 
 ## Validation
 
-Shared JSON Schema/references/routing and migration fingerprint checks pass: 36 countries, 651 claims, 16 delivery events. Nine new storage-boundary tests pass, including lossless projection, missing references, evidence mutation, duplicate IDs, frozen-exception limits, routing domain/index consistency and domain isolation. Existing 26 enforcement, five sanctions and nine watcher tests pass: 49 total. Markdownlint, whitespace and local-link checks pass; verification-date script reports no markers. Domain validators preserve publication gates. Structural tests are not legal/source verification. No new factual research or language review is required for unchanged factual wording.
+Shared JSON Schema/references/routing and migration fingerprint checks pass: 36 countries, 651 claims, 16 delivery events. Nine new storage-boundary tests pass, including lossless projection, missing references, evidence mutation, duplicate IDs, frozen-exception limits, routing domain/index consistency and domain isolation. Existing 26 enforcement, five sanctions and nine watcher tests pass: 49 total. Markdownlint, whitespace and local-link checks pass; verification-date script reports no markers. Domain validators preserve publication gates. Read-only repository smoke checks also resolve all five watcher country/domain records and their current claim IDs; all 16 routing events retain original decisions/PRs/reasons except record/domain relocation. These do not verify deployed cloud prompts. Structural tests are not legal/source verification. No new factual research or language review is required for unchanged factual wording.
 
 ## Independent review
 
-Pending actual published migration PR/head review. Source-fidelity and readability not applicable: evidence and public factual wording preserved.
+Independent no-history reviewer /root/migration_review checked actual PR #63 at 67ce4b6273a45355ba7ee9841943bd0bef42f405, remote tree 1ad679ec03816d319b7fe765afb16adde6c84e3c matching the local tree. No concrete code or preservation findings. Independently compared all 90 expanded payloads with source commit bb909efb8cb1816f75cee338e06589a8abc7b012 and confirmed exact object equality and manifest hashes. Independently reran migration validation and all 49 tests. Verified unchanged monitoring/sanctions public pages, enforcement frozen baseline and watcher baseline/state helper. The live cloud-prompt compatibility check remains unresolved: keep draft. Source-fidelity/readability not applicable; this is not maintainer approval. The subsequent report-only commit leaves reviewed implementation/data unchanged.
 
 ## Before merge
 
