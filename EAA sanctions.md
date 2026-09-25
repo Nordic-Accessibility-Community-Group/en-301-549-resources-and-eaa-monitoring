@@ -14,7 +14,7 @@ This first source review covers all 27 EU Member States. Each country has one ro
 - **🏛️ Official government / regulator**: guidance or information published by a public authority.
 - **📰 External — news**: reporting by an identified news publisher, with a publication date.
 - **📘 External — legal analysis / legal database**: named external legal commentary or reproduced legislation; it is not government guidance.
-- **❓ Not verified** means that this review did not establish the detail. It does not mean that there is no sanction.
+- **❓ Unknown** means that the information has not yet been established. It does not mean that there is no sanction.
 
 Amounts describe available legal measures, not fines known to have been imposed. Administrative fines, criminal fines and conditional or recurring payments are distinguished. Source labels describe provenance, not a guarantee that every statement in a linked article is correct. External articles provide context; a figure supported only by an external source is marked accordingly. Last checked records the review date and its limitations, not a guarantee of complete country coverage. Amounts remain in the source currency; historical amounts awaiting a current-law check are explicitly flagged.
 
@@ -38,7 +38,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="austria">Austria</th>
       <td><p>Products and services covered by the BaFG; economic operators.</p></td>
       <td><ul><li>Up to €80,000 for placing or supplying specified non-compliant products or services.</li><li>Other offence tiers: up to €40,000 and €16,000.</li></ul></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Section 36 provides reduced ceilings for microenterprises and SMEs. The applicable tier depends on the offence; these are not automatic fines.</p></td>
       <td>
         <ul>
@@ -52,7 +52,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="belgium">Belgium</th>
       <td><p>Sector-specific implementation; the external overview does not establish one ceiling for every sector.</p></td>
       <td><p>Fieldfisher reports a maximum fine of €200,000. ❓ Applicability by sector, offence and any turnover-based alternative has not been verified against legislation.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Treat this figure as an external report, not a verified national maximum.</p></td>
       <td>
         <ul>
@@ -79,7 +79,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="croatia">Croatia</th>
       <td><p>Products and services; legal entities, responsible officers and sole traders have different ranges.</p></td>
       <td><ul><li>Manufacturers, authorised representatives and service providers that are legal entities: €6,630–€132,720.</li><li>Importers that are legal entities: €3,310–€66,360; distributors: €1,990–€13,270.</li></ul></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Articles 32–36 specify the offences and separate, lower ranges for responsible individuals and sole traders. Do not apply the manufacturer ceiling to every operator.</p></td>
       <td>
         <ul>
@@ -133,7 +133,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="estonia">Estonia</th>
       <td><p>Non-compliant services under § 20 of the Products and Services Accessibility Act.</p></td>
       <td><p>The official English translation reports up to 100 fine units for a natural person and €20,000 for a legal person. ❓ The current Estonian text and fine-unit value have not been confirmed.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>This is the service offence in the located translation. It must not be treated as the ceiling for all product violations or coercive payments.</p></td>
       <td>
         <ul>
@@ -186,8 +186,8 @@ Amounts describe available legal measures, not fines known to have been imposed.
     <tr>
       <th scope="row" id="greece">Greece</th>
       <td><p>National implementation under Law 4994/2022.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>The sanctions framework in Article 26 and subsequent amendments needs a verified consolidated-law review before amounts are added.</p></td>
       <td>
         <ul>
@@ -230,7 +230,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="italy">Italy</th>
       <td><p>Economic operators under Legislative Decree 82/2022, Article 24.</p></td>
       <td><ul><li>€5,000–€40,000 for the substantive violations listed in Article 24(1).</li><li>€2,500–€30,000 for failure to obey specified authority orders or cooperate as required.</li></ul></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Article 24(1) refers certain entities covered by Law 4/2004 to that law’s penalty regime. The €40,000 ceiling is therefore not universal. Exemptions and public procurement exclusions apply as specified in Article 24.</p></td>
       <td>
         <ul>
@@ -257,8 +257,8 @@ Amounts describe available legal measures, not fines known to have been imposed.
     <tr>
       <th scope="row" id="lithuania">Lithuania</th>
       <td><p>National implementation under the Law on Accessibility Requirements for Products and Services (XIV-1633).</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Official guidance was located, but the applicable penalty provisions and repeat-offence rules still need verification.</p></td>
       <td>
         <ul>
@@ -300,7 +300,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="netherlands">Netherlands</th>
       <td><p>Separate regimes for products, e-commerce, electronic communications, banking, transport and media.</p></td>
       <td><p>❓ Current sector-specific ceilings not verified. No single national maximum is asserted.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>The May 2025 external overview gives €103,000 for some authorities, without establishing an all-sector ceiling. Verify the relevant regulator’s current legal powers before using a figure.</p></td>
       <td>
         <ul>
@@ -315,7 +315,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="poland">Poland</th>
       <td><p>Economic operators committing the offences listed in Article 73 of the Act of 26 April 2024.</p></td>
       <td><p>Up to ten times the previous year’s average monthly national wage, but no more than 10% of turnover in the financial year preceding the penalty year.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Both ceilings apply. The 10% figure is a cap, not an additional penalty or an alternative that overrides the wage-based limit.</p></td>
       <td>
         <ul>
@@ -368,7 +368,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="slovenia">Slovenia</th>
       <td><p>Products and several service sectors under ZDPSI; examples below are not the complete schedule.</p></td>
       <td><ul><li>Product manufacturers/importers/authorised representatives that are legal persons: €3,000–€40,000 (Article 34).</li><li>Banking and e-commerce legal persons: €500–€5,000, or €1,000–€10,000 for medium/large companies (Articles 39–40).</li><li>E-book legal persons: €400–€2,000, or €800–€4,000 for medium/large companies (Article 37).</li></ul></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Separate ranges apply to individuals, distributors and other sectors. Read the 2023 law with the 2026 amendment; transport provisions in particular require separate review.</p></td>
       <td>
         <ul>
@@ -381,7 +381,7 @@ Amounts describe available legal measures, not fines known to have been imposed.
       <th scope="row" id="spain">Spain</th>
       <td><p>Title I of Law 11/2023; sector-specific sanctions take priority.</p></td>
       <td><p>Where sector legislation does not provide for the matter, the supplementary disability-rights regime sets €301–€1,000,000 overall; minor offences have a €30,000 ceiling and serious offences a €90,000 ceiling.</p></td>
-      <td><p>❓ Not verified in this review.</p></td>
+      <td><p>❓ Unknown</p></td>
       <td><p>Law 11/2023, Article 30 refers first to sector law and only subsidiarily to Title III of Royal Legislative Decree 1/2013. €1 million is not a universal EAA ceiling.</p></td>
       <td>
         <ul>
