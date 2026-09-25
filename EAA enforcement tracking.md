@@ -102,7 +102,6 @@ Type can be:
           </ul>
         </li>
       </ul>
-
       <p>On 30 June 2026, Traficom reported that it had already received complaints and enquiries concerning consumer services newly covered by the Finnish Act on the Provision of Digital Services. The publication does not state how many complaints or enquiries it received or give any case outcomes.</p>
       <p><strong>Official authority publication:</strong> <a href="https://uutiskirje.traficom.fi/viestinta/saavutettavuus-sujuvoittaa-arjen-asiointia.html">Traficom newsletter, 30 June 2026</a>.</p>
     </td>
@@ -120,7 +119,6 @@ Type can be:
         <li>DGCCRF agents may order professionals to bring products and services into compliance. Orders may include penalty payments and measures to publicise the orders.</li>
         <li>Sources: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">SignalConso reporting guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">professional declaration guidance</a>.</li>
       </ul>
-
       <p>E-commerce: On 4 September 2026, DGCCRF reported that it had checked more than 20 websites since the start of 2026. It planned action to correct or penalise breaches for half of the websites checked. Several platforms and retailers had committed to making their websites compliant by the end of 2026; final investigation results were expected in early 2027.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf">DGCCRF interim report, 4 September 2026 (PDF, p. 2)</a>.</p>
     </td>
@@ -175,7 +173,6 @@ Type can be:
       <ul>
         <li>"The Commission for Communications Regulation (ComReg) has started to process consumer complaints, including one against Ireland’s largest mobile telecommunications company, Three. It’s been reported that Three has been responsive and active in the wake of the formal processing of the complaint." Source: <a href="https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe">Early signs of EAA enforcement across Europe, by Matthew Luken.</a></li>
       </ul>
-
       <p>In its 2025 annual report, the Competition and Consumer Protection Commission (CCPC) reported receiving 53 complaints and 16 exemption claims under the EAA during 2025. The report said these were being addressed, with results expected in 2026. These figures count complaints and exemption claims; they do not establish confirmed violations or approved exemptions.</p>
       <p><strong>Official authority publication:</strong> <a href="https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf">CCPC Annual Report 2025 (PDF, p. 11)</a>.</p>
     </td>
