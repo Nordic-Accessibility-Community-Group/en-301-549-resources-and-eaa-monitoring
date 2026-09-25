@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-25",
+  "scope": "Sweden: six existing September statistics claims; research only",
+  "research_file": ".github/agents/enforcement/research/sweden.json",
+  "research_sha256": "e861571e395e5e2be63da39059b02911d43068e76aa69addfda5d41e83e72805",
+  "source_fidelity": {
+    "reviewer": "sweden_fidelity",
+    "isolation": "Separate agent, fork_turns=none; only source passages/references and exact proposed English wording. No evidence statuses or prior conclusions.",
+    "outcome": "Supported for all six claims, including final recheck of exemption category wording as report counts.",
+    "comparisons": [
+      {
+        "claim_id": "se-deficiency-reports-20260907",
+        "source_passages": [
+          "Totalt har PTS mottagit 535 bristrapporteringar. 535 bristrapporteringar betyder inte att det är 535 olika företag, det kan vara så att ett företag rapporterat flera gånger, både för sin webbsida samt applikation.",
+          "Columns: Inkommen (datum), Ärendenummer, Ärendetyp, Rapportering, Organisationsnamn, Område, Kategori tjänst, Kategori produkt. Recount: 535 dated data rows, receipt dates 27 June 2025–4 September 2026. This is a researcher recount, not a printed grand total."
+        ],
+        "reviewed_wording": "PTS reported receiving 535 deficiency reports and explicitly warned that one company may submit multiple reports, including for its website and app.",
+        "verdict": "Supported",
+        "literal_rendering": "In total, PTS has received 535 deficiency reports. 535 deficiency reports does not mean that there are 535 different companies; a company may have reported several times, both for its website and application."
+      },
+      {
+        "claim_id": "se-exemption-reports-20260907",
+        "source_passages": [
+          "PTS har mottagit totalt 22 rapporter där företag åberopar undantag samt lämnat in underlag.",
+          "Mobiltelefon 2; Annan utrustning för att komma åt kommunikationstjänster 2; Betalterminal 1; Räkna 5.",
+          "E-handel 9; Bank 8; Räkna 17."
+        ],
+        "reviewed_wording": "PTS reported 22 reports in which companies invoked exemptions and submitted supporting material. The supplied PDFs count reports in these categories: products 5 (mobile phones 2, other equipment for accessing communication services 2, payment terminals 1); services 17 (e-commerce 9, banking 8).",
+        "verdict": "Supported",
+        "literal_rendering": "PTS has received a total of 22 reports in which companies invoke exemptions and have submitted supporting material. Mobile phone 2; other equipment for accessing communication services 2; payment terminal 1; count 5. E-commerce 9; bank 8; count 17."
+      },
+      {
+        "claim_id": "se-active-supervision-20260907",
+        "source_passages": [
+          "För tillfället är 33 tillsynsärenden aktiva samt 29 marknadskontrollärenden."
+        ],
+        "reviewed_wording": "PTS reported 33 active supervision cases (tillsynsärenden).",
+        "verdict": "Supported",
+        "literal_rendering": "At present, 33 supervision cases are active, as well as 29 market-surveillance cases."
+      },
+      {
+        "claim_id": "se-active-market-surveillance-20260907",
+        "source_passages": [
+          "För tillfället är 33 tillsynsärenden aktiva samt 29 marknadskontrollärenden."
+        ],
+        "reviewed_wording": "PTS reported 29 active market-surveillance cases (marknadskontrollärenden).",
+        "verdict": "Supported",
+        "literal_rendering": "At present, 33 supervision cases are active, as well as 29 market-surveillance cases."
+      },
+      {
+        "claim_id": "se-complaints-20260907",
+        "source_passages": [
+          "Vi har fått in 190 klagomål som omfattas av LPTT sedan lagen trädde i kraft, rapport bifogas.",
+          "Månad: Inkommen (datum), Räkna. June–December 2025: 10, 44, 15, 19, 12, 8, 5. January–September 2026: 10, 5, 7, 8, 10, 12, 13, 10, 2. Printed total 190; independent sum 190."
+        ],
+        "reviewed_wording": "PTS reported 190 complaints within LPTT since the law entered into force. The monthly PDF totals 190.",
+        "verdict": "Supported",
+        "literal_rendering": "We have received 190 complaints that fall within the scope of LPTT since the law entered into force; a report is attached. Table headings: Month: received (date), count."
+      },
+      {
+        "claim_id": "se-apotea-closure-20260907",
+        "source_passages": [
+          "Det är ett tillsynsärende som avslutats, ärendet avser Apotea."
+        ],
+        "reviewed_wording": "PTS reported that one supervision case had been closed, concerning Apotea.",
+        "verdict": "Supported",
+        "literal_rendering": "There is one supervision case that has been closed; the case concerns Apotea."
+      }
+    ]
+  },
+  "readability": {
+    "outcome": "Not applicable: no proposed public-page wording."
+  },
+  "evidence": {
+    "outcome": "Local correspondence/PDF contents checked; no public-source verification or independent authentication.",
+    "arithmetic": [
+      "535 dated rows in 32-page deficiency PDF; receipt dates 2025-06-27 to 2026-09-04.",
+      "Complaint monthly counts sum to the printed 190.",
+      "Product exemption categories total 5; service categories total 17; combined 22."
+    ],
+    "visual_review": "Complaint and both exemption tables p.2; deficiency-list pp.1 and 32. Intermediate deficiency pages text-extracted and counted, not all visually reviewed.",
+    "limits": "Original EML contains no MIME attachments; separate PDFs cannot be byte-matched to original email attachments. All claims remain unverified_source under current record policy. Public entry remains inherited_unreviewed."
+  },
+  "validation": {
+    "enforcement_checker": "PASS: 28 country records, 13 mapped public entries",
+    "regression_tests": "PASS: 19",
+    "markdownlint": "PASS: v0.23.2, repository configuration",
+    "verification_dates": "No last_verified markers found",
+    "whitespace": "PASS",
+    "rendered_html_and_links": "Not rerun: only JSON research/review records change; public Markdown, HTML and links are byte-identical to base.",
+    "ci": "Not yet observed; no CI pass claimed."
+  },
+  "independent_pr_review": "Pending actual draft PR/head review; outcome to be recorded in PR description."
+}
