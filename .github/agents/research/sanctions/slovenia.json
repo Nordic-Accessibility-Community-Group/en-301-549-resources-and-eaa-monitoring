@@ -1,0 +1,45 @@
+{
+  "country": "Slovenia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Cited 2023 penalty provisions and 2026 amendment checked; sector coverage remains partial.",
+  "public_page": "EAA sanctions.md#slovenia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#slovenia",
+  "sources": [
+    {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "label": "ZDPSI (2023)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: ZDPSI (2023), amended by ZDPSI-A (2026)."
+    },
+    {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "label": "ZDPSI-A (2026)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: ZDPSI (2023), amended by ZDPSI-A (2026)."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#slovenia",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products:    The listed Article 34 range concerns manufacturers, importers and authorised representatives.    E-commerce and Banking:    The listed Articles 39–40 ranges distinguish legal persons from medium/large companies.    E-books:    The listed Article 37 ranges distinguish legal persons from medium/large companies.    Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "public_text": "Products:    The Article 34 range concerns manufacturers, importers and authorised representatives.    E-commerce and Banking:    Articles 39–40 set different ranges based on company size.    E-books:    Article 37 sets different ranges based on company size.    Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Separate ranges apply to individuals, distributors and other sectors. Read the 2023 law with the 2026 amendment; transport provisions in particular require separate review.",
+          "public_text": "Separate ranges apply to individuals, distributors and other sectors. The 2023 law must be read together with the 2026 amendment.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "c20e74db7ab6a6f53a424713dc8e0ae55d949822d4187d1f6f415228f8a926bd",
+  "language_check": "language-check.json"
+}

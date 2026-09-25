@@ -1,0 +1,51 @@
+{
+  "country": "Czechia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#czechia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#czechia",
+  "sources": [
+    {
+      "url": "https://portal.gov.cz/sluzby-vs/vyzva-k-prijeti-opatreni-k-naprave-u-sluzeb-ze-strany-ceske-obchodni-inspekce-S93672",
+      "label": "Government portal: corrective measures for services",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Government portal: corrective measures for services."
+    },
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2023/424",
+      "label": "Zákon č. 424/2023 Sb.",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Zákon č. 424/2023 Sb.."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#czechia",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "E-commerce, Banking and E-books:    The listed corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.    Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "public_text": "E-commerce, Banking and E-books:    The corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.    Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The government guidance ties this ceiling to non-compliance with corrective requirements under Act 424/2023. Other offence tiers need separate checking.",
+          "public_text": "The maximum applies to failure to follow corrective requirements under Act 424/2023.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Sources",
+          "previous_text": "🏛️ Official government / regulator:   Government portal: corrective measures for services . \n            ⚖️ Official law:   Zákon č. 424/2023 Sb. .",
+          "public_text": "🏛️ Official government / regulator:   Government portal: corrective measures for services . \n            ⚖️ Official law:   Zákon č. 424/2023 Sb.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "ddcd7103bf4ce5741ff3c25fce623131ccbc4bc1f7590b4b9179eab38d16bc69",
+  "language_check": "language-check.json"
+}

@@ -1,0 +1,51 @@
+{
+  "country": "Malta",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official copy of regulations checked; cross-referenced penalty amounts pending.",
+  "public_page": "EAA sanctions.md#malta",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#malta",
+  "sources": [
+    {
+      "url": "https://contracts.gov.mt/wp-content/uploads/2025/09/Circ12_2025.pdf",
+      "label": "S.L. 627.03, Regulations 22 and 26–27",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: S.L. 627.03, Regulations 22 and 26–27 — legislation reproduced in Department of Contracts circular, PDF pages 27–29."
+    },
+    {
+      "url": "https://legislation.mt/eli/sl/627.3/eng",
+      "label": "Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#malta",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products and services under S.L. 627.03.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Products and services under S.L. 627.03.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "EAA areas covered: Unknown   Regulation 27 refers penalties to Article 32 of the Equal Opportunities (Persons with Disability) Act (Cap. 413). ❓ A current applicable amount has not been verified.",
+          "public_text": "Amount: ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Do not infer a fixed EAA fine from Regulation 27 alone. The cross-referenced regime needs a separate check.",
+          "public_text": "Regulation 27 refers to the penalties in Article 32 of the Equal Opportunities (Persons with Disability) Act (Cap. 413).",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "08f2a3239fba94c0e31546eba32f00a15878a452d70272e98daddda3b39f7f89",
+  "language_check": "language-check.json"
+}

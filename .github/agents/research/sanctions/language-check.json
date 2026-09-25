@@ -1,0 +1,226 @@
+{
+  "review_type": "independent_readability_check",
+  "reviewer": "/root/independent_language_check",
+  "context_isolation": "Separate agent created with fork_turns=none; only the public page and a neutral B2-language brief were provided. Reviewer reports reading no other files and following no source links.",
+  "scope": "Introduction, caption, all seven columns across 27 countries, source labels and reading guide.",
+  "reviewed_commit": "335b8bb99783106ef6f7cd08a740eacf5572f00c",
+  "reviewed_content_sha256": "3d634569cfdd6a3c7a6b723c3716cadc63ad05fa259c1b4e5a2206a021603802",
+  "verdict": "Corrections needed; source-dependent suggestions remain unresolved. Not a legal or source-language fidelity verdict.",
+  "applied_language_edits": [
+    {
+      "previous_text": "The BaFG penalties cover the products and consumer services in § 2.",
+      "public_text": "The penalties under the BaFG law cover the products and consumer services listed in Section 2."
+    },
+    {
+      "previous_text": "Other groups of offences: up to €40,000 and €16,000.",
+      "public_text": "For other groups of offences, the maximum fine is either €40,000 or €16,000, depending on the group."
+    },
+    {
+      "previous_text": "The EAA areas and offences covered are ❓ Unknown.",
+      "public_text": "We have not confirmed which EAA categories or offences this amount applies to."
+    },
+    {
+      "previous_text": "Products and services; legal entities, responsible officers and sole traders have different ranges.",
+      "public_text": "The law covers products and services. Different fine ranges apply to legal entities, responsible officers and sole traders."
+    },
+    {
+      "previous_text": "Products and services covered by Law 57(I)/2024; administrative and criminal routes.",
+      "public_text": "Law 57(I)/2024 covers products and services and provides for administrative and criminal penalties."
+    },
+    {
+      "previous_text": "The corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.",
+      "public_text": "The fine for failing to comply with a corrective order applies to financial services, e-commerce, and the sale of e-books and related software. These services are supervised by the Czech Trade Inspection."
+    },
+    {
+      "previous_text": "Violations can be referred to the police for a fine.",
+      "public_text": "Violations can be referred to the police and may result in a fine."
+    },
+    {
+      "previous_text": "The regulator can order the business to remedy non-compliance.",
+      "public_text": "The regulator can order the business to meet the legal requirements."
+    },
+    {
+      "previous_text": "Supervisory guidance and orders to correct shortcomings.",
+      "public_text": "The authority can provide guidance and order businesses to correct accessibility problems."
+    },
+    {
+      "previous_text": "Audiovisual terminal equipment is included under Products; audiovisual access services have a separate regime.",
+      "public_text": "Audiovisual terminal equipment is included in the Products category. Separate rules apply to audiovisual access services."
+    },
+    {
+      "previous_text": "including information, identification, instructions, documentation and cooperation failures",
+      "public_text": "including failures to meet requirements for information, identification, instructions, documentation or cooperation"
+    },
+    {
+      "previous_text": "Indictment: up to 18 months’ imprisonment, or both.",
+      "public_text": "Conviction on indictment: up to 18 months’ imprisonment, or both imprisonment and a fine."
+    },
+    {
+      "previous_text": "Separate regimes for products, e-commerce, electronic communications, banking, transport and media.",
+      "public_text": "Separate rules apply to products, e-commerce, electronic communications, banking, transport and media."
+    },
+    {
+      "previous_text": "Transport covers the listed passenger-service elements; urban, suburban and regional transport has a narrower scope.",
+      "public_text": "For transport, the law covers only the parts of passenger services listed in Section 2. Coverage is more limited for urban, suburban and regional transport."
+    },
+    {
+      "previous_text": "Legal-person manufacturers/importers/authorised representatives:",
+      "public_text": "Manufacturers, importers and authorised representatives that are legal persons:"
+    },
+    {
+      "previous_text": "EUR-Lex national transposition measures",
+      "public_text": "EUR-Lex: national laws implementing the EAA"
+    },
+    {
+      "previous_text": "Details and open checks are in the [country research notes]",
+      "public_text": "Further details and questions still being checked are in the [country research notes]"
+    },
+    {
+      "previous_text": "- **EAA areas covered: Unknown**: We found information about sanctions, but have not confirmed which EAA areas they apply to.",
+      "public_text": "- **EAA areas covered: Unknown**: We have not confirmed which EAA categories these sanctions cover. This does not mean that the EAA itself does not cover these categories."
+    }
+  ],
+  "remaining_findings": [
+    {
+      "location": "Page-wide",
+      "findings": [
+        "Explain natural person, legal person and economic operator consistently without changing legal scope.",
+        "Audiovisual access and the payment trigger for conditional fines need source-based definitions.",
+        "Distinguish unknown sanction-to-sector mapping from whether the EAA applies; a guide clarification was added, while established area labels were retained."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Bulgaria",
+      "findings": [
+        "Clarify what the court may order to be published under Article 68."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Croatia",
+      "findings": [
+        "Confirm whether the legal-entity qualifier also applies to distributor amounts."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Finland",
+      "findings": [
+        "Clarify when the conditional fine becomes payable and what supporting supervision means."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "France",
+      "findings": [
+        "Explain fifth-class offences and clarify the activity suspended when products remain non-compliant."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Germany",
+      "findings": [
+        "Explain audiovisual terminal equipment without widening its scope."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Hungary",
+      "findings": [
+        "Clarify the non-SME category, the 5% calculation base, the serious-harm condition and the meaning of no net turnover.",
+        "Confirm whether warnings require reports of planned or completed corrective action."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Ireland",
+      "findings": [
+        "Explain summary conviction and conviction on indictment; verify the actors and rights behind compliance directions and consumer court actions."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Italy",
+      "findings": [
+        "Clarify substantive violations and whether public procurement exclusions concern bidding or the scope of the law."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Latvia",
+      "findings": [
+        "Verify whether the seven-day interval starts at payment, demand or imposition."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Luxembourg",
+      "findings": [
+        "Give the verified name or remit of OSAPS.",
+        "Clarify whether marketing means sale, supply or advertising, and whether confiscation and destruction are alternatives or combined measures."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Malta",
+      "findings": [
+        "Clarify the object of restrictions and withdrawal in Regulation 22."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Poland",
+      "findings": [
+        "Confirm whether penalty year is the year the fine is imposed."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Portugal",
+      "findings": [
+        "Clarify whose legal status determines the fine range."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Romania",
+      "findings": [
+        "Explain conformity marking, withdrawal versus recall, and which activity can be prohibited."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Slovakia",
+      "findings": [
+        "Make the offence-group maxima explicit alongside the turnover limit.",
+        "Explain disproportionate burden using the source conditions."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Slovenia",
+      "findings": [
+        "Confirm the relationship between the general legal-person range and the medium/large-company range; do not infer that the categories are mutually exclusive."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Spain",
+      "findings": [
+        "Clarify the supplementary fines wording without suggesting a cumulative cap."
+      ],
+      "status": "needs_source_or_editorial_review"
+    },
+    {
+      "location": "Sweden",
+      "findings": [
+        "Clarify the cross-reference to conditions and the exact overlap restriction in Section 38."
+      ],
+      "status": "needs_source_or_editorial_review"
+    }
+  ],
+  "final_wording_recheck": "Completed by the same isolated reviewer. Czechia scope qualification, research-date explanation, Austria source wording and Ireland attribution were corrected and rechecked. Corrected wording is clearer without apparent change of meaning; source-dependent questions remain unresolved.",
+  "limits": "No independent legal verification, source currency check or translation-fidelity review was performed. Existing last_checked dates were preserved.",
+  "final_reviewed_content_sha256": "f28c91fb2c7536c98d83b55280f7588c360491561755de2771d9fa6b89a82411"
+}

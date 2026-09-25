@@ -1,0 +1,39 @@
+{
+  "country": "Croatia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#croatia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#croatia",
+  "sources": [
+    {
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html",
+      "label": "Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025). Articles 32–36."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#croatia",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products and services; legal entities, responsible officers and sole traders have different ranges.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Products and services; legal entities, responsible officers and sole traders have different ranges.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Articles 32–36 specify the offences and separate, lower ranges for responsible individuals and sole traders. Do not apply the manufacturer ceiling to every operator.",
+          "public_text": "Articles 32–36 set different ranges by offence and operator. Lower ranges apply to responsible individuals and sole traders.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "109516ac53141a9b009091872ae95c1dfdcce7f9b788eb855d3d135bbae9a57c",
+  "language_check": "language-check.json"
+}

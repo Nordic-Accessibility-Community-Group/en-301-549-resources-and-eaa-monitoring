@@ -1,0 +1,39 @@
+{
+  "country": "Italy",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#italy",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#italy",
+  "sources": [
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=24&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "label": "Legislative Decree 82/2022, Article 24",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Legislative Decree 82/2022, Article 24 — original published provision; separate Law 4/2004 regime not verified."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#italy",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Economic operators under Legislative Decree 82/2022, Article 24.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Economic operators under Legislative Decree 82/2022, Article 24.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Article 24(1) refers certain entities covered by Law 4/2004 to that law’s penalty regime. The €40,000 ceiling is therefore not universal. Exemptions and public procurement exclusions apply as specified in Article 24.",
+          "public_text": "Some organisations covered by Law 4/2004 fall under that law’s penalties instead. Article 24 also sets exemptions and public procurement exclusions.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "577b803c42831c5266825533a006893f5c04aac59f4ffd32d09930ffd9c71b3d",
+  "language_check": "language-check.json"
+}

@@ -1,0 +1,57 @@
+{
+  "country": "Netherlands",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official scope guidance and external overview checked; penalty schedule pending.",
+  "public_page": "EAA sanctions.md#netherlands",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#netherlands",
+  "sources": [
+    {
+      "url": "https://wetten.overheid.nl/BWBR0049571/",
+      "label": "Implementatiewet toegankelijkheidsvoorschriften producten en diensten",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Implementatiewet toegankelijkheidsvoorschriften producten en diensten."
+    },
+    {
+      "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+      "label": "ACM: e-commerce and electronic communications accessibility",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: ACM: e-commerce and electronic communications accessibility — scope guidance; does not establish a fine amount."
+    },
+    {
+      "url": "https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities",
+      "label": "Fieldfisher: risks of non-compliance",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Fieldfisher: risks of non-compliance — 2 May 2025; historical sector context."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#netherlands",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Separate regimes for products, e-commerce, electronic communications, banking, transport and media.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The applicable sanction depends on the sector and regulator; no single national maximum is established.",
+          "public_text": "Separate regimes for products, e-commerce, electronic communications, banking, transport and media.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "EAA areas covered: Unknown   ❓ Current sector-specific ceilings not verified. No single national maximum is asserted.",
+          "public_text": "❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The May 2025 external overview gives €103,000 for some authorities, without establishing an all-sector ceiling. Verify the relevant regulator’s current legal powers before using a figure.",
+          "public_text": "The applicable penalties depend on the sector and regulator.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "4c7f1da6c1e31b05de803ce6af8cbeec85e4e98b5036b26c49918f69a1de8bab",
+  "language_check": "language-check.json"
+}

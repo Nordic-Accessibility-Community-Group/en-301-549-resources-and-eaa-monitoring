@@ -1,0 +1,51 @@
+{
+  "country": "Denmark",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#denmark",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#denmark",
+  "sources": [
+    {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/kontrol-og-tilsyn/sikkerhedsstyrelsens-kontrol",
+      "label": "Sikkerhedsstyrelsens kontrol",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Sikkerhedsstyrelsens kontrol."
+    },
+    {
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801",
+      "label": "Act 801/2022",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act 801/2022 — law linked for reference; full penalty provisions not retrieved."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#denmark",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products and services within the scope of the accessibility law and the cited regulator guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Products and services within the scope of the accessibility law and the cited regulator guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "EAA areas covered: Unknown   Violations can be referred to the police for a fine. ❓ Amounts not established by the cited guidance.",
+          "public_text": "Violations can be referred to the police for a fine. Amount: ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Absence of an amount in the guidance does not mean that there is no financial sanction.",
+          "public_text": "❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "c3d217a90824a62c3e8005c6cb21c4f2104d41a3619b02f9aea2be20f87af40f",
+  "language_check": "language-check.json"
+}

@@ -1,0 +1,45 @@
+{
+  "country": "Bulgaria",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official indexed text checked; current currency/amendments and service penalty tiers remain unverified.",
+  "public_page": "EAA sanctions.md#bulgaria",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#bulgaria",
+  "sources": [
+    {
+      "url": "https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf",
+      "label": "Accessibility Requirements for Products and Services Act",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Accessibility Requirements for Products and Services Act — copy hosted by KZP; Articles 68 and 73."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#bulgaria",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products:    The listed Article 73 amounts concern specified manufacturer/importer violations. Current currency treatment remains unknown.    E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:    ❓ Unknown",
+          "public_text": "Products:    Article 73 covers specified violations by manufacturers and importers.    E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "Products:   The regulator-hosted law lists BGN 1,000–5,000 fines or BGN 5,000–25,000 pecuniary sanctions for specified product violations in Article 73, with doubled ranges for repeat violations. ❓ Current currency treatment and amended amounts require verification.",
+          "public_text": "Products:   Current amounts: ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The figures are the amounts printed in the located text, not a verified current euro schedule. Other offences have separate provisions.",
+          "public_text": "Different penalties apply to different offences. Article 73 doubles the ranges for repeat violations.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "08fcb6819a5f27120ba9e57ddbe7dfb56afca4edd8cef4af18cad8dbd4fe3bd3",
+  "language_check": "language-check.json"
+}
