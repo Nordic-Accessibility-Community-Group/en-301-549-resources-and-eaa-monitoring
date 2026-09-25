@@ -1,0 +1,84 @@
+{
+  "scope": "Process-only setup; no public wording or factual research changes",
+  "reviewed_file_sha256": {
+    "README.md": "a2472700a2ee2ff524c3774461b1afdae83be66b0057405d02a2ab5e94af9461",
+    "baseline-map.json": "2ece63c50c290efb0da2e301f45a177176d39376a8da519953037aca0242daeb",
+    "check.py": "91a8b77230611b5bcd6f66f79af3166f87ebb365d98aec031feeb57bc7b9a036",
+    "claim-template.json": "d5406ab50da4534506bc07bf85db278dc32863f0f610b0217528fb261a55ba3a",
+    "presentation.md": "a6ca27314f7d0f556891e41990a9737f6fc8a3acc21a3bed2b40f413e4c70547",
+    "public-map.json": "2ece63c50c290efb0da2e301f45a177176d39376a8da519953037aca0242daeb",
+    "record-format.md": "ac2c54f6b1bcda6c6b957b8c43fa02ed16cf7155c6c4da4227d64d0fdb1ec6bc",
+    "record-template.json": "78a130158794002505d983252f4d58ce59439b875b813237a2ccbb42305337cb",
+    "research/README.md": "813d4d715416046c2b961b6a2309c5ba46dba6053379bb61ff7614f97dfa3dd6",
+    "research/austria.json": "0bb3824c61a6456fedddf3bf9900c9512170a8ac9cb3030fc7777b03ec2038d2",
+    "research/belgium.json": "b731bcb6d5a2125155d95b46893fc3b8ffccf1526ae892a8303815f8341d7441",
+    "research/bulgaria.json": "29292bd08ec4df0d80853aeda37aa41e002576ffe2868b581ae05175375df470",
+    "research/croatia.json": "5fa4e726871101b4fe54f972e145b46464ed7d24e6bf2b1ea0781b70124bd21c",
+    "research/cyprus.json": "313057a69b17ec442a72abc848b99b986b17d1d3ee6ee581ee9c46883e1031b6",
+    "research/czechia.json": "a1cc10940d3e7fdb6031ee095a27a5ab900b69786b63a2d2fb21c45579181975",
+    "research/denmark.json": "e68e56681114b74f4e52b45bf121fd8eea3ace3b11e8895b7875f233f7566c2f",
+    "research/estonia.json": "f8b23e3257c94a87ac761fa466d24294af81ee48e6d40d6dcebac02265c3caf3",
+    "research/finland.json": "e86cb6c892f771156d833a552aa552068cf7c29ed133c1069abe97fe33c245fc",
+    "research/france.json": "4b08f28f0a471490f48381b25cdf6a51dcb1edc26730822e9567ade63fa00ea5",
+    "research/germany.json": "d098530dba0037b08286a0eebb67df55cb4634f4622d04aed1cd9436d80ac84f",
+    "research/greece.json": "3174e68eb32817eed7eeca67130644b5894c8556aa26c50684da684a653c1834",
+    "research/hungary.json": "961a42bff85d7d99bc56c7d111aa0fcd2715f0a6486872d942d6ef04d5ead50d",
+    "research/ireland.json": "a3d2440c34fb206240c899a153a39bf700a15254616709e4b014fd56fc53e49d",
+    "research/italy.json": "8b047d47b7e9b0252d38e308beeb88e7c7929695fb1220f2e4c9ff5f27cdf3a2",
+    "research/latvia.json": "ee0377e99bc606dae7f35122a1cbc584ba17a1ae00d659d2756c885b5c547a3e",
+    "research/lithuania.json": "d602ea5cb9b5e4e3ca48b89949facae7c0b14ee32927121ec220d154ce36a272",
+    "research/luxembourg.json": "f3e4b7d6d5b45a3ad41204db6b8584c71b03d21e4315b09d9222da826e111176",
+    "research/malta.json": "0b82bd5abb76c137e34d27886fdbc8867f566eafb31ab1657c5692a9dccd082f",
+    "research/netherlands.json": "6dfb1929641a8a8634a77cadc2552a6e7002b8871b068d6048d3bdd2bd09927f",
+    "research/norway.json": "453672dfee4c42993507a5c427b3ae3d3a69b19f720ea9224fa212d46b797636",
+    "research/poland.json": "3f880dae38aa031f0f186c1a9c178c238745968209a1a2c433fe4f60afb9f87a",
+    "research/portugal.json": "e42af768e64ec6959de1bbb634f809d7fa563676d9dd6050e5ceb421dcb33786",
+    "research/romania.json": "797bf130d528cac95c2447abcb92de4bb388271b2a50a3a4c650c2af0f0e551a",
+    "research/slovakia.json": "261b0b55b3f8b9efaf64b8d7a36d4c753d059c01c7265b97b286080c9ee8e00b",
+    "research/slovenia.json": "e48b423a67af8a061d802625e348ddd2919c1616f843a332e3b4720cf53872da",
+    "research/spain.json": "53308442eacc58edbabf99ac607425a8833dcf621cd679bcfb5e2f34a3cb4f4d",
+    "research/sweden.json": "c3071a62944dfe45100f2838aead8d624a50c9b2d7414edd307318975a505482",
+    "test_check.py": "752c8f44517bb2445427c9b1ae3f1508eefcc02deba73117d6991260ff4d31d1",
+    "workflow.md": "765310fe8c6611131a3af7de329667e480c1748ba5cfedd617a091ac3635a9d0"
+  },
+  "independent_review": {
+    "reviewer": "process_review (separate agent, no conversation history)",
+    "status": "passed_after_corrections",
+    "findings": [
+      {
+        "issue": "Frozen baseline could be rewritten with current map",
+        "resolution": "Bound frozen baseline to a fixed checksum; regression test rejects both-map rewrite."
+      },
+      {
+        "issue": "Validator does not cover public prose or certify review reports",
+        "resolution": "Explicitly documented separate independent PR-review gates."
+      },
+      {
+        "issue": "Tests depended on live table contents",
+        "resolution": "Replaced live inputs with synthetic fixtures and added a positive verified-publication case."
+      }
+    ]
+  },
+  "source_fidelity": {
+    "status": "not_applicable",
+    "reason": "No proposed public source-based wording or translations."
+  },
+  "readability": {
+    "status": "not_applicable",
+    "reason": "No public page edits; future B2 review is specified in workflow.md."
+  },
+  "checks": {
+    "enforcement": "PASS: 28 records, 13 mapped inherited entries",
+    "regression_tests": "PASS: 19 synthetic tests",
+    "markdownlint": "PASS: repository configuration, markdownlint-cli2 0.23.2",
+    "relative_document_links": "PASS: 20 destinations; full lychee anchor check unavailable locally",
+    "rendered_html": "NOT CLEAN locally: marked 18.0.9 + macOS Tidy 2006 report warnings on four unchanged public tables. Not equivalent to Ubuntu CI Tidy; no public files modified.",
+    "calendar_date_check": "PASS: no last_verified markers; unrelated to enforcement evidence",
+    "public_page": "Byte-for-byte unchanged from base commit a82f3d72a8e2aaf9b138e3714e65367d0388654e"
+  },
+  "limits": [
+    "No legal claims, external source reachability or enforcement evidence reverified.",
+    "GitHub CI and final remote-head review are reported in the PR description after publication.",
+    "AI review does not approve or merge the PR."
+  ]
+}
