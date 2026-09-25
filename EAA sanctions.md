@@ -1,26 +1,10 @@
 # EAA sanctions by country
 
-The European Accessibility Act (EAA) is implemented through national law. The possible sanctions therefore differ between countries.
+The European Accessibility Act (EAA) is implemented through national law. The possible sanctions therefore differ between countries. For authorities and reporting routes, see [monitoring agencies information](monitoring-agencies-information.md).
 
 This page describes sanctions available under national legislation. It does not mean that these sanctions have been imposed. See [EAA enforcement tracking](EAA%20enforcement%20tracking.md) for reported enforcement activity.
 
 This information is provided as a community resource and is not legal advice. Please check the linked legislation and guidance for the current rules.
-
-## Reading the table
-
-This first source review covers all 27 EU Member States. Each country has one row; where rules differ, the scope and conditions columns identify the limits of the summary. For authorities and reporting routes, see [monitoring agencies information](monitoring-agencies-information.md). For reported enforcement activity, see [EAA enforcement tracking](EAA%20enforcement%20tracking.md).
-
-- **⚖️ Official law**: legislation on an official legal portal or reproduced by a government body.
-- **🏛️ Official government / regulator**: guidance or information published by a public authority.
-- **📰 External — news**: reporting by an identified news publisher, with a publication date.
-- **📘 External — legal analysis / legal database**: named external legal commentary or reproduced legislation; it is not government guidance.
-- **❓ Unknown** means that the information has not yet been established. It does not mean that there is no sanction.
-
-Amounts describe available legal measures, not fines known to have been imposed. Administrative fines, criminal fines and conditional or recurring payments are distinguished. Source labels describe provenance, not a guarantee that every statement in a linked article is correct. External articles provide context; a figure supported only by an external source is marked accordingly. Last checked records the review date and its limitations, not a guarantee of complete country coverage. Amounts remain in the source currency; historical amounts awaiting a current-law check are explicitly flagged.
-
-The **EAA areas and scope** column uses the same area labels as the monitoring page: **Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls**. Each country keeps one row, with bold area headings inside the cells. Areas are grouped where the cited provisions support a shared sanctions framework. Product penalties must not be assumed to cover the service delivered through a product, or vice versa.
-
-**❓ Unknown** under an area means that its sanctions or the applicability of the listed framework have not yet been established. A **Framework summary** retains available information that has not yet been mapped to individual areas; it is not an all-sector penalty. Read the financial sanctions and other measures together with the scope and conditions. An unknown area does not imply that it is exempt from the EAA.
 
 ## EU countries
 
@@ -412,3 +396,11 @@ The **EAA areas and scope** column uses the same area labels as the monitoring p
     </tr>
   </tbody>
 </table>
+
+## Reading the table
+
+- **❓ Unknown**: We do not yet have confirmed information. This does not mean that no sanction applies.
+- **Framework summary**: The legal rules are known, but we have not confirmed which EAA areas each sanction covers.
+- A sanction for a product does not automatically apply to the service used through that product.
+- A **conditional fine** is a payment used to make a business follow an order.
+- **Last checked** shows when the sources were reviewed. Some details may still need checking.
