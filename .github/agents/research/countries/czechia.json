@@ -1,0 +1,558 @@
+{
+  "schema_version": 2,
+  "country": "Czechia",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-d2bba88d174341341e976a84": {
+      "url": "https://mpo.gov.cz/cz/podnikani/pristupnost-vyrobku-a-sluzeb/vzor-prohlaseni-o-pristupnosti--291601/",
+      "accessed_on": "2026-09-24",
+      "source_type": "government",
+      "section": "Vzor prohlášení o přístupnosti, published 9 February 2026",
+      "evidence": "MPO says the template is entirely voluntary and providers may satisfy section 14 in any compliant way."
+    },
+    "source-8fab3df6e2febbcb4ac60ef4": {
+      "url": "https://rrtv.gov.cz/cz/static/prehledy/pozadavky-na-pristupnost-sluzeb/index.htm",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Požadavky na přístupnost služeb, lines 37–39",
+      "evidence": "RRTV says the law sets no required form for the published statement."
+    },
+    "source-ef92b768c8e691238496199a": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Service information guidance",
+      "evidence": "Information belongs in general terms or similar document and remains published throughout service delivery."
+    },
+    "source-bd508efdc91f8e2370386aa3": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Service information guidance",
+      "evidence": "Audio delivery on request."
+    },
+    "source-704ec4de6e92b5799d53ac95": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Authority roster, lines 23–48",
+      "evidence": "ČOI supervises products and services except expressly allocated communications, audiovisual and transport services."
+    },
+    "source-a10c32b7a163d90d30aa1443": {
+      "url": "https://ctu.gov.cz/pristupnost-sluzeb",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Dozor nad přístupností",
+      "evidence": "ČTÚ states it supervises electronic communications accessibility."
+    },
+    "source-f7fbf68fef50d6b1e456d062": {
+      "url": "https://rrtv.gov.cz/cz/static/prehledy/pozadavky-na-pristupnost-sluzeb/index.htm",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Požadavky na přístupnost služeb",
+      "evidence": "RRTV identifies its audiovisual-access remit."
+    },
+    "source-af35341100ef78f4560e40db": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Authority roster, lines 42–48",
+      "evidence": "Lists each transport authority and service type."
+    },
+    "source-eecc44d165e33ca58c120894": {
+      "url": "https://ctu.gov.cz/pristupnost-sluzeb",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Electronic communications guidance",
+      "evidence": "Discusses emergency communications within communications-service requirements, not an explicit PSAP-answering oversight assignment."
+    },
+    "source-c4c2d7ba0ab0f7c9bf78aed0": {
+      "url": "https://coi.gov.cz/podatelna/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "E-podatelna",
+      "evidence": "Direct consumer complaint route; form may be sent without login."
+    },
+    "source-1114edc049a7b40826ac510c": {
+      "url": "https://coi.gov.cz/pro-podnikatele/pristupnost-vyrobku-a-sluzeb-pro-podnikatele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Section 15(5) submission instructions, lines 79–96",
+      "evidence": "Lists regional data-box destinations and alternative inspectorate submission."
+    },
+    "source-9a6a1a0c3eeb7c6318053bbd": {
+      "url": "https://rrtv.gov.cz/files/formulare/AVMSNES.pdf",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "AVMSNES-02",
+      "evidence": "Form and submission instructions for section 13(2) notification."
+    },
+    "source-1c38c914021f2b97f75097ac": {
+      "url": "https://rrtv.gov.cz/files/formulare/AVMSVYJ.pdf",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "AVMSVYJ-02",
+      "evidence": "Form and submission instructions for section 15(5) notification."
+    },
+    "source-8470aebd95858bec6f26ef9a": {
+      "url": "https://e-sbirka.gov.cz/sb/2023/424",
+      "accessed_on": "2026-09-24",
+      "source_type": "legislation",
+      "section": "Current e-Sbírka record",
+      "evidence": "National implementing act."
+    },
+    "source-2b0ba81038c3d83e714e3689": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Introduction",
+      "evidence": "States transposition and effective date."
+    },
+    "source-228bb150f006416ec701b828": {
+      "url": "https://portal.gov.cz/sluzby-vs/vyzva-k-prijeti-opatreni-k-naprave-u-sluzeb-ze-strany-ceske-obchodni-inspekce-S93672",
+      "label": "Government portal: corrective measures for services",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Government portal: corrective measures for services."
+    },
+    "source-111924ba713fca0ddea50ec6": {
+      "url": "https://e-sbirka.gov.cz/sb/2023/424",
+      "label": "Zákon č. 424/2023 Sb.",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Zákon č. 424/2023 Sb.."
+    },
+    "source-8888a604367c4f724c4c7c65": {
+      "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+      "source_type": "external_news_report",
+      "reference": "Czech Republic section, 2025-12-19",
+      "passage": "plans to publish lists",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-fa4d32fcb15757e5ea17b05d": {
+      "url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+      "source_type": "official_authority_publication",
+      "reference": "Page heading identifies Act 424/2023; final paragraph links the list under sections 22 and 24",
+      "passage": "Seznam výrobků a služeb v dozorové působnosti České obchodní inspekce, zveřejňovaný v souladu s § 22 a § 24 zákona, je k dispozici zde.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "incomplete_entry_research",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "No — the government accessibility-statement template is voluntary; the law does not require that template or a specific statement format.",
+          "status": "verified",
+          "review_note": "Existing Unknown changed to No because explicit government and competent-body text says the statement template is voluntary and no form is prescribed. This does not remove the separate statutory public-information duty. Isolated Czech-to-English review on 2026-09-24 by /root/czech_language (fork_turns=none) found the final voluntary-template wording Supported.",
+          "directive_context": "EAA",
+          "existing_text": "❓ Unknown",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [
+            "source-d2bba88d174341341e976a84",
+            "source-8fab3df6e2febbcb4ac60ef4"
+          ],
+          "id": "monitoring-80d670541f4e6968c1f72b7e"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Covered service providers publish accessibility information in general terms and conditions or a similar document throughout service provision.",
+          "status": "verified",
+          "review_note": "Separate from dedicated-page question; microenterprise service providers are excluded. Isolated review found the final public-information wording Supported.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-ef92b768c8e691238496199a"
+          ],
+          "id": "monitoring-5a6108b5923826573705ef0f"
+        },
+        {
+          "field": "service_information",
+          "assertion": "The provider supplies the accessibility information in audio form on request.",
+          "status": "verified",
+          "review_note": "Public request mode; not authority-on-request conformity evidence.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [
+            "source-bd508efdc91f8e2370386aa3"
+          ],
+          "id": "monitoring-177f30ffccfa7ad516ff8c79"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Information supplied to an authority on reasoned request: Unknown.",
+          "status": "unknown",
+          "review_note": "Not established in the retrieved guidance within the bounded run.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [],
+          "id": "monitoring-a245044da05975179ceb03b5"
+        },
+        {
+          "field": "authority",
+          "assertion": "Česká obchodní inspekce (ČOI) supervises covered products, e-commerce, banking and e-books.",
+          "status": "verified",
+          "review_note": "Existing ČOI link reachable and correct. The service grouping follows the official exceptions list. Isolated review found the sector-to-authority mapping Supported, provided the mapping is preserved exactly.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking and E-books",
+          "source_refs": [
+            "source-704ec4de6e92b5799d53ac95"
+          ],
+          "id": "monitoring-f86b9371230eb03eeb0f3b30"
+        },
+        {
+          "field": "authority",
+          "assertion": "Český telekomunikační úřad (ČTÚ) supervises electronic communications services.",
+          "status": "verified",
+          "review_note": "Official EAA page reachable. Isolated review found the sector-to-authority mapping Supported, provided the mapping is preserved exactly.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "source_refs": [
+            "source-a10c32b7a163d90d30aa1443"
+          ],
+          "id": "monitoring-5cd39491de3a5a70568d797e"
+        },
+        {
+          "field": "authority",
+          "assertion": "Rada pro rozhlasové a televizní vysílání (RRTV) supervises services providing access to audiovisual media.",
+          "status": "verified",
+          "review_note": "Official EAA page reachable. Isolated review found the sector-to-authority mapping Supported, provided the mapping is preserved exactly.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-f7fbf68fef50d6b1e456d062"
+          ],
+          "id": "monitoring-cccec93387369dc0a9ccdf35"
+        },
+        {
+          "field": "authority",
+          "assertion": "Transport oversight is divided among the Ministry of Transport, regional authorities, Railway Authority, Civil Aviation Authority, State Navigation Administration, Prague City Hall and municipalities with extended powers.",
+          "status": "verified",
+          "review_note": "Official sites for all named national bodies and Prague were reachable on 2026-09-24. Decentralized regional/municipal authority types have no single regulator website. Isolated review found the sector-to-authority mapping Supported, provided the mapping is preserved exactly.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-af35341100ef78f4560e40db"
+          ],
+          "id": "monitoring-c38a333388731896ffd74971"
+        },
+        {
+          "field": "authority",
+          "assertion": "Authority for accessibility of the response to 112 emergency calls: Unknown.",
+          "status": "unknown",
+          "review_note": "Do not infer receiver-side/PSAP oversight from ČTÚ provider-side communications remit.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [
+            "source-eecc44d165e33ca58c120894"
+          ],
+          "id": "monitoring-1c3d1a0a53012d1fd41d44f4"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Inspection submissions for ČOI-supervised sectors may be filed through the ČOI E-portal without login.",
+          "status": "verified",
+          "review_note": "General ČOI inspection complaint route, not an EAA-labelled form. Isolated review recommended 'inspection submissions' as the closer rendering of podněty ke kontrole; correction applied.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking and E-books",
+          "reporting_route": {
+            "authority": "Česká obchodní inspekce",
+            "sector": "Products, E-commerce, Banking and E-books",
+            "channel": "form",
+            "destination": "https://eportal.coi.gov.cz/",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-c4c2d7ba0ab0f7c9bf78aed0"
+          ],
+          "id": "monitoring-33bd22e8215aaaf6b0f42c00"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Exemptions for ČOI-supervised sectors are sent to the competent regional ČOI inspectorate by data box; the guidance provides an inspectorate route when a data box cannot be used.",
+          "status": "verified",
+          "review_note": "Guidance requests company ID, subject line, affected product/service, unmet requirements, grounds, assessment date and declaration where applicable. Czech-language submission route; accepted foreign languages not established. Isolated review found the final route wording Supported after using 'service non-compliance' and explicit form-submission wording.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking and E-books",
+          "reporting_route": {
+            "authority": "Česká obchodní inspekce",
+            "sector": "Products, E-commerce, Banking and E-books",
+            "channel": "postal_or_in_person",
+            "destination": "https://coi.gov.cz/pro-podnikatele/pristupnost-vyrobku-a-sluzeb-pro-podnikatele/",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-1114edc049a7b40826ac510c"
+          ],
+          "id": "monitoring-1d0874bbdeaa00eaffd2f377"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Company non-compliance route for ČOI-supervised sectors: Unknown.",
+          "status": "unknown",
+          "review_note": "A specific section 13(2) route was not established; do not substitute the exemptions instructions.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking and E-books",
+          "source_refs": [],
+          "id": "monitoring-9cd7edfc6acfae77c920c01b"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "RRTV provides a service non-compliance form for audiovisual-access providers, submitted by data box or post.",
+          "status": "verified",
+          "review_note": "Form version 1 March 2026. Isolated review found the final route wording Supported after using 'service non-compliance' and explicit form-submission wording.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "reporting_route": {
+            "authority": "Rada pro rozhlasové a televizní vysílání",
+            "sector": "Audiovisual access",
+            "channel": "form",
+            "destination": "https://rrtv.gov.cz/files/formulare/AVMSNES.pdf",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-9a6a1a0c3eeb7c6318053bbd"
+          ],
+          "id": "monitoring-b699a553760e485600ad8674"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "RRTV provides an Exemptions form for audiovisual-access providers, submitted by data box or post.",
+          "status": "verified",
+          "review_note": "Form version 1 March 2026. Label kept as Exemptions; EAA Article 14 counterpart retained only in research context. Isolated review found the final route wording Supported after using 'service non-compliance' and explicit form-submission wording.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "reporting_route": {
+            "authority": "Rada pro rozhlasové a televizní vysílání",
+            "sector": "Audiovisual access",
+            "channel": "form",
+            "destination": "https://rrtv.gov.cz/files/formulare/AVMSVYJ.pdf",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-1c38c914021f2b97f75097ac"
+          ],
+          "id": "monitoring-940416e746940d58eb23c35a"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Public complaint routes for electronic communications, audiovisual access, transport and 112: Unknown.",
+          "status": "unknown",
+          "review_note": "General complaint/contact pages were not promoted where EAA intake was not explicit. RRTV's form is oriented to programme/service complaints and was not confirmed as EAA accessibility intake.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications, Audiovisual access, Transport and 112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-40577d16d3428fd5536366f6"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Company non-compliance and Exemptions routes for electronic communications and transport: Unknown.",
+          "status": "unknown",
+          "review_note": "No EAA-purpose destinations verified within the bounded run.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications and Transport",
+          "source_refs": [],
+          "id": "monitoring-68faebe70cf22e47d0b45079"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Act No. 424/2023 Coll. implements the EAA and took effect on 28 June 2025.",
+          "status": "verified",
+          "review_note": "Act 236/2024 amended the law before commencement; e-Sbírka link retained for current official text.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-8470aebd95858bec6f26ef9a",
+            "source-2b0ba81038c3d83e714e3689"
+          ],
+          "id": "monitoring-bd71f1a27299136798a146d5"
+        }
+      ],
+      "questions": [
+        "Before PR: RESOLVED — existing statement Unknown replaced with No only after MPO and RRTV explicitly confirmed that no specific statement form is required and the government template is voluntary.",
+        "Before PR: NARROWED — ČTÚ emergency-communications guidance does not establish receiver-side 112 oversight; 112 authority remains Unknown.",
+        "Before PR: OMITTED — general RRTV and other authority complaint pages were not treated as EAA routes without explicit scope.",
+        "Before merge: Compare the No statement wording with MPO's 9 February 2026 voluntary-template notice and confirm the separate section 14 public-information duty remains visible.",
+        "Before merge: Compare the detailed transport authority mapping with the ČOI roster; confirm decentralized regional and municipal authority types are not presented as a single body.",
+        "Follow-up: Verify EAA-purpose public complaint and company reporting routes for ČTÚ and each transport authority, including accepted languages and authentication.",
+        "Follow-up: Establish the competent authority and usable reporting route for accessibility of the response to 112 emergency calls.",
+        "Run scope: baseline main includes merged Cyprus PR #20. Only Czechia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
+        "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
+        "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Czechia. The email date, recipient and original message were not supplied."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#czechia",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#czechia",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#czechia",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "E-commerce, Banking and E-books:    The listed corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.    Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+              "public_text": "E-commerce, Banking and E-books:    The corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.    Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "The government guidance ties this ceiling to non-compliance with corrective requirements under Act 424/2023. Other offence tiers need separate checking.",
+              "public_text": "The maximum applies to failure to follow corrective requirements under Act 424/2023.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Sources",
+              "previous_text": "🏛️ Official government / regulator:   Government portal: corrective measures for services . \n            ⚖️ Official law:   Zákon č. 424/2023 Sb. .",
+              "public_text": "🏛️ Official government / regulator:   Government portal: corrective measures for services . \n            ⚖️ Official law:   Zákon č. 424/2023 Sb.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "ddcd7103bf4ce5741ff3c25fce623131ccbc4bc1f7590b4b9179eab38d16bc69",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-228bb150f006416ec701b828",
+        "source-111924ba713fca0ddea50ec6"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "Original czechia-1 row is preserved by its pinned baseline at f06450eca836087e73c9295485d52c338996a28b. This pass replaces the secondary-source prediction with a narrow statement about what ČOI’s own guidance links to.",
+        "Reportable activity found means the guidance links to a statutory list; it does not mean a business was found in breach, fined or subject to a final decision.",
+        "The linked list could not be inspected. The web reader returned Internal Error on its link; a browser retry was denied because the admin-enforced security-policy check was unavailable. No workaround was attempted. No publication/event date for the list has been established.",
+        "All Monitoring agencies research, 25 September 2026: Fresh targeted search did not establish a new inspection outcome. Reused same-day recorded source audit and its access limits; did not retry the browser-denied site or present the statutory list as completed enforcement. Existing verified list-reference claim preserved."
+      ],
+      "public_entry_ids": [
+        "czechia-1"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Replace the inherited list-publication lead with official support, without inferring completed enforcement.",
+          "sources_checked": [
+            "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+            "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/"
+          ],
+          "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:coi.gov.cz přístupnost 2026 kontroly seznam výrobků služeb. Follow-up: site:coi.gov.cz \"Seznam výrobků a služeb\" \"přístupnost\". Guidance retrieved; linked-list reader failed once. Browser retry denied at parent page by unavailable security-policy check; list destination not exposed. No further list access attempted.",
+          "next_check": "Read the underlying list and record its dates, scope and any actual measures on a later pass."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.coi.gov.cz \"přístupnost\" \"kontrol\" \"2026\"",
+          "sources_checked": [
+            "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/"
+          ],
+          "limitations": "Fresh targeted search did not establish a new inspection outcome. Reused same-day recorded source audit and its access limits; did not retry the browser-denied site or present the statutory list as completed enforcement. Existing verified list-reference claim preserved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "czechia-inherited-list-plan",
+          "kind": "monitoring_activity",
+          "text": "The inherited secondary report described a plan to publish non-compliance lists under GPSR and the EAA.",
+          "authority_or_court": "Unspecified Czech supervisory authority in secondary report",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "reported_publication_plan",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": "2025-12-19",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Retained as historical secondary reporting. The current official page references Act 424/2023; this pass does not verify the separate GPSR statement.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-8888a604367c4f724c4c7c65"
+          ]
+        },
+        {
+          "id": "czechia-inherited-active-status",
+          "kind": "monitoring_activity",
+          "text": "The original row labels the Czech supervisory activity Active.",
+          "authority_or_court": "Unknown in inherited row",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "inherited_status",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "That label does not identify an actual investigation or outcome. Replaced with List publication, confined to the official guidance statement.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": []
+        },
+        {
+          "id": "czechia-coi-statutory-list-reference",
+          "kind": "monitoring_activity",
+          "text": "ČOI’s accessibility guidance links to a list of the products and services it supervises. The list is published under sections 22 and 24 of Act No. 424/2023.",
+          "authority_or_court": "Česká obchodní inspekce (ČOI)",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act No. 424/2023, sections 22 and 24, as explicitly cited by ČOI guidance; page identifies it as the national implementation of Directive (EU) 2019/882.",
+          "action_type": "statutory_list_reference",
+          "procedural_stage": "unknown",
+          "stage_detail": "List publication (a statement on the guidance page; list contents and enforcement outcomes unverified).",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Sectors left unassigned because the list was not inspected. No fine, named business, case outcome or publication date is asserted.",
+          "next_check": "Inspect the linked list when authorised access is available; verify any entries and outcomes before expanding public wording.",
+          "source_refs": [
+            "source-fa4d32fcb15757e5ea17b05d"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "What does the linked ČOI list actually contain, and does it report any individual measure or outcome?",
+          "owner": "Future researcher after access is available",
+          "resolved_when": "The list is read through permitted access and each proposed outcome has a dated primary passage."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Does the secondary report’s separate GPSR statement have official support?",
+          "owner": "Future enforcement researcher",
+          "resolved_when": "A relevant official GPSR publication is checked if that claim is proposed for publication."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

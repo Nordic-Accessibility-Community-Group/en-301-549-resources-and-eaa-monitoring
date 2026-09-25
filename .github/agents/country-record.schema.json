@@ -11,44 +11,8 @@
   ],
   "properties": {
     "country": {
-      "enum": [
-        "Austria",
-        "Belgium",
-        "Bulgaria",
-        "Croatia",
-        "Cyprus",
-        "Czechia",
-        "Denmark",
-        "Estonia",
-        "Finland",
-        "France",
-        "Germany",
-        "Greece",
-        "Hungary",
-        "Ireland",
-        "Italy",
-        "Latvia",
-        "Lithuania",
-        "Luxembourg",
-        "Malta",
-        "Netherlands",
-        "Poland",
-        "Portugal",
-        "Romania",
-        "Slovakia",
-        "Slovenia",
-        "Spain",
-        "Sweden",
-        "Greenland",
-        "Faroe Islands",
-        "Åland",
-        "Iceland",
-        "Liechtenstein",
-        "Norway",
-        "Canada",
-        "Switzerland",
-        "United Kingdom"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "record_type": {
       "enum": [

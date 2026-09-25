@@ -45,10 +45,15 @@ class RecordChecks(unittest.TestCase):
             self.write('research/' + country.lower() + '.json', record)
 
     def read(self, path):
+        if path.startswith('research/'):
+            return CHECK.country_records.load(self.root, Path(path).stem, 'enforcement')
         return json.loads((self.folder / path).read_text())
 
     def write(self, path, value):
-        (self.folder / path).write_text(json.dumps(value))
+        if path.startswith('research/'):
+            CHECK.country_records.save_domain(self.root, value, 'enforcement')
+        else:
+            (self.folder / path).write_text(json.dumps(value))
 
     def rejects(self, fragment):
         with self.assertRaisesRegex(ValueError, fragment):
@@ -59,7 +64,7 @@ class RecordChecks(unittest.TestCase):
         self.assertEqual(self.read('research/belgium.json')['public_entry_ids'], [])
 
     def test_missing_eu_record_fails_even_without_public_entry(self):
-        (self.folder / 'research/belgium.json').unlink()
+        (CHECK.country_records.folder(self.root) / 'belgium.json').unlink()
         self.rejects('Missing EU research')
 
     def test_aland_territory_record_does_not_require_public_entry(self):

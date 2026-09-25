@@ -1,0 +1,735 @@
+{
+  "schema_version": 2,
+  "country": "Slovenia",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-01ee1ce86b25a456ac481c38": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§2–4",
+      "evidence": "Directive and scope stated.",
+      "source_type": "legislation"
+    },
+    "source-3fb0584b9b096600b706996f": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§§1,14,17,19",
+      "evidence": "Rail and emergency scope; 112/113/116000 answering duty by 28 June 2027.",
+      "source_type": "legislation"
+    },
+    "source-d39feaa0d36d49e689f3f323": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§21(2)",
+      "evidence": "Requires public service conformity information; no dedicated statement page specified.",
+      "source_type": "legislation"
+    },
+    "source-a25623e0f653e12198e6500a": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§5 (new §8(2))",
+      "evidence": "Requires explanation in general terms and conditions or equivalent document.",
+      "source_type": "legislation"
+    },
+    "source-30f5eecdbec81cc1ff8cb713": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§5 (new §8(2))",
+      "evidence": "In general conditions or equivalent document, provider states how service meets requirements.",
+      "source_type": "legislation"
+    },
+    "source-95852407afa54387f37a3f77": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§21(2)",
+      "evidence": "Public written and oral information, comprehensible format, retention and publication during service.",
+      "source_type": "legislation"
+    },
+    "source-069220327e7d4661e2d0fc6d": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§21(2),(5),22(3),26(3)",
+      "evidence": "Public information is required, authority has on-request power; TIRS gives consumers certain product compliance information on request.",
+      "source_type": "legislation"
+    },
+    "source-583338903a9bce4115bb31fd": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§21(5)",
+      "evidence": "On request provider submits all information from subsection 2 to service supervisory authority.",
+      "source_type": "legislation"
+    },
+    "source-1830c372ffcb70d17fbfc11e": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§26(2),30(7),31",
+      "evidence": "TIRS product and e-commerce remit; service authority handles complaints and reports.",
+      "source_type": "legislation"
+    },
+    "source-8e4b0604d1e7cd36eda6f82a": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§14",
+      "evidence": "§30(7) is renumbered §30(8), with no change to e-commerce remit.",
+      "source_type": "legislation"
+    },
+    "source-c23c030f19b98f1c2b8eda63": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§30(1),(6),(8)",
+      "evidence": "Specific AKOS scope.",
+      "source_type": "legislation"
+    },
+    "source-07482128e5f57269a29a3a6f": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§14",
+      "evidence": "§30 e-book scope reconfirmed and subsections renumbered.",
+      "source_type": "legislation"
+    },
+    "source-cb8792c877b04b7649305287": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§30(5)",
+      "evidence": "Banking supervision split by underlying legislation.",
+      "source_type": "legislation"
+    },
+    "source-4cf7e4cd124ea3e5f20624bb": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§14",
+      "evidence": "Renumbered to §30(6).",
+      "source_type": "legislation"
+    },
+    "source-93694115ba929da17b7046d2": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§30(2)–(4)",
+      "evidence": "Water, air, bus shared/specific oversight.",
+      "source_type": "legislation"
+    },
+    "source-f1f10c697224e7566dd7dffc": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§14 (new §30(5))",
+      "evidence": "Rail oversight assigned to inspectorates competent for roads/rail/cableways/ski slopes, road transport, and public passenger transport.",
+      "source_type": "legislation"
+    },
+    "source-af34fa958a1d086b05e256c5": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§26,30",
+      "evidence": "Specific other supervisors assigned.",
+      "source_type": "legislation"
+    },
+    "source-7ed8062f2fce0038a878ed1e": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§§1,5,17",
+      "evidence": "Answering obligation by 28 June 2027; does not clearly name answering-centre oversight body.",
+      "source_type": "legislation"
+    },
+    "source-35b20af0087e2517fef2d674": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§30(8)",
+      "evidence": "AKOS supervises emergency communication services.",
+      "source_type": "legislation"
+    },
+    "source-287c0348dbc3aac6bf5e709d": {
+      "url": "https://e-uprava.gov.si/si/podrocja/drzava-druzba/inspekcijski-postopki/prijava-trzni-inspekciji?lang=si&view_mode=2",
+      "accessed_on": "2026-09-24",
+      "section": "Prijava kršitve Tržnemu inšpektoratu brez uporabe e-identitete",
+      "evidence": "Electronic, postal and in-person report, including anonymous; no e-ID needed.",
+      "source_type": "government"
+    },
+    "source-bf4dd6e7d5cbafc79035e29d": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§26(2),30(7),31(1)",
+      "evidence": "TIRS competent for products/e-commerce and handles service reports.",
+      "source_type": "legislation"
+    },
+    "source-779d6aef94f79be125ff6ccd": {
+      "url": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+      "accessed_on": "2026-09-24",
+      "section": "Prijava kršitev s področja delovanja Agencije",
+      "evidence": "Visible agency remit form for regulatory breaches, optional anonymous report; separate from user dispute.",
+      "source_type": "monitoring_body"
+    },
+    "source-eaa005f775235133a02446a9": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§30(1),(6),(8),31(1)",
+      "evidence": "AKOS sector competence and complaint/report handling.",
+      "source_type": "legislation"
+    },
+    "source-792437d0b848d03cd6fc9ce4": {
+      "url": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+      "title": "Prijava kršitev na področjih delovanja Agencije za komunikacijska omrežja in storitve Republike Slovenije",
+      "publisher": "AKOS",
+      "accessed": "2026-09-24",
+      "locator": "Required area selector",
+      "evidence": "The selector includes 'elektronski mediji' (electronic media), but does not explicitly identify accessibility of services providing access to audiovisual media services.",
+      "evidence_type": "paraphrase",
+      "source_type": "monitoring_body"
+    },
+    "source-7ba3814c5af50ad8d191bcac": {
+      "url": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+      "accessed_on": "2026-09-24",
+      "section": "Required area selector",
+      "evidence": "Visible options include electronic communications, electronic media, digital services, postal services and rail, but no e-book category.",
+      "source_type": "monitoring_body"
+    },
+    "source-803b0a44490342cc8df5a64c": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§30–31",
+      "evidence": "Competent sector authorities and public right to complaints/reports, without specific routes.",
+      "source_type": "legislation"
+    },
+    "source-5d49273d75cfb7dcf2fefe50": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§21(4)",
+      "evidence": "Substantive service notification and corrective-action duty stated.",
+      "source_type": "legislation"
+    },
+    "source-8d15c6a48719b092d8e0fbe1": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§22(1)–(7)",
+      "evidence": "Assessment, document on authority request, notification for alteration.",
+      "source_type": "legislation"
+    },
+    "source-32619fae194427428289a718": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§10 (new §22(9))",
+      "evidence": "Notification for circumstances in §22(1) to appropriate supervisors and relevant member states.",
+      "source_type": "legislation"
+    },
+    "source-5a071a85b36eba99cda9607c": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "accessed_on": "2026-09-24",
+      "section": "§§26,30",
+      "evidence": "EAA market supervisors are other authorities.",
+      "source_type": "legislation"
+    },
+    "source-b763fc9b18ccf2bea213b053": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "accessed_on": "2026-09-24",
+      "section": "§§1,5,17",
+      "evidence": "Numbers and deadline expressly set.",
+      "source_type": "legislation"
+    },
+    "source-928b0ba91a975ba478b5ebdc": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238",
+      "label": "ZDPSI (2023)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: ZDPSI (2023), amended by ZDPSI-A (2026)."
+    },
+    "source-5ee1485c3aca437e8ed75ba9": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563",
+      "label": "ZDPSI-A (2026)",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: ZDPSI (2023), amended by ZDPSI-A (2026)."
+    },
+    "source-e98cf37b92180c41f10fde35": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "slovenia inherited public entry",
+      "passage": "Non-compliance warnings have been issued. No fines so far.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-870c0464468ff35e9ead1d28": {
+      "url": "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod",
+      "source_type": "official_authority_publication",
+      "reference": "Decisions index, entries 0612-6/2026/6 and 0612-5/2026/3",
+      "passage": "AKOS index lists e-book accessibility inspection matters under Article 21 ZDPSI. The index alone does not establish the existing warning/no-fines claim; underlying decisions were not read.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-0dc32d47307acab23c8af2a3": {
+      "url": "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2",
+      "source_type": "official_authority_publication",
+      "reference": "Official summary 06122-2/2026/2,16 April 2026",
+      "passage": "English evidence summary: AKOS checked catch-up on a computer on 4 March 2026, two news programmes broadcast 3 March. One used subtitles/spoken subtitles; the other subtitles/sign language. The tested components complied with ZDPSI and the relevant regulation.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "additional_information",
+          "assertion": "ZDPSI transposes Directive 2019/882 and covers listed products and services; ZDPSI-A (effective 25 February 2026) adds rail passenger transport and 112/113/116000 answering.",
+          "status": "verified",
+          "review_note": "Separate EAA services from WAD public sector. 2026 rail and emergency additions are in force; answering obligation is due by 28 June 2027.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-01ee1ce86b25a456ac481c38",
+            "source-3fb0584b9b096600b706996f"
+          ],
+          "id": "monitoring-a55d15ab12387f68a281fe86"
+        },
+        {
+          "field": "statement",
+          "assertion": "Existing Yes for a dedicated EAA public accessibility statement.",
+          "status": "disputed",
+          "review_note": "Preserved existing ✔️ Yes pending contributor review. Supplied 'FW_ Question on contacting the EAA enforcement authority in Slovenia.eml': official IRSID Jan 21 2026 described a statement and IRSID reporting; its Jan 26 reply explicitly limits IRSID website/app monitoring to WAD and assigns product/service EAA to other authorities. The statement description appears to concern WAD; no direct official answer on a dedicated private-sector EAA page. Do not cite correspondence as proof of EAA Yes. Manual research task retained for maintainer: obtain explicit EAA competent-authority evidence for the legacy Yes or record a decision to change it; IRSID WAD correspondence is insufficient.",
+          "directive_context": "EAA",
+          "existing_text": "✔️ Yes",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [
+            "source-d39feaa0d36d49e689f3f323",
+            "source-a25623e0f653e12198e6500a"
+          ],
+          "id": "monitoring-aece8dee7271c21cab477d70"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers state how a service meets accessibility requirements in general terms and conditions or equivalent document.",
+          "status": "verified",
+          "review_note": "Isolated no-history Slovenian-to-English check 2026-09-24: 'v splošnih pogojih ali enakovrednem dokumentu' literally 'in general terms and conditions or an equivalent document'; corrected from ambiguous 'in general terms'.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-30f5eecdbec81cc1ff8cb713"
+          ],
+          "id": "monitoring-f07bcfa435cd3e56f7216f02"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers make service conformity information public in written and oral forms understandable to disabled people; retain, update and publish it while the service is provided.",
+          "status": "verified",
+          "review_note": "Isolated no-history language check 2026-09-24 required retaining the comprehensible-format and retention/update duration clauses; final research assertion includes these.",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-95852407afa54387f37a3f77"
+          ],
+          "id": "monitoring-74b6e813d94bbf36a994d4c0"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers give the public their assessment or service conformity documents on request.",
+          "status": "unknown",
+          "review_note": "Do not infer provider document disclosure from authority power; product information supplied by TIRS on consumer request is a separate duty.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [
+            "source-069220327e7d4661e2d0fc6d"
+          ],
+          "id": "monitoring-e217fc6c698c45eb9d9f8323"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers furnish service conformity information to the competent supervisor on request.",
+          "status": "verified",
+          "review_note": "Distinct from public access.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-583338903a9bce4115bb31fd"
+          ],
+          "id": "monitoring-d9f7b50fbea028d04d1add67"
+        },
+        {
+          "field": "authority",
+          "assertion": "TIRS supervises listed products and e-commerce services.",
+          "status": "verified",
+          "review_note": "TIRS official page https://www.gov.si/drzavni-organi/organi-v-sestavi/trzni-inspektorat/ reachable 2026-09-24; amended paragraph numbering accounted for.",
+          "directive_context": "EAA",
+          "scope": "Products; E-commerce",
+          "source_refs": [
+            "source-1830c372ffcb70d17fbfc11e",
+            "source-8e4b0604d1e7cd36eda6f82a"
+          ],
+          "id": "monitoring-44a5b23a1a3a40949e5f42a3"
+        },
+        {
+          "field": "authority",
+          "assertion": "AKOS supervises additional accessibility requirements for electronic communications and audiovisual access, e-book services and dedicated software, and emergency communication services.",
+          "status": "verified",
+          "review_note": "https://www.akos-rs.si/ reachable 2026-09-24; includes §30 service communication supervision, not automatically answering centre oversight.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications; Audiovisual access; E-books; emergency communication services",
+          "source_refs": [
+            "source-c23c030f19b98f1c2b8eda63",
+            "source-07482128e5f57269a29a3a6f"
+          ],
+          "id": "monitoring-8d908dd63e1e14a23c82386c"
+        },
+        {
+          "field": "authority",
+          "assertion": "Bank of Slovenia, TIRS and Information Commissioner act under consumer-credit law; Securities Market Agency under investment-market law; Bank of Slovenia under payments/e-money law.",
+          "status": "verified",
+          "review_note": "Post-draft ordinary-browser pass 2026-09-24: Information Commissioner homepage opened and identified the authority; its general violation links concern data protection, public information and AI, not an observed ZDPSI intake. Securities Market Agency homepage remained behind a Cloudflare human-verification page after one permitted reload; reachability remains unknown. Statutory sub-sector remits remain independently verified. Avoid implying each authority oversees all banking.",
+          "directive_context": "EAA",
+          "scope": "Banking sub-sectors",
+          "source_refs": [
+            "source-cb8792c877b04b7649305287",
+            "source-4cf7e4cd124ea3e5f20624bb"
+          ],
+          "id": "monitoring-b39d09379db90aa57170e2c5"
+        },
+        {
+          "field": "authority",
+          "assertion": "Water transport: Maritime Administration and TIRS; air: Civil Aviation Agency; bus: infrastructure inspectorate; rail: three sector-specific inspectorates under ZDPSI-A.",
+          "status": "verified",
+          "review_note": "Government maritime page and 2026 Infrastructure and Energy Inspectorate page reachable 2026-09-24. Rail statutory classes should not be presented as named distinct offices without roster confirmation.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-93694115ba929da17b7046d2",
+            "source-f1f10c697224e7566dd7dffc"
+          ],
+          "id": "monitoring-639877f29b404f50326fbfb7"
+        },
+        {
+          "field": "authority",
+          "assertion": "IRSID is a general supervisor of EAA private products and services.",
+          "status": "disputed",
+          "review_note": "Supplied official IRSID email Jan 26 2026: IRSID website/app accessibility monitoring under WAD; other product/service EAA duties assigned to other authorities. Jan 21 description of accessibility statements and reporting explicitly qualified by later reply. Preserve WAD facts as correspondence, remove from EAA agency list.",
+          "directive_context": "EAA",
+          "existing_text": "Inspectorate of the Republic of Slovenia for the Information Society",
+          "scope": "WAD versus EAA",
+          "source_refs": [
+            "source-af34fa958a1d086b05e256c5"
+          ],
+          "id": "monitoring-cd10a2ec06a57d7b34df18ec"
+        },
+        {
+          "field": "authority",
+          "assertion": "The authority for 112/113/116000 answering-centre accessibility enforcement is established.",
+          "status": "unknown",
+          "review_note": "Do not extend AKOS emergency communications service remit to the answering centre.",
+          "directive_context": "EAA",
+          "scope": "112 emergency answering",
+          "source_refs": [
+            "source-7ed8062f2fce0038a878ed1e",
+            "source-35b20af0087e2517fef2d674"
+          ],
+          "id": "monitoring-a5ea1c843a94266cb9fa4924"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Public can report suspected TIRS-sector infringements via eUprava non-identity inspection report.",
+          "status": "verified",
+          "review_note": "Portal landing URL opened 2026-09-24; no form submitted. General TIRS inspection channel, not EAA-specific. No reporting languages established. Post-draft ordinary-browser pass 2026-09-24 confirmed the eUprava landing page: signed route requires e-identity; separate anonymous route supports electronic, postal and in-person submission. Page states reports are handled within TIRS's statutory competence but does not name ZDPSI.",
+          "directive_context": "EAA",
+          "scope": "Products; E-commerce",
+          "reporting_route": {
+            "authority": "TIRS",
+            "sector": "Products and e-commerce",
+            "channel": "form",
+            "destination": "https://e-uprava.gov.si/si/podrocja/drzava-druzba/inspekcijski-postopki/prijava-trzni-inspekciji?lang=si&view_mode=2",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-287c0348dbc3aac6bf5e709d",
+            "source-bf4dd6e7d5cbafc79035e29d"
+          ],
+          "id": "monitoring-779aeec29bb3ea534d440412"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Public can use the AKOS general regulatory-violation form for electronic-communications breaches.",
+          "status": "verified",
+          "review_note": "Post-draft ordinary-browser pass 2026-09-24 inspected the visible form and its required area selector without submission. The selector explicitly lists electronic communications. Isolated Slovenian-language review supports describing it as a general regulatory-violation form, not an EAA-specific intake.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "reporting_route": {
+            "authority": "AKOS",
+            "sector": "Electronic communications and audiovisual access",
+            "channel": "form",
+            "destination": "https://www.akos-rs.si/uporabniki-storitev/raziscite/prijava-krsitev/obrazec",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-779d6aef94f79be125ff6ccd",
+            "source-eaa005f775235133a02446a9"
+          ],
+          "id": "monitoring-4ad5ef106ce90fab9a62bc3f"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "A public reporting route for accessibility of services providing access to audiovisual media services under AKOS is established.",
+          "status": "unknown",
+          "review_note": "Post-draft ordinary-browser and isolated Slovenian-language review found 'electronic media', but that wording does not establish a dedicated audiovisual-access route or precise accessibility-topic routing. No submission was made.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-792437d0b848d03cd6fc9ce4"
+          ],
+          "id": "monitoring-22e4100ba9efdd1db4317a44"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "A public reporting route for e-book accessibility under AKOS is established.",
+          "status": "unknown",
+          "review_note": "Post-draft ordinary-browser pass narrowed the table route rather than inferring e-book intake from AKOS's statutory remit. No submission was made.",
+          "directive_context": "EAA",
+          "scope": "E-books",
+          "source_refs": [
+            "source-7ba3814c5af50ad8d191bcac"
+          ],
+          "id": "monitoring-ff591a165ea9d6fbde8017c8"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Public reporting channels for water, air, bus, rail and banking EAA obligations are identified.",
+          "status": "unknown",
+          "review_note": "Do not copy TIRS/AKOS routes across their sector boundaries.",
+          "directive_context": "EAA",
+          "scope": "Banking; Transport",
+          "source_refs": [
+            "source-803b0a44490342cc8df5a64c"
+          ],
+          "id": "monitoring-2f3502a1ac96bd462e174d57"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Providers notify competent national authorities immediately upon identified service non-compliance, including corrective actions; precise sector intake routes remain unverified.",
+          "status": "unknown",
+          "review_note": "Duty verified; usable reporting destination not established, so no verified company_reporting route. Existing IRSID generic email belongs to WAD correspondence, not a verified EAA filing channel.",
+          "directive_context": "EAA",
+          "scope": "Covered services",
+          "source_refs": [
+            "source-5d49273d75cfb7dcf2fefe50"
+          ],
+          "id": "monitoring-fb8a36b781ddef85c612b26e"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Companies invoking fundamental alteration or disproportionate burden notify relevant product/service authority; precise sector intake routes remain unverified.",
+          "status": "unknown",
+          "review_note": "EAA Article 14 distinguishes fundamental alteration and disproportionate burden; Article 14(8) has microenterprise exception. Slovenian §22(9) supports duty, but channel and audience-specific intake unknown. Do not label general public forms as exemption routes.",
+          "directive_context": "EAA",
+          "scope": "Products and services",
+          "source_refs": [
+            "source-8d15c6a48719b092d8e0fbe1",
+            "source-32619fae194427428289a718"
+          ],
+          "id": "monitoring-50f5ebee551fdcb4c807b311"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "The IRSID postal/email reporting route and English acceptance apply to public-sector website/app supervision, not proven EAA private-sector filings.",
+          "status": "verified",
+          "review_note": "Preserved exact provenance: official Jan 21 and Jan 26 2026 replies from Gašper Žuber, Information Society Inspectorate, in user-supplied EML. IRSID correspondence says reports by persons and legal entities, including cross-border, by gp.irsid@gov.si or Davčna ulica 1, 1000 Ljubljana, with English accepted; later Jan 26 reply clarifies this is WAD website/app supervision. April 15 reply says no fixed deadline for reports to IRSID and refers to WAD ZDSMA §8 eight-day entity-response deadline. The authority email is not a verified EAA company self-reporting route; Jan 21 specifically said no self-report platform.",
+          "directive_context": "WAD",
+          "scope": "WAD; retained correspondence",
+          "source_refs": [
+            "source-5a071a85b36eba99cda9607c"
+          ],
+          "id": "monitoring-afc690a82e96aea773341da6"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Most appropriate emergency notification centre must meet amended §9(2) answering requirements for 112,113,116000 by 28 June 2027.",
+          "status": "verified",
+          "review_note": "Isolated no-history Slovenian language review 2026-09-24 Supported. This future requirement is in research, not described as already fully operative in the table.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-b763fc9b18ccf2bea213b053"
+          ],
+          "id": "monitoring-c70410f80939ad6f9753117f"
+        }
+      ],
+      "questions": [
+        "Research task (Before merge): Slovenia / existing ✔️ Yes — distinguish IRSID's WAD statement reply (21 and 26 January 2026 official correspondence) from any dedicated EAA private-service statement requirement; obtain an explicit answer or official EAA source from a competent EAA authority, or document the maintainer decision to revise/retain the legacy Yes with source-needed qualification.",
+        "Follow-up: Identify official company non-compliance and Company exemptions intake routes separately for TIRS, AKOS and banking/transport authorities; statutory duties alone do not establish an email/form for each sector.",
+        "Follow-up: Verify banking and transport public complaint channels and whether 112/113/116000 answering centre oversight has a designated authority; do not use AKOS communications supervision as evidence for centre supervision.",
+        "Follow-up: Retry the Securities Market Agency authority link outside this cloud browser; the text reader returned 403 and the post-draft browser remained on Cloudflare human verification after one reload on 24 September 2026. The Information Commissioner homepage opened successfully in the post-draft browser; statutory remit remains verified separately.",
+        "Follow-up: Confirm with TIRS and AKOS whether their general public forms process ZDPSI reports. Post-draft browser checks found no ZDPSI label. AKOS's selector explicitly supports electronic communications; 'electronic media' is too broad to establish an audiovisual-accessibility route, and no option explicitly names e-books. Audiovisual-access and e-book public routes therefore remain Unknown."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Cited 2023 penalty provisions and 2026 amendment checked; sector coverage remains partial.",
+      "public_page": "EAA sanctions.md#slovenia",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#slovenia",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#slovenia",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Products:    The listed Article 34 range concerns manufacturers, importers and authorised representatives.    E-commerce and Banking:    The listed Articles 39–40 ranges distinguish legal persons from medium/large companies.    E-books:    The listed Article 37 ranges distinguish legal persons from medium/large companies.    Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+              "public_text": "Products:    The Article 34 range concerns manufacturers, importers and authorised representatives.    E-commerce and Banking:    Articles 39–40 set different ranges based on company size.    E-books:    Article 37 sets different ranges based on company size.    Electronic communications, Transport, Audiovisual access and 112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Separate ranges apply to individuals, distributors and other sectors. Read the 2023 law with the 2026 amendment; transport provisions in particular require separate review.",
+              "public_text": "Separate ranges apply to individuals, distributors and other sectors. The 2023 law must be read together with the 2026 amendment.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "c20e74db7ab6a6f53a424713dc8e0ae55d949822d4187d1f6f415228f8a926bd",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-928b0ba91a975ba478b5ebdc",
+        "source-5ee1485c3aca437e8ed75ba9"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+        "All Monitoring agencies research, 25 September 2026: Read 16 April 2026 RTV decision summary. E-book decisions 0612-6/2026/6(Beletrina,2 July) and 0612-5/2026/3(Mladinska knjiga,10 June) appear in index but linkeddetail fetch failed twice each. Their outcomes remain unverified and are not published. Existing unlinked warning/no-fines assertion preserved."
+      ],
+      "public_entry_ids": [
+        "slovenia-1",
+        "slovenia-monitoring-2026"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Audit warning and no-fines assertions. Search queries: site.gov.si dostopnosti proizvodov storitev opozorila 2026 inšpektorat; site.gov.si dostopnost \"opozorila\" \"2026\"; site.gov.si \"ZDPSI\" \"nadzor\"",
+          "sources_checked": [
+            "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod"
+          ],
+          "limitations": "No dated source for inherited assertions found. Index references are leads, not findings about warnings, fines or final outcomes.",
+          "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.akos-rs.si \"0612-6/2026\"",
+          "sources_checked": [
+            "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod",
+            "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2"
+          ],
+          "limitations": "Read 16 April 2026 RTV decision summary. E-book decisions 0612-6/2026/6(Beletrina,2 July) and 0612-5/2026/3(Mladinska knjiga,10 June) appear in index but linkeddetail fetch failed twice each. Their outcomes remain unverified and are not published. Existing unlinked warning/no-fines assertion preserved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "si-inherited-warning",
+          "kind": "monitoring_activity",
+          "text": "Non-compliance warnings have been issued. No fines so far.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "The entry supplies no authority, sector, warning date or source. No-fines coverage and cutoff unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-e98cf37b92180c41f10fde35",
+            "source-870c0464468ff35e9ead1d28"
+          ]
+        },
+        {
+          "id": "si-akos-rtv-accessibility-inspection-2026",
+          "kind": "monitoring_activity",
+          "text": "Audiovisual access: In its decision summary dated 16 April 2026 (06122-2/2026/2), AKOS reported that it had checked accessibility features on a computer in two catch-up news programmes on Radiotelevizija Slovenija’s web service. It found that the subtitles, spoken subtitles and sign-language interpretation it checked complied with ZDPSI and the relevant accessibility regulation. This finding concerns the tested features and programmes.",
+          "authority_or_court": "AKOS",
+          "case_identifier": "06122-2/2026/2",
+          "sectors": [
+            "Audiovisual access"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "ZDPSI Article 10(1),second indent, and regulation on accessibility of services providing access to audiovisual media services",
+          "action_type": "Officially reported monitoring or complaint activity",
+          "procedural_stage": "unknown",
+          "stage_detail": "Summary supports limited inspection findings. Does not establish whole-platform compliance, full operative closure text, or absence of other cases. Source names web service RTV 356; public wording avoids silently correcting that name.",
+          "event_on": "2026-03-04",
+          "published_on": "2026-04-16",
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Summary supports limited inspection findings. Does not establish whole-platform compliance, full operative closure text, or absence of other cases. Source names web service RTV 356; public wording avoids silently correcting that name.",
+          "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass.",
+          "source_refs": [
+            "source-0dc32d47307acab23c8af2a3"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Which authority, cases and cutoff support the warnings/no-fines entry?",
+          "owner": "Maintainer / future authorised researcher",
+          "resolved_when": "Retrieve the original dated provenance; do not generalise across authorities or rely on an index as a decision."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "si-akos-rtv-accessibility-inspection-2026",
+      "country": "Slovenia",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 59,
+          "domain": "enforcement"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "not_applicable",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

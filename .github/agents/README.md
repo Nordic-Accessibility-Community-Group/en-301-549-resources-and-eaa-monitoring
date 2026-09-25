@@ -7,3 +7,5 @@ Evidence intake applies to contributor-supplied material, research and automated
 Operational runners additionally read [watcher instructions](watcher/README.md) or [PR-event routing instructions](evidence-routing/README.md). Preserve their distinct triggers, queues and state branches. Merging a PR never authorises a new country rollout.
 
 Legacy stage-file URLs remain short entry links for existing task prompts. Historical pilot scope and setup backlogs are preserved in Git history, not current instructions. No new schedule or jurisdiction rollout is authorised by this consolidation.
+
+Country evidence now follows the [shared storage contract](research/README.md). Use [registry.json](registry.json) for jurisdiction/sector vocabulary; do not repeat those lists in code.

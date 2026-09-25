@@ -1,0 +1,641 @@
+{
+  "schema_version": 2,
+  "country": "Austria",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-7315b3b4b6e2ade74b37898e": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Informations--und-Dokumentationspflichten.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Service providers must supply accessibility information to the public in written and oral form.",
+      "section": "Pflichten der Dienstleistungserbringer"
+    },
+    "source-834b267c8f905ab080c024a9": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Informations--und-Dokumentationspflichten.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Provider duties include written and oral public accessibility information, retained while offering the service.",
+      "section": "Pflichten der Dienstleistungserbringer"
+    },
+    "source-cf5702487c7995c52947e1b4": {
+      "url": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40254407&FassungVom=&ShowPrintPreview=True",
+      "accessed_on": "2026-09-24",
+      "source_type": "legislation",
+      "evidence": "Provider explains in terms or a similar document how the service meets accessibility requirements.",
+      "section": "Anlage 3"
+    },
+    "source-264fbc3ea9c1d83709fa3d7a": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Authority supplies compliance information on request, subject to confidentiality and business/professional secrecy.",
+      "section": "Die Marktüberwachung digitale Barrierefreiheit"
+    },
+    "source-d0fe06eb5387e9c8b8428a4d": {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012316&Paragraf=14",
+      "accessed_on": "2026-09-24",
+      "source_type": "legislation",
+      "evidence": "Section 14(5) requires necessary conformity information/documents on reasoned request in German or English.",
+      "section": "§ 14(5)"
+    },
+    "source-bdc1b6163f2312573bcde700": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Authority is entrusted with BaFG enforcement; scope lists the covered product and consumer-service categories.",
+      "section": "Introduction; Geltungsbereich des BaFG"
+    },
+    "source-e51829bc871e513aaad8ec7b": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontakt-fuer-Hinweisgeberinnen-nach-Barrierefreiheitsgesetz/Kontakt-fuer-Hinweisgeber-innen-nach-Barrierefre.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Lists a reporting form, email and postal routes for BaFG concerns.",
+      "section": "Kontaktmöglichkeiten"
+    },
+    "source-0634a3e1cbf5a33fe1d83dfb": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Non-compliance reporting instructions explicitly name the mailbox and link electronic-submission rules.",
+      "section": "Inhalt der Meldung über die Nichtkonformität"
+    },
+    "source-cff4f88b03d22ef28a404152": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Kontakt_fuer_Unternehmen/Kontakt-fuer-Unternehmen.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Company-contact page independently gives the same mailbox.",
+      "section": "Contact details"
+    },
+    "source-d1b539d1b88075d104763430": {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012316&Paragraf=14",
+      "accessed_on": "2026-09-24",
+      "source_type": "legislation",
+      "evidence": "German/English specified for service conformity evidence on reasoned authority request.",
+      "section": "§14(5)"
+    },
+    "source-4da4d2ac2d9f71889a3d7fa8": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Identifies BaFG as national EAA implementation, applying from 28 June 2025.",
+      "section": "Introduction"
+    },
+    "source-60b227c4b7a30f5a3a6b2f0f": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Kontakt_fuer_Unternehmen/Uebermittlung_schriftlicher_Anbringen/Uebermittlung-schriftlicher-Anbringen.de.html",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "evidence": "Sets signature and attachment rules for specified written submissions.",
+      "section": "Arten von Anbringen; Zulässige Formen; Formatvorgaben"
+    },
+    "source-80b754694d812434a9436beb": {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012316&Paragraf=2",
+      "label": "BaFG § 2",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BaFG § 2 — product and service scope."
+    },
+    "source-4cbedc77fa265ae115161e47": {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012316&Paragraf=36",
+      "label": "BaFG § 36",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BaFG § 36."
+    },
+    "source-3535e2c500526976274ad96d": {
+      "url": "https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities",
+      "label": "Fieldfisher: risks of non-compliance",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Fieldfisher: risks of non-compliance — 2 May 2025; corroborating overview."
+    },
+    "source-428b1076a3d8f86c4e4fbf34": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "austria inherited public entry",
+      "passage": "Austria is actively testing and contacting companies with accessibility findings.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-c1f74d087f85020a8211a0e2": {
+      "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+      "source_type": "official_authority_publication",
+      "reference": "Marktüberwachung",
+      "passage": "Official guidance identifies Sozialministeriumservice, Upper Austria, as the central BaFG market-surveillance body and describes its powers. It does not date individual tests, quarterly reporting requirements or current cases.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-c6c40145cbb92991494d44d7": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "austria inherited public entry",
+      "passage": "Compliance deadlines vary, but quarterly progress reports are generally required.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-952cf412d7b65bd919f7003b": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "austria inherited public entry",
+      "passage": "Monitoring selection uses disability organisations' feedback, service importance and market share.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-3a23503b052861083e5fffb9": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "austria inherited public entry",
+      "passage": "Monitoring will not close until EAA conformity is proven.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "On 17 November 2025, Sozialministeriumservice confirmed that economic operators must make their accessibility statements publicly accessible.",
+          "status": "verified",
+          "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. This supports the existing Yes. The answer does not expressly require a separate standalone webpage or specific URL. The linked public guidance supports the broader information duty; the dated correspondence supports this statement requirement. Isolated English paraphrase review on 24 September 2026 supported the summary and this limitation.",
+          "directive_context": "EAA",
+          "existing_text": "✔️ Yes; Public accessibility statement is required by information directly from the monitoring agency.",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-7315b3b4b6e2ade74b37898e"
+          ],
+          "id": "monitoring-68cb8831739c4a0320fa5e94"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service accessibility information must be made available to the public in written and oral form.",
+          "status": "verified",
+          "review_note": "This passage does not specify a standalone public page. German-to-English isolated review Supported.",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-834b267c8f905ab080c024a9"
+          ],
+          "id": "monitoring-18a80ad179c58f9d7d615174"
+        },
+        {
+          "field": "service_information",
+          "assertion": "BaFG Annex 3 identifies terms and conditions or a similar document as the vehicle for conformity information.",
+          "status": "verified",
+          "review_note": "Exact provision visible in official RIS indexed result. Direct URL returned 503; link reachability unknown/unavailable, separate from indexed statutory evidence. An explicit regulator instruction accepting terms instead of a dedicated page was not established. Not used to replace existing Yes.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-cf5702487c7995c52947e1b4"
+          ],
+          "id": "monitoring-d8ce0865cf472e09a2c8c55d"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Authority-held compliance information is available to consumers on request, subject to confidentiality.",
+          "status": "verified",
+          "review_note": "Audience is consumer; holder is authority. This does not establish that providers may satisfy their public-information duty only on request.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [
+            "source-264fbc3ea9c1d83709fa3d7a"
+          ],
+          "id": "monitoring-7843cb5aac8e9e80ef800644"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Provider public-on-request-only compliance mode is unknown.",
+          "status": "unknown",
+          "review_note": "Written/oral public information duty does not by itself establish an on-request-only option; no such publication-practice instruction found in bounded authority-page checks.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-a12971fe46b64cc049084d6d"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service providers must supply conformity evidence in German or English on the authority's reasoned request.",
+          "status": "verified",
+          "review_note": "Official RIS indexed text retrieved; not a verified functioning live statute link. Narrow duty, not evidence of a blanket English-reporting policy.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-d0fe06eb5387e9c8b8428a4d"
+          ],
+          "id": "monitoring-9b4064c65cb1c710f7d1c6b0"
+        },
+        {
+          "field": "authority",
+          "assertion": "Products: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: BaFG-covered consumer hardware, self-service terminals, communications/audiovisual terminal equipment and e-readers. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "BaFG-covered consumer hardware, self-service terminals, communications/audiovisual terminal equipment and e-readers",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-c0573cc4fe10c0355c02819e"
+        },
+        {
+          "field": "authority",
+          "assertion": "E-commerce: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered consumer e-commerce services. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered consumer e-commerce services",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-9e1b40567d99014f9c7fa34e"
+        },
+        {
+          "field": "authority",
+          "assertion": "Banking: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered consumer banking services. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered consumer banking services",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-b02f014fa3f39b17f7ffd236"
+        },
+        {
+          "field": "authority",
+          "assertion": "Electronic communications: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered consumer electronic communication services. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered consumer electronic communication services",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-9b41ea68355e36d26416c830"
+        },
+        {
+          "field": "authority",
+          "assertion": "Transport: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered passenger-transport information/booking elements; no whole-sector assignment. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered passenger-transport information/booking elements; no whole-sector assignment",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-75801d953508d43a3d56ab87"
+        },
+        {
+          "field": "authority",
+          "assertion": "Audiovisual access: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered services providing access to audiovisual content. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered services providing access to audiovisual content",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-333405e95d8645f81609fe62"
+        },
+        {
+          "field": "authority",
+          "assertion": "E-books: Sozialministeriumservice.",
+          "status": "verified",
+          "review_note": "Scope: Covered consumer e-books. Original Monitoring agencies name lacked a hyperlink; corrected with the official BaFG overview, reachable on 2026-09-24. Authority scope and link checked separately.",
+          "directive_context": "EAA",
+          "scope": "Covered consumer e-books",
+          "source_refs": [
+            "source-bdc1b6163f2312573bcde700"
+          ],
+          "id": "monitoring-c15e8caa91eabf96f085fa42"
+        },
+        {
+          "field": "authority",
+          "assertion": "112 emergency-call answering accessibility authority not established.",
+          "status": "unknown",
+          "review_note": "Authority roster comparison covers seven BaFG product/service sectors. Do not assume Sozialministeriumservice covers emergency answering. Targeted RTR/BMI searches did not establish current EAA supervisory remit; older operational references insufficient. No exhaustive national roster claim.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-6a1b6766c1f075f5db6712d1"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Public BaFG reports can use the official Sozialministeriumservice form or email.",
+          "status": "verified",
+          "review_note": "Public form opened and returned BaFG reporting instructions with input controls. No account/login prompt appeared in retrieved text; end-to-end login/submission not tested. Email is explicitly accepted. Email/postal reports should include name, birth date, address, problem description and email when applicable; link guidance retained. Source provides postal alternative: Sozialministeriumservice, Landesstelle Oberösterreich, Abteilung OÖ6, Gruberstraße 63, 4021 Linz. Form describes an eight-week written update on opening an investigation, not resolution of the complaint. No report submitted.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Sozialministeriumservice",
+            "sector": "BaFG-covered products and consumer services",
+            "channel": "form",
+            "destination": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=Bc6cc641ebd1347bcb13ee1ee08f4d520",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-e51829bc871e513aaad8ec7b"
+          ],
+          "id": "monitoring-cb52366bab1bb4089e9b6860"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Company non-compliance reports/documents can be emailed to marktueberwachung-bafg@sozialministeriumservice.gv.at.",
+          "status": "verified",
+          "review_note": "Before PR: original socialministeriumservice.gv.at spelling was incorrect; corrected to sozialministeriumservice.gv.at in text and mailto. Existing German/English acceptance retained separately. Instructions require prompt notification (unverzüglich); no invented numerical deadline. Submission-rules link retained because source calls those rules binding. Email does not require portal login.",
+          "directive_context": "EAA",
+          "existing_text": "marktueberwachung-bafg@socialministeriumservice.gv.at",
+          "reporting_route": {
+            "authority": "Sozialministeriumservice",
+            "sector": "BaFG-covered products and consumer services",
+            "channel": "email",
+            "destination": "marktueberwachung-bafg@sozialministeriumservice.gv.at",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-0634a3e1cbf5a33fe1d83dfb",
+            "source-cff4f88b03d22ef28a404152"
+          ],
+          "id": "monitoring-9becbd40a605a8adc502d5a2"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Exemptions reporting route is unknown.",
+          "status": "unknown",
+          "review_note": "General company contact and mention of BaFG §§17–18 do not by themselves verify an accepted exemption-notification route. No new channel asserted. Shared label remains Exemptions:. EAA Article 14, particularly 14(8), is background only, not local channel evidence. Subsequently supplied correspondence dated 10 November 2025 confirms prior receipt of company exemption reports by email. Current exemption-specific submission instructions remain a follow-up; this statement-evidence update does not change the table channel.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-ffdfd5fa42f83f8629b3fd2a"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing German and English reporting acceptance retained.",
+          "status": "unknown",
+          "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. The 10 November reply supports general English company-reporting acceptance. It does not establish a blanket policy covering every public complaint or later correspondence. The existing table languages remain; the narrow statutory German/English evidence rule is separate.",
+          "directive_context": "EAA",
+          "existing_text": "Reports accepted in German 🇩🇪 and in English 🇬🇧.",
+          "source_refs": [
+            "source-d1b539d1b88075d104763430"
+          ],
+          "id": "monitoring-05211aa65366df140f7c4d61"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The authority confirmed no dedicated company reporting tool as of 10 November 2025.",
+          "status": "verified",
+          "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. Historical confirmation only; this reply alone does not establish current availability. A public reporting form is a separate channel. Isolated English paraphrase review Supported.",
+          "directive_context": "EAA",
+          "existing_text": "No reporting tool available for companies.",
+          "source_refs": [],
+          "id": "monitoring-cc9c3d72fbc20c14d0d31fd3"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "BaFG implements the EAA for Austria; the existing local-law link is retained.",
+          "status": "verified",
+          "review_note": "Retain Barrierefreiheitsgesetz (BGBl. I Nr. 76/2023). Official act ELI retrieval failed twice (direct and official link). Alternative RIS consolidated/annex/act pages returned 503. Statutory indexed excerpts available, but full consolidated law audit incomplete. No link replacement with guessed URL. Guidance sets consumer-service microenterprise exemption and transitional periods; no blanket claim all legacy products/services immediately comply. Covered product scope and transport limitations maintained.",
+          "directive_context": "EAA",
+          "existing_text": "Barrierefreiheitsgesetz (BGBl. I Nr. 76/2023)",
+          "source_refs": [
+            "source-4da4d2ac2d9f71889a3d7fa8"
+          ],
+          "id": "monitoring-b62036594cf4667927450e2f"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Electronic submission requirements checked.",
+          "status": "verified",
+          "review_note": "Page lists statements/justifications, appeals and applications, qualified signatures or scanned handwritten signatures; rejects unsupported unsigned submissions/file types. Rather than broadening those rules to every public report, table links company submission requirements. Formal public appeals are not inferred from the generic Public complaints label.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-60b227c4b7a30f5a3a6b2f0f"
+          ],
+          "id": "monitoring-f31ccc01ac240ec121b90c7b"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Link audit, evidence verification and language review completed within the bounded run.",
+          "status": "verified",
+          "review_note": "2026-09-24: all original authority-site links opened successfully; original agency name had no link. Exact corrected email independently corroborated in report and company/public contact pages. Public form purpose checked against its own instructions. RIS reachability failures recorded separately from indexed legal evidence. Research started 2026-09-24T14:29:10.012Z. Ten-minute budget shared by research, verification and language; remaining items Unknown, max two attempts per failing URL and two targeted follow-up searches per question. Isolated German-to-English agent /root/austrian_language, fork_turns=none, received only passages/URLs and candidate text; all four candidates Supported. Original 'mit dem Vollzug des Barrierefreiheitsgesetzes betraut' -> 'entrusted with implementing/enforcing the Barrierefreiheitsgesetz'; final grouped sector label with 'Sozialministeriumservice (BaFG-covered products and consumer services)' Supported, qualifier required. Original 'Wenn Sie einen Hinweis nach dem Barrierefreiheitsgesetz melden möchten' -> 'If you wish to report a concern under the Barrierefreiheitsgesetz'; final 'Public complaints: Sozialministeriumservice reporting form or marktueberwachung-bafg@sozialministeriumservice.gv.at' Supported as category, not formal appeal. Original 'Die Übermittlung der angeforderten Dokumente kann per Mail' -> 'The transmission of the requested documents can [be made] by email'; final 'Company non-compliance: marktueberwachung-bafg@sozialministeriumservice.gv.at (submission requirements)' Supported. Original 'diese der Allgemeinheit in schriftlicher und mündlicher Form bereitzustellen' -> 'to make these available to the general public in written and oral form'; final research phrase 'Service accessibility information must be made available to the public in written and oral form; this passage does not specify a standalone public page' Supported. Original law title retained. No corrections required. At the initial audit, original correspondence was unavailable. The subsequently supplied 10/17 November 2025 replies now support public statements and dated English company reporting, as recorded in the updated claims. AI review is not human/legal approval. GitHub Actions intentionally deferred per user. Additional isolated research-text review: §14(5) 'auf dessen begründetes Verlangen' -> 'upon its reasoned request', German/English conformity-evidence summary Supported; Annex3 'in den allgemeinen Geschäftsbedingungen oder einem ähnlichen Dokument' -> 'in the general terms and conditions or a similar document', candidate terms/equivalent-document summary Supported. Comparisons based on supplied official indexed German passages, not successful live RIS retrieval. Direct §14 URL also returned 503. Research stopped after completing the bounded checks; no claim of full verification.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-5a14cf9be973918d3b7b8481"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "On 10 November 2025, the authority stated that companies could generally report in English and that it had already received emails from foreign companies reporting non-conformities and exemptions.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. Dated confirmation, not a freshly checked universal language policy. A separate no-history English paraphrase review clarified the distinction between permission and reports already received; corrected wording rechecked Supported.",
+          "source_refs": [],
+          "id": "monitoring-25187cf0cb67431c3b8e2822"
+        }
+      ],
+      "questions": [
+        "Before PR: Resolved — reporting mailbox typo corrected using two official sources; text and mailto must both contain sozialministeriumservice.gv.at.",
+        "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
+        "Resolved: Official correspondence dated 10/17 November 2025 now supports the public-statement claim and dated English company-reporting acceptance. No further request for that correspondence is needed.",
+        "Follow-up: The 10 November 2025 correspondence confirms prior exemption reports by email. Verify current exemption-specific submission instructions before updating that table channel.",
+        "Follow-up: Establish current 112 emergency-answering accessibility supervisory authority and reporting route; do not infer them from operational emergency-service information.",
+        "Follow-up: Revisit unavailable RIS pages for current consolidated law, full exceptions/transitions and any regulator-specific page-versus-terms/on-request practice.",
+        "Follow-up: Inspect public form login and full input requirements without submission; extraction confirms purpose, not end-to-end operation."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official indexed text and external analysis checked; direct retrieval of § 36 was blocked. Full tier detail needs rechecking.",
+      "public_page": "EAA sanctions.md#austria",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#austria",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#austria",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    The listed BaFG penalties cover the products and consumer services in § 2. The applicable offence and operator determine the ceiling.    112 emergency calls:    ❓ Unknown",
+              "public_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    The BaFG penalties cover the products and consumer services in § 2. The maximum fine depends on the offence and the type of business.    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Financial sanctions",
+              "previous_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    Up to €80,000 for placing or supplying specified non-compliant products or services.  Other offence tiers: up to €40,000 and €16,000.",
+              "public_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    Up to €80,000 for placing or supplying specified non-compliant products or services.  Other groups of offences: up to €40,000 and €16,000.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Section 36 provides reduced ceilings for microenterprises and SMEs. The applicable tier depends on the offence; these are not automatic fines.",
+              "public_text": "Section 36 sets lower maximum fines for microenterprises and small and medium-sized businesses. The amount depends on the offence.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "cb2e4d5979341257799f839e181574d176c9968d1207032e4cf210ddcca866e3",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-80b754694d812434a9436beb",
+        "source-4cbedc77fa265ae115161e47",
+        "source-3535e2c500526976274ad96d"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+        "All Monitoring agencies research, 25 September 2026: Ministry market-surveillance explanation and reporting guidance describe remit and possible measures; no dated inspection outcome identified. Existing contributor claims remain unresolved."
+      ],
+      "public_entry_ids": [
+        "austria-1"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Audit all four inherited operational claims. Search queries: site.sozialministeriumservice.gv.at Barrierefreiheitsgesetz Marktüberwachung Prüfungen Unternehmen 2026; site.sozialministeriumservice.gv.at Barrierefreiheit \"quartalsweise\"",
+          "sources_checked": [
+            "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html"
+          ],
+          "limitations": "General powers are not proof of these specific monitoring practices. No case outcomes inferred.",
+          "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.sozialministeriumservice.gv.at Barrierefreiheitsgesetz Kontrollen 2026",
+          "sources_checked": [
+            "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+            "https://sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontakt-fuer-Hinweisgeberinnen-nach-Barrierefreiheitsgesetz/Kontakt-fuer-Hinweisgeber-innen-nach-Barrierefre.de.html"
+          ],
+          "limitations": "Ministry market-surveillance explanation and reporting guidance describe remit and possible measures; no dated inspection outcome identified. Existing contributor claims remain unresolved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "at-inherited-1",
+          "kind": "monitoring_activity",
+          "text": "Austria is actively testing and contacting companies with accessibility findings.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-428b1076a3d8f86c4e4fbf34",
+            "source-c1f74d087f85020a8211a0e2"
+          ]
+        },
+        {
+          "id": "at-inherited-2",
+          "kind": "monitoring_activity",
+          "text": "Compliance deadlines vary, but quarterly progress reports are generally required.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-c6c40145cbb92991494d44d7",
+            "source-c1f74d087f85020a8211a0e2"
+          ]
+        },
+        {
+          "id": "at-inherited-3",
+          "kind": "monitoring_activity",
+          "text": "Monitoring selection uses disability organisations' feedback, service importance and market share.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-952cf412d7b65bd919f7003b",
+            "source-c1f74d087f85020a8211a0e2"
+          ]
+        },
+        {
+          "id": "at-inherited-4",
+          "kind": "monitoring_activity",
+          "text": "Monitoring will not close until EAA conformity is proven.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "The general official guidance does not substantiate this operational detail. No dated underlying record was supplied.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-3a23503b052861083e5fffb9",
+            "source-c1f74d087f85020a8211a0e2"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Provide dated support for testing, company contacts, quarterly reports, selection criteria and closure policy.",
+          "owner": "Maintainer / future authorised researcher",
+          "resolved_when": "A shareable correspondence reference or primary operational publication identifies the authority, date and scope."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

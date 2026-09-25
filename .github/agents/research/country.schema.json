@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared jurisdiction research record v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "country",
+    "jurisdiction_group",
+    "evidence",
+    "domains",
+    "deliveries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1
+    },
+    "jurisdiction_group": {
+      "enum": [
+        "EU",
+        "EU territory",
+        "non-EU"
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^source-[a-f0-9]{24}$"
+      },
+      "additionalProperties": {
+        "type": "object"
+      }
+    },
+    "domains": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "monitoring": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "record_type",
+            "claims",
+            "questions"
+          ],
+          "properties": {
+            "record_type": {
+              "enum": [
+                "fuller_entry_audit",
+                "incomplete_entry_research"
+              ]
+            },
+            "claims": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "field",
+                  "assertion",
+                  "status",
+                  "review_note",
+                  "source_refs",
+                  "id"
+                ],
+                "properties": {
+                  "field": {
+                    "enum": [
+                      "statement",
+                      "service_information",
+                      "authority",
+                      "public_reporting",
+                      "company_reporting",
+                      "additional_information"
+                    ]
+                  },
+                  "assertion": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "existing_text": {
+                    "type": "string"
+                  },
+                  "directive_context": {
+                    "enum": [
+                      "EAA",
+                      "WAD",
+                      "other",
+                      "unclear"
+                    ]
+                  },
+                  "scope": {
+                    "type": "string"
+                  },
+                  "status": {
+                    "enum": [
+                      "verified",
+                      "disputed",
+                      "unknown",
+                      "unverified_source"
+                    ]
+                  },
+                  "review_note": {
+                    "type": "string"
+                  },
+                  "information_mode": {
+                    "enum": [
+                      "dedicated_public_page",
+                      "public_terms_or_equivalent",
+                      "public_other",
+                      "public_on_request",
+                      "authority_on_request",
+                      "not_established"
+                    ]
+                  },
+                  "reporting_route": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "authority",
+                      "sector",
+                      "channel",
+                      "destination",
+                      "eaa_specific"
+                    ],
+                    "properties": {
+                      "authority": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sector": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "channel": {
+                        "enum": [
+                          "form",
+                          "email",
+                          "postal_or_in_person"
+                        ]
+                      },
+                      "destination": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "eaa_specific": {
+                        "type": "boolean"
+                      }
+                    }
+                  },
+                  "source_refs": {
+                    "$ref": "#/$defs/source_refs"
+                  },
+                  "id": {
+                    "type": "string",
+                    "pattern": "^monitoring-[a-f0-9]{24}$"
+                  }
+                }
+              }
+            },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "sanctions": {
+          "type": "object",
+          "required": [
+            "record_type",
+            "last_checked",
+            "review_note",
+            "public_page",
+            "source_snapshot",
+            "source_refs",
+            "editorial_reviews",
+            "public_row_sha256",
+            "language_check"
+          ],
+          "properties": {
+            "record_type": {
+              "type": "string"
+            },
+            "last_checked": {
+              "type": "string"
+            },
+            "review_note": {
+              "type": "string"
+            },
+            "public_page": {
+              "type": "string"
+            },
+            "source_snapshot": {
+              "type": "string"
+            },
+            "editorial_reviews": {
+              "type": "array"
+            },
+            "public_row_sha256": {
+              "type": "string"
+            },
+            "language_check": {
+              "type": "string"
+            },
+            "source_refs": {
+              "$ref": "#/$defs/source_refs"
+            },
+            "additional_research": {
+              "type": "array"
+            }
+          },
+          "additionalProperties": false
+        },
+        "enforcement": {
+          "type": "object",
+          "required": [
+            "schema_version",
+            "jurisdiction_group",
+            "created_on",
+            "research_state",
+            "search_result",
+            "attempted_on",
+            "verified_on",
+            "knowledge_notes",
+            "public_entry_ids",
+            "attempts",
+            "claims",
+            "questions"
+          ],
+          "properties": {
+            "schema_version": {
+              "const": 1
+            },
+            "jurisdiction_group": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "research_state": {
+              "type": "string"
+            },
+            "search_result": {
+              "type": "string"
+            },
+            "attempted_on": {},
+            "verified_on": {},
+            "knowledge_notes": {
+              "type": "array"
+            },
+            "public_entry_ids": {
+              "type": "array"
+            },
+            "attempts": {
+              "type": "array"
+            },
+            "claims": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            },
+            "questions": {
+              "type": "array"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "deliveries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "country",
+          "destinations"
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^source-[a-f0-9]{24}$"
+      }
+    }
+  }
+}

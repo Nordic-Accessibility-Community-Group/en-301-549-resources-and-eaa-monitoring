@@ -1,15 +1,19 @@
 """Enforcement record consistency, not legal or linguistic verification (stdlib only)."""
 import argparse
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+import country_records
 from collections import Counter
 from datetime import date
 import hashlib
 import json
-from pathlib import Path
 import re
 from urllib.parse import urlparse
 
-EU = 'Austria Belgium Bulgaria Croatia Cyprus Czechia Denmark Estonia Finland France Germany Greece Hungary Ireland Italy Latvia Lithuania Luxembourg Malta Netherlands Poland Portugal Romania Slovakia Slovenia Spain Sweden'.split()
-SECTORS = ['Products', 'E-commerce', 'Banking', 'Electronic communications', 'Transport', 'Audiovisual access', 'E-books', '112 emergency calls']
+REGISTRY = json.loads((Path(__file__).resolve().parents[1] / 'registry.json').read_text())
+EU = [j['name'] for j in REGISTRY['jurisdictions'] if j['group'] == 'EU']
+SECTORS = REGISTRY['sectors']
 SOURCE_TYPES = ['official_law', 'official_authority_publication', 'official_court_decision', 'european_commission_publication', 'external_legal_analysis', 'external_party_statement', 'external_news_report', 'contributor_correspondence', 'other_unverified']
 SOURCE_TYPES.append('official_authority_correspondence')
 STAGES = ['announced_monitoring', 'ongoing_monitoring', 'complaint_lodged', 'investigation', 'warning', 'order_issued', 'conditional_penalty', 'penalty_imposed', 'appeal_pending', 'final_judgment', 'closed', 'unknown']
@@ -72,8 +76,7 @@ def check(root):
     baseline_ids = {entry['id']: entry for entry in baseline['entries']}
     records = {}
     claims = {}
-    for path in sorted((folder / 'research').glob('*.json')):
-        record = json.loads(path.read_text())
+    for path, record in country_records.records(root, 'enforcement'):
         name = record.get('country', path.stem)
         fields(record, template, name)
         require(record['schema_version'] == 1, name + ': schema version')

@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "country": "Greece",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-26218d280009582a6e8fd3fb": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "Service providers prepare Annex V information, explain how services meet applicable requirements, make the information public in accessible written and oral forms, and retain it while the service operates.",
+      "section": "Article 13(2)(a)",
+      "source_type": "legislation"
+    },
+    "source-d39a4138f7d861d880fab7f5": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "The four authorities or joint-authority arrangements are designated by product category.",
+      "section": "Articles 3(1) and 19(2)",
+      "source_type": "legislation"
+    },
+    "source-81d9fffac4756764b0f4e00a": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "EETT is expressly named as the competent authority for monitoring and compliance control in electronic communications.",
+      "section": "Article 22(2)",
+      "source_type": "legislation"
+    },
+    "source-0b69a8f0d93dd2f986886313": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "The National Council for Radio and Television is assigned to impose the specified sanctions on media service providers.",
+      "section": "Article 26(5)",
+      "source_type": "legislation"
+    },
+    "source-4808ee23d06063c400e51287": {
+      "url": "https://www.eett.gr/en/submit-a-complaint/",
+      "accessed_on": "2026-09-24",
+      "evidence": "The official page directs consumers to online complaint forms for EETT-regulated areas.",
+      "section": "Submit a complaint — Consumers",
+      "source_type": "monitoring_body"
+    },
+    "source-a425f506be013167ac27a894": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "Article 14(1) covers fundamental alteration and disproportionate burden; Article 14(7) requires notification to the relevant authority and excludes microenterprises from that notification sentence.",
+      "section": "Article 14(1), (7)",
+      "source_type": "legislation"
+    },
+    "source-5ec868b9a74c311b9507aa15": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "Official Government Gazette title and Article 1 identify transposition of Directive (EU) 2019/882.",
+      "section": "Title; Article 1",
+      "source_type": "legislation"
+    },
+    "source-77d865282e9192891f09cce1": {
+      "url": "https://api.et.gr/apiLAW/1/2022/4994/pdf",
+      "label": "Law 4994/2022, Government Gazette",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law 4994/2022, Government Gazette — source located in the monitoring page; could not be retrieved for this review."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "Existing No restored and retained: Law 4994/2022 requires covered service providers to make Annex V conformity information available to the public in accessible written and oral forms, but does not expressly require a dedicated accessibility-statement page.",
+          "existing_text": "✖️ No",
+          "status": "verified",
+          "review_note": "The statutory public-information duty is distinct from an express dedicated-page requirement. Isolated Greek-to-English review by /root/greek_language on 2026-09-24, fork_turns=none: Supported; the reviewer agreed that No is reasonable for a column asking whether a dedicated accessibility-statement-style page is expressly required.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-26218d280009582a6e8fd3fb"
+          ],
+          "id": "monitoring-1a47abf0ff206eecfc42cbbd"
+        },
+        {
+          "field": "authority",
+          "assertion": "Law 4994/2022 designates four product-surveillance arrangements: the Industrial Products Safety and Compliance Directorate for computer hardware/operating systems, e-readers, payment terminals and ATMs; EETT for electronic-communications terminal equipment; the General Secretariat for Transport jointly with the Directorate for ticketing, check-in and interactive information terminals; and ESR jointly with the Directorate for audiovisual-access terminal equipment.",
+          "status": "verified",
+          "review_note": "Isolated Greek-to-English review by /root/greek_language on 2026-09-24, fork_turns=none: all four mappings Supported.",
+          "directive_context": "EAA",
+          "scope": "Products",
+          "source_refs": [
+            "source-d39a4138f7d861d880fab7f5"
+          ],
+          "id": "monitoring-cbffaad34c7bdcf7f36ee619"
+        },
+        {
+          "field": "authority",
+          "assertion": "EETT is the competent authority for monitoring and checking compliance of electronic-communications services.",
+          "status": "verified",
+          "review_note": "Isolated Greek-to-English review by /root/greek_language on 2026-09-24, fork_turns=none: Supported.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "source_refs": [
+            "source-81d9fffac4756764b0f4e00a"
+          ],
+          "id": "monitoring-b74385f71b515c49262b922a"
+        },
+        {
+          "field": "authority",
+          "assertion": "ESR imposes sanctions on media service providers for breaches of obligations under Law 4994/2022.",
+          "status": "verified",
+          "review_note": "Isolated Greek-to-English review by /root/greek_language on 2026-09-24, fork_turns=none corrected a broader draft: the excerpt says media service providers and imposes sanctions; the public wording uses that narrower phrasing.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-0b69a8f0d93dd2f986886313"
+          ],
+          "id": "monitoring-b0b7f49d5aa2bd79a8cc4b46"
+        },
+        {
+          "field": "authority",
+          "assertion": "The old row named the Bank of Greece for banking and the General Secretariat for Commerce and Consumer Protection for commerce/e-commerce, but the official provisions checked in this bounded run did not establish either as a Law 4994/2022 monitoring authority.",
+          "status": "unverified_source",
+          "review_note": "Removed from the concise table instead of presenting unsupported assignments. The sectors remain Unknown pending an official law, government or competent-authority source.",
+          "directive_context": "EAA",
+          "scope": "Banking and E-commerce",
+          "source_refs": [],
+          "id": "monitoring-b4b9812117bb27b4f76a5553"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "EETT publishes a general public complaint page with online complaint forms; EAA-specific intake was not confirmed.",
+          "status": "verified",
+          "review_note": "The route is explicitly labelled general in the table. No form was submitted and no EAA category was confirmed.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "reporting_route": {
+            "authority": "EETT",
+            "sector": "Electronic communications",
+            "channel": "form",
+            "destination": "https://www.eett.gr/en/submit-a-complaint/",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-4808ee23d06063c400e51287"
+          ],
+          "id": "monitoring-447387da0255d0d53c0d1ceb"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Economic operators relying on Article 14(1) must inform the relevant market-surveillance or service-compliance authority; the notification requirement does not apply to microenterprises.",
+          "status": "verified",
+          "review_note": "The public table uses the repository-required label Exemptions:. No usable notification destination was verified, so each route remains Unknown. Isolated Greek-to-English review by /root/greek_language on 2026-09-24, fork_turns=none: the Article 14(7) wording was narrowed to 'invoking Article 14(1)' when quoted alone; the combined Article 14(1), (7) evidence supports the two statutory grounds.",
+          "directive_context": "EAA",
+          "scope": "All covered products and services",
+          "source_refs": [
+            "source-a425f506be013167ac27a894"
+          ],
+          "id": "monitoring-723e644f535de26c6abb764d"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Greece implements Directive (EU) 2019/882 through Law 4994/2022, Government Gazette A 215/18.11.2022.",
+          "status": "verified",
+          "review_note": "Official Gazette PDF reachable 2026-09-24.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-5ec868b9a74c311b9507aa15"
+          ],
+          "id": "monitoring-db0450787d3fbf746eb9fd2f"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Non-government correspondence corroborates the four product-surveillance bodies in Article 19(2), supplies named contacts, and says the General Secretariat for Commerce mailbox 1520@mindev.gov.gr is not the correct EAA-enforcement contact.",
+          "status": "unverified_source",
+          "review_note": "Contributor-supplied email inspected 2026-09-24: response dated 19 January 2026 from the National Confederation of Disabled People (NCDP/ESAEA), in a thread initiated through an AccessibleEU national expert. This is not government or competent-authority correspondence. The authority roster independently matches Law 4994/2022 Article 19(2); named staff contact details and the conclusion about 1520@mindev.gov.gr remain unverified and are not published in the table. Attachment: Question on contacting the EAA enforcement authority in Greece.eml. Full correspondence, signatures and personal contact details are not reproduced.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-4f4edf5c4c5b91b95889f987"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Whether EETT accepts company non-compliance reports by email, offers a company reporting tool, or accepts reports in English remains unknown; official email questions have not received a reply.",
+          "status": "unknown",
+          "review_note": "Contributor-supplied email inspected 2026-09-24: questions sent to an EETT Radio Equipment Department address on 15 April 2026, followed up on 14 August 2026. No authority reply is present in the supplied .eml as of 24 September 2026. Attachment: Questions about reporting for the EAA (1).eml. The unanswered message is provenance for the open question, not evidence of an accepted route. Full correspondence, signatures and personal contact details are not published.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications and relevant products",
+          "source_refs": [],
+          "id": "monitoring-fb2a87a4f0779393f9b7caa6"
+        }
+      ],
+      "questions": [
+        "Before PR: RESOLVED — PR #24 accidentally deleted the Greece row while replacing Germany; this PR restores Greece from the pre-merge row as a fully audited entry.",
+        "Before PR: RESOLVED — existing No is preserved and scoped to the absence of an express dedicated accessibility-statement page; the separate public service-information duty is stated in Additional information.",
+        "Before PR: RESOLVED — product authority mappings, EETT service oversight and ESR sanction authority were verified against Law 4994/2022 and checked by an isolated Greek-language reviewer.",
+        "Before PR: NARROWED — Bank of Greece and the General Secretariat for Commerce/Consumer Protection were removed as unverified Law 4994/2022 monitoring assignments; affected sectors are Unknown.",
+        "Manual checks before merge: None identified.",
+        "Correspondence: Non-government NCDP/ESAEA reply dated 19 January 2026, obtained through an AccessibleEU contact, corroborates the statutory Article 19(2) product-authority roster and supplies possible contact people. It is retained as an unverified source and does not support public-table reporting routes.",
+        "Correspondence: Official EETT questions sent 15 April 2026 and followed up 14 August 2026 had no reply in the supplied thread as of 24 September 2026.",
+        "Follow-up: Ask the Ministry of Development which authorities monitor E-commerce, Banking, Transport services and E-books under Law 4994/2022, and which body handles 112 accessibility.",
+        "Follow-up: Ask each verified authority for concrete public, company non-compliance and Exemptions reporting destinations, including whether EETT's general form accepts Law 4994/2022 reports.",
+        "Follow-up: Confirm whether Greece has issued the Article 27 implementing measures for joint product-surveillance teams and product sanctions.",
+        "Coverage: all common sectors were checked; unsupported service-sector authorities and unverified reporting routes are shown as Unknown.",
+        "Baseline: Germany PR #24 verified merged directly into main at 2599885348db509337ae775ab438be3fead6817d. No open PR, Greece record or pending Greece branch existed at start.",
+        "Budget: bounded research and verification run on 2026-09-24; no forms submitted, accounts created or messages sent.",
+        "Follow-up: Await or request an EETT response on company reporting tools, email submission and English-language acceptance; do not infer an accepted route from the unanswered correspondence."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Source search attempted; penalty provisions not verified.",
+      "public_page": "EAA sanctions.md#greece",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#greece",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#greece",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "National implementation under Law 4994/2022.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+              "public_text": "National implementation under Law 4994/2022.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "The sanctions framework in Article 26 and subsequent amendments needs a verified consolidated-law review before amounts are added.",
+              "public_text": "❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "7388e49a49df1a93ba799c2e2217bda3523637134a5bfdffac4761e0574bc7ea",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-77d865282e9192891f09cce1"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Search surfaced general e-commerce supervision and unrelated building-accessibility material. DIMEA page fetch failed. No usable primary evidence for an EAA case; scope remains partial, not a national no-enforcement conclusion."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.mindev.gov.gr προσβασιμότητα έλεγχοι ηλεκτρονικό εμπόριο 2026; site.mindev.gov.gr \"προσβασιμότητας\" \"έλεγχοι\"",
+          "sources_checked": [
+            "https://dimea.mindev.gov.gr/hlektroniko-emporio/",
+            "https://gge.mindev.gov.gr/home/sitemap/"
+          ],
+          "limitations": "Search surfaced general e-commerce supervision and unrelated building-accessibility material. DIMEA page fetch failed. No usable primary evidence for an EAA case; scope remains partial, not a national no-enforcement conclusion. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

@@ -6,16 +6,7 @@ Publish a country only when there is supported, relevant activity to report. Res
 
 Keep EU agency/civil activity, Commission proceedings against Member States, and non-EU activity in separate existing sections. Within country sections, sort by country, then the shared sector order, then event date newest first (unknown dates last). Use a stable case ID to break ties. A multi-sector case appears once, with sectors listed in canonical order. Existing combined rows need not be split merely to satisfy this convention; record case-level detail in research first. In the Commission section, sort by event date newest first, with countries named alphabetically. Unknown applicability must remain explicit.
 
-Use exactly the shared EAA labels, in this order:
-
-1. Products
-2. E-commerce
-3. Banking
-4. Electronic communications
-5. Transport
-6. Audiovisual access
-7. E-books
-8. 112 emergency calls
+Use the canonical sector labels/order in [registry.json](../registry.json).
 
 Keep narrower product/service boundaries beneath these labels. An empty `sectors` array in research means not established; use a concise Unknown only where needed to understand an actual public entry. Do not infer a sector or EAA applicability from accessibility language alone. General national transposition proceedings need not be forced into a sector.
 

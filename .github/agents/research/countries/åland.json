@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "country": "Åland",
+  "jurisdiction_group": "EU territory",
+  "evidence": {},
+  "domains": {
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU territory",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Read legislative decision 22/2023 context from roster. Legislation is not actual supervision. Åland recorded separately as EU territory; local enforcement remit and dated cases remain unresolved. No Finnish case assigned to Åland without territorial evidence."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.regeringen.ax tillgänglighet tillsyn 2026 tjänster; site.regeringen.ax \"digitala tjänster\" \"tillsyn\"",
+          "sources_checked": [
+            "https://www.lagtinget.ax/dokument/lagtingets-beslut-222023-53874"
+          ],
+          "limitations": "Read legislative decision 22/2023 context from roster. Legislation is not actual supervision. Åland recorded separately as EU territory; local enforcement remit and dated cases remain unresolved. No Finnish case assigned to Åland without territorial evidence. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

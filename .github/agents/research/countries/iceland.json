@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "country": "Iceland",
+  "jurisdiction_group": "non-EU",
+  "evidence": {},
+  "domains": {
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "non-EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Read consumer-authority news overview and search results; pricing cases were unrelated. No local digital-accessibility enforcement case or EAA applicability verified. Not an exhaustive equality-body/court search."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.neytendastofa.is aðgengi 2026",
+          "sources_checked": [
+            "https://www.neytendastofa.is/"
+          ],
+          "limitations": "Read consumer-authority news overview and search results; pricing cases were unrelated. No local digital-accessibility enforcement case or EAA applicability verified. Not an exhaustive equality-body/court search. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}
