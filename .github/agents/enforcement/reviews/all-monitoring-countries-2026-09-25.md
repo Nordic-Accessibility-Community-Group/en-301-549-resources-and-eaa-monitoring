@@ -34,11 +34,11 @@ Source fidelity: /root/wide_fidelity, fork_turns=none, received original passage
 
 Readability: /root/wide_readability, fork_turns=none, received proposed public text only. Final Pass for all seven entries, broadly B2. Optional stylistic changes were not applied after the final pass; no new facts were introduced.
 
-Independent PR review: pending actual draft and final head.
+Independent PR review: /root/wide_pr_final, fork_turns=none, reviewed actual PR #59 at d4a143826a0bc1dc79dcd06adde5128f685cb969 against main f7c09033ca21146d46d4fffae6d162e748f08723. No substantive findings. Independently reran the checker, all 26 tests and verification-date check. Reviewed the actual diff, claim preservation, evidence mappings, row fingerprints, routing and description. No renewed source retrieval or retranslations; source assessment used recorded passages and completed isolated-review reports. This is not maintainer approval. Subsequent changes only record this verdict and PR references; public wording and evidence are unchanged.
 
 ## Local validation
 
-Enforcement checker: PASS, 36 records and 18 mapped public rows. Regression suite: 26 tests pass, including the separate territory prerequisite. Markdownlint: zero issues. Verification-date script: no last_verified markers. These checks do not verify legal meaning or live links. Source access is described above; no blanket link-check pass is claimed.
+Enforcement checker: PASS, 36 records and 18 mapped public rows. Regression suite: 26 tests pass, including the separate territory prerequisite. Markdownlint: zero issues. Verification-date script: no last_verified markers. These checks do not verify legal meaning or live links. Source access is described above; no blanket link-check pass is claimed. Local rendering produced the same five warnings from the installed legacy HTML Tidy as current main (document wrapper and table summary attributes); no clean HTML-validation pass is claimed. GitHub had registered no workflow runs or check runs for the reviewed head at delivery, so CI is unconfirmed.
 
 ## Manual checks before merge
 
