@@ -30,6 +30,7 @@ Keep narrower product/service boundaries beneath these labels. An empty `sectors
 | `external_legal_analysis` | External — legal analysis |
 | `external_party_statement` | External — party statement |
 | `external_news_report` | External — news report |
+| `official_authority_correspondence` | Official authority correspondence (date and research link; no private details) |
 | `contributor_correspondence` | Contributor correspondence (only a shareable attribution) |
 | `other_unverified` | External — unverified source |
 

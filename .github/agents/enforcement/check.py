@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 EU = 'Austria Belgium Bulgaria Croatia Cyprus Czechia Denmark Estonia Finland France Germany Greece Hungary Ireland Italy Latvia Lithuania Luxembourg Malta Netherlands Poland Portugal Romania Slovakia Slovenia Spain Sweden'.split()
 SECTORS = ['Products', 'E-commerce', 'Banking', 'Electronic communications', 'Transport', 'Audiovisual access', 'E-books', '112 emergency calls']
 SOURCE_TYPES = ['official_law', 'official_authority_publication', 'official_court_decision', 'european_commission_publication', 'external_legal_analysis', 'external_party_statement', 'external_news_report', 'contributor_correspondence', 'other_unverified']
+SOURCE_TYPES.append('official_authority_correspondence')
 STAGES = ['announced_monitoring', 'ongoing_monitoring', 'complaint_lodged', 'investigation', 'warning', 'order_issued', 'conditional_penalty', 'penalty_imposed', 'appeal_pending', 'final_judgment', 'closed', 'unknown']
 PAGE = 'EAA enforcement tracking.md'
 # Frozen setup map; changes require explicit baseline migration review.
@@ -124,15 +125,29 @@ def check(root):
                 checked_date(claim[key], cid + '.' + key)
             require(isinstance(claim['case_identifier'], (str, type(None))), cid + ': case identifier')
             for source in claim['sources']:
-                fields(source, source_template, cid + ': source')
+                fields({k: v for k, v in source.items() if k != 'correspondence_review'}, source_template, cid + ': source')
                 require(source['source_type'] in SOURCE_TYPES, cid + ': source type')
+                if source['source_type'] == 'official_authority_correspondence':
+                    review = source.get('correspondence_review')
+                    fields(review, {'authority': '', 'source_date': '', 'document_sha256': '', 'reviewed_by': '', 'reviewed_on': '', 'scope_limit': ''}, cid + ': correspondence review')
+                    require(all(review.values()), cid + ': incomplete correspondence review')
+                    checked_date(review['source_date'], cid + ': correspondence date')
+                    checked_date(review['reviewed_on'], cid + ': correspondence review date')
+                    require(review['source_date'] <= review['reviewed_on'], cid + ': correspondence chronology')
+                    require(bool(re.fullmatch(r'[a-f0-9]{64}', review['document_sha256'])), cid + ': correspondence digest')
+                    require(source['provenance_note'].strip(), cid + ': correspondence provenance')
+                    require(source['retrieved_on'] is not None and source['retrieved_on'] <= review['reviewed_on'], cid + ': correspondence must be read before review')
+                    if claim['status'] == 'verified':
+                        require(claim['verified_on'] is not None and review['reviewed_on'] <= claim['verified_on'], cid + ': verification predates correspondence review')
+                else:
+                    require('correspondence_review' not in source, cid + ': review metadata only for official correspondence')
                 require(source['access_result'] in ['not_attempted', 'reachable', 'unreachable', 'unknown'], cid + ': access result')
                 for key in ['attempted_on', 'retrieved_on']:
                     checked_date(source[key], cid + '.' + key)
                 if source['url'] is not None:
                     require(isinstance(source['url'], str) and urlparse(source['url']).scheme in ['http', 'https'] and urlparse(source['url']).netloc, cid + ': source URL')
                 else:
-                    require(source['source_type'] == 'contributor_correspondence' and source['reference'].strip(), cid + ': source needs URL or correspondence reference')
+                    require(source['source_type'] in ['contributor_correspondence', 'official_authority_correspondence'] and source['reference'].strip(), cid + ': source needs URL or correspondence reference')
                 if source['access_result'] == 'not_attempted':
                     require(source['attempted_on'] is None and source['retrieved_on'] is None, cid + ': unattempted source has dates')
                 else:
@@ -141,7 +156,7 @@ def check(root):
                     require(source['access_result'] == 'reachable' and source['attempted_on'] is not None and source['retrieved_on'] <= source['attempted_on'], cid + ': invalid retrieval date')
             if claim['status'] == 'verified':
                 require(claim['verified_on'] is not None and claim['text'].strip() and claim['authority_or_court'].strip() and claim['legal_basis'].strip(), cid + ': verified claim lacks details')
-                require(any(s['source_type'] in SOURCE_TYPES[:4] and s['passage'].strip() and s['reference'].strip() and s['retrieved_on'] and s['retrieved_on'] <= claim['verified_on'] for s in claim['sources']), cid + ': verified claim requires retrieved primary passage')
+                require(any(s['source_type'] in SOURCE_TYPES[:4] + ['official_authority_correspondence'] and s['passage'].strip() and s['reference'].strip() and s['retrieved_on'] and s['retrieved_on'] <= claim['verified_on'] for s in claim['sources']), cid + ': verified claim requires retrieved primary passage')
             else:
                 require(claim['verified_on'] is None, cid + ': unverified claim has verification date')
             if claim['kind'] == 'statistics':

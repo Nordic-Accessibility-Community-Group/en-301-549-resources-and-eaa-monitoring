@@ -184,6 +184,37 @@ class RecordChecks(unittest.TestCase):
         self.write('research/belgium.json', record)
         self.rejects('sector order')
 
+    def correspondence_record(self, reviewed=True):
+        record, claim = self.researched_record()
+        record['verified_on'] = '2026-09-25'
+        claim.update(status='verified', verified_on='2026-09-25')
+        source = claim['sources'][0]
+        source.update(url=None, source_type='official_authority_correspondence', attempted_on='2026-09-25', retrieved_on='2026-09-25', access_result='reachable', provenance_note='Fixture original supplied by contributor and inspected; no public authentication claimed.')
+        if reviewed:
+            source['correspondence_review'] = dict(authority='Fixture authority', source_date='2026-09-25', document_sha256='a' * 64, reviewed_by='Fixture reviewer', reviewed_on='2026-09-25', scope_limit='Specific authority-reported activity only')
+        self.write('research/belgium.json', record)
+        return record
+
+    def test_reviewed_official_correspondence_can_support_claim(self):
+        self.correspondence_record()
+        self.assertEqual(CHECK.check(self.root), (28, 3))
+
+    def test_official_correspondence_needs_review_metadata(self):
+        self.correspondence_record(reviewed=False)
+        self.rejects('correspondence review')
+
+    def test_generic_correspondence_cannot_verify(self):
+        record = self.correspondence_record(reviewed=False)
+        record['claims'][0]['sources'][0]['source_type'] = 'contributor_correspondence'
+        self.write('research/belgium.json', record)
+        self.rejects('retrieved primary passage')
+
+    def test_correspondence_review_cannot_predate_source(self):
+        record = self.correspondence_record()
+        record['claims'][0]['sources'][0]['correspondence_review']['reviewed_on'] = '2026-09-24'
+        self.write('research/belgium.json', record)
+        self.rejects('correspondence chronology')
+
     def test_statistics_need_counting_basis(self):
         record, claim = self.researched_record()
         claim['kind'] = 'statistics'

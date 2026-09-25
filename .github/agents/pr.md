@@ -33,3 +33,7 @@ After opening a draft country research PR, the separate PR-opened research task 
 Record each result and date in the same research record and draft PR. If an official route is confirmed, update only that country's concise row and rerun isolated no-history language review and targeted structural checks when its wording changes. If it remains inaccessible or its purpose is uncertain, keep the table value Unknown and state the exact remaining check in the research record and PR. Preserve existing Yes/No and contributor correspondence unless explicit official evidence warrants correction. Never submit a report, send messages, change workflows or the events-calendar date script, open a second country PR, or merge a PR.
 
 Run this pass once for a newly opened draft. Commit and comment events and a change from draft to ready for review must not repeat it. For a draft that predates the automated trigger, perform the same pass once manually.
+
+## Cross-page evidence handoff
+
+Follow [shared evidence routing](evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.
