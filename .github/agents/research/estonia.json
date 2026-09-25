@@ -15,7 +15,7 @@
           "evidence": "Subsection 2 of § 11 of the Products and Services Accessibility Act requires service providers to prepare an information document explaining the conformity of the service with accessibility requirements. This document must be made available to the public in written and oral accessible format and retained throughout the entire period during which the service is provided.\n\nThe information document is similar to the accessibility statement currently mandatory in the public sector. Its purpose is to inform users, provide explanations and offer a practical and user-friendly solution for accessibility-related concerns. The statement must include information about the owner of the relevant website and/or application and explain how the service complies with accessibility requirements.\n\nThe Products and Services Accessibility Act does not prescribe a specific structure for the information document, meaning that service providers may determine its format at their own discretion. Service providers may consult public sector accessibility statement templates and guidance materials; however, the information document itself must comply with the requirements established by the Products and Services Accessibility Act.\n\nIn addition, it is recommended to continue the common practice widely used in Estonia, where a clearly distinguishable link to the accessibility statement is placed in the header or footer of every webpage. The statement may be prepared on the basis of an accessibility assessment carried out either internally or by a partner organisation (such as a developer or an accessibility assessment provider)."
         }
       ],
-      "review_note": "Existing No changed to Yes because the competent authority now explicitly confirms a public information document comparable in purpose to an accessibility statement. The quoted passage does not specify whether oral availability requires an audio or video recording; clarification from TTJA is pending. Isolated Estonian-language review on 2026-09-24 by /root/estonian_language (fork_turns=none) found this wording Supported. Maintainer clarification on 2026-09-24: Erik supplied the full English FAQ passage reproduced verbatim in sources[0].evidence and accepted Yes because TTJA explicitly compares the public document with the public-sector statement and recommends the established practice. Yes is retained on that basis. A dedicated webpage or header/footer link is not expressly mandatory: the link is recommended and the document format is discretionary. The information_mode is public_other to preserve that distinction; this is not a claim that WAD applies to private-sector services. No translation or new public-table wording is introduced by this documentation update.",
+      "review_note": "Existing No changed to Yes because the competent authority now explicitly confirms a public information document comparable in purpose to an accessibility statement. The quoted passage does not specify whether oral availability requires an audio or video recording; clarification from TTJA is pending. Isolated Estonian-language review on 2026-09-24 by /root/estonian_language (fork_turns=none) found this wording Supported. Maintainer clarification on 2026-09-24: Erik supplied the full English FAQ passage reproduced verbatim in sources[0].evidence and accepted Yes because TTJA explicitly compares the public document with the public-sector statement and recommends the established practice. Yes is retained on that basis. A dedicated webpage or header/footer link is not expressly mandatory: the link is recommended and the document format is discretionary. The information_mode is public_other to preserve that distinction; this is not a claim that WAD applies to private-sector services. No translation or new public-table wording is introduced by this documentation update. On 2026-09-25 the contributor asked TTJA whether a statement must be published on the company website. That follow-up is unanswered in the supplied thread; retain Yes on the existing public-information-document evidence, without claiming a mandatory dedicated webpage.",
       "directive_context": "EAA",
       "existing_text": "✖️ No",
       "information_mode": "public_other"
@@ -72,7 +72,7 @@
     },
     {
       "field": "public_reporting",
-      "assertion": "Formal EAA public complaint route: Unknown. TTJA publishes info@ttja.ee for accessibility questions, problems and general feedback.",
+      "assertion": "Dedicated formal EAA public complaint procedure: Unknown. TTJA confirms that members of the public can submit accessibility complaints or reports through its regular contact and complaint channels.",
       "status": "unknown",
       "sources": [
         {
@@ -83,7 +83,7 @@
           "evidence": "The page provides info@ttja.ee for accessibility-related contact but does not expressly label it a formal EAA complaint channel."
         }
       ],
-      "review_note": "The table preserves the existing info@ttja.ee public-report route. The isolated review confirmed that it should remain qualified in research as a general route, not an explicitly EAA-labelled complaint intake.",
+      "review_note": "The table preserves the existing info@ttja.ee public-report route. The isolated review confirmed that it should remain qualified in research as a general route, not an explicitly EAA-labelled complaint intake. Update 2026-09-25: Official correspondence supplied by the contributor in 'Estonia CPTRA answer - Questions about reporting for the EAA.eml', read 2026-09-25. TTJA/CPTRA Expert on Digital Accessibility reply dated 25 September 2026 (11:45 in the quoted thread), followed by the contributor's 12:20 follow-up. This is correspondence evidence, not a publicly retrievable webpage; sources is empty where the email is the sole evidence. Only a factual summary and the authority's generic inbox are recorded; the full thread, signatures and personal contact details are not published. The reply explicitly confirms the public audience and accessibility complaint/report purpose of regular channels, but does not identify a particular complaint form or equate the generic email with every formal complaint procedure. Preserve the existing Public reports email without relabelling it as dedicated formal complaint intake.",
       "directive_context": "EAA",
       "scope": "Products and services"
     },
@@ -113,10 +113,10 @@
     },
     {
       "field": "company_reporting",
-      "assertion": "Service-provider non-compliance reporting route: Unknown.",
+      "assertion": "Purpose-specific statutory service-provider non-compliance filing procedure: Unknown. TTJA confirms a general company communication channel at info@ttja.ee.",
       "status": "unknown",
       "sources": [],
-      "review_note": "The bounded run did not verify a distinct destination for a service provider reporting its own non-compliance; do not infer it from the product instructions or general contact address.",
+      "review_note": "The bounded run did not verify a distinct destination for a service provider reporting its own non-compliance; do not infer it from the product instructions or general contact address. Update 2026-09-25: the reply confirms general company contact but does not specify signature, content or deadline requirements for a service provider's statutory notice. A separate general Company enquiries entry records the correspondence; do not extend the verified product-specific instructions to services.",
       "directive_context": "EAA",
       "scope": "Services"
     },
@@ -173,6 +173,30 @@
       ],
       "review_note": "Official English consolidated text retained as the legal link.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Companies may contact TTJA about accessibility through regular official channels, including info@ttja.ee. Communication in English is possible, including for companies established in other EU Member States.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official correspondence supplied by the contributor in 'Estonia CPTRA answer - Questions about reporting for the EAA.eml', read 2026-09-25. TTJA/CPTRA Expert on Digital Accessibility reply dated 25 September 2026 (11:45 in the quoted thread), followed by the contributor's 12:20 follow-up. This is correspondence evidence, not a publicly retrievable webpage; sources is empty where the email is the sole evidence. Only a factual summary and the authority's generic inbox are recorded; the full thread, signatures and personal contact details are not published. The reply responds to questions about company reporting. Publish the existing repository label Company enquiries; it does not establish a purpose-specific statutory service filing procedure or universal acceptance of English for every required document. Isolated no-history English-language fidelity review by /root/estonia_reply_language on 2026-09-25: original 'Companies may contact ... including email info@ttja.ee' literally confirms company contact, not purpose-specific statutory reporting. Initial 'Company reports' corrected to final 'Company contact (general channel): info@ttja.ee'; final recheck Supported. Original 'Communication in English is possible, including for companies established in other EU Member States' supports final 'Company communication in English is possible, including from other EU Member States.' Both exact final table additions Supported in accessibility context. Final consistency correction requested by contributor: use 'Company enquiries: info@ttja.ee', an existing repository label, instead of 'Company contact'. Isolated agent rechecked this exact final wording on 2026-09-25: Supported as a narrower rendering of permitted contact with no statutory filing claim. English communication sentence unchanged and Supported.",
+      "directive_context": "EAA",
+      "scope": "Products and services; general company accessibility communication",
+      "reporting_route": {
+        "authority": "Consumer Protection and Technical Regulatory Authority (TTJA)",
+        "sector": "Products and services; general accessibility communication",
+        "channel": "email",
+        "destination": "info@ttja.ee",
+        "eaa_specific": false
+      }
+    },
+    {
+      "field": "additional_information",
+      "assertion": "As of its 25 September 2026 reply, TTJA states that Estonia has no dedicated EAA reporting portal or online reporting tool specifically for companies; supervisory procedures are still evolving.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official correspondence supplied by the contributor in 'Estonia CPTRA answer - Questions about reporting for the EAA.eml', read 2026-09-25. TTJA/CPTRA Expert on Digital Accessibility reply dated 25 September 2026 (11:45 in the quoted thread), followed by the contributor's 12:20 follow-up. This is correspondence evidence, not a publicly retrievable webpage; sources is empty where the email is the sole evidence. Only a factual summary and the authority's generic inbox are recorded; the full thread, signatures and personal contact details are not published. This does not contradict the existing downloadable product/service exemption forms or establish that no public complaint tools exist.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
@@ -181,11 +205,12 @@
     "Before PR: NARROWED — info@ttja.ee is preserved as a public reporting/contact route, but TTJA has not explicitly labelled it formal EAA complaint intake.",
     "Before merge: RESOLVED — Erik reviewed the supplied TTJA FAQ passage on 2026-09-24 and accepted Yes based on the required public document, comparison with the public-sector statement and recommended common practice. The audio/video recording question is a separate nonblocking follow-up.",
     "Before merge: Open both TTJA exemption form links and confirm that the product and service forms remain distinct and usable, and that the submission address remains info@ttja.ee.",
-    "Follow-up: Ask TTJA whether info@ttja.ee is the designated EAA public complaint route, and whether a specific complaint form is planned.",
-    "Follow-up: Verify a specific service-provider route for reporting its own service non-compliance.",
-    "Follow-up: Verify accepted submission languages and whether any authentication or signature requirement applies outside the signed exemption forms.",
+    "Follow-up: Partly resolved 2026-09-25 — TTJA confirms public accessibility complaints/reports through regular channels. Identify the precise formal complaint procedure and any planned dedicated intake; do not infer it from the general company email.",
+    "Follow-up: Partly resolved 2026-09-25 — general company communication through info@ttja.ee is confirmed; verify procedural requirements and purpose-specific acceptance for statutory service non-compliance notices.",
+    "Follow-up: Partly resolved 2026-09-25 — English company communication, including other EU Member States, is confirmed. Formal-document language, authentication and signature requirements beyond existing exemption instructions remain unresolved.",
     "Run scope: baseline main includes merged Czechia PR #21. Only Estonia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
     "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
-    "Follow-up: Ask TTJA whether the requirement to provide the accessibility information document in an oral accessible format requires a published audio or video recording, or whether oral provision on request is sufficient. Record TTJA’s answer and the accepted delivery formats."
+    "Follow-up: Ask TTJA whether the requirement to provide the accessibility information document in an oral accessible format requires a published audio or video recording, or whether oral provision on request is sufficient. Record TTJA’s answer and the accepted delivery formats.",
+    "Follow-up: Await TTJA's reply to the contributor's 25 September 2026 questions on mandatory website publication of an accessibility statement, whether monitoring has started, warnings issued, access to information on companies under monitoring, WCAG 2.2 testing, dark-mode testing and reporting deadlines. These are unanswered questions, not evidence of Estonian practices or of the Swedish comparisons used in the request. Do not add enforcement claims until answered."
   ]
 }
