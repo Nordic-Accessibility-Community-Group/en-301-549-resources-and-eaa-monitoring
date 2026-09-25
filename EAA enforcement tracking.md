@@ -44,14 +44,13 @@ Type can be:
   <tr>
     <td>Czech Republic</td>
     <td>Monitoring agency</td>
-    <td>Active</td>
+    <td>List publication</td>
     <td>
-      <ul>
-        <li>"The Czech Republic’s supervisory authority plans to publish lists of non-compliant products and services, particularly under the new General Product Safety Regulation (GPSR) and the European Accessibility Act (EAA), enabling market surveillance and enforcement." Source: <a href="https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe">Early signs of EAA enforcement across Europe, by Matthew Luken.</a></li>
-      </ul>
+      <p>ČOI’s accessibility guidance links to a list of the products and services it supervises. The list is published under sections 22 and 24 of Act No. 424/2023.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/">ČOI accessibility guidance</a>.</p>
     </td>
     <td>2025-12-19</td>
-    <td>-</td>
+    <td>2026-09-25</td>
   </tr>
   <tr>
     <td>Denmark</td>

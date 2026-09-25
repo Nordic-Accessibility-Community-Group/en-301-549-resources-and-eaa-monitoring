@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-25",
+  "scope": "Exact Czech replacement only; Germany and Ireland public wording unchanged.",
+  "source_fidelity": {
+    "agent": "czech_fidelity",
+    "isolation": "fork_turns=none; source passage, heading and proposed wording only",
+    "source_url": "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/",
+    "source_reference": "Final paragraph; heading identifies Act No. 424/2023. Original passage stored in claim czechia-coi-statutory-list-reference.",
+    "source_language": "Czech",
+    "publication_language": "English",
+    "literal_rendering": "The list of products and services within the supervisory remit of the Czech Trade Inspection Authority, published in accordance with sections 22 and 24 of the Act, is available here.",
+    "initial_verdict": "Supported",
+    "final_wording": "ČOI’s accessibility guidance links to a list of the products and services it supervises. The list is published under sections 22 and 24 of Act No. 424/2023.",
+    "final_status": "List publication",
+    "final_verdict": "Supported",
+    "corrected_final_wording_rechecked": true,
+    "limits": "No publication date or enforcement outcome is established. No outside retrieval by reviewer."
+  },
+  "readability": {
+    "agent": "czech_readability",
+    "isolation": "fork_turns=none; proposed public wording and neutral B2 brief only",
+    "finding": "Split the initial long sentence to make the modifier refer clearly to the list.",
+    "final_verdict": "Pass: clear, unambiguous, suitable for B2 English",
+    "corrected_final_wording_rechecked": true
+  },
+  "public_row_sha256": "9955b995d387af6313bafc322ebf96856f8cab27749d841639b3fada85ccd11b",
+  "evidence_review": "The official guidance supports the linked-list statement only. Underlying list unread; no contents, fines, dates or individual cases inferred.",
+  "before_pr_dispositions": [
+    {
+      "issue": "Underlying Czech list contents unread",
+      "resolution": "Narrowed public wording to what the official guidance says; no list entries or outcomes asserted."
+    },
+    {
+      "issue": "German civil-action classification unsupported by cited testing policy",
+      "resolution": "No new public assertion; inherited row preserved and issue recorded for separate review."
+    },
+    {
+      "issue": "Irish Three complaint lacks primary confirmation in this pass",
+      "resolution": "No public expansion or verification claim; inherited attributed account preserved."
+    }
+  ]
+}

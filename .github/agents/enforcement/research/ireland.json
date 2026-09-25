@@ -3,25 +3,241 @@
   "country": "Ireland",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
-  "verified_on": null,
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Original ireland-1 row and its quoted secondary attribution are retained unchanged at base f06450eca836087e73c9295485d52c338996a28b.",
+    "ComReg’s consumer-care guidance confirms a route for service-accessibility complaints. This does not independently confirm receipt, investigation or resolution of the reported Three complaint.",
+    "The case-specific account remains secondary reporting. Primary confirmation was not located within the bounded searches; absence of a public result is not proof that the complaint does not exist. The verified_on roll-up applies only to the general complaints guidance claim, not the Three case or the whole country."
   ],
   "public_entry_ids": [
     "ireland-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Seek primary support for the existing ComReg/Three complaint account.",
+      "sources_checked": [
+        "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+        "https://www.comreg.ie/advice-information/consumer-care/"
+      ],
+      "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:comreg.ie accessibility Three complaints 2026 European Accessibility Act. General remit follow-up: site:comreg.ie \"accessibility\" \"complaints\". Two case follow-ups: site:comreg.ie \"Three\" \"Accessibility Act\"; site:comreg.ie \"accessibility\" \"complaint\" \"2026\" Three. No case-specific primary evidence returned. ComReg notice https://www.comreg.ie/?p=134934 failed twice with reader Internal Error; search snippet not treated as retrieval.",
+      "next_check": "Seek a public case reference or shareable contributor provenance for the Three account; do not infer a breach or penalty."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ireland-reported-complaints-processing",
+      "kind": "case",
+      "text": "The secondary report says ComReg has begun processing consumer complaints.",
+      "authority_or_court": "Commission for Communications Regulation (ComReg)",
+      "case_identifier": null,
+      "sectors": [
+        "Electronic communications"
+      ],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "secondary_complaint_report",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": "2025-12-19",
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+          "source_type": "external_news_report",
+          "reference": "Ireland section, 2025-12-19",
+          "passage": "started to process consumer complaints",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ireland-reported-three-complaint",
+      "kind": "case",
+      "text": "The secondary report identifies a complaint concerning Three.",
+      "authority_or_court": "Commission for Communications Regulation (ComReg)",
+      "case_identifier": null,
+      "sectors": [
+        "Electronic communications"
+      ],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "secondary_complaint_report",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": "2025-12-19",
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+          "source_type": "external_news_report",
+          "reference": "Ireland section, 2025-12-19",
+          "passage": "including one against Ireland’s largest mobile telecommunications company, Three",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ireland-reported-three-market-position",
+      "kind": "case",
+      "text": "The secondary report describes Three as Ireland’s largest mobile telecommunications company.",
+      "authority_or_court": "Commission for Communications Regulation (ComReg)",
+      "case_identifier": null,
+      "sectors": [
+        "Electronic communications"
+      ],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "secondary_complaint_report",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": "2025-12-19",
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+          "source_type": "external_news_report",
+          "reference": "Ireland section, 2025-12-19; same sentence excerpt preserved in ireland-reported-three-complaint",
+          "passage": "",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ireland-reported-three-response",
+      "kind": "case",
+      "text": "The secondary report describes Three as responsive after the complaint was formally processed.",
+      "authority_or_court": "Commission for Communications Regulation (ComReg)",
+      "case_identifier": null,
+      "sectors": [
+        "Electronic communications"
+      ],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "secondary_complaint_report",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": "2025-12-19",
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+          "source_type": "external_news_report",
+          "reference": "Ireland section, 2025-12-19",
+          "passage": "responsive and active",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation. Surrounding source context (paraphrase): the reported responsiveness follows formal processing of the complaint."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ireland-inherited-active-status",
+      "kind": "monitoring_activity",
+      "text": "The public row labels Irish monitoring activity Active.",
+      "authority_or_court": "ComReg",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "inherited_status",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [],
+      "statistics": null,
+      "uncertainty": "Preserved inherited status; general remit and a secondary complaint report do not independently establish a current case stage.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ireland-comreg-accessibility-complaints-guidance",
+      "kind": "monitoring_activity",
+      "text": "ComReg’s consumer-care guidance allows direct complaints about the accessibility of a service.",
+      "authority_or_court": "Commission for Communications Regulation (ComReg)",
+      "case_identifier": null,
+      "sectors": [
+        "Electronic communications"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Consumer-care guidance explicitly describes the European Accessibility Act and phone/broadband service accessibility; national case-specific basis not checked.",
+      "action_type": "complaints_guidance_only",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.comreg.ie/advice-information/consumer-care/",
+          "source_type": "official_authority_publication",
+          "reference": "Making a complaint about an accessibility issue",
+          "passage": "You can contact us directly if you have a complaint about the accessibility of a service.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Research context only, not a reportable new enforcement event or confirmation of the Three complaint; not added to the public row.",
+      "next_check": "See country follow-up questions."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Find official support for the inherited secondary report; distinguish complaints from adjudicated breaches.",
+      "question": "What primary or shareable contributor evidence supports the reported Three complaint and response?",
+      "owner": "Contributor / future researcher",
+      "resolved_when": "An identifiable dated ComReg/court document or inspectable provenance resolves the case, stage and response without disclosing private personal data."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Is the claim that Three is the largest mobile provider needed, and what dated market metric supports it?",
       "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "resolved_when": "A dated official metric is checked if this descriptive claim is retained in rewritten wording."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Retry the unread ComReg notice only in a later authorised pass if it is still needed.",
+      "owner": "Future enforcement researcher",
+      "resolved_when": "The notice is retrieved through permitted access; no case verification is inferred merely from general guidance."
     }
   ]
 }

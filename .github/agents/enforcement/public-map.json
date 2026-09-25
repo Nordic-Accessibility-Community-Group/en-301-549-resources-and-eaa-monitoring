@@ -20,9 +20,11 @@
         "Czechia"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "3d82fa264bd89ea107afa652ce78a022856b8d29c6cb8647fdac8b890eeccafa",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "9955b995d387af6313bafc322ebf96856f8cab27749d841639b3fada85ccd11b",
+      "state": "reviewed",
+      "claim_ids": [
+        "czechia-coi-statutory-list-reference"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L44"
     },
     {

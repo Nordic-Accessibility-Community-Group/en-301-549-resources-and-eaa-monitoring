@@ -3,32 +3,131 @@
   "country": "Germany",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Inherited row germany-1 and Commission row are preserved at base f06450eca836087e73c9295485d52c338996a28b; see baseline-map.json for original row locations. Public wording remains unchanged.",
+    "The cited article describes BIK certification/testing policy. Its linked BIK method section 4.1.1 supports that policy description but identifies no court or civil proceeding. This disputes the row classification, not the existence of any German enforcement.",
+    "BIK is a first-party source for its own methodology, but is not treated as a competent enforcement authority under this workflow. Its source type remains other_unverified for enforcement claims; this does not mean the methodology page was unreadable or its authorship disputed.",
+    "The separate Croatia/Germany Commission entry is outside this pass; no verification status or date is assigned to it."
   ],
   "public_entry_ids": [
     "germany-1",
     "commission-croatia-germany-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Audit the inherited overlay row and its civil-action classification; exclude the Commission entry.",
+      "sources_checked": [
+        "https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance",
+        "https://bitvtest.de/test-methodik/web/beschreibung-des-pruefverfahrens"
+      ],
+      "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:bitvtest.de Overlay Konformität Aussage Prüfverbund 2025. Follow-ups: site:bitvtest.de Overlay Gericht Klage BIK Prüfstellen; site:bundesfachstelle-barrierefreiheit.de Overlay Überwachungsstellen Einschätzung. No court document located. Search-only leads were not treated as opened evidence.",
+      "next_check": "Obtain a case reference or agree how to relocate the testing-policy material before changing the public classification."
+    }
+  ],
+  "claims": [
+    {
+      "id": "germany-bik-overlay-policy",
+      "kind": "monitoring_activity",
+      "text": "The inherited entry attributes to BIK a restriction on conformity statements for websites using overlays.",
+      "authority_or_court": "BIK testing centres (testing-methodology publisher)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "BIK BITV/EN/WCAG testing methodology; an EAA civil-case legal basis has not been established.",
+      "action_type": "testing_policy",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://bitvtest.de/test-methodik/web/beschreibung-des-pruefverfahrens",
+          "source_type": "other_unverified",
+          "reference": "Section 4.1.1; linked from the inherited Chris Yoong article",
+          "passage": "BIK Prüfstellen können für Websites, die ein Overlay-Tool nutzen, derzeit keine sichere Aussage zur Konformität gemäß EN / WCAG machen.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The policy is readable, but it is not evidence of a regulatory measure or civil case. No publication date is stated for this method section.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "germany-inherited-civil-action-classification",
+      "kind": "case",
+      "text": "The public row classifies the overlay commentary as Civil action.",
+      "authority_or_court": "No court identified in the cited material",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "inherited_classification",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": "2025-12-16",
+      "verified_on": null,
+      "status": "disputed",
+      "sources": [
+        {
+          "url": "https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance",
+          "source_type": "external_news_report",
+          "reference": "What is BIK?; published 2025-12-16, updated 2025-12-18",
+          "passage": "BIK has no regulatory authority itself",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "The cited article and linked methodology concern testing policy, not an identified lawsuit. A targeted search did not supply a matching proceeding. This is not proof that no proceeding exists.",
+      "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "germany-inherited-active-status",
+      "kind": "case",
+      "text": "The inherited German civil-action row is labelled Active.",
+      "authority_or_court": "Unknown",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "unknown",
+      "legal_basis": "",
+      "action_type": "inherited_status",
+      "procedural_stage": "unknown",
+      "stage_detail": "",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unknown",
+      "sources": [],
+      "statistics": null,
+      "uncertainty": "No case identifier, procedural event or event date supports this inherited label in the materials read.",
+      "next_check": "See country follow-up questions."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Establish whether an actual civil proceeding supports the inherited overlay entry classification.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Does contributor evidence identify an actual civil proceeding behind germany-1, or should the testing-policy material be relocated outside the enforcement table?",
+      "owner": "Contributor / maintainer",
+      "resolved_when": "A case identifier and inspectable court/authority evidence are supplied, or a separately reviewed editorial relocation preserves the original material."
     },
     {
       "priority": "Follow-up",
-      "question": "Verify the shared Commission entry publication date and procedural stage. Keep it separate from enforcement against businesses.",
+      "question": "Verify the shared Commission entry separately.",
       "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "resolved_when": "Its official decision, publication date and procedural stage are checked in an authorised pass."
     }
   ]
 }
