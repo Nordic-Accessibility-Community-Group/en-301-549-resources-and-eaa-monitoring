@@ -621,6 +621,22 @@
       "sources": [],
       "directive_context": "EAA",
       "review_note": "Presentation-only regrouping at contributor request. Only the reporting cell changes. Labels reuse recorded authority/sector mappings; shared sectors/channels may be grouped to avoid repetition. Public complaints, company non-compliance and exemptions are separate. If all channels are unestablished, one 'Reporting channels: Unknown' item is used. Unknown describes the research gap, not absence of a channel or authority. Existing destinations, language notes, conditions and contributor details are retained. No new route, translation claim, law interpretation, or current-source verification is introduced. Prior language-review results apply to the retained wording; the historical exact row snapshots above precede this layout change. All other cells, Yes/No answers and the events-calendar script are unchanged. Full repository CI not run in this presentation pass."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS's 2025 supervision report confirms product market surveillance and service supervision for electronic communications, banking and e-commerce, and reports development of a complaints/company-reporting e-service.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/contentassets/bfb6f7c0428e4df5beb0e9a6d211cefd/tillsyn-for-ett-fungerande-digitalt-samhalle-2025.pdf",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-25",
+          "section": "6.1.1–6.1.3, pp. 20–21",
+          "evidence": "Factual summary: PTS describes its service supervision sectors, market surveillance of all LPTT products, and development of an e-service for complaints and business reports."
+        }
+      ],
+      "review_note": "Evidence event se-pts-supervision-2025-report. These functions and reporting routes already appear in the public monitoring row. This historical report does not independently verify today's form operation, languages or reporting deadline. Activity totals recorded in ../enforcement/research/sweden.json; no monitoring public edit needed.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [

@@ -504,6 +504,40 @@
           "pr": null
         }
       ]
+    },
+    {
+      "id": "se-pts-supervision-2025-report",
+      "country": "Sweden",
+      "recorded_on": "2026-09-25",
+      "status": "proposed",
+      "reason": "Official PTS report dated 2026-01-30 supplies historical 2025 enforcement statistics.",
+      "next_action": "Review separate Sweden report draft PR; preserve PR60's unrelated ledger changes when merging.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/sweden.json",
+          "disposition": "already_present",
+          "reason": "Authority remit and reporting-service existence already listed; supporting research added.",
+          "next_action": "No public change from this source.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/enforcement/research/sweden.json",
+          "disposition": "proposed",
+          "reason": "Add explicitly dated 2025 counts with official report link, preserving later figures.",
+          "next_action": "Review draft PR.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/sanctions/sweden.json",
+          "disposition": "research_only",
+          "reason": "No new statutory sanctions or EAA penalty outcome established.",
+          "next_action": "No public change from this source.",
+          "pr": null
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "reviewed_on": "2026-09-25",
+  "scope": "Only new Sweden 2025 report paragraph; inherited content not reverified.",
+  "public_wording": "2025 totals: In its report dated 30 January 2026, PTS recorded, for 2025, 322 reports submitted by businesses about accessibility shortcomings and 114 complaints from the public. It opened 17 e-commerce supervision cases and 11 product market-surveillance cases during 2025. The report described these checks as ongoing.",
+  "source_url": "https://pts.se/contentassets/bfb6f7c0428e4df5beb0e9a6d211cefd/tillsyn-for-ett-fungerande-digitalt-samhalle-2025.pdf",
+  "source_fidelity": {
+    "agent": "pts_fidelity",
+    "isolation": "No conversation history; source and proposed text only",
+    "verdict": "Supported",
+    "note": "Dated report and historical ongoing status preserved; 2025 period and categories distinguished."
+  },
+  "readability": {
+    "agent": "pts_readability",
+    "isolation": "No conversation history; proposed text only",
+    "verdict": "Supported with correction applied",
+    "correction": "Move for 2025 before both submission counts to clarify shared period."
+  }
+}
