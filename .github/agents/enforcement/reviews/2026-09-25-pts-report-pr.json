@@ -1,0 +1,26 @@
+{
+  "reviewed_on": "2026-09-25",
+  "reviewed_commit": "8477c361a7d1c48065bca3cf0f6ab34775f9815e",
+  "reviewer": "pts_pr_review",
+  "isolation": "No conversation-history fork; actual GitHub PR and diff inspected independently",
+  "verdict": "No blockers found",
+  "scope": "Seven-file Sweden PTS report change; preserved merged PR60 ledger updates.",
+  "findings": [
+    "Official report pp.20–21 supports four separately counted 2025 totals and historical ongoing status.",
+    "Research mapping and monitoring/sanctions dispositions justified.",
+    "Newer figures and unrelated merged evidence preserved."
+  ],
+  "validation": {
+    "enforcement_consistency": "Passed; 36 research records, 18 mapped entries",
+    "regression_tests": "26 passed",
+    "changed_row_html": "Passed balanced HTML and six cells",
+    "rendered_html": "Not run: npx unavailable",
+    "ci": "Not verified"
+  },
+  "limitations": [
+    "Tests reported by implementing agent, not independently rerun by reviewer.",
+    "Inherited claims not reverified.",
+    "Review is not maintainer approval."
+  ],
+  "post_review_changes": "Only this review report, language-review documentation and PR description; public wording and evidence unchanged."
+}

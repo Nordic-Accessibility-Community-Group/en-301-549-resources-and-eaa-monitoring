@@ -136,14 +136,15 @@
         "Sweden"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "9319aee58e58eeed61a18ff526a7c3213de07fe69f3a330270105741369c8e9d",
+      "row_sha256": "b976a409dfe4d6e12a992a987586aee29d45fa4c1aa1892e4fc3e5a144ced29b",
       "state": "reviewed",
       "claim_ids": [
         "se-pts-products-launch",
         "se-pts-ecommerce-launch",
         "se-pts-banking-launch",
         "se-complaints-20260217",
-        "se-complaint-selection"
+        "se-complaint-selection",
+        "se-pts-2025-report-totals"
       ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L175"
     },
