@@ -8,7 +8,7 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Official TTJA/CPTRA second reply of 25 September 2026 supplied and inspected. Monitoring activity is attributed to that reply, not independently observed. Related service-information/testing details are retained in ../../research/estonia.json (PR #55 until merged).",
+    "Official TTJA/CPTRA second reply of 25 September 2026 supplied and inspected. Monitoring activity is attributed to that reply, not independently observed. Related service-information/testing details are retained in ../../research/estonia.json (merged PR #55).",
     "This public-source pass predates the merged direct-correspondence review in PR #57. Its derivative lead is superseded by the two verified claims retained here."
   ],
   "public_entry_ids": [
