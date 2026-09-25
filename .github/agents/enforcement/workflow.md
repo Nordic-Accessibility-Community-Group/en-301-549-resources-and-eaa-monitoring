@@ -1,32 +1,3 @@
-# Enforcement workflow and PR review
+# Enforcement workflow entry point
 
-## Separate stages
-
-1. **Research:** select one country or one coherent proceeding within the authorised scope. Read current main, open PRs and pending branches first. Capture existing assertions and contributor provenance before proposing edits. Add source passages, URLs, dates, case identifiers and uncertainties to the record. Do not edit the public page in this stage.
-2. **Evidence verification:** independently compare each proposed assertion with its evidence. Apply the principles in [verification.md](../verification.md), adapted to enforcement: agency powers are not actual measures; a complaint is not a finding; a conditional fine is not a paid or imposed fine; an appeal is not a final outcome. Record the legal basis and sector separately. Court documents count as primary evidence; a litigant's account does not become a court finding. Preserve contradictory evidence and missing provenance.
-3. **Presentation:** draft only supported, relevant changes using [presentation.md](presentation.md). Keep research narration in records. Preserve essential qualifications and distinguish Commission proceedings, individual cases and aggregate statistics.
-4. **Source fidelity:** start a separate agent with `fork_turns="none"` using [language-verification.md](../language-verification.md). Give only source passages with sufficient context, source URLs/sections and exact proposed wording. Exclude evidence statuses, desired conclusions, PR discussions and research instructions. Use Supported / Correction needed / Ambiguous. Correct and recheck changed passages, including later shortening. If isolation is unavailable, record not performed. No blanket fluent-human requirement applies.
-5. **Readability:** start another no-history reviewer with only the proposed public text and a neutral brief: check B2 English, clarity and ambiguity; identify exact wording and suggest corrections without adding facts. This reviewer must not receive the research record or earlier conclusions. Recheck corrections; send any meaning-sensitive edits back through source fidelity. Record not applicable for process-only changes with no proposed public wording.
-6. **Local validation:** run the enforcement checker and its regression tests, then existing repository content checks. Record commands, results and limits. Check external URLs only within the authorised research pass; offline link checks cannot certify reachability. Do not update verification dates after editorial-only changes.
-7. **Independent PR review:** start a separate no-history reviewer with the actual GitHub PR, current head commit, final diff, evidence records, this checklist and completed review reports. It checks authorised scope, claim-to-evidence mapping, final wording, publication blockers, test results and description accuracy. Unlike language reviewers, it may read research conclusions. For process-only PRs, review instructions, fixtures, preservation of content and validator behaviour; no legal research is needed.
-8. **Delivery:** correct findings, update the same draft and recheck affected work. Human maintainer review remains required. Never approve, merge, enable auto-merge or send correspondence.
-
-## PR scope and report
-
-Use `Audit EAA enforcement tracking: <scope>` for factual updates and a descriptive setup title for infrastructure. Do not use the monitoring project's country-authority title or trigger its post-draft research pass. A country update normally changes only that country's supported entries and research record; a shared Commission proceeding may update several country references in one coherent PR. A multi-country content audit needs explicit scope. Check collisions again immediately before publishing; an unrelated project PR is not a blocker unless files overlap.
-
-Infrastructure changes belong under this folder. Factual page changes and research belong in separate PRs from process setup. A merged PR never starts another country's research automatically. Preserve bounded research limits from the README across handoffs; neither a reviewer nor a retry resets them.
-
-Put **Manual checks before merge** near the top of the description. List only concrete checks with the claim/cell, action, reason, source reference, owner and observable completion criterion; otherwise write "None identified beyond ordinary maintainer review." Separate **Before PR** accuracy blockers from **Non-blocking follow-up**. Surface blockers immediately; resolve, narrow or omit unsupported new assertions before proceeding. Missing public confirmation alone does not justify removing inherited contributor entries.
-
-Store review reports under `reviews/`, naming the reviewed commit and/or content fingerprints, exact scope, reviewer isolation, findings, dispositions and unreviewed material. Report source fidelity, readability, evidence and structural outcomes separately. A completed review can return changes needed; an AI result is not maintainer approval. Do not invent a passed review for a setup change that did not require one.
-
-Rewrite the PR description around the final diff, including actual file groups, changes, completed checks, source-review limits and unresolved items. Read the actual GitHub head again after publishing. Subsequent wording or evidence changes invalidate affected review results; infrastructure-only follow-ups do not require re-translating unchanged text. Report CI only from actual runs.
-
-## Review economy
-
-Do not require the monitoring project's exhaustive authority roster, intake-form, login or accepted-language checks unless an enforcement claim depends on them. Do not run the sanctions seven-column/EU-27 public-table check. Do not research every unknown to complete a process review. No recurring watcher or automatic post-draft research pass is part of this setup.
-
-## Cross-page evidence handoff
-
-Follow [shared evidence routing](../evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.
+Read [shared workflow](../workflow.md), [evidence](../evidence.md), [review](../review.md) and the [enforcement specification](README.md). This compatibility path remains for existing task prompts. The shared files own stage/review/budget rules; the specification and record/presentation contracts add enforcement-only requirements.
