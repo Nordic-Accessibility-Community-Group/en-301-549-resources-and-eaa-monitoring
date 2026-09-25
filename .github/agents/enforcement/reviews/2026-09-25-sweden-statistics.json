@@ -88,7 +88,14 @@
     "verification_dates": "No last_verified markers found",
     "whitespace": "PASS",
     "rendered_html_and_links": "Not rerun: only JSON research/review records change; public Markdown, HTML and links are byte-identical to base.",
-    "ci": "Not yet observed; no CI pass claimed."
+    "ci": "GitHub returned zero check runs and zero Actions runs for the reviewed head; no CI pass claimed."
   },
-  "independent_pr_review": "Pending actual draft PR/head review; outcome to be recorded in PR description."
+  "independent_pr_review": {
+    "reviewer": "sweden_pr_review",
+    "isolation": "Separate agent, fork_turns=none; actual remote PR/head, final diff, research record, source files/extracts and workflow checklist.",
+    "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/52",
+    "reviewed_head": "eaa5b994627c4ae5f3c8e831a3a74e0b490bf873",
+    "outcome": "No material findings. Scope, claim-to-evidence mapping, privacy, qualifications, dates, schema status and description checked. Independently recounted 535 rows, 190 complaints and 5+17 exemption reports; checker and 19 regression tests passed on rerun.",
+    "limits": "No external research or source authentication. PDF review used extracted text without repeating visual inspection. Lint and CI not independently rerun. Not maintainer approval. This follow-up changes review metadata only; research fingerprint unchanged."
+  }
 }
