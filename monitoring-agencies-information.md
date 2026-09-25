@@ -282,9 +282,11 @@
       <p><strong>Products and services:</strong></p>
       <ul>
         <li>Public reports: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
+        <li>Company enquiries: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
         <li>Company non-compliance (products): <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
         <li>Company exemptions: <a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">TTJA forms</a>, sent to <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
       </ul>
+      <p>Company communication in English is possible, including from other EU Member States.</p>
     </td>
     <td>
       <ul>
@@ -345,16 +347,17 @@
       <ul><li>❓ Unknown</li></ul>
     </td>
     <td>
+      <p>DGCCRF company declarations: the platform is in French; companies based outside France can use it and attach reports in English.</p>
       <p><strong>Products and E-commerce:</strong></p>
-      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
+      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
       <p><strong>Transport:</strong></p>
-      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
+      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
       <p><strong>Electronic communications:</strong></p>
-      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
+      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
       <p><strong>Audiovisual access:</strong></p>
-      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
+      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
       <p><strong>Banking:</strong></p>
-      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
+      <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Public and company reporting (other sector authorities): ❓ Unknown.</li></ul>
       <p><strong>E-books:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p>

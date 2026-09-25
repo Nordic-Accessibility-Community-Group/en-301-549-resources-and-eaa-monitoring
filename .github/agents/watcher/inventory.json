@@ -6,7 +6,7 @@
       "name": "Denmark",
       "slug": "denmark",
       "group": "established",
-      "record_path": ".github/agents/research/denmark.json",
+      "record_path": ".github/agents/research/countries/denmark.json",
       "record_blob_sha": "c21e069926a2cbed0b46ae6628bb61632a426737",
       "open_questions": [
         "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
@@ -28,13 +28,15 @@
       "discovery_terms": [
         "tilgængelighed orienteringspligt nyheder",
         "tilgængelighed anmeld undtagelser"
-      ]
+      ],
+      "legacy_record_path": ".github/agents/research/denmark.json",
+      "record_domain": "monitoring"
     },
     {
       "name": "Sweden",
       "slug": "sweden",
       "group": "established",
-      "record_path": ".github/agents/research/sweden.json",
+      "record_path": ".github/agents/research/countries/sweden.json",
       "record_blob_sha": "348f0162fadd0c444511a1c90f5f74cc47b976ed",
       "open_questions": [
         "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
@@ -57,13 +59,15 @@
       "discovery_terms": [
         "tillgänglighetslagen rapportering nyheter",
         "tillgänglighet föreskrifter undantag"
-      ]
+      ],
+      "legacy_record_path": ".github/agents/research/sweden.json",
+      "record_domain": "monitoring"
     },
     {
       "name": "Ireland",
       "slug": "ireland",
       "group": "reporting_gaps",
-      "record_path": ".github/agents/research/ireland.json",
+      "record_path": ".github/agents/research/countries/ireland.json",
       "record_blob_sha": "d3ec30a62734f872dc653a01d037ea04d1e4d4e0",
       "open_questions": [
         "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
@@ -87,13 +91,15 @@
       "discovery_terms": [
         "European Accessibility Act reporting exemption news",
         "accessibility company notification"
-      ]
+      ],
+      "legacy_record_path": ".github/agents/research/ireland.json",
+      "record_domain": "monitoring"
     },
     {
       "name": "Italy",
       "slug": "italy",
       "group": "reporting_gaps",
-      "record_path": ".github/agents/research/italy.json",
+      "record_path": ".github/agents/research/countries/italy.json",
       "record_blob_sha": "78b025cfebd4994bde04a26e8d6b76a7b1c9d897",
       "open_questions": [
         "Follow-up: inspect current AgID operational complaint/company/exemption intake, including login and accepted languages; portal shell and institutional403 responses prevented verification.",
@@ -112,13 +118,15 @@
       "discovery_terms": [
         "accessibilità servizi segnalazioni notizie",
         "decreto 82/2022 vigilanza esenzioni"
-      ]
+      ],
+      "legacy_record_path": ".github/agents/research/italy.json",
+      "record_domain": "monitoring"
     },
     {
       "name": "Portugal",
       "slug": "portugal",
       "group": "reporting_gaps",
-      "record_path": ".github/agents/research/portugal.json",
+      "record_path": ".github/agents/research/countries/portugal.json",
       "record_blob_sha": "5f13cfbbcf825634a89020895f6042446e67f9a9",
       "open_questions": [
         "Follow-up: Portugal / accessibility-statement Yes — awaiting an official email answer. Preserve contributor's existing Yes (Source needed); once the Portuguese competent monitoring body or government responds, verify whether it explicitly requires a dedicated public page comparable to a WAD accessibility declaration, rather than only public terms or an equivalent document under Art. 13/Annex II. Owner: researcher; nonblocking for this PR; resolved by dated official reply or direct government guidance recorded with provenance.",
@@ -144,7 +152,9 @@
       "discovery_terms": [
         "acessibilidade produtos serviços notícias",
         "incumprimento comunicação empresas isenção"
-      ]
+      ],
+      "legacy_record_path": ".github/agents/research/portugal.json",
+      "record_domain": "monitoring"
     }
   ],
   "sources": [
@@ -156,7 +166,10 @@
       "claim_indices": [
         0
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-3c6b5968670022fd01613e50"
+      ]
     },
     {
       "id": "denmark-02",
@@ -168,7 +181,12 @@
         4,
         19
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a8d5153bc6801b19a059c6ed",
+        "monitoring-89163d4c619e3700a769b277",
+        "monitoring-93cf0f680ecee0bf1fd401cf"
+      ]
     },
     {
       "id": "denmark-03",
@@ -181,7 +199,13 @@
         12,
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a8d5153bc6801b19a059c6ed",
+        "monitoring-a7ca9b62c4613907d163c34c",
+        "monitoring-0dcaad81f40399bd76872bc0",
+        "monitoring-73028161fc706dbf3b87aaa0"
+      ]
     },
     {
       "id": "denmark-04",
@@ -200,7 +224,19 @@
         25,
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-2d501909cdc8df52f7356d04",
+        "monitoring-a7ca9b62c4613907d163c34c",
+        "monitoring-ae92c4c395e067f42474b2c5",
+        "monitoring-f314b346275c0f668fbf9758",
+        "monitoring-bef5419752c285410d0ad856",
+        "monitoring-77c4184ef643a9de5dfa18e5",
+        "monitoring-eaaf162c8ffdfd63d92d5851",
+        "monitoring-0cfdb2f63c54f353d96aaf3f",
+        "monitoring-37dd54b9636df8034594d7f6",
+        "monitoring-73028161fc706dbf3b87aaa0"
+      ]
     },
     {
       "id": "denmark-05",
@@ -210,7 +246,10 @@
       "claim_indices": [
         5
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-2d501909cdc8df52f7356d04"
+      ]
     },
     {
       "id": "denmark-06",
@@ -220,7 +259,10 @@
       "claim_indices": [
         7
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-ae92c4c395e067f42474b2c5"
+      ]
     },
     {
       "id": "denmark-07",
@@ -230,7 +272,10 @@
       "claim_indices": [
         8
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-f314b346275c0f668fbf9758"
+      ]
     },
     {
       "id": "denmark-08",
@@ -240,7 +285,10 @@
       "claim_indices": [
         9
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-bef5419752c285410d0ad856"
+      ]
     },
     {
       "id": "denmark-09",
@@ -250,7 +298,10 @@
       "claim_indices": [
         10
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-77c4184ef643a9de5dfa18e5"
+      ]
     },
     {
       "id": "denmark-10",
@@ -260,7 +311,10 @@
       "claim_indices": [
         11
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-eaaf162c8ffdfd63d92d5851"
+      ]
     },
     {
       "id": "denmark-11",
@@ -270,7 +324,10 @@
       "claim_indices": [
         12
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-0dcaad81f40399bd76872bc0"
+      ]
     },
     {
       "id": "denmark-12",
@@ -280,7 +337,10 @@
       "claim_indices": [
         12
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-0dcaad81f40399bd76872bc0"
+      ]
     },
     {
       "id": "denmark-13",
@@ -291,7 +351,11 @@
         14,
         15
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a24f835a57dd88370a931f83",
+        "monitoring-c8c452a1bec4a5629e7d69b7"
+      ]
     },
     {
       "id": "denmark-14",
@@ -303,7 +367,12 @@
         25,
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a24f835a57dd88370a931f83",
+        "monitoring-37dd54b9636df8034594d7f6",
+        "monitoring-73028161fc706dbf3b87aaa0"
+      ]
     },
     {
       "id": "denmark-15",
@@ -313,7 +382,10 @@
       "claim_indices": [
         16
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cd9154d0a97d5dd0ba547f4e"
+      ]
     },
     {
       "id": "denmark-16",
@@ -325,7 +397,12 @@
         25,
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cd9154d0a97d5dd0ba547f4e",
+        "monitoring-37dd54b9636df8034594d7f6",
+        "monitoring-73028161fc706dbf3b87aaa0"
+      ]
     },
     {
       "id": "denmark-17",
@@ -337,7 +414,12 @@
         18,
         25
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cb6b9160114246c5cd58690f",
+        "monitoring-e92770fe7db564af7010c0d7",
+        "monitoring-37dd54b9636df8034594d7f6"
+      ]
     },
     {
       "id": "denmark-18",
@@ -347,7 +429,10 @@
       "claim_indices": [
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-73028161fc706dbf3b87aaa0"
+      ]
     },
     {
       "id": "sweden-01",
@@ -367,7 +452,20 @@
         13,
         19
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-574b5a5f0bdd7e2eee0dc60e",
+        "monitoring-10ac3f5bede1ba58af87d783",
+        "monitoring-bad6af35296619701f238d68",
+        "monitoring-a1fedf90ddfb45e5935af442",
+        "monitoring-98559399c136de1e62bfc6be",
+        "monitoring-c8d36e612815bd28153d0125",
+        "monitoring-6c557c059dd2fff13a029566",
+        "monitoring-6277e0ed33d39d304af9057f",
+        "monitoring-913c5349e0cbb57e913f4c01",
+        "monitoring-aecc68e459ff3f3cebb734d2",
+        "monitoring-dcbeee841579592c3a0fdfc2"
+      ]
     },
     {
       "id": "sweden-02",
@@ -380,7 +478,13 @@
         4,
         34
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-fde20aa150a555d95484af0a",
+        "monitoring-2bfda5ad2368e2251b52ff95",
+        "monitoring-12e7069962ca20da66e9a38a",
+        "monitoring-87489b1a29315f26190df298"
+      ]
     },
     {
       "id": "sweden-03",
@@ -391,7 +495,11 @@
         6,
         19
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-bad6af35296619701f238d68",
+        "monitoring-dcbeee841579592c3a0fdfc2"
+      ]
     },
     {
       "id": "sweden-04",
@@ -404,7 +512,13 @@
         33,
         34
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a1fedf90ddfb45e5935af442",
+        "monitoring-8259dc6ba8790cac868f44e7",
+        "monitoring-e98d99d12cfb57fc5b333734",
+        "monitoring-87489b1a29315f26190df298"
+      ]
     },
     {
       "id": "sweden-05",
@@ -414,7 +528,10 @@
       "claim_indices": [
         8
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-98559399c136de1e62bfc6be"
+      ]
     },
     {
       "id": "sweden-06",
@@ -424,7 +541,10 @@
       "claim_indices": [
         9
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-c8d36e612815bd28153d0125"
+      ]
     },
     {
       "id": "sweden-07",
@@ -435,7 +555,11 @@
         14,
         34
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-60cdfede4aa97e397124bfc7",
+        "monitoring-87489b1a29315f26190df298"
+      ]
     },
     {
       "id": "sweden-08",
@@ -447,7 +571,12 @@
         17,
         18
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-582d6545cced1bb9b819d151",
+        "monitoring-fbfaa0df9ee1583241360869",
+        "monitoring-d8a17e24a547388d8aff15d8"
+      ]
     },
     {
       "id": "sweden-09",
@@ -457,7 +586,10 @@
       "claim_indices": [
         25
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-3ca5567f5da753cbc25be6ff"
+      ]
     },
     {
       "id": "sweden-10",
@@ -467,7 +599,10 @@
       "claim_indices": [
         27
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-d8d8d59313bf94494d513f27"
+      ]
     },
     {
       "id": "sweden-11",
@@ -477,7 +612,10 @@
       "claim_indices": [
         28
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-e56de3198d6fef172ad386f2"
+      ]
     },
     {
       "id": "sweden-12",
@@ -487,7 +625,10 @@
       "claim_indices": [
         29
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-8518b72a70b9b13463a5a95a"
+      ]
     },
     {
       "id": "sweden-13",
@@ -497,7 +638,10 @@
       "claim_indices": [
         32
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-07fcc5cad0d65088677cd6c7"
+      ]
     },
     {
       "id": "ireland-01",
@@ -510,7 +654,13 @@
         4,
         22
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cee6d1c55e6208ffaec81757",
+        "monitoring-a435c9752ad9bc0b8f3d3e73",
+        "monitoring-2f7b2246331bc788975bb078",
+        "monitoring-5c4425bfd3e6c9fc7957db6d"
+      ]
     },
     {
       "id": "ireland-02",
@@ -520,7 +670,10 @@
       "claim_indices": [
         2
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-15505bb4e8666bd6a32738ed"
+      ]
     },
     {
       "id": "ireland-03",
@@ -536,7 +689,16 @@
         10,
         11
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-97a0b2130e8043899b0596f1",
+        "monitoring-4399e6d57756f770e569144c",
+        "monitoring-a2f52b00559c3aad0276dce4",
+        "monitoring-71a7cd29add8178dd7420231",
+        "monitoring-eb511d4d18c77f90f4a32b2d",
+        "monitoring-38023133defba38a5e98d6de",
+        "monitoring-ef31c5776879045a97d242d1"
+      ]
     },
     {
       "id": "ireland-04",
@@ -546,7 +708,10 @@
       "claim_indices": [
         12
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-23c69f181b140d47e09233de"
+      ]
     },
     {
       "id": "ireland-05",
@@ -557,7 +722,11 @@
         13,
         14
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-0393bf5f09a5c1d7259f3161",
+        "monitoring-21a7eb8c2d4a7b1e972262d3"
+      ]
     },
     {
       "id": "ireland-06",
@@ -568,7 +737,11 @@
         15,
         23
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-2b9f10e5f95d98ea3e685905",
+        "monitoring-584c170b41671fe953fa7a30"
+      ]
     },
     {
       "id": "ireland-07",
@@ -578,7 +751,10 @@
       "claim_indices": [
         16
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-39ac3b86e00e19619f35db92"
+      ]
     },
     {
       "id": "ireland-08",
@@ -588,7 +764,10 @@
       "claim_indices": [
         17
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-71498fda49e1f519dd7302fa"
+      ]
     },
     {
       "id": "ireland-09",
@@ -598,7 +777,10 @@
       "claim_indices": [
         21
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-ff0e4438fc0c7b655e6fae72"
+      ]
     },
     {
       "id": "ireland-10",
@@ -608,7 +790,10 @@
       "claim_indices": [
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-c87c0afa925ac33da7151b5d"
+      ]
     },
     {
       "id": "ireland-11",
@@ -619,7 +804,11 @@
         27,
         28
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a293b0dc96b6bd2a566ad9ff",
+        "monitoring-e79851b81b3cbd9a6fa73d04"
+      ]
     },
     {
       "id": "ireland-12",
@@ -629,7 +818,10 @@
       "claim_indices": [
         27
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-a293b0dc96b6bd2a566ad9ff"
+      ]
     },
     {
       "id": "ireland-13",
@@ -639,7 +831,10 @@
       "claim_indices": [
         29
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-406fab448c9b6810f0c9274d"
+      ]
     },
     {
       "id": "italy-01",
@@ -655,7 +850,16 @@
         10,
         11
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-1eaf49919fbaea5e198bd255",
+        "monitoring-a8cb825ed2adc806de8cdd03",
+        "monitoring-3ffbbd8efa81203438138cc1",
+        "monitoring-ef745dedc399daca5510d35d",
+        "monitoring-a918b7b0fcc0bea09f8cd451",
+        "monitoring-a4de000b118ddc086b7b03d3",
+        "monitoring-230615abec0afa027b163704"
+      ]
     },
     {
       "id": "italy-02",
@@ -666,7 +870,11 @@
         0,
         27
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-1eaf49919fbaea5e198bd255",
+        "monitoring-beb9081237f397fcd44ff389"
+      ]
     },
     {
       "id": "italy-03",
@@ -678,7 +886,12 @@
         5,
         25
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-f047abdc9c6b5760e07be5ad",
+        "monitoring-1799ea5e748a15748e7c3fd9",
+        "monitoring-31d2bbc4ad09f686dcc45d56"
+      ]
     },
     {
       "id": "italy-04",
@@ -688,7 +901,10 @@
       "claim_indices": [
         2
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-5d768c4c7422490c4e4d2220"
+      ]
     },
     {
       "id": "italy-05",
@@ -698,7 +914,10 @@
       "claim_indices": [
         2
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-5d768c4c7422490c4e4d2220"
+      ]
     },
     {
       "id": "italy-06",
@@ -710,7 +929,12 @@
         11,
         15
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-c3ad803283af6690dcdc7434",
+        "monitoring-230615abec0afa027b163704",
+        "monitoring-870a3c097b1e758abb9d279d"
+      ]
     },
     {
       "id": "italy-07",
@@ -722,7 +946,12 @@
         13,
         15
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cd5803eb887a5583cab2e7a4",
+        "monitoring-c81800f577bdbfb20325d25e",
+        "monitoring-870a3c097b1e758abb9d279d"
+      ]
     },
     {
       "id": "italy-08",
@@ -732,7 +961,10 @@
       "claim_indices": [
         12
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-cd5803eb887a5583cab2e7a4"
+      ]
     },
     {
       "id": "italy-09",
@@ -743,7 +975,11 @@
         14,
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-34abd807056cb2684a824708",
+        "monitoring-75f67e0d4a5d5d91939ec32c"
+      ]
     },
     {
       "id": "italy-10",
@@ -753,7 +989,10 @@
       "claim_indices": [
         26
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-75f67e0d4a5d5d91939ec32c"
+      ]
     },
     {
       "id": "italy-11",
@@ -763,7 +1002,10 @@
       "claim_indices": [
         27
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-beb9081237f397fcd44ff389"
+      ]
     },
     {
       "id": "italy-12",
@@ -773,7 +1015,10 @@
       "claim_indices": [
         28
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-7ca5022601d45da809848626"
+      ]
     },
     {
       "id": "portugal-01",
@@ -801,7 +1046,28 @@
         17,
         19
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-638906aafbb2bc0564728fb6",
+        "monitoring-7cbfa8c92b7eb5b6a4cd95f2",
+        "monitoring-472636fa62164873e88f105a",
+        "monitoring-62e912eb5346168c60e5355e",
+        "monitoring-2b504ca664e5caf9cd317fca",
+        "monitoring-edcb841c0d44382bc1f38897",
+        "monitoring-749c9d29a6c1343f78db2881",
+        "monitoring-ac688bbd14cf7b44ad3d492c",
+        "monitoring-bc11a7e8f950fe688e03a14d",
+        "monitoring-ea3f1bfa555c900c921a8a75",
+        "monitoring-7291891554417693232efe29",
+        "monitoring-be9e1bd03628f1787c4559ce",
+        "monitoring-ad9923a313e0cb6be9ad97d4",
+        "monitoring-9843dbc61682962e9e413624",
+        "monitoring-9d310be6b3572239f2e60d31",
+        "monitoring-24e13ec68d2afcc281b2e630",
+        "monitoring-5bf0ea95f32e48b098dfc6b2",
+        "monitoring-3396f5ac1bc4b3db14d3d379",
+        "monitoring-108ac8f0a203829d1d7fa0dc"
+      ]
     },
     {
       "id": "portugal-02",
@@ -811,7 +1077,10 @@
       "claim_indices": [
         6
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-749c9d29a6c1343f78db2881"
+      ]
     },
     {
       "id": "portugal-03",
@@ -821,7 +1090,10 @@
       "claim_indices": [
         7
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-ac688bbd14cf7b44ad3d492c"
+      ]
     },
     {
       "id": "portugal-04",
@@ -831,7 +1103,10 @@
       "claim_indices": [
         8
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-bc11a7e8f950fe688e03a14d"
+      ]
     },
     {
       "id": "portugal-05",
@@ -841,7 +1116,10 @@
       "claim_indices": [
         10
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-7291891554417693232efe29"
+      ]
     },
     {
       "id": "portugal-06",
@@ -851,7 +1129,10 @@
       "claim_indices": [
         11
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-be9e1bd03628f1787c4559ce"
+      ]
     },
     {
       "id": "portugal-07",
@@ -861,7 +1142,10 @@
       "claim_indices": [
         12
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-ad9923a313e0cb6be9ad97d4"
+      ]
     },
     {
       "id": "portugal-08",
@@ -871,7 +1155,10 @@
       "claim_indices": [
         13
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-9843dbc61682962e9e413624"
+      ]
     },
     {
       "id": "portugal-09",
@@ -881,7 +1168,10 @@
       "claim_indices": [
         14
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-9d310be6b3572239f2e60d31"
+      ]
     },
     {
       "id": "portugal-10",
@@ -891,7 +1181,10 @@
       "claim_indices": [
         15
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-24e13ec68d2afcc281b2e630"
+      ]
     },
     {
       "id": "portugal-11",
@@ -902,7 +1195,11 @@
         16,
         20
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-5bf0ea95f32e48b098dfc6b2",
+        "monitoring-41796297c09b8df104f22120"
+      ]
     },
     {
       "id": "portugal-12",
@@ -912,7 +1209,10 @@
       "claim_indices": [
         21
       ],
-      "baseline_origin": "country_record"
+      "baseline_origin": "country_record",
+      "claim_ids": [
+        "monitoring-92ccd726e1124c6c38aae83e"
+      ]
     },
     {
       "id": "discovery-1",
@@ -920,7 +1220,8 @@
       "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
       "tier": "weekly",
       "claim_indices": [],
-      "baseline_origin": "discovery"
+      "baseline_origin": "discovery",
+      "claim_ids": []
     },
     {
       "id": "discovery-2",
@@ -928,7 +1229,8 @@
       "url": "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
       "tier": "weekly",
       "claim_indices": [],
-      "baseline_origin": "discovery"
+      "baseline_origin": "discovery",
+      "claim_ids": []
     },
     {
       "id": "discovery-3",
@@ -936,7 +1238,8 @@
       "url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
       "tier": "weekly",
       "claim_indices": [],
-      "baseline_origin": "discovery"
+      "baseline_origin": "discovery",
+      "claim_ids": []
     }
   ]
 }

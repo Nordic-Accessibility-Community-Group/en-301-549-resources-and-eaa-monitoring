@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "a82f3d72a8e2aaf9b138e3714e65367d0388654e",
+  "baseline_page_sha256": "df4dbf5354527d0885797896c4a8ee7a28bd8afcac7bceaed24bfb1427563287",
+  "entries": [
+    {
+      "id": "austria-1",
+      "countries": [
+        "Austria"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "bbf7accb1913d25786e4ec476a6cd409f4c28117aba496ac0f3a252c15e17cdb",
+      "state": "inherited_unreviewed",
+      "claim_ids": [],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L29"
+    },
+    {
+      "id": "czechia-1",
+      "countries": [
+        "Czechia"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "9955b995d387af6313bafc322ebf96856f8cab27749d841639b3fada85ccd11b",
+      "state": "reviewed",
+      "claim_ids": [
+        "czechia-coi-statutory-list-reference"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L44"
+    },
+    {
+      "id": "denmark-1",
+      "countries": [
+        "Denmark"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "6b5b29c75dd2acee5739dad46016c1f5e5c9ebf79a311105aac29aa01c838ddb",
+      "state": "inherited_unreviewed",
+      "claim_ids": [],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L56"
+    },
+    {
+      "id": "finland-1",
+      "countries": [
+        "Finland"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "acc962cb95f55c672dd272704e60901c33026f2c1d676d40785931973a021120",
+      "state": "reviewed",
+      "claim_ids": [
+        "fi-consumer-service-complaints-june-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L71"
+    },
+    {
+      "id": "france-1",
+      "countries": [
+        "France"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "9c521cb5d08c4e87a16536690d499e754b48411d6e79013fae77f61c638ae37f",
+      "state": "reviewed",
+      "claim_ids": [
+        "fr-dgccrf-controls",
+        "fr-dgccrf-reporting",
+        "fr-dgccrf-powers",
+        "fr-dgccrf-ecommerce-interim-september-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L96"
+    },
+    {
+      "id": "france-2",
+      "countries": [
+        "France"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "9ede836c504d4fd736ee08e48a8e7da5e0b64e0aa1bc03ea233afe968822d959",
+      "state": "reviewed",
+      "claim_ids": [
+        "fr-carrefour-interim-order-20260604",
+        "fr-carrefour-accessibility-assessment"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L111"
+    },
+    {
+      "id": "germany-1",
+      "countries": [
+        "Germany"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "920628cb2a279ec40b91c316056cee15abdc895c3ac09db5b7ec2128a0ef8c53",
+      "state": "inherited_unreviewed",
+      "claim_ids": [],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L128"
+    },
+    {
+      "id": "ireland-1",
+      "countries": [
+        "Ireland"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "ce51daa53130844a5138bf135f25445c90b48b7adf05076e8494ef216682b5fb",
+      "state": "reviewed",
+      "claim_ids": [
+        "ie-ccpc-2025-eaa-submissions"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L140"
+    },
+    {
+      "id": "netherlands-1",
+      "countries": [
+        "Netherlands"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "811dcf3207b75c5101e83d0d152bc0afc2f1179f9833d7cd5a7cb147e393df1f",
+      "state": "reviewed",
+      "claim_ids": [
+        "nl-acm-tests-20260324",
+        "nl-acm-followup-20260324"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L152"
+    },
+    {
+      "id": "slovenia-1",
+      "countries": [
+        "Slovenia"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "b42a4c8ff3519cbe606c67feec727358fb1e123b1e6e5a0218bbe63e1f3c8cb8",
+      "state": "inherited_unreviewed",
+      "claim_ids": [],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L167"
+    },
+    {
+      "id": "sweden-1",
+      "countries": [
+        "Sweden"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "b976a409dfe4d6e12a992a987586aee29d45fa4c1aa1892e4fc3e5a144ced29b",
+      "state": "reviewed",
+      "claim_ids": [
+        "se-pts-products-launch",
+        "se-pts-ecommerce-launch",
+        "se-pts-banking-launch",
+        "se-complaints-20260217",
+        "se-complaint-selection",
+        "se-pts-2025-report-totals"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L175"
+    },
+    {
+      "id": "commission-croatia-germany-1",
+      "countries": [
+        "Croatia",
+        "Germany"
+      ],
+      "section": "Decisions from the EU commission",
+      "row_sha256": "a307bead71f003522f24dda4920ae2b50dbd0ef4c7b72648f8b5d4938b16457c",
+      "state": "reviewed",
+      "claim_ids": [
+        "eu-croatia-germany-additional-opinions-20260311"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L221"
+    },
+    {
+      "id": "norway-1",
+      "countries": [
+        "Norway"
+      ],
+      "section": "Table of Non-EU legal enforcement status",
+      "row_sha256": "3c1a5260f8912098717945a30da63c5af6cedd0f7045e4d6f025122954739550",
+      "state": "reviewed",
+      "claim_ids": [
+        "no-helsami-closure-20251223"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L241"
+    },
+    {
+      "id": "germany-monitoring-2026",
+      "countries": [
+        "Germany"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "705dce44c6a8de38d2ed2ef7f93013a1f0bd8277abfd2e7509048b6eaa61fca8",
+      "state": "reviewed",
+      "claim_ids": [
+        "de-mlbf-nationwide-monitoring-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "slovenia-monitoring-2026",
+      "countries": [
+        "Slovenia"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "3965bb9e4dc5e7e78ba9dd6110980f6a4b8e7b7236412fb69d5be7aab303f721",
+      "state": "reviewed",
+      "claim_ids": [
+        "si-akos-rtv-accessibility-inspection-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "canada-monitoring-2026",
+      "countries": [
+        "Canada"
+      ],
+      "section": "Table of Non-EU legal enforcement status",
+      "row_sha256": "1b478e64bacc8fe2f6aee78be28faaa4c5e7ee06fcdae505ca98aa210c0d78ee",
+      "state": "reviewed",
+      "claim_ids": [
+        "ca-accessibility-commissioner-inspections-2025-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "united-kingdom-monitoring-2026",
+      "countries": [
+        "United Kingdom"
+      ],
+      "section": "Table of Non-EU legal enforcement status",
+      "row_sha256": "0847bf7dba8e14fa968335cee9ba109d4ea891e215a1eb1a7154ee8cd61c82b8",
+      "state": "reviewed",
+      "claim_ids": [
+        "uk-gds-ehrc-monitoring-2022-2024"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "estonia-1",
+      "countries": [
+        "Estonia"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "be87851b8ad0cddd95b1eccce339e762f4c1ce440f57f06110957064e3f9b224",
+      "state": "reviewed",
+      "claim_ids": [
+        "ee-ttja-monitoring-20260925",
+        "ee-ttja-corrective-plans-20260925"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/estonia-enforcement-handoff/EAA%20enforcement%20tracking.md"
+    }
+  ]
+}

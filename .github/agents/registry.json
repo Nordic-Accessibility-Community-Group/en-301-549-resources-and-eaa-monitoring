@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "sectors": [
+    "Products",
+    "E-commerce",
+    "Banking",
+    "Electronic communications",
+    "Transport",
+    "Audiovisual access",
+    "E-books",
+    "112 emergency calls"
+  ],
+  "jurisdictions": [
+    {
+      "name": "Austria",
+      "slug": "austria",
+      "group": "EU"
+    },
+    {
+      "name": "Belgium",
+      "slug": "belgium",
+      "group": "EU"
+    },
+    {
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "group": "EU"
+    },
+    {
+      "name": "Canada",
+      "slug": "canada",
+      "group": "non-EU"
+    },
+    {
+      "name": "Croatia",
+      "slug": "croatia",
+      "group": "EU"
+    },
+    {
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "group": "EU"
+    },
+    {
+      "name": "Czechia",
+      "slug": "czechia",
+      "group": "EU"
+    },
+    {
+      "name": "Denmark",
+      "slug": "denmark",
+      "group": "EU"
+    },
+    {
+      "name": "Estonia",
+      "slug": "estonia",
+      "group": "EU"
+    },
+    {
+      "name": "Faroe Islands",
+      "slug": "faroe islands",
+      "group": "non-EU"
+    },
+    {
+      "name": "Finland",
+      "slug": "finland",
+      "group": "EU"
+    },
+    {
+      "name": "France",
+      "slug": "france",
+      "group": "EU"
+    },
+    {
+      "name": "Germany",
+      "slug": "germany",
+      "group": "EU"
+    },
+    {
+      "name": "Greece",
+      "slug": "greece",
+      "group": "EU"
+    },
+    {
+      "name": "Greenland",
+      "slug": "greenland",
+      "group": "non-EU"
+    },
+    {
+      "name": "Hungary",
+      "slug": "hungary",
+      "group": "EU"
+    },
+    {
+      "name": "Iceland",
+      "slug": "iceland",
+      "group": "non-EU"
+    },
+    {
+      "name": "Ireland",
+      "slug": "ireland",
+      "group": "EU"
+    },
+    {
+      "name": "Italy",
+      "slug": "italy",
+      "group": "EU"
+    },
+    {
+      "name": "Latvia",
+      "slug": "latvia",
+      "group": "EU"
+    },
+    {
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "group": "non-EU"
+    },
+    {
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "group": "EU"
+    },
+    {
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "group": "EU"
+    },
+    {
+      "name": "Malta",
+      "slug": "malta",
+      "group": "EU"
+    },
+    {
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "group": "EU"
+    },
+    {
+      "name": "Norway",
+      "slug": "norway",
+      "group": "non-EU"
+    },
+    {
+      "name": "Poland",
+      "slug": "poland",
+      "group": "EU"
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "group": "EU"
+    },
+    {
+      "name": "Romania",
+      "slug": "romania",
+      "group": "EU"
+    },
+    {
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "group": "EU"
+    },
+    {
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "group": "EU"
+    },
+    {
+      "name": "Spain",
+      "slug": "spain",
+      "group": "EU"
+    },
+    {
+      "name": "Sweden",
+      "slug": "sweden",
+      "group": "EU"
+    },
+    {
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "group": "non-EU"
+    },
+    {
+      "name": "United Kingdom",
+      "slug": "united kingdom",
+      "group": "non-EU"
+    },
+    {
+      "name": "Åland",
+      "slug": "åland",
+      "group": "EU territory"
+    }
+  ]
+}

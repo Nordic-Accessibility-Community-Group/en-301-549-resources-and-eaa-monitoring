@@ -8,9 +8,12 @@ import hashlib
 import json
 import re
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import country_records
 
-COUNTRIES = 'Austria Belgium Bulgaria Croatia Cyprus Czechia Denmark Estonia Finland France Germany Greece Hungary Ireland Italy Latvia Lithuania Luxembourg Malta Netherlands Poland Portugal Romania Slovakia Slovenia Spain Sweden'.split()
-AREAS = ['Products', 'E-commerce', 'Banking', 'Electronic communications', 'Transport', 'Audiovisual access', 'E-books', '112 emergency calls']
+REGISTRY = json.loads((Path(__file__).resolve().parents[1] / 'agents/registry.json').read_text())
+COUNTRIES = [j['name'] for j in REGISTRY['jurisdictions'] if j['group'] == 'EU']
+AREAS = REGISTRY['sectors']
 
 class BalancedHTML(HTMLParser):
     def __init__(self):
@@ -42,7 +45,7 @@ def check(root):
         match = re.fullmatch(r'<p>(\d{4}-\d{2}-\d{2})</p>', cells[5])
         assert match, 'Last checked must contain only a date: ' + name
         assert date.fromisoformat(match[1]) <= date.today(), 'Future review date: ' + name
-        record = json.loads((folder / (slug + '.json')).read_text())
+        record = country_records.load(root, name, 'sanctions')
         assert record['country'] == name, 'Record country mismatch: ' + name
         assert record['last_checked'] == match[1], 'Record date mismatch: ' + name
         assert record['review_note'].strip(), 'Missing retained review note: ' + name

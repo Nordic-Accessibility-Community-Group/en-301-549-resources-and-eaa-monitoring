@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "country": "",
+  "jurisdiction_group": "EU",
+  "created_on": "2026-09-25",
+  "research_state": "not_yet_researched",
+  "search_result": "not_assessed",
+  "attempted_on": null,
+  "verified_on": null,
+  "knowledge_notes": [],
+  "public_entry_ids": [],
+  "attempts": [],
+  "claims": [],
+  "questions": []
+}

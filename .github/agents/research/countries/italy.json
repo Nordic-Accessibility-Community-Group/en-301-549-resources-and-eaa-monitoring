@@ -1,0 +1,670 @@
+{
+  "schema_version": 2,
+  "country": "Italy",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-f4c8546a6d611e3670aa9565": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Private entities under Article3(1-bis) providing EAA services no longer submit the old declaration; public administrations retain Stanca duties.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_10–11"
+    },
+    "source-828d680b1169bb8f6cb00ca7": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=25&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "From28 June2025 specified Stanca provisions cease applying to services governed by this decree.",
+      "source_type": "legislation",
+      "section": "Article25(3)"
+    },
+    "source-9f9d4eaa42103efeb1fa3a53": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=12&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Article12(2) requires public written/oral accessible information and retention while service operates.",
+      "source_type": "legislation",
+      "section": "Article12(2)"
+    },
+    "source-d6f62434f0ebe86cf3d47d5e": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=4&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "AnnexIV requires information in general terms or an equivalent document.",
+      "source_type": "legislation",
+      "section": "AnnexIV"
+    },
+    "source-957eb7cbf3becb21ee88e38e": {
+      "url": "https://trasparenza.agid.gov.it/download/10081.html",
+      "accessed_on": "2026-09-24",
+      "evidence": "Adopted guidance repeats the terms/equivalent-document duty.",
+      "source_type": "monitoring_body",
+      "section": "Annex, p59"
+    },
+    "source-8adf010ae0b5ef403bff7ebd": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Authority-held compliance and Article13 assessment information is available to consumers on request, with confidentiality safeguards.",
+      "source_type": "legislation",
+      "section": "Article17(3)"
+    },
+    "source-c541283c86c4395ba7e544f8": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=12&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Reasoned request from AgID or competent authorities triggers provision of necessary compliance information.",
+      "source_type": "legislation",
+      "section": "Article12(6)"
+    },
+    "source-f15710780f42f622ca99b844": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID service remit includes covered e-commerce services.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04,08–09"
+    },
+    "source-d1052f91570ef11b37fcf447": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID service remit includes consumer banking services.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04,08–09"
+    },
+    "source-ba7750290417c0692ced38b8": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID service remit includes electronic communications, excluding transmission services used to provide machine-to-machine services.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04,08–09"
+    },
+    "source-416a239c47f4e02f65cebde4": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID service remit includes services providing access to audiovisual media services.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04,08–09"
+    },
+    "source-9dedf5a6b826c8415d1f6786": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID service remit includes e-books and dedicated software.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04,08–09"
+    },
+    "source-f3115e058f7ca6da05005091": {
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "MIMIT is the product authority.",
+      "source_type": "monitoring_body",
+      "section": "FAQ N82/22_04"
+    },
+    "source-35f663a5f6b96a2256323833": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Product market surveillance assigned to the economic-development ministry.",
+      "source_type": "legislation",
+      "section": "Article17"
+    },
+    "source-fba52ff140705691640ec32b": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=21&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "AgID scope covers Article1(3)(c) points1–4, not point5 terminal use.",
+      "source_type": "legislation",
+      "section": "Article21(1)"
+    },
+    "source-9880a91719b33f8a534d7c48": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Covered transport elements enumerated in Article1(3)(c).",
+      "source_type": "legislation",
+      "section": "Article1(3)(c)"
+    },
+    "source-a87a33ddd035423c5769cda3": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=21&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Transport terminal oversight belongs to public bodies that entrusted or authorised provision; sector procedures apply.",
+      "source_type": "legislation",
+      "section": "Article21(6)"
+    },
+    "source-342c64f47136aeded4cf9058": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Emergency communications must meet AnnexI SectionV requirements.",
+      "source_type": "legislation",
+      "section": "Article3(5)"
+    },
+    "source-e6476592a1765c04eaca674b": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Product authority.",
+      "source_type": "legislation"
+    },
+    "source-0bcb0af73a0c402754f4fb37": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=21&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Separate service and transport-terminal functions.",
+      "source_type": "legislation"
+    },
+    "source-08b89c1da842e60a818eb9af": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=12&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Immediate nonconformity notification and corrective-measure information required.",
+      "source_type": "legislation",
+      "section": "Article12(5)"
+    },
+    "source-8bd5bf0b881acc932431929f": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=13&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Fundamental alteration/disproportionate burden; assessments and notification, excluding microenterprises from paragraph7 notification.",
+      "source_type": "legislation",
+      "section": "Article13"
+    },
+    "source-856e1181739fec114ef555de": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Service microenterprise exclusion.",
+      "source_type": "legislation",
+      "section": "Article3(3)"
+    },
+    "source-208a9fabbea415f1749ea185": {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2022/07/01/22G00089/sg",
+      "accessed_on": "2026-09-24",
+      "evidence": "Published1 July2022; entry into force16 July2022.",
+      "source_type": "legislation"
+    },
+    "source-f6aa63c6d625330de610bab5": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=25&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "accessed_on": "2026-09-24",
+      "evidence": "Application28 June2025; specified old contracts/products transition2030; terminal use bounded by useful life/max20years.",
+      "source_type": "legislation",
+      "section": "Article25"
+    },
+    "source-1aa9897adb05b20d4c974a9c": {
+      "url": "https://accessibilita.agid.gov.it/contatti/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Contact page directs information enquiries to accessibilita@agid.gov.it.",
+      "source_type": "monitoring_body",
+      "section": "Contatti"
+    },
+    "source-558a9f9152c934b539edc937": {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=24&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "label": "Legislative Decree 82/2022, Article 24",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Legislative Decree 82/2022, Article 24 — original published provision; separate Law 4/2004 regime not verified."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "Existing Yes is retained with its Stanca Act context; it is not verified as a universal EAA dedicated-page requirement.",
+          "status": "disputed",
+          "review_note": "Original Yes linked private Stanca guidelines. Both access attempts to that legacy link failed403. Preserve Yes and link; add concise distinction in last cell. No claim that EAA providers must not publish statements. EAA dedicated-page practice not established by examined guidance. Isolated Italian-to-English language review,24 September2026, /root/italian_language, no history fork. Original 'non sono più tenuti' means 'are no longer required'; Article3(1-bis) private EAA-service entities distinguished from public administrations retaining Stanca duties. First broader draft corrected; final table 'Stanca Act statement requirements and EAA public-information duties differ.' rechecked Supported. Research began after PR26 merge/main and queue checks at approximately19:00UTC; source and language checks completed within the ten-minute shared budget. Failed URLs were not retried beyond two attempts. Partial findings handed off; artifact preparation continued separately.",
+          "directive_context": "EAA",
+          "existing_text": "<td>✔️ <a href=\"https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati\">Yes</a></td>",
+          "information_mode": "not_established",
+          "source_refs": [
+            "source-f4c8546a6d611e3670aa9565",
+            "source-828d680b1169bb8f6cb00ca7"
+          ],
+          "id": "monitoring-1eaf49919fbaea5e198bd255"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service compliance information must be public in accessible written and oral form and retained while the service operates.",
+          "status": "verified",
+          "review_note": "Separate public duty, not inferred from WAD. Original Gazette enacted text; corroborated by current regulator guidance.",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-9f9d4eaa42103efeb1fa3a53"
+          ],
+          "id": "monitoring-f047abdc9c6b5760e07be5ad"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service providers include accessibility compliance information in general terms or an equivalent document.",
+          "status": "verified",
+          "review_note": "Reachable adopted Version1.0,4 March2026, recovered on transparency site after main-site PDF failed403 twice. This is authority guidance rather than a draft; no mandatory separate public page verified.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-d6f62434f0ebe86cf3d47d5e",
+            "source-957eb7cbf3becb21ee88e38e"
+          ],
+          "id": "monitoring-5d768c4c7422490c4e4d2220"
+        },
+        {
+          "field": "service_information",
+          "assertion": "A provider obligation to supply information to the public only on request is not established.",
+          "status": "unknown",
+          "review_note": "Do not replace the affirmative public-information duty with an on-request-only interpretation.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-6587ecf4526ab1bf7c9d65cb"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Consumers may request the product authority's compliance/assessment information in accessible form, subject to confidentiality protections.",
+          "status": "verified",
+          "review_note": "Distinct from service-provider public information.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "scope": "Products: authority-held information",
+          "source_refs": [
+            "source-8adf010ae0b5ef403bff7ebd"
+          ],
+          "id": "monitoring-c3ad803283af6690dcdc7434"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service providers supply compliance information upon a reasoned authority request.",
+          "status": "verified",
+          "review_note": "Authority audience separate from public publication.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-c541283c86c4395ba7e544f8"
+          ],
+          "id": "monitoring-1799ea5e748a15748e7c3fd9"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises covered e-commerce services.",
+          "status": "verified",
+          "review_note": "Existing English authority URL failed403 twice; replace with reachable official AgID FAQ. Remit independently checked against Article21 and adopted guidance. AV media content itself is distinct from access services; do not assign all broadcasting oversight to AgID. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "E-commerce",
+          "source_refs": [
+            "source-f15710780f42f622ca99b844"
+          ],
+          "id": "monitoring-a8cb825ed2adc806de8cdd03"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises consumer banking services.",
+          "status": "verified",
+          "review_note": "Existing English authority URL failed403 twice; replace with reachable official AgID FAQ. Remit independently checked against Article21 and adopted guidance. AV media content itself is distinct from access services; do not assign all broadcasting oversight to AgID. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-d1052f91570ef11b37fcf447"
+          ],
+          "id": "monitoring-3ffbbd8efa81203438138cc1"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises electronic communications, excluding transmission services used to provide machine-to-machine services.",
+          "status": "verified",
+          "review_note": "Existing English authority URL failed403 twice; replace with reachable official AgID FAQ. Remit independently checked against Article21 and adopted guidance. AV media content itself is distinct from access services; do not assign all broadcasting oversight to AgID. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "source_refs": [
+            "source-ba7750290417c0692ced38b8"
+          ],
+          "id": "monitoring-ef745dedc399daca5510d35d"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises services providing access to audiovisual media services.",
+          "status": "verified",
+          "review_note": "Existing English authority URL failed403 twice; replace with reachable official AgID FAQ. Remit independently checked against Article21 and adopted guidance. AV media content itself is distinct from access services; do not assign all broadcasting oversight to AgID. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-416a239c47f4e02f65cebde4"
+          ],
+          "id": "monitoring-a918b7b0fcc0bea09f8cd451"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises e-books and dedicated software.",
+          "status": "verified",
+          "review_note": "Existing English authority URL failed403 twice; replace with reachable official AgID FAQ. Remit independently checked against Article21 and adopted guidance. AV media content itself is distinct from access services; do not assign all broadcasting oversight to AgID. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "E-books",
+          "source_refs": [
+            "source-9dedf5a6b826c8415d1f6786"
+          ],
+          "id": "monitoring-a4de000b118ddc086b7b03d3"
+        },
+        {
+          "field": "authority",
+          "assertion": "MIMIT supervises covered products.",
+          "status": "verified",
+          "review_note": "MIMIT current name corroborated by regulator; https://www.mimit.gov.it/it/ reachable24 September2026. Missing from original row. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Products",
+          "source_refs": [
+            "source-f3115e058f7ca6da05005091",
+            "source-35f663a5f6b96a2256323833"
+          ],
+          "id": "monitoring-230615abec0afa027b163704"
+        },
+        {
+          "field": "authority",
+          "assertion": "AgID supervises covered transport websites, mobile services/apps, electronic tickets/ticketing and transport information.",
+          "status": "verified",
+          "review_note": "Do not imply entire transport sector or terminal use falls under AgID. Air,bus,rail,water; underlying legal scope retained. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-fba52ff140705691640ec32b",
+            "source-9880a91719b33f8a534d7c48"
+          ],
+          "id": "monitoring-cd5803eb887a5583cab2e7a4"
+        },
+        {
+          "field": "authority",
+          "assertion": "Public bodies awarding or authorising the transport service supervise covered interactive self-service terminal use.",
+          "status": "verified",
+          "review_note": "Verified statutory class, not a named national office. Specific offices not identified. Link to official provision; distinguish product-market oversight by MIMIT. Language check /root/italian_language24 September2026: Supported after final wording correction. Source 'servizi di trasmissione' rendered 'Transmission services used to provide machine-to-machine services are excluded'; 'servizi bancari per consumatori' rendered consumer banking services; 'software dedicati' rendered dedicated software. Transport 'soggetti pubblici che hanno affidato ovvero autorizzato' rendered public bodies awarding or authorising; exact table wording includes mobile services/apps and electronic tickets/ticketing. Specific offices Unknown describes audit status, not absence of authority.",
+          "directive_context": "EAA",
+          "scope": "Transport: interactive self-service terminals",
+          "source_refs": [
+            "source-a87a33ddd035423c5769cda3"
+          ],
+          "id": "monitoring-c81800f577bdbfb20325d25e"
+        },
+        {
+          "field": "authority",
+          "assertion": "Authority for112 emergency answering accessibility remains unknown in this audit.",
+          "status": "unknown",
+          "review_note": "Requirement exists, but examined authority roster does not identify112-specific oversight. Do not extend AgID service remit automatically.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [
+            "source-342c64f47136aeded4cf9058"
+          ],
+          "id": "monitoring-34abd807056cb2684a824708"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Original single-agency list was incomplete: product and transport-terminal responsibilities must be distinguished.",
+          "status": "verified",
+          "review_note": "Sector audit covers Products/E-commerce/Banking/Electronic communications/Transport/Audiovisual access/E-books/112.112 authority and named terminal offices remain unresolved; no completeness claim.",
+          "directive_context": "EAA",
+          "existing_text": "<tr>\n    <td>Italy</td>\n    <td>✔️ <a href=\"https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati\">Yes</a></td>\n    <td><a href=\"https://www.agid.gov.it/en/intervention-areas/accessibility-usability\">AGID</a></td>\n    <td><a href=\"https://trustservices.agid.gov.it/SegnalazioneUtente\">Reporting to AGID</a></td>\n    <td><ul><li><a href=\"https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf\">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href=\"https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/\">Article from TPGi about The Stanca Act, the Italian digital accessibility law</a></li></ul><p>⚖️ EAA implementing law: <a href=\"https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=\">Decreto legislativo 27 maggio 2022, n. 82</a>.</p></td>\n  </tr>",
+          "source_refs": [
+            "source-e6476592a1765c04eaca674b",
+            "source-0bcb0af73a0c402754f4fb37"
+          ],
+          "id": "monitoring-870a3c097b1e758abb9d279d"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Existing AgID reporting portal retained; current EAA intake and usability not verified.",
+          "status": "unknown",
+          "review_note": "https://trustservices.agid.gov.it/SegnalazioneUtente loaded an empty application shell twice. Original entry preserved as existing portal, not newly certified for each EAA sector. Login, accepted languages, intended statutory regime and submission behaviour unknown; no submission.",
+          "directive_context": "EAA",
+          "existing_text": "Reporting to AGID",
+          "scope": "Existing AgID portal",
+          "source_refs": [],
+          "id": "monitoring-69127de1df626ff6809d95a0"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Products: usable EAA public-reporting route not established.",
+          "status": "unknown",
+          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "directive_context": "EAA",
+          "scope": "Products",
+          "source_refs": [],
+          "id": "monitoring-206da8b097f88ba4016b02ed"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Products: company noncompliance and exemption reporting routes not established.",
+          "status": "unknown",
+          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "directive_context": "EAA",
+          "scope": "Products",
+          "source_refs": [],
+          "id": "monitoring-ad62c20bb6be0e4ebbeff602"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books: usable EAA public-reporting route not established.",
+          "status": "unknown",
+          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "directive_context": "EAA",
+          "scope": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books",
+          "source_refs": [],
+          "id": "monitoring-b85eb190e20473adb2720b29"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books: company noncompliance and exemption reporting routes not established.",
+          "status": "unknown",
+          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "directive_context": "EAA",
+          "scope": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books",
+          "source_refs": [],
+          "id": "monitoring-b8f4d2f8bd010ca543c4d922"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Transport: usable EAA public-reporting route not established.",
+          "status": "unknown",
+          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [],
+          "id": "monitoring-c595cb7946187d258d85bd73"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Transport: company noncompliance and exemption reporting routes not established.",
+          "status": "unknown",
+          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [],
+          "id": "monitoring-cc6193c2ae035ce875f9f202"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "112 emergency calls: usable EAA public-reporting route not established.",
+          "status": "unknown",
+          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-f0e3fe1a418b2f42a18ec598"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "112 emergency calls: company noncompliance and exemption reporting routes not established.",
+          "status": "unknown",
+          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-87b28c82bb97b6e266293544"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Service providers must immediately inform AgID of noncompliance; notification channel not verified.",
+          "status": "verified",
+          "review_note": "Duty recorded only in research because a usable current destination was not established. Adopted guidance directs users to methods on institutional accessibility pages, which failed access.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-08b89c1da842e60a818eb9af"
+          ],
+          "id": "monitoring-31d2bbc4ad09f686dcc45d56"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Exemption assessments/notifications are governed by Article13, distinct from service microenterprise exclusion.",
+          "status": "verified",
+          "review_note": "EAA Article14 background retained here; table uses Exemptions: only when separately labelled, no operational route inferred.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-8bd5bf0b881acc932431929f",
+            "source-856e1181739fec114ef555de"
+          ],
+          "id": "monitoring-75f67e0d4a5d5d91939ec32c"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "D.Lgs27 May2022,n.82 implements the EAA; obligations apply from28 June2025 with transitional rules.",
+          "status": "verified",
+          "review_note": "Original Normattiva URL returned loading error; table law link changed to reachable official Gazette. Do not claim consolidated amendment audit completed.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-208a9fabbea415f1749ea185",
+            "source-f6aa63c6d625330de610bab5"
+          ],
+          "id": "monitoring-beb9081237f397fcd44ff389"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "AgID publishes accessibilita@agid.gov.it for information queries.",
+          "status": "verified",
+          "review_note": "Reachable24 September2026. Research contact candidate only: not verified as statutory reporting channel or established correspondence relationship. Contributor reports having contacted direzione.generale@agid.gov.it, with no answer since a reminder on15 April2026. Original email contents and initial-send date were not supplied. No email was sent by the research agent; confirm the responsible team and record any later reply. Separate language check Supported: 'Per informazioni scrivi a accessibilita@agid.gov.it' means 'For information, write to accessibilita@agid.gov.it'; operational/correspondence qualifications are research limits.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-1aa9897adb05b20d4c974a9c"
+          ],
+          "id": "monitoring-7ca5022601d45da809848626"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing Stanca monitoring document and TPGi article retained as context.",
+          "status": "unverified_source",
+          "review_note": "2024 AgID monitoring PDF belongs to Stanca context based on existing title; content not independently rechecked. TPGi retained as explicitly secondary/unverified source, not evidence for new claims.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-01ea8ce9c66535b8d751f27e"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The contributor contacted direzione.generale@agid.gov.it and reports no answer since the reminder sent on15 April2026.",
+          "status": "unverified_source",
+          "review_note": "Contributor-supplied correspondence history recorded24 September2026. This is an unanswered outreach attempt, not an official AgID response or evidence for a legal claim. Original message and reminder not inspected; initial contact date unknown. The address is recorded as the destination used, not independently verified here as an EAA reporting channel. Do not infer that no contact attempt exists. No follow-up email sent by the agent.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-4b2de08ea6717bdcf5aabf20"
+        }
+      ],
+      "questions": [
+        "Before PR: resolved by narrowing — retain existing Yes with Stanca/EAA distinction; do not present it as a new verified universal EAA-page duty.",
+        "Before PR: resolved by preserving only existing portal and marking EAA routes Unknown; no generic email promoted to reporting.",
+        "Follow-up: inspect current AgID operational complaint/company/exemption intake, including login and accepted languages; portal shell and institutional403 responses prevented verification.",
+        "Follow-up: identify MIMIT product public/company/exemption channels with official purpose-specific instructions.",
+        "Follow-up: identify public offices responsible for transport terminals by sector and their reporting channels; statutory class is verified.",
+        "Follow-up: establish112 emergency answering authority and reporting routes.",
+        "Research task: follow up on unanswered AgID correspondence to direzione.generale@agid.gov.it; latest reminder15 April2026, no answer reported as of24 September2026. Confirm the responsible team for the outstanding Italy questions and record any reply. Published information mailbox accessibilita@agid.gov.it is an alternative enquiry contact, not a verified statutory reporting route. Owner: contributor/researcher; resolved when a substantive official response or confirmed responsible contact is documented. Do not send correspondence without authorization.",
+        "Follow-up: establish whether a regulator requires an EAA public page comparable to a statement beyond terms/equivalent document; current sources establish public information and removal of old declaration for specified private EAA providers.",
+        "Follow-up: review consolidated legislation and June2026 vigilance regulation when institutional access succeeds. No full completeness claim; ten-minute shared research/verification limit observed.",
+        "Cross-page handoff 2026-09-25 / seed-discovery-3-2026-09-25: Official search result points to EAA service guidance and a reporting platform; opening the page returned HTTP 403. Unverified lead. One failed reader attempt; later authorized browser check or an accessible official copy must establish content and intake. Source lead: https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#italy",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#italy",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#italy",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Economic operators under Legislative Decree 82/2022, Article 24.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+              "public_text": "Economic operators under Legislative Decree 82/2022, Article 24.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Article 24(1) refers certain entities covered by Law 4/2004 to that law’s penalty regime. The €40,000 ceiling is therefore not universal. Exemptions and public procurement exclusions apply as specified in Article 24.",
+              "public_text": "Some organisations covered by Law 4/2004 fall under that law’s penalties instead. Article 24 also sets exemptions and public procurement exclusions.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "577b803c42831c5266825533a006893f5c04aac59f4ffd32d09930ffd9c71b3d",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-558a9f9152c934b539edc937"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Search snippets identified procedure/remit, including Law 4/2004 alongside EAA transposition. Both page retrievals failed; no actual EAA measure verified. Do not conflate WAD or large-company older-law oversight with EAA."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.agid.gov.it accessibilità servizi 2026 vigilanza verifiche sanzioni",
+          "sources_checked": [
+            "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+            "https://www.agid.gov.it/it/ambiti-intervento/vigilanza"
+          ],
+          "limitations": "Search snippets identified procedure/remit, including Law 4/2004 alongside EAA transposition. Both page retrievals failed; no actual EAA measure verified. Do not conflate WAD or large-company older-law oversight with EAA. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "seed-discovery-3-2026-09-25",
+      "country": "Italy",
+      "recorded_on": "2026-09-25",
+      "status": "needs_evidence",
+      "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+      "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "needs_evidence",
+          "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+          "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "This lead concerns reporting/guidance rather than actual enforcement.",
+          "next_action": "None for this evidence",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanctions evidence established by this item.",
+          "next_action": "None for this evidence",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

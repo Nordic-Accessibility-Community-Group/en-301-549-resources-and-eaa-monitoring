@@ -1,0 +1,546 @@
+{
+  "version": 1,
+  "source_commit": "bb909efb8cb1816f75cee338e06589a8abc7b012",
+  "records": [
+    {
+      "country": "Austria",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/austria.json",
+      "sha256": "be72dfa0c6c291ee69aeea123e0e2bed5007747257f0f35587b0df978b6e50bf"
+    },
+    {
+      "country": "Austria",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/austria.json",
+      "sha256": "7692f52542c7f92e49f71fdb5d0f37124c427671e6d59dc0c33c5b6f0d82293c"
+    },
+    {
+      "country": "Austria",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/austria.json",
+      "sha256": "f82ab1cb57cf9c295bb57cae35245192a18711877a5f078bcabb7015abc648ea"
+    },
+    {
+      "country": "Belgium",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/belgium.json",
+      "sha256": "e0862a56572c32bd49b7459022fce8d9d0d270df58110bebe22e4f959aab39ef"
+    },
+    {
+      "country": "Belgium",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/belgium.json",
+      "sha256": "26aabfab90785ccbe7ce3811b28358ea2556166ba17c04122857422cb978d0fc"
+    },
+    {
+      "country": "Belgium",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/belgium.json",
+      "sha256": "d61726c4f8b870c8c29b9e3446ed20bf26a72164c83cfaec8a0b2ee705f98978"
+    },
+    {
+      "country": "Bulgaria",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/bulgaria.json",
+      "sha256": "d0f4395b504079e6c018888ac02cc655e21fa638ce01b088f223e740521c6826"
+    },
+    {
+      "country": "Bulgaria",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/bulgaria.json",
+      "sha256": "c4f235092b8ce09a9e0d75062f299ade04054dd493a3ba803dadad269bf71bdc"
+    },
+    {
+      "country": "Bulgaria",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/bulgaria.json",
+      "sha256": "362f9d99f0e4138353c078d467b5edc14dc458b9cfd84a2bece9a6a34a25c8c7"
+    },
+    {
+      "country": "Croatia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/croatia.json",
+      "sha256": "fc9d8cdeb5f5061ea59b679e7087530a5e4c3101846e6a75a603fe831f61a0f1"
+    },
+    {
+      "country": "Croatia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/croatia.json",
+      "sha256": "232a66f51fe2c99840735b314e6421c26ad13c754e9e34ed01b27fa0cfceae29"
+    },
+    {
+      "country": "Croatia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/croatia.json",
+      "sha256": "cee53dc793ef56a619b3cfd9cfda0a39bb04724a03ce2ec214171e88a3f8a430"
+    },
+    {
+      "country": "Cyprus",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/cyprus.json",
+      "sha256": "2ccb4b57931f88cfddb1be6b22fda5bb82b6e5315ebbc7923bb483f7608a394a"
+    },
+    {
+      "country": "Cyprus",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/cyprus.json",
+      "sha256": "a593fa13664bca2d4d63c0d3674df758dec46fcd309df2b1cd40422c882bc575"
+    },
+    {
+      "country": "Cyprus",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/cyprus.json",
+      "sha256": "d191b6375d4ce01bc2d117d1797bb374e7c931738996d606be822cc290a9bd10"
+    },
+    {
+      "country": "Czechia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/czechia.json",
+      "sha256": "978a4c5b7493d843f57329b07d9c490374020e3621a895ab60ce358027ed0836"
+    },
+    {
+      "country": "Czechia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/czechia.json",
+      "sha256": "0c044bb7d18b38e3c41dbdd9e10a8ceabf69770a537fc9d26059f6af8f9fcd54"
+    },
+    {
+      "country": "Czechia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/czechia.json",
+      "sha256": "a2adf6293378979b9f701117d5a7d7639c0e39a4f14b4db4558f237b741308cd"
+    },
+    {
+      "country": "Denmark",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/denmark.json",
+      "sha256": "105ded778da39735d18af37ca5946edeb3ad0117de25a350f2f16b6dab771395"
+    },
+    {
+      "country": "Denmark",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/denmark.json",
+      "sha256": "101daf905714ea4a31c07374e1175e81d62acf7ed6f9c763e2d7468c9c758305"
+    },
+    {
+      "country": "Denmark",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/denmark.json",
+      "sha256": "7168ab820b2037cd916acdb3233243cd3f994bb052c8e492b616d3b44f5ceba1"
+    },
+    {
+      "country": "Estonia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/estonia.json",
+      "sha256": "950001433a07f67225fff9fd4c0f9c194bdfb6276793675920610b904384c562"
+    },
+    {
+      "country": "Estonia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/estonia.json",
+      "sha256": "07fc70cc0ec8609fd433bf2c44e5f49339e1b54955cbc106fdb13fa52b49482c"
+    },
+    {
+      "country": "Estonia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/estonia.json",
+      "sha256": "0a2b65cbca1ee2b3ec949fa5d490e60410180c578e0698bc6924253175b8df8b"
+    },
+    {
+      "country": "Finland",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/finland.json",
+      "sha256": "26dcc4cf44d9e87ed8464831e397b68b23ea2c3c6129eac5fe3af76f8f2bc7e8"
+    },
+    {
+      "country": "Finland",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/finland.json",
+      "sha256": "9dee2ea6cdd413a001ed157bd70e4917de938efb2a4d5020099a88cadc22bb2a"
+    },
+    {
+      "country": "Finland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/finland.json",
+      "sha256": "8863a47be22b0370015d6f1c1dff2ddb796c7395db7664f5d3ab90a4cc59f401"
+    },
+    {
+      "country": "France",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/france.json",
+      "sha256": "0411c38e7a9a9c2747026b0857d0a1cdf8c887b9278e719534b36f1039515562"
+    },
+    {
+      "country": "France",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/france.json",
+      "sha256": "0eb0760a88d869ef4c27c057627f28163f5ceeec7ec325619729189379e24790"
+    },
+    {
+      "country": "France",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/france.json",
+      "sha256": "af6f4c0190e4d940bbf2226f9a2b1e57b34ecd6416343ab142ca70a9ae3d918f"
+    },
+    {
+      "country": "Germany",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/germany.json",
+      "sha256": "007a347898266603b1ac9849baa00562fb9797c073c4ee7de673c21f6fdb2d4f"
+    },
+    {
+      "country": "Germany",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/germany.json",
+      "sha256": "7325d972dd9b854426715d1c4d7cdd7389f2513b6814479db11f79ed26441edc"
+    },
+    {
+      "country": "Germany",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/germany.json",
+      "sha256": "133da0add897618279e586d280ecf4607178d0f16bd8839a7a23617d40cdc65d"
+    },
+    {
+      "country": "Greece",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/greece.json",
+      "sha256": "935154dffb6ae8db143413906df017de7c8dc20425fe565a62454c10155ba8cb"
+    },
+    {
+      "country": "Greece",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/greece.json",
+      "sha256": "215726cfc225468ac0bdd8398c6fbf0ae415cb605c6247ed978f36ef80ed253a"
+    },
+    {
+      "country": "Greece",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/greece.json",
+      "sha256": "2e40e7c52affefcb2ca7d49bcb2a63f8e028568a84660c61eec1392e3eb825b8"
+    },
+    {
+      "country": "Hungary",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/hungary.json",
+      "sha256": "045fb599f8a1a60969b64ece664b8c1796316975dc572c21c41c454acd615665"
+    },
+    {
+      "country": "Hungary",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/hungary.json",
+      "sha256": "ee5cf58b78d9ddc05ed5e3060d8fe29e819f9ead1d84073521391f080908d97e"
+    },
+    {
+      "country": "Hungary",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/hungary.json",
+      "sha256": "895c6a9cf6b0be54e12c64e6f340ccaaabaae2d643e8a360db826c08791e9e45"
+    },
+    {
+      "country": "Ireland",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/ireland.json",
+      "sha256": "eba3b05f00970fb44ca1021ecb77a163d6a9eb6c3ed3869191e6a03bc2328e54"
+    },
+    {
+      "country": "Ireland",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/ireland.json",
+      "sha256": "8ead5a560836ab48a318c7fc1c6ae066c629bd2ef680f1c178b45ae5460e1a2e"
+    },
+    {
+      "country": "Ireland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/ireland.json",
+      "sha256": "14831fd6c92c8eeb48b939675d9aec95ec37b3e603c318dc611171861703d0c5"
+    },
+    {
+      "country": "Italy",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/italy.json",
+      "sha256": "cb7b405e093a5a0dbf67c03567c8f84a4fe9181a861072c068fe6659d042cdbf"
+    },
+    {
+      "country": "Italy",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/italy.json",
+      "sha256": "d1569feb311620bd0755aea79837540be424245cd811f243571d1481f9b6e731"
+    },
+    {
+      "country": "Italy",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/italy.json",
+      "sha256": "8d3d1f29206a720e0c771bf1129f17b6b3e3e3d65d055acabed2d6d9568f4daa"
+    },
+    {
+      "country": "Latvia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/latvia.json",
+      "sha256": "98ebeefd2744397b47c95d5f2740145c1febe97c3f10070c2563341449257bc4"
+    },
+    {
+      "country": "Latvia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/latvia.json",
+      "sha256": "5ccb26235063a3175fc40a1f28242cfa2311d404d59fee8a3ffcb923ee69e5f8"
+    },
+    {
+      "country": "Latvia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/latvia.json",
+      "sha256": "999f05d5e7fe5c4b21e81e1c00ffbd0d25283eefb5fb14483233ee5edbbb256f"
+    },
+    {
+      "country": "Lithuania",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/lithuania.json",
+      "sha256": "27117747c932d22eb22c9e9ad08e469f395a7229606799c9950423a39a1268df"
+    },
+    {
+      "country": "Lithuania",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/lithuania.json",
+      "sha256": "cff6c578c4e4df34d7ccc0a197257f47bc02be96652beeb9988d4560d7cdffe9"
+    },
+    {
+      "country": "Lithuania",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/lithuania.json",
+      "sha256": "03bc6c837e6f4f457c2486bb1ee669680f65e1299147dabc25921d3af4167485"
+    },
+    {
+      "country": "Luxembourg",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/luxembourg.json",
+      "sha256": "a4bc7bbeb502a18faadedbbfb3cfc2fcb020c7827faeda80c19b51f9dabeed26"
+    },
+    {
+      "country": "Luxembourg",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/luxembourg.json",
+      "sha256": "3aa4b1dbcab1383591ee7580eccd7c57fc2c8f77e7e7d257c214c67b0e39c664"
+    },
+    {
+      "country": "Luxembourg",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/luxembourg.json",
+      "sha256": "a333d22be0c565d8f88e6a4ecef7092802a9e6e04a4022e66391b7df23bffc2a"
+    },
+    {
+      "country": "Malta",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/malta.json",
+      "sha256": "2d0369d05292aac9e80917958a25ccf2cf6f88e2119a5bc82d38441f1c9d1309"
+    },
+    {
+      "country": "Malta",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/malta.json",
+      "sha256": "063d8e641d6b0c38f065e8add4fa7e3a6c644f486a22ea706f4152cf7ffe48a2"
+    },
+    {
+      "country": "Malta",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/malta.json",
+      "sha256": "74d6340238acbc403868c7395673c9759101b2f2b1e172c3f00d84f88c9bf1f2"
+    },
+    {
+      "country": "Netherlands",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/netherlands.json",
+      "sha256": "b4c5d4d693fe06b01cf072f747a5545210286019eab2cc4348b65f9c1972b721"
+    },
+    {
+      "country": "Netherlands",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/netherlands.json",
+      "sha256": "b704a015ce3fa3b98d414e4587d522126ec9c8520b8c020c5e60971e24cd8297"
+    },
+    {
+      "country": "Netherlands",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/netherlands.json",
+      "sha256": "5bdd43159d1794553688deb8a61f331d556ae85aed69c0ee2442eed6c8abfe3a"
+    },
+    {
+      "country": "Poland",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/poland.json",
+      "sha256": "37e4770c5505439e0ab82970195d58b6ece9b458c65f600c66cd31130756fd58"
+    },
+    {
+      "country": "Poland",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/poland.json",
+      "sha256": "cc12fdc15e83c9063611e9e44706c4e51c89bbcef0aae7dfa71e0aa0e3368288"
+    },
+    {
+      "country": "Poland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/poland.json",
+      "sha256": "d987eed24a8024a35ab021fe4bd9344ad8e85833d10356aaef8148ba118766ab"
+    },
+    {
+      "country": "Portugal",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/portugal.json",
+      "sha256": "132f9054e7f4b2ebad717f0a099f10f307c5e5dc61c13858d3d8461afd68578e"
+    },
+    {
+      "country": "Portugal",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/portugal.json",
+      "sha256": "92968b149957c4896cc1dddda012ac2d3ecbeb216713e6423700f95acee00b15"
+    },
+    {
+      "country": "Portugal",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/portugal.json",
+      "sha256": "605d24fd49d70f2669299d920f87c489ed51882e1f99bbca8d17fd663a25c8b2"
+    },
+    {
+      "country": "Romania",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/romania.json",
+      "sha256": "1f7db448028ae127fb72cb29b8249ff9f9410ee16572945e6603d1388dea8ad9"
+    },
+    {
+      "country": "Romania",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/romania.json",
+      "sha256": "07ec4d8a9b59f5dbdc7630c89645e8ca56898b0d21bf0b9794255649e50d4f52"
+    },
+    {
+      "country": "Romania",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/romania.json",
+      "sha256": "53b5c6db649e38cef80b3e45f875384ee40d667ef8a81a693362ba41cc8a6b8f"
+    },
+    {
+      "country": "Slovakia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/slovakia.json",
+      "sha256": "6e97628285f51d044f0a9bdae0044be72d9e3c4bead25eab63ea7f7f11f696b7"
+    },
+    {
+      "country": "Slovakia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/slovakia.json",
+      "sha256": "b662c90f8f86b0f58653f36fc58dc0097d780230ecfa881d7dfa68563399c5d1"
+    },
+    {
+      "country": "Slovakia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/slovakia.json",
+      "sha256": "6a8f64ce27f6f7f0bee25726c3172b0880a5caefb18c589f5ba77d6ce401580c"
+    },
+    {
+      "country": "Slovenia",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/slovenia.json",
+      "sha256": "67976c60ec7263538b64ae22b9935bb8d3effdca0868d9fe844023494f26664d"
+    },
+    {
+      "country": "Slovenia",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/slovenia.json",
+      "sha256": "e71f1b8fb402a0d18bc5db4a2347d7bd57cc347abb5642a6cc2fbc844f56eb6c"
+    },
+    {
+      "country": "Slovenia",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/slovenia.json",
+      "sha256": "0d0cbc0dd5e3442772f12d313a3aa343ab005b6392ffe401e228033204aa7d5c"
+    },
+    {
+      "country": "Spain",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/spain.json",
+      "sha256": "4777c2ba8280ccad8f537d8d5266b144017a5cb8632c50a34ab52edc20f00500"
+    },
+    {
+      "country": "Spain",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/spain.json",
+      "sha256": "fb8126057a1023afeaeb659650135fefdb08671996983c04a99df91e472838a6"
+    },
+    {
+      "country": "Spain",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/spain.json",
+      "sha256": "5f05c2178cc0b75ec8ccda03f14f1722d1f318a937b2b8ed98264b8895370eed"
+    },
+    {
+      "country": "Sweden",
+      "domain": "monitoring",
+      "original_path": ".github/agents/research/sweden.json",
+      "sha256": "e193dac4fd66a59aa8ddc20a5c92846ff00c8a203a51944c1a277bb9314883a6"
+    },
+    {
+      "country": "Sweden",
+      "domain": "sanctions",
+      "original_path": ".github/agents/research/sanctions/sweden.json",
+      "sha256": "27bdb51788337054b88e97ac042ca4e29254d5bd81bb5648f3cfa3d8c5f1fc13"
+    },
+    {
+      "country": "Sweden",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/sweden.json",
+      "sha256": "289d5a0b525b44cba1d24474214bea2f8b656bf52735b58a3ce54a9cdd57978c"
+    },
+    {
+      "country": "Canada",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/canada.json",
+      "sha256": "62cda1858d48e5833e580a59c8c62658da38d0f98d3d14f96cb73f5943e5766e"
+    },
+    {
+      "country": "Faroe Islands",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/faroe islands.json",
+      "sha256": "2c24966622fb8f98285fe60ab66cf32d97bf7bb7c8c063f1d87bd78bc6b51a43"
+    },
+    {
+      "country": "Greenland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/greenland.json",
+      "sha256": "deda93121b2c879241cbf37d20f827b5df913f13b15c5b68a0af2f0d1c96c395"
+    },
+    {
+      "country": "Iceland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/iceland.json",
+      "sha256": "8a21dfb46e0bb3a22a0db37d2d4588f6b04544cf95acbf5c48657781e8c9d842"
+    },
+    {
+      "country": "Liechtenstein",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/liechtenstein.json",
+      "sha256": "e6cd228912270c55b01b00d5437ca7ee1a9a88f28c101dcbab618bd99739bb99"
+    },
+    {
+      "country": "Norway",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/norway.json",
+      "sha256": "a7e4b218d5b4e0bc4e20cb7c3c08248211ee33368c6e5d7e5ed735f3d9890b4f"
+    },
+    {
+      "country": "Switzerland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/switzerland.json",
+      "sha256": "92510df985d0c3d2420fcd395f48a0335f235b148bc9f9e5fddb9b8b07c93ea8"
+    },
+    {
+      "country": "United Kingdom",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/united kingdom.json",
+      "sha256": "91f84f1044e8d62ebd1bd399f5ca1bb8863a10d5142e902391a3897076279224"
+    },
+    {
+      "country": "Åland",
+      "domain": "enforcement",
+      "original_path": ".github/agents/enforcement/research/åland.json",
+      "sha256": "0c4191de2caf14c8ca792a5f9f83abf7f289da38f0b1b1f11cfe091b440dcf65"
+    }
+  ]
+}

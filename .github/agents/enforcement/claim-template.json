@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "kind": "case",
+  "text": "",
+  "authority_or_court": "",
+  "case_identifier": null,
+  "sectors": [],
+  "applicability": "unknown",
+  "legal_basis": "",
+  "action_type": "",
+  "procedural_stage": "unknown",
+  "stage_detail": "",
+  "event_on": null,
+  "published_on": null,
+  "verified_on": null,
+  "status": "unknown",
+  "sources": [
+    {
+      "url": null,
+      "source_type": "other_unverified",
+      "reference": "",
+      "passage": "",
+      "attempted_on": null,
+      "retrieved_on": null,
+      "access_result": "not_attempted",
+      "provenance_note": ""
+    }
+  ],
+  "statistics": null,
+  "uncertainty": "",
+  "next_check": ""
+}

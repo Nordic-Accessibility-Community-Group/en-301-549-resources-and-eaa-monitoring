@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-25",
+  "base_commit": "f06450eca836087e73c9295485d52c338996a28b",
+  "reviewer": "audit_review",
+  "isolation": "Separate agent with no conversation-history fork; supplied diff, evidence records, workflow and language report. No additional external research.",
+  "reviewed_file_sha256": {
+    "EAA enforcement tracking.md": "f30de9c596884a3d6695f0b4cc9fe14cdeaa16d6845abc88648c87f44d897e92",
+    ".github/agents/enforcement/public-map.json": "e7b57138308213a6808ff69a4f948c162c1d34097e3a48ab5b868bce2cd211e6",
+    ".github/agents/enforcement/research/germany.json": "24bb2e211efb067b37b8aeb9d502ed0a4c3568690ff21d57f31ec984b3936b9a",
+    ".github/agents/enforcement/research/czechia.json": "7de0e8d2128606e54af93be13cc1bb88b94f99504a073b7860ba3af9e42fbc4a",
+    ".github/agents/enforcement/research/ireland.json": "02169d988d754e695ebb532c71139443acdf7adda6088acbd0c925c89af1a608",
+    ".github/agents/enforcement/reviews/2026-09-25-de-cz-ie-language.json": "84493b2a9a7b23342094f0550b0c062fcb2433bd5f850f5a39bdd190ab3e3b40"
+  },
+  "result": "No material issues in local diff; remote-head review reported in PR description after publication.",
+  "findings": [
+    {
+      "priority": "non-blocking",
+      "issue": "Irish secondary-source fragments omit company name/sequence",
+      "resolution": "Expanded the existing retrieved name excerpt and added a surrounding-context paraphrase; no source re-fetch or public change."
+    }
+  ],
+  "checks": {
+    "enforcement": "PASS: 28 records, 13 public entries",
+    "regression_tests": "PASS: 19 tests",
+    "whitespace": "PASS",
+    "markdownlint": "PASS: markdownlint-cli2 0.23.2 with repository config",
+    "changed_row": "PASS: six cells, balanced HTML, final-language fingerprint; every other page byte unchanged",
+    "rendered_html": "macOS Tidy 2006 exits 1 on both base and proposed page; identical five warnings after removing line/column numbers. No new warning types/counts; not a full clean HTML validation.",
+    "offline_links": "No new local links. Full lychee check unavailable locally.",
+    "ci": "Not yet observed; consult final PR description."
+  },
+  "limits": [
+    "Czech linked list not read; no contents, event/publication dates, penalties or individual outcomes established.",
+    "Germany and Ireland inherited public text is preserved, not certified verified.",
+    "No correspondence, upstream writes, watcher changes, merge or approval performed."
+  ]
+}

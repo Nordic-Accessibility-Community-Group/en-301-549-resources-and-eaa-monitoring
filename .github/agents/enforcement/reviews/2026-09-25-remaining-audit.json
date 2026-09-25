@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-25",
+  "base_commit": "ae6018ebe31c24c7afac2120aec223c11b2dffe7",
+  "scope": "All ten remaining public entries, including Sweden’s non-September assertions; prior Czechia, German overlay and Irish audits are not repeated.",
+  "research_limits": {
+    "started_utc": "2026-09-25 10:59:32",
+    "source_discovery": "Main source retrieval and searches ended around 11:06 UTC; subsequent work downloaded/rendered already retrieved court/Commission documents, compared wording and prepared records. No additional case-discovery pass.",
+    "cutoff_utc": "2026-09-25 11:26:00",
+    "bound": "Within the thirty-minute pass; no country received ten minutes of active source research. At most two attempts per inaccessible source and two targeted follow-ups after initial searches. Remaining work is preparation, structural validation and review of collected evidence.",
+    "failed_access": [
+      "Commission HTML gave no text; official PDF succeeded.",
+      "Carrefour accessible-copy link returned Internal Error; original PDF successfully read and rendered.",
+      "Auchan official text reader required JS/cookies; browser retry denied when admin security check was unavailable. No workaround."
+    ],
+    "unreviewed": "No later appeal docket, sanctions register, warning documents or original AT/DK/FI/SI correspondence retrieved. No exhaustive country-wide absence claim."
+  },
+  "inventory": [
+    {
+      "entry": "austria-1",
+      "outcome": "Four operational claims remain unknown; official page confirms general authority/powers only. Public row unchanged."
+    },
+    {
+      "entry": "denmark-1",
+      "outcome": "Three totals and warning/no-fines assertion remain unknown; preserve unlinked figures. 148+12+2=162 versus179 is an unexplained partial subtotal, not proof of inconsistency."
+    },
+    {
+      "entry": "finland-1",
+      "outcome": "All four service/product monitoring/complaint figures remain unknown. Date mismatch recorded. Public row unchanged."
+    },
+    {
+      "entry": "france-1",
+      "outcome": "Control commencement, routes and general powers supported. Remove unsupported daily qualifier from general penalty power. Active label retained as historical wording, not a new current-status finding."
+    },
+    {
+      "entry": "france-2",
+      "outcome": "Carrefour operative order and assessment checked in court PDF. Clarify interim nature, conditional penalty, proceeding costs and court-document provenance. Auchan ruling/reasoning, reported appeal, July notices and Active label remain inherited/party-supported, not newly verified; their text is retained. No appeal outcome or penalty payment inferred."
+    },
+    {
+      "entry": "netherlands-1",
+      "outcome": "Sample and percentages supported; restore exact geographic/sample scope and prospective contacted-company enforcement condition. No current sanction outcome asserted."
+    },
+    {
+      "entry": "slovenia-1",
+      "outcome": "Warnings and no-fines assertion remain unknown. AKOS index is a lead, not proof of those claims. Public row unchanged."
+    },
+    {
+      "entry": "sweden-1",
+      "outcome": "Product/e-commerce/banking launches and February complaints supported and dated; sectors ordered Products, E-commerce, Banking. September statistics and other unlinked selection/contact wording retained unchanged and not promoted to verified. Prior six correspondence claims unchanged."
+    },
+    {
+      "entry": "commission-croatia-germany-1",
+      "outcome": "11 March 2026 additional reasoned opinions and IDs verified; historical two-month response period, not current deadline or court sanction. Stored once in Croatia with Germany cross-reference."
+    },
+    {
+      "entry": "norway-1",
+      "outcome": "Correct authority, website and domestic-law basis; replace obsolete prospective penalty account with 23 December2025 closure, NOK50,000 daily penalties triggered20 December and authority-reported two-day duration. No payment claim."
+    }
+  ],
+  "preservation": "All Date added values, frozen baseline, prior Czechia/Germany/Ireland public entries, original Sweden correspondence claims and unrelated project files remain unchanged. Reviewed row state binds only listed supported claim IDs; it does not promote identified retained legacy assertions.",
+  "pdfs": [
+    {
+      "reference": "Carrefour interim order RG25/00691",
+      "sha256": "779e05d273c8386c8bc08e7d1add8e6a132e00b88bbd39e3e22d123110f30d54",
+      "inspection": "Original scan pp.1 and8 visually inspected; reasoning/operative text extracted. Copy hosted by a party association, not court-hosted."
+    },
+    {
+      "reference": "Commission INF_26_431_EN.pdf",
+      "sha256": "9e5776d32ac49b80461cbdbed1d30ed4309d85a8a3dedc7490d5692d512134f5",
+      "inspection": "pp.1,6,7 visually inspected; heading/date, IDs and operative paragraph confirmed."
+    }
+  ],
+  "validation": {
+    "enforcement_checker": "PASS:28records/13entries",
+    "regression_tests": "19 PASS",
+    "markdownlint": "PASS:0.23.2 with repository config",
+    "verification_dates": "No last_verified markers found",
+    "html": "Marked18.0.9 and macOS Tidy: same five pre-existing warnings on base/proposed, no new types/counts; not a clean modern-Tidy certification.",
+    "links": "New source URLs retrieved during bounded pass. Lychee unavailable locally; targeted local-link check and changed table structure checks recorded separately.",
+    "ci": "Not yet observed; no CI pass claimed."
+  },
+  "content_sha256": {
+    "EAA enforcement tracking.md": "be75b35c8d2a90a29d0f97323910a35c01f83ea5d44f65dd179fd39aec5af68f",
+    ".github/agents/enforcement/public-map.json": "dd5c71749548947e0789933717837e94ee8c6f75ea73f64c268b3f4234c136a1",
+    ".github/agents/enforcement/research/austria.json": "c481c9ee88de72768bbdacc11a48442f983158d7de7bd93e76ea2b2bf059c55c",
+    ".github/agents/enforcement/research/croatia.json": "e24f8f3b4989d39da85f2763fac21ac6c5dd1ee14801e81c3ab4a8066e74c478",
+    ".github/agents/enforcement/research/denmark.json": "681ff3d3fd91382bc975790bcaf2f0cc4994f9bcff4753f41edbafbe0910f659",
+    ".github/agents/enforcement/research/finland.json": "cc4d691a5cacded5dd3e21ef8922c87ae8d3aeb2d23c52a441fd08fa78bff58a",
+    ".github/agents/enforcement/research/france.json": "8087a90f47a0a42783c8ee1798e400b7b8a57569286ad1ca3221b33befe8bbfc",
+    ".github/agents/enforcement/research/germany.json": "e1368f42a16c4224b3997c096948defd1510a70c0644a92e5992a25ecd1e00eb",
+    ".github/agents/enforcement/research/netherlands.json": "e85c1f11ecf73f8e9553f642f5af862e7dcf9e87e8a4c9d6b2cb53268334b8ec",
+    ".github/agents/enforcement/research/norway.json": "e9eeedcfdc876e369470a4a091f40ddedd2598b09a4b387c061ef48b144f3ee4",
+    ".github/agents/enforcement/research/slovenia.json": "b25781588cdcb07b5944ce06ae92e1253efac1de9a9e51946ab4bcc4734251f2",
+    ".github/agents/enforcement/research/sweden.json": "745ae9cc4cd04ddf0cb684b34f5e9d0f8a99ecbe38fc31c21e04b08cfc7814ca"
+  },
+  "independent_pr_review": {
+    "reviewer": "remaining_pr_review",
+    "isolation": "Separate no-history agent with workflow, actual fourteen-file local diff, evidence records, original-language source packet and completed language reports.",
+    "result": "No material findings or publication blockers. All twelve content fingerprints matched; checker and19regression tests independently passed; previous Sweden six and Germany three claims unchanged.",
+    "reviewed_base": "ae6018ebe31c24c7afac2120aec223c11b2dffe7",
+    "page_sha256": "be75b35c8d2a90a29d0f97323910a35c01f83ea5d44f65dd179fd39aec5af68f",
+    "map_sha256": "dd5c71749548947e0789933717837e94ee8c6f75ea73f64c268b3f4234c136a1",
+    "limits": "No new external research or source authentication. No independent modern HTML/link tool rerun. Actual remote PR/head comparison and CI observation will be recorded in the PR description; this is not maintainer approval."
+  }
+}
