@@ -18,5 +18,32 @@
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: EUR-Lex national transposition measures — legislation index; Belgian penalty provisions still require review."
     }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#belgium",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Sector-specific implementation; the external overview does not establish one ceiling for every sector.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The external €200,000 figure has not been assigned to a verified sector or offence.",
+          "public_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "EAA areas covered: Unknown   Fieldfisher reports a maximum fine of €200,000. ❓ Applicability by sector, offence and any turnover-based alternative has not been verified against legislation.",
+          "public_text": "Up to €200,000, according to Fieldfisher. The EAA areas and offences covered are ❓ Unknown.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Treat this figure as an external report, not a verified national maximum.",
+          "public_text": "❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
   ]
 }

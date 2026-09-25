@@ -8,6 +8,10 @@ This move does not add a new source check. A review date is not proof that every
 
 These are review-note records, not monitoring-agency claim records, so `country-record.schema.json` does not apply. Keep the monitoring records in the parent folder unchanged. When updating sanctions research, preserve unresolved notes and update the country record and table date together only when a new review has taken place.
 
+## Editorial reviews
+
+`editorial_reviews` preserves previous public wording by column, the replacement text and a link to the original version. This includes research instructions, unfinished checks and historical amounts removed from the table. Editorial changes do not update `last_checked` or confirm a legal claim.
+
 ## Countries
 
 - [Austria](austria.json)

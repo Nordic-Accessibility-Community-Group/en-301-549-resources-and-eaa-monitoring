@@ -12,5 +12,32 @@
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Decreto-Lei n.º 82/2022. Article 29."
     }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#portugal",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products and services under Decree-Law 82/2022; offence severity and legal status affect the range.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Products and services under Decree-Law 82/2022; offence severity and legal status affect the range.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Financial sanctions",
+          "previous_text": "EAA areas covered: Unknown    Serious offences: €650–€1,500 for natural persons; €12,000–€24,000 for legal persons.  Very serious offences: from €2,000 for natural persons or €24,000 for legal persons, up to the applicable maximum under Decree-Law 433/82. ❓ Cross-referenced maxima not verified.",
+          "public_text": "EAA areas covered: Unknown    Serious offences: €650–€1,500 for natural persons; €12,000–€24,000 for legal persons.  Very serious offences: from €2,000 for natural persons or €24,000 for legal persons, up to the applicable maximum under Decree-Law 433/82. Maximum amounts: ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Article 29 identifies which offences are serious or very serious. The current general-law ceiling must be checked before quoting a maximum.",
+          "public_text": "Article 29 defines serious and very serious offences. The maximum for very serious offences comes from Decree-Law 433/82.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
   ]
 }

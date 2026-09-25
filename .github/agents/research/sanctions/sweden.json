@@ -12,5 +12,26 @@
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Lag (2023:254) om vissa produkters och tjänsters tillgänglighet. Sections 3–4 and 32–39."
     }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#sweden",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    The listed penalty fee and conditional fines concern the covered products and services in §§ 3–4 of Act 2023:254, subject to the obligations and exceptions cited.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    The penalty fee and conditional fines concern the covered products and services in §§ 3–4 of Act 2023:254, subject to the obligations and exceptions cited.    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The penalty fee is not limited to documentation/cooperation failures. Minor cases are excluded (§ 37); § 38 prevents specified overlap with a conditional-fine proceeding. Severity and extent affect the amount, and reduction is possible (§ 39).",
+          "public_text": "The penalty fee covers the obligations listed in § 37, including accessibility. Minor cases are excluded. Section 38 limits overlap with conditional-fine proceedings. The amount depends on the seriousness and extent of the breach and may be reduced (§ 39).",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
   ]
 }

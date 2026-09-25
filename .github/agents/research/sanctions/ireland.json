@@ -30,5 +30,26 @@
       "source_type": "📰 External — news",
       "review_note": "📰 External — news: RTÉ: new EU rules on digital accessibility — Brian O’Donovan, 27 June 2025; reporting on possible penalties, not an imposed sanction."
     }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#ireland",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+          "public_text": "Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The conviction route matters. The legal analysis describes a due-diligence defence; imprisonment concerns individuals, not companies.",
+          "public_text": "The penalty depends on the court procedure. Mason Hayes & Curran describes a defence based on taking reasonable steps to prevent the offence. Imprisonment applies to individuals.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
   ]
 }
