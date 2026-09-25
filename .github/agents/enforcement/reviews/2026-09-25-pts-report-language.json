@@ -7,7 +7,9 @@
     "agent": "pts_fidelity",
     "isolation": "No conversation history; source and proposed text only",
     "verdict": "Supported",
-    "note": "Dated report and historical ongoing status preserved; 2025 period and categories distinguished."
+    "note": "Dated report and historical ongoing status preserved; 2025 period and categories distinguished. Final wording with 'for 2025' rechecked and supported.",
+    "original_excerpt": "17 ärenden under år 2025",
+    "literal_rendering": "17 cases during 2025"
   },
   "readability": {
     "agent": "pts_readability",
