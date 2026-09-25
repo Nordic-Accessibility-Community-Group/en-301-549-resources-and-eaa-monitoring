@@ -19,11 +19,11 @@ class SanctionsChecks(unittest.TestCase):
         for name in ['EAA sanctions.md', 'EAA enforcement tracking.md', 'monitoring-agencies-information.md']:
             shutil.copy(ROOT / name, self.root / name)
         shutil.copytree(ROOT / '.github/agents/research/sanctions', self.root / '.github/agents/research/sanctions')
+        shutil.copytree(ROOT / '.github/agents/research/countries', self.root / '.github/agents/research/countries')
     def record(self, field, value):
-        p = self.root / '.github/agents/research/sanctions/austria.json'
-        data = json.loads(p.read_text())
+        data = validator.country_records.load(self.root, 'Austria', 'sanctions')
         data[field] = value
-        p.write_text(json.dumps(data))
+        validator.country_records.save_domain(self.root, data, 'sanctions')
     def test_valid_page(self):
         self.assertEqual(validator.check(self.root), 27)
     def test_mismatched_date(self):

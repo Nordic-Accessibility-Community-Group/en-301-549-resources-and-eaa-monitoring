@@ -1,0 +1,540 @@
+{
+  "schema_version": 2,
+  "country": "Spain",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-9d9ac2d54f9fda61b3179481": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Title I, arts. 1–2",
+      "evidence": "Lists covered consumer products and services, including computing, terminals, e-readers, communications, audiovisual access, passenger transport elements, banking, e-books and e-commerce.",
+      "source_type": "legislation"
+    },
+    "source-6d34ab133da74585381c98f8": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(2),(4)",
+      "evidence": "Requires conformity information in general terms or equivalent and public written/oral accessible availability, without expressly naming a dedicated website statement page.",
+      "source_type": "legislation"
+    },
+    "source-526cd66cf4e1150393eaa751": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(2)",
+      "evidence": "Requires information assessing how the service meets Art. 3 requirements in general terms or equivalent document.",
+      "source_type": "legislation"
+    },
+    "source-acf7fbc3b261c06728fb1607": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(4)",
+      "evidence": "Requires information available to public in written and oral formats and accessibly for persons with disabilities, maintained current while service operates.",
+      "source_type": "legislation"
+    },
+    "source-36f9f84ced32694d2311eae5": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(2),(4)",
+      "evidence": "Public availability established; separate on-request mode not expressly established in these provisions.",
+      "source_type": "legislation"
+    },
+    "source-ee63ef50ac06718d1f445b43": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(8)",
+      "evidence": "Reasoned authority request triggers provision of all information needed to demonstrate conformity.",
+      "source_type": "legislation"
+    },
+    "source-48274285276abc69aeb1ca99": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 27(1)–(3)",
+      "evidence": "Regional/autonomous city designation and caveat for other regulatory powers.",
+      "source_type": "legislation"
+    },
+    "source-9617689a036f41cbff3845ff": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Arts. 2–3(g)",
+      "evidence": "Directorate-General assumes technical unit; advisory, coordination and contact functions.",
+      "source_type": "legislation"
+    },
+    "source-a33074c2669cbad8bb841dd7": {
+      "url": "https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm",
+      "accessed_on": "2026-09-24",
+      "section": "What is UTAC / purpose",
+      "evidence": "Government page describes coordination and public contact.",
+      "source_type": "government"
+    },
+    "source-8990f86d4c8ad7d01d46ea29": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 3(h)",
+      "evidence": "Express fallback surveillance authority where no authority designated.",
+      "source_type": "legislation"
+    },
+    "source-f2ba74771fafe999e684d822": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 27(3)",
+      "evidence": "Designations are to be determined by autonomous communities and Ceuta/Melilla and notified to UTAC.",
+      "source_type": "legislation"
+    },
+    "source-4b00784f3ce04338e703618c": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Annex I section V",
+      "evidence": "Sets accessibility requirements for response to 112 communications.",
+      "source_type": "legislation"
+    },
+    "source-f6d1dc92d06c03d81cfcb945": {
+      "url": "https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm",
+      "accessed_on": "2026-09-24",
+      "section": "Contacto",
+      "evidence": "Government page expressly instructs those wishing to report or complain of Ley 11/2023 accessibility failures to email utac@dsca.gob.es with case description.",
+      "source_type": "government"
+    },
+    "source-b8315f1f1b0fb82edf4d8cd5": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 3(g)",
+      "evidence": "Technical unit provides suitable means to receive reports and complaints on Title I compliance.",
+      "source_type": "legislation"
+    },
+    "source-263b42e96cce8ef1f224c841": {
+      "url": "https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm",
+      "accessed_on": "2026-09-24",
+      "section": "Contacto",
+      "evidence": "Publishes utac@dsca.gob.es for Ley 11/2023 noncompliance reports; company-specific acceptance independently supplied in official correspondence.",
+      "source_type": "government"
+    },
+    "source-51147cf585bacfa53f059df8": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 3(g)",
+      "evidence": "Contact point expressly includes economic operators.",
+      "source_type": "legislation"
+    },
+    "source-5d8633dd280186387505c459": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 3(g)",
+      "evidence": "Mandates appropriate means for contact/complaints, does not identify dedicated company portal.",
+      "source_type": "legislation"
+    },
+    "source-abe2617ad119327bbf111a9a": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 3(g)",
+      "evidence": "Economic operators are within UTAC contact role; language acceptance is evidenced only by the dated UTAC reply.",
+      "source_type": "legislation"
+    },
+    "source-d606924ec429b705b25dc182": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(7)",
+      "evidence": "Immediate notice to competent national authorities in Member States where service provided, with noncompliance and corrective measures.",
+      "source_type": "legislation"
+    },
+    "source-5026190e26553dc7a4066f2a": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 16(1),(2),(7)",
+      "evidence": "Exceptional alteration/burden grounds; information to relevant authorities when invoked; paragraph 7 not applicable to microenterprises.",
+      "source_type": "legislation"
+    },
+    "source-33072d25243c684896ccbbbd": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 13(7)",
+      "evidence": "Requires notification but does not supply route.",
+      "source_type": "legislation"
+    },
+    "source-e159906ebb7c28d3ccf1dd8f": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022",
+      "accessed_on": "2026-09-24",
+      "section": "Art. 16(7)",
+      "evidence": "Requires information to relevant authorities, with microenterprise exception, but no channel.",
+      "source_type": "legislation"
+    },
+    "source-d11b7540a0712695ea9bd73c": {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520",
+      "accessed_on": "2026-09-24",
+      "section": "Arts. 2–3",
+      "evidence": "Official statutory role and 2026 establishment, used to corroborate institution; details of reply derive from private official correspondence.",
+      "source_type": "legislation"
+    },
+    "source-ebeeaea8cd53409a23345e84": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022#a30",
+      "label": "Law 11/2023, Article 30",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law 11/2023, Article 30."
+    },
+    "source-55bdb961677a2c12f09b8b43": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632#a83",
+      "label": "Royal Legislative Decree 1/2013, Article 83",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Royal Legislative Decree 1/2013, Article 83."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "additional_information",
+          "assertion": "Ley 11/2023 Title I transposes the EAA for listed products and consumer services.",
+          "status": "verified",
+          "review_note": "Current consolidated BOE opened on 2026-09-24. EAA context; not the WAD. Link reachable at BOE.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-9d9ac2d54f9fda61b3179481"
+          ],
+          "id": "monitoring-7d52cd43b6bb09f34258db93"
+        },
+        {
+          "field": "statement",
+          "assertion": "The existing Yes means a dedicated public EAA accessibility-statement page is required on a company's website.",
+          "status": "unknown",
+          "review_note": "Existing ✔️ Yes preserved with explicit EAA-specific source-needed qualification. In user-supplied 'Questions about reporting for the EAA (8).eml', the 24 September 2026 outgoing message asks UTAC whether a company website must publish a public accessibility statement; no response to that question appears. The existing row refers to arts. 7–9, which concern product-side requirements rather than proof of a dedicated service page. Before-merge manual research task; do not infer No. Update 2026-09-25: UTAC replied to the follow-up but deferred substantive answers, hoping to answer these questions in 2027. Statement question remains unresolved; preserve existing Yes and source-needed qualification.",
+          "directive_context": "EAA",
+          "existing_text": "✔️ Yes",
+          "information_mode": "dedicated_public_page",
+          "scope": "Covered private services",
+          "source_refs": [
+            "source-6d34ab133da74585381c98f8"
+          ],
+          "id": "monitoring-a4ddfbe2782f148bf9aaa2a3"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers include information assessing how the service meets accessibility requirements in their general terms or equivalent document.",
+          "status": "verified",
+          "review_note": "Separate isolated Spanish-to-English language review on 2026-09-24: correction applied to retain 'assessing how' and Art. 3; final English wording rechecked against literal rendering. Original excerpt 'incluirán, en las condiciones generales o documento equivalente, la información que evalúe de qué manera el servicio cumple...' Literal: include in general terms or equivalent information assessing how the service meets requirements. Initial shortened wording needed correction; final claim preserves assessment of how.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "scope": "Covered services",
+          "source_refs": [
+            "source-526cd66cf4e1150393eaa751"
+          ],
+          "id": "monitoring-679ca33ccefa90db7610872a"
+        },
+        {
+          "field": "service_information",
+          "assertion": "The Art. 13 information is publicly available in written and oral form and accessible to persons with disabilities.",
+          "status": "verified",
+          "review_note": "This is a public availability obligation; it does not by itself prove a separate statement page.",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "scope": "Covered services",
+          "source_refs": [
+            "source-acf7fbc3b261c06728fb1607"
+          ],
+          "id": "monitoring-9c9fb4fdb29cb301d454eb32"
+        },
+        {
+          "field": "service_information",
+          "assertion": "The public may request information separately from the required publicly available Art. 13 information.",
+          "status": "unknown",
+          "review_note": "Do not conflate public availability with a separate public-on-request duty.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [
+            "source-36f9f84ced32694d2311eae5"
+          ],
+          "id": "monitoring-72d34a51cae91b7102153253"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Providers furnish all information necessary to demonstrate service conformity on a reasoned competent-authority request.",
+          "status": "verified",
+          "review_note": "Isolated language review corrected the shortened wording to retain 'all information necessary' and reasoned request. Original excerpt 'Sobre la base de una solicitud motivada ... toda la información necesaria...' Literal: on a reasoned request, all necessary information. Final claim supported after correction.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "scope": "Covered services",
+          "source_refs": [
+            "source-ee63ef50ac06718d1f445b43"
+          ],
+          "id": "monitoring-4a78c78885776928ae5d8d23"
+        },
+        {
+          "field": "authority",
+          "assertion": "Autonomous communities and Ceuta/Melilla determine surveillance authorities within their competences; other authorities' powers under supplementary regulations remain possible.",
+          "status": "verified",
+          "review_note": "Statutory authority class rather than an exhaustive current named roster. Isolated Spanish review supported wording with 'determine' and powers caveat. Existing UTAC-only display misleadingly suggested it was sole surveillance body. Individual regional designations were not verified within this pass. Language agent final wording check: 'retain powers' was rejected; use 'may have powers' to preserve conditional pudiera tener. Table omits supplementary-powers detail for brevity.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books",
+          "source_refs": [
+            "source-48274285276abc69aeb1ca99"
+          ],
+          "id": "monitoring-918ae9adbb6f068b91e3b635"
+        },
+        {
+          "field": "authority",
+          "assertion": "UTAC coordinates and supports surveillance authorities and serves as an information contact for citizens and economic operators.",
+          "status": "verified",
+          "review_note": "UTAC government link opened to correct agency. It is not the universal designated regional supervisor. Isolated agent found coordination/support not established by the supplied art. 3(g),(h) excerpts alone; art. 3(a) and official UTAC page explicitly supply that role.",
+          "directive_context": "EAA",
+          "scope": "All Ley 11/2023 Title I sectors",
+          "source_refs": [
+            "source-9617689a036f41cbff3845ff",
+            "source-a33074c2669cbad8bb841dd7"
+          ],
+          "id": "monitoring-e1ee871ffe922eef794f171d"
+        },
+        {
+          "field": "authority",
+          "assertion": "UTAC acts as the surveillance authority in areas where none has been designated.",
+          "status": "verified",
+          "review_note": "Isolated language review supported this precise conditional wording. Does not prove that a particular region/sector is currently undesignated. Language agent final verdict Supported: 'acts as surveillance authority where none has been designated.'",
+          "directive_context": "EAA",
+          "scope": "Undesignated areas only",
+          "source_refs": [
+            "source-8990f86d4c8ad7d01d46ea29"
+          ],
+          "id": "monitoring-042daf3d48f9e901992b23c8"
+        },
+        {
+          "field": "authority",
+          "assertion": "Individual designated authorities are named and verified for each region and product/service sector.",
+          "status": "unknown",
+          "review_note": "No verified complete current public roster found in bounded research. Keep statutory class and coordination body; do not claim named regional coverage.",
+          "directive_context": "EAA",
+          "scope": "All Title I sectors",
+          "source_refs": [
+            "source-f2ba74771fafe999e684d822"
+          ],
+          "id": "monitoring-610f09dd6b983f583754559e"
+        },
+        {
+          "field": "authority",
+          "assertion": "A named authority is established for accessibility of 112 emergency-call answering.",
+          "status": "unknown",
+          "review_note": "The specific answering-centre oversight body and reporting route were not verified; separate from electronic-communications providers.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [
+            "source-4b00784f3ce04338e703618c"
+          ],
+          "id": "monitoring-837be62631012beed3063dc9"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "The public can send Ley 11/2023 accessibility noncompliance reports or complaints to UTAC by email.",
+          "status": "verified",
+          "review_note": "Published UTAC page opened and identified the precise EAA purpose; email has no login prerequisite. UTAC coordinates and may direct matters within its remit; this is not proof it is the final local deciding authority. Language agent final verdict Supported for 'Public complaints and reports' and instruction to describe the Ley 11/2023 case.",
+          "directive_context": "EAA",
+          "scope": "Ley 11/2023 covered products and services",
+          "reporting_route": {
+            "authority": "UTAC",
+            "sector": "Ley 11/2023 Title I products and services",
+            "channel": "email",
+            "destination": "utac@dsca.gob.es",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-f6d1dc92d06c03d81cfcb945",
+            "source-b8315f1f1b0fb82edf4d8cd5"
+          ],
+          "id": "monitoring-f4a9e5f6704bde86487d0b05"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Companies may send reports to UTAC's contact email if within UTAC's competence.",
+          "status": "verified",
+          "review_note": "Official UTAC reply dated 20 Aug 2026 in user-supplied EML explicitly says companies can also email UTAC if within its competence; no state-level company-specific tool. Preserve exact limitation. Generic reports are established, but dedicated Art. 13(7) non-compliance and Art. 16(7) exemption filing at a particular regional authority are not. No message was sent by this audit.",
+          "directive_context": "EAA",
+          "scope": "UTAC competence only",
+          "reporting_route": {
+            "authority": "UTAC",
+            "sector": "Ley 11/2023 Title I within UTAC competence",
+            "channel": "email",
+            "destination": "utac@dsca.gob.es",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-263b42e96cce8ef1f224c841",
+            "source-51147cf585bacfa53f059df8"
+          ],
+          "id": "monitoring-f1641bf3325522483e458cb2"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "A specific state-level company reporting tool exists.",
+          "status": "unknown",
+          "review_note": "20 Aug 2026 UTAC reply says no specific state-level company reporting tool was available then. Time-specific official correspondence; not an assertion that regional tools do not exist.",
+          "directive_context": "EAA",
+          "scope": "State level",
+          "source_refs": [
+            "source-5d8633dd280186387505c459"
+          ],
+          "id": "monitoring-1dd381e8bbab5c226a1b3a94"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Companies outside Spain may report to UTAC in English or French under the stated language condition.",
+          "status": "verified",
+          "review_note": "20 Aug 2026 UTAC official reply in user-supplied EML: companies outside Spain can report in English or French if they do not speak Spanish or the relevant co-official language. This concerns UTAC contact, not all regional authorities. Correspondence content is summarized, not publicly reproduced.",
+          "directive_context": "EAA",
+          "scope": "UTAC reports from companies outside Spain",
+          "reporting_route": {
+            "authority": "UTAC",
+            "sector": "Ley 11/2023 Title I within UTAC competence",
+            "channel": "email",
+            "destination": "utac@dsca.gob.es",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-abe2617ad119327bbf111a9a"
+          ],
+          "id": "monitoring-3ffb07a58849bca49b518ad0"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Covered service providers notify competent national authorities immediately when their service is noncompliant.",
+          "status": "verified",
+          "review_note": "Duty established, but exact regional destination and intake route for this statutory notice remain Unknown. Isolated language review corrected territorial scope.",
+          "directive_context": "EAA",
+          "scope": "Covered services",
+          "source_refs": [
+            "source-d606924ec429b705b25dc182"
+          ],
+          "id": "monitoring-eb8f8ff169571be8464ae697"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Agents invoking fundamental alteration or disproportionate burden send information to the relevant surveillance/service verification authority, except microenterprises.",
+          "status": "verified",
+          "review_note": "EAA Article 14 context; obligation does not establish an email/form for regional exemption submission.",
+          "directive_context": "EAA",
+          "scope": "Covered products and services, excluding microenterprises from notification",
+          "source_refs": [
+            "source-5026190e26553dc7a4066f2a"
+          ],
+          "id": "monitoring-214428877c2faf77183868aa"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "A verified purpose-specific destination for company non-compliance notices to each designated authority is identified.",
+          "status": "unknown",
+          "review_note": "UTAC general company reports are not presumed to discharge formal notifications to other competent authorities.",
+          "directive_context": "EAA",
+          "scope": "All sectors/regions",
+          "source_refs": [
+            "source-33072d25243c684896ccbbbd"
+          ],
+          "id": "monitoring-3cb3e1fe6674eeb455f9e8e6"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "A verified company exemption-notification channel for each designated authority is identified.",
+          "status": "unknown",
+          "review_note": "Follow-up needed; do not relabel UTAC generic reports as formal exemption filing.",
+          "directive_context": "EAA",
+          "scope": "All sectors/regions",
+          "source_refs": [
+            "source-e159906ebb7c28d3ccf1dd8f"
+          ],
+          "id": "monitoring-b3098050ac1b7cda5180ec5f"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "UTAC reply of 20 Aug 2026 confirmed regional designation, a state-level contact email usable by companies within its competence, conditional English/French reporting and absence of a dedicated state tool at that time.",
+          "status": "verified",
+          "review_note": "User-supplied file 'Questions about reporting for the EAA (8).eml': UTAC official message Thu 20 Aug 2026, received in a thread culminating Fri 25 Sep 2026 00:42 +0200 (24 Sep UTC). This is direct official correspondence, not a public URL. Record factual summary only; no personal telephone/address or private message body republished. Follow-up questions on dedicated statement, monitoring, WCAG 2.2, dark mode and reporting deadline in latest outbound message are unanswered in this file. Verify provenance if required by maintainer.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-d11b7540a0712695ea9bd73c"
+          ],
+          "id": "monitoring-ecc7ccfa3abdd2d316639e6a"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "UTAC said its coordination unit was established at the end of February and that it hopes to be able to answer these types of questions in 2027.",
+          "status": "verified",
+          "review_note": "Official UTAC correspondence supplied by the contributor in 'Questions about reporting for the EAA (9).eml', dated 25 September 2026, read the same day. Source is a private official email, not a public webpage. Factual summary only; no full message, signatures or personal contact details published. 'Next year' resolves to 2027 from the reply date. UTAC expresses an expectation, not a committed answer date or a statement that enforcement is deferred. The response does not substantively answer questions on a dedicated website statement, monitoring start, warnings, companies under monitoring, WCAG 2.2, dark mode or reporting deadlines. Earlier 20 August 2026 reporting-channel and language facts are preserved. Isolated no-history English fidelity review by /root/estonia_reply_language on 2026-09-25: original 'The Coordination Unit ... was set up at the end of February. We hope to be able to answer these types of questions next year.' Literal meaning preserved in final assertion. Initial summary narrowed 'these types of questions' unnecessarily; corrected to source wording. Final assertion and qualification that this is no promised response date or enforcement postponement rechecked Supported.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-4d6c2caa1460f62fc9824b1b"
+        }
+      ],
+      "questions": [
+        "Before merge: Spain / existing ✔️ Yes dedicated public EAA statement — manually verify the contributor's prior source or obtain an explicit competent authority answer to the 24 September 2026 email question. Law Art. 13 requires terms/equivalent and public accessibility information but does not establish a separate website statement page. Preserve Yes with source-needed note until supported or explicitly corrected. Update 2026-09-25: UTAC hopes to answer in 2027; this remains a research follow-up pending substantive evidence, not a new prerequisite for publishing this correspondence-only update.",
+        "Follow-up: Locate current designated surveillance authorities for every autonomous community and Ceuta/Melilla, with sector boundaries and official agency links; Art. 27 names the designation mechanism, not a complete roster. Determine whether UTAC's Art. 3(h) fallback applies to any specific undesignated area.",
+        "Follow-up: Confirm which regional authority and route receives formal Art. 13(7) company non-compliance and Art. 16(7) exemption notifications, distinguishing UTAC's general email contact and microenterprise exception.",
+        "Follow-up: Verify designated 112 answering-centre oversight and reporting; the Annex I response requirement does not name a route.",
+        "Follow-up: UTAC's 25 September 2026 response defers substantive answers until potentially 2027. Revisit the dedicated statement, monitoring start, warnings, access to information about monitored companies, WCAG 2.2, dark mode and reporting-deadline questions; no conclusions about Spanish practices follow from the deferral.",
+        "Reminder: 12 January 2027 (Europe/Stockholm) — review this record for a later substantive UTAC answer and remind the contributor to follow up with utac@dsca.gob.es if questions remain unanswered. Date selected for follow-up planning, not promised by UTAC. Owner: contributor/researcher. Do not send correspondence automatically; resolved when a dated answer is supplied and recorded, or the contributor reschedules/closes the follow-up."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#spain",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#spain",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#spain",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Title I of Law 11/2023; sector-specific sanctions take priority.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   Sector legislation takes priority. The listed disability-rights penalties are supplementary, so their application must be established for each sector.",
+              "public_text": "Title I of Law 11/2023; sector-specific sanctions take priority.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Law 11/2023, Article 30 refers first to sector law and only subsidiarily to Title III of Royal Legislative Decree 1/2013. €1 million is not a universal EAA ceiling.",
+              "public_text": "Sector-specific penalties apply first. The disability-rights penalties in Title III of Royal Legislative Decree 1/2013 apply where sector law does not cover the matter (Law 11/2023, Article 30).",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "8c6efdc96934ef03580e7a818f038997b76e7dbec42a1de2553303aedb9373bc",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-ebeeaea8cd53409a23345e84",
+        "source-55bdb961677a2c12f09b8b43"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "bounded_pass_completed",
+      "search_result": "no_reportable_activity_found_in_checked_sources",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Read UTAC role page. Coordination/fallback powers do not establish an actual inspection or sanction. Autonomous-community sources were not exhaustively reviewed; no national absence conclusion."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.rpdiscapacidad.gob.es accesibilidad \"2026\" \"inspección\"",
+          "sources_checked": [
+            "https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm"
+          ],
+          "limitations": "Read UTAC role page. Coordination/fallback powers do not establish an actual inspection or sanction. Autonomous-community sources were not exhaustively reviewed; no national absence conclusion. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

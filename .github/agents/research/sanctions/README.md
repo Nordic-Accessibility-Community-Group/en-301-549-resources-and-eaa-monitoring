@@ -1,12 +1,12 @@
 # EAA sanctions research notes
 
-These notes support the [EAA sanctions table](../../../../EAA%20sanctions.md). They use the monitoring research pattern of one JSON file per country, in a separate sanctions folder.
+These notes support the [EAA sanctions table](../../../../EAA%20sanctions.md). They now live in shared research/countries/<country>.json under domains.sanctions; see the [storage contract](../README.md). This folder retains historical review reports and sanctions-specific instructions.
 
-Each record keeps the original `last_checked` date and the complete `review_note` moved from the table. Each source keeps its URL, label, source type and original table description in `sources[].review_note`. These descriptions include research notes removed from the Sources column, such as access problems and unfinished checks. `source_snapshot` links to the version before the notes were moved.
+Each record keeps the original `last_checked` date and the complete `review_note` moved from the table. Shared evidence objects keep each source URL, label, source type and original table description; domains.sanctions.source_refs preserve their order. The read adapter reconstructs sources[].review_note exactly. These descriptions include research notes removed from the Sources column, such as access problems and unfinished checks. `source_snapshot` links to the version before the notes were moved.
 
 This move does not add a new source check. A review date is not proof that every link was opened or every claim was confirmed. Access problems, partial checks and unresolved questions remain in `review_note` and in the source descriptions. Sources listed here include unverified leads; their presence does not confirm a claim.
 
-These are review-note records, not monitoring-agency claim records, so `country-record.schema.json` does not apply. Keep the monitoring records in the parent folder unchanged. When updating sanctions research, preserve unresolved notes and update the country record and table date together only when a new review has taken place.
+These are review-note records, not monitoring-agency claim records, so `country-record.schema.json` does not apply. Edit only the relevant domain in the shared country record, preserving the other domains. When updating sanctions research, preserve unresolved notes and update the country record and table date together only when a new review has taken place.
 
 ## Editorial reviews
 
@@ -22,30 +22,30 @@ Run `python3 .github/scripts/check-sanctions.py` and `python3 .github/scripts/te
 
 ## Countries
 
-- [Austria](austria.json)
-- [Belgium](belgium.json)
-- [Bulgaria](bulgaria.json)
-- [Croatia](croatia.json)
-- [Cyprus](cyprus.json)
-- [Czechia](czechia.json)
-- [Denmark](denmark.json)
-- [Estonia](estonia.json)
-- [Finland](finland.json)
-- [France](france.json)
-- [Germany](germany.json)
-- [Greece](greece.json)
-- [Hungary](hungary.json)
-- [Ireland](ireland.json)
-- [Italy](italy.json)
-- [Latvia](latvia.json)
-- [Lithuania](lithuania.json)
-- [Luxembourg](luxembourg.json)
-- [Malta](malta.json)
-- [Netherlands](netherlands.json)
-- [Poland](poland.json)
-- [Portugal](portugal.json)
-- [Romania](romania.json)
-- [Slovakia](slovakia.json)
-- [Slovenia](slovenia.json)
-- [Spain](spain.json)
-- [Sweden](sweden.json)
+- [Austria](../countries/austria.json)
+- [Belgium](../countries/belgium.json)
+- [Bulgaria](../countries/bulgaria.json)
+- [Croatia](../countries/croatia.json)
+- [Cyprus](../countries/cyprus.json)
+- [Czechia](../countries/czechia.json)
+- [Denmark](../countries/denmark.json)
+- [Estonia](../countries/estonia.json)
+- [Finland](../countries/finland.json)
+- [France](../countries/france.json)
+- [Germany](../countries/germany.json)
+- [Greece](../countries/greece.json)
+- [Hungary](../countries/hungary.json)
+- [Ireland](../countries/ireland.json)
+- [Italy](../countries/italy.json)
+- [Latvia](../countries/latvia.json)
+- [Lithuania](../countries/lithuania.json)
+- [Luxembourg](../countries/luxembourg.json)
+- [Malta](../countries/malta.json)
+- [Netherlands](../countries/netherlands.json)
+- [Poland](../countries/poland.json)
+- [Portugal](../countries/portugal.json)
+- [Romania](../countries/romania.json)
+- [Slovakia](../countries/slovakia.json)
+- [Slovenia](../countries/slovenia.json)
+- [Spain](../countries/spain.json)
+- [Sweden](../countries/sweden.json)

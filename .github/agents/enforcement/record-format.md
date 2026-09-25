@@ -4,7 +4,7 @@ The executable contract is [check.py](check.py); it uses the Python standard lib
 
 ## Country records
 
-Store one file named for the lowercase English country name under `research/`. Use Czechia as the record name; the inherited page's Czech Republic spelling stays unchanged. Require all 27 EU countries and preserve Norway, which already has a public entry. Other jurisdictions may be added when separately authorised. Do not add public rows to satisfy research coverage.
+Store the enforcement domain in `../research/countries/<lowercase country>.json` under `domains.enforcement`; follow the [shared storage contract](../research/README.md). The fields below describe the expanded domain view. Country identity lives at the shared record root; canonical claims use source_refs into shared evidence, while the read adapter expands sources for existing validation. Use Czechia as the record name; the inherited page's Czech Republic spelling stays unchanged. Preserve the 36 authorised jurisdictions in the shared registry, including all EU countries. New jurisdictions need explicit authorisation. Do not add public rows to satisfy research coverage.
 
 | Field | Meaning |
 | --- | --- |

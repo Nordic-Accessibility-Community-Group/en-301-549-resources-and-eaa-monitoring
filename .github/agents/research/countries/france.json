@@ -1,0 +1,1006 @@
+{
+  "schema_version": 2,
+  "country": "France",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-8b346adb958d4be97923dbf8": {
+      "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/",
+      "evidence": "Requires an online accessibility declaration on a page accessible throughout the website.",
+      "section": "Publication de la déclaration; Article 47 template",
+      "source_type": "government",
+      "accessed_on": "2026-09-24"
+    },
+    "source-650c3469bb4bfc3cede846c1": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349",
+      "evidence": "D.412-57(2) requires public written/oral information; its annex places it in terms or an equivalent document.",
+      "section": "Article 1, D.412-57(2), Annex I",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-8e8070b311c292a475815cac": {
+      "url": "https://acpr.banque-france.fr/fr/declaration-de-non-conformite-ou-invocation-dune-exemption-aux-obligations-daccessibilite",
+      "evidence": "ACPR may obtain evidence of conformity and an exemption assessment.",
+      "section": "À savoir",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-808028854fa26e672003b9d3": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "evidence": "DGCCRF names covered products and e-commerce among its checks.",
+      "section": "Quels produits et services sont contrôlés ?",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-a95d709106ea368686034d64": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "evidence": "DGCCRF lists passenger-service websites, apps, ticketing, information and terminals.",
+      "section": "Quels produits et services sont contrôlés ?",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-3e32f087cc9055433d2ebd8c": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "L.511-25-1(1) authorizes ARCEP agents in addition to DGCCRF.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-2e9833190cb900ab5b7089bc": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "L.511-25-1(2) assigns audiovisual-access checks to Arcom agents in addition to DGCCRF.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-bbaeed0162b49e2d3e9879ba": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "L.511-25-1(3)(a) assigns consumer-information comprehensibility/complexity checks within ACPR's powers.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-d20d4857e580d6b909db8fa9": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "L.511-25-1(3)(a) assigns consumer-information comprehensibility/complexity checks within AMF's powers.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-6e592148d81f992d73b083ce": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "L.511-25-1(3)(b) covers identification methods, electronic signatures, security and payment services.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-f873ee354ba7defd293813ba": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "evidence": "DGCCRF lists banking services among coordinated checks.",
+      "section": "Quels produits et services sont contrôlés ?",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-cde36590d34cde7b54db0e6f": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "Article 16 inserts Article 48 VI assigning e-book/software supervision to Arcom.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-61cafc3d19290a693951a524": {
+      "url": "https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement",
+      "evidence": "Accessibility reporting wizard for consumers is available.",
+      "section": "Accessibility report, step 1",
+      "source_type": "government",
+      "accessed_on": "2026-09-24"
+    },
+    "source-a2e276ffc455e505ed902be5": {
+      "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+      "evidence": "Official guidance directs economic operators to the linked declaration procedure for this purpose.",
+      "section": "Une démarche en ligne pour déclarer une non-conformité",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-720a70bcce8344142068002b": {
+      "url": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+      "accessed_on": "2026-09-25",
+      "source_type": "government",
+      "section": "Procedure landing page: purpose, intended users and attachments",
+      "evidence": "Landing page names non-conformity declarations and exemption invocations for economic operators and assessment/audit reports as attachments. It exposes FranceConnect and platform-account sign-in options; reader also displays an unsupported-browser warning. This is landing-page evidence only."
+    },
+    "source-ec50744395bea467e5a7f49e": {
+      "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+      "evidence": "Official guidance directs economic operators to the linked declaration procedure for this purpose.",
+      "section": "Une démarche en ligne pour invoquer une exemption",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-a782a21a39da67c1cb4d4d95": {
+      "url": "https://acpr.banque-france.fr/fr/declaration-de-non-conformite-ou-invocation-dune-exemption-aux-obligations-daccessibilite",
+      "evidence": "Instructions say the initial form routes the declarant to the ACPR portal, where a request must be created.",
+      "section": "Procédure",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-c76876e82c18edf1667a1608": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047281777",
+      "evidence": "Article 16 establishes transposition and sector allocations.",
+      "section": "Article 16",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-5353197755c03afaec70eb54": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178349",
+      "evidence": "Decree implements L.412-13, generally applying from 28 June 2025.",
+      "section": "Notice",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-52c1c910d50733d9b51868c8": {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048178413",
+      "evidence": "Sets accessibility requirements.",
+      "section": "Title",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-b1402865687968dcb097d5a4": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "evidence": "Guidance confirms enforcement, sanctions and specific transition boundaries.",
+      "section": "Sanctions; Quand seront mis en œuvre les contrôles ?",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-e465539eae345a2a8f422348": {
+      "url": "https://www.tpgi.com/french-law-2005-102-rgaa-and-web-accessibility/",
+      "evidence": "Existing secondary overview, not used to verify claims.",
+      "section": "Existing table link",
+      "source_type": "other_unverified",
+      "accessed_on": "2026-09-24"
+    },
+    "source-bd296d120f024140606a2953": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "label": "DGCCRF: accessibility requirements for products and services",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: DGCCRF: accessibility requirements for products and services — 13 November 2025."
+    },
+    "source-89b57e7628a1451c1e0b34af": {
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006417259/2023-02-01",
+      "label": "Criminal Code, Article 131-13",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Criminal Code, Article 131-13 — natural-person fifth-class fine."
+    },
+    "source-c4fd43f436f5a197fda6b632": {
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+      "source_type": "official_authority_publication",
+      "reference": "Quand seront mis en œuvre les contrôles?; Quelles sont les sanctions?",
+      "passage": "DGCCRF states controls began on 28 June 2025, particularly following reports. Its agents may order compliance, potentially with penalty payments and publicity measures; this describes powers, not measures imposed in a named case.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-995f7b9d07df75496bc76ab0": {
+      "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso",
+      "source_type": "official_authority_publication",
+      "reference": "9 December 2025; Signaler facilement",
+      "passage": "Consumers can report accessibility failures through the dedicated SignalConso route.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-83b7724461402871dcde50ea": {
+      "url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+      "source_type": "official_authority_publication",
+      "reference": "13 November 2025; declaration routes",
+      "passage": "DGCCRF identifies an online process for professional non-compliance declarations or invocation of exemptions.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-9f4be07b7b173ccd827cf002": {
+      "url": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+      "source_type": "official_authority_publication",
+      "reference": "Public procedure landing page: purpose and intended users; same-day direct read during DGCCRF correspondence update",
+      "passage": "Landing page identifies non-conformity declarations and exemption invocations for economic operators, with assessment/audit attachments and account sign-in options.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Previously inspected in this conversation on 25 September 2026; not a fresh end-to-end test. Reader showed an unsupported-browser warning; no sign-in or submission."
+    },
+    "source-838ca5c74b0973a03a4aada9": {
+      "url": "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+      "source_type": "official_court_decision",
+      "reference": "Court order 4 June 2026, RG 25/00691, pp.1 and 7–8",
+      "passage": "The interim order requires Carrefour France to provide accessible e-commerce services under Consumer Code L.412-13 and the 9 October 2023 order. A EUR500 daily penalty applies six months after pronouncement. It awards the associations EUR10,000 provisionally, costs of these proceedings, and EUR3,000 under CPC Article 700.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Court-document copy hosted by an association involved in the case, not a court-hosted download. Original scan pp.1 and 8 visually inspected; legal reasoning and operative text read. Court document distinguished from the host’s interpretation."
+    },
+    "source-a56e4ff418e98085d4f8729b": {
+      "url": "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+      "source_type": "official_court_decision",
+      "reference": "pp.5–6, reasoning",
+      "passage": "The court records a 71.21% RGAA assessment and reasons that the service must meet the applicable accessibility requirements in full.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-2ff3547537ee9869f26367a5": {
+      "url": "https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-lille-le-6-mai-2026apidv-et-droit-pluriel-c-auchan-e-commerce-une-interpretation-gravement-erronee-du-droit-de-laccessibilite-numerique/",
+      "source_type": "external_party_statement",
+      "reference": "Body: Ce mardi 5 mai; threshold discussion; appeal heading",
+      "passage": "The party account reports rejection on 5 May, describes the turnover-threshold reasoning and announces an appeal; its title says 6 May. Criticism is the associations’ position.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-f2467429afde5b5b60bfc3cb": {
+      "url": "https://www.courdecassation.fr/decision/69fb8571cdc6046d47d58979",
+      "source_type": "official_court_decision",
+      "reference": "Official decision lead RG 25/01796",
+      "passage": "",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": null,
+      "access_result": "unreachable",
+      "provenance_note": "Text reader returned a JS/cookies requirement. Browser retry denied because the admin-enforced security check was unavailable; no workaround attempted. Search snippet is not treated as retrieved decision text."
+    },
+    "source-d027851d77d05e2384fc1be8": {
+      "url": "https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/",
+      "source_type": "external_party_statement",
+      "reference": "Communiqué de presse, opening",
+      "passage": "The associations state that on 7 July they put the four retailers on notice about inaccessible online grocery services.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-1e349ed72e48d84ea038ab1f": {
+      "url": "https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/",
+      "source_type": "external_party_statement",
+      "reference": "Court-action summary",
+      "passage": "Association page describes interim court actions following notices to the four retailers.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-6fc33ac354df12a73f6ac953": {
+      "url": "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf",
+      "source_type": "official_authority_publication",
+      "reference": "4 September 2026 release,p 2, Bilan intermédiaire",
+      "passage": "English evidence summary: investigation began early 2026; approximately 50 establishments planned. More than 20 websites checked so far; corrective/punitive follow-up planned for half. Several platforms/retailers committed to conformity by end 2026. Final results expected early 2027.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. PDF text retrieved; local download 403 and no viewable web screenshot."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "Existing Yes and RGAA declaration link retained; the linked page requires a dedicated accessibility page within the Article 47 framework.",
+          "status": "verified",
+          "review_note": "Link reachable 2026-09-24. Article 47 scope is separate from universal EAA coverage; do not extrapolate this source to every EAA service. AccessibleEU-related correspondence dated 2026-01-21 was supplied by the contributor after the initial audit; it is not a French government response and does not address accessibility-statement requirements. No government correspondence establishing this claim was supplied. Existing Yes preserved, not newly established for the entire EAA scope. Isolated language review and final recheck Supported: 'Statement link: Article 47/RGAA framework, where applicable; EAA service information may be included in general terms and conditions or an equivalent document.' Original: 'page accessibilité'; literal: accessibility page.",
+          "directive_context": "other",
+          "existing_text": "✔️ <a href=\"https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/\">Yes</a>",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [
+            "source-8b346adb958d4be97923dbf8"
+          ],
+          "id": "monitoring-d21109572a24ab904f998299"
+        },
+        {
+          "field": "statement",
+          "assertion": "A dedicated public webpage requirement for every covered EAA service: Unknown.",
+          "status": "unknown",
+          "review_note": "Retrieved EAA sources establish public information, not a universal dedicated-page format. Existing contributor Yes is not overturned by that evidence gap. Contributor asked DGCCRF this question in the 25 September 2026 12:39 follow-up; no answer appears in the supplied thread. Preserve existing Yes/RGAA distinction.",
+          "directive_context": "EAA",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [],
+          "id": "monitoring-dff2f604b7c03c28718ecf72"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Covered service providers include information explaining compliance with applicable accessibility requirements in their general terms and conditions or an equivalent document, and make it publicly available in accessible written and oral form.",
+          "status": "verified",
+          "review_note": "Source reachable. This is a public-information duty, not merely authority-on-request disclosure; no audio/video recording or standalone-page duty inferred. Statutory scope and exclusions apply. Isolated review/recheck Supported for exact assertion. Original: 'dans les clauses et conditions générales ou dans un document équivalent'; literal: in general terms and conditions or an equivalent document.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-650c3469bb4bfc3cede846c1"
+          ],
+          "id": "monitoring-6a0a517c5947c828fdf89051"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Whether oral information is supplied only upon a public request: Unknown.",
+          "status": "unknown",
+          "review_note": "Public oral availability is established, but the retrieved text does not define request-only delivery or recordings.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-ae3ac1f1c391adafb6c307ec"
+        },
+        {
+          "field": "service_information",
+          "assertion": "ACPR may request banking-service conformity information and the assessment supporting an exemption.",
+          "status": "verified",
+          "review_note": "Reachable 2026-09-24; banking scope only.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "scope": "Banking",
+          "source_refs": [
+            "source-8e8070b311c292a475815cac"
+          ],
+          "id": "monitoring-63fc7544b2593802c850ec97"
+        },
+        {
+          "field": "authority",
+          "assertion": "DGCCRF",
+          "status": "verified",
+          "review_note": "Existing guidance link reachable; long product inventory condensed. No authority removed. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   DGCCRF  — covered products and services .",
+          "directive_context": "EAA",
+          "scope": "Products and E-commerce",
+          "source_refs": [
+            "source-808028854fa26e672003b9d3"
+          ],
+          "id": "monitoring-48e01d8179cbb52a3a9be8a5"
+        },
+        {
+          "field": "authority",
+          "assertion": "DGCCRF — covered passenger-service elements",
+          "status": "verified",
+          "review_note": "Do not imply oversight of every aspect of transport or physical infrastructure. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   DGCCRF  — covered passenger-service elements .",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-a95d709106ea368686034d64"
+          ],
+          "id": "monitoring-d314d1734496284a50f15cf8"
+        },
+        {
+          "field": "authority",
+          "assertion": "ARCEP, alongside DGCCRF",
+          "status": "verified",
+          "review_note": "Existing https://www.arcep.fr/ reachable 2026-09-24. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ARCEP    DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "source_refs": [
+            "source-3e32f087cc9055433d2ebd8c"
+          ],
+          "id": "monitoring-e065c3459c4e43044ef23dd7"
+        },
+        {
+          "field": "authority",
+          "assertion": "Arcom, alongside DGCCRF",
+          "status": "verified",
+          "review_note": "Existing https://www.arcom.fr/ reachable 2026-09-24. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   Arcom    DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-2e9833190cb900ab5b7089bc"
+          ],
+          "id": "monitoring-e8a38ed6d94cb54e2064f4e3"
+        },
+        {
+          "field": "authority",
+          "assertion": "ACPR",
+          "status": "verified",
+          "review_note": "Existing https://acpr.banque-france.fr/ redirects to /fr, reachable. Own guidance identifies credit, payment-account services and electronic-money operations; not the whole financial sector. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-bbaeed0162b49e2d3e9879ba"
+          ],
+          "id": "monitoring-ebe8a162342267b07367d6a9"
+        },
+        {
+          "field": "authority",
+          "assertion": "AMF",
+          "status": "verified",
+          "review_note": "Existing https://www.amf-france.org/fr retained. Two direct attempts failed, second 403; reachability unknown, not evidence of wrong authority. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-d20d4857e580d6b909db8fa9"
+          ],
+          "id": "monitoring-bd495d893abcf5e07a38c0f4"
+        },
+        {
+          "field": "authority",
+          "assertion": "Banque de France",
+          "status": "verified",
+          "review_note": "Existing https://www.banque-france.fr/ redirects to /fr, reachable. Keep this functional remit distinct from ACPR/AMF information checks. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-6e592148d81f992d73b083ce"
+          ],
+          "id": "monitoring-09d41e9cc11c7d4c8c168741"
+        },
+        {
+          "field": "authority",
+          "assertion": "DGCCRF — coordinated checks",
+          "status": "verified",
+          "review_note": "Guidance reachable; authority retained and shared remit explicit. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   ACPR  and  AMF  — comprehensibility and complexity of consumer information, within their respective remits   Banque de France  — accessibility of identification methods, electronic signatures, and security and payment services   DGCCRF  (coordinated checks) .",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-f873ee354ba7defd293813ba"
+          ],
+          "id": "monitoring-a2b642ed45c5314227e6eaca"
+        },
+        {
+          "field": "authority",
+          "assertion": "Arcom — e-books and dedicated software",
+          "status": "verified",
+          "review_note": "Missing sector added. Separately corroborated by Ministry of Culture press release of 27 June 2025, retrieved https://www.culture.gouv.fr/presse/communiques-de-presse/l-offre-de-livres-numeriques-accessible-se-developpe-mise-en-application-d-une-directive-europeenne-le-28-juin-2025. Hardware e-readers remain in DGCCRF Products scope. French → English isolated review by /root/french_language, 2026-09-24, fork_turns=none: Supported; final wording rechecked. Original legal terms: 'dans le champ de leurs compétences respectives' / 'logiciels spécialisés'; literal: within their respective powers / specialised software. Exact proposed sector wording:   Arcom  — e-books and specialised software .",
+          "directive_context": "EAA",
+          "scope": "E-books",
+          "source_refs": [
+            "source-cde36590d34cde7b54db0e6f"
+          ],
+          "id": "monitoring-d8c9d4e45957916d84c9373d"
+        },
+        {
+          "field": "authority",
+          "assertion": "Authority responsible for accessibility of answering 112 calls: Unknown.",
+          "status": "unknown",
+          "review_note": "Emergency communication is in scope, but network-provider oversight is not treated as receiver-side oversight.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-41b589fd847381129d94912c"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "DGCCRF public accessibility reports: SignalConso.",
+          "status": "verified",
+          "review_note": "Reachable 2026-09-24, step 1 of 5. No submission. French interface; accepted other languages and later-step identification requirements unknown. This DGCCRF route is not a substitute for all sector-regulator channels. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only.",
+          "directive_context": "EAA",
+          "scope": "DGCCRF-covered products and service elements",
+          "reporting_route": {
+            "authority": "DGCCRF",
+            "sector": "DGCCRF-covered products and service elements",
+            "channel": "form",
+            "destination": "https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-61cafc3d19290a693951a524"
+          ],
+          "id": "monitoring-9ef9c2296e73c7436cd834b4"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Company non-compliance: existing DGCCRF declaration form retained.",
+          "status": "verified",
+          "review_note": "Official instructions reachable; form itself failed two retrieval attempts. Purpose verified; agent retrieval failed, subsequently reviewed by the contributor. End-to-end submission and accepted languages remain unverified. Does not replace ACPR or other sector filings. Exemptions concerns fundamental alteration/disproportionate burden (EAA Article 14); no universal microenterprise filing duty inferred. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only. Contributor browser review recorded 2026-09-24: Erik reports that the destination appears correct and identifies FranceConnect as a government identity/authentication service for accessing an online service. Together with the previously verified DGCCRF instructions establishing non-compliance and Exemptions purposes, this resolves the retained-link manual check. FranceConnect was identified as an authentication option; mandatory use, alternative login methods, foreign-user eligibility, post-login sector coverage and successful submission were not established. No submission claimed. Update 2026-09-25: Official DGCCRF reply dated 25 September 2026 (09:48 as quoted in the thread), supplied by the contributor in 'Questions about reporting for the EAA (10).eml' and read on 2026-09-25. This is direct official correspondence, distinct from the January AccessibleEU-related reply. Record factual summary only; do not publish full email, signatures or personal contact details. The official reply identifies the new destination for non-conformity/exemption declarations and confirms companies outside France may use it and attach reports in English; the platform is in French. Earlier foreign-company/language unknowns are resolved to that extent. Live reader reached the public landing page, showing the relevant economic-operator purpose, required assessment/audit reports, and FranceConnect or platform-account login options, alongside an unsupported-browser warning. No account created, sign-in, post-login fields or submission tested; mandatory authentication details and end-to-end operation remain unverified.",
+          "directive_context": "EAA",
+          "scope": "DGCCRF-covered products and service elements",
+          "reporting_route": {
+            "authority": "DGCCRF",
+            "sector": "DGCCRF-covered products and service elements",
+            "channel": "form",
+            "destination": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-a2e276ffc455e505ed902be5",
+            "source-720a70bcce8344142068002b"
+          ],
+          "id": "monitoring-2c1734f6d1e7deb3a1485a09"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Exemptions: existing DGCCRF declaration form retained.",
+          "status": "verified",
+          "review_note": "Official instructions reachable; form itself failed two retrieval attempts. Purpose verified; agent retrieval failed, subsequently reviewed by the contributor. End-to-end submission and accepted languages remain unverified. Does not replace ACPR or other sector filings. Exemptions concerns fundamental alteration/disproportionate burden (EAA Article 14); no universal microenterprise filing duty inferred. Isolated French-language review and final recheck Supported for consumer problem reports, business self-reporting of non-compliance, and Exemptions labels; the last label follows the shared user wording. Original: 'déclarer une non-conformité' / 'invoquer une exemption'; literal: declare non-compliance / invoke an exemption. Shared route is DGCCRF only. Contributor browser review recorded 2026-09-24: Erik reports that the destination appears correct and identifies FranceConnect as a government identity/authentication service for accessing an online service. Together with the previously verified DGCCRF instructions establishing non-compliance and Exemptions purposes, this resolves the retained-link manual check. FranceConnect was identified as an authentication option; mandatory use, alternative login methods, foreign-user eligibility, post-login sector coverage and successful submission were not established. No submission claimed. Update 2026-09-25: Official DGCCRF reply dated 25 September 2026 (09:48 as quoted in the thread), supplied by the contributor in 'Questions about reporting for the EAA (10).eml' and read on 2026-09-25. This is direct official correspondence, distinct from the January AccessibleEU-related reply. Record factual summary only; do not publish full email, signatures or personal contact details. The official reply identifies the new destination for non-conformity/exemption declarations and confirms companies outside France may use it and attach reports in English; the platform is in French. Earlier foreign-company/language unknowns are resolved to that extent. Live reader reached the public landing page, showing the relevant economic-operator purpose, required assessment/audit reports, and FranceConnect or platform-account login options, alongside an unsupported-browser warning. No account created, sign-in, post-login fields or submission tested; mandatory authentication details and end-to-end operation remain unverified.",
+          "directive_context": "EAA",
+          "scope": "DGCCRF-covered products and service elements",
+          "reporting_route": {
+            "authority": "DGCCRF",
+            "sector": "DGCCRF-covered products and service elements",
+            "channel": "form",
+            "destination": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-ec50744395bea467e5a7f49e",
+            "source-720a70bcce8344142068002b"
+          ],
+          "id": "monitoring-082928bd2f67d0a5c24ddab4"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "ACPR banking non-compliance and exemption instructions require a portal request after the Démarche.Numérique form.",
+          "status": "unknown",
+          "review_note": "Procedure verified, direct usable portal destination and login path not checked. Do not publish the DGCCRF form as the complete ACPR filing process; retain as a follow-up.",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-a782a21a39da67c1cb4d4d95"
+          ],
+          "id": "monitoring-466f7de5298dfa2b00a43f1a"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Sector-regulator channels beyond the verified DGCCRF route: Unknown.",
+          "status": "unknown",
+          "review_note": "ARCEP, Arcom, ACPR, AMF, Banque de France routes need separate confirmation. E-books and 112 have no established usable route in this run.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications, Audiovisual access, Banking, E-books and 112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-78246abd4105c7f74bcc4a7c"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Sector-regulator channels beyond the verified DGCCRF route: Unknown.",
+          "status": "unknown",
+          "review_note": "ARCEP, Arcom, ACPR, AMF, Banque de France routes need separate confirmation. E-books and 112 have no established usable route in this run.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications, Audiovisual access, Banking, E-books and 112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-d103a05d89ec5830c1bf907f"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "France implements the EAA through Loi 2023-171 (Article 16), décret 2023-931 and arrêté du 9 octobre 2023; sector measures also apply.",
+          "status": "verified",
+          "review_note": "All three existing official law links reachable. JORF enacted texts, not a claim of exhaustive current consolidation. E-books also have sector measures (not fully audited in this bounded run).",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-c76876e82c18edf1667a1608",
+            "source-5353197755c03afaec70eb54",
+            "source-52c1c910d50733d9b51868c8"
+          ],
+          "id": "monitoring-e777e981c007d634ed6ee3bf"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing enforcement and transition facts retained in research: checks started on 28 June 2025; compliance orders may carry daily penalties/publicity; pre-existing self-service terminals have a 15-year limit from entry into service; websites/apps are not products for the product transition.",
+          "status": "verified",
+          "review_note": "Moved detailed existing explanations out of the public table for concision. General service-contract/product transition rules to 2030 are conditional, not a universal grace period.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-b1402865687968dcb097d5a4"
+          ],
+          "id": "monitoring-8cdbaf4e747ad06684af882a"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing TPGi overview retained only as a secondary reading link.",
+          "status": "unverified_source",
+          "review_note": "Not fetched in this run; no substantive claim promoted from it. Official RGAA homepage link retained.",
+          "directive_context": "other",
+          "source_refs": [
+            "source-e465539eae345a2a8f422348"
+          ],
+          "id": "monitoring-d4474fb1f3848a34ddbb8e56"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "For the DGCCRF accessibility non-conformity/exemption declaration platform, the platform is available in French; companies based outside France can use it to submit information and attach reports in English.",
+          "status": "verified",
+          "review_note": "Official DGCCRF reply dated 25 September 2026 (09:48 as quoted in the thread), supplied by the contributor in 'Questions about reporting for the EAA (10).eml' and read on 2026-09-25. This is direct official correspondence, distinct from the January AccessibleEU-related reply. Record factual summary only; do not publish full email, signatures or personal contact details. The email is the evidence for foreign-company eligibility and English attachments; no invented public source URL is assigned to the private reply. This does not establish an English interface, English completion of every field/document, emailed submissions or routes for other authorities. Isolated no-history English fidelity review by /root/france_reply_fidelity on 2026-09-25. Original 'The platform is available in French. Companies based outside France can also use the platform to submit their information, english reports can be attached.' Literal meaning: French platform, overseas companies may submit, reports in English may be attached. Exact final table wording 'DGCCRF company declarations: the platform is in French; companies based outside France can use it and attach reports in English.' Supported in the existing accessibility declaration context; no end-to-end usability claim.",
+          "directive_context": "EAA",
+          "scope": "DGCCRF accessibility non-compliance and exemption declarations",
+          "reporting_route": {
+            "authority": "DGCCRF",
+            "sector": "DGCCRF-covered products and service elements",
+            "channel": "form",
+            "destination": "https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num",
+            "eaa_specific": true
+          },
+          "source_refs": [],
+          "id": "monitoring-3c5cb195a3ad0c0d7786f2ba"
+        }
+      ],
+      "questions": [
+        "Before PR: NARROWED — preserve existing Yes/RGAA link but explicitly distinguish Article 47 from EAA terms/equivalent-document obligations.",
+        "Before PR: RESOLVED — E-books assigned to Arcom under Article 16/Article 48; e-reader hardware remains Products.",
+        "Before PR: NARROWED — shared banking powers qualified; no claim that each body supervises all banking aspects.",
+        "Before PR: NARROWED — no unverified sector-regulator portal is promoted to a usable new reporting route.",
+        "Before merge: RESOLVED — France / existing DGCCRF company declaration link. Contributor browser review recorded 2026-09-24: Erik reports that the destination appears correct and identifies FranceConnect as a government identity/authentication service for accessing an online service. Together with the previously verified DGCCRF instructions establishing non-compliance and Exemptions purposes, this resolves the retained-link manual check. FranceConnect was identified as an authentication option; mandatory use, alternative login methods, foreign-user eligibility, post-login sector coverage and successful submission were not established. No submission claimed.",
+        "Follow-up: Establish independent EAA-specific publication requirements beyond Article 47/RGAA and obtain official clarification; AccessibleEU correspondence is now recorded separately and existing Yes preserved.",
+        "Follow-up: Verify sector-regulator complaint/company/Exemptions channels, especially the ACPR portal handoff, and accepted languages, authentication and deadlines.",
+        "Follow-up: Identify authority and routes for accessibility of answering 112 calls; complete sector-specific law/transition review.",
+        "Follow-up: Recheck AMF homepage reachability; 403 after two attempts does not invalidate its statutory remit.",
+        "Coverage: existing six authorities retained; missing E-books remit added. Products, E-commerce, Transport, Electronic communications, Audiovisual access and Banking mapped; 112 remains Unknown. Not a complete-country certification.",
+        "Baseline: merged Estonia PR22 reached main at a2a39b7cfe4d88c26beaa6e24805ccf6e8395c20. France is first table country without a merged record; no open PR or France branch at start. All agency/research information remains beneath .github; Actions deferred and events date script untouched.",
+        "Budget: one bounded research run on 2026-09-24, up to ten minutes shared with verification and isolated language review; two failed-form/AMF attempts, no submissions or correspondence.",
+        "Correspondence provenance (recorded 2026-09-24): Contributor supplied 'Question on contacting the EAA enforcement authority in France.eml'. The reply is dated 2026-01-21, following an AccessibleEU enquiry dated 2026-01-16. The contributor identifies the respondent as an AccessibleEU representative, not an official government contact. Treat substantive email claims as other_unverified / unverified_source leads, not monitoring-body confirmation. Retain only this factual summary; do not publish the raw email, signatures or personal contact details.",
+        "Correspondence summary: The AccessibleEU-related reply describes DGCCRF coordination with sector regulators and Arcom responsibility for e-books/reading software. Those remits have separate official evidence in existing claims. It also supplies an Arcom e-books contact lead; the correspondence alone does not establish an accepted complaint, company non-compliance or Exemptions route.",
+        "Follow-up: Check the correspondence's Arcom e-books contact lead against https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre before adding any route to the public table; verify intended audience and reporting purpose.",
+        "Contact status (contributor report, recorded 2026-09-24): The contributor has contacted the DGCCRF government contact again and reports no reply since 14 August 2026 (year confirmed by the contributor). The exact date of the renewed contact was not specified. This is an unanswered enquiry, not evidence of any substantive government position.",
+        "Follow-up: PARTLY RESOLVED 2026-09-25 — DGCCRF answered the company-platform and language questions: French platform; companies outside France may use it and attach English reports. The contributor's later questions on dedicated website statements, monitoring start, warnings, information about companies under monitoring, WCAG 2.2, dark-mode testing and reporting deadlines are unanswered. Do not treat the outgoing questions or Swedish comparisons as evidence of French practice.",
+        "Correspondence update 2026-09-25: the formerly unanswered DGCCRF enquiry received an official reply, recorded above. The earlier 2026-01-21 AccessibleEU-related message remains secondary provenance; it is not reclassified.",
+        "Follow-up: Post-login form fields, successful submission, precise foreign-user authentication and languages for fields/attachments other than reports remain untested. Public landing page reached 2026-09-25 but reader displayed an unsupported-browser warning. Official correspondence supports foreign-company use and English report attachments; do not require form submission as verification."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#france",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#france",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#france",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Accessibility obligations under the Consumer Code; products and services described in DGCCRF guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+              "public_text": "Accessibility obligations under the Consumer Code; products and services described in DGCCRF guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "These figures concern Consumer Code accessibility offences. Other French accessibility regimes must be identified separately.",
+              "public_text": "These amounts apply to accessibility offences under the Consumer Code.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "328d9291f945609e2168f34e3e2b437d1c451aed017eb0f820bc7a72ac01545f",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-bd296d120f024140606a2953",
+        "source-89b57e7628a1451c1e0b34af"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+        "All Monitoring agencies research, 25 September 2026: 4 September release retrieved as PDF text and linked from official press index. Local PDF download returned 403; web screenshot returned no viewable image. Plain-text figures used with exact page reference; visual PDF verification unavailable. Rail investigation covered several legal regimes; its 8% corrective/punitive figure is not labelled EAA-only. Did not re-open browser-denied Auchan court source.",
+        "Cross-page update 2026-09-25: official DGCCRF correspondence and the new declaration URL are recorded in ../../research/france.json (merged PR #51). Foreign companies may use the French platform and attach English reports; no English interface or completed submission is inferred. Enforcement page needs only the current destination link; language details remain in monitoring research."
+      ],
+      "public_entry_ids": [
+        "france-1",
+        "france-2"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Audit both existing rows, including controls, reporting routes, powers, Carrefour remedy and Auchan/notice provenance. Search queries: \"Carrefour\" \"4 juin 2026\" \"ordonnance\" pdf; \"Auchan\" \"5 mai 2026\" \"tribunal\" décision pdf",
+          "sources_checked": [
+            "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite",
+            "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso",
+            "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite",
+            "https://www.interetaagir.org/wp-content/uploads/2026/06/TJ-de-Caen-ord.-4-juin-2026_API-DV-et-DROIT-PLURIEL-c.-CARREFOUR.pdf",
+            "https://droitpluriel.fr/decision-du-tribunal-judiciaire-de-lille-le-6-mai-2026apidv-et-droit-pluriel-c-auchan-e-commerce-une-interpretation-gravement-erronee-du-droit-de-laccessibilite-numerique/",
+            "https://www.courdecassation.fr/decision/69fb8571cdc6046d47d58979",
+            "https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/",
+            "https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/"
+          ],
+          "limitations": "Carrefour original PDF retrieved and visually checked. Accessible-copy link returned Internal Error; original scan used. Auchan text reader and browser access failed; stopped after two attempts. No appeal docket or later enforcement outcome obtained. Le Figaro coverage not needed to corroborate primary/party records.",
+          "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.economie.gouv.fr accessibilité contrôles sanctions 2026 DGCCRF",
+          "sources_checked": [
+            "https://www.economie.gouv.fr/dgccrf/presse",
+            "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf"
+          ],
+          "limitations": "4 September release retrieved as PDF text and linked from official press index. Local PDF download returned 403; web screenshot returned no viewable image. Plain-text figures used with exact page reference; visual PDF verification unavailable. Rail investigation covered several legal regimes; its 8% corrective/punitive figure is not labelled EAA-only. Did not re-open browser-denied Auchan court source. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "fr-dgccrf-controls",
+          "kind": "monitoring_activity",
+          "text": "DGCCRF states that controls began on 28 June 2025, particularly following reports.",
+          "authority_or_court": "DGCCRF",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "French Consumer Code accessibility provisions implementing Directive (EU) 2019/882, identified by the guidance.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": "2025-06-28",
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "No counts, named cases or later results established. Publication date not exposed as a reliable date in retrieved text.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-c4fd43f436f5a197fda6b632"
+          ]
+        },
+        {
+          "id": "fr-dgccrf-reporting",
+          "kind": "monitoring_activity",
+          "text": "Official guidance identifies SignalConso for consumer accessibility reports and Démarches Simplifiées for professional non-compliance/exemption declarations.",
+          "authority_or_court": "DGCCRF",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "French accessibility rules implementing Directive (EU) 2019/882, as identified in the guidance.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Route availability described by authority; forms were not submitted or checked beyond the linked guidance.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive. The supplied correspondence's current destination is recorded; form operation remains untested.",
+          "source_refs": [
+            "source-995f7b9d07df75496bc76ab0",
+            "source-83b7724461402871dcde50ea",
+            "source-9f4be07b7b173ccd827cf002"
+          ]
+        },
+        {
+          "id": "fr-dgccrf-powers",
+          "kind": "monitoring_activity",
+          "text": "DGCCRF guidance describes powers to order compliance, with possible penalty payments and publicity measures.",
+          "authority_or_court": "DGCCRF",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "French Consumer Code accessibility framework described by DGCCRF.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Not evidence of an imposed penalty. The passage says astreinte but does not itself specify a daily interval; avoid expanding the general power into a daily outcome.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-c4fd43f436f5a197fda6b632"
+          ]
+        },
+        {
+          "id": "fr-carrefour-interim-order-20260604",
+          "kind": "case",
+          "text": "In an interim order dated 4 June 2026, the Tribunal judiciaire de Caen ordered Carrefour France to provide e-commerce services complying with French accessibility requirements. A €500 daily penalty applies if non-compliance continues six months after the order. The court also ordered Carrefour to pay a total of €10,000 in provisional damages to apiDV and Droit Pluriel, the costs of the proceedings, and €3,000 under article 700 of the French Code of Civil Procedure.",
+          "authority_or_court": "Tribunal judiciaire de Caen",
+          "case_identifier": "RG 25/00691",
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Consumer Code L.412-13; order of 9 October 2023; CPC Article 700.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "order_issued",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": "2026-06-04",
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Not a final appeal outcome; no evidence that the conditional penalty has accrued or been paid. Damages and Article 700 amounts are not stated as separate awards to each association. Publication date of the court document unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-838ca5c74b0973a03a4aada9"
+          ]
+        },
+        {
+          "id": "fr-carrefour-accessibility-assessment",
+          "kind": "case",
+          "text": "The court discusses Carrefour’s 71.21% assessment and rejects partial accessibility as sufficient for the e-commerce service.",
+          "authority_or_court": "Tribunal judiciaire de Caen",
+          "case_identifier": "RG 25/00691",
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Consumer Code L.412-13, as applied in this court order.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "order_issued",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": "2026-06-04",
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Reasoning in this interim case, not an independent statement that every RGAA criterion applies to every business.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-a56e4ff418e98085d4f8729b"
+          ]
+        },
+        {
+          "id": "fr-auchan-reported-dismissal-appeal",
+          "kind": "case",
+          "text": "Droit Pluriel reports a 5 May 2026 rejection of the Auchan claim and says the associations appealed to Douai, criticising the use of the older EUR250 million threshold.",
+          "authority_or_court": "Tribunal judiciaire de Lille; reported appeal to Cour d’appel de Douai",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Party account discusses Article 47 of the 2005 law and Consumer Code L.412-13; primary reasoning not independently retrieved.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "appeal_pending",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Primary court text and appeal docket unavailable in this pass; source title/body date discrepancy recorded. No current appeal status or authoritative interpretation inferred.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-2ff3547537ee9869f26367a5",
+            "source-f2467429afde5b5b60bfc3cb"
+          ]
+        },
+        {
+          "id": "fr-retailer-notices-reported",
+          "kind": "case",
+          "text": "The associations report July 2025 formal notices concerning Auchan, Carrefour, E. Leclerc and Picard Surgelés and later court actions.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Party account invoking French accessibility requirements.",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Not proof of a judgment against all four retailers. Exact notice dates vary: the Carrefour order discusses a 9 July 2025 registered letter; preserve July-level description. No new claims for Leclerc/Picard researched.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-d027851d77d05e2384fc1be8",
+            "source-1e349ed72e48d84ea038ab1f"
+          ]
+        },
+        {
+          "id": "fr-dgccrf-ecommerce-interim-september-2026",
+          "kind": "statistics",
+          "text": "E-commerce: On 4 September 2026, DGCCRF reported that it had checked more than 20 websites since the start of 2026. It planned action to correct or penalise breaches for half of the websites checked. Several platforms and retailers had committed to making their websites compliant by the end of 2026; final investigation results were expected in early 2027.",
+          "authority_or_court": "DGCCRF",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "French EAA transposition, accessibility duties described by DGCCRF",
+          "action_type": "Officially reported monitoring or complaint activity",
+          "procedural_stage": "investigation",
+          "stage_detail": "Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws.",
+          "event_on": null,
+          "published_on": "2026-09-04",
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": {
+            "as_of": "2026-09-04",
+            "period": "Start of 2026 to 4 September 2026 interim report",
+            "units": "Websites checked; separate planned establishments",
+            "counting_basis": "Authority-reported aggregates within the named source and period; no extrapolation to all businesses or cases.",
+            "overlap_note": "Do not sum differing units or overlapping categories. Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws."
+          },
+          "uncertainty": "Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws.",
+          "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass.",
+          "source_refs": [
+            "source-6fc33ac354df12a73f6ac953"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Retrieve the Auchan order and appeal docket; check whether any later Carrefour appeal or execution decision exists.",
+          "owner": "Maintainer / future authorised researcher",
+          "resolved_when": "Read primary operative terms and dated procedural status; preserve attribution to associations until then."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "france-dgccrf-20260925",
+      "country": "France",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Monitoring correspondence was already recorded; the enforcement declaration URL and research handoff merged in PR #57.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "already_present",
+          "reason": "Monitoring correspondence was already recorded; the enforcement declaration URL and research handoff merged in PR #57.",
+          "next_action": "None for this delivered change.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #57; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 57,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanctions evidence established by this item.",
+          "next_action": "None for this evidence",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    },
+    {
+      "id": "fr-dgccrf-ecommerce-interim-september-2026",
+      "country": "France",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 59,
+          "domain": "enforcement"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "schema_version": 2,
+  "country": "Finland",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-eb27c40f53d64712a8faec40": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet",
+      "accessed_on": "2026-09-24",
+      "evidence": "Chapter 3a consumer digital services must include an accessibility statement with additional service information.",
+      "section": "Saavutettavuusselosteeseen liittyvät lisävelvoitteet",
+      "source_type": "monitoring_body"
+    },
+    "source-db7d7f80e45a1cdcaee1f01f": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/tietoa-saavutettavuusselosteesta",
+      "accessed_on": "2026-09-24",
+      "evidence": "Covered websites/apps must have an easily available statement kept current.",
+      "section": "Introduction",
+      "source_type": "monitoring_body"
+    },
+    "source-cab36e6467ce6227921cdb3a": {
+      "url": "https://traficom.fi/en/tv-and-radio/accessibility-audiovisual-content/new-accessibility-requirements",
+      "accessed_on": "2026-09-24",
+      "evidence": "Traficom covers products and listed consumer services; Interior covers emergency-number answering and accessibility.",
+      "section": "Web accessibility; scope; Supervision",
+      "source_type": "monitoring_body"
+    },
+    "source-5837cf212cd6c1f9a973b1c2": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/en/obligation-notify-deficiencies-and-grounds-derogation",
+      "accessed_on": "2026-09-24",
+      "evidence": "Distinguishes non-compliance notifications and derogation notifications; links the product/service form.",
+      "section": "Reporting deficiencies and grounds for derogation",
+      "source_type": "monitoring_body"
+    },
+    "source-2ac5986b7c113c7fb1d9c006": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/en/obligation-notify-deficiencies-and-grounds-derogation",
+      "accessed_on": "2026-09-24",
+      "evidence": "Notification applies when invoking disproportionate burden or fundamental alteration.",
+      "section": "Reporting deficiencies and grounds for derogation",
+      "source_type": "monitoring_body"
+    },
+    "source-b102dbc8fe79583a09c1ecc0": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/en/submit-complaint-web-accessibility-or-request-clarification",
+      "accessed_on": "2026-09-24",
+      "evidence": "Chapter 3/3a complaints can use the linked form, email or letter; email is saavutettavuus@traficom.fi.",
+      "section": "Introduction; By email to",
+      "source_type": "monitoring_body"
+    },
+    "source-6d2ddd9cf81a398d6cab435c": {
+      "url": "https://finlex.fi/fi/lainsaadanto/2023/102",
+      "accessed_on": "2026-09-24",
+      "evidence": "Official act title/number identified; full consolidated body was not returned.",
+      "section": "Title",
+      "source_type": "legislation"
+    },
+    "source-ea8841e62dc7f054daf47043": {
+      "url": "https://finlex.fi/fi/lainsaadanto/2019/306",
+      "accessed_on": "2026-09-24",
+      "evidence": "Official act title/number identified; chapter 3a role separately supported by regulator guidance.",
+      "section": "Title",
+      "source_type": "legislation"
+    },
+    "source-7a723f25f87f31046f11386a": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet",
+      "accessed_on": "2026-09-24",
+      "evidence": "Explains digital-services chapter 3a EAA obligations.",
+      "section": "Introduction",
+      "source_type": "monitoring_body"
+    },
+    "source-4a612141514eace833d0bb5e": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/tietoa-saavutettavuusselosteesta",
+      "accessed_on": "2026-09-24",
+      "evidence": "Requires an available statement; does not establish a terms-only substitute.",
+      "section": "Introduction",
+      "source_type": "monitoring_body"
+    },
+    "source-e0774f541ab27797bad199a8": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet",
+      "accessed_on": "2026-09-24",
+      "evidence": "Requires renewing burden assessments when authority asks; this is not itself proof of a general information-submission rule.",
+      "section": "Poikkeaminen saavutettavuusvaatimuksista",
+      "source_type": "monitoring_body"
+    },
+    "source-7b5e45d6548ae677a0d31be0": {
+      "url": "https://traficom.fi/en/tv-and-radio/accessibility-audiovisual-content/new-accessibility-requirements",
+      "accessed_on": "2026-09-24",
+      "evidence": "Application begins 28 June 2025; guidance describes legacy product-use and self-service-terminal transitions.",
+      "section": "Entry into force and transition periods",
+      "source_type": "monitoring_body"
+    },
+    "source-9a1fec50503000eed2e3efd9": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body",
+      "section": "Saavutettavuusselosteeseen liittyvät lisävelvoitteet",
+      "evidence": "Requires a statement for services within the Act's scope."
+    },
+    "source-4a480a3a1aaa050131a0323d": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882",
+      "accessed_on": "2026-09-24",
+      "source_type": "legislation",
+      "section": "Article 14, especially paragraph 8",
+      "evidence": "Article 14(8) requires relevant operators relying on paragraph 1 to notify the competent authorities; microenterprises are excluded from that paragraph's notification requirement."
+    },
+    "source-c080ef069441b07336612d43": {
+      "url": "https://saavutettavuusvaatimukset.fi/en/tasks-supervisory-authority-0",
+      "label": "Traficom: tasks of the supervisory authority",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Traficom: tasks of the supervisory authority — updated 12 August 2025."
+    },
+    "source-fe88b37a41dd8ba61c63a6de": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "finland inherited public entry",
+      "passage": "Services monitoring: 23 resolved, 3 pending.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-aca07736999476208968e356": {
+      "url": "https://www.traficom.fi/en/tv-and-radio/accessibility-audiovisual-content/frequently-asked-questions-about-new-accessibility-requirements-products-and-services",
+      "source_type": "official_authority_publication",
+      "reference": "Which authority supervises accessibility?",
+      "passage": "Traficom states EAA accessibility supervision transferred to it on 1 January 2025. The FAQ does not give the inherited 9 September 2026 statistics.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-63962062879cd14ba787bf25": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "finland inherited public entry",
+      "passage": "Services complaints: 5 resolved, 5 pending.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-2034b0c1a9ce79f86e1f1ba2": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "finland inherited public entry",
+      "passage": "Products monitoring: 0 resolved, 14 pending.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-35baf18b94fe8c4020b7df45": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "finland inherited public entry",
+      "passage": "Products complaints: 0 resolved, 0 pending.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-903a03d57d2ba3da31fcf2dd": {
+      "url": "https://uutiskirje.traficom.fi/viestinta/saavutettavuus-sujuvoittaa-arjen-asiointia.html",
+      "source_type": "official_authority_publication",
+      "reference": "30 June 2026 newsletter, opening and Sanna Sinisalo quotation",
+      "passage": "English evidence summary: Traficom says newly covered consumer services are already reflected in complaints and contacts. Over the past year it emphasised stakeholder cooperation and guidance. No figures or dispositions are supplied.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "Yes: an easily available, up-to-date accessibility statement is required for covered websites and mobile apps.",
+          "status": "verified",
+          "review_note": "Preserves existing Yes. This is regulator guidance explicitly covering EAA services, not a deduction from WAD. Public statement verified; an exclusively standalone URL requirement was not established.",
+          "directive_context": "EAA",
+          "existing_text": "Yes",
+          "information_mode": "public_other",
+          "scope": "Covered consumer digital services; not a product statement requirement",
+          "source_refs": [
+            "source-eb27c40f53d64712a8faec40",
+            "source-db7d7f80e45a1cdcaee1f01f"
+          ],
+          "id": "monitoring-62fe86abd8ca62b81d3f4b6b"
+        },
+        {
+          "field": "authority",
+          "assertion": "Traficom supervises covered products and consumer services; the Ministry of the Interior supervises 112 answering and accessibility.",
+          "status": "verified",
+          "review_note": "Sector comparison: Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books -> Traficom; 112 emergency calls -> Ministry of the Interior. Banking is consumer services; transport only covered passenger-service elements; audiovisual remit concerns access services. No unrestricted sector-wide remit or all possible delegated offices claimed. Existing Traficom link reachable and redirects from /fi/traficom/esteettomyys to https://www.traficom.fi/fi/esteettomyys-ja-saavutettavuus. Interior official homepage https://intermin.fi/en/frontpage reachable. Both checked 2026-09-24. Interior was missing from the original row.",
+          "directive_context": "EAA",
+          "existing_text": "Traficom",
+          "source_refs": [
+            "source-cab36e6467ce6227921cdb3a"
+          ],
+          "id": "monitoring-949fd526bf125758d463634b"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Traficom provides a form for company non-compliance notifications.",
+          "status": "verified",
+          "review_note": "Audience: covered operators, not consumer complaints. Product manufacturers/importers/distributors included. Microenterprise service exemption applies. Direct form reachable but returned no readable controls: login and end-to-end operation unknown; no submission attempted. Official route designation verified separately from runtime usability. No numerical filing deadline established.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Traficom",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books",
+            "channel": "form",
+            "destination": "https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-5837cf212cd6c1f9a973b1c2"
+          ],
+          "id": "monitoring-e1e42447222fefb05366b7b7"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "The same Traficom form accepts notifications invoking derogation grounds.",
+          "status": "verified",
+          "review_note": "Not a general exemption application or a duty for exempt service microenterprises. Before PR: ambiguous label Exemptions narrowed to Exemptions (invoking derogation grounds); isolated language recheck Supported. User presentation decision supersedes the longer reviewed label: publish exactly 'Exemptions:'. The route remains a notification of reliance on the relevant grounds; the substantive scope is unchanged. The earlier language verdict is historical, not a recheck of this user-selected label.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Traficom",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books",
+            "channel": "form",
+            "destination": "https://eservices.traficom.fi/ContactForms/tree/poikkeamis-ja-puuteilmoitukset?langid=en",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-2ac5986b7c113c7fb1d9c006"
+          ],
+          "id": "monitoring-04c480158529926f599fed2a"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Digital-service complaints may be submitted to Traficom by form or email.",
+          "status": "verified",
+          "review_note": "The verified email provides a usable alternative to the form, which returns no readable controls in retrieval. General product/non-digital-service complaints are not covered by this evidence. Provider contact is recommended first. Two weeks concerns provider response to accessibility feedback, not a company reporting deadline. Postal alternative documented in source: Traficom, Digital Accessibility Supervision, PO Box 320, FI-00059 TRAFICOM.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Traficom",
+            "sector": "Covered digital services",
+            "channel": "email",
+            "destination": "saavutettavuus@traficom.fi",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-b102dbc8fe79583a09c1ecc0"
+          ],
+          "id": "monitoring-8b1cc6500b95b1273de6a3f8"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Product/non-digital-service complaint routes and 112 reporting routes remain unknown.",
+          "status": "unknown",
+          "review_note": "No accepted sector-specific channel established in this bounded run. Table marks Unknown; not evidence that no route exists.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-ae5f86f428d3a2230a0a400e"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing English-reporting acceptance and correspondence qualification are retained.",
+          "status": "unknown",
+          "review_note": "Existing contributor text: Reporting is accepted in English even if the official languages are Finnish and Swedish. Additional communication needs is not guaranteed to follow in English. Using the reporting tool is preferred since it is designed to gather all the needed information. No original correspondence, author or date supplied for Finland. Public English instructions/form do not independently prove acceptance of all English correspondence. Concise acceptance + qualification moved to reporting; preference/rationale retained here. No new language policy asserted.",
+          "directive_context": "EAA",
+          "existing_text": "Reporting is accepted in English even if the official languages are Finnish and Swedish. Additional communication needs is not guaranteed to follow in English. Using the reporting tool is preferred since it is designed to gather all the needed information.",
+          "source_refs": [],
+          "id": "monitoring-2d0a4e39dd94962ed14401af"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing implementing-law references retained: 102/2023 products; 306/2019 chapter 3a digital services.",
+          "status": "verified",
+          "review_note": "Both canonical URLs reachable (www.finlex.fi redirects), but extraction supplied shell/title only. Legacy full-text attempts failed; no claim of full statute verification. Retain established references, label digital-services scope precisely. Full sector transposition list and current consolidated provisions require follow-up; these two links are not presented as exhaustive.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-6d2ddd9cf81a398d6cab435c",
+            "source-ea8841e62dc7f054daf47043",
+            "source-7a723f25f87f31046f11386a"
+          ],
+          "id": "monitoring-aa80dc34300d33faf1f2d98b"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Permission to substitute terms or another public document for the statement was not established.",
+          "status": "unknown",
+          "review_note": "Unknown; do not infer permission or prohibition from silence.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-4a612141514eace833d0bb5e"
+          ],
+          "id": "monitoring-105d57e54d6ec576d6d917f3"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Public-on-request-only EAA information provision was not established.",
+          "status": "unknown",
+          "review_note": "Authority statement guidance supports publication. Alternative on-request-only compliance not established by accessible sources; full law extraction unavailable.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-5a22073b5165d6b2e70fa289"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Exact EAA information submission duties upon authority request were not established.",
+          "status": "unknown",
+          "review_note": "Do not conflate assessment renewal, notification, and authority-on-request information. Follow up in full consolidated law.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-e0774f541ab27797bad199a8"
+          ],
+          "id": "monitoring-3c83932cccec69e0c41ab9cd"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Application and transition guidance checked.",
+          "status": "verified",
+          "review_note": "Regulator guidance, not a proposal. Services/products have scope-specific transitions; no assertion that every pre-existing item was immediately non-compliant. No transition dates added to table. Detailed statute/transitional exceptions not fully audited.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-7b5e45d6548ae677a0d31be0"
+          ],
+          "id": "monitoring-9f11768ea340b41961023678"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing link audit and run limits.",
+          "status": "verified",
+          "review_note": "2026-09-24: all existing row URLs opened. Traficom, English company guidance, all public instructions, Swedish company instructions redirect to current official paths. Finnish company page returned content dated 2025-06-06 with embedded eservices form; retained rather than inventing replacement. Finlex URLs returned title/shell only. Direct notification and complaint forms reachable as shells, not interaction tested. Existing English/Finnish/Swedish resources retained in concise form; language labels describe resources, not language acceptance policy. Checked originals: https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet ; https://www.traficom.fi/fi/traficom/esteettomyys ; https://www.saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services/obligation-notify-deficiencies-and-grounds-derogation ; https://saavutettavuusvaatimukset.fi/fi/digipalvelulain-vaatimukset/ilmoitusvelvollisuus-puutteista-ja-poikkeamisperusteista/palvelujen-ja ; https://saavutettavuusvaatimukset.fi/sv/kraven-i-lagen-om-digitala-tjanster/skyldighet-att-anmala-brister-och-undantagsgrunder/anmalan-om ; https://www.saavutettavuusvaatimukset.fi/en/user-rights/submit-complaint-web-accessibility-or-request-clarification ; https://www.saavutettavuusvaatimukset.fi/fi/kayttajan-oikeudet/tee-saavutettavuuskantelu-tai-pyyda-selvitysta ; https://www.saavutettavuusvaatimukset.fi/sv/dina-rattigheter/lamna-en-tillganglighetsklagan-eller-be-om-en-utredning ; https://www.saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services/obligation-notify-deficiencies-and-grounds-derogation ; https://finlex.fi/fi/lainsaadanto/2023/102 ; https://finlex.fi/fi/lainsaadanto/2019/306. Research and verification bounded to 10 minutes, max two attempts per failing URL and two targeted follow-ups per unresolved question. Remaining questions not fully checked; preparation may continue after research. No external correspondence or forms submitted.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-6bd4b858374e8a7de2ceadde"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Isolated language-fidelity review completed for the proposed translated and meaning-sensitive wording.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "review_note": "2026-09-24; agent /root/finnish_language; fork_turns=none. Received neutral passages/URLs and candidate wording only; no research conclusions, evidence statuses, PR discussion or workflow. Finnish -> English and English paraphrase check. Comparisons: (1) Original 'tulee olla saavutettavuusseloste' -> 'must have an accessibility statement'; final 'Yes': Supported for covered digital services, not products. (2) Original 'tulee olla helposti saatavilla' -> 'must be easily available'; source also requires continuing updates; final research phrase 'An easily available, up-to-date accessibility statement is required for covered websites and mobile apps': Supported (statement-info introduction). (3) English scope/supervision source: final 'Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books: Traficom (covered products and services)': Supported with qualifier retained. (4) English source 'answering to the single European emergency number and the accessibility of the number'; initial 'answering accessibility' Ambiguous; final '112 emergency calls: Ministry of the Interior (answering and accessibility)' rechecked Supported. (5) Notification-source original 'Service providers must notify Traficom in two situations'; final 'Company non-compliance: Traficom notification form': Supported as operator self-report, covered scope. (6) Original 'invokes the ground for a derogation'; initial 'Exemptions' Ambiguous; final 'Exemptions (invoking derogation grounds): Traficom notification form' rechecked Supported. (7) Complaint-source form/email wording; final 'Public complaints (digital services): Traficom complaint form or saavutettavuus@traficom.fi': Supported. Finnish law titles retained verbatim and linguistically sound; chapter 3a faithfully renders 3 a luku. English acceptance is preserved contributor information without original-language evidence, not independently language-verified. AI comparison is not human/legal approval or proof of exhaustive authority coverage. User presentation decision supersedes the longer reviewed label: publish exactly 'Exemptions:'. The route remains a notification of reliance on the relevant grounds; the substantive scope is unchanged. The earlier language verdict is historical, not a recheck of this user-selected label.",
+          "source_refs": [
+            "source-9a1fec50503000eed2e3efd9"
+          ],
+          "id": "monitoring-41ca9f1985ab9a03bc5e7819"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "EAA Article 14 provides the shared reference for fundamental alteration and disproportionate burden; Article 14(8) addresses notification to authorities.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "review_note": "Legal reference belongs in research, not a repeated qualification of the shared Exemptions: label. It does not verify a local reporting channel or replace local implementing-law references. EUR-Lex direct HTML/PDF returned a JavaScript challenge; official EUR-Lex indexed text verified paragraph 8 including its microenterprise exception (English text in DE-EN version: https://eur-lex.europa.eu/legal-content/DE-EN/TXT/?uri=CELEX%3A32019L0882). No browser challenge bypass attempted.",
+          "source_refs": [
+            "source-4a480a3a1aaa050131a0323d"
+          ],
+          "id": "monitoring-50ae788f0c0b7713560f0ea9"
+        }
+      ],
+      "questions": [
+        "Follow-up: Finland / public complaints — find official accepted product and non-digital-service channels; confirm 112 reporting route with Interior. Owner: next researcher; resolved by sector-specific official form/email/postal acceptance.",
+        "Follow-up: Finland / language acceptance — contributor can supply dated provenance for existing English acceptance and correspondence qualification. Preserve entry until contrary official evidence.",
+        "Follow-up: Finland / forms — inspect login requirements and form controls without submission; current retrieval returned empty shells. Official instructions verify purpose, not end-to-end operation.",
+        "Follow-up: Finland / law and information modes — retrieve full consolidated texts; check sector implementing instruments, authority-on-request provisions and any permitted terms/public-on-request alternatives. Current extraction incomplete.",
+        "Before PR: Resolved by wording correction and isolated recheck: 112 (answering and accessibility); Exemptions (invoking derogation grounds). No unresolved new assertion retained. Subsequent user instruction standardizes the final label as Exemptions:; explanation retained only in research.",
+        "Before merge: None identified beyond ordinary maintainer evidence/diff review."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official guidance checked; product and other sector regimes not verified.",
+      "public_page": "EAA sanctions.md#finland",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#finland",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#finland",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Digital services supervised under the Act on the Provision of Digital Services; product sanctions are not summarised here.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The conditional-fine guidance concerns digital services under the Act on the Provision of Digital Services. Its application to each EAA service area is not yet established here.",
+              "public_text": "Digital services under the Act on the Provision of Digital Services.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Traficom describes the conditional fine as a last resort. This is a means of compelling compliance, not a fixed penalty for each defect.",
+              "public_text": "A conditional fine is a last resort to make a business comply with an order. It is not a fixed fine for each accessibility problem.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "97ffcc6a1485d1e7ff812750c0b2381b4014220892ea9a497ba47eed3281d236",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-c080ef069441b07336612d43"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+        "All Monitoring agencies research, 25 September 2026: 30 June newsletter confirms complaints/enquiries concerning newly covered consumer services, without counts/outcomes. Does not corroborate inherited September statistics."
+      ],
+      "public_entry_ids": [
+        "finland-1"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Audit all four statistics lines and maintenance dates. Search queries: site.traficom.fi saavutettavuus 2026 valvonta 23 14; site.traficom.fi saavutettavuus \"23\" \"2026\"",
+          "sources_checked": [
+            "https://www.traficom.fi/en/tv-and-radio/accessibility-audiovisual-content/frequently-asked-questions-about-new-accessibility-requirements-products-and-services"
+          ],
+          "limitations": "General competence verified as context only; no original statistics retrieved. Date updated 14 August precedes the 9 September figures; preserve both rather than invent a maintenance date.",
+          "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.traficom.fi saavutettavuus valvonta 2026 verkkokaupat",
+          "sources_checked": [
+            "https://uutiskirje.traficom.fi/viestinta/saavutettavuus-sujuvoittaa-arjen-asiointia.html"
+          ],
+          "limitations": "30 June newsletter confirms complaints/enquiries concerning newly covered consumer services, without counts/outcomes. Does not corroborate inherited September statistics. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "fi-inherited-services-monitoring",
+          "kind": "statistics",
+          "text": "Services monitoring: 23 resolved, 3 pending.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-09",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Reported monitoring or complaint cases; original unit definition not supplied",
+            "counting_basis": "Inherited public entry; source/date basis not independently established.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Resolved does not necessarily mean compliant. Services scope and overlap between complaints and monitoring are unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-fe88b37a41dd8ba61c63a6de",
+            "source-aca07736999476208968e356"
+          ]
+        },
+        {
+          "id": "fi-inherited-services-complaints",
+          "kind": "statistics",
+          "text": "Services complaints: 5 resolved, 5 pending.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-09",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Reported monitoring or complaint cases; original unit definition not supplied",
+            "counting_basis": "Inherited public entry; source/date basis not independently established.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Resolved does not necessarily mean compliant. Services scope and overlap between complaints and monitoring are unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-63962062879cd14ba787bf25",
+            "source-aca07736999476208968e356"
+          ]
+        },
+        {
+          "id": "fi-inherited-products-monitoring",
+          "kind": "statistics",
+          "text": "Products monitoring: 0 resolved, 14 pending.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-09",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Reported monitoring or complaint cases; original unit definition not supplied",
+            "counting_basis": "Inherited public entry; source/date basis not independently established.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Resolved does not necessarily mean compliant. Services scope and overlap between complaints and monitoring are unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-2034b0c1a9ce79f86e1f1ba2",
+            "source-aca07736999476208968e356"
+          ]
+        },
+        {
+          "id": "fi-inherited-products-complaints",
+          "kind": "statistics",
+          "text": "Products complaints: 0 resolved, 0 pending.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-09",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Reported monitoring or complaint cases; original unit definition not supplied",
+            "counting_basis": "Inherited public entry; source/date basis not independently established.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Resolved does not necessarily mean compliant. Services scope and overlap between complaints and monitoring are unknown.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-35baf18b94fe8c4020b7df45",
+            "source-aca07736999476208968e356"
+          ]
+        },
+        {
+          "id": "fi-consumer-service-complaints-june-2026",
+          "kind": "monitoring_activity",
+          "text": "On 30 June 2026, Traficom reported that it had already received complaints and enquiries concerning consumer services newly covered by the Finnish Act on the Provision of Digital Services. The publication does not state how many complaints or enquiries it received or give any case outcomes.",
+          "authority_or_court": "Traficom",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Finnish Act on the Provision of Digital Services, consumer-service accessibility provisions",
+          "action_type": "Officially reported monitoring or complaint activity",
+          "procedural_stage": "complaint_lodged",
+          "stage_detail": "No sector breakdown, complaint count, confirmed breach or final case outcome supplied.",
+          "event_on": null,
+          "published_on": "2026-06-30",
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "No sector breakdown, complaint count, confirmed breach or final case outcome supplied.",
+          "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass.",
+          "source_refs": [
+            "source-903a03d57d2ba3da31fcf2dd"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Provide the 9 September statistics source and explain the 14 August Date updated value.",
+          "owner": "Maintainer / future authorised researcher",
+          "resolved_when": "Confirm authority, definitions, measurement period and intended maintenance-date convention before editing."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "fi-consumer-service-complaints-june-2026",
+      "country": "Finland",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 59,
+          "domain": "enforcement"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

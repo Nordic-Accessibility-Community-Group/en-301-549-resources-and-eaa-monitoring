@@ -1,0 +1,60 @@
+{
+  "source_commit": "bb909efb8cb1816f75cee338e06589a8abc7b012",
+  "reason": "Pre-existing monitoring schema violations preserved without factual edits. Applies only to exact original claim fingerprints and errors; not new claims or changed wording.",
+  "exceptions": [
+    {
+      "country": "Greece",
+      "claim_id": "monitoring-723e644f535de26c6abb764d",
+      "claim_sha256": "5a02c4a561c2e794c6d517ca57483eb22323da30f6accd9dac4ea05c1c4b55c4",
+      "relative_path": [],
+      "validator": "required",
+      "message": "'reporting_route' is a required property"
+    },
+    {
+      "country": "Poland",
+      "claim_id": "monitoring-4ccabff107533e1129db8357",
+      "claim_sha256": "7acb4b5a31ed8db9b5f393282b884decfb4399ddd4231d4aec6cbc027711016b",
+      "relative_path": [],
+      "validator": "required",
+      "message": "'reporting_route' is a required property"
+    },
+    {
+      "country": "Romania",
+      "claim_id": "monitoring-60a1db08bda11de7ebe6a1ff",
+      "claim_sha256": "6baf0397adf1262cd8776ef82b447200e25bce2dfbc4a09d0ca8f9d53a7aa2bc",
+      "relative_path": [],
+      "validator": "required",
+      "message": "'reporting_route' is a required property"
+    },
+    {
+      "country": "Slovenia",
+      "claim_id": "monitoring-22e4100ba9efdd1db4317a44",
+      "claim_sha256": "807fdd96f8c33ba2e723cb1b98eb4af965b44854c41c88b2f77ef843113eb324",
+      "relative_path": [
+        "sources",
+        0
+      ],
+      "validator": "additionalProperties",
+      "message": "Additional properties are not allowed ('accessed', 'evidence_type', 'locator', 'publisher', 'title' were unexpected)"
+    },
+    {
+      "country": "Slovenia",
+      "claim_id": "monitoring-22e4100ba9efdd1db4317a44",
+      "claim_sha256": "807fdd96f8c33ba2e723cb1b98eb4af965b44854c41c88b2f77ef843113eb324",
+      "relative_path": [
+        "sources",
+        0
+      ],
+      "validator": "required",
+      "message": "'accessed_on' is a required property"
+    },
+    {
+      "country": "Slovenia",
+      "claim_id": "monitoring-afc690a82e96aea773341da6",
+      "claim_sha256": "133d565273ca4d4ef499ae8f0c27d887d8e7ed7617834e646206a978500b411c",
+      "relative_path": [],
+      "validator": "required",
+      "message": "'reporting_route' is a required property"
+    }
+  ]
+}

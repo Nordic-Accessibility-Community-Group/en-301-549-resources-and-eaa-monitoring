@@ -1,0 +1,573 @@
+{
+  "schema_version": 2,
+  "country": "Latvia",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-eab127b3a9c6ee1688de915d": {
+      "url": "https://www.ptac.gov.lv/lv/pieklustamibas-prasibas-pakalpojumiem",
+      "evidence": "Guidance places compliance information in terms or an equivalent document on the website.",
+      "section": "Service provider information",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-4be227ca416b48139c957ff1": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Section12(2),(4): terms or equivalent document and accessible public availability.",
+      "section": "12(2),(4)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-5529ab019cb509ed79286941": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Section18(4).",
+      "section": "18(4)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-28b1977195cf17d8255c84c0": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Section12(7).",
+      "section": "12(7)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-48f18108871e8792a89ed7b0": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to PTAC.",
+      "section": "18(1),22(6)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-5916f0768f20fabb4e4585c9": {
+      "url": "https://www.ptac.gov.lv/en/contacts",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "18(1),22(6)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-94e18e40e513f77b38682c38": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to SPRK.",
+      "section": "22(1)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-74e5139b4ee7cf4b7593a7c3": {
+      "url": "https://www.sprk.gov.lv/en/contacts",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(1)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-d829b821995874ddef247266": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to NEPLP.",
+      "section": "22(2)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-ba1c1344c0379f84fd810df3": {
+      "url": "https://www.neplp.lv/en/contacts",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(2)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-6093466444df659b2102e107": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to PTAC.",
+      "section": "22(6)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-57d92d9340b8516ddd0d06f4": {
+      "url": "https://www.ptac.gov.lv/en/contacts",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(6)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-c93aee475956e7ba07211bb3": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to CAA.",
+      "section": "22(3)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-14e80cf7819aee29abd0a76f": {
+      "url": "https://www.caa.gov.lv/en/contacts-authority",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(3)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-19c8060d8e9566f83909b030": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to ATD.",
+      "section": "22(4)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-870d12b7e30e1f7987192ca4": {
+      "url": "https://www.atd.lv/en/road-transport-administration",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(4)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-c4a52734872bde2c235fc942": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to VDA.",
+      "section": "22(5)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-261f9aea537c2db770d49e53": {
+      "url": "https://www.vda.gov.lv/en/contacts-authority",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(5)",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-c078d408d784c62427b155e6": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Statutory allocation to Municipalities.",
+      "section": "22(7)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-3b1d3f5f1430705a3193027f": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Official agency website; municipalities are a statutory authority class.",
+      "section": "22(7)",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-93fd495eb0c98674ebe05ed1": {
+      "url": "https://www.ptac.gov.lv/en/contacts",
+      "evidence": "Published institutional mailbox.",
+      "section": "",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-d9bee2d71f8e45e94e404f0d": {
+      "url": "https://www.ptac.gov.lv/lv/sazinai-ar-ptac",
+      "evidence": "Provider-first; fallback signed postal application when e-form unavailable. Electronic submissions need secure signature and timestamp.",
+      "section": "Submission options",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-ab140b1a8f42659813dd07a8": {
+      "url": "https://likumi.lv/ta/id/340554",
+      "evidence": "Enacted16March2023; effective28June2025; consolidated text selected5June2026. Sections13–14 and transitional provisions.",
+      "section": "Status,13–14,transitions",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-b1e454b113a4125728bc2a97": {
+      "url": "https://likumi.lv/ta/id/350121-precu-un-pakalpojumu-pieklustamibas-prasibas",
+      "evidence": "Accessibility requirements, Cabinet Regulation128.",
+      "section": "Title",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-24"
+    },
+    "source-49828a30a47cc094a302fce9": {
+      "url": "https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums",
+      "label": "Preču un pakalpojumu piekļūstamības likums",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Preču un pakalpojumu piekļūstamības likums."
+    },
+    "source-0ab1f7a689ec10995e5e9d90": {
+      "url": "https://likumi.lv/ta/id/55567-administrativa-procesa-likums",
+      "label": "Administrative Procedure Law, § 370",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Administrative Procedure Law, § 370."
+    },
+    "source-87c52bebd8239e08068b87b6": {
+      "url": "https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy",
+      "label": "Ministry of Welfare: Accessibility Directive",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Ministry of Welfare: Accessibility Directive — existing background link; retrieval unsuccessful."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "additional_information",
+          "assertion": "Baseline Latvia entry retained as audit provenance.",
+          "status": "verified",
+          "review_note": "Original contributor content; full row preserved here for traceability. Public table shortened without erasing correspondence-based findings. Isolated language check /root/latvian_language, no history fork, 24September2026: Latvian to English and meaning-sensitive English correspondence paraphrases. Comparison: 'elektronisko sakaru pakalpojumiem' = electronic communications services -> SPRK; 'pakalpojumiem, kas nodrošina piekļuvi audiovizuāliem elektronisko plašsaziņas līdzekļu pakalpojumiem' = services providing audiovisual-media access -> NEPLP. 'autobusu un iekšzemes dzelzceļa pasažieru pārvadājumu pakalpojumiem' = bus and domestic rail passenger services -> ATD. 'elektroniskajām grāmatām un to programmatūru' = e-books and their software -> PTAC. 'elektroniskās biļetes un elektroniskās biļešu pārdošanas pakalpojumi' = electronic tickets and electronic ticket sales services -> PTAC air scope. Final VDA phrase 'qualifying international rail passenger services (law, section22, point5)' preserves statutory conditions. Municipalities phrase 'interactive self-service terminals for city buses, trams and trolleybuses' matches source. Initial reviewer requested removing unprovided consumer qualification, preserving 'their' and second 'electronic'; final corrected wording rechecked Supported. Banking is organizational label; actual scope says financial services. Exact reviewed table retained in subsequent review_note. Final publication row: <tr>\n    <td>Latvia</td>\n    <td> ✔️ <a href=\"https://likumi.lv/ta/id/340554\">Yes</a></td>\n    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li><a href=\"https://www.ptac.gov.lv/en/contacts\">Consumer Rights Protection Centre (PTAC)</a> — covered products and financial services; e-books and their software; e-commerce.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href=\"https://www.sprk.gov.lv/en/contacts\">Public Utilities Commission (SPRK)</a> — electronic communications services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href=\"https://www.neplp.lv/en/contacts\">National Electronic Mass Media Council (NEPLP)</a> — services providing access to audiovisual media services.</li></ul><p><strong>Transport:</strong></p><ul><li><a href=\"https://www.ptac.gov.lv/en/contacts\">Consumer Rights Protection Centre (PTAC)</a> — water passenger services; air electronic tickets and electronic ticket sales services.</li><li><a href=\"https://www.caa.gov.lv/en/contacts-authority\">Civil Aviation Agency (CAA)</a> — other covered air-passenger service elements.</li><li><a href=\"https://www.atd.lv/en/road-transport-administration\">Road Transport Administration (ATD)</a> — bus and domestic rail passenger services.</li><li><a href=\"https://www.vda.gov.lv/en/contacts-authority\">State Railway Administration (VDA)</a> — qualifying international rail passenger services (law, section 22, point 5).</li><li><a href=\"https://likumi.lv/ta/id/340554\">Municipalities</a> — interactive self-service terminals for city buses, trams and trolleybuses.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>\n    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company non-compliance (including recalls): PTAC — <a href=\"mailto:pasts@ptac.gov.lv\">pasts@ptac.gov.lv</a>. English or Latvian.</li><li>Exemptions: PTAC — same email.</li><li>Public complaints: <a href=\"https://www.ptac.gov.lv/lv/sazinai-ar-ptac\">PTAC instructions</a> (first submit a written claim to the seller/provider; if unresolved, contact PTAC. If the e-form is unavailable or not working, send a signed submission by post to Talejas iela 1, Rīga, LV-1026).</li></ul><p><strong>Electronic communications:</strong></p><ul><li>SPRK reporting channels: ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>NEPLP reporting channels: ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>Water passenger services; air electronic tickets and electronic ticket sales services — PTAC company non-compliance: <a href=\"mailto:pasts@ptac.gov.lv\">pasts@ptac.gov.lv</a>. English or Latvian. Exemptions: same email.</li><li>CAA, ATD, VDA and municipality reporting channels: ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Reporting channels: ❓ Unknown.</li></ul></td>\n    <td><p>⚖️ EAA implementing law: <a href=\"https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums\">Preču un pakalpojumu piekļūstamības likums</a>.</p><p><a href=\"https://likumi.lv/ta/id/350121-precu-un-pakalpojumu-pieklustamibas-prasibas\">Accessibility requirements (Regulation No. 128)</a>.</p></td>\n  </tr>",
+          "directive_context": "EAA",
+          "existing_text": "<tr>\n    <td>Latvia</td>\n    <td> ✔️ <a href=\"https://likumi.lv/ta/id/340554\">Yes</a></td>\n    <td><ul><li>All EAA products and most of services  (financial services, e-books, e-commerce, water transport): <a href=\"https://www.ptac.gov.lv/en/contacts\">Consumer Rights Protection Centre (PTAC)</a></li><li>Electronic communications: <a href=\"https://www.sprk.gov.lv/en/contacts\">Public Utilities Commission(SPRK)</a></li><li>Access to audiovisual media services: <a href=\"https://www.neplp.lv/en/contacts\">National Electronic Mass Media Council (NEPLP)</a></li><li>Specific elements of air passenger services: <a href=\"https://www.caa.gov.lv/en/contacts\">Civil Aviation Agency (CAA)</a></li><li>Bus and domestic rail services: <a href=\"https://www.atd.lv/en/road-transport-administration\">State Ltd. Road Transport Administration (ATD)</a></li><li>International rail services: <a href=\"https://www.vda.gov.lv/en/contacts-authority\">State Railway Administration (VDA)</a></li><li>Self-service terminals used in public transport like buses, trams, and trolleybuses: Municipalities</li></ul></td>\n    <td>For CRPC via e-mail <a href=\"mailto:pasts@ptac.gov.lv\">pasts@ptac.gov.lv</a> you can report about exemptions, non-compliances (also recalls) in 🇬🇧 English or 🇱🇻 Latvian.</td>\n    <td>National legal acts:\n\t\t<ul>\n\t\t\t<li><a href=\"https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums\">Preču un pakalpojumu piekļūstamības likums</a></li>\n\t\t\t<li><a href=\"https://likumi.lv/ta/id/350121-precu-un-pakalpojumu-pieklustamibas-prasibas\">Preču un pakalpojumu piekļūstamības prasības</a></li>\n\t\t</ul>\nThese documents have not been officially translated to English by the <a href=\"https://www.vvc.gov.lv/lv\">State Language Centre</a>.\n\n<p>Reporting may be accepted in English even if the official language is Latvian. In some cases, documentation translation to Latvian may still be needed, especially for public usage.</p><p>⚖️ EAA implementing law: <a href=\"https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums\">Preču un pakalpojumu piekļūstamības likums</a>.</p></td>\n  </tr>",
+          "source_refs": [],
+          "id": "monitoring-f4f5a6e487758c74d6788e9b"
+        },
+        {
+          "field": "statement",
+          "assertion": "Yes: PTAC says service compliance information must be published on the company website; it distinguishes this from the WAD statement.",
+          "status": "verified",
+          "review_note": "Official correspondence inspected: attached '17.02.2026 23_54 Re_ Automatic reply_ Questions about reporting for the EAA.eml', actual latest email dated 16 July 2026 from PTAC lead expert, relaying service colleagues' answers. Not dated February merely because the subject includes that date. Existing Yes expressly supported; no separate-page template mandated by this evidence. Language review original English: 'must be published on the company’s website'; surrounding Article13/AnnexV service-information context supplied. Literal English unchanged. Final assertion rechecked Supported, including WAD distinction.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-eab127b3a9c6ee1688de915d"
+          ],
+          "id": "monitoring-2bfdfb3e2306d2a07e189f6f"
+        },
+        {
+          "field": "service_information",
+          "assertion": "A separately titled standalone page is not established; website publication of service compliance information is confirmed.",
+          "status": "unknown",
+          "review_note": "Distinguish dedicated page format from comparable public information. Preserve Yes with the July official answer.",
+          "directive_context": "EAA",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [],
+          "id": "monitoring-44cd5477b7f5cce78234a73c"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Compliance information is public in accessible formats throughout service provision.",
+          "status": "verified",
+          "review_note": "Enacted EAA duty; not merely information upon request.",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-4be227ca416b48139c957ff1"
+          ],
+          "id": "monitoring-3d699b2ec1a48563b2b84824"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Public access on request to authority-held product compliance information is subject to confidentiality.",
+          "status": "verified",
+          "review_note": "Separate from service provider publication.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [
+            "source-5529ab019cb509ed79286941"
+          ],
+          "id": "monitoring-7b987b7173ccc98db267116c"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service providers supply compliance information on a reasoned authority request.",
+          "status": "verified",
+          "review_note": "Not a substitute for public information.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-28b1977195cf17d8255c84c0"
+          ],
+          "id": "monitoring-9b87b0d5eea9e86cffcc8d83"
+        },
+        {
+          "field": "authority",
+          "assertion": "PTAC — covered products and financial services; e-books and their software; e-commerce",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce, Banking and E-books",
+          "source_refs": [
+            "source-48f18108871e8792a89ed7b0",
+            "source-5916f0768f20fabb4e4585c9"
+          ],
+          "id": "monitoring-3bd1dfbd5d852153a12de793"
+        },
+        {
+          "field": "authority",
+          "assertion": "SPRK — electronic communications services",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "source_refs": [
+            "source-94e18e40e513f77b38682c38",
+            "source-74e5139b4ee7cf4b7593a7c3"
+          ],
+          "id": "monitoring-25265eefe733e89fa0c4c3d7"
+        },
+        {
+          "field": "authority",
+          "assertion": "NEPLP — services providing access to audiovisual media services",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-d829b821995874ddef247266",
+            "source-ba1c1344c0379f84fd810df3"
+          ],
+          "id": "monitoring-6a34b0236e3d95c790399be9"
+        },
+        {
+          "field": "authority",
+          "assertion": "PTAC — water passenger services; air electronic tickets and electronic ticket sales services",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-6093466444df659b2102e107",
+            "source-57d92d9340b8516ddd0d06f4"
+          ],
+          "id": "monitoring-c33dce0e6becaaa56eed2e7e"
+        },
+        {
+          "field": "authority",
+          "assertion": "CAA — other covered air-passenger service elements",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-c93aee475956e7ba07211bb3",
+            "source-14e80cf7819aee29abd0a76f"
+          ],
+          "id": "monitoring-3761bc4a63be86109043f8f5"
+        },
+        {
+          "field": "authority",
+          "assertion": "ATD — bus and domestic rail passenger services",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-19c8060d8e9566f83909b030",
+            "source-870d12b7e30e1f7987192ca4"
+          ],
+          "id": "monitoring-3bbc99957cd8c15802231b3a"
+        },
+        {
+          "field": "authority",
+          "assertion": "VDA — qualifying international rail passenger services (law, section 22, point 5)",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-c4a52734872bde2c235fc942",
+            "source-261f9aea537c2db770d49e53"
+          ],
+          "id": "monitoring-bb3d629809117811ac74bcc8"
+        },
+        {
+          "field": "authority",
+          "assertion": "Municipalities — interactive self-service terminals for city buses, trams and trolleybuses",
+          "status": "verified",
+          "review_note": "Checked 24 September 2026: reachable. Remit checked separately against law. CAA original /en/contacts redirects to /en/contacts-authority. Municipality link is to the legal allocation, not a identified local office. VDA scope retains statutory cross-border qualifications.",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-c078d408d784c62427b155e6",
+            "source-3b1d3f5f1430705a3193027f"
+          ],
+          "id": "monitoring-7cb6ae8286f9f4b17499df2e"
+        },
+        {
+          "field": "authority",
+          "assertion": "112 emergency-call oversight and individual municipal offices remain unknown.",
+          "status": "unknown",
+          "review_note": "Authority map covers section22 but is not certified exhaustive. 112 implementation date in transitional provision5 is 28June2027; responsible office not resolved.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-0d9069c82abd2fa2a14d2331"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Company non-compliance (including recalls): PTAC accepts email reports in English or Latvian.",
+          "status": "verified",
+          "review_note": "Official correspondence 28 May 2026, inspected in the July email thread: expressly confirms purpose, mailbox and both languages. No portal login for email; signature requirements for company reports not specified. General public-complaint requirements must not automatically be transferred to company notifications. Language comparison: source 'you can report about exemptions, non-compliances (also recalls) in English or Latvian'; final 'Company non-compliance (including recalls): PTAC — pasts@ptac.gov.lv. English or Latvian. Exemptions: PTAC — same email.' Supported after supplying original company questions; no inference of exemption approval.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "PTAC",
+            "sector": "PTAC-covered products and services",
+            "channel": "email",
+            "destination": "pasts@ptac.gov.lv",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-93fd495eb0c98674ebe05ed1"
+          ],
+          "id": "monitoring-b3351bf178010b5cabd0852f"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Exemptions: PTAC accepts email reports in English or Latvian.",
+          "status": "verified",
+          "review_note": "Official correspondence 28 May 2026, inspected in the July email thread: expressly confirms purpose, mailbox and both languages. No portal login for email; signature requirements for company reports not specified. General public-complaint requirements must not automatically be transferred to company notifications. Language comparison: source 'you can report about exemptions, non-compliances (also recalls) in English or Latvian'; final 'Company non-compliance (including recalls): PTAC — pasts@ptac.gov.lv. English or Latvian. Exemptions: PTAC — same email.' Supported after supplying original company questions; no inference of exemption approval.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "PTAC",
+            "sector": "PTAC-covered products and services",
+            "channel": "email",
+            "destination": "pasts@ptac.gov.lv",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-93fd495eb0c98674ebe05ed1"
+          ],
+          "id": "monitoring-2c01da3a49ba53333a652b5f"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "PTAC consumer complaints may be submitted by signed post when its e-form is unavailable.",
+          "status": "verified",
+          "review_note": "General route, not EAA-specific form. Research-only to avoid longer public table. PTAC EAA page separately explains consumer complaints. Language acceptance for consumer complaints not established. E-form authentication requires qualifying electronic identity. Isolated Latvian language review: 'rakstveida prasību' = written claim; 'Ja vienošanos tomēr neizdodas panākt' = if agreement cannot be reached; 'Ja nav pieejama e-forma vai tā nedarbojas' = if e-form unavailable/not working; 'Nosūtot parakstītu iesniegumu pa pastu' = send signed submission by post. Initial wording corrected to preserve written/provider-first and unresolved prerequisites. Final wording: Public complaints: PTAC instructions (first submit a written claim to the seller/provider; if unresolved, contact PTAC. If the e-form is unavailable or not working, send a signed submission by post to Talejas iela 1, Rīga, LV-1026). Final corrected passage rechecked Supported by /root/latvian_language,24September2026.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "PTAC",
+            "sector": "PTAC-covered products and services",
+            "channel": "postal_or_in_person",
+            "destination": "Talejas iela 1, Rīga, LV-1026",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-d9bee2d71f8e45e94e404f0d"
+          ],
+          "id": "monitoring-194a0ae837d541362d6e9436"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "SPRK, NEPLP, CAA, ATD, VDA and municipal reporting routes require further verification.",
+          "status": "unknown",
+          "review_note": "Contact-page reachability does not verify acceptance of each reporting type. SPRK complaint page follow-up failed; NEPLP publishes exemption materials but submission destination not verified. Public table labels channels Unknown.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-e5e152a708d1d456769b4762"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "SPRK, NEPLP, CAA, ATD, VDA and municipal reporting routes require further verification.",
+          "status": "unknown",
+          "review_note": "Contact-page reachability does not verify acceptance of each reporting type. SPRK complaint page follow-up failed; NEPLP publishes exemption materials but submission destination not verified. Public table labels channels Unknown.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-7e64bd00af4da2470d40785b"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Latvian implementing law and Cabinet Regulation No.128 apply; transitions and exceptions limit scope.",
+          "status": "verified",
+          "review_note": "Some pre-existing contracts/products have transitions; used terminals may continue subject to20year maximum. Exemptions label refers to EAA Article14/local sections13–14; notification is not universal and microenterprise distinctions apply. No blanket deadline published.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-ab140b1a8f42659813dd07a8",
+            "source-b1e454b113a4125728bc2a97"
+          ],
+          "id": "monitoring-439b34e8b0f7c434fc022dba"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "PTAC monitoring answers describe the position on 16 July 2026.",
+          "status": "verified",
+          "review_note": "User-supplied official email: monitoring had started; no warnings yet, but advisory letters to large e-commerce providers; monitored-company identities not disclosed; testing referenced EAA requirements without specific WCAG versions/success criteria; dark mode not then used. No specific reporting time window set in that answer. This does not negate section12(6)'s immediate notification duty; do not publish 'no deadline'. Historical answers, not fresh September status.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-1d440679eee9e83740971de5"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Correspondence history and contact provenance are available.",
+          "status": "verified",
+          "review_note": "PDF e_pasts_Axesslab.pdf contains contributor reminder17February2026 quoting7November2025 automatic acknowledgement, not substantive guidance. PTAC replies18March,27April,28May and16July2026 resolve that earlier unanswered status. Functional official communication email pasts@ptac.gov.lv is confirmed; no 'missing official email' claim. May answer notes Latvian translations may be needed, especially public documents; official English translations were then unavailable. Keep these dated qualifications in research.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-0e17e4d7a1a4998a0eb9cf11"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Forwarded joint-action email is context for future product cooperation, not a reporting route.",
+          "status": "verified",
+          "review_note": "Attached Joint Action Compliance on Product project in2027 email20April2026, forwarded by PTAC27April: Dutch authority representative reports acceptance into JACOP2027 and initiative involving Denmark, France, Latvia, Netherlands, Poland, Sweden; proposed products e-readers, payment terminals, smartphones could change. Do not infer delivered2027 activity, service remit or accepted channels. Recipient list and raw attachments not published.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-589263d0eb6158950aef0b5b"
+        }
+      ],
+      "questions": [
+        "Before PR: Dedicated-page inference avoided; retain Yes with public website-information evidence and explicit WAD distinction.",
+        "Before PR: Unverified sector reporting destinations omitted; Unknown shown instead. No specific manual accuracy blocker remains for narrowed additions.",
+        "Follow-up: Verify public/company/exemption channels, accepted languages, authentication and deadlines for SPRK, NEPLP, CAA, ATD, VDA and municipalities; do not use general contacts as reporting routes without confirmation.",
+        "Research task: Identify responsible112 office and named municipal offices; PTAC suggested the regional-development ministry functional mailbox for municipal-contact enquiries, not reporting.",
+        "Follow-up: Confirm company-email signature requirements and reconcile any current operational timing guidance with immediate statutory notification; July answer only rules out a specified numeric window.",
+        "Follow-up: Verify whether official English translations now exist; May correspondence is historical.",
+        "Follow-up: Monitoring methods and JACOP2027 are dated correspondence, not independently updated September findings.",
+        "Follow-up: Shared ten-minute research/verification budget reached; remaining channel, translation and complete112 checks not completed. Preparation proceeds with narrowed claims."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#latvia",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#latvia",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#latvia",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Service providers subject to corrective orders under the Accessibility of Goods and Services Law.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The listed compulsory payments enforce service-provider corrective orders. Their application to each EAA service area is not yet established here.",
+              "public_text": "Service providers subject to corrective orders under the Accessibility of Goods and Services Law.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "The compulsory payment enforces an order; it is not a general fine for every accessibility defect. Product and sector-specific penalty regimes are not summarised.",
+              "public_text": "The payment is used to enforce an order to correct a service. It is not a fine for each accessibility problem.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "bca3094c7db85a9e954c989007b78a1e658e74e771017947e2d99cd16f104361",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-49828a30a47cc094a302fce9",
+        "source-0ab1f7a689ec10995e5e9d90",
+        "source-87c52bebd8239e08068b87b6"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Annual report 2025 text retrieved(47 pages); targeted accessibility-term searches returned no match. Register results concern unfair practices and access blocking, not disability-accessibility cases. Download failed HTTP/2. Text extraction/search limitations prevent a national negative finding; no EAA-specific claim promoted."
+      ],
+      "public_entry_ids": [],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.ptac.gov.lv piekļūstamība pārbaudes 2026; site.ptac.gov.lv piekļūstamības 2026 pārbaudes",
+          "sources_checked": [
+            "https://www.ptac.gov.lv/lv/media/6593/download?attachment=",
+            "https://registri.ptac.gov.lv/register/ptac-decisions"
+          ],
+          "limitations": "Annual report 2025 text retrieved(47 pages); targeted accessibility-term searches returned no match. Register results concern unfair practices and access blocking, not disability-accessibility cases. Download failed HTTP/2. Text extraction/search limitations prevent a national negative finding; no EAA-specific claim promoted. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": []
+}

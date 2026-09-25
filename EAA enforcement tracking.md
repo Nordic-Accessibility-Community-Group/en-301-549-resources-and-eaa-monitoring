@@ -75,7 +75,7 @@ Type can be:
       <ul>
         <li>TTJA (CPTRA) reports active monitoring of e-commerce, services providing access to audiovisual media services, and financial services.</li>
         <li>It has contacted service providers about identified accessibility concerns. These service providers have submitted corrective-action plans.</li>
-        <li>Source: official TTJA (CPTRA) correspondence, 25 September 2026 (<a href=".github/agents/enforcement/research/estonia.json">research record</a>).</li>
+        <li>Source: official TTJA (CPTRA) correspondence, 25 September 2026 (<a href=".github/agents/research/countries/estonia.json">research record</a>).</li>
       </ul>
     </td>
     <td>2026-09-25</td>

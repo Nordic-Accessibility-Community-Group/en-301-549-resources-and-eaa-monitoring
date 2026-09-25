@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "country": "United Kingdom",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-232741d27ea5e8c956c0fe31": {
+      "url": "https://www.gov.uk/government/publications/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024",
+      "source_type": "official_authority_publication",
+      "reference": "17 December 2024 report, executive summary and section 9.3",
+      "passage": "English evidence summary: January 2022–September 2024 monitoring covered 1203 websites and 21 apps. Since 1 January 2022 EHRC sent initial letters to 93 bodies inEngland/Wales; compliance secured with 66 without enforcement and remaining matters ongoing.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    }
+  },
+  "domains": {
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "non-EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+        "All Monitoring agencies research, 25 September 2026: Read GDS report coveringJanuary 2022–September 2024, especially executive summary and 9.3. Clearly older UKpublic-sector regime, not currentEAA statistics. Initialletter figures forEngland/Wales are not UK-wide totals or imposed penalties; private-sector litigation not exhausted."
+      ],
+      "public_entry_ids": [
+        "united-kingdom-monitoring-2026"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.equalityhumanrights.com website accessibility enforcement 2026",
+          "sources_checked": [
+            "https://www.gov.uk/government/publications/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024"
+          ],
+          "limitations": "Read GDS report coveringJanuary 2022–September 2024, especially executive summary and 9.3. Clearly older UKpublic-sector regime, not currentEAA statistics. Initialletter figures forEngland/Wales are not UK-wide totals or imposed penalties; private-sector litigation not exhausted. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "uk-gds-ehrc-monitoring-2022-2024",
+          "kind": "statistics",
+          "text": "The Government Digital Service’s report published on 17 December 2024 covers monitoring from January 2022 to September 2024 under the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. It reports testing 1,203 websites and 21 mobile apps. Since January 2022, the Equality and Human Rights Commission (EHRC) had sent initial letters to 93 public bodies in England and Wales. The report says that 66 of these bodies became compliant without EHRC needing to take enforcement action. This is public-sector accessibility work under UK law, not EAA enforcement.",
+          "authority_or_court": "Government Digital Service (GDS) and Equality and Human Rights Commission (EHRC)",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "other_law",
+          "legal_basis": "Public Sector Bodies (Websites and Mobile Applications) (No.2) Accessibility Regulations 2018",
+          "action_type": "Officially reported monitoring or complaint activity",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Historical report, not 2026 snapshot. Website/app units differ from organisations receivingletters. England/Wales letter figures exclude Scotland and NorthernIreland; no imposed-penalty implication.",
+          "event_on": null,
+          "published_on": "2024-12-17",
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": {
+            "as_of": "2024-12-17",
+            "period": "January 2022–September 2024 monitoring; letters since 1 January 2022 as reported 17 December 2024",
+            "units": "Websites, mobile apps, and separately public bodies receiving letters",
+            "counting_basis": "Authority-reported aggregates within the named source and period; no extrapolation to all businesses or cases.",
+            "overlap_note": "Do not sum differing units or overlapping categories. Historical report, not 2026 snapshot. Website/app units differ from organisations receivingletters. England/Wales letter figures exclude Scotland and NorthernIreland; no imposed-penalty implication."
+          },
+          "uncertainty": "Historical report, not 2026 snapshot. Website/app units differ from organisations receivingletters. England/Wales letter figures exclude Scotland and NorthernIreland; no imposed-penalty implication.",
+          "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass.",
+          "source_refs": [
+            "source-232741d27ea5e8c956c0fe31"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "uk-gds-ehrc-monitoring-2022-2024",
+      "country": "United Kingdom",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 59,
+          "domain": "enforcement"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table. No applicable country record exists for this destination; the canonical evidence remains in the enforcement research record.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ Use only `erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing` for br
 
 The assistant scheduler runs the pilot on Friday mornings in Europe/Stockholm. No GitHub Actions workflow is added. The first run of each calendar month also starts discovery; unfinished discovery resumes on later weekly runs. Initial discovery is incomplete as documented in `baseline-report.md`.
 
-`inventory.json` contains every unique source URL in the five records at initialization, plus discovered leads. Claim indices refer to the recorded blob SHA; reload current records on each run, remap changed indices and register new source URLs without losing source IDs or history. Do not reuse an ID for a different URL. Preserve query parameters (official law URLs use them to select articles).
+`inventory.json` contains every unique source URL in the five records at initialization, plus discovered leads. Legacy claim indices refer to legacy_record_path at record_blob_sha, not the new shared file. Reload current record_path and read domains.monitoring through the shared record adapter; use the source claim_ids mapping for current references. Preserve legacy indices only as historical provenance and register new source URLs without losing source IDs or history. Do not reuse an ID for a different URL. Preserve query parameters (official law URLs use them to select articles).
 
 ## Baseline and comparisons
 
@@ -45,3 +45,7 @@ For pilot assessment, record attempted/total sources, fresh versus cached access
 ## Concurrent projects
 
 Other pages can be edited in separate branches and PRs. Watcher infrastructure is confined to `.github/agents/watcher/` plus explicitly required shared-instruction edits. Country updates touch only the relevant record and row. Before publication, inspect whether another PR touches any same file and refresh from main; never force-push, overwrite another project's branch or resolve conflicts by dropping its changes.
+
+## Shared country storage
+
+Follow [the storage contract](../research/README.md). Current records are research/countries/<country>.json; inventory record_domain selects monitoring. Use `python3 .github/scripts/country_records.py Denmark monitoring` for the expanded legacy-compatible view. Do not reconstruct old writable country files. Runtime observation/lease state is not country evidence and remains unchanged.

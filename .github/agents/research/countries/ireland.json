@@ -1,0 +1,989 @@
+{
+  "schema_version": 2,
+  "country": "Ireland",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-2b29060a6d1cbb94c0cf7e65": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibly-act-obligations-for-businesses",
+      "accessed_on": "2026-09-24",
+      "evidence": "Service providers must publish accessible compliance information; this passage does not specify a separate page.",
+      "source_type": "monitoring_body"
+    },
+    "source-7d3e405ef8eaf18fb0f72760": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibly-act-obligations-for-businesses",
+      "accessed_on": "2026-09-24",
+      "evidence": "Service providers prepare service descriptions and compliance explanations and make these publicly available in accessible written and spoken form.",
+      "source_type": "monitoring_body",
+      "section": "Service providers"
+    },
+    "source-953108b857a9e331a4d6b67c": {
+      "url": "https://www.centralbank.ie/consumer-hub/european-accessibility-act",
+      "accessed_on": "2026-09-24",
+      "evidence": "Service providers include information on compliance in general terms and conditions or an equivalent document and make it public in accessible written and oral format.",
+      "source_type": "monitoring_body"
+    },
+    "source-6b0082cd6a408ddbf8db4d42": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibly-act-obligations-for-businesses",
+      "accessed_on": "2026-09-24",
+      "evidence": "Product economic operators provide compliance information to the competent authority on request.",
+      "source_type": "monitoring_body"
+    },
+    "source-f830c6b9c45e325b8e28e658": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "All covered products; e-books and dedicated software; e-commerce services.",
+      "source_type": "monitoring_body"
+    },
+    "source-6ea4be2700f8d7f712eb58b5": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Electronic communications except machine-to-machine transmission; answering emergency communications to 112.",
+      "source_type": "monitoring_body"
+    },
+    "source-6bcdbac3d15bb2a9cb4c5fe8": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Services providing access to audiovisual media services.",
+      "source_type": "monitoring_body"
+    },
+    "source-2597e7e1cf79d65f1d6e2b98": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Covered elements of air passenger transport services.",
+      "source_type": "monitoring_body"
+    },
+    "source-e9e25bfb77f388abd9b7aa8a": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Covered elements of bus, rail and waterborne passenger transport services.",
+      "source_type": "monitoring_body"
+    },
+    "source-30bc746f40d14b47cf395ecf": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Consumer banking services.",
+      "source_type": "monitoring_body"
+    },
+    "source-64b2bf01e30497ea4c6fdb3e": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "accessed_on": "2026-09-24",
+      "evidence": "Official roster assigns products and e-books/e-commerce to CCPC and names the five other service authorities.",
+      "source_type": "monitoring_body"
+    },
+    "source-e80b5b372fb94eb6714a8d0d": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form",
+      "accessed_on": "2026-09-24",
+      "evidence": "The complaint form offers covered product/e-book/e-commerce categories and excludes Other.",
+      "source_type": "monitoring_body"
+    },
+    "source-e7bad1acfcf77de422e6779b": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "accessed_on": "2026-09-24",
+      "evidence": "Form introduction limits it to noncompliant product/service and exemption notifications.",
+      "source_type": "monitoring_body"
+    },
+    "source-6fac3c56bc34abde227b2662": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "accessed_on": "2026-09-24",
+      "evidence": "Current CCPC form page directs queries to access@ccpc.ie.",
+      "source_type": "monitoring_body"
+    },
+    "source-6f84a0b7e86962a8aa6a7107": {
+      "url": "https://www.comreg.ie/media/2025/06/ComReg-2539.pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "Paras19–20 specify immediate nonconformity reporting to eaa@comreg.ie; paras30–33 specify exemption assessments to that address.",
+      "source_type": "monitoring_body"
+    },
+    "source-094b75f9d70247a806fe59ab": {
+      "url": "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Page supports people with access problems within its remit and provides query fields and submission control.",
+      "source_type": "monitoring_body"
+    },
+    "source-b3e247fee3fa9f7ca86f302e": {
+      "url": "https://www.nationaltransport.ie/about-us/european-accessibility-act-for-public-transport-in-ireland/",
+      "accessed_on": "2026-09-24",
+      "evidence": "How does it work requires immediate provider notification with corrective measures; Contact Details supplies euaccessibility@nationaltransport.ie.",
+      "source_type": "monitoring_body"
+    },
+    "source-1bb60ad26f62ed7b10dc50bd": {
+      "url": "https://www.cnam.ie/industry-and-professionals/broadcasting-on-demand-digital/accessibility-of-audiovisual-media-services/industry-obligations/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Exemptions section asks economic operators to contact CnaM and provide assessments; destination obscured in retrieved text.",
+      "source_type": "monitoring_body",
+      "section": "Exemptions"
+    },
+    "source-eb62a9d6f4a96bd19df5f963": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibly-act-obligations-for-businesses",
+      "accessed_on": "2026-09-24",
+      "evidence": "Identifies S.I.636/2023 and commencement28 June2025.",
+      "source_type": "monitoring_body"
+    },
+    "source-0bc1784b92314f468093c4b9": {
+      "url": "https://www.comreg.ie/media/2025/06/ComReg-2539.pdf",
+      "accessed_on": "2026-09-24",
+      "evidence": "Notice discusses assessments for fundamental alteration and disproportionate burden and notification to ComReg.",
+      "source_type": "monitoring_body",
+      "section": "paras30–33"
+    },
+    "source-5723ab393333a4c43bae39cc": {
+      "url": "https://www.centralbank.ie/contact-us/complaints-against-a-financial-service-provider",
+      "accessed_on": "2026-09-24",
+      "evidence": "EAA section names enquiries@centralbank.ie and the required subject; recommends raising issues with the firm first and encourages reporting widespread/systemic concerns.",
+      "source_type": "monitoring_body",
+      "section": "European Accessibility Act"
+    },
+    "source-83b77e80275bd84ba18c5417": {
+      "url": "https://www.comreg.ie/advice-information/service-provider-requirements/service-provider-accessibility-requirements/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Complaints section directs phone/broadband accessibility concerns to Consumer Care and says it follows up EAA noncompliance.",
+      "source_type": "monitoring_body"
+    },
+    "source-226dec363ecf0c3bc0ee40ba": {
+      "url": "https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Contact page supplies an online complaint form with case/category/contact and query details.",
+      "source_type": "monitoring_body"
+    },
+    "source-3402088156fc639acc1f26dc": {
+      "url": "https://www.comreg.ie/advice-information/service-provider-requirements/service-provider-accessibility-requirements/",
+      "accessed_on": "2026-09-24",
+      "evidence": "Providers must publish website accessibility statements; review section describes existing measures operating alongside EAA.",
+      "source_type": "monitoring_body",
+      "section": "ComReg Measures / An Accessibility Statement / Review"
+    },
+    "source-f28687f55f2a33efa343cf17": {
+      "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility",
+      "accessed_on": "2026-09-24",
+      "evidence": "Accessible Information section says relevant information must be accessible and should be included in documents such as an Accessibility Statement.",
+      "source_type": "monitoring_body",
+      "section": "Accessible Information"
+    },
+    "source-5c91ac41ecb970c35e468ea8": {
+      "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print",
+      "label": "S.I. 636/2023, Regulation 32",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: S.I. 636/2023, Regulation 32 — existing source; retrieval blocked."
+    },
+    "source-4663320e3b8b77dfaa811f70": {
+      "url": "https://www.irishstatutebook.ie/eli/2010/act/8/enacted/en/print",
+      "label": "Fines Act 2010",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Fines Act 2010 — existing source for class A fines; not reverified."
+    },
+    "source-0244e9a755a685b3bcd504d6": {
+      "url": "https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law",
+      "label": "Mason Hayes & Curran: Irish implementing measures",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Mason Hayes & Curran: Irish implementing measures — 23 January 2024; corroborates penalty ranges."
+    },
+    "source-c10e8c2fc4fc09c68d15bb48": {
+      "url": "https://www.rte.ie/news/technology/2025/0627/1520552-digital-accessibility/",
+      "label": "RTÉ: new EU rules on digital accessibility",
+      "source_type": "📰 External — news",
+      "review_note": "📰 External — news: RTÉ: new EU rules on digital accessibility — Brian O’Donovan, 27 June 2025; reporting on possible penalties, not an imposed sanction."
+    },
+    "source-1285ffc77cc5238c1e9e0da4": {
+      "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+      "source_type": "external_news_report",
+      "reference": "Ireland section, 2025-12-19",
+      "passage": "started to process consumer complaints",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-f1ffc6a3af7b086de2093084": {
+      "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+      "source_type": "external_news_report",
+      "reference": "Ireland section, 2025-12-19",
+      "passage": "including one against Ireland’s largest mobile telecommunications company, Three",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-dce62bdad5e72af7aba42cb7": {
+      "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+      "source_type": "external_news_report",
+      "reference": "Ireland section, 2025-12-19; same sentence excerpt preserved in ireland-reported-three-complaint",
+      "passage": "",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-b5c15fd65a9086e3718b7ed8": {
+      "url": "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+      "source_type": "external_news_report",
+      "reference": "Ireland section, 2025-12-19",
+      "passage": "responsive and active",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation. Surrounding source context (paraphrase): the reported responsiveness follows formal processing of the complaint."
+    },
+    "source-4063db2b16aeaf454de07a36": {
+      "url": "https://www.comreg.ie/advice-information/consumer-care/",
+      "source_type": "official_authority_publication",
+      "reference": "Making a complaint about an accessibility issue",
+      "passage": "You can contact us directly if you have a complaint about the accessibility of a service.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-5e580b08baa0855f642a3a5e": {
+      "url": "https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf",
+      "source_type": "official_authority_publication",
+      "reference": "Annual Report 2025,p 11, European Accessibility Act, across first and second columns",
+      "passage": "English evidence summary: CCPC remit covers products, e-commerce, e-books/dedicated software. During 2025 it received 53 complaints and 16 claimed exemptions underEAA. These were being actioned, with results expected 2026.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Downloaded PDF and visually reviewed p 11."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "statement",
+          "assertion": "A dedicated public accessibility-statement page across covered Irish services is not established.",
+          "status": "unknown",
+          "review_note": "Preserve existing Unknown. ComReg 25/39 paras42–44 describes separate telecom customer-charter statement links; do not generalise this to all EAA services. Language comparison 2026-09-24, isolated no-history agent /root/ireland_language, English to English. Final source-to-wording comparisons: CCPC roster 'all products covered by EAA; e-books and dedicated software; e-commerce' => 'CCPC — covered products; e-commerce; e-books and dedicated software' Supported after adding software/scope; ComReg 'answering of emergency communications' => 'answering emergency communications to112' (final spacing: to 112); audiovisual access => 'services providing access to audiovisual media' Supported after explicit scope; covered air/bus/rail/water elements and consumer banking Supported. CCPC notification/exemption form => 'Company non-compliance / Exemptions: CCPC form (English)' Supported after narrowing. ComReg paras19–20,30–33 => 'Electronic communications — company non-compliance / Exemptions: eaa@comreg.ie' Supported with assessment scope. NTA provider notification/contact => 'Bus, rail and water — companies: euaccessibility@nationaltransport.ie' Supported. CnaM public access/query form => 'Public: Coimisiún na Meán form' Supported. CCPC public complaint form Supported. 'Make necessary information available to public in written and spoken fully accessible formats' => 'Covered services must publish accessible compliance information' Supported. English source literal renderings coincide with the quoted short excerpts. Existing contributor email claim and secondary links not newly language-certified. AI language fidelity is not human or legal verification. Final recheck Supported: exact heading in both columns 'Electronic communications and 112 emergency communications' and body 'answering emergency communications to 112'. Checks passed: JSON schema and formats, exactly Ireland row changed, five cells, entire country roster preserved, balanced tags, no br. Full repository HTML validation unavailable: tidy missing.",
+          "directive_context": "EAA",
+          "existing_text": "❓ Unknown",
+          "information_mode": "not_established",
+          "source_refs": [
+            "source-2b29060a6d1cbb94c0cf7e65"
+          ],
+          "id": "monitoring-cee6d1c55e6208ffaec81757"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Covered service providers must make service conformity information public in accessible written and spoken formats and retain it throughout provision.",
+          "status": "verified",
+          "review_note": "Public information requirement, not evidence of a mandatory dedicated page.",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-7d3e405ef8eaf18fb0f72760"
+          ],
+          "id": "monitoring-a435c9752ad9bc0b8f3d3e73"
+        },
+        {
+          "field": "service_information",
+          "assertion": "For consumer banking, accessibility information can be in terms and conditions or an equivalent document.",
+          "status": "verified",
+          "review_note": "Official bank EAA hub reachable; dedicated page not implied.",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-953108b857a9e331a4d6b67c"
+          ],
+          "id": "monitoring-15505bb4e8666bd6a32738ed"
+        },
+        {
+          "field": "service_information",
+          "assertion": "A public-on-request-only delivery arrangement is not established.",
+          "status": "unknown",
+          "review_note": "No such arrangement verified; affirmative public-information duty recorded separately.",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-d66e618ffae993baaffcd251"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Product compliance information is supplied to the competent authority on request.",
+          "status": "verified",
+          "review_note": "Distinct audience from public service information; do not generalise delivery conditions to every sector.",
+          "directive_context": "EAA",
+          "scope": "Products",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-6b0082cd6a408ddbf8db4d42"
+          ],
+          "id": "monitoring-2f7b2246331bc788975bb078"
+        },
+        {
+          "field": "authority",
+          "assertion": "CCPC: All covered products; e-books and dedicated software; e-commerce services.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.ccpc.ie/: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. ",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce and E-books",
+          "source_refs": [
+            "source-f830c6b9c45e325b8e28e658"
+          ],
+          "id": "monitoring-97a0b2130e8043899b0596f1"
+        },
+        {
+          "field": "authority",
+          "assertion": "ComReg: Electronic communications except machine-to-machine transmission; answering emergency communications to 112.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.comreg.ie/: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. ",
+          "directive_context": "EAA",
+          "scope": "Electronic communications and 112 emergency calls",
+          "source_refs": [
+            "source-6ea4be2700f8d7f712eb58b5"
+          ],
+          "id": "monitoring-4399e6d57756f770e569144c"
+        },
+        {
+          "field": "authority",
+          "assertion": "Coimisiún na Meán: Services providing access to audiovisual media services.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.cnam.ie/: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. ",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-6bcdbac3d15bb2a9cb4c5fe8"
+          ],
+          "id": "monitoring-a2f52b00559c3aad0276dce4"
+        },
+        {
+          "field": "authority",
+          "assertion": "Irish Aviation Authority: Covered elements of air passenger transport services.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.iaa.ie/: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. ",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-2597e7e1cf79d65f1d6e2b98"
+          ],
+          "id": "monitoring-71a7cd29add8178dd7420231"
+        },
+        {
+          "field": "authority",
+          "assertion": "National Transport Authority: Covered elements of bus, rail and waterborne passenger transport services.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.nationaltransport.ie/: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. ",
+          "directive_context": "EAA",
+          "scope": "Transport",
+          "source_refs": [
+            "source-e9e25bfb77f388abd9b7aa8a"
+          ],
+          "id": "monitoring-eb511d4d18c77f90f4a32b2d"
+        },
+        {
+          "field": "authority",
+          "assertion": "Central Bank of Ireland: Consumer banking services.",
+          "status": "verified",
+          "review_note": "Existing authority link https://www.centralbank.ie/regulation/central-bank-portal: reachable 2026-09-24, official agency. Remit checked independently against CCPC roster. Replace operational portal link with reachable official EAA hub.",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [
+            "source-30bc746f40d14b47cf395ecf"
+          ],
+          "id": "monitoring-38023133defba38a5e98d6de"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The six listed agencies cover the product and service sectors in the CCPC official roster.",
+          "status": "verified",
+          "review_note": "Coverage reconciliation includes products, e-commerce, e-books, electronic communications,112, audiovisual access, banking and transport. This does not certify every delegation or special case. Original detailed transport scope preserved in existing_text; shortened table says covered elements, not whole transport services.",
+          "directive_context": "EAA",
+          "existing_text": "<tr>\n    <td>Ireland</td>\n    <td>❓ Unknown</td>\n    <td>\n\t\t<ul>\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.comreg.ie/\">Commission for Communications Regulation</a>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Electronic communication services, other than transmission services used for the provision of machine-to-machine services.</li>\n\t\t\t\t\t<li>Answering emergency communications to the single European emergency number ‘112’</li>\n\t\t\t\t</ul>\n\t\t\t</li>\t\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.cnam.ie/\">Coimisiún na Meán</a>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Services providing access to audiovisual media services.</li>\n\t\t\t\t</ul>\n\t\t\t</li>\t\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.iaa.ie/\">Irish Aviation Authority</a>\n\t\t\t\tThe following elements of air passenger transport services (other than urban and suburban transport services and regional transport services):\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Websites.</li>\n\t\t\t\t\t<li>Mobile device-based services, including mobile applications.</li>\n\t\t\t\t\t<li>Electronic tickets and electronic ticketing services.</li>\n\t\t\t\t\t<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>\n\t\t\t\t\t<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).</li>\n\t\t\t\t</ul>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.nationaltransport.ie/\">National Transport Authority</a>\n\t\t\t\tThe following elements of bus passenger transport services, rail passenger transport services, and waterborne passenger transport services (other than urban and suburban transport services and regional transport services):\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Websites.</li>\n\t\t\t\t\t\t<li>Mobile device-based services, including mobile applications.</li>\n\t\t\t\t\t\t<li>Electronic tickets and electronic ticketing services.</li>\n\t\t\t\t\t\t<li>The delivery of transport service information, including real time travel information (insofar as it applies to information screens, will apply only in relation to interactive screens located in the EU).</li>\n\t\t\t\t\t\t<li>Interactive self-service terminals located within the territory of the Union (other than those installed as integrated parts of vehicles, aircraft, ships, and rolling stock used in the provision of any part of such passenger transport services).\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t<li>\n\t\t\t\tThe following elements of urban and suburban transport services and regional transport services:\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Interactive self-service terminals located within the territory of the Union, other than those installed as integrated parts of vehicles and rolling stock used in the provision of any part of such passenger transport services.</li>\n\t\t\t\t</ul>\n\t\t\t</li>\t\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.centralbank.ie/regulation/central-bank-portal\">Central Bank of Ireland</a> (Consumer banking services)\t\t</li>\t\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.ccpc.ie/\">Irish Competition and Consumer Protection Commission (CCPC)</a>\n\t\t\t</li>\n\t\t</ul>\n\t</td>\n    <td><ul><li>Reporting tool for companies: <a href=\"https://www.ccpc.ie/business/enforcement/accessibility/notify-the-ccpc-of-a-non-compliant-product-service-or-claim-an-exemption/\">Reporting tool, in English 🇬🇧</a></li>\n\t<li>Report through email for companies: <a href=\"mailto:access@ccpc.ie\">access@ccpc.ie</a>, in English 🇬🇧</li>\n\t</ul></td>\n    <td><ul><li><a href=\"https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/\">Article about Ireland from TPGi</a></li><li><a href=\"https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law\">Overview of the Irish implementing measures</a></li></ul><p>⚖️ EAA implementing law: <a href=\"https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print\">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>\n  </tr>",
+          "source_refs": [
+            "source-64b2bf01e30497ea4c6fdb3e"
+          ],
+          "id": "monitoring-ef31c5776879045a97d242d1"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "CCPC accepts public accessibility complaints for its covered products and services.",
+          "status": "verified",
+          "review_note": "Reachable with fields and submit control, English; no login shown. No submission performed.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce and E-books",
+          "reporting_route": {
+            "authority": "CCPC",
+            "sector": "Products, E-commerce and E-books",
+            "channel": "form",
+            "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-e80b5b372fb94eb6714a8d0d"
+          ],
+          "id": "monitoring-23c69f181b140d47e09233de"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "CCPC accepts company noncompliance and exemption notifications through its form.",
+          "status": "verified",
+          "review_note": "Old URL redirects to this reachable form. English fields; no login shown. Statutory immediate notification distinguished from technical form operation; submission not tested.",
+          "directive_context": "EAA",
+          "scope": "Products, E-commerce and E-books",
+          "reporting_route": {
+            "authority": "CCPC",
+            "sector": "Products, E-commerce and E-books",
+            "channel": "form",
+            "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-e7bad1acfcf77de422e6779b"
+          ],
+          "id": "monitoring-0393bf5f09a5c1d7259f3161"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Existing company email access@ccpc.ie and English retained.",
+          "status": "unverified_source",
+          "review_note": "Existing contributor entry says company reporting by email in English. Public evidence confirms address for queries, but does not independently confirm email substitution for statutory reports. Preserve contributor information; seek correspondence, do not infer it was wrong.",
+          "directive_context": "EAA",
+          "existing_text": "Report through email for companies: access@ccpc.ie, in English 🇬🇧",
+          "scope": "Products, E-commerce and E-books",
+          "source_refs": [
+            "source-6fac3c56bc34abde227b2662"
+          ],
+          "id": "monitoring-21a7eb8c2d4a7b1e972262d3"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Electronic communications providers send noncompliance reports and exemption assessments to eaa@comreg.ie.",
+          "status": "verified",
+          "review_note": "Official English notice27 June2025 reachable. Do not extend this provider channel to112. Login not applicable; accepted submission languages not separately verified.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications",
+          "reporting_route": {
+            "authority": "ComReg",
+            "sector": "Electronic communications",
+            "channel": "email",
+            "destination": "eaa@comreg.ie",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-6f84a0b7e86962a8aa6a7107"
+          ],
+          "id": "monitoring-2b9f10e5f95d98ea3e685905"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Coimisiún na Meán provides a public audiovisual-access reporting form.",
+          "status": "verified",
+          "review_note": "Reachable English form; CAPTCHA; no login shown; no submission performed. Not verified as company reporting or exemption route.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "reporting_route": {
+            "authority": "Coimisiún na Meán",
+            "sector": "Audiovisual access",
+            "channel": "form",
+            "destination": "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-094b75f9d70247a806fe59ab"
+          ],
+          "id": "monitoring-39ac3b86e00e19619f35db92"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "NTA supplies an EAA contact email alongside its instruction that noncompliant transport providers immediately notify NTA.",
+          "status": "verified",
+          "review_note": "Reachable dedicated EAA page; no email sent. Language acceptance unknown. Do not reproduce apparent errors in the page's standards naming or terminal lifespan summary. Rerun24 September2026: dedicated EAA page rechecked; no explicit separate public-complaint or exemption-notification process established beyond existing provider notification/contact evidence.",
+          "directive_context": "EAA",
+          "scope": "Transport: bus, rail and water",
+          "reporting_route": {
+            "authority": "National Transport Authority",
+            "sector": "Transport: bus, rail and water",
+            "channel": "email",
+            "destination": "euaccessibility@nationaltransport.ie",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-b3e247fee3fa9f7ca86f302e"
+          ],
+          "id": "monitoring-71498fda49e1f519dd7302fa"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Banking: reporting route not verified in this run.",
+          "status": "unknown",
+          "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: Central Bank EAA hub and EAA complaint guidance checked. Consumer email found separately; no specific company/exemption intake verified. Do not repurpose consumer route.",
+          "directive_context": "EAA",
+          "scope": "Banking",
+          "source_refs": [],
+          "id": "monitoring-976bf2850fc0c0d97762b453"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Transport: air: reporting route not verified in this run.",
+          "status": "unknown",
+          "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: IAA airline guidance and accessibility-query form page reachable; extracted form page still lacks input controls. IAA Access Officer/WAD contacts concern IAA's own services and were excluded. Company/exemption channel remains unverified.",
+          "directive_context": "EAA",
+          "scope": "Transport: air",
+          "source_refs": [],
+          "id": "monitoring-7e579dfe2ee9caa5d5f69d8c"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "112 emergency calls: reporting route not verified in this run.",
+          "status": "unknown",
+          "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: targeted ComReg search did not establish regulator112-specific intake. ECAS https://112.ie/contact-us/ is a reachable operator enquiry/complaint form, not established as a monitoring-authority reporting route; not added to table.",
+          "directive_context": "EAA",
+          "scope": "112 emergency calls",
+          "source_refs": [],
+          "id": "monitoring-b9eb6f3130883f95b27b83a1"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Audiovisual access: companies and exemptions: reporting route not verified in this run.",
+          "status": "unknown",
+          "review_note": "No new route published. Time/access limits reached; Unknown is not absence of a route. Rerun24 September2026: page reachable but email obfuscated; link resolution failed and direct HTML retrieval returned403. Do not substitute footer usersupport address without evidence.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access: companies and exemptions",
+          "source_refs": [
+            "source-1bb60ad26f62ed7b10dc50bd"
+          ],
+          "id": "monitoring-ff0e4438fc0c7b655e6fae72"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Ireland implements the EAA through S.I.636/2023, applicable from28 June2025.",
+          "status": "verified",
+          "review_note": "Existing official law URL retained. Statute retrieval failed twice (timeout,403); no further retries. Primary regulator corroborates instrument; no new statutory paragraph interpretation published. Targeted rerun24 September2026: both new statute access attempts failed again (403/internal error). Search index exposes official instrument, but direct reading remains unavailable.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-eb62a9d6f4a96bd19df5f963"
+          ],
+          "id": "monitoring-5c4425bfd3e6c9fc7957db6d"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "EAA Article14 exemption concepts concern fundamental alteration/disproportionate burden.",
+          "status": "verified",
+          "review_note": "Use only Exemptions: in table. Do not imply every exemption is an application for approval. Service microenterprise exclusion is separate. Transition/exemption detail intentionally omitted from table; CCPC explains service-product transition2030 and old terminals economic-life cap20years.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-0bc1784b92314f468093c4b9"
+          ],
+          "id": "monitoring-584c170b41671fe953fa7a30"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Existing TPGi and MHC links retained as secondary sources, not verified evidence.",
+          "status": "unverified_source",
+          "review_note": "Not independently checked within budget; existing links labelled secondary in table. They do not support any new verified assertion.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-a266c835d475e63d7378e9d3"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "No official correspondence email contact has yet been established for this Ireland research.",
+          "status": "unknown",
+          "review_note": "Contributor update,24 September2026. This records the research contact gap, not absence of published authority email addresses. Published reporting/query mailboxes are not evidence of an established correspondence contact or an official reply. Research task: identify and verify the correct authority/team email for clarifying remaining questions; record sector, purpose, source and any response. No email sent.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-cdc8dfde54f8a65cdf730568"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Consumers can send EAA complaints to the Central Bank at enquiries@centralbank.ie using the subject EAA alleged non-compliance.",
+          "status": "verified",
+          "review_note": "Targeted rerun24 September2026: reachable official page. Email route needs no portal login; no email sent. Accepted languages and response time not established. Not a company self-reporting or exemption route. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+          "scope": "Banking",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Central Bank of Ireland",
+            "sector": "Banking",
+            "channel": "email",
+            "destination": "enquiries@centralbank.ie",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-5723ab393333a4c43bae39cc"
+          ],
+          "id": "monitoring-c87c0afa925ac33da7151b5d"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "ComReg Consumer Care accepts phone/broadband accessibility complaints through its published complaint form.",
+          "status": "verified",
+          "review_note": "Targeted rerun24 September2026: both pages reachable, form fields visible without login; no submission tested. Do not extend to112 answering complaints. Access Officer email concerns ComReg's own accessibility, not provider regulation. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+          "scope": "Electronic communications: phone/broadband",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "ComReg",
+            "sector": "Electronic communications: phone/broadband",
+            "channel": "form",
+            "destination": "https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-83b77e80275bd84ba18c5417",
+            "source-226dec363ecf0c3bc0ee40ba"
+          ],
+          "id": "monitoring-a293b0dc96b6bd2a566ad9ff"
+        },
+        {
+          "field": "statement",
+          "assertion": "ComReg explicitly requires website accessibility statements for its electronic communications sector under existing measures; this does not establish a country-wide EAA dedicated-page duty.",
+          "status": "verified",
+          "review_note": "Targeted rerun24 September2026: reachable. Separate sector-specific measures; Ireland overall Unknown preserved. Do not reproduce page's apparent S.I.626/2023 typo; implementing instrument is636/2023. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+          "scope": "Electronic communications",
+          "directive_context": "other",
+          "information_mode": "dedicated_public_page",
+          "source_refs": [
+            "source-3402088156fc639acc1f26dc"
+          ],
+          "id": "monitoring-e79851b81b3cbd9a6fa73d04"
+        },
+        {
+          "field": "statement",
+          "assertion": "IAA recommends including accessibility information in documents such as an accessibility statement; this passage does not prescribe a dedicated statement page.",
+          "status": "verified",
+          "review_note": "Targeted rerun24 September2026: reachable. Mandatory accessible information distinguished from example document and recommended inclusion; no country-wide Yes inferred. Isolated English-to-English language review /root/ireland_rerun_language,24 September2026, no history fork: Supported, no corrections. Original excerpts/literal meanings: banking 'you can email enquiries@centralbank.ie', subject 'EAA alleged non-compliance'; ComReg phone/broadband accessibility complaints go to Consumer Care and destination labelled ONLINE COMPLAINT FORM; ComReg existing measures require website statements; IAA 'should be included in documents such as the Accessibility Statement'. Exact assertion above reviewed; public table wording reviewed: 'Public: enquiries@centralbank.ie (subject: EAA alleged non-compliance). Companies / Exemptions: Unknown.' and 'Phone/broadband — public: ComReg complaint form'.",
+          "scope": "Transport: air",
+          "directive_context": "EAA",
+          "information_mode": "public_other",
+          "source_refs": [
+            "source-f28687f55f2a33efa343cf17"
+          ],
+          "id": "monitoring-406fab448c9b6810f0c9274d"
+        }
+      ],
+      "questions": [
+        "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
+        "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; published CCPC page establishes queries only. Existing entry retained.",
+        "Follow-up: banking public route resolved in rerun; company/exemption intake remains unknown. Identify explicit official instructions; do not reuse consumer email without support.",
+        "Follow-up: IAA query page still lacks retrievable form controls. Reviewer can inspect in a browser and record destination, intended public/company audience and login requirements; air reporting remains Unknown until verified.",
+        "Follow-up: establish a ComReg route specifically for112 answering complaints/company reports; ECAS operator form is not a regulator route.",
+        "Follow-up: resolve CnaM exemption email from the official Exemptions section and verify company noncompliance intake; obfuscated email/link and403 prevented verification.",
+        "Follow-up: NTA public complaint and exemption routes remain unverified after rereading its EAA page.",
+        "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
+        "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown.",
+        "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Existing figures corroborated by legal analysis; official law retrieval blocked. RTÉ indexed article checked.",
+      "public_page": "EAA sanctions.md#ireland",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#ireland",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#ireland",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+              "public_text": "Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "The conviction route matters. The legal analysis describes a due-diligence defence; imprisonment concerns individuals, not companies.",
+              "public_text": "The penalty depends on the court procedure. Mason Hayes & Curran describes a defence based on taking reasonable steps to prevent the offence. Imprisonment applies to individuals.",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "32e65cc06668d03e12f0a6943721e2c13702496a050c45c384ede66ee55e2027",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-5c91ac41ecb970c35e468ea8",
+        "source-4663320e3b8b77dfaa811f70",
+        "source-0244e9a755a685b3bcd504d6",
+        "source-c10e8c2fc4fc09c68d15bb48"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-25",
+      "verified_on": "2026-09-25",
+      "knowledge_notes": [
+        "Original ireland-1 row and its quoted secondary attribution are retained unchanged at base f06450eca836087e73c9295485d52c338996a28b.",
+        "ComReg’s consumer-care guidance confirms a route for service-accessibility complaints. This does not independently confirm receipt, investigation or resolution of the reported Three complaint.",
+        "The case-specific account remains secondary reporting. Primary confirmation was not located within the bounded searches; absence of a public result is not proof that the complaint does not exist. The verified_on roll-up applies only to the general complaints guidance claim, not the Three case or the whole country.",
+        "All Monitoring agencies research, 25 September 2026: Followed external lead to primary annual report. Downloaded 5.8 MB, extracted and visually checked p 11. 53 complaints/16 claimed exemptions are EAA-specific; general consumer inspection/prosecution totals excluded. Existing ComReg/Three secondary claim retained unchanged."
+      ],
+      "public_entry_ids": [
+        "ireland-1"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Seek primary support for the existing ComReg/Three complaint account.",
+          "sources_checked": [
+            "https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe/",
+            "https://www.comreg.ie/advice-information/consumer-care/"
+          ],
+          "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:comreg.ie accessibility Three complaints 2026 European Accessibility Act. General remit follow-up: site:comreg.ie \"accessibility\" \"complaints\". Two case follow-ups: site:comreg.ie \"Three\" \"Accessibility Act\"; site:comreg.ie \"accessibility\" \"complaint\" \"2026\" Three. No case-specific primary evidence returned. ComReg notice https://www.comreg.ie/?p=134934 failed twice with reader Internal Error; search snippet not treated as retrieval.",
+          "next_check": "Seek a public case reference or shareable contributor provenance for the Three account; do not infer a breach or penalty."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.ccpc.ie accessibility enforcement 2026 inspections; site.ccpc.ie \"2025\" \"accessibility\" \"complaints\"",
+          "sources_checked": [
+            "https://www.ccpc.ie/business/enforcement/accessibility/",
+            "https://www.nexusinclusion.com/resources/compliance-guides/eaa-in-ireland-ccpc-complaints-enforcement/",
+            "https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf"
+          ],
+          "limitations": "Followed external lead to primary annual report. Downloaded 5.8 MB, extracted and visually checked p 11. 53 complaints/16 claimed exemptions are EAA-specific; general consumer inspection/prosecution totals excluded. Existing ComReg/Three secondary claim retained unchanged. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ireland-reported-complaints-processing",
+          "kind": "case",
+          "text": "The secondary report says ComReg has begun processing consumer complaints.",
+          "authority_or_court": "Commission for Communications Regulation (ComReg)",
+          "case_identifier": null,
+          "sectors": [
+            "Electronic communications"
+          ],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "secondary_complaint_report",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": "2025-12-19",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-1285ffc77cc5238c1e9e0da4"
+          ]
+        },
+        {
+          "id": "ireland-reported-three-complaint",
+          "kind": "case",
+          "text": "The secondary report identifies a complaint concerning Three.",
+          "authority_or_court": "Commission for Communications Regulation (ComReg)",
+          "case_identifier": null,
+          "sectors": [
+            "Electronic communications"
+          ],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "secondary_complaint_report",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": "2025-12-19",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-f1ffc6a3af7b086de2093084"
+          ]
+        },
+        {
+          "id": "ireland-reported-three-market-position",
+          "kind": "case",
+          "text": "The secondary report describes Three as Ireland’s largest mobile telecommunications company.",
+          "authority_or_court": "Commission for Communications Regulation (ComReg)",
+          "case_identifier": null,
+          "sectors": [
+            "Electronic communications"
+          ],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "secondary_complaint_report",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": "2025-12-19",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-dce62bdad5e72af7aba42cb7"
+          ]
+        },
+        {
+          "id": "ireland-reported-three-response",
+          "kind": "case",
+          "text": "The secondary report describes Three as responsive after the complaint was formally processed.",
+          "authority_or_court": "Commission for Communications Regulation (ComReg)",
+          "case_identifier": null,
+          "sectors": [
+            "Electronic communications"
+          ],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "secondary_complaint_report",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": "2025-12-19",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "No case identifier, primary case document, event date or adjudicated outcome established in this pass.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-b5c15fd65a9086e3718b7ed8"
+          ]
+        },
+        {
+          "id": "ireland-inherited-active-status",
+          "kind": "monitoring_activity",
+          "text": "The public row labels Irish monitoring activity Active.",
+          "authority_or_court": "ComReg",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "inherited_status",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "Preserved inherited status; general remit and a secondary complaint report do not independently establish a current case stage.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": []
+        },
+        {
+          "id": "ireland-comreg-accessibility-complaints-guidance",
+          "kind": "monitoring_activity",
+          "text": "ComReg’s consumer-care guidance allows direct complaints about the accessibility of a service.",
+          "authority_or_court": "Commission for Communications Regulation (ComReg)",
+          "case_identifier": null,
+          "sectors": [
+            "Electronic communications"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Consumer-care guidance explicitly describes the European Accessibility Act and phone/broadband service accessibility; national case-specific basis not checked.",
+          "action_type": "complaints_guidance_only",
+          "procedural_stage": "unknown",
+          "stage_detail": "",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Research context only, not a reportable new enforcement event or confirmation of the Three complaint; not added to the public row.",
+          "next_check": "See country follow-up questions.",
+          "source_refs": [
+            "source-4063db2b16aeaf454de07a36"
+          ]
+        },
+        {
+          "id": "ie-ccpc-2025-eaa-submissions",
+          "kind": "statistics",
+          "text": "In its 2025 annual report, the Competition and Consumer Protection Commission (CCPC) reported receiving 53 complaints and 16 exemption claims under the EAA during 2025. The report said these were being addressed, with results expected in 2026. These figures count complaints and exemption claims; they do not establish confirmed violations or approved exemptions.",
+          "authority_or_court": "Competition and Consumer Protection Commission (CCPC)",
+          "case_identifier": null,
+          "sectors": [
+            "Products",
+            "E-commerce",
+            "E-books"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "Irish regulations implementing the European Accessibility Act (S.I.636/2023)",
+          "action_type": "Officially reported monitoring or complaint activity",
+          "procedural_stage": "complaint_lodged",
+          "stage_detail": "Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-09-25",
+          "status": "verified",
+          "statistics": {
+            "as_of": "2025-12-31",
+            "period": "Calendar 2025",
+            "units": "Complaints and exemption claims",
+            "counting_basis": "Authority-reported aggregates within the named source and period; no extrapolation to all businesses or cases.",
+            "overlap_note": "Do not sum differing units or overlapping categories. Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated."
+          },
+          "uncertainty": "Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated.",
+          "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass.",
+          "source_refs": [
+            "source-5e580b08baa0855f642a3a5e"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "What primary or shareable contributor evidence supports the reported Three complaint and response?",
+          "owner": "Contributor / future researcher",
+          "resolved_when": "An identifiable dated ComReg/court document or inspectable provenance resolves the case, stage and response without disclosing private personal data."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Is the claim that Three is the largest mobile provider needed, and what dated market metric supports it?",
+          "owner": "Future enforcement researcher",
+          "resolved_when": "A dated official metric is checked if this descriptive claim is retained in rewritten wording."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Retry the unread ComReg notice only in a later authorised pass if it is still needed.",
+          "owner": "Future enforcement researcher",
+          "resolved_when": "The notice is retrieved through permitted access; no case verification is inferred merely from general guidance."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "ie-ccpc-2025-eaa-submissions",
+      "country": "Ireland",
+      "recorded_on": "2026-09-25",
+      "status": "already_present",
+      "reason": "Enforcement finding and canonical research merged in PR #59; scope and evidence limits remain in the claim.",
+      "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "already_present",
+          "reason": "Delivered in merged PR #59; evidence qualifications remain unchanged.",
+          "next_action": "None for this delivered change.",
+          "pr": 59,
+          "domain": "enforcement"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction maximum, condition or power established; actual activity does not amend the sanctions table.",
+          "next_action": "No public change proposed from this claim.",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

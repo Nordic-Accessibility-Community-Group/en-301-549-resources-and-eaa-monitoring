@@ -1,0 +1,910 @@
+{
+  "schema_version": 2,
+  "country": "Denmark",
+  "jurisdiction_group": "EU",
+  "evidence": {
+    "source-21073fae8b8d7fab7af063a6": {
+      "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-23",
+      "section": "Scope",
+      "evidence": "Government market-surveillance guidance lists covered products and services, including e-commerce and consumer banking."
+    },
+    "source-c847c3588b4056d0cb98ca98": {
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+      "source_type": "legislation",
+      "accessed_on": "2026-09-23",
+      "section": "Annex 4, point 1",
+      "evidence": "The provider states in general terms or an equivalent document how the service meets accessibility requirements."
+    },
+    "source-f1d6222ad6f038a669a1fc0d": {
+      "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Tilgængelighedserklæring",
+      "evidence": "DIGST requires accessible public information in terms or an equivalent document, without a prescribed format."
+    },
+    "source-9af58e6ed23ed1f764bcdc72": {
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+      "accessed_on": "2026-09-23",
+      "source_type": "legislation",
+      "section": "Section 46",
+      "evidence": "The authority may demand necessary conformity information."
+    },
+    "source-99fd1eca25f53b01e24164b0": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority roster",
+      "evidence": "Names this sector assignment or delegation."
+    },
+    "source-ba4af1ebce23a5324b9c4b49": {
+      "url": "https://www.sik.dk/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-6869b48f48909ce5a6fb23c4": {
+      "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-c89eeaf8616f33bc8e9daa52": {
+      "url": "https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-0b3bc99c286ac93621e85931": {
+      "url": "https://www.soefartsstyrelsen.dk/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-21c5103486b1270e10a60074": {
+      "url": "https://www.finanstilsynet.dk/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-8298b294e37efe8867d88685": {
+      "url": "https://kfst.dk/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-423725ee756aad0bdf6381e0": {
+      "url": "https://politi.dk/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority website",
+      "evidence": "Named official website opened."
+    },
+    "source-fd079900bfe96990ba46b3be": {
+      "url": "https://ens.dk/presse/center-tele-flytter-til-styrelsen-dataforsyning-og-effektivisering",
+      "evidence": "Telecom moved out of Energistyrelsen on 7 June 2022.",
+      "section": "Transfer announcement",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-4dddce670454cc7f28ba83bd": {
+      "url": "https://digst.dk/media/uhwpy1f5/digitaliseringsstyrelsens-rapport-for-2024-i-henhold-til-teledirektivets-artikel-8-stk-2.pdf",
+      "evidence": "Telecom became part of DIGST on 21 October 2024.",
+      "section": "Page 1",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-32429b2d8d048c1cef4867b6": {
+      "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+      "evidence": "DIGST supervises EAA electronic communications services.",
+      "section": "Supervision",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24"
+    },
+    "source-084a6a9d67abf6f946e61b1e": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Authority roster",
+      "evidence": "Names bodies absent from the original row."
+    },
+    "source-aa4eac903d8c6d1a751a6139": {
+      "url": "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Tjenester og selvbetjeningsterminaler",
+      "evidence": "Directs these reports to sik.dk/tip."
+    },
+    "source-edb6e96c5d8b7696667acf63": {
+      "url": "https://www.sik.dk/tip",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Accessibility options",
+      "evidence": "Form contains service-specific accessibility categories."
+    },
+    "source-fc93581840adfbcf06609d44": {
+      "url": "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Produkter",
+      "evidence": "Specifies product complaint destination."
+    },
+    "source-5761994ee638bebe9839fd11": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/selvbetjening/undtagelser-tilgaengelighedskrav-produkter-og-tjenester",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Indsend blanket",
+      "evidence": "Links the exemption form."
+    },
+    "source-f2b36af4e3596c1222d5b15d": {
+      "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Introduction",
+      "evidence": "Lists MitID Business and company details."
+    },
+    "source-e01d898a328764aff913ff9a": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Hvor sender du orienteringen hen?",
+      "evidence": "Published destination is mo@erst.dk, with legacy email markup also present."
+    },
+    "source-619e828615e6d030cef638dc": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "accessed_on": "2026-09-23",
+      "source_type": "monitoring_body",
+      "section": "Lovens krav",
+      "evidence": "Explains prompt notification and a 14-day outer limit."
+    },
+    "source-8955bf413145f74a7fd422a2": {
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+      "accessed_on": "2026-09-23",
+      "source_type": "legislation",
+      "section": "Sections 58–59",
+      "evidence": "Enactment and application dates differ; specified transitions apply."
+    },
+    "source-184be35a711c9c4e98f50fa4": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+      "section": "Delegated responsibilities",
+      "evidence": "Identifies delegated banking, e-commerce and Smart-TV checks.",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body"
+    },
+    "source-e7f195021aeb456b185c5e66": {
+      "url": "https://www.sik.dk/tip",
+      "section": "Accessibility categories",
+      "evidence": "Offers terminal and service reports with optional contact details.",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body"
+    },
+    "source-af488499ff14fc6f49891851": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "section": "Reporting destination",
+      "evidence": "Names mo@erst.dk; legacy address also appears in extracted markup.",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body"
+    },
+    "source-c6f9bbe329371fa2a59ea154": {
+      "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+      "section": "Prerequisites",
+      "evidence": "Lists MitID Business.",
+      "accessed_on": "2026-09-24",
+      "source_type": "monitoring_body"
+    },
+    "source-5e2d0bdb09ea50ae3a76d5e6": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+      "section": "Authority roster",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24",
+      "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+    },
+    "source-7d4bf0183af6d9172024e181": {
+      "url": "https://www.sik.dk/sikkerhedsstyrelsen-del-erhvervsstyrelsen",
+      "section": "Introduction / merger",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24",
+      "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+    },
+    "source-a098bb7511d09a12454974c3": {
+      "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+      "section": "Tilgængelighedserklæring",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24",
+      "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+    },
+    "source-eae1024defd3491b39d8d4a8": {
+      "url": "https://www.sik.dk/tip",
+      "section": "Accessibility categories / optional contacts",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24",
+      "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+    },
+    "source-23497faa4f561d5a6874ae36": {
+      "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+      "section": "Prerequisites",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-24",
+      "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+    },
+    "source-7e312c7945c05049170c238c": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/kontrol-og-tilsyn/sikkerhedsstyrelsens-kontrol",
+      "label": "Sikkerhedsstyrelsens kontrol",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Sikkerhedsstyrelsens kontrol."
+    },
+    "source-2a8f1d125333aec2d3ad6edd": {
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801",
+      "label": "Act 801/2022",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Act 801/2022 — law linked for reference; full penalty provisions not retrieved."
+    },
+    "source-570afe636290cbc7f8d2b839": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "denmark inherited public entry",
+      "passage": "179 online inspections, with listed categories 148 e-commerce, 12 e-books and 2 banking.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-1a1f93c5ff854df355f8c396": {
+      "url": "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning",
+      "source_type": "official_authority_publication",
+      "reference": "Dialog om forpligtelser; Tilgængelighed",
+      "passage": "Guidance describes company-based visits and dialogue on compliance and accessibility. It gives no September 2026 inspection totals.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-747698c44d0d3efab102337f": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "denmark inherited public entry",
+      "passage": "33 product controls.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-d6e35e4bd8c0aec76d0ed5a2": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "denmark inherited public entry",
+      "passage": "73 company-based market-surveillance activities.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    },
+    "source-8493fb492d32ba929346de88": {
+      "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/ae6018ebe31c24c7afac2120aec223c11b2dffe7/EAA%20enforcement%20tracking.md",
+      "source_type": "other_unverified",
+      "reference": "denmark inherited public entry",
+      "passage": "At least one major online retailer was notified of accessibility issues in mid-2025, described as a warning; no fines or other measures have been reported.",
+      "attempted_on": "2026-09-25",
+      "retrieved_on": "2026-09-25",
+      "access_result": "reachable",
+      "provenance_note": "Existing repository wording preserved as provenance; no underlying correspondence supplied for this claim."
+    }
+  },
+  "domains": {
+    "monitoring": {
+      "record_type": "fuller_entry_audit",
+      "claims": [
+        {
+          "field": "additional_information",
+          "assertion": "The Danish accessibility law covers specified consumer products and services.",
+          "status": "verified",
+          "review_note": "",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-21073fae8b8d7fab7af063a6"
+          ],
+          "id": "monitoring-3c6b5968670022fd01613e50"
+        },
+        {
+          "field": "statement",
+          "assertion": "An EAA body requires a dedicated public page comparable to a WAD statement.",
+          "status": "unknown",
+          "review_note": "Unknown after regulator-guidance searches. DIGST calls the information an accessibility declaration but permits terms or equivalent documentation without prescribing a form. Preserve the existing Yes; seek contributor provenance before changing it.",
+          "directive_context": "EAA",
+          "information_mode": "not_established",
+          "existing_text": "✔️ Yes",
+          "source_refs": [],
+          "id": "monitoring-4bddcb5a8f661a3dc7117834"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Service providers include accessibility compliance information in general terms or equivalent document.",
+          "status": "verified",
+          "review_note": "",
+          "directive_context": "EAA",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [
+            "source-c847c3588b4056d0cb98ca98",
+            "source-f1d6222ad6f038a669a1fc0d"
+          ],
+          "id": "monitoring-a8d5153bc6801b19a059c6ed"
+        },
+        {
+          "field": "service_information",
+          "assertion": "The public receives EAA service information only on request.",
+          "status": "unknown",
+          "review_note": "",
+          "directive_context": "EAA",
+          "information_mode": "public_on_request",
+          "source_refs": [],
+          "id": "monitoring-d1f97293932e236e61c56476"
+        },
+        {
+          "field": "service_information",
+          "assertion": "The authority can require compliance information.",
+          "status": "verified",
+          "review_note": "Rechecked against the law, separately from public disclosure.",
+          "directive_context": "EAA",
+          "information_mode": "authority_on_request",
+          "source_refs": [
+            "source-9af58e6ed23ed1f764bcdc72"
+          ],
+          "id": "monitoring-89163d4c619e3700a769b277"
+        },
+        {
+          "field": "authority",
+          "assertion": "Erhvervsstyrelsen | Markedsovervågning: Products; audiovisual access; e-books; delegated banking, e-commerce and Smart-TV checks.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.sik.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen. Rechecked official roster on 2026-09-24, including Smart-TV delegation.",
+          "directive_context": "EAA",
+          "scope": "Products; audiovisual access; e-books; delegated banking and e-commerce checks",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-ba4af1ebce23a5324b9c4b49"
+          ],
+          "id": "monitoring-2d501909cdc8df52f7356d04"
+        },
+        {
+          "field": "authority",
+          "assertion": "Digitaliseringsstyrelsen: Electronic communications; Smart-TV checks delegated to market surveillance.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen. Rechecked official roster on 2026-09-24: Smart-TV checks are carried out on DIGST's behalf. Added this delegation to the short row.",
+          "directive_context": "EAA",
+          "scope": "Electronic communications; delegated Smart-TV checks",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-6869b48f48909ce5a6fb23c4"
+          ],
+          "id": "monitoring-a7ca9b62c4613907d163c34c"
+        },
+        {
+          "field": "authority",
+          "assertion": "Trafikstyrelsen: Air, bus, rail and land-side ship transport elements.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+          "directive_context": "EAA",
+          "scope": "Air, bus, rail and land-side ship transport elements",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-c89eeaf8616f33bc8e9daa52"
+          ],
+          "id": "monitoring-ae92c4c395e067f42474b2c5"
+        },
+        {
+          "field": "authority",
+          "assertion": "Søfartsstyrelsen: Ship passenger services.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.soefartsstyrelsen.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+          "directive_context": "EAA",
+          "scope": "Ship passenger services",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-0b3bc99c286ac93621e85931"
+          ],
+          "id": "monitoring-f314b346275c0f668fbf9758"
+        },
+        {
+          "field": "authority",
+          "assertion": "Finanstilsynet: Banking; checks delegated to market surveillance.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.finanstilsynet.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+          "directive_context": "EAA",
+          "scope": "Banking; checks delegated to market surveillance",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-21c5103486b1270e10a60074"
+          ],
+          "id": "monitoring-bef5419752c285410d0ad856"
+        },
+        {
+          "field": "authority",
+          "assertion": "Konkurrence- og Forbrugerstyrelsen: E-commerce; checks delegated to market surveillance.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://kfst.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+          "directive_context": "EAA",
+          "scope": "E-commerce; checks delegated to market surveillance",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-8298b294e37efe8867d88685"
+          ],
+          "id": "monitoring-77c4184ef643a9de5dfa18e5"
+        },
+        {
+          "field": "authority",
+          "assertion": "Rigspolitiet: 112 emergency service.",
+          "status": "verified",
+          "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://politi.dk/. The roster retains Sikkerhedsstyrelsen terminology; current site branding is Erhvervsstyrelsen.",
+          "directive_context": "EAA",
+          "scope": "112 emergency service",
+          "source_refs": [
+            "source-99fd1eca25f53b01e24164b0",
+            "source-423725ee756aad0bdf6381e0"
+          ],
+          "id": "monitoring-eaaf162c8ffdfd63d92d5851"
+        },
+        {
+          "field": "authority",
+          "assertion": "Energistyrelsen's current EAA remit is confirmed.",
+          "status": "disputed",
+          "review_note": "Existing name retained for review. Website https://ens.dk/ reachable on 2026-09-23; correct identity does not verify a current remit. Follow-up 2026-09-24: official transfer history and current EAA supervision identify DIGST. The old Energistyrelsen entry is outdated for telecom; remove it from the current authority list and explain the correction in Additional information. URLs reachable; historical source dates 2022-05-05 and 2025-05-28.",
+          "directive_context": "EAA",
+          "existing_text": "Energistyrelsen",
+          "source_refs": [
+            "source-fd079900bfe96990ba46b3be",
+            "source-4dddce670454cc7f28ba83bd",
+            "source-32429b2d8d048c1cef4867b6"
+          ],
+          "id": "monitoring-0dcaad81f40399bd76872bc0"
+        },
+        {
+          "field": "authority",
+          "assertion": "The row needs DIGST, Rigspolitiet and the delegated e-commerce authority added.",
+          "status": "verified",
+          "review_note": "Coverage remains qualified by the historical Energistyrelsen assignment. No existing authority hyperlinks were present to test.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-084a6a9d67abf6f946e61b1e"
+          ],
+          "id": "monitoring-0cfdb2f63c54f353d96aaf3f"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Market surveillance accepts public accessibility reports about services and self-service terminals.",
+          "status": "verified",
+          "review_note": "Reachable; Danish form; anonymous reporting offered; no login seen. Other accepted languages unknown. No submission performed.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Erhvervsstyrelsen | Markedsovervågning",
+            "sector": "E-commerce, banking, streaming, e-books and self-service terminals",
+            "channel": "form",
+            "destination": "https://www.sik.dk/tip",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-aa4eac903d8c6d1a751a6139",
+            "source-edb6e96c5d8b7696667acf63"
+          ],
+          "id": "monitoring-a24f835a57dd88370a931f83"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "The authority directs covered product complaints to Produkter.dk.",
+          "status": "verified",
+          "review_note": "https://produkter.dk returned an empty page to the reader: link_status unknown for usable form content; no login or language acceptance verified. Existing route preserved.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Erhvervsstyrelsen | Markedsovervågning",
+            "sector": "Covered consumer products",
+            "channel": "form",
+            "destination": "https://produkter.dk",
+            "eaa_specific": false
+          },
+          "source_refs": [
+            "source-fc93581840adfbcf06609d44"
+          ],
+          "id": "monitoring-c8c452a1bec4a5629e7d69b7"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Companies report exemptions using the Virk form.",
+          "status": "verified",
+          "review_note": "Reachable landing page; MitID Business required. English introduction and Danish/English documentation templates confirmed; accepted submission languages not independently established. No authenticated submission tested.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Erhvervsstyrelsen | Markedsovervågning",
+            "sector": "Within market-surveillance remit",
+            "channel": "form",
+            "destination": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+            "eaa_specific": true
+          },
+          "source_refs": [
+            "source-5761994ee638bebe9839fd11",
+            "source-f2b36af4e3596c1222d5b15d"
+          ],
+          "id": "monitoring-cd9154d0a97d5dd0ba547f4e"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "The current non-compliance reporting instructions identify mo@erst.dk.",
+          "status": "verified",
+          "review_note": "Email delivery not tested. Page extraction contains stale sik@sik.dk markup; preserve the contributor's existing address pending confirmation. Language acceptance unknown.",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Erhvervsstyrelsen | Markedsovervågning",
+            "sector": "Within market-surveillance remit",
+            "channel": "email",
+            "destination": "mo@erst.dk",
+            "eaa_specific": true
+          },
+          "existing_text": "sik@sik.dk; English and Danish accepted",
+          "source_refs": [
+            "source-e01d898a328764aff913ff9a"
+          ],
+          "id": "monitoring-cb6b9160114246c5cd58690f"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Guidance requires reporting promptly and within 14 days.",
+          "status": "verified",
+          "review_note": "Authority guidance; not a replacement for the statutory immediate-notification wording.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-619e828615e6d030cef638dc"
+          ],
+          "id": "monitoring-e92770fe7db564af7010c0d7"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The law applies from 28 June 2025, with defined legacy arrangements through 2030 and terminal exceptions.",
+          "status": "verified",
+          "review_note": "Record exact sector and contract conditions before relying on an exception.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-8955bf413145f74a7fd422a2"
+          ],
+          "id": "monitoring-93cf0f680ecee0bf1fd401cf"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "This bounded pilot pass records verified findings and unresolved checks.",
+          "status": "unknown",
+          "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-de83578d53f81bc00fadb4fd"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The Danish Safety Technology Authority stated on 19 December 2025 that companies outside Denmark can submit reports in English.",
+          "status": "verified",
+          "review_note": "Official SIK main-mailbox response dated 19 December 2025 at 10:14 supplied by the contributor on 24 September 2026. Non-public correspondence; no public URL, so sources is intentionally empty. Original headers not independently authenticated. Dated confirmation covers companies outside Denmark, not all companies or guaranteed future policy. The reply distinguishes non-compliance email notification from exemption reporting through Virk. Full email and personal signature are not reproduced.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-0ab6d49d6b11a9e621ccea75"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "SIK's 19 December 2025 reply distinguishes email notification of non-compliance and corrective measures from the Virk exemption declaration.",
+          "status": "verified",
+          "review_note": "Contributor-supplied official SIK main-mailbox response, dated 19 December 2025; inspected 24 September 2026. No public URL. The sender was sik@sik.dk, but the quoted instructions do not separately state the destination address or prove current forwarding. Current mo@erst.dk guidance remains separately sourced.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-303cf1199c109423a25ed0c5"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Open-question follow-up on 24 September 2026 records partial resolutions and remaining unknowns.",
+          "status": "unknown",
+          "review_note": "Resolved: official telecom transfer history supports DIGST replacing the outdated Energistyrelsen listing.\nResolved with dated contributor evidence: SIK's official 19 December 2025 reply confirms English reporting for companies outside Denmark and separates email defect notices from Virk exemptions. The contributor reports a reply to emails sent to sik@sik.dk around 16 September 2026, supporting its continued listing. Automatic forwarding was not inspected and is no longer an open research question.\nUnresolved: DIGST and Danish transport guidance identifies remit/duties but did not establish additional usable sector-specific complaint, company-defect and exemption destinations. Generic contact details were not promoted to reporting channels.\nUnresolved: DIGST expressly allows public terms/equivalent with no prescribed format. This does not establish a dedicated public-page mandate across all sectors. Existing Yes preserved.\nUnresolved: Produkter.dk again returned no readable form content; no report submitted.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-71f73fbef9fc462bf40c136a"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "The contributor reports receiving a reply to emails sent to sik@sik.dk approximately 16 September 2026.",
+          "status": "verified",
+          "review_note": "Contributor confirmation supplied on 24 September 2026: last answer was eight days earlier. Verifies the contributor-reported recent mailbox activity, not independently inspected delivery logs, reply headers or automatic forwarding. Supports preserving the manually established address. Exact routing is not a useful unresolved requirement.",
+          "directive_context": "EAA",
+          "source_refs": [],
+          "id": "monitoring-9b57ccd08f1b1039b95a83bc"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "PR review triage applied on 24 September 2026.",
+          "status": "unknown",
+          "directive_context": "EAA",
+          "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence. Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved. Reopened the authority roster, public tip form (accessibility categories and anonymous option), non-compliance guidance (mo@erst.dk), and Virk introduction (MitID Business). No submissions performed. Removed historical transfer/correspondence narration from Additional information; preserved it in this record.",
+          "source_refs": [
+            "source-184be35a711c9c4e98f50fa4",
+            "source-e7f195021aeb456b185c5e66",
+            "source-af488499ff14fc6f49891851",
+            "source-c6f9bbe329371fa2a59ea154"
+          ],
+          "id": "monitoring-37dd54b9636df8034594d7f6"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Separate language-fidelity review completed on 24 September 2026.",
+          "status": "unknown",
+          "directive_context": "EAA",
+          "review_note": "Agent /root/danish_language started with fork_turns=none; supplied only neutral fidelity instructions, original URLs, proposed wording and the relevant original English agency sentence from 19 December 2025. No research conclusions/statuses or PR discussion supplied. Initial identity ambiguity: roster names Sikkerhedsstyrelsen while footer names Erhvervsstyrelsen. Additional official source https://www.sik.dk/sikkerhedsstyrelsen-del-erhvervsstyrelsen resolves this: “en afdeling i Erhvervsstyrelsen under navnet Markedsovervågning” = a department in the Danish Business Authority under the name Market Surveillance; same tasks retained from January 2026.\nRoster section Fordeling af ansvar: “På vegne af” = on behalf of; delegated banking/ATM, e-commerce and Smart-TV wording supported. “TV- og streamingtjenester” = TV and streaming services; replaced audiovisual access. Trafikstyrelsen digital passenger-transport/land-side port wording sharpened; Finanstilsynet ATM role explicit. Søfartsstyrelsen and Rigspolitiet concise scopes supported.\nDIGST Tilgængelighedserklæring: “i de almindelige betingelser eller et tilsvarende dokument” = in general terms or equivalent document; final general terms and conditions wording supported.\nVirk Dette skal du bruge = what you need; MitID Business supported at landing-page level. sik.dk/tip Kontaktinformation (valgfri) = contact information (optional); anonymous reporting offered is supported. Supplied English agency excerpt directly supports English reports by companies outside Denmark.\nFinal corrected language recheck: Supported. Legacy sik@sik.dk and Danish submission acceptance are not established by the language-only public-source check; preserved contributor information has separate dated provenance in this record, including the recent mailbox reply. Malformed current-page email markup is not treated as two independently verified alternatives. Actual email operation, form authentication and submission not tested. The prior Danish-reading checkbox is superseded, not falsely marked human-completed.\nExact final public row (unchanged source-language names retained):\n<tr>\n    <td>Denmark</td>\n    <td>✔️ <a href=\"https://www.retsinformation.dk/eli/lta/2022/801/pdf\">Yes</a></td>\n    <td><ul>\n      <li><a href=\"https://www.sik.dk/\">Erhvervsstyrelsen | Markedsovervågning</a> – Products; TV/streaming services; e-books; delegated banking/ATM, e-commerce and Smart-TV checks.</li>\n      <li><a href=\"https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/\">Digitaliseringsstyrelsen</a> – Electronic communications; Smart-TV checks delegated to market surveillance.</li>\n      <li><a href=\"https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven\">Trafikstyrelsen</a> – Digital passenger-transport services: air, bus, rail and land-side port elements.</li>\n      <li><a href=\"https://www.soefartsstyrelsen.dk/\">Søfartsstyrelsen</a> – Ship passenger services.</li>\n      <li><a href=\"https://www.finanstilsynet.dk/\">Finanstilsynet</a> – Banking and ATMs; checks delegated to market surveillance.</li>\n      <li><a href=\"https://kfst.dk/\">Konkurrence- og Forbrugerstyrelsen</a> – E-commerce; checks delegated to market surveillance.</li>\n      <li><a href=\"https://politi.dk/\">Rigspolitiet</a> – 112 emergency service.</li>\n    </ul></td>\n    <td>\n\t\t<ul>\n\t\t\t<li>Report exemptions (companies; MitID Business required): \n\t\t\t\t<ul>\n\t\t\t\t\t<li> <a href=\"https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements\">Declaration of Exemption from Accessibility Requirements, Reporting tool, in English 🇬🇧</a></li>\n\t\t\t\t\t<li><a href=\"https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements\">Declaration of Exemption from Accessibility Requirements, Reporting tool, in Danish 🇩🇰</a></li>\n\t\t\t\t</ul></li>\n\t\t\t<li>Report non-compliance (companies, market-surveillance remit): <a href=\"mailto:mo@erst.dk\">mo@erst.dk</a> or <a href=\"mailto:sik@sik.dk\">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li>\n\t\t\t<li>Reporting tool (for the public): \n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://produkter.dk\">Reporting tool for products, in Danish 🇩🇰</a></li>\n\t\t\t\t</ul></li>\n\t\t<li>Erhvervsstyrelsen | Markedsovervågning: <a href=\"https://www.sik.dk/tip\">public accessibility reporting form</a> for self-service terminals, e-commerce, banking, streaming and e-book services; anonymous reporting offered.</li></ul>\n\t</td>\n    <td><ul><li><a href=\"https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/\">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href=\"https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/\">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href=\"https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester\">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href=\"https://retsinformation.dk/eli/lta/2022/801\">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href=\"https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/\">DIGST: public accessibility information in general terms and conditions or an equivalent document.</a></p></td>\n  </tr>\nThis is separate AI fidelity review, not independent human approval, legal interpretation or a full renewed country audit.",
+          "source_refs": [
+            "source-5e2d0bdb09ea50ae3a76d5e6",
+            "source-7d4bf0183af6d9172024e181",
+            "source-a098bb7511d09a12454974c3",
+            "source-eae1024defd3491b39d8d4a8",
+            "source-23497faa4f561d5a6874ae36"
+          ],
+          "id": "monitoring-73028161fc706dbf3b87aaa0"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Pilot reporting-column presentation grouped by sector on 24 September 2026.",
+          "status": "unknown",
+          "directive_context": "EAA",
+          "review_note": "Presentation-only regrouping at contributor request. Only the reporting cell changes. Labels reuse recorded authority/sector mappings; shared sectors/channels may be grouped to avoid repetition. Public complaints, company non-compliance and exemptions are separate. If all channels are unestablished, one 'Reporting channels: Unknown' item is used. Unknown describes the research gap, not absence of a channel or authority. Existing destinations, language notes, conditions and contributor details are retained. No new route, translation claim, law interpretation, or current-source verification is introduced. Prior language-review results apply to the retained wording; the historical exact row snapshots above precede this layout change. All other cells, Yes/No answers and the events-calendar script are unchanged. Full repository CI not run in this presentation pass.",
+          "source_refs": [],
+          "id": "monitoring-949bac3773546fc8fe1f7d8e"
+        }
+      ],
+      "questions": [
+        "Before PR: Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence.",
+        "Before PR: Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved.",
+        "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
+        "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
+        "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
+        "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains."
+      ]
+    },
+    "sanctions": {
+      "record_type": "sanctions_review_notes",
+      "last_checked": "2026-09-25",
+      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "public_page": "EAA sanctions.md#denmark",
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#denmark",
+      "editorial_reviews": [
+        {
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#denmark",
+          "review_type": "public_wording_cleanup",
+          "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+          "changes": [
+            {
+              "column": "EAA areas and scope",
+              "previous_text": "Products and services within the scope of the accessibility law and the cited regulator guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown",
+              "public_text": "Products and services within the scope of the accessibility law and the cited regulator guidance.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Financial sanctions",
+              "previous_text": "EAA areas covered: Unknown   Violations can be referred to the police for a fine. ❓ Amounts not established by the cited guidance.",
+              "public_text": "Violations can be referred to the police for a fine. Amount: ❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            },
+            {
+              "column": "Conditions and exceptions",
+              "previous_text": "Absence of an amount in the guidance does not mean that there is no financial sanction.",
+              "public_text": "❓ Unknown",
+              "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+            }
+          ]
+        }
+      ],
+      "public_row_sha256": "c3d217a90824a62c3e8005c6cb21c4f2104d41a3619b02f9aea2be20f87af40f",
+      "language_check": "language-check.json",
+      "source_refs": [
+        "source-7e312c7945c05049170c238c",
+        "source-2a8f1d125333aec2d3ad6edd"
+      ]
+    },
+    "enforcement": {
+      "schema_version": 1,
+      "jurisdiction_group": "EU",
+      "created_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-09-25",
+      "verified_on": null,
+      "knowledge_notes": [
+        "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+        "All Monitoring agencies research, 25 September 2026: Read requirements and reporting guidance; no corroboration of inherited 16 September counts. Guidance uses agency naming that may lag organisational changes; not used to revise authority roster. Existing figures and warning claim retained without promotion."
+      ],
+      "public_entry_ids": [
+        "denmark-1"
+      ],
+      "attempts": [
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Audit September counts and warning/absence claim. Search queries: site.sik.dk tilgængelighed 179 148 2026; site.sik.dk tilgængelighed \"179\"; site.sik.dk \"tilgængelighed\" \"markedsovervågning\"",
+          "sources_checked": [
+            "https://www.sik.dk/saadan-foregaar-virksomhedsbaseret-markedsovervaagning"
+          ],
+          "limitations": "Searches did not retrieve the figures or warning. General guidance does not verify a case.",
+          "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+        },
+        {
+          "attempted_on": "2026-09-25",
+          "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.sik.dk tilgængelighedskrav kontrol 2026",
+          "sources_checked": [
+            "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+            "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed"
+          ],
+          "limitations": "Read requirements and reporting guidance; no corroboration of inherited 16 September counts. Guidance uses agency naming that may lag organisational changes; not used to revise authority roster. Existing figures and warning claim retained without promotion. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+          "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        }
+      ],
+      "claims": [
+        {
+          "id": "dk-inherited-online",
+          "kind": "statistics",
+          "text": "179 online inspections, with listed categories 148 e-commerce, 12 e-books and 2 banking.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-16",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Online inspections",
+            "counting_basis": "Inherited public assertion; original source not supplied.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-570afe636290cbc7f8d2b839",
+            "source-1a1f93c5ff854df355f8c396"
+          ]
+        },
+        {
+          "id": "dk-inherited-products",
+          "kind": "statistics",
+          "text": "33 product controls.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-16",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Product controls",
+            "counting_basis": "Inherited public assertion; original source not supplied.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-747698c44d0d3efab102337f",
+            "source-1a1f93c5ff854df355f8c396"
+          ]
+        },
+        {
+          "id": "dk-inherited-company",
+          "kind": "statistics",
+          "text": "73 company-based market-surveillance activities.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": {
+            "as_of": "2026-09-16",
+            "period": "Snapshot in the cited source; exact measurement period not specified.",
+            "units": "Unit behind company-based market-surveillance total not defined",
+            "counting_basis": "Inherited public assertion; original source not supplied.",
+            "overlap_note": "Do not add these counts to other periods or counting units; overlap is not established."
+          },
+          "uncertainty": "Listed online categories sum to 162; the difference from 179 is 17. Categories are not established as exhaustive or mutually exclusive. No inconsistency or missing sector is inferred. Original scope and counting method needed.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-d6e35e4bd8c0aec76d0ed5a2",
+            "source-1a1f93c5ff854df355f8c396"
+          ]
+        },
+        {
+          "id": "dk-inherited-warning",
+          "kind": "monitoring_activity",
+          "text": "At least one major online retailer was notified of accessibility issues in mid-2025, described as a warning; no fines or other measures have been reported.",
+          "authority_or_court": "",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "unknown",
+          "legal_basis": "",
+          "action_type": "Evidence audit of existing entry",
+          "procedural_stage": "unknown",
+          "stage_detail": "Stage is limited to the dated source; no later outcome inferred.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unknown",
+          "statistics": null,
+          "uncertainty": "No dated warning, named company or defined reporting coverage supplied. A country-wide absence of fines cannot be established by this bounded search.",
+          "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive.",
+          "source_refs": [
+            "source-8493fb492d32ba929346de88"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "priority": "Follow-up",
+          "question": "Supply the 16 September report and provenance for the retailer warning.",
+          "owner": "Maintainer / future authorised researcher",
+          "resolved_when": "Confirm units, scope, overlap and whether sector subtotals are partial; qualify no-fines wording by source/date."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        }
+      ]
+    }
+  },
+  "deliveries": [
+    {
+      "id": "denmark-mailbox-review",
+      "country": "Denmark",
+      "recorded_on": "2026-09-25",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "already_present",
+          "reason": "Mailbox ambiguity and provenance are already recorded; watcher evidence adds no supported assertion.",
+          "next_action": "Retain existing qualifications and open questions.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No additional relevant finding from this reviewed item.",
+          "next_action": "None for this evidence",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No additional relevant finding from this reviewed item.",
+          "next_action": "None for this evidence",
+          "pr": null,
+          "domain": "sanctions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Monitoring agencies specification
 
-Follow [workflow](workflow.md), [evidence](evidence.md) and [review](review.md). Publication: monitoring-agencies-information.md. Country records currently use research/<country>.json and [the monitoring schema](country-record.schema.json). Use one-country drafts titled `Audit <country> EAA authorities and reporting routes`; keep at most one monitoring research PR open. Shared evidence handoffs may update other relevant research records without broadening the public edit. New country research requires explicit authorisation; historical five-country pilots do not authorise automatic rollout.
+Follow [workflow](workflow.md), [evidence](evidence.md) and [review](review.md). Publication: monitoring-agencies-information.md. Country records use research/countries/<country>.json, domains.monitoring; read the [shared storage contract](research/README.md). The [monitoring schema](country-record.schema.json) validates the expanded domain view. Use one-country drafts titled `Audit <country> EAA authorities and reporting routes`; keep at most one monitoring research PR open. Shared evidence handoffs may update other relevant research records without broadening the public edit. New country research requires explicit authorisation; historical five-country pilots do not authorise automatic rollout.
 
 ## Research and verification checklist
 
@@ -10,7 +10,7 @@ Research collects these items; verification independently checks the same items 
 2. Search for an explicit government or competent monitoring-body instruction about the form, audience, and location of the EAA information. Do not infer a public page from a law's general information duty, a WAD statement on an authority's own website, or the mere existence of a company's page. Add country-specific questions when local law or agencies require them.
 3. Audit the Monitoring agencies column against the implementing law and official government or competent-body rosters. Map every covered product and service sector to its responsible monitoring authority, then compare that map with every agency already listed. Record missing agencies, unsupported sector assignments, and sectors whose authority is still unknown. Open each existing agency link and check that it resolves to the named authority's correct official website or relevant official page, including redirects; flag missing, outdated, or incorrect links separately from the authority's remit. Record one `authority` claim per authority and sector, plus a coverage conclusion and outstanding gaps in `review_note` or `questions`. Do not treat a partial roster as complete.
 4. For each reporting claim, find the competent authority's own current instructions and a concrete form URL, accepted email address, or postal/in-person address. State the sector and whether the route is explicitly for EAA complaints or a general complaint channel. Do not use a contact email when the authority directs the public elsewhere.
-5. Write one claim per item in `.github/agents/research/<country>.json`. Include precise evidence URLs, short paraphrases or section references, access date, jurisdiction, directive context, and unresolved translation questions. Use `unknown` where evidence is absent.
+5. Write one claim per item in `domains.monitoring` in `.github/agents/research/countries/<country>.json`. Include precise evidence URLs, short paraphrases or section references, access date, jurisdiction, directive context, and unresolved translation questions. Use `unknown` where evidence is absent.
 6. Classify every source by type. Keep secondary or other sources only as `other_unverified` leads with `status: unverified_source`, clearly separate from evidence that can verify a claim. Hand off the record without editing the public table.
 
 
@@ -30,7 +30,7 @@ For every listed jurisdiction, use the last column for a short `⚖️ EAA imple
 
 - Publish only the concise information readers need: the authority and sector, a usable reporting route, relevant reporting languages, and the implementing-law link.
 - Put a supported language statement such as “PTS accepts reporting in English 🇬🇧” in the reporting column. Do not repeat it in Additional information.
-- Keep evidence excerpts, correspondence dates and provenance, verification history, detailed qualifications, monitoring-process descriptions, and unresolved research questions in `.github/agents/research/<country>.json` or PR feedback.
+- Keep evidence excerpts, correspondence dates and provenance, verification history, detailed qualifications, monitoring-process descriptions, and unresolved research questions in `domains.monitoring` in `.github/agents/research/countries/<country>.json` or PR feedback.
 - Do not add explanatory reporting paragraphs to Additional information merely because new evidence was found. Keep that column to useful links, the law reference, and essential brief context.
 - Retain a short scope or prerequisite when omitting it would make an entry misleading. Concision must not broaden a claim beyond its evidence.
 - Before handing off, remove repetition and research narration from the proposed row. Preserve useful manually gathered information and existing Yes/No answers under the rules above.
@@ -40,7 +40,7 @@ Output: proposed row diff, source-to-claim mapping, and unresolved presentation 
 
 ## Consistent sector structure in both columns
 
-Use the same sector-first structure in Monitoring agencies and Reporting tools for every country. Use these shared labels where applicable: Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books, and 112 emergency calls. Country-specific subcategories add precision beneath a label rather than replace the common vocabulary.
+Use the same sector-first structure in Monitoring agencies and Reporting tools for every country. Use the canonical sector labels/order in [registry.json](registry.json). Country-specific subcategories add precision beneath a label rather than replace the common vocabulary.
 
 In Monitoring agencies, use `<p><strong>Sector:</strong></p>` followed by a `<ul>` of responsible authorities linked to their verified official websites. An authority name alone is insufficient unless its sector heading states the full relevant remit. Add only essential scope limits or delegation details to each list item. Preserve local names. Do not imply every authority listed under a sector supervises the entire sector; retain banking subsets, transport elements, product boundaries and delegated responsibilities. Clearly distinguish statutory authority classes from identified offices.
 
