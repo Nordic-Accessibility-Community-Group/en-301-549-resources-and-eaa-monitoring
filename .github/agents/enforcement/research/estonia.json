@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Official TTJA/CPTRA second reply of 25 September 2026 supplied and inspected. Monitoring activity is attributed to that reply, not independently observed. Related service-information/testing details are retained in ../../research/estonia.json (PR #55 until merged)."
+    "Official TTJA/CPTRA second reply of 25 September 2026 supplied and inspected. Monitoring activity is attributed to that reply, not independently observed. Related service-information/testing details are retained in ../../research/estonia.json (PR #55 until merged).",
+    "This public-source pass predates the merged direct-correspondence review in PR #57. Its derivative lead is superseded by the two verified claims retained here."
   ],
   "public_entry_ids": [
     "estonia-1"
@@ -20,6 +21,17 @@
       "sources_checked": [],
       "limitations": "Correspondence-only evidence pass; no independent authentication, exact start date, case identifiers, formal warning decisions, fines or completed remediation established.",
       "next_check": "Obtain later dated outcomes or decisions before expanding procedural claims."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.ttja.ee ligipääsetavus järelevalve 2026 e-pood",
+      "sources_checked": [
+        "https://www.ttja.ee/eraklient/tarbija-oigused/ligipaasetavus/toodete-ligipaasetavus",
+        "https://www.ttja.ee/ariklient/ettevotlus/ligipaasetavus/teenuste-digiligipaasetavus",
+        "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/55"
+      ],
+      "limitations": "Public-source discovery did not establish additional case outcomes. The derivative PR #55 lead was superseded by the original-correspondence review merged in PR #57; its verified claims and public row are preserved without re-verification here.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [

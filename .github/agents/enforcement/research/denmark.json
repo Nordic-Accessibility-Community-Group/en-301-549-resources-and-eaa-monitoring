@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Read requirements and reporting guidance; no corroboration of inherited 16 September counts. Guidance uses agency naming that may lag organisational changes; not used to revise authority roster. Existing figures and warning claim retained without promotion."
   ],
   "public_entry_ids": [
     "denmark-1"
@@ -22,6 +23,16 @@
       ],
       "limitations": "Searches did not retrieve the figures or warning. General guidance does not verify a case.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.sik.dk tilgængelighedskrav kontrol 2026",
+      "sources_checked": [
+        "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+        "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed"
+      ],
+      "limitations": "Read requirements and reporting guidance; no corroboration of inherited 16 September counts. Guidance uses agency naming that may lag organisational changes; not used to revise authority roster. Existing figures and warning claim retained without promotion. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -208,6 +219,12 @@
       "question": "Supply the 16 September report and provenance for the retailer warning.",
       "owner": "Maintainer / future authorised researcher",
       "resolved_when": "Confirm units, scope, overlap and whether sector subtotals are partial; qualify no-fines wording by source/date."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

@@ -10,7 +10,8 @@
   "knowledge_notes": [
     "Original czechia-1 row is preserved by its pinned baseline at f06450eca836087e73c9295485d52c338996a28b. This pass replaces the secondary-source prediction with a narrow statement about what ČOI’s own guidance links to.",
     "Reportable activity found means the guidance links to a statutory list; it does not mean a business was found in breach, fined or subject to a final decision.",
-    "The linked list could not be inspected. The web reader returned Internal Error on its link; a browser retry was denied because the admin-enforced security-policy check was unavailable. No workaround was attempted. No publication/event date for the list has been established."
+    "The linked list could not be inspected. The web reader returned Internal Error on its link; a browser retry was denied because the admin-enforced security-policy check was unavailable. No workaround was attempted. No publication/event date for the list has been established.",
+    "All Monitoring agencies research, 25 September 2026: Fresh targeted search did not establish a new inspection outcome. Reused same-day recorded source audit and its access limits; did not retry the browser-denied site or present the statutory list as completed enforcement. Existing verified list-reference claim preserved."
   ],
   "public_entry_ids": [
     "czechia-1"
@@ -25,6 +26,15 @@
       ],
       "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:coi.gov.cz přístupnost 2026 kontroly seznam výrobků služeb. Follow-up: site:coi.gov.cz \"Seznam výrobků a služeb\" \"přístupnost\". Guidance retrieved; linked-list reader failed once. Browser retry denied at parent page by unavailable security-policy check; list destination not exposed. No further list access attempted.",
       "next_check": "Read the underlying list and record its dates, scope and any actual measures on a later pass."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.coi.gov.cz \"přístupnost\" \"kontrol\" \"2026\"",
+      "sources_checked": [
+        "https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/"
+      ],
+      "limitations": "Fresh targeted search did not establish a new inspection outcome. Reused same-day recorded source audit and its access limits; did not retry the browser-denied site or present the statutory list as completed enforcement. Existing verified list-reference claim preserved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -126,6 +136,12 @@
       "question": "Does the secondary report’s separate GPSR statement have official support?",
       "owner": "Future enforcement researcher",
       "resolved_when": "A relevant official GPSR publication is checked if that claim is proposed for publication."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

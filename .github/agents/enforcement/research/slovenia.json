@@ -4,14 +4,16 @@
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
   "research_state": "partially_researched",
-  "search_result": "not_assessed",
+  "search_result": "reportable_activity_found",
   "attempted_on": "2026-09-25",
-  "verified_on": null,
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Read 16 April 2026 RTV decision summary. E-book decisions 0612-6/2026/6(Beletrina,2 July) and 0612-5/2026/3(Mladinska knjiga,10 June) appear in index but linkeddetail fetch failed twice each. Their outcomes remain unverified and are not published. Existing unlinked warning/no-fines assertion preserved."
   ],
   "public_entry_ids": [
-    "slovenia-1"
+    "slovenia-1",
+    "slovenia-monitoring-2026"
   ],
   "attempts": [
     {
@@ -22,6 +24,16 @@
       ],
       "limitations": "No dated source for inherited assertions found. Index references are leads, not findings about warnings, fines or final outcomes.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.akos-rs.si \"0612-6/2026\"",
+      "sources_checked": [
+        "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod",
+        "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2"
+      ],
+      "limitations": "Read 16 April 2026 RTV decision summary. E-book decisions 0612-6/2026/6(Beletrina,2 July) and 0612-5/2026/3(Mladinska knjiga,10 June) appear in index but linkeddetail fetch failed twice each. Their outcomes remain unverified and are not published. Existing unlinked warning/no-fines assertion preserved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -66,6 +78,40 @@
       "statistics": null,
       "uncertainty": "The entry supplies no authority, sector, warning date or source. No-fines coverage and cutoff unknown.",
       "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "si-akos-rtv-accessibility-inspection-2026",
+      "kind": "monitoring_activity",
+      "text": "Audiovisual access: In its decision summary dated 16 April 2026 (06122-2/2026/2), AKOS reported that it had checked accessibility features on a computer in two catch-up news programmes on Radiotelevizija Slovenija’s web service. It found that the subtitles, spoken subtitles and sign-language interpretation it checked complied with ZDPSI and the relevant accessibility regulation. This finding concerns the tested features and programmes.",
+      "authority_or_court": "AKOS",
+      "case_identifier": "06122-2/2026/2",
+      "sectors": [
+        "Audiovisual access"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "ZDPSI Article 10(1),second indent, and regulation on accessibility of services providing access to audiovisual media services",
+      "action_type": "Officially reported monitoring or complaint activity",
+      "procedural_stage": "unknown",
+      "stage_detail": "Summary supports limited inspection findings. Does not establish whole-platform compliance, full operative closure text, or absence of other cases. Source names web service RTV 356; public wording avoids silently correcting that name.",
+      "event_on": "2026-03-04",
+      "published_on": "2026-04-16",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2",
+          "source_type": "official_authority_publication",
+          "reference": "Official summary 06122-2/2026/2,16 April 2026",
+          "passage": "English evidence summary: AKOS checked catch-up on a computer on 4 March 2026, two news programmes broadcast 3 March. One used subtitles/spoken subtitles; the other subtitles/sign language. The tested components complied with ZDPSI and the relevant regulation.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Summary supports limited inspection findings. Does not establish whole-platform compliance, full operative closure text, or absence of other cases. Source names web service RTV 356; public wording avoids silently correcting that name.",
+      "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass."
     }
   ],
   "questions": [
@@ -74,6 +120,12 @@
       "question": "Which authority, cases and cutoff support the warnings/no-fines entry?",
       "owner": "Maintainer / future authorised researcher",
       "resolved_when": "Retrieve the original dated provenance; do not generalise across authorities or rely on an index as a decision."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

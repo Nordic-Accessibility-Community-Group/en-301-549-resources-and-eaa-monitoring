@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "country": "Canada",
+  "jurisdiction_group": "non-EU",
+  "created_on": "2026-09-25",
+  "research_state": "partially_researched",
+  "search_result": "reportable_activity_found",
+  "attempted_on": "2026-09-25",
+  "verified_on": "2026-09-25",
+  "knowledge_notes": [
+    "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+    "All Monitoring agencies research, 25 September 2026: Read official HTML annual report 2025–2026, published 16 June 2026. Planning/reporting inspections include inaccessible documents. Summary says over 250 completed inspections while narrative distinguishes over 250 initiated and over 160 concluded; do not publish unreconciled totals. Federal scope only; provincial and transport/telecom-specific enforcement not comprehensively reviewed."
+  ],
+  "public_entry_ids": [
+    "canada-monitoring-2026"
+  ],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.accessibilitychrc.ca enforcement 2026 inspection accessibility digital",
+      "sources_checked": [
+        "https://www.chrc-ccdp.gc.ca/resources/publications/accessibility-commissioner-canadas-2025-2026-annual-report"
+      ],
+      "limitations": "Read official HTML annual report 2025–2026, published 16 June 2026. Planning/reporting inspections include inaccessible documents. Summary says over 250 completed inspections while narrative distinguishes over 250 initiated and over 160 concluded; do not publish unreconciled totals. Federal scope only; provincial and transport/telecom-specific enforcement not comprehensively reviewed. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ca-accessibility-commissioner-inspections-2025-2026",
+      "kind": "monitoring_activity",
+      "text": "Canada’s Accessibility Commissioner reported inspections of federally regulated organisations during 2025–2026 under the Accessible Canada Act and its regulations. The inspections concerned accessibility plans, feedback process descriptions and progress reports. Findings included documents published in inaccessible formats. These findings concern Canadian law. They are not EAA enforcement findings or results from the new ICT requirements due to take effect in 2027.",
+      "authority_or_court": "Accessibility Commissioner of Canada",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "other_law",
+      "legal_basis": "Accessible Canada Act and Accessible Canada Regulations",
+      "action_type": "Officially reported monitoring or complaint activity",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Report headline says over 250 completed inspections while narrative says over 250 initiated and over 160 concluded. Omit unreconciled totals. Federal scope only; do not infer province-wide findings.",
+      "event_on": null,
+      "published_on": "2026-06-16",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.chrc-ccdp.gc.ca/resources/publications/accessibility-commissioner-canadas-2025-2026-annual-report",
+          "source_type": "official_authority_publication",
+          "reference": "2025–2026 Annual Report: By the numbers; Inspections; Publication and retention issues; ICT",
+          "passage": "English evidence summary: federal inspections concerned publication/notification of plans, feedback-process descriptions and progress reports. Findings include inaccessible publication formats. New ICT operational requirements enter into force 2027; these are not their enforcement results.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Report headline says over 250 completed inspections while narrative says over 250 initiated and over 160 concluded. Omit unreconciled totals. Federal scope only; do not infer province-wide findings.",
+      "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass."
+    }
+  ],
+  "questions": [
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+    }
+  ]
+}

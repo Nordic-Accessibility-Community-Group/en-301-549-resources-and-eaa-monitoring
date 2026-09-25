@@ -4,20 +4,22 @@
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
   "research_state": "partially_researched",
-  "search_result": "not_assessed",
+  "search_result": "reportable_activity_found",
   "attempted_on": "2026-09-25",
-  "verified_on": null,
+  "verified_on": "2026-09-25",
   "knowledge_notes": [
     "Inherited row germany-1 and Commission row are preserved at base f06450eca836087e73c9295485d52c338996a28b; see baseline-map.json for original row locations. Public wording remains unchanged.",
     "The cited article describes BIK certification/testing policy. Its linked BIK method section 4.1.1 supports that policy description but identifies no court or civil proceeding. This disputes the row classification, not the existence of any German enforcement.",
     "BIK is a first-party source for its own methodology, but is not treated as a competent enforcement authority under this workflow. Its source type remains other_unverified for enforcement claims; this does not mean the methodology page was unreadable or its authorship disputed.",
     "The separate Croatia/Germany Commission entry is outside this pass; no verification status or date is assigned to it.",
     "Shared Commission entry audited in this pass; the single proceeding record is Croatia claim eu-croatia-germany-additional-opinions-20260311. Prior Germany overlay audit is unchanged.",
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Initial domain searches did not identify the authority publication; search result led to current MLBF site. 1 June 2026 article states nationwide work began September 2025 and monitoring since then. No individual sanctions identified. Preserve unrelated inherited overlay statement without promotion."
   ],
   "public_entry_ids": [
     "germany-1",
-    "commission-croatia-germany-1"
+    "commission-croatia-germany-1",
+    "germany-monitoring-2026"
   ],
   "attempts": [
     {
@@ -38,6 +40,16 @@
       ],
       "limitations": "Do not duplicate the shared claim or treat the Commission proceeding as business enforcement.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.mluv.sachsen-anhalt.de marktüberwachung barrierefreiheit 2026 kontrollen; site.mlbf.sachsen-anhalt.de 2026 Überprüfung; site.mlbf.sachsen-anhalt.de Barrierefreiheit",
+      "sources_checked": [
+        "https://mlbf-barrierefrei.de/",
+        "https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&ModID=7&object=tx%2C4290.5.1"
+      ],
+      "limitations": "Initial domain searches did not identify the authority publication; search result led to current MLBF site. 1 June 2026 article states nationwide work began September 2025 and monitoring since then. No individual sanctions identified. Preserve unrelated inherited overlay statement without promotion. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -125,6 +137,38 @@
       "statistics": null,
       "uncertainty": "No case identifier, procedural event or event date supports this inherited label in the materials read.",
       "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "de-mlbf-nationwide-monitoring-2026",
+      "kind": "monitoring_activity",
+      "text": "In a publication dated 1 June 2026, Germany’s joint market surveillance authority (MLBF) reported that it had begun nationwide work in September 2025. Since then, it had been monitoring compliance with the Barrierefreiheitsstärkungsgesetz (BFSG). The publication does not identify individual cases or sanctions.",
+      "authority_or_court": "Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "Barrierefreiheitsstärkungsgesetz (BFSG)",
+      "action_type": "Officially reported monitoring or complaint activity",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Exact starting day and individual case/sector breakdown absent. Date below is publication, not invented start date.",
+      "event_on": null,
+      "published_on": "2026-06-01",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&ModID=7&object=tx%2C4290.5.1",
+          "source_type": "official_authority_publication",
+          "reference": "1 June 2026 publication, opening paragraphs",
+          "passage": "English evidence summary: the joint authority of 16 federal states began nationwide activity in September 2025 and has since monitored implementation of BFSG requirements. The article discusses establishment/first checking processes, without named cases or penalties.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+        }
+      ],
+      "statistics": null,
+      "uncertainty": "Exact starting day and individual case/sector breakdown absent. Date below is publication, not invented start date.",
+      "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass."
     }
   ],
   "questions": [
@@ -139,6 +183,12 @@
       "question": "Verify the shared Commission entry separately.",
       "owner": "Future enforcement researcher",
       "resolved_when": "Its official decision, publication date and procedural stage are checked in an authorised pass."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

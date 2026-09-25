@@ -102,9 +102,12 @@ Type can be:
           </ul>
         </li>
       </ul>
-      </td>
+
+      <p>On 30 June 2026, Traficom reported that it had already received complaints and enquiries concerning consumer services newly covered by the Finnish Act on the Provision of Digital Services. The publication does not state how many complaints or enquiries it received or give any case outcomes.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://uutiskirje.traficom.fi/viestinta/saavutettavuus-sujuvoittaa-arjen-asiointia.html">Traficom newsletter, 30 June 2026</a>.</p>
+    </td>
     <td>2025-10-03</td>
-    <td>2026-08-14</td>
+    <td>2026-09-25</td>
   </tr>
   <tr>
     <td>France</td>
@@ -117,6 +120,9 @@ Type can be:
         <li>DGCCRF agents may order professionals to bring products and services into compliance. Orders may include penalty payments and measures to publicise the orders.</li>
         <li>Sources: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">SignalConso reporting guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">professional declaration guidance</a>.</li>
       </ul>
+
+      <p>E-commerce: On 4 September 2026, DGCCRF reported that it had checked more than 20 websites since the start of 2026. It planned action to correct or penalise breaches for half of the websites checked. Several platforms and retailers had committed to making their websites compliant by the end of 2026; final investigation results were expected in early 2027.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf">DGCCRF interim report, 4 September 2026 (PDF, p. 2)</a>.</p>
     </td>
     <td>2026-07-03</td>
     <td>2026-09-25</td>
@@ -140,6 +146,17 @@ Type can be:
   </tr>
   <tr>
     <td>Germany</td>
+    <td>Monitoring agency</td>
+    <td>Monitoring reported</td>
+    <td>
+      <p>In a publication dated 1 June 2026, Germany’s joint market surveillance authority (MLBF) reported that it had begun nationwide work in September 2025. Since then, it had been monitoring compliance with the Barrierefreiheitsstärkungsgesetz (BFSG). The publication does not identify individual cases or sanctions.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&amp;ModID=7&amp;object=tx%2C4290.5.1">MLBF monitoring update, 1 June 2026</a>.</p>
+    </td>
+    <td>2026-09-25</td>
+    <td>2026-09-25</td>
+  </tr>
+  <tr>
+    <td>Germany</td>
     <td>Civil action</td>
     <td>Active</td>
     <td>
@@ -158,9 +175,12 @@ Type can be:
       <ul>
         <li>"The Commission for Communications Regulation (ComReg) has started to process consumer complaints, including one against Ireland’s largest mobile telecommunications company, Three. It’s been reported that Three has been responsive and active in the wake of the formal processing of the complaint." Source: <a href="https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe">Early signs of EAA enforcement across Europe, by Matthew Luken.</a></li>
       </ul>
+
+      <p>In its 2025 annual report, the Competition and Consumer Protection Commission (CCPC) reported receiving 53 complaints and 16 exemption claims under the EAA during 2025. The report said these were being addressed, with results expected in 2026. These figures count complaints and exemption claims; they do not establish confirmed violations or approved exemptions.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf">CCPC Annual Report 2025 (PDF, p. 11)</a>.</p>
     </td>
     <td>2025-12-19</td>
-    <td>-</td>
+    <td>2026-09-25</td>
   </tr>
   <tr>
     <td>Netherlands</td>
@@ -175,6 +195,17 @@ Type can be:
       </ul>
     </td>
     <td>2025-11-20</td>
+    <td>2026-09-25</td>
+  </tr>
+  <tr>
+    <td>Slovenia</td>
+    <td>Monitoring agency</td>
+    <td>Inspection findings</td>
+    <td>
+      <p>Audiovisual access: In its decision summary dated 16 April 2026 (06122-2/2026/2), AKOS reported that it had checked accessibility features on a computer in two catch-up news programmes on Radiotelevizija Slovenija’s web service. It found that the subtitles, spoken subtitles and sign-language interpretation it checked complied with ZDPSI and the relevant accessibility regulation. This finding concerns the tested features and programmes.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2">AKOS decision summary, 16 April 2026</a>.</p>
+    </td>
+    <td>2026-09-25</td>
     <td>2026-09-25</td>
   </tr>
   <tr>
@@ -245,6 +276,17 @@ Type can be Government agency, Monitoring agencies with authority to take action
     <th>Date updated</th>
   </tr>
   <tr>
+    <td>Canada</td>
+    <td>Government agency — other accessibility law</td>
+    <td>Monitoring reported</td>
+    <td>
+      <p>Canada’s Accessibility Commissioner reported inspections of federally regulated organisations during 2025–2026 under the Accessible Canada Act and its regulations. The inspections concerned accessibility plans, feedback process descriptions and progress reports. Findings included documents published in inaccessible formats. These findings concern Canadian law. They are not EAA enforcement findings or results from the new ICT requirements due to take effect in 2027.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://www.chrc-ccdp.gc.ca/resources/publications/accessibility-commissioner-canadas-2025-2026-annual-report">Accessibility Commissioner’s 2025–2026 annual report</a>.</p>
+    </td>
+    <td>2026-09-25</td>
+    <td>2026-09-25</td>
+  </tr>
+  <tr>
     <td>Norway</td>
     <td>Government agency — other accessibility law</td>
     <td>Closed</td>
@@ -254,6 +296,17 @@ Type can be Government agency, Monitoring agencies with authority to take action
       <p><strong>Official authority publication:</strong> <a href="https://www.uutilsynet.no/tilsyn/tilsyn-med-helseplattformen-vert-avslutta/3123">Uu-tilsynet’s closure notice</a>.</p>
     </td>
     <td>2025-12-19</td>
+    <td>2026-09-25</td>
+  </tr>
+  <tr>
+    <td>United Kingdom</td>
+    <td>Government agency — other accessibility law</td>
+    <td>Monitoring reported</td>
+    <td>
+      <p>The Government Digital Service’s report published on 17 December 2024 covers monitoring from January 2022 to September 2024 under the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. It reports testing 1,203 websites and 21 mobile apps. Since January 2022, the Equality and Human Rights Commission (EHRC) had sent initial letters to 93 public bodies in England and Wales. The report says that 66 of these bodies became compliant without EHRC needing to take enforcement action. This is public-sector accessibility work under UK law, not EAA enforcement.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://www.gov.uk/government/publications/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024">GDS monitoring report, 2022–2024</a>.</p>
+    </td>
+    <td>2026-09-25</td>
     <td>2026-09-25</td>
   </tr>
 </table>

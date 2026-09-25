@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions."
   ],
   "public_entry_ids": [
     "netherlands-1"
@@ -22,6 +23,15 @@
       ],
       "limitations": "Historical report confirmed. No later sanction or inspection outcome claimed.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.acm.nl toegankelijkheid toezicht september 2026",
+      "sources_checked": [
+        "https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities"
+      ],
+      "limitations": "Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -102,5 +112,12 @@
       "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
     }
   ],
-  "questions": []
+  "questions": [
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+    }
+  ]
 }

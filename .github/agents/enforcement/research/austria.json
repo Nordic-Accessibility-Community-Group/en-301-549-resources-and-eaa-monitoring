@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Ministry market-surveillance explanation and reporting guidance describe remit and possible measures; no dated inspection outcome identified. Existing contributor claims remain unresolved."
   ],
   "public_entry_ids": [
     "austria-1"
@@ -22,6 +23,16 @@
       ],
       "limitations": "General powers are not proof of these specific monitoring practices. No case outcomes inferred.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.sozialministeriumservice.gv.at Barrierefreiheitsgesetz Kontrollen 2026",
+      "sources_checked": [
+        "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+        "https://sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontakt-fuer-Hinweisgeberinnen-nach-Barrierefreiheitsgesetz/Kontakt-fuer-Hinweisgeber-innen-nach-Barrierefre.de.html"
+      ],
+      "limitations": "Ministry market-surveillance explanation and reporting guidance describe remit and possible measures; no dated inspection outcome identified. Existing contributor claims remain unresolved. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -200,6 +211,12 @@
       "question": "Provide dated support for testing, company contacts, quarterly reports, selection criteria and closure policy.",
       "owner": "Maintainer / future authorised researcher",
       "resolved_when": "A shareable correspondence reference or primary operational publication identifies the authority, date and scope."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

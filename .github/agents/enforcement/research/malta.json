@@ -3,23 +3,34 @@
   "country": "Malta",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "No public entry for this country is mapped at setup. This is not evidence that no enforcement exists; no country research has been undertaken in this workflow."
+    "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+    "All Monitoring agencies research, 25 September 2026: Search found authority-designation release and annual report lead. Annual report could not be retrieved by web or download(403). No case verified; accessible annual report is a concrete next source, not evidence of no activity."
   ],
   "public_entry_ids": [],
-  "attempts": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.crpd.org.mt European Accessibility Act enforcement 2026; site.crpd.org.mt \"annual report 2025\"",
+      "sources_checked": [
+        "https://inclusion.gov.mt/wp-content/uploads/2025/07/PR-European-Accessibility-Act-EN_300625_final.pdf",
+        "https://www.crpd.org.mt/wp-content/uploads/2026/08/CRPD-AR-2026-English-jun29-dps.pdf"
+      ],
+      "limitations": "Search found authority-designation release and annual report lead. Annual report could not be retrieved by web or download(403). No case verified; accessible annual report is a concrete next source, not evidence of no activity. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+    }
+  ],
   "claims": [],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "On a separately authorised research pass, inventory available enforcement knowledge and record sources and limits; add a public entry only if supported relevant activity is found.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }
