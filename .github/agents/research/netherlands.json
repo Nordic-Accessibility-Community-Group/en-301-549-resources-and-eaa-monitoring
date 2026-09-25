@@ -1,0 +1,560 @@
+{
+  "country": "Netherlands",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "The Netherlands implemented Directive (EU) 2019/882 by the Implementatiewet toegankelijkheidsvoorschriften producten en diensten, with sector-specific implementing instruments.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://wetten.overheid.nl/BWBR0049571/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official indexed legislation identifies BWBR0049571 as the 8 April 2024 EAA implementing act.",
+          "section": "Title",
+          "source_type": "legislation"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government identifies the Dutch transposition and commencement of covered duties on 28 June 2025.",
+          "section": "Introduction",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Existing official act link retained. The legislation host was robots-blocked in the text reader; its indexed title and government explanation were available. Sector instruments include product, e-book, audiovisual and communications implementing decisions; this umbrella link does not replace those instruments.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "For covered e-commerce and electronic communications, ACM directs providers to publish a readily findable, accessible statement on the website and app.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+          "accessed_on": "2026-09-24",
+          "evidence": "ACM explicitly says to place a statement on the website and app describing conformity and make it easy for consumers to find and accessible.",
+          "section": "Toegankelijkheidsverklaring",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Existing Yes preserved. Original: 'Op uw website en app plaatst u een verklaring ... Deze verklaring moet eenvoudig vindbaar zijn voor de consument en toegankelijk zijn.' Literal: place a statement on website and app; must be easy to find and accessible. Separate Dutch-to-English agent 2026-09-24: Supported; do not infer that the same placement applies in every sector.",
+      "directive_context": "EAA",
+      "existing_text": "✔️ Yes",
+      "information_mode": "dedicated_public_page",
+      "scope": "E-commerce; electronic communications"
+    },
+    {
+      "field": "statement",
+      "assertion": "AFM tells consumer banking and financial e-commerce service providers to prepare an accessibility-statement document, publicly available in writing and orally, without specifying a standalone webpage in the cited passage.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM FAQ says a statement document is required and accessible in writing and orally, e.g. website or brochure and oral request via telephone.",
+          "section": "Moet ik een toegankelijkheidsverklaring opstellen?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Original: 'Ja, alle dienstverleners die bankdiensten en e-handelsdiensten verlenen aan consumenten ... De informatie moet schriftelijk en mondeling ter beschikking worden gesteld aan het publiek.' Literal: all consumer banking/e-commerce providers prepare a statement; make information available to public in writing and orally. Isolated language reviewer 2026-09-24: Supported, but only AFM remit is financial e-commerce. This is a separate mode from ACM website placement.",
+      "directive_context": "EAA",
+      "information_mode": "public_other",
+      "scope": "Consumer banking and financial e-commerce"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Conformity information appears in public terms or equivalent documents for covered services, but national sector-specific placement has not been established for every sector in this bounded review.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM provides examples of a website or brochure; does not establish a sector-universal terms/equivalent rule.",
+          "section": "Moet ik een toegankelijkheidsverklaring opstellen?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "The EAA Annex V sets a terms/equivalent baseline. Verify sector-specific Dutch implementation before asserting identical publication mode for all sectors.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "AFM says consumers may request oral accessibility information by telephone; a general public-on-request-only model is not established.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM says the statement information must be public in writing and orally, oral availability can be requested by telephone.",
+          "section": "Moet ik een toegankelijkheidsverklaring opstellen?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Do not recharacterize this as permission to withhold public written information.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request",
+      "scope": "AFM-supervised consumer services"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The precise Dutch authority-on-request duties for service conformity information were not verified sector by sector.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "EAA Article 13(5) is a lead, not proof of identical national sector provisions or an assertion for the public table.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "RDI monitors Products.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government assigns all covered products to RDI; official RDI page identifies products remit.",
+          "section": "Supervision / sector remit",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "authority",
+      "assertion": "ACM monitors E-commerce; electronic communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+          "accessed_on": "2026-09-24",
+          "evidence": "ACM identifies its remit for e-commerce and electronic communications.",
+          "section": "Supervision / sector remit",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books. Follow-up language recheck: the Dutch roster does not explicitly exclude financial e-commerce from ACM general e-commerce wording; final table omits that exclusion and separately lists AFM financial remit.",
+      "directive_context": "EAA",
+      "scope": "E-commerce; electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "AFM monitors Consumer banking; financial e-commerce.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM explicitly identifies banking and financial e-commerce remit.",
+          "section": "Supervision / sector remit",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books.",
+      "directive_context": "EAA",
+      "scope": "Consumer banking; financial e-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "ILT monitors Covered passenger transport by air, bus, rail, water.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ilent.nl/onderwerpen/passagiersrechten/digitale-toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government and ILT identify digital passenger-transport elements.",
+          "section": "Supervision / sector remit",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.ilent.nl/onderwerpen/passagiersrechten/digitale-toegankelijkheid reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books.",
+      "directive_context": "EAA",
+      "scope": "Covered passenger transport by air, bus, rail, water"
+    },
+    {
+      "field": "authority",
+      "assertion": "CvdM monitors E-books; services providing access to audiovisual media services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cvdm.nl/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government lists e-books and services providing access to audiovisual media.",
+          "section": "Supervision / sector remit",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.cvdm.nl/ reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books.",
+      "directive_context": "EAA",
+      "scope": "E-books; services providing access to audiovisual media services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Inspectie Justitie en Veiligheid monitors 112 emergency calls.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/alarmnummer-112/waar-kan-ik-terecht-met-een-klacht-over-alarmnummer-112",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government identifies accessibility of emergency number 112 as the inspectorate's remit.",
+          "section": "Supervision / sector remit",
+          "source_type": "government"
+        },
+        {
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/toegankelijkheid-producten-en-diensten-voor-mensen-met-een-beperking-flink-verbeterd-door-eu-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government's complete six-body roster assigns each sector.",
+          "section": "Toezicht",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link check 2026-09-24: https://www.rijksoverheid.nl/vraag-en-antwoord/alarmnummer-112/waar-kan-ik-terecht-met-een-klacht-over-alarmnummer-112 reachable, correct government or authority page; CvdM homepage identifies its name and links to accessibility oversight. All six existing names retained; links added. Isolated Dutch-to-English review 2026-09-24: corrected broad ACM 'other consumer services' to e-commerce and narrowed CvdM to e-books.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "RDI accepts consumer reports about covered inaccessible digital products via its form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn/meldpunt-voor-consumenten",
+          "accessed_on": "2026-09-24",
+          "evidence": "Form is visible and asks for product and problem details.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Official form reached with visible inputs. Dutch-language page; acceptance of other languages unknown; no login shown.",
+      "directive_context": "EAA",
+      "scope": "Products",
+      "reporting_route": {
+        "authority": "RDI",
+        "sector": "Products",
+        "channel": "form",
+        "destination": "https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn/meldpunt-voor-consumenten",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "RDI product-company non-compliance or exemption filing route not verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn",
+          "accessed_on": "2026-09-24",
+          "evidence": "Authority remit verified; no product-company purpose-specific route verified.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Follow up with RDI; do not infer its consumer form accepts companies.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "ACM ConsuWijzer accepts consumer reports concerning accessibility of e-commerce and electronic communications.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://consument.acm.nl/doe-uw-melding-bij-acm-consuwijzer",
+          "accessed_on": "2026-09-24",
+          "evidence": "ACM consumer page expressly includes accessibility and displays reporting form.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Entry point reachable; requires JavaScript for the form. No submission tested. Dutch page, English acceptance unverified.",
+      "directive_context": "EAA",
+      "scope": "E-commerce; electronic communications",
+      "reporting_route": {
+        "authority": "ACM",
+        "sector": "E-commerce; electronic communications",
+        "channel": "form",
+        "destination": "https://consument.acm.nl/doe-uw-melding-bij-acm-consuwijzer",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "ACM receives non-compliance reports and qualifying fundamental-alteration or disproportionate-burden notifications on the same form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "ACM explicitly describes both purposes and displays form steps.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Original: 'Als uw e-handelsdienst of elektronische communicatiedienst niet toegankelijk is ... Als dit komt doordat ... onevenredige last of ... fundamentele wijziging ... meldt u dat hier ook.' Literal: notify here for inaccessible service and also qualifying exceptions. Isolated language reviewer 2026-09-24 requested stating qualifying exceptions; final table does. Form needs JavaScript, no login shown. The old blanket 1-week/1-month wording omitted the already-corrected exception and applied ACM rules beyond its sector.",
+      "directive_context": "EAA",
+      "scope": "E-commerce; electronic communications",
+      "reporting_route": {
+        "authority": "ACM",
+        "sector": "E-commerce; electronic communications",
+        "channel": "form",
+        "destination": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "AFM receives public accessibility reports about consumer financial services through its consumer form or info@afm.nl when the form cannot be used.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/consumenten/themas/toegankelijke-online-dienstverlening/ontoegankelijkheid-melden-bij-de-afm",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM expressly points to contact page/form, with email fallback.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Contact form reachable. Official email fallback retained only for form difficulties; English landing page exists, not proof English reports accepted.",
+      "directive_context": "EAA",
+      "scope": "Consumer banking; financial e-commerce",
+      "reporting_route": {
+        "authority": "AFM",
+        "sector": "Consumer banking; financial e-commerce",
+        "channel": "form",
+        "destination": "https://www.afm.nl/nl-nl/contact/contactformulier-consumenten",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "AFM accepts EAA non-compliance and Article 14 exemption notifications through its organisation portal.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid/eaa-meldingen",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM specifies both report types and its portal with organisational account.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Portal resolves to sign-in requiring JavaScript and account for organisation; no test account or submission. Original Dutch: 'Deze meldingen doet u in het AFM Portaal ... Iedereen die een AFM-Portaal account heeft voor uw organisatie kan EAA-meldingen doen.' Literal: EAA reports via portal; anyone with org portal account may report. Isolated agent 2026-09-24: Supported.",
+      "directive_context": "EAA",
+      "scope": "Consumer banking; financial e-commerce",
+      "reporting_route": {
+        "authority": "AFM",
+        "sector": "Consumer banking; financial e-commerce",
+        "channel": "form",
+        "destination": "https://portaal.afm.nl/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "ILT directs the public to report inaccessible passenger-transport digital services using its online form, but the linked form could not be made usable in text reader.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.ilent.nl/onderwerpen/passagiersrechten/digitale-toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "ILT explicitly refers to an online form; its link led to a missing-session error on two attempts.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Link outcome: official guidance reachable; form redirected to Not Found/session error on initial and retry. Before PR candidate publication route omitted; verify in ordinary browser as follow-up. No unsupported usable route published. Post-draft ordinary-browser retry 2026-09-24: followed the official guidance link to https://e-loket.ilent.nl/formulier/nl-NL/BasicEnvironment/OverigeOnderwerpen.aspx/OverigeOnderwerpen; navigation timed out and the resulting document remained empty. No usable intake or authentication requirement verified; route remains Unknown. No report submitted.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "ILT company non-compliance and exemption routes not verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.ilent.nl/onderwerpen/passagiersrechten/digitale-toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "Page offers public reporting but not company routes.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "No company route established.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "CvdM provides a public form for reporting accessibility complaints about audiovisual media and e-books, with a labeled anonymous option.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cvdm.nl/doe-een-melding/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official page identifies dedicated accessibility route and anonymous option; link redirects to E-loket login inaccessible to tool.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://toegankelijkheid.cvdm.nl/",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official accessibility link redirected in an ordinary browser to https://eloket.cvdm.nl/f/5007/login; choosing 'Anoniem invullen' opened https://eloket.cvdm.nl/f/5007/w/anoniem with a visible complaint form. No report was submitted.",
+          "section": "Toegankelijkheid / Anoniem invullen",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Authority page reachable and correct. Destination https://toegankelijkheid.cvdm.nl/ redirects to https://eloket.cvdm.nl/f/5007/login (reader error). CvdM says DigiD/eHerkenning or anonymous tip possible, but portal usability is unconfirmed. Omitted pending ordinary-browser check. Post-draft ordinary-browser retry 2026-09-24: the CvdM accessibility portal was reachable, showed public complaint instructions and an 'Anoniem invullen' option. Clicking that option opened a visible form with name, email, message and optional attachment fields; it was not submitted. This verifies the entry route and labeled option, not that identifying fields are never requested or that company reporting uses the route. Separate no-history Dutch-to-English reviewer: original snippets 'U kunt ook melding doen over de toegankelijkheid van audiovisuele media en e-boeken', 'Meld toegankelijkheid hier', 'U kunt er ook voor kiezen om anoniem melding te doen', 'Heeft u een klacht over toegankelijkheid?', 'Anoniem invullen'; literal meaning supports 'Public reports: CvdM accessibility form (anonymous option)' and recommends 'Accessibility of audiovisual media and e-books' over the ambiguous 'Audiovisual access'. Final wording rechecked 2026-09-24; verdict supported with that correction.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access; E-books",
+      "reporting_route": {
+        "authority": "CvdM",
+        "sector": "Accessibility of audiovisual media and e-books",
+        "channel": "form",
+        "destination": "https://toegankelijkheid.cvdm.nl/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "CvdM EAA-specific company non-compliance and exemptions filing route not verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.cvdm.nl/doe-een-melding/",
+          "accessed_on": "2026-09-24",
+          "evidence": "The general portal describes organisational login but does not establish this statutory filing purpose.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Do not equate generic media report and company Article 14 notification.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access; E-books"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "The Justice and Security Inspectorate accepts reports about disabled callers unable to access 112 with assistive technology through its contact form.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/alarmnummer-112/waar-kan-ik-terecht-met-een-klacht-over-alarmnummer-112",
+          "accessed_on": "2026-09-24",
+          "evidence": "Government directs such accessibility reports to inspectorate website and link resolves to contact form.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Form reachable, with required name, telephone and email fields. Original: 'Als u een beperking heeft en 112 niet kunt bereiken met hulpsoftware, kunt u dit melden bij Inspectie Justitie en Veiligheid.' Literal: disabled user unable to reach 112 using assistive software may report; isolated review 2026-09-24: Supported. General complaints about how 112 calls were answered belong to response organisation instead.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls",
+      "reporting_route": {
+        "authority": "Inspectie Justitie en Veiligheid",
+        "sector": "112 emergency calls",
+        "channel": "form",
+        "destination": "https://www.inspectie-jenv.nl/service/contact/professional/contactformulier",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "112-specific company reporting route not verified.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/alarmnummer-112/waar-kan-ik-terecht-met-een-klacht-over-alarmnummer-112",
+          "accessed_on": "2026-09-24",
+          "evidence": "Public 112 accessibility route does not establish company channel.",
+          "section": "Reporting instructions",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Do not reuse public form for company filings.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Original table's form-detail and 1-week/1-month claims require sector qualifiers.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+          "accessed_on": "2026-09-24",
+          "evidence": "ACM requires immediate correction, then reporting within one week or month based on consumer impact if unresolved; updated remediation date triggers a new report.",
+          "section": "Binnen 1 week of 1 maand melden",
+          "source_type": "monitoring_body"
+        },
+        {
+          "url": "https://www.afm.nl/nl-nl/sector/themas/dienstverlening-aan-consumenten/toegankelijkheid/eaa-meldingen",
+          "accessed_on": "2026-09-24",
+          "evidence": "AFM deadlines are conditional on non-correction; exemptions have a separate one-week period after assessment.",
+          "section": "Binnen welke termijn melden?",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "review_note": "Original table described location, affected users, remediation plan and dates; provenance not recorded. ACM's form and AFM's guidance support some elements but differ in details. Preserve the original wording in source control history and this note; keep reader table minimal. Blanket universal deadline removed, conditional sector-specific deadlines retained here. Isolated language agent 2026-09-24: Supported for conditional scope; AFM periods run from discovery. No deadline claimed for RDI/ILT/CvdM/112.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "ACM accepts English-language company reports from companies outside the Netherlands through its Dutch-only EAA form; ACM does not accept these reports by email.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official direct email from ACM senior enforcement officer Hanneke van Rooijen, Toegankelijkheid@acm.nl, 3 December 2025, provided by the contributor in 'Questions about reporting for the EAA (4).eml'. ACM stated form is Dutch-only, companies outside Netherlands may report in English, and email reports are not accepted (the email address is for contact). The contributor asked on 11 December 2025 about publication of a statement, oversight scope, monitoring, warnings, WCAG 2.2 and dark mode; the 24 September 2026 reminder says the questions remain unanswered. Summarized with contributor authorization; raw email, personal phone and private details not published. Reporting form is independently verified at the ACM official URL.",
+      "directive_context": "EAA",
+      "scope": "ACM; e-commerce and electronic communications",
+      "reporting_route": {
+        "authority": "ACM",
+        "sector": "E-commerce; electronic communications",
+        "channel": "form",
+        "destination": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten/meldplicht-bij-niet-voldoen-aan-toegankelijkheid",
+        "eaa_specific": true
+      }
+    }
+  ],
+  "questions": [
+    "Follow-up: Netherlands / Transport ILT public reports — open the ILT digital-accessibility guidance's reporting form in an ordinary browser; the linked e-loket returned a missing-session error on two attempts. Owner: researcher or contributor; resolved when a usable official route and any login requirement are confirmed.",
+    "Follow-up: Netherlands / RDI, ILT, CvdM and 112 company non-compliance/exemptions — find current authority instructions and purpose-specific form/email/postal route; owner: researcher; resolved when official source identifies destination and audience.",
+    "Follow-up: Netherlands / statement and service information modes — confirm national sector-specific terms/equivalent publication and authority-on-request provisions where not established by ACM/AFM guidance; owner: researcher; resolved with explicit law or regulator text.",
+    "Follow-up: Netherlands / language and authentication — confirm whether non-Dutch reports are accepted at routes other than ACM (ACM confirmed English company reports on 3 December 2025); AFM requires an organisation portal account and ACM forms require JavaScript; owner: contributor or agency; resolved by official guidance or correspondence.",
+    "Follow-up: Netherlands / ACM official correspondence — statement-publication, full monitoring scope, monitoring status, warnings, information access, WCAG 2.2 and dark-mode questions sent on 11 December 2025 and reminded on 24 September 2026 remain unanswered. Owner: contributor; resolved on explicit ACM reply. Public ACM website currently independently supports a statement-page claim for its own supervised services."
+  ]
+}

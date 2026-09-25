@@ -1,0 +1,476 @@
+{
+  "country": "Belgium",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "statement",
+      "assertion": "Preserved Yes; public-page requirement not independently established.",
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.craftzing.com/what-we-think/insights/european-accessibility-act-the-transposition-into-belgian-legislation#:~:text=From%202025%20on%2C%20every%20relevant%20company%20under%20the%20new%20legislation%20will%20have%20to%20publish%20an%20accessibility%20statement",
+          "accessed_on": "2026-09-24",
+          "evidence": "Existing secondary reference; not primary verification.",
+          "section": "Existing statement link",
+          "source_type": "other_unverified"
+        }
+      ],
+      "review_note": "Existing Yes retained unchanged. Correspondence supplied 2026-09-24; the 11 December 2025 public-statement question is not answered in the supplied replies. Bank guideline contents identify section 4.1, but substantive passage was not retrieved before access failures; WAD statements on agency websites do not establish EAA duties.",
+      "directive_context": "EAA",
+      "existing_text": "Yes",
+      "information_mode": "dedicated_public_page"
+    },
+    {
+      "field": "service_information",
+      "assertion": "public terms or equivalent: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Guideline information-duty section not retrieved; no inference between recipients or modes. Follow-up: obtain sections 4.1–4.2 of official banking and e-commerce guidance.",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "public on request: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Guideline information-duty section not retrieved; no inference between recipients or modes. Follow-up: obtain sections 4.1–4.2 of official banking and e-commerce guidance.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "authority on request: Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Guideline information-duty section not retrieved; no inference between recipients or modes. Follow-up: obtain sections 4.1–4.2 of official banking and e-commerce guidance.",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "General Directorate of Economic Inspection — Banking and E-commerce",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://economie.fgov.be/nl/over-de-fod/structuur-fod-economie/organigrammen/de-algemene-directie; reachable; correct official directorate page. Consumer services only.",
+      "directive_context": "EAA",
+      "scope": "Banking and E-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "IBPT — Products",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.ibpt.be/consommateurs; reachable; correct institute website. Listed product classes retained, not all products.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "authority",
+      "assertion": "IBPT — Electronic communications",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.ibpt.be/consommateurs; reachable; correct institute website.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "authority",
+      "assertion": "French Community — Audiovisual access and E-books",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.federation-wallonie-bruxelles.be/index.php?id=contact; unknown; request rejected on both attempts. Government roster supports jurisdiction, not a named enforcement office.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access and E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "Flemish Community — Audiovisual access and E-books",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.vlaanderen.be/contacteer-de-vlaamse-overheid; reachable; government contact page, not a named enforcement office.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access and E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "German-speaking Community — Audiovisual access and E-books",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://pdg.be/desktopdefault.aspx/tabid-4052/; reachable; Community PARLIAMENT contact, not a verified executive monitoring office. Existing link retained because official roster itself uses it; coverage not certified.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access and E-books"
+    },
+    {
+      "field": "authority",
+      "assertion": "SPF Intérieur (IBZ) — 112 emergency calls",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://ibz.be/fr; reachable; correct ministry site. Receipt of 112 calls, not placing emergency calls.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "authority",
+      "assertion": "SPF Mobilité et Transports — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://mobilit.belgium.be/fr; unknown; JavaScript/anti-bot challenge on both attempts. Government roster supports remit: rail, air, boat; bus >250 km.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "Walloon Region — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://wallonie.be/fr/demarches?f%5B0%5D=public:284; reachable; official regional directory supplied by roster. Previously unlinked. Specific monitoring office unknown.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "Brussels-Capital Region — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://be.brussels/fr/propos-de-la-region/plaintes-et-litiges/plaintes; reachable; official regional complaints directory supplied by roster. Previously unlinked. Specific monitoring office unknown.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "Flemish Region — Transport",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Link audit 2026-09-24: https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/contacteer-het-departement-mobiliteit-en-openbare-werken; reachable; redirected official mobility department page supplied by roster. Previously unlinked. Does not establish a reporting channel.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "authority",
+      "assertion": "Complete named-office coverage: Unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over",
+          "accessed_on": "2026-09-24",
+          "evidence": "Official sector-to-body roster.",
+          "section": "Andere diensten of producten",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "All eight sector headings mapped against the federal roster; no existing jurisdiction omitted. Communities/Regions remain jurisdiction-level entries. Subordinate/delegated authorities and direct EAA intake are not independently established. Federal roster last updated 2025-08-27. Isolated language check 2026-09-24 by /root/belgium_language, fork_turns=none; Dutch to English. Inputs: original passages/URLs and proposed wording only, no research statuses/history. Original excerpts: 'voor consumenten' -> 'for consumers'; 'Eindapperatuur met interactieve computerfuncties' -> 'terminal equipment with interactive computer functions'; 'op voorhand' -> 'in advance'; 'Personenvervoer' -> 'passenger transport'. Initial verdict Correction needed for compressed product wording, missing passenger qualifier and advance timing. Corrected final wording rechecked: Supported. Original roster page retrieval challenged for reviewer; comparison uses supplied original passages. Language result does not certify legal competence, completeness or route usability. Exact final reviewed wording: Banking and E-commerce: General Directorate of Economic Inspection — services for consumers. / Products: IBPT — self-service terminals; computers and operating systems; terminal equipment with interactive computer functions for electronic communications services or access to audiovisual media services; e-readers. / Electronic communications: IBPT — telephone and SMS services; internet access. / Audiovisual access and E-books: French Community; Flemish Community; German-speaking Community. / Transport: SPF Mobilité et Transports — passenger transport by rail, air, boat and bus (>250 km). Urban, suburban and regional transport services (bus, tram and metro): Walloon Region; Brussels-Capital Region; Flemish Region. / 112 emergency calls: SPF Intérieur (IBZ) — receiving 112 emergency calls. / Banking and E-commerce: Economic Inspection. Public reports: ConsumerConnect; email toegankelijkheid-accessibilite@economie.fgov.be. Exemptions: advance notification form.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Accessibility complaints accepted by email.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant",
+          "accessed_on": "2026-09-24",
+          "evidence": "Reporting section explicitly lists email.",
+          "section": "Signaler un problème",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Email matches existing company email; recipient not contacted. ConsumerConnect is officially linked but direct form could not be inspected (two failed attempts); no usability or login claim.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "General Directorate of Economic Inspection",
+        "sector": "Banking and E-commerce (consumer services)",
+        "channel": "email",
+        "destination": "toegankelijkheid-accessibilite@economie.fgov.be",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "ConsumerConnect route and original EN/FR/DE/NL labels retained.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://consumerconnect.be/nl/themas/aankoop-product-of-dienst/wettelijk/wettelijk/toegankelijkheid",
+          "accessed_on": "2026-09-24",
+          "evidence": "Accessibility page links reporting form.",
+          "section": "Meld een inbreuk",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Direct https://cc.consumerconnect.be/csp?id=report_form&lang=en failed twice; purpose supported, end-to-end usability unknown. Existing language labels preserved, not newly verified accepted submission languages. Login and deadline unknown. Supplied 7 November and 19 December 2025 government replies confirm ConsumerConnect consumer reporting and four form languages; not blanket email-language acceptance.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Report Point historically recommended by contact centre; own EAA notifications now mapped to specialist-designated form/email.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://consumerconnect.be/nl/meld-ons-iets",
+          "accessed_on": "2026-09-24",
+          "evidence": "Business FAQ distinguishes reports about competitors/unfair practices.",
+          "section": "Als onderneming",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Old URL failed twice. Official successor https://meldpunt.belgie.be/meldpunt/nl/welkom loaded; it collects business infringement reports. Does not explicitly establish own EAA non-compliance submission. Preserve old contributor route and language labels, clearly unverified for self-notification. The 7 November 2025 contact-centre reply supports historical Report Point guidance; the 19 December specialist reply directs own EAA non-compliance and exemptions to the dedicated form/email. General business route removed from concise EAA cell after explicit specialist clarification; historical URL https://meldpunt.economie.fgov.be/meldpunt/en/welcome and EN/FR/DE/NL labels retained here. Not evidence Report Point rejects notifications.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Economic Inspection accepts company non-compliance and exemption notifications by email; English accepted.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Q2 accepts email for both purposes; Q3 explicitly accepts English and replies in English. Earlier four-language email claim narrowed to the explicitly confirmed language, not a claim other languages are refused. Forms preferred. Deadline not supplied. Isolated English-to-English fidelity review, /root/belgium_correspondence_language, fork_turns=none, 2026-09-24. Source excerpts: 'This email address can be used for both aforementioned purposes'; 'companies can also reach us in English'. Literal rendering unchanged (English original). Exact final wording: 'Company non-compliance: reporting form (French, Dutch); email (English accepted).' / 'Exemptions: notification form (French, Dutch); email (English accepted).' Verdict Supported, no corrections required. Dated January 5 standards/counts paraphrase also Supported. Reviewer received only source passages and candidate wording, not prior conclusions. No certification of current form operation or legal interpretation.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "General Directorate of Economic Inspection",
+        "sector": "Banking and E-commerce (consumer services)",
+        "channel": "email",
+        "destination": "toegankelijkheid-accessibilite@economie.fgov.be",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Economic Inspection identifies the dedicated form for company non-compliance and exemption notifications; available in French and Dutch.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/fr/themes/entreprises/guidance/cadre-legal-concernant",
+          "accessed_on": "2026-09-24",
+          "evidence": "Bank/e-commerce exemptions linked to dedicated notification form.",
+          "section": "Exceptions",
+          "source_type": "government"
+        },
+        {
+          "url": "https://accessibility-exceptions.economie.fgov.be/fr/index",
+          "accessed_on": "2026-09-24",
+          "evidence": "HTML shell only; fields/login not inspectable.",
+          "section": "Form shell",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Q1 confirms both purposes and FR/NL form languages. Earlier HTML-shell observation remains: functional availability/login not tested. Verified authority-designated purpose, not successful submission. EAA Article 14 context remains research only.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "General Directorate of Economic Inspection",
+        "sector": "Banking and E-commerce (consumer services)",
+        "channel": "form",
+        "destination": "https://accessibility-exceptions.economie.fgov.be/fr/index",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Products — reporting channels Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No specific public complaint, company non-compliance or exemption route verified. Generic authority contacts not promoted to reporting channels.",
+      "directive_context": "EAA",
+      "scope": "Products"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Electronic communications — reporting channels Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No specific public complaint, company non-compliance or exemption route verified. Generic authority contacts not promoted to reporting channels.",
+      "directive_context": "EAA",
+      "scope": "Electronic communications"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Audiovisual access and E-books — reporting channels Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No specific public complaint, company non-compliance or exemption route verified. Generic authority contacts not promoted to reporting channels.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual access and E-books"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Transport — reporting channels Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No specific public complaint, company non-compliance or exemption route verified. Generic authority contacts not promoted to reporting channels.",
+      "directive_context": "EAA",
+      "scope": "Transport"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "112 emergency calls — reporting channels Unknown.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "No specific public complaint, company non-compliance or exemption route verified. Generic authority contacts not promoted to reporting channels.",
+      "directive_context": "EAA",
+      "scope": "112 emergency calls"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Law of 5 November 2023 partly implements EAA for specified services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/Guidelines-toegankelijke-bankdiensten.pdf",
+          "accessed_on": "2026-09-24",
+          "evidence": "Introduction footnote 2 identifies amending law.",
+          "section": "Introduction, footnote 2",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Guidance dated 09.02.2026. Official law URL https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=23-11-28&numac=2023046827 and ELI alternative inaccessible. Do not substitute secondary mirror for verified law text. Existing EUR-Lex national-measures index retained; not presented as a single Belgian statute. Complete federal/community/regional instruments and amended consolidated provisions remain unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Guidance application date 28 June 2025; microenterprise transition to 28 June 2030 for banking/e-commerce.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://economie.fgov.be/nl/themas/ondernemingen/guidance/toegankelijkheid/toegankelijkheid-guidelines-0",
+          "accessed_on": "2026-09-24",
+          "evidence": "Opening section gives application date and microenterprise transition.",
+          "section": "Opening",
+          "source_type": "government"
+        }
+      ],
+      "review_note": "Government guidance, not consolidated legislation; do not generalize transition to other sectors. Not added to table. Full additional transition rules not verified.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Existing public information links retained; Craftzing remains secondary.",
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": "https://www.craftzing.com/what-we-think/insights/european-accessibility-act-in-belgium-compliance-complaints-penalties",
+          "accessed_on": "2026-09-24",
+          "evidence": "Existing contributor link, no verification reliance.",
+          "section": "Existing link",
+          "source_type": "other_unverified"
+        }
+      ],
+      "review_note": "ConsumerConnect public information pages reachable on 2026-09-24. Secondary link now explicitly labelled unverified. No new penalties claim.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "On 5 January 2026 Economic Inspection described assessing EAA legal requirements with overlap to WCAG/EN 301 549 and declined to disclose investigation/complaint counts.",
+      "status": "verified",
+      "sources": [],
+      "directive_context": "EAA",
+      "scope": "Consumer banking and e-commerce",
+      "review_note": "Primary correspondence supplied by contributor and inspected 2026-09-24: Question about reporting for the EAA.eml, outer message 5 January 2026 from Economic Inspection's functional mailbox; quoted substantive reply 19 December 2025, questions 1–4. Scope expressly consumer banking/e-commerce only. No public correspondence URL; sources array does not invent one. Raw emails, personal addresses, signatures and recipient details are not published. Evidence confirms stated practice on its date, not live form operation. Outer 5 January reply withholds testing details to protect investigations. 19 December reply confirms investigations following complaints. No inference of zero cases or no enforcement. Its WCAG 2.2/dark-mode replies describe dated practice, not EU-wide legal conclusions; kept out of table."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Inter offers contextual observations on early enforcement and unavailable statistics; not competent monitoring-body verification.",
+      "status": "unverified_source",
+      "sources": [],
+      "directive_context": "EAA",
+      "review_note": "Contributor attachment EAA enforcement in Belgium.eml, Inter reply 16 February 2026, inspected 2026-09-24. Describes limited knowledge/current experience and suggests Unia as further contact. Its broad reference to most other covered services must not expand Economic Inspection remit: primary reply expressly restricts answers to banking/e-commerce. Not evidence of exhaustive absence of statistics or that Unia is the EAA monitoring authority. Raw emails and personal contact details not published."
+    }
+  ],
+  "questions": [
+    "Before PR: RESOLVED WITH PRIMARY CORRESPONDENCE — 19 December 2025 reply confirms company non-compliance/exemption form and email purposes plus English email. General Report Point retained in historical notes.",
+    "Before PR: RESOLVED BY PRESERVATION — preserve statement Yes, flag secondary basis; do not add a new mandatory public-page assertion from inaccessible guideline content.",
+    "Follow-up: Obtain official guideline sections 4.1–4.2 and determine dedicated page, public terms/equivalent, public-on-request and authority-on-request separately.",
+    "Follow-up: Identify named monitoring offices within each Community/Region, especially the German-speaking Community parliament contact; compare updated laws/rosters before claiming exhaustive coverage.",
+    "Follow-up: Replace or supplement EUR-Lex index with verified official Belgian implementing texts for each sector; statutory retrieval failed.",
+    "Follow-up: Retrieve specific reporting routes for products, electronic communications, audiovisual access, e-books, transport and 112 oversight; do not use emergency number as complaint channel.",
+    "Before merge: Ordinary maintainer evidence/diff review; no additional manual accuracy gate identified for narrowed additions.",
+    "Run scope: merged main a288041bbd7665d61056d447bcd929110fff3add includes merged Austria PR17 via PR16. One-country rollout; no workflows/events date script changed. Research/verification limited to ten minutes; unsuccessful access/search attempts not extended.",
+    "Research cutoff: substantive research and two-pass evidence review stopped at approximately seven minutes; required isolated language recheck completed within the ten-minute shared budget. Publication/validation continue without further country research. Unknown does not mean absent. No full-country-verification claim.",
+    "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered."
+  ]
+}

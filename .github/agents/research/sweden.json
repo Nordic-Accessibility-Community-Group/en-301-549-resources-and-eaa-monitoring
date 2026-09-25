@@ -1,0 +1,637 @@
+{
+  "country": "Sweden",
+  "record_type": "fuller_entry_audit",
+  "claims": [
+    {
+      "field": "additional_information",
+      "assertion": "Sweden's law covers specified products and services with multiple supervisory bodies.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Overview",
+          "evidence": "PTS describes product market surveillance and sector-specific service supervision."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "statement",
+      "assertion": "PTS describes service accessibility information as comparable in function to a WAD accessibility account and recommends an easy-to-find website link.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Introduction; PTS recommends",
+          "evidence": "PTS says the information serves a similar function to a DOS-law accessibility account but the EAA law uses another term; recommends a visible home-page link or footer."
+        }
+      ],
+      "review_note": "PTS explicitly compares the function to a WAD accessibility account and recommends a visible link; this is guidance, not a legal dedicated-page requirement. Existing Yes is retained: absence of a public primary-source confirmation does not disprove information obtained through agency correspondence or personal contact. Request the original correspondence or attribution before changing this value.",
+      "directive_context": "EAA",
+      "information_mode": "public_other",
+      "existing_text": "✔️ Yes"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service accessibility information must accompany the service and appear in general terms or an equivalent document.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "How to provide information",
+          "evidence": "PTS says the public should access information in speech and writing, the service should be accompanied by it, and it must be included in general terms or equivalent document."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "public_terms_or_equivalent"
+    },
+    {
+      "field": "service_information",
+      "assertion": "The public only receives service accessibility information on request.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "PTS explicitly says information should be easy to access with the service.",
+      "directive_context": "EAA",
+      "information_mode": "public_on_request"
+    },
+    {
+      "field": "service_information",
+      "assertion": "Service information must be supplied to PTS on request.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-23",
+          "section": "Introduction",
+          "evidence": "PTS says information is to be sent to the authority on request."
+        }
+      ],
+      "review_note": "",
+      "directive_context": "EAA",
+      "information_mode": "authority_on_request"
+    },
+    {
+      "field": "authority",
+      "assertion": "PTS: All covered products; electronic communications, banking and e-commerce.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "PTS identifies the sector authority."
+        },
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Oversight guidance",
+          "evidence": "Official authority page supports its remit."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/. MTM's earlier retrieval failure did not recur.",
+      "directive_context": "EAA",
+      "scope": "All covered products; electronic communications, banking and e-commerce"
+    },
+    {
+      "field": "authority",
+      "assertion": "Mediemyndigheten: Audiovisual-access services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "PTS identifies the sector authority."
+        },
+        {
+          "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Oversight guidance",
+          "evidence": "Official authority page supports its remit."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/. MTM's earlier retrieval failure did not recur.",
+      "directive_context": "EAA",
+      "scope": "Audiovisual-access services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Konsumentverket: Passenger transport websites, apps and electronic tickets.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "PTS identifies the sector authority."
+        },
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Oversight guidance",
+          "evidence": "Official authority page supports its remit."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/. MTM's earlier retrieval failure did not recur.",
+      "directive_context": "EAA",
+      "scope": "Passenger transport websites, apps and electronic tickets"
+    },
+    {
+      "field": "authority",
+      "assertion": "Transportstyrelsen: Transport information and interactive terminal services.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "PTS identifies the sector authority."
+        },
+        {
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Oversight guidance",
+          "evidence": "Official authority page supports its remit."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/. MTM's earlier retrieval failure did not recur.",
+      "directive_context": "EAA",
+      "scope": "Transport information and interactive terminal services"
+    },
+    {
+      "field": "authority",
+      "assertion": "Myndigheten för tillgängliga medier (MTM): E-books and relevant software.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "PTS identifies the sector authority."
+        },
+        {
+          "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Oversight guidance",
+          "evidence": "Official authority page supports its remit."
+        }
+      ],
+      "review_note": "link_status: reachable; checked_on: 2026-09-23; final_url: https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/. MTM's earlier retrieval failure did not recur.",
+      "directive_context": "EAA",
+      "scope": "E-books and relevant software"
+    },
+    {
+      "field": "authority",
+      "assertion": "All five bodies in PTS's product/service roster are listed and linked.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Supervisory authorities",
+          "evidence": "Names five bodies."
+        }
+      ],
+      "review_note": "Coverage verified against this roster; does not claim a separate 112 oversight audit.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "PTS offers a public complaint route.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Reporting links",
+          "evidence": "Explicitly identifies the route and audience."
+        }
+      ],
+      "review_note": "https://lptt.pts.se/ returns only an application shell to this reader: link_status unknown for usable form content. Login and accepted submission languages unknown. No form submitted. Company reports require an authorised representative.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "PTS",
+        "sector": "PTS product/service remit",
+        "channel": "form",
+        "destination": "https://lptt.pts.se/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "PTS offers company non-compliance reporting.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Reporting links",
+          "evidence": "Explicitly identifies the route and audience."
+        }
+      ],
+      "review_note": "https://lptt-rapportering.pts.se/ returns only an application shell to this reader: link_status unknown for usable form content. Login and accepted submission languages unknown. No form submitted. Company reports require an authorised representative.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "PTS",
+        "sector": "PTS product/service remit",
+        "channel": "form",
+        "destination": "https://lptt-rapportering.pts.se/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "PTS offers company exemption notification.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Reporting links",
+          "evidence": "Explicitly identifies the route and audience."
+        }
+      ],
+      "review_note": "https://lptt-rapportering.pts.se/ returns only an application shell to this reader: link_status unknown for usable form content. Login and accepted submission languages unknown. No form submitted. Company reports require an authorised representative.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "PTS",
+        "sector": "PTS product/service remit",
+        "channel": "form",
+        "destination": "https://lptt-rapportering.pts.se/",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS treats a service-defect report within 14 days as sufficient under its immediate-reporting guidance.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "När ska ni rapportera",
+          "evidence": "Distinguishes immediate reporting in law from PTS's 14-day interpretation."
+        }
+      ],
+      "review_note": "Rechecked in the explicit timing paragraph. Preserve existing text; clarify its scope in Additional information. Also corroborated by the contributor-supplied PTS email dated 25 August 2025, inspected 24 September 2026.",
+      "directive_context": "EAA",
+      "existing_text": "Companies must report issues within 2 weeks of discovery regardless if fixed."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "In its 25 August 2025 reply about corrected defects, PTS stated that discovered defects must be reported immediately, regarded reporting within 14 days as sufficient, and stated no requirement for subsequent reports of measures taken for already-reported defects.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official PTS email supplied by contributor as Hantering av åtgärdade brister_.eml; Date header: 2025-08-25 11:59:00 +0000; subject: SV: Hantering av åtgärdade brister?. Includes quoted PTS response dated 21 August 2025 and the contributor's questions about corrected defects. Inspected 24 September 2026. Non-public source: no public URL; sources intentionally empty. Full correspondence, signatures and personal contact details are not published. The 21 August reply identifies service-provider duties under section 24 LPTT and describes including measures already taken in the initial notice. This supports the provenance of the existing corrected-defect entry; it does not establish an exemption from initial reporting after a fix, nor remove the authority's separate powers to request information. The broad fixed-before-initial-report wording is a contributor interpretation of the exchange, not a verbatim categorical statement by PTS.",
+      "directive_context": "EAA",
+      "existing_text": "English accepted; tillganglighetslagen@pts.se; pts@pts.se; regardless if fixed."
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "MTM publishes a distinct company non-compliance form for e-book services.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Company non-compliance",
+          "evidence": "Guidance links a separate form."
+        }
+      ],
+      "review_note": "Guidance page reachable. Destination click resolution failed in the research tool; no complete form URL or login requirements verified. Do not publish a new direct reporting link yet. Accepted languages unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "MTM publishes a distinct company exemptions form for e-book services.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Company exemptions",
+          "evidence": "Guidance links a separate form."
+        }
+      ],
+      "review_note": "Guidance page reachable. Destination click resolution failed in the research tool; no complete form URL or login requirements verified. Do not publish a new direct reporting link yet. Accepted languages unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "MTM publishes a distinct consumer complaints form for e-book services.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Consumer complaints",
+          "evidence": "Guidance links a separate form."
+        }
+      ],
+      "review_note": "Guidance page reachable. Destination click resolution failed in the research tool; no complete form URL or login requirements verified. Do not publish a new direct reporting link yet. Accepted languages unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "LPTT applies from 28 June 2025; media guidance describes constitutional limits and proposed changes for 2027.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Introduction",
+          "evidence": "Identifies the law and application date."
+        },
+        {
+          "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/",
+          "accessed_on": "2026-09-23",
+          "source_type": "monitoring_body",
+          "section": "Hur påverkar direktivet mediabranschen?",
+          "evidence": "Describes limits and proposed constitutional changes."
+        }
+      ],
+      "review_note": "Treat the 2027 change as a proposal described by the authority, not confirmed enacted law. Other sector transition details remain unknown in this run.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "This bounded pilot pass records verified findings and unresolved checks.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Run start: 2026-09-23T15:46:18.039Z; research end: 2026-09-23T15:54:01.920Z; shared research elapsed: 7.7 minutes. All countries were checked in interleaved batches within the 10-minute country and 30-minute run ceilings. Remaining shared budget: 22.3 minutes, not used for further searching. Two-attempt ceiling applied to failed Bulgarian sites and MTM form resolution. Source passages and destinations were checked in a second review pass by the same assistant, not by a separate reviewer. This is not a fully verified country record: unresolved items are listed in questions. Existing contributor evidence is preserved; original correspondence was unavailable.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS stated on 24 October 2025 that it had accepted reports in English without requesting supplementation, but did not commit to future acceptance.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor supplied an official PTS Accessibility Rules Unit response dated 24 October 2025, inspected in this conversation on 24 September 2026. Non-public correspondence: no public source URL; sources is intentionally empty. Original mail headers not independently authenticated. Only the relevant conclusion is recorded; full correspondence and personal signature are not reproduced. This verifies the dated statement, not current or guaranteed English acceptance.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "PTS stated on 24 October 2025 that reports may be sent to tillganglighetslagen@pts.se if the reporter cannot use the e-service.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor supplied an official PTS Accessibility Rules Unit response dated 24 October 2025, inspected in this conversation on 24 September 2026. Non-public correspondence: no public source URL; sources is intentionally empty. Original mail headers not independently authenticated. Only the relevant conclusion is recorded; full correspondence and personal signature are not reproduced. The fallback is conditional. Current mailbox operation was not tested; no message sent.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "PTS",
+        "sector": "Reporting within PTS accessibility remit",
+        "channel": "email",
+        "destination": "tillganglighetslagen@pts.se",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "PTS stated on 24 October 2025 that reports may be sent to pts@pts.se if the reporter cannot use the e-service.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor supplied an official PTS Accessibility Rules Unit response dated 24 October 2025, inspected in this conversation on 24 September 2026. Non-public correspondence: no public source URL; sources is intentionally empty. Original mail headers not independently authenticated. Only the relevant conclusion is recorded; full correspondence and personal signature are not reproduced. The fallback is conditional. Current mailbox operation was not tested; no message sent.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "PTS",
+        "sector": "Reporting within PTS accessibility remit",
+        "channel": "email",
+        "destination": "pts@pts.se",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS stated on 24 October 2025 that an API for defect reporting was not then under consideration.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Contributor supplied an official PTS Accessibility Rules Unit response dated 24 October 2025, inspected in this conversation on 24 September 2026. Non-public correspondence: no public source URL; sources is intentionally empty. Original mail headers not independently authenticated. Only the relevant conclusion is recorded; full correspondence and personal signature are not reproduced. This is historical information; current API availability remains unknown.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "The translation provision in Administrative Procedure Act (2017:900) is section 13, not section 8.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://data.riksdagen.se/dokument/sfs-2017-900.html",
+          "evidence": "Section 13 addresses interpreting and translation; section 8 concerns inter-authority cooperation.",
+          "section": "Sections 8 and 13",
+          "source_type": "legislation",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "The supplied reply appears to have a section-number typo. Preserve its meaning and attribution; do not reproduce the incorrect citation.",
+      "directive_context": "other"
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Konsumentverket accepts immediate company notices of accessibility defects in passenger-transport services within its remit by email or post.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "evidence": "The Underrättelser section explicitly accepts notices by email or post and requires defect details and measures taken or planned.",
+          "section": "Ny tillgänglighetslag juni 2025 / Underrättelser",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "URL reachable 2026-09-24. Scope: transport websites, mobile services/apps and electronic ticketing. Email/post requires no portal login; accepted languages unknown. Postal alternative: Konsumentverket, Box 48, 651 02 Karlstad. No report sent.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Konsumentverket",
+        "sector": "Passenger transport websites, mobile services/apps and electronic ticketing",
+        "channel": "email",
+        "destination": "konsumentverket@konsumentverket.se",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Mediemyndigheten publishes a dedicated e-service destination for consumer complaints concerning audiovisual-access services; end-to-end usability is unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
+          "evidence": "The official destination identifies the EAA audience and six-step reporting process.",
+          "section": "E-service introduction",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "URL reachable 2026-09-24. Start link returned the same introduction, so actual fields, authentication and accepted languages remain unknown. Destination is established, but not published as a verified usable table route. Company defects and exemptions are separate choices within the same service.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Mediemyndigheten",
+        "sector": "Services providing access to audiovisual media",
+        "channel": "form",
+        "destination": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "company_reporting",
+      "assertion": "Mediemyndigheten publishes a dedicated e-service destination for company non-compliance reports and exemption notifications concerning audiovisual-access services; end-to-end usability is unknown.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+          "evidence": "The official destination identifies the EAA audience and six-step reporting process.",
+          "section": "E-service introduction",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "URL reachable 2026-09-24. Start link returned the same introduction, so actual fields, authentication and accepted languages remain unknown. Destination is established, but not published as a verified usable table route. Company defects and exemptions are separate choices within the same service.",
+      "directive_context": "EAA",
+      "reporting_route": {
+        "authority": "Mediemyndigheten",
+        "sector": "Services providing access to audiovisual media",
+        "channel": "form",
+        "destination": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+        "eaa_specific": true
+      }
+    },
+    {
+      "field": "additional_information",
+      "assertion": "On 22 April 2026 the Riksdag adopted the media constitutional amendments as pending (vilande), requiring another identical decision after an election.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier_hd01ku32/",
+          "evidence": "The decision summary identifies this as the first constitutional decision and explains the second-decision requirement.",
+          "section": "Decision summary",
+          "source_type": "government",
+          "accessed_on": "2026-09-24"
+        }
+      ],
+      "review_note": "URL reachable 2026-09-24. This supersedes the older guidance's description of government preparation. Final enactment was not established; do not present 1 January 2027 as unconditional.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Open-question follow-up on 24 September 2026 records partial resolutions and remaining unknowns.",
+      "status": "unknown",
+      "sources": [],
+      "review_note": "Partly resolved by official PTS reply dated 24 October 2025 supplied during this rerun: historical English handling, conditional fallback emails and historical API position documented separately. Already-fixed issues are not covered by this reply.\nUnresolved: both PTS applications again returned only a shell; actual authentication and language options unknown.\nUnresolved: MTM identifies three distinct reporting forms, but each click failed twice; no guessed URLs added.\nPartly resolved: Konsumentverket's company defect email/postal route verified. Mediemyndigheten's public and company e-service URLs identified, but start links returned introductions; usability remains unknown. Transportstyrelsen's reporting routes remain unknown.\nUnresolved: PTS page recommendation rechecked; no all-sector dedicated-page mandate established.\nPartly resolved: Riksdag first constitutional decision dated 22 April 2026 verified. Second decision/final enactment remains unknown; no unconditional 2027 effective-date claim added.\nRun start: 2026-09-24T07:05:30.334Z; public-source and correspondence review completed within 6 minutes so far. Original findings retain 2026-09-23 access dates; new sources use 2026-09-24. Source passages received a second review by the same assistant, not an independent human. No submissions/messages sent. Full country coverage is not certified.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS supervision-process version 3.0 describes a general process with mandate-specific differences, rather than an EAA-specific 14-day reporting rule.",
+      "status": "verified",
+      "sources": [],
+      "directive_context": "other",
+      "review_note": "Contributor-supplied PDF: Textuell beskrivning av PTS tillsynsprocess 3.0, reference 24-7906 (cover 24-7906-1), 50 pages. Decision date 2024-06-26; effective 2024-07-01; stated expiry 2028-07-01 (page 3). Contributor reports receipt 2024-09-26 at 10:31; timezone unspecified. Inspected 2026-09-24. Pages 4-6 explain the general process and LPTT-specific differences; page 5 restricts subprocess 3.3 to LEK; section 3.7.1, pages 46-47, describes closure after correction in specified circumstances. These supervision/closure steps do not establish an exemption from initial company reporting or a fixed EAA remediation deadline. No explicit 14-day/two-week reporting rule located in the extracted PDF. No public URL established; sources empty. Current version/supersession not independently checked. Original PDF not published."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PTS's February 2025 report planned EAA supervision from the second half of 2025, including e-commerce checks of larger Swedish-established actors.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pts.se/contentassets/0b908eb126fa4f52a90bd00d45756201/rapport-divisionen-for-marknadsutveckling-tillsyn-ar-2024---2025.pdf",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body",
+          "section": "2.12, pages 22–24",
+          "evidence": "Identifies the five-agency coordination group, product market surveillance and service supervision; describes planned e-commerce sampling."
+        }
+      ],
+      "review_note": "PTS-ER-2025:1, dated 2025-02-05, reference 25-402. URL reachable. Historical activity report/plan, not evidence that planned checks occurred or that supervision-process version 3.0 was replaced. Does not resolve the outstanding request for an updated process document. Preserve reporting and statement answers.",
+      "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "PR review triage applied on 24 September 2026.",
+      "status": "unknown",
+      "sources": [
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "section": "Konsumentverkets ansvar / Underrättelser",
+          "evidence": "Identifies covered transport elements and the company notification email/postal destinations.",
+          "accessed_on": "2026-09-24",
+          "source_type": "monitoring_body"
+        }
+      ],
+      "directive_context": "EAA",
+      "review_note": "Reviewed the proposed diff against the existing claim-level evidence using PR #13's workflow. Questions now distinguish resolved/omitted Before PR issues, concrete Before merge review, and non-blocking Follow-up. This is a targeted diff review by the same assistant, not a full fresh country audit or independent human verification. Prior access dates are retained; only specifically noted public sources were reopened. Public table keeps evidence narration in this record. Existing Yes/No answers are preserved. Full repository checks could not run because the execution environment is offline. Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment. Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified. Reopened Konsumentverket's passenger-transport page, sections Konsumentverkets ansvar and Underrättelser: supports sector scope, email and postal address. PTS language/fallback check used the contributor's quoted reply already available in this conversation; original private files were not re-opened."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Separate language-fidelity review completed on 24 September 2026.",
+      "status": "unknown",
+      "directive_context": "EAA",
+      "sources": [
+        {
+          "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+          "section": "Konsumentverkets ansvar / Underrättelser",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+          "section": "Introduction / recommendations",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        },
+        {
+          "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+          "section": "När ska ni rapportera",
+          "source_type": "monitoring_body",
+          "accessed_on": "2026-09-24",
+          "evidence": "Original language examined by separate language agent; comparison and limits in review_note."
+        }
+      ],
+      "review_note": "Agent /root/swedish_language started with fork_turns=none; received neutral fidelity instructions, source URLs/proposed wording and exact relevant Swedish passages supplied from the 24 October 2025 reply. No research conclusions/statuses or PR discussion. Correspondence assessed as supplied, not independently authenticated.\n“Om man inte kan använda e-tjänsten” = if one cannot use the e-service; both fallback mailbox addresses and this condition supported.\n“Vi har tagit emot rapportering på engelska” = we have received reports in English; “inte begärt in någon komplettering” = not requested supplementary information. Original also explicitly reserves future assessment. Correction: present-tense acceptance replaced with “PTS has received reports in English without requesting supplementary information.” Separate agent supported this exact short wording; date/future-policy caveat remains here.\nKonsumentverket Underrättelser: “Transportörer” = carriers; notifications may use the specified email/postal destination. Scope includes mobile services/apps and electronic tickets/ticket-sales services. Corrected concise routing wording supported.\nPTS information page: “Informationen fyller en liknande funktion som en tillgänglighetsredogörelse” = information fulfils a similar function to an accessibility statement; “Vi rekommenderar” = we recommend. Existing summary supported; source refers to Sweden's DOS Act and homepage/every-page access.\nLimitation: PTS timing page says it considers reports within 14 days after the defect was noted sufficient under immediate-reporting guidance for services. The existing contributor sentence is broader in modality/audience; it is not newly certified by this language check. Fixed-defect clause unreviewed because the separate 21/25 August original email was not supplied to this isolated agent, not disproven. Preserve original manual sentence; any future rewrite must compare that original correspondence and PTS scope. Earlier completed PR checkbox was already [x] on retrieval; preserved as prior recorded review, not AI approval of new wording.\nFinal changed English-reporting and carrier-route wording: Supported. No full country/agency/link audit performed.\nExact final public row (unchanged source-language names retained):\n<tr>\n    <td>Sweden</td>\n    <td>✔️ <a href=\"https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/\">Yes</a></td>\n    <td><ul><li><a href=\"https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/\">PTS</a></li><li><a href=\"https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/\">Mediemyndigheten</a></li><li><a href=\"https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/\">Konsumentverket</a></li><li><a href=\"https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/\">Transportstyrelsen</a></li><li><a href=\"https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/\">Myndigheten för tillgängliga medier (MTM)</a></li></ul></td>\n    <td><ul><li>Reporting tool for companies: <a href=\"https://lptt-rapportering.pts.se/\">Rapportering av undantag eller tillgänglighetsbrister, in Swedish 🇸🇪</a>. If you cannot use the e-service, PTS confirmed that you can report via email <a href=\"mailto:tillganglighetslagen@pts.se\">tillganglighetslagen@pts.se</a> or <a href=\"mailto:pts@pts.se\">pts@pts.se</a>. PTS has received reports in English without requesting supplementary information 🇬🇧.</li></ul><ul><li>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</li><li>Reporting tool for the Public: <a href=\"https://lptt.pts.se/\">Klagomål bristfällig tillgänglighet tjänst eller produkt, in Swedish 🇸🇪</a></li><li>Konsumentverket, passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services: carriers can <a href=\"https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/\">report accessibility defects</a> to <a href=\"mailto:konsumentverket@konsumentverket.se\">konsumentverket@konsumentverket.se</a> or Konsumentverket, Box 48, 651 02 Karlstad.</li></ul></td>\n    <td><p><a href=\"https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen\">Supportmaterial from PTS, in Swedish 🇸🇪</a></p><p><a href=\"https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/\">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.</p><p>⚖️ EAA implementing law: <a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/\">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>\n  </tr>\nThis is separate AI fidelity review, not independent human approval, legal interpretation or a full renewed country audit."
+    },
+    {
+      "field": "additional_information",
+      "assertion": "Pilot reporting-column presentation grouped by sector on 24 September 2026.",
+      "status": "unknown",
+      "sources": [],
+      "directive_context": "EAA",
+      "review_note": "Presentation-only regrouping at contributor request. Only the reporting cell changes. Labels reuse recorded authority/sector mappings; shared sectors/channels may be grouped to avoid repetition. Public complaints, company non-compliance and exemptions are separate. If all channels are unestablished, one 'Reporting channels: Unknown' item is used. Unknown describes the research gap, not absence of a channel or authority. Existing destinations, language notes, conditions and contributor details are retained. No new route, translation claim, law interpretation, or current-source verification is introduced. Prior language-review results apply to the retained wording; the historical exact row snapshots above precede this layout change. All other cells, Yes/No answers and the events-calendar script are unchanged. Full repository CI not run in this presentation pass."
+    }
+  ],
+  "questions": [
+    "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
+    "Before PR: Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified.",
+    "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
+    "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
+    "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
+    "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
+    "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged.",
+    "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
+    "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven."
+  ]
+}
