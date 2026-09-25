@@ -31,7 +31,7 @@
           "source_type": "legislation"
         }
       ],
-      "review_note": "Existing ✔️ Yes preserved with explicit EAA-specific source-needed qualification. In user-supplied 'Questions about reporting for the EAA (8).eml', the 24 September 2026 outgoing message asks UTAC whether a company website must publish a public accessibility statement; no response to that question appears. The existing row refers to arts. 7–9, which concern product-side requirements rather than proof of a dedicated service page. Before-merge manual research task; do not infer No.",
+      "review_note": "Existing ✔️ Yes preserved with explicit EAA-specific source-needed qualification. In user-supplied 'Questions about reporting for the EAA (8).eml', the 24 September 2026 outgoing message asks UTAC whether a company website must publish a public accessibility statement; no response to that question appears. The existing row refers to arts. 7–9, which concern product-side requirements rather than proof of a dedicated service page. Before-merge manual research task; do not infer No. Update 2026-09-25: UTAC replied to the follow-up but deferred substantive answers, hoping to answer these questions in 2027. Statement question remains unresolved; preserve existing Yes and source-needed qualification.",
       "directive_context": "EAA",
       "existing_text": "✔️ Yes",
       "information_mode": "dedicated_public_page",
@@ -386,13 +386,22 @@
       ],
       "review_note": "User-supplied file 'Questions about reporting for the EAA (8).eml': UTAC official message Thu 20 Aug 2026, received in a thread culminating Fri 25 Sep 2026 00:42 +0200 (24 Sep UTC). This is direct official correspondence, not a public URL. Record factual summary only; no personal telephone/address or private message body republished. Follow-up questions on dedicated statement, monitoring, WCAG 2.2, dark mode and reporting deadline in latest outbound message are unanswered in this file. Verify provenance if required by maintainer.",
       "directive_context": "EAA"
+    },
+    {
+      "field": "additional_information",
+      "assertion": "UTAC said its coordination unit was established at the end of February and that it hopes to be able to answer these types of questions in 2027.",
+      "status": "verified",
+      "sources": [],
+      "review_note": "Official UTAC correspondence supplied by the contributor in 'Questions about reporting for the EAA (9).eml', dated 25 September 2026, read the same day. Source is a private official email, not a public webpage. Factual summary only; no full message, signatures or personal contact details published. 'Next year' resolves to 2027 from the reply date. UTAC expresses an expectation, not a committed answer date or a statement that enforcement is deferred. The response does not substantively answer questions on a dedicated website statement, monitoring start, warnings, companies under monitoring, WCAG 2.2, dark mode or reporting deadlines. Earlier 20 August 2026 reporting-channel and language facts are preserved. Isolated no-history English fidelity review by /root/estonia_reply_language on 2026-09-25: original 'The Coordination Unit ... was set up at the end of February. We hope to be able to answer these types of questions next year.' Literal meaning preserved in final assertion. Initial summary narrowed 'these types of questions' unnecessarily; corrected to source wording. Final assertion and qualification that this is no promised response date or enforcement postponement rechecked Supported.",
+      "directive_context": "EAA"
     }
   ],
   "questions": [
-    "Before merge: Spain / existing ✔️ Yes dedicated public EAA statement — manually verify the contributor's prior source or obtain an explicit competent authority answer to the 24 September 2026 email question. Law Art. 13 requires terms/equivalent and public accessibility information but does not establish a separate website statement page. Preserve Yes with source-needed note until supported or explicitly corrected.",
+    "Before merge: Spain / existing ✔️ Yes dedicated public EAA statement — manually verify the contributor's prior source or obtain an explicit competent authority answer to the 24 September 2026 email question. Law Art. 13 requires terms/equivalent and public accessibility information but does not establish a separate website statement page. Preserve Yes with source-needed note until supported or explicitly corrected. Update 2026-09-25: UTAC hopes to answer in 2027; this remains a research follow-up pending substantive evidence, not a new prerequisite for publishing this correspondence-only update.",
     "Follow-up: Locate current designated surveillance authorities for every autonomous community and Ceuta/Melilla, with sector boundaries and official agency links; Art. 27 names the designation mechanism, not a complete roster. Determine whether UTAC's Art. 3(h) fallback applies to any specific undesignated area.",
     "Follow-up: Confirm which regional authority and route receives formal Art. 13(7) company non-compliance and Art. 16(7) exemption notifications, distinguishing UTAC's general email contact and microenterprise exception.",
     "Follow-up: Verify designated 112 answering-centre oversight and reporting; the Annex I response requirement does not name a route.",
-    "Follow-up: Obtain UTAC response to the latest official correspondence questions about monitoring start, warnings, transparency, WCAG 2.2, dark mode and issue-reporting deadline; do not infer answers from the unanswered outgoing email."
+    "Follow-up: UTAC's 25 September 2026 response defers substantive answers until potentially 2027. Revisit the dedicated statement, monitoring start, warnings, access to information about monitored companies, WCAG 2.2, dark mode and reporting-deadline questions; no conclusions about Spanish practices follow from the deferral.",
+    "Reminder: 12 January 2027 (Europe/Stockholm) — review this record for a later substantive UTAC answer and remind the contributor to follow up with utac@dsca.gob.es if questions remain unanswered. Date selected for follow-up planning, not promised by UTAC. Owner: contributor/researcher. Do not send correspondence automatically; resolved when a dated answer is supplied and recorded, or the contributor reschedules/closes the follow-up."
   ]
 }
