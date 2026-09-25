@@ -282,9 +282,11 @@
       <p><strong>Products and services:</strong></p>
       <ul>
         <li>Public reports: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
+        <li>Company enquiries: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
         <li>Company non-compliance (products): <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
         <li>Company exemptions: <a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services">TTJA forms</a>, sent to <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
       </ul>
+      <p>Company communication in English is possible, including from other EU Member States.</p>
     </td>
     <td>
       <ul>
