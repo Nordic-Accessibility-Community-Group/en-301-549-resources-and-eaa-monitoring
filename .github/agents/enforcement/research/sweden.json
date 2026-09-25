@@ -14,7 +14,8 @@
     "The requester asked for company totals, but PTS explicitly answered in reports. PTS said statistics were unavailable for questions 3 (companies not stating compliance), 6 (planned cases not started) and 8 (cases meeting documentation requirements); this does not mean zero.",
     "The 14 September follow-up asks for names of companies in active cases; no answer is present. The deficiency-report list must not be substituted for a list of active enforcement cases.",
     "The earlier 124 complaints / 110 services / 14 products assertion and other monitoring assertions are outside this pass. Requests and invitations in the email are evidence context, not instructions to contact anyone.",
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: 8 September banking announcement re-read; already included in merged page. Search also found a wider website study, deferred rather than conflated with enforcement statistics. Earlier correspondence-supported statistics retained with their existing qualifications. This pass did not audit every sector authority."
   ],
   "public_entry_ids": [
     "sweden-1"
@@ -38,6 +39,15 @@
       ],
       "limitations": "Two targeted searches did not establish the additional unlinked criteria/contact practice. Announcements are dated history, not proof that the same phases are still open.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.pts.se tillgänglighet tillsyn september 2026",
+      "sources_checked": [
+        "https://www.pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/"
+      ],
+      "limitations": "8 September banking announcement re-read; already included in merged page. Search also found a wider website study, deferred rather than conflated with enforcement statistics. Earlier correspondence-supported statistics retained with their existing qualifications. This pass did not audit every sector authority. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -554,6 +564,12 @@
       "question": "Provide dated support for service importance/representativeness, market-share criteria and conformity-plan contact practice.",
       "owner": "Maintainer / future authorised researcher",
       "resolved_when": "Exact primary passage or shareable correspondence identifies each practice; retain prior September follow-ups."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

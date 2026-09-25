@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Read extracted 2026 work programme, especially pp.33–35 on users/accessibility. General accessibility projects, passenger rights and operator checks were not sufficiently tied to EAA duties to add a national EAA row. Existing Commission proceeding remains separate. Full sector/case inventory deferred."
   ],
   "public_entry_ids": [
     "commission-croatia-germany-1"
@@ -23,6 +24,15 @@
       ],
       "limitations": "HTML page returned no text; official PDF retrieved. No subsequent case-register research undertaken.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.hakom.hr pristupačnost nadzor 2026",
+      "sources_checked": [
+        "https://www.hakom.hr/UserDocsImages/2026/izvjesca_i_planovi/HAKOM%20GPR2026%20-%20HRV.pdf?vel=3012651"
+      ],
+      "limitations": "Read extracted 2026 work programme, especially pp.33–35 on users/accessibility. General accessibility projects, passenger rights and operator checks were not sufficiently tied to EAA duties to add a national EAA row. Existing Commission proceeding remains separate. Full sector/case inventory deferred. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -59,5 +69,12 @@
       "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
     }
   ],
-  "questions": []
+  "questions": [
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+    }
+  ]
 }

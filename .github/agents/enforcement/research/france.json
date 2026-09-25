@@ -9,6 +9,7 @@
   "verified_on": "2026-09-25",
   "knowledge_notes": [
     "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: 4 September release retrieved as PDF text and linked from official press index. Local PDF download returned 403; web screenshot returned no viewable image. Plain-text figures used with exact page reference; visual PDF verification unavailable. Rail investigation covered several legal regimes; its 8% corrective/punitive figure is not labelled EAA-only. Did not re-open browser-denied Auchan court source.",
     "Cross-page update 2026-09-25: official DGCCRF correspondence and the new declaration URL are recorded in ../../research/france.json (merged PR #51). Foreign companies may use the French platform and attach English reports; no English interface or completed submission is inferred. Enforcement page needs only the current destination link; language details remain in monitoring research."
   ],
   "public_entry_ids": [
@@ -31,6 +32,16 @@
       ],
       "limitations": "Carrefour original PDF retrieved and visually checked. Accessible-copy link returned Internal Error; original scan used. Auchan text reader and browser access failed; stopped after two attempts. No appeal docket or later enforcement outcome obtained. Le Figaro coverage not needed to corroborate primary/party records.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.economie.gouv.fr accessibilité contrôles sanctions 2026 DGCCRF",
+      "sources_checked": [
+        "https://www.economie.gouv.fr/dgccrf/presse",
+        "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf"
+      ],
+      "limitations": "4 September release retrieved as PDF text and linked from official press index. Local PDF download returned 403; web screenshot returned no viewable image. Plain-text figures used with exact page reference; visual PDF verification unavailable. Rail investigation covered several legal regimes; its 8% corrective/punitive figure is not labelled EAA-only. Did not re-open browser-denied Auchan court source. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -305,6 +316,46 @@
       "statistics": null,
       "uncertainty": "Not proof of a judgment against all four retailers. Exact notice dates vary: the Carrefour order discusses a 9 July 2025 registered letter; preserve July-level description. No new claims for Leclerc/Picard researched.",
       "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
+    },
+    {
+      "id": "fr-dgccrf-ecommerce-interim-september-2026",
+      "kind": "statistics",
+      "text": "E-commerce: On 4 September 2026, DGCCRF reported that it had checked more than 20 websites since the start of 2026. It planned action to correct or penalise breaches for half of the websites checked. Several platforms and retailers had committed to making their websites compliant by the end of 2026; final investigation results were expected in early 2027.",
+      "authority_or_court": "DGCCRF",
+      "case_identifier": null,
+      "sectors": [
+        "E-commerce"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "French EAA transposition, accessibility duties described by DGCCRF",
+      "action_type": "Officially reported monitoring or complaint activity",
+      "procedural_stage": "investigation",
+      "stage_detail": "Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws.",
+      "event_on": null,
+      "published_on": "2026-09-04",
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf",
+          "source_type": "official_authority_publication",
+          "reference": "4 September 2026 release,p 2, Bilan intermédiaire",
+          "passage": "English evidence summary: investigation began early 2026; approximately 50 establishments planned. More than 20 websites checked so far; corrective/punitive follow-up planned for half. Several platforms/retailers committed to conformity by end 2026. Final results expected early 2027.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. PDF text retrieved; local download 403 and no viewable web screenshot."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-04",
+        "period": "Start of 2026 to 4 September 2026 interim report",
+        "units": "Websites checked; separate planned establishments",
+        "counting_basis": "Authority-reported aggregates within the named source and period; no extrapolation to all businesses or cases.",
+        "overlap_note": "Do not sum differing units or overlapping categories. Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws."
+      },
+      "uncertainty": "Interim source only. Planned measures are not imposed or paid penalties. Rail 8%statistic excluded because investigation also covered other passenger/consumer laws.",
+      "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass."
     }
   ],
   "questions": [
@@ -313,6 +364,12 @@
       "question": "Retrieve the Auchan order and appeal docket; check whether any later Carrefour appeal or execution decision exists.",
       "owner": "Maintainer / future authorised researcher",
       "resolved_when": "Read primary operative terms and dated procedural status; preserve attribution to associations until then."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

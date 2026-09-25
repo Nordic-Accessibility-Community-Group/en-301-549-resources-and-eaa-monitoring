@@ -4,13 +4,14 @@
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
   "research_state": "partially_researched",
-  "search_result": "not_assessed",
+  "search_result": "reportable_activity_found",
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
     "Original ireland-1 row and its quoted secondary attribution are retained unchanged at base f06450eca836087e73c9295485d52c338996a28b.",
     "ComReg’s consumer-care guidance confirms a route for service-accessibility complaints. This does not independently confirm receipt, investigation or resolution of the reported Three complaint.",
-    "The case-specific account remains secondary reporting. Primary confirmation was not located within the bounded searches; absence of a public result is not proof that the complaint does not exist. The verified_on roll-up applies only to the general complaints guidance claim, not the Three case or the whole country."
+    "The case-specific account remains secondary reporting. Primary confirmation was not located within the bounded searches; absence of a public result is not proof that the complaint does not exist. The verified_on roll-up applies only to the general complaints guidance claim, not the Three case or the whole country.",
+    "All Monitoring agencies research, 25 September 2026: Followed external lead to primary annual report. Downloaded 5.8 MB, extracted and visually checked p 11. 53 complaints/16 claimed exemptions are EAA-specific; general consumer inspection/prosecution totals excluded. Existing ComReg/Three secondary claim retained unchanged."
   ],
   "public_entry_ids": [
     "ireland-1"
@@ -25,6 +26,17 @@
       ],
       "limitations": "Bounded pass only; not a comprehensive country enforcement search. Whole research/review window 10:24:48–10:33:49 UTC including checkout/approval overhead (under 10 minutes); no country exceeded 10 minutes and total stayed below 30. No further source searching after this window. Initial search: site:comreg.ie accessibility Three complaints 2026 European Accessibility Act. General remit follow-up: site:comreg.ie \"accessibility\" \"complaints\". Two case follow-ups: site:comreg.ie \"Three\" \"Accessibility Act\"; site:comreg.ie \"accessibility\" \"complaint\" \"2026\" Three. No case-specific primary evidence returned. ComReg notice https://www.comreg.ie/?p=134934 failed twice with reader Internal Error; search snippet not treated as retrieval.",
       "next_check": "Seek a public case reference or shareable contributor provenance for the Three account; do not infer a breach or penalty."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.ccpc.ie accessibility enforcement 2026 inspections; site.ccpc.ie \"2025\" \"accessibility\" \"complaints\"",
+      "sources_checked": [
+        "https://www.ccpc.ie/business/enforcement/accessibility/",
+        "https://www.nexusinclusion.com/resources/compliance-guides/eaa-in-ireland-ccpc-complaints-enforcement/",
+        "https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf"
+      ],
+      "limitations": "Followed external lead to primary annual report. Downloaded 5.8 MB, extracted and visually checked p 11. 53 complaints/16 claimed exemptions are EAA-specific; general consumer inspection/prosecution totals excluded. Existing ComReg/Three secondary claim retained unchanged. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -218,6 +230,48 @@
       "statistics": null,
       "uncertainty": "Research context only, not a reportable new enforcement event or confirmation of the Three complaint; not added to the public row.",
       "next_check": "See country follow-up questions."
+    },
+    {
+      "id": "ie-ccpc-2025-eaa-submissions",
+      "kind": "statistics",
+      "text": "In its 2025 annual report, the Competition and Consumer Protection Commission (CCPC) reported receiving 53 complaints and 16 exemption claims under the EAA during 2025. The report said these were being addressed, with results expected in 2026. These figures count complaints and exemption claims; they do not establish confirmed violations or approved exemptions.",
+      "authority_or_court": "Competition and Consumer Protection Commission (CCPC)",
+      "case_identifier": null,
+      "sectors": [
+        "Products",
+        "E-commerce",
+        "E-books"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "Irish regulations implementing the European Accessibility Act (S.I.636/2023)",
+      "action_type": "Officially reported monitoring or complaint activity",
+      "procedural_stage": "complaint_lodged",
+      "stage_detail": "Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": "2026-09-25",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf",
+          "source_type": "official_authority_publication",
+          "reference": "Annual Report 2025,p 11, European Accessibility Act, across first and second columns",
+          "passage": "English evidence summary: CCPC remit covers products, e-commerce, e-books/dedicated software. During 2025 it received 53 complaints and 16 claimed exemptions underEAA. These were being actioned, with results expected 2026.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Downloaded PDF and visually reviewed p 11."
+        }
+      ],
+      "statistics": {
+        "as_of": "2025-12-31",
+        "period": "Calendar 2025",
+        "units": "Complaints and exemption claims",
+        "counting_basis": "Authority-reported aggregates within the named source and period; no extrapolation to all businesses or cases.",
+        "overlap_note": "Do not sum differing units or overlapping categories. Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated."
+      },
+      "uncertainty": "Counts are submissions, not businesses, violations, approved exemptions or sanctions. Sector list describes CCPC remit; distribution of the submissions is not stated.",
+      "next_check": "Check later primary outcomes and the scope limits above in a separately authorised pass."
     }
   ],
   "questions": [
@@ -238,6 +292,12 @@
       "question": "Retry the unread ComReg notice only in a later authorised pass if it is still needed.",
       "owner": "Future enforcement researcher",
       "resolved_when": "The notice is retrieved through permitted access; no case verification is inferred merely from general guidance."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

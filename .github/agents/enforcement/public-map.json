@@ -44,9 +44,11 @@
         "Finland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "ef54b276aec642a5fc0b3cf6201bbbaee15016871f738c4dc791b685479c84f7",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "acc962cb95f55c672dd272704e60901c33026f2c1d676d40785931973a021120",
+      "state": "reviewed",
+      "claim_ids": [
+        "fi-consumer-service-complaints-june-2026"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L71"
     },
     {
@@ -55,12 +57,13 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "153c04cf07f8ab9fa95042d07d1b19646899e3ac76238a28d9fff2a938817696",
+      "row_sha256": "9c521cb5d08c4e87a16536690d499e754b48411d6e79013fae77f61c638ae37f",
       "state": "reviewed",
       "claim_ids": [
         "fr-dgccrf-controls",
         "fr-dgccrf-reporting",
-        "fr-dgccrf-powers"
+        "fr-dgccrf-powers",
+        "fr-dgccrf-ecommerce-interim-september-2026"
       ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L96"
     },
@@ -95,9 +98,11 @@
         "Ireland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "e8ddef8bd5ab25fc50d55a598173d301537125a3ebf14ca42d3a51904b243c1a",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
+      "row_sha256": "ce51daa53130844a5138bf135f25445c90b48b7adf05076e8494ef216682b5fb",
+      "state": "reviewed",
+      "claim_ids": [
+        "ie-ccpc-2025-eaa-submissions"
+      ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L140"
     },
     {
@@ -168,6 +173,58 @@
         "no-helsami-closure-20251223"
       ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L241"
+    },
+    {
+      "id": "germany-monitoring-2026",
+      "countries": [
+        "Germany"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "705dce44c6a8de38d2ed2ef7f93013a1f0bd8277abfd2e7509048b6eaa61fca8",
+      "state": "reviewed",
+      "claim_ids": [
+        "de-mlbf-nationwide-monitoring-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "slovenia-monitoring-2026",
+      "countries": [
+        "Slovenia"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "3965bb9e4dc5e7e78ba9dd6110980f6a4b8e7b7236412fb69d5be7aab303f721",
+      "state": "reviewed",
+      "claim_ids": [
+        "si-akos-rtv-accessibility-inspection-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "canada-monitoring-2026",
+      "countries": [
+        "Canada"
+      ],
+      "section": "Table of Non-EU legal enforcement status",
+      "row_sha256": "1b478e64bacc8fe2f6aee78be28faaa4c5e7ee06fcdae505ca98aa210c0d78ee",
+      "state": "reviewed",
+      "claim_ids": [
+        "ca-accessibility-commissioner-inspections-2025-2026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "united-kingdom-monitoring-2026",
+      "countries": [
+        "United Kingdom"
+      ],
+      "section": "Table of Non-EU legal enforcement status",
+      "row_sha256": "0847bf7dba8e14fa968335cee9ba109d4ea891e215a1eb1a7154ee8cd61c82b8",
+      "state": "reviewed",
+      "claim_ids": [
+        "uk-gds-ehrc-monitoring-2022-2024"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
     },
     {
       "id": "estonia-1",

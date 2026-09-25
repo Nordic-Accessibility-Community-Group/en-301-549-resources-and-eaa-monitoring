@@ -3,23 +3,33 @@
   "country": "Hungary",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
-  "search_result": "not_assessed",
-  "attempted_on": null,
+  "research_state": "bounded_pass_completed",
+  "search_result": "no_reportable_activity_found_in_checked_sources",
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "No public entry for this country is mapped at setup. This is not evidence that no enforcement exists; no country research has been undertaken in this workflow."
+    "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
+    "All Monitoring agencies research, 25 September 2026: Read and downloaded 2026 NKFH inspection programme (5 pages, approx 145 KB). General online-sales and vulnerable-consumer checks are listed, but no explicit EAA accessibility activity identified in its headings. Regional work plans and outcomes not fully checked."
   ],
   "public_entry_ids": [],
-  "attempts": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.kormanyhivatalok.hu akadálymentesség webáruház ellenőrzés 2026; site.nkfh.gov.hu akadálymentesség ellenőrzés 2026",
+      "sources_checked": [
+        "https://cdn.nkfh.gov.hu/static/uploads/NKFH_EVP_2026_558c86702d.pdf"
+      ],
+      "limitations": "Read and downloaded 2026 NKFH inspection programme (5 pages, approx 145 KB). General online-sales and vulnerable-consumer checks are listed, but no explicit EAA accessibility activity identified in its headings. Regional work plans and outcomes not fully checked. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+    }
+  ],
   "claims": [],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "On a separately authorised research pass, inventory available enforcement knowledge and record sources and limits; add a public entry only if supported relevant activity is found.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
     }
   ]
 }

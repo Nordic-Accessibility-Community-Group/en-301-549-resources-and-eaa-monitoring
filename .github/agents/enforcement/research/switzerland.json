@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "country": "Romania",
-  "jurisdiction_group": "EU",
+  "country": "Switzerland",
+  "jurisdiction_group": "non-EU",
   "created_on": "2026-09-25",
   "research_state": "partially_researched",
   "search_result": "not_assessed",
@@ -9,17 +9,17 @@
   "verified_on": null,
   "knowledge_notes": [
     "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-    "All Monitoring agencies research, 25 September 2026: Annual report 2025 was a search lead but web fetch failed and directdownload returned 403. No report content verified; 2024 preventive guidance snippet excluded as actual post-application enforcement. ADR/ANCOM/CNA and other sector evidence remain unchecked."
+    "All Monitoring agencies research, 25 September 2026: Read federal equality-office overview and searched digital enforcement. Programmes/guidance are not case outcomes. No digital-accessibility case verified; cantonal and judicial searches remain incomplete."
   ],
   "public_entry_ids": [],
   "attempts": [
     {
       "attempted_on": "2026-09-25",
-      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.anpc.ro accesibilitate controale 2026",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.ebgb.admin.ch Barrierefreiheit Durchsetzung digitale 2026",
       "sources_checked": [
-        "https://anpc.ro/wp-content/uploads/2026/04/Raport-2025-ANPC.pdf"
+        "https://www.ebgb.admin.ch/de"
       ],
-      "limitations": "Annual report 2025 was a search lead but web fetch failed and directdownload returned 403. No report content verified; 2024 preventive guidance snippet excluded as actual post-application enforcement. ADR/ANCOM/CNA and other sector evidence remain unchecked. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "limitations": "Read federal equality-office overview and searched digital enforcement. Programmes/guidance are not case outcomes. No digital-accessibility case verified; cantonal and judicial searches remain incomplete. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
       "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],

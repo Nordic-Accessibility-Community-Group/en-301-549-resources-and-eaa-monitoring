@@ -8,7 +8,8 @@
   "attempted_on": "2026-09-25",
   "verified_on": "2026-09-25",
   "knowledge_notes": [
-    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent."
+    "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
+    "All Monitoring agencies research, 25 September 2026: Read authority supervision overview. Search snippet about 10 onlinestores traced to 26 May 2019 blog, not fresh 2026 enforcement. No new row for that old lead. Existing HelsaMi case retained; new health-sector report could be examined separately, not read in this pass."
   ],
   "public_entry_ids": [
     "norway-1"
@@ -22,6 +23,15 @@
       ],
       "limitations": "Authority publication establishes closure and triggered penalties. No payment receipt or whole-service conformity certification inspected.",
       "next_check": "Resolve the country-specific follow-up questions using dated primary evidence or contributor provenance."
+    },
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Country discovery for actual EAA activity or explicitly separate other-law examples. Search: site.uutilsynet.no tilsyn 2026 nettbutikk",
+      "sources_checked": [
+        "https://www.uutilsynet.no/tilsyn/tilsyn-og-kontroll/250"
+      ],
+      "limitations": "Read authority supervision overview. Search snippet about 10 onlinestores traced to 26 May 2019 blog, not fresh 2026 enforcement. No new row for that old lead. Existing HelsaMi case retained; new health-sector report could be examined separately, not read in this pass. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
+      "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
     }
   ],
   "claims": [
@@ -58,5 +68,12 @@
       "next_check": "Recheck only with a later dated source or requested provenance; this pass is not exhaustive."
     }
   ],
-  "questions": []
+  "questions": [
+    {
+      "priority": "Follow-up",
+      "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
+      "owner": "Future authorised enforcement researcher",
+      "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+    }
+  ]
 }
