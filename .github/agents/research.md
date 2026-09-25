@@ -18,3 +18,7 @@ Output: structured claims with provenance and questions for verification.
 - Distinguish enacted law, proposals, binding requirements, and guidance. Record effective dates and transition periods in the claim's `review_note`, including which sectors or actors they apply to. Do not present a future requirement as currently applicable.
 - Capture contributor-provided agency correspondence or personal-contact provenance without treating missing public confirmation as a contradiction. Flag evidence that is unavailable for inspection as a review question while retaining the existing table entry.
 - Follow the shared attempt and time limits in `README.md`. Record start time and remaining budget in the handoff. When a limit is reached, stop searching, label unfinished checks `unknown`, and record the reason and next useful step. Hand off partial results without implying that the baseline checklist is complete.
+
+## Cross-page evidence handoff
+
+Follow [shared evidence routing](evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.

@@ -26,3 +26,7 @@ Rewrite the PR description around the final diff, including actual file groups, 
 ## Review economy
 
 Do not require the monitoring project's exhaustive authority roster, intake-form, login or accepted-language checks unless an enforcement claim depends on them. Do not run the sanctions seven-column/EU-27 public-table check. Do not research every unknown to complete a process review. No recurring watcher or automatic post-draft research pass is part of this setup.
+
+## Cross-page evidence handoff
+
+Follow [shared evidence routing](../evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.

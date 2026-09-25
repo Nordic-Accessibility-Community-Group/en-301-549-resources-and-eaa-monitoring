@@ -43,3 +43,7 @@ For pilot assessment, record attempted/total sources, fresh versus cached access
 ## Concurrent projects
 
 Other pages can be edited in separate branches and PRs. Watcher infrastructure is confined to `.github/agents/watcher/` plus explicitly required shared-instruction edits. Country updates touch only the relevant record and row. Before publication, inspect whether another PR touches any same file and refresh from main; never force-push, overwrite another project's branch or resolve conflicts by dropping its changes.
+
+## Cross-page evidence handoff
+
+Follow [shared evidence routing](../evidence-routing/README.md) for every supplied source and research finding. Update relevant research records even outside the current page scope, assess monitoring/enforcement/sanctions and future registered pages, and record a per-page disposition and concrete PR suggestion before completing the task. This is a user-authorized shared rule; it supersedes scope-only deferral without a recorded handoff. Preserve evidence gates and coordinate overlapping PRs.
