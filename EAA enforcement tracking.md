@@ -68,6 +68,20 @@ Type can be:
     <td>2026-09-16</td>
   </tr>
   <tr>
+    <td>Estonia</td>
+    <td>Monitoring agency</td>
+    <td>Active monitoring</td>
+    <td>
+      <ul>
+        <li>TTJA (CPTRA) reports active monitoring of e-commerce, services providing access to audiovisual media services, and financial services.</li>
+        <li>It has contacted service providers about identified accessibility concerns. These service providers have submitted corrective-action plans.</li>
+        <li>Source: official TTJA (CPTRA) correspondence, 25 September 2026 (<a href=".github/agents/enforcement/research/estonia.json">research record</a>).</li>
+      </ul>
+    </td>
+    <td>2026-09-25</td>
+    <td>-</td>
+  </tr>
+  <tr>
     <td>Finland</td>
     <td>Monitoring agency</td>
     <td>Active monitoring</td>
@@ -99,7 +113,7 @@ Type can be:
     <td>
       <ul>
         <li>DGCCRF states that controls started when the French EAA rules entered into force on 28 June 2025, especially following reports.</li>
-        <li>Consumers can report accessibility failures through <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a>. Professionals can declare non-compliance or invoke an exemption through <a href="https://www.demarches-simplifiees.fr/commencer/exemption-accessibilite-num">Démarches Simplifiées</a>.</li>
+        <li>Consumers can report accessibility failures through <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement">SignalConso</a>. Professionals can declare non-compliance or invoke an exemption through <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">Démarches Simplifiées</a>.</li>
         <li>DGCCRF agents may order professionals to bring products and services into compliance. Orders may include penalty payments and measures to publicise the orders.</li>
         <li>Sources: <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/signalez-facilement-un-manquement-aux-obligations-daccessibilite-aux-personnes-en-situation-de-handicap-dans-signalconso">SignalConso reporting guidance</a>, <a href="https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/professionnels-comment-declarer-en-ligne-une-exemption-ou-une-non-conformite-aux-exigences-daccessibilite">professional declaration guidance</a>.</li>
       </ul>
