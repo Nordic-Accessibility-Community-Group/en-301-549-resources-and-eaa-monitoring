@@ -40,7 +40,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="belgium">Belgium</th>
       <td><p>Sector-specific implementation; the external overview does not establish one ceiling for every sector.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>The external €200,000 figure has not been assigned to a verified sector or offence.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>Fieldfisher reports a maximum fine of €200,000. ❓ Applicability by sector, offence and any turnover-based alternative has not been verified against legislation.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>Fieldfisher reports a maximum fine of €200,000. ❓ Applicability by sector, offence and any turnover-based alternative has not been verified against legislation.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Treat this figure as an external report, not a verified national maximum.</p></td>
       <td>
@@ -67,7 +67,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="croatia">Croatia</th>
       <td><p>Products and services; legal entities, responsible officers and sole traders have different ranges.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Manufacturers, authorised representatives and service providers that are legal entities: €6,630–€132,720.</li><li>Importers that are legal entities: €3,310–€66,360; distributors: €1,990–€13,270.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Manufacturers, authorised representatives and service providers that are legal entities: €6,630–€132,720.</li><li>Importers that are legal entities: €3,310–€66,360; distributors: €1,990–€13,270.</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Articles 32–36 specify the offences and separate, lower ranges for responsible individuals and sole traders. Do not apply the manufacturer ceiling to every operator.</p></td>
       <td>
@@ -80,7 +80,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="cyprus">Cyprus</th>
       <td><p>Products and services covered by Law 57(I)/2024; administrative and criminal routes.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Article 36: administrative fine up to €10,000; subsequent violation up to €20,000; continuing violation up to €500 per day.</li><li>Article 38: criminal fine up to €20,000 on first conviction, or €30,000 on a subsequent conviction.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Article 36: administrative fine up to €10,000; subsequent violation up to €20,000; continuing violation up to €500 per day.</li><li>Article 38: criminal fine up to €20,000 on first conviction, or €30,000 on a subsequent conviction.</li></ul></td>
       <td><p>Article 38: imprisonment up to two years on first conviction, or three years on a subsequent conviction; a fine and imprisonment may be combined.</p></td>
       <td><p>Different offences and procedures apply to administrative penalties and criminal convictions.</p></td>
       <td>
@@ -107,7 +107,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="denmark">Denmark</th>
       <td><p>Products and services within the scope of the accessibility law and the cited regulator guidance.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>Violations can be referred to the police for a fine. ❓ Amounts not established by the cited guidance.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>Violations can be referred to the police for a fine. ❓ Amounts not established by the cited guidance.</p></td>
       <td><p>The regulator can order the business to remedy non-compliance.</p></td>
       <td><p>Absence of an amount in the guidance does not mean that there is no financial sanction.</p></td>
       <td>
@@ -121,7 +121,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="estonia">Estonia</th>
       <td><p>Non-compliant services under § 20 of the Products and Services Accessibility Act.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>The located § 20 provision concerns services. Its application to each service area and the current original-language text remain unknown.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>The official English translation reports up to 100 fine units for a natural person and €20,000 for a legal person. ❓ The current Estonian text and fine-unit value have not been confirmed.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>The official English translation reports up to 100 fine units for a natural person and €20,000 for a legal person. ❓ The current Estonian text and fine-unit value have not been confirmed.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>This is the service offence in the located translation. It must not be treated as the ceiling for all product violations or coercive payments.</p></td>
       <td>
@@ -134,7 +134,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="finland">Finland</th>
       <td><p>Digital services supervised under the Act on the Provision of Digital Services; product sanctions are not summarised here.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>The conditional-fine guidance concerns digital services under the Act on the Provision of Digital Services. Its application to each EAA service area is not yet established here.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>A conditional fine can support supervision or an order. The amount is determined case by case under the Act on Conditional Fines.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>A conditional fine can support supervision or an order. The amount is determined case by case under the Act on Conditional Fines.</p></td>
       <td><p>Supervisory guidance and orders to correct shortcomings.</p></td>
       <td><p>Traficom describes the conditional fine as a last resort. This is a means of compelling compliance, not a fixed penalty for each defect.</p></td>
       <td>
@@ -147,7 +147,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="france">France</th>
       <td><p>Accessibility obligations under the Consumer Code; products and services described in DGCCRF guidance.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Fifth-class offences: up to €1,500 for a natural person and €7,500 for a legal person.</li><li>Fines may accumulate for multiple offences. Compliance orders may carry a daily penalty.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Fifth-class offences: up to €1,500 for a natural person and €7,500 for a legal person.</li><li>Fines may accumulate for multiple offences. Compliance orders may carry a daily penalty.</li></ul></td>
       <td><p>Orders to bring products/services into compliance, publication of orders, and suspension of non-compliant products from the market if breaches persist.</p></td>
       <td><p>These figures concern Consumer Code accessibility offences. Other French accessibility regimes must be identified separately.</p></td>
       <td>
@@ -189,7 +189,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="hungary">Hungary</th>
       <td><p>Economic operators covered by Act XVII/2022 and Decree 605/2022.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Minimum HUF 15,000. Non-SME operators with annual net turnover above HUF 100 million: up to 5% of annual net turnover, capped at HUF 500 million.</li><li>Other operators: normally up to HUF 500,000; specified widespread serious harm can trigger a 5% turnover ceiling. Without net turnover: HUF 15,000–500,000.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Minimum HUF 15,000. Non-SME operators with annual net turnover above HUF 100 million: up to 5% of annual net turnover, capped at HUF 500 million.</li><li>Other operators: normally up to HUF 500,000; specified widespread serious harm can trigger a 5% turnover ceiling. Without net turnover: HUF 15,000–500,000.</li></ul></td>
       <td><p>Warnings can require the operator to report corrective measures.</p></td>
       <td><p>Decree § 9 defines turnover calculations and special rules. The HUF 500 million ceiling is not the default for all businesses.</p></td>
       <td>
@@ -203,7 +203,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="ireland">Ireland</th>
       <td><p>Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Summary conviction: class A fine, up to €5,000.</li><li>Conviction on indictment: up to €60,000.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Summary conviction: class A fine, up to €5,000.</li><li>Conviction on indictment: up to €60,000.</li></ul></td>
       <td><ul><li>Summary conviction: up to six months’ imprisonment, or both imprisonment and a fine.</li><li>Indictment: up to 18 months’ imprisonment, or both.</li><li>Compliance directions and consumer court actions.</li></ul></td>
       <td><p>The conviction route matters. The legal analysis describes a due-diligence defence; imprisonment concerns individuals, not companies.</p></td>
       <td>
@@ -219,7 +219,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="italy">Italy</th>
       <td><p>Economic operators under Legislative Decree 82/2022, Article 24.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>€5,000–€40,000 for the substantive violations listed in Article 24(1).</li><li>€2,500–€30,000 for failure to obey specified authority orders or cooperate as required.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>€5,000–€40,000 for the substantive violations listed in Article 24(1).</li><li>€2,500–€30,000 for failure to obey specified authority orders or cooperate as required.</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Article 24(1) refers certain entities covered by Law 4/2004 to that law’s penalty regime. The €40,000 ceiling is therefore not universal. Exemptions and public procurement exclusions apply as specified in Article 24.</p></td>
       <td>
@@ -232,7 +232,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="latvia">Latvia</th>
       <td><p>Service providers subject to corrective orders under the Accessibility of Goods and Services Law.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>The listed compulsory payments enforce service-provider corrective orders. Their application to each EAA service area is not yet established here.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Compulsory payment under Administrative Procedure Law § 370: €50–€5,000 for individuals; €100–€10,000 for legal persons.</li><li>May be repeated while the required action remains unperformed, no earlier than seven days after the previous payment.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Compulsory payment under Administrative Procedure Law § 370: €50–€5,000 for individuals; €100–€10,000 for legal persons.</li><li>May be repeated while the required action remains unperformed, no earlier than seven days after the previous payment.</li></ul></td>
       <td><p>An authority can order correction within a specified period.</p></td>
       <td><p>The compulsory payment enforces an order; it is not a general fine for every accessibility defect. Product and sector-specific penalty regimes are not summarised.</p></td>
       <td>
@@ -261,7 +261,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="luxembourg">Luxembourg</th>
       <td><p>Economic operators under the Law of 8 March 2023; administrative and criminal sanctions.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Administrative fines: €250–€15,000 for obstruction, refusal to supply information or non-compliance with specified OSAPS decisions.</li><li>Criminal fines: €251–€500,000 for listed violations; €500–€1,000,000 for repeat offences.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Administrative fines: €250–€15,000 for obstruction, refusal to supply information or non-compliance with specified OSAPS decisions.</li><li>Criminal fines: €251–€500,000 for listed violations; €500–€1,000,000 for repeat offences.</li></ul></td>
       <td><p>Marketing of non-compliant products/services may be prohibited. Courts may order confiscation/destruction of goods used in the offence and confiscation of unlawful profits.</p></td>
       <td><p>Articles 32–33 distinguish administrative from criminal offences. Severity, affected products/services and people inform the penalty.</p></td>
       <td>
@@ -275,7 +275,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="malta">Malta</th>
       <td><p>Products and services under S.L. 627.03.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>Regulation 27 refers penalties to Article 32 of the Equal Opportunities (Persons with Disability) Act (Cap. 413). ❓ A current applicable amount has not been verified.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>Regulation 27 refers penalties to Article 32 of the Equal Opportunities (Persons with Disability) Act (Cap. 413). ❓ A current applicable amount has not been verified.</p></td>
       <td><p>Regulation 27 requires effective remedial action alongside penalties; Regulation 22 provides restrictions/withdrawal for persistent product non-compliance.</p></td>
       <td><p>Do not infer a fixed EAA fine from Regulation 27 alone. The cross-referenced regime needs a separate check.</p></td>
       <td>
@@ -289,7 +289,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="netherlands">Netherlands</th>
       <td><p>Separate regimes for products, e-commerce, electronic communications, banking, transport and media.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>The applicable sanction depends on the sector and regulator; no single national maximum is established.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>❓ Current sector-specific ceilings not verified. No single national maximum is asserted.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>❓ Current sector-specific ceilings not verified. No single national maximum is asserted.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>The May 2025 external overview gives €103,000 for some authorities, without establishing an all-sector ceiling. Verify the relevant regulator’s current legal powers before using a figure.</p></td>
       <td>
@@ -304,7 +304,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="poland">Poland</th>
       <td><p>Economic operators committing the offences listed in Article 73 of the Act of 26 April 2024.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>Up to ten times the previous year’s average monthly national wage, but no more than 10% of turnover in the financial year preceding the penalty year.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>Up to ten times the previous year’s average monthly national wage, but no more than 10% of turnover in the financial year preceding the penalty year.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Both ceilings apply. The 10% figure is a cap, not an additional penalty or an alternative that overrides the wage-based limit.</p></td>
       <td>
@@ -317,7 +317,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="portugal">Portugal</th>
       <td><p>Products and services under Decree-Law 82/2022; offence severity and legal status affect the range.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Serious offences: €650–€1,500 for natural persons; €12,000–€24,000 for legal persons.</li><li>Very serious offences: from €2,000 for natural persons or €24,000 for legal persons, up to the applicable maximum under Decree-Law 433/82. ❓ Cross-referenced maxima not verified.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Serious offences: €650–€1,500 for natural persons; €12,000–€24,000 for legal persons.</li><li>Very serious offences: from €2,000 for natural persons or €24,000 for legal persons, up to the applicable maximum under Decree-Law 433/82. ❓ Cross-referenced maxima not verified.</li></ul></td>
       <td><p>Article 29(9) requires publication of the penalty decision at the offender’s expense, including in two national newspapers.</p></td>
       <td><p>Article 29 identifies which offences are serious or very serious. The current general-law ceiling must be checked before quoting a maximum.</p></td>
       <td>
@@ -330,7 +330,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="romania">Romania</th>
       <td><p>Products and services under Law 232/2022, Article 29.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><ul><li>Listed offences: RON 5,000–10,000, RON 6,000–12,000 or RON 7,000–15,000, depending on the obligation breached.</li><li>Improper conformity marking: RON 2,500–5,000.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Listed offences: RON 5,000–10,000, RON 6,000–12,000 or RON 7,000–15,000, depending on the obligation breached.</li><li>Improper conformity marking: RON 2,500–5,000.</li></ul></td>
       <td><p>Product withdrawal/recall, suspension of activity or authorisations may accompany fines. Incorrect marking also entails withdrawal and/or prohibition of market availability.</p></td>
       <td><p>Use Article 29’s offence mapping; RON 15,000 is not the minimum or automatic fine for every breach.</p></td>
       <td>
@@ -370,7 +370,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="spain">Spain</th>
       <td><p>Title I of Law 11/2023; sector-specific sanctions take priority.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown — applicability of the listed sanctions by area.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul><p>Sector legislation takes priority. The listed disability-rights penalties are supplementary, so their application must be established for each sector.</p></td>
-      <td><p><strong>Framework summary — see EAA areas:</strong></p><p>Where sector legislation does not provide for the matter, the supplementary disability-rights regime sets €301–€1,000,000 overall; minor offences have a €30,000 ceiling and serious offences a €90,000 ceiling.</p></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>Where sector legislation does not provide for the matter, the supplementary disability-rights regime sets €301–€1,000,000 overall; minor offences have a €30,000 ceiling and serious offences a €90,000 ceiling.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Law 11/2023, Article 30 refers first to sector law and only subsidiarily to Title III of Royal Legislative Decree 1/2013. €1 million is not a universal EAA ceiling.</p></td>
       <td>
@@ -400,7 +400,7 @@ This information is provided as a community resource and is not legal advice. Pl
 ## Reading the table
 
 - **❓ Unknown**: We do not yet have confirmed information. This does not mean that no sanction applies.
-- **Framework summary**: The legal rules are known, but we have not confirmed which EAA areas each sanction covers.
+- **EAA areas covered: Unknown**: We found information about sanctions, but have not confirmed which EAA areas they apply to.
 - A sanction for a product does not automatically apply to the service used through that product.
 - A **conditional fine** is a payment used to make a business follow an order.
 - **Last checked** shows when the sources were reviewed. Some details may still need checking.
