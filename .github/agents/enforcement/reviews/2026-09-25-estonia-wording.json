@@ -1,0 +1,19 @@
+{
+  "reviewed_on": "2026-09-25",
+  "scope": "Exact Estonia public row; France URL-only replacement not language review",
+  "row_sha256": "fb6c92a76850332a4342f4e9a1332da63cf8b3a0ef6ea486cde60e73e34e5220",
+  "source_fidelity": {
+    "reviewer": "/root/estonia_enforcement_language",
+    "isolation": "fork_turns=none",
+    "outcome": "Supported",
+    "findings": "Ongoing monitoring, provider contact and submitted plans. No sanctions, completed remediation or verified compliance inferred.",
+    "source_sha256": "2b83af29feaf6a3b3f1728b30f50f027c78f8a29211264fdc082fe2a366862d5"
+  },
+  "readability": {
+    "reviewer": "/root/estonia_enforcement_readability",
+    "isolation": "fork_turns=none",
+    "outcome": "Pass",
+    "findings": "B2 readable; agency/provider references clear. Audiovisual service category technical but understandable.",
+    "limits": "No evidence verification."
+  }
+}
