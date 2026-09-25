@@ -1,0 +1,7 @@
+# Evidence routing delivery cleanup — 25 September 2026
+
+Independent reviewer: /root/routing_cleanup_review, fork_turns=none. Reviewed actual PR #60 head 4ce9345c86b943d71b5d6a7c008a552f41253d8a against base 72770d1717649de740145edb72e5620787737fee through the GitHub connector, including remote diff and description, and the matching local three-file diff. Result: no actionable findings. Scope, destination paths, merged-delivery statuses and claim preservation are consistent; unresolved Luxembourg, Belgium, Sweden and Italy events remain unchanged. Source-fidelity and readability review are not applicable because no public wording or factual claim changed.
+
+Implementer validation: enforcement checker passes (36 records, 18 entries), all 26 regression tests pass, Markdownlint and whitespace checks pass, verification-date check reports no markers. Targeted assertions verify destination folder/country matching and file existence, explicit null reasons, no proposed disposition for merged deliveries, unchanged unresolved events, unchanged Estonia claims and unchanged public pages. The independent reviewer assessed reported tests but did not rerun them. GitHub check-runs were empty when checked; CI is unconfirmed.
+
+The follow-up commit adds only this report; the three reviewed files are unchanged. No new country research, runtime-state write or trigger change. Ordinary maintainer review remains required; this review is not approval to merge.
