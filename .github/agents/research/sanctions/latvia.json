@@ -1,0 +1,51 @@
+{
+  "country": "Latvia",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#latvia",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#latvia",
+  "sources": [
+    {
+      "url": "https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums",
+      "label": "Preču un pakalpojumu piekļūstamības likums",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Preču un pakalpojumu piekļūstamības likums."
+    },
+    {
+      "url": "https://likumi.lv/ta/id/55567-administrativa-procesa-likums",
+      "label": "Administrative Procedure Law, § 370",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Administrative Procedure Law, § 370."
+    },
+    {
+      "url": "https://www.lm.gov.lv/lv/pieklustamibas-direktiva?view=easy",
+      "label": "Ministry of Welfare: Accessibility Directive",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Ministry of Welfare: Accessibility Directive — existing background link; retrieval unsuccessful."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#latvia",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Service providers subject to corrective orders under the Accessibility of Goods and Services Law.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The listed compulsory payments enforce service-provider corrective orders. Their application to each EAA service area is not yet established here.",
+          "public_text": "Service providers subject to corrective orders under the Accessibility of Goods and Services Law.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The compulsory payment enforces an order; it is not a general fine for every accessibility defect. Product and sector-specific penalty regimes are not summarised.",
+          "public_text": "The payment is used to enforce an order to correct a service. It is not a fine for each accessibility problem.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "bca3094c7db85a9e954c989007b78a1e658e74e771017947e2d99cd16f104361",
+  "language_check": "language-check.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Finland",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official guidance checked; product and other sector regimes not verified.",
+  "public_page": "EAA sanctions.md#finland",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#finland",
+  "sources": [
+    {
+      "url": "https://saavutettavuusvaatimukset.fi/en/tasks-supervisory-authority-0",
+      "label": "Traficom: tasks of the supervisory authority",
+      "source_type": "🏛️ Official government / regulator",
+      "review_note": "🏛️ Official government / regulator: Traficom: tasks of the supervisory authority — updated 12 August 2025."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#finland",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Digital services supervised under the Act on the Provision of Digital Services; product sanctions are not summarised here.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   The conditional-fine guidance concerns digital services under the Act on the Provision of Digital Services. Its application to each EAA service area is not yet established here.",
+          "public_text": "Digital services under the Act on the Provision of Digital Services.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Traficom describes the conditional fine as a last resort. This is a means of compelling compliance, not a fixed penalty for each defect.",
+          "public_text": "A conditional fine is a last resort to make a business comply with an order. It is not a fixed fine for each accessibility problem.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "97ffcc6a1485d1e7ff812750c0b2381b4014220892ea9a497ba47eed3281d236",
+  "language_check": "language-check.json"
+}

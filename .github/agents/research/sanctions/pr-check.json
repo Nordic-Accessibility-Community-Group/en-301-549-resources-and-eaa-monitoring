@@ -1,0 +1,40 @@
+{
+  "review_type": "independent_pr_check",
+  "reviewer": "/root/sanctions_pr_check",
+  "context_isolation": "Separate agent with fork_turns=none; PR, public page, research records and neutral review brief. Separate from readability reviewer.",
+  "reviewed_commit": "335b8bb99783106ef6f7cd08a740eacf5572f00c",
+  "scope": "Actual GitHub PR metadata and diff, evidence limitations, public/research consistency and description accuracy. No fresh 27-country legal audit.",
+  "initial_verdict": "Changes needed",
+  "findings": [
+    {
+      "issue": "Stale description claimed one changed file and unchanged introduction.",
+      "disposition": "Description rewritten to reflect final scope and actual checks."
+    },
+    {
+      "issue": "Last checked overstated source verification.",
+      "disposition": "Public legend now says latest research attempt, not confirmation of every source or claim."
+    },
+    {
+      "issue": "Austria, Cyprus and Ireland figures needed clearer source attribution.",
+      "disposition": "Attributed relevant figures to search-result law text/Fieldfisher, CyLaw and Mason Hayes & Curran. No new legal verification claimed."
+    }
+  ],
+  "verified_at_reviewed_commit": [
+    "Open draft PR against main in the intended repository.",
+    "27 unique alphabetical rows, seven cells each.",
+    "Country dates and source URL sets match public rows.",
+    "Research records preserve previous wording and limitations."
+  ],
+  "final_content_sha256": "f28c91fb2c7536c98d83b55280f7588c360491561755de2771d9fa6b89a82411",
+  "final_local_checks": [
+    "check-sanctions.py passes after final edits.",
+    "Five validator regression tests pass.",
+    "Corrected public wording rechecked by isolated readability reviewer."
+  ],
+  "limits": [
+    "Independent PR review applies to the named original commit; final fixes and structural checks were assessed by the primary agent.",
+    "No GitHub approval, merge or CI result is claimed.",
+    "Readability is not source-language fidelity or legal evidence verification."
+  ],
+  "remaining_publication_questions": "Source-dependent language questions remain in language-check.json, especially Hungary turnover conditions, Latvia payment timing, Slovenia company categories and market/procurement terminology. PR remains draft."
+}

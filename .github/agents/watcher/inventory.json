@@ -1,0 +1,942 @@
+{
+  "version": 1,
+  "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+  "countries": [
+    {
+      "name": "Denmark",
+      "slug": "denmark",
+      "group": "established",
+      "record_path": ".github/agents/research/denmark.json",
+      "record_blob_sha": "c21e069926a2cbed0b46ae6628bb61632a426737",
+      "open_questions": [
+        "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
+        "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
+        "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check."
+      ],
+      "discovery_domains": [
+        "sik.dk",
+        "retsinformation.dk",
+        "digst.dk",
+        "trafikstyrelsen.dk",
+        "soefartsstyrelsen.dk",
+        "finanstilsynet.dk",
+        "kfst.dk",
+        "politi.dk",
+        "ens.dk",
+        "virk.dk"
+      ],
+      "discovery_terms": [
+        "tilgængelighed orienteringspligt nyheder",
+        "tilgængelighed anmeld undtagelser"
+      ]
+    },
+    {
+      "name": "Sweden",
+      "slug": "sweden",
+      "group": "established",
+      "record_path": ".github/agents/research/sweden.json",
+      "record_blob_sha": "348f0162fadd0c444511a1c90f5f74cc47b976ed",
+      "open_questions": [
+        "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
+        "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
+        "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
+        "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
+        "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged.",
+        "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven."
+      ],
+      "discovery_domains": [
+        "pts.se",
+        "mediemyndigheten.se",
+        "konsumentverket.se",
+        "transportstyrelsen.se",
+        "mtm.se",
+        "data.riksdagen.se",
+        "e-tjanst.mediemyndigheten.se",
+        "riksdagen.se"
+      ],
+      "discovery_terms": [
+        "tillgänglighetslagen rapportering nyheter",
+        "tillgänglighet föreskrifter undantag"
+      ]
+    },
+    {
+      "name": "Ireland",
+      "slug": "ireland",
+      "group": "reporting_gaps",
+      "record_path": ".github/agents/research/ireland.json",
+      "record_blob_sha": "d3ec30a62734f872dc653a01d037ea04d1e4d4e0",
+      "open_questions": [
+        "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
+        "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; published CCPC page establishes queries only. Existing entry retained.",
+        "Follow-up: banking public route resolved in rerun; company/exemption intake remains unknown. Identify explicit official instructions; do not reuse consumer email without support.",
+        "Follow-up: IAA query page still lacks retrievable form controls. Reviewer can inspect in a browser and record destination, intended public/company audience and login requirements; air reporting remains Unknown until verified.",
+        "Follow-up: establish a ComReg route specifically for112 answering complaints/company reports; ECAS operator form is not a regulator route.",
+        "Follow-up: resolve CnaM exemption email from the official Exemptions section and verify company noncompliance intake; obfuscated email/link and403 prevented verification.",
+        "Follow-up: NTA public complaint and exemption routes remain unverified after rereading its EAA page.",
+        "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
+        "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown."
+      ],
+      "discovery_domains": [
+        "ccpc.ie",
+        "centralbank.ie",
+        "comreg.ie",
+        "cnam.ie",
+        "nationaltransport.ie",
+        "iaa.ie"
+      ],
+      "discovery_terms": [
+        "European Accessibility Act reporting exemption news",
+        "accessibility company notification"
+      ]
+    },
+    {
+      "name": "Italy",
+      "slug": "italy",
+      "group": "reporting_gaps",
+      "record_path": ".github/agents/research/italy.json",
+      "record_blob_sha": "78b025cfebd4994bde04a26e8d6b76a7b1c9d897",
+      "open_questions": [
+        "Follow-up: inspect current AgID operational complaint/company/exemption intake, including login and accepted languages; portal shell and institutional403 responses prevented verification.",
+        "Follow-up: identify MIMIT product public/company/exemption channels with official purpose-specific instructions.",
+        "Follow-up: identify public offices responsible for transport terminals by sector and their reporting channels; statutory class is verified.",
+        "Follow-up: establish112 emergency answering authority and reporting routes.",
+        "Research task: follow up on unanswered AgID correspondence to direzione.generale@agid.gov.it; latest reminder15 April2026, no answer reported as of24 September2026. Confirm the responsible team for the outstanding Italy questions and record any reply. Published information mailbox accessibilita@agid.gov.it is an alternative enquiry contact, not a verified statutory reporting route. Owner: contributor/researcher; resolved when a substantive official response or confirmed responsible contact is documented. Do not send correspondence without authorization.",
+        "Follow-up: establish whether a regulator requires an EAA public page comparable to a statement beyond terms/equivalent document; current sources establish public information and removal of old declaration for specified private EAA providers.",
+        "Follow-up: review consolidated legislation and June2026 vigilance regulation when institutional access succeeds. No full completeness claim; ten-minute shared research/verification limit observed."
+      ],
+      "discovery_domains": [
+        "accessibilita.agid.gov.it",
+        "gazzettaufficiale.it",
+        "trasparenza.agid.gov.it"
+      ],
+      "discovery_terms": [
+        "accessibilità servizi segnalazioni notizie",
+        "decreto 82/2022 vigilanza esenzioni"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "group": "reporting_gaps",
+      "record_path": ".github/agents/research/portugal.json",
+      "record_blob_sha": "5f13cfbbcf825634a89020895f6042446e67f9a9",
+      "open_questions": [
+        "Follow-up: Portugal / accessibility-statement Yes — awaiting an official email answer. Preserve contributor's existing Yes (Source needed); once the Portuguese competent monitoring body or government responds, verify whether it explicitly requires a dedicated public page comparable to a WAD accessibility declaration, rather than only public terms or an equivalent document under Art. 13/Annex II. Owner: researcher; nonblocking for this PR; resolved by dated official reply or direct government guidance recorded with provenance.",
+        "Follow-up: Portugal / company non-compliance and exemptions — obtain purpose-specific form, email or postal routes from ANACOM, ASAE, Banco de Portugal, CMVM, ERC, AMT, ANAC, IMT and IGAC; IDiPD email confirms forwarding but supplies no designated intake; owner: researcher; resolved with direct destination and audience/purpose.",
+        "Follow-up: Portugal / reporting languages — IDiPD 27 May 2026 email states no formal English rule; confirm each agency's accepted language, plus any login requirement or deadline. Owner: researcher; resolved by official guidance/correspondence.",
+        "Follow-up: Portugal / Banco de Portugal payment-account service — Art. 28(1)(e) omits the Art. 2(3)(e)(iv) account-associated service subparagraph. Confirm supervisor assignment from competent authority before saying complete coverage. Owner: researcher; resolved by explicit statutory or agency source.",
+        "Follow-up: Portugal / 112 — ANACOM is assigned a legal remit, but accessibility obligations begin 28 June 2027; verify eventual consumer and company channels closer to commencement. Owner: researcher; resolved by current official instructions.",
+        "Follow-up: Portugal / Art. 28 regional ASAE substitutes — check official regional service names and links for Azores and Madeira, which Art. 28(5) assigns ASAE-equivalent functions. Owner: researcher; resolved by regional official designation and relevant scope.",
+        "Follow-up: Portugal / IDiPD complaint form prerequisite — verify whether the prior provider complaint prerequisite applies also when reporting product inaccessibility with no direct customer relationship; form expressly requires it. Owner: agency; resolved by official clarification."
+      ],
+      "discovery_domains": [
+        "diariodarepublica.pt",
+        "anacom.pt",
+        "asae.gov.pt",
+        "erc.pt",
+        "amt-autoridade.pt",
+        "imt-ip.pt",
+        "bportugal.pt",
+        "cmvm.pt",
+        "igac.gov.pt",
+        "idipd.mtsss.gov.pt"
+      ],
+      "discovery_terms": [
+        "acessibilidade produtos serviços notícias",
+        "incumprimento comunicação empresas isenção"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "denmark-01",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+      "tier": "rotation",
+      "claim_indices": [
+        0
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-02",
+      "country": "Denmark",
+      "url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
+      "tier": "rotation",
+      "claim_indices": [
+        2,
+        4,
+        19
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-03",
+      "country": "Denmark",
+      "url": "https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/",
+      "tier": "rotation",
+      "claim_indices": [
+        2,
+        6,
+        12,
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-04",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+      "tier": "weekly",
+      "claim_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        25,
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-05",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/",
+      "tier": "rotation",
+      "claim_indices": [
+        5
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-06",
+      "country": "Denmark",
+      "url": "https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven",
+      "tier": "rotation",
+      "claim_indices": [
+        7
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-07",
+      "country": "Denmark",
+      "url": "https://www.soefartsstyrelsen.dk/",
+      "tier": "rotation",
+      "claim_indices": [
+        8
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-08",
+      "country": "Denmark",
+      "url": "https://www.finanstilsynet.dk/",
+      "tier": "rotation",
+      "claim_indices": [
+        9
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-09",
+      "country": "Denmark",
+      "url": "https://kfst.dk/",
+      "tier": "rotation",
+      "claim_indices": [
+        10
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-10",
+      "country": "Denmark",
+      "url": "https://politi.dk/",
+      "tier": "rotation",
+      "claim_indices": [
+        11
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-11",
+      "country": "Denmark",
+      "url": "https://ens.dk/presse/center-tele-flytter-til-styrelsen-dataforsyning-og-effektivisering",
+      "tier": "rotation",
+      "claim_indices": [
+        12
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-12",
+      "country": "Denmark",
+      "url": "https://digst.dk/media/uhwpy1f5/digitaliseringsstyrelsens-rapport-for-2024-i-henhold-til-teledirektivets-artikel-8-stk-2.pdf",
+      "tier": "rotation",
+      "claim_indices": [
+        12
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-13",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/privat/tilgaengelighed/anmeld-manglende-tilgaengelighed",
+      "tier": "rotation",
+      "claim_indices": [
+        14,
+        15
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-14",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/tip",
+      "tier": "rotation",
+      "claim_indices": [
+        14,
+        25,
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-15",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/selvbetjening/undtagelser-tilgaengelighedskrav-produkter-og-tjenester",
+      "tier": "rotation",
+      "claim_indices": [
+        16
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-16",
+      "country": "Denmark",
+      "url": "https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements/",
+      "tier": "rotation",
+      "claim_indices": [
+        16,
+        25,
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-17",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "tier": "weekly",
+      "claim_indices": [
+        17,
+        18,
+        25
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "denmark-18",
+      "country": "Denmark",
+      "url": "https://www.sik.dk/sikkerhedsstyrelsen-del-erhvervsstyrelsen",
+      "tier": "rotation",
+      "claim_indices": [
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-01",
+      "country": "Sweden",
+      "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/",
+      "tier": "rotation",
+      "claim_indices": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-02",
+      "country": "Sweden",
+      "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+      "tier": "weekly",
+      "claim_indices": [
+        1,
+        2,
+        4,
+        34
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-03",
+      "country": "Sweden",
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/",
+      "tier": "rotation",
+      "claim_indices": [
+        6,
+        19
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-04",
+      "country": "Sweden",
+      "url": "https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/",
+      "tier": "rotation",
+      "claim_indices": [
+        7,
+        26,
+        33,
+        34
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-05",
+      "country": "Sweden",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/",
+      "tier": "rotation",
+      "claim_indices": [
+        8
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-06",
+      "country": "Sweden",
+      "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
+      "tier": "weekly",
+      "claim_indices": [
+        9
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-07",
+      "country": "Sweden",
+      "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+      "tier": "rotation",
+      "claim_indices": [
+        14,
+        34
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-08",
+      "country": "Sweden",
+      "url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/",
+      "tier": "rotation",
+      "claim_indices": [
+        16,
+        17,
+        18
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-09",
+      "country": "Sweden",
+      "url": "https://data.riksdagen.se/dokument/sfs-2017-900.html",
+      "tier": "rotation",
+      "claim_indices": [
+        25
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-10",
+      "country": "Sweden",
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
+      "tier": "rotation",
+      "claim_indices": [
+        27
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-11",
+      "country": "Sweden",
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+      "tier": "rotation",
+      "claim_indices": [
+        28
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-12",
+      "country": "Sweden",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier_hd01ku32/",
+      "tier": "rotation",
+      "claim_indices": [
+        29
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "sweden-13",
+      "country": "Sweden",
+      "url": "https://pts.se/contentassets/0b908eb126fa4f52a90bd00d45756201/rapport-divisionen-for-marknadsutveckling-tillsyn-ar-2024---2025.pdf",
+      "tier": "rotation",
+      "claim_indices": [
+        32
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-01",
+      "country": "Ireland",
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibly-act-obligations-for-businesses",
+      "tier": "rotation",
+      "claim_indices": [
+        0,
+        1,
+        4,
+        22
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-02",
+      "country": "Ireland",
+      "url": "https://www.centralbank.ie/consumer-hub/european-accessibility-act",
+      "tier": "rotation",
+      "claim_indices": [
+        2
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-03",
+      "country": "Ireland",
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+      "tier": "weekly",
+      "claim_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-04",
+      "country": "Ireland",
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form",
+      "tier": "rotation",
+      "claim_indices": [
+        12
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-05",
+      "country": "Ireland",
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "tier": "weekly",
+      "claim_indices": [
+        13,
+        14
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-06",
+      "country": "Ireland",
+      "url": "https://www.comreg.ie/media/2025/06/ComReg-2539.pdf",
+      "tier": "rotation",
+      "claim_indices": [
+        15,
+        23
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-07",
+      "country": "Ireland",
+      "url": "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
+      "tier": "rotation",
+      "claim_indices": [
+        16
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-08",
+      "country": "Ireland",
+      "url": "https://www.nationaltransport.ie/about-us/european-accessibility-act-for-public-transport-in-ireland/",
+      "tier": "rotation",
+      "claim_indices": [
+        17
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-09",
+      "country": "Ireland",
+      "url": "https://www.cnam.ie/industry-and-professionals/broadcasting-on-demand-digital/accessibility-of-audiovisual-media-services/industry-obligations/",
+      "tier": "rotation",
+      "claim_indices": [
+        21
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-10",
+      "country": "Ireland",
+      "url": "https://www.centralbank.ie/contact-us/complaints-against-a-financial-service-provider",
+      "tier": "rotation",
+      "claim_indices": [
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-11",
+      "country": "Ireland",
+      "url": "https://www.comreg.ie/advice-information/service-provider-requirements/service-provider-accessibility-requirements/",
+      "tier": "rotation",
+      "claim_indices": [
+        27,
+        28
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-12",
+      "country": "Ireland",
+      "url": "https://www.comreg.ie/advice-information/consumer-care/contact-our-consumer-care-team/",
+      "tier": "rotation",
+      "claim_indices": [
+        27
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "ireland-13",
+      "country": "Ireland",
+      "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility",
+      "tier": "rotation",
+      "claim_indices": [
+        29
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-01",
+      "country": "Italy",
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "tier": "weekly",
+      "claim_indices": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-02",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=25&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        0,
+        27
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-03",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=12&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        1,
+        5,
+        25
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-04",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=4&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        2
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-05",
+      "country": "Italy",
+      "url": "https://trasparenza.agid.gov.it/download/10081.html",
+      "tier": "rotation",
+      "claim_indices": [
+        2
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-06",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        4,
+        11,
+        15
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-07",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=21&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        12,
+        13,
+        15
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-08",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        12
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-09",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        14,
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-10",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=13&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "tier": "rotation",
+      "claim_indices": [
+        26
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-11",
+      "country": "Italy",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2022/07/01/22G00089/sg",
+      "tier": "rotation",
+      "claim_indices": [
+        27
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "italy-12",
+      "country": "Italy",
+      "url": "https://accessibilita.agid.gov.it/contatti/",
+      "tier": "weekly",
+      "claim_indices": [
+        28
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-01",
+      "country": "Portugal",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
+      "tier": "weekly",
+      "claim_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-02",
+      "country": "Portugal",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/60-2026-1058701616",
+      "tier": "rotation",
+      "claim_indices": [
+        6
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-03",
+      "country": "Portugal",
+      "url": "https://www.anacom.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        7
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-04",
+      "country": "Portugal",
+      "url": "https://www.asae.gov.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        8
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-05",
+      "country": "Portugal",
+      "url": "https://www.erc.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        10
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-06",
+      "country": "Portugal",
+      "url": "https://www.amt-autoridade.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        11
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-07",
+      "country": "Portugal",
+      "url": "https://www.imt-ip.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        12
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-08",
+      "country": "Portugal",
+      "url": "https://www.bportugal.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        13
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-09",
+      "country": "Portugal",
+      "url": "https://www.cmvm.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        14
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-10",
+      "country": "Portugal",
+      "url": "https://www.igac.gov.pt/",
+      "tier": "rotation",
+      "claim_indices": [
+        15
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-11",
+      "country": "Portugal",
+      "url": "https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos",
+      "tier": "weekly",
+      "claim_indices": [
+        16,
+        20
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "portugal-12",
+      "country": "Portugal",
+      "url": "https://www.erc.pt/en/",
+      "tier": "rotation",
+      "claim_indices": [
+        21
+      ],
+      "baseline_origin": "country_record"
+    },
+    {
+      "id": "discovery-1",
+      "country": "Sweden",
+      "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
+      "tier": "weekly",
+      "claim_indices": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-2",
+      "country": "Sweden",
+      "url": "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
+      "tier": "weekly",
+      "claim_indices": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-3",
+      "country": "Italy",
+      "url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+      "tier": "weekly",
+      "claim_indices": [],
+      "baseline_origin": "discovery"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "country": "Spain",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#spain",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#spain",
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022#a30",
+      "label": "Law 11/2023, Article 30",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Law 11/2023, Article 30."
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632#a83",
+      "label": "Royal Legislative Decree 1/2013, Article 83",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: Royal Legislative Decree 1/2013, Article 83."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#spain",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Title I of Law 11/2023; sector-specific sanctions take priority.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown — applicability of the listed sanctions by area.    112 emergency calls:    ❓ Unknown   Sector legislation takes priority. The listed disability-rights penalties are supplementary, so their application must be established for each sector.",
+          "public_text": "Title I of Law 11/2023; sector-specific sanctions take priority.   Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:    ❓ Unknown    112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "Law 11/2023, Article 30 refers first to sector law and only subsidiarily to Title III of Royal Legislative Decree 1/2013. €1 million is not a universal EAA ceiling.",
+          "public_text": "Sector-specific penalties apply first. The disability-rights penalties in Title III of Royal Legislative Decree 1/2013 apply where sector law does not cover the matter (Law 11/2023, Article 30).",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "8c6efdc96934ef03580e7a818f038997b76e7dbec42a1de2553303aedb9373bc",
+  "language_check": "language-check.json"
+}

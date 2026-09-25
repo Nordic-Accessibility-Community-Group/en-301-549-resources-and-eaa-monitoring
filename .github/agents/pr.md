@@ -8,7 +8,7 @@ Input: reviewed research record and the proposed one-country row diff.
 4. Open a **draft** PR against this testing repository. Never push directly to `main`, enable auto-merge, or merge the PR.
 5. In the description, name the country, show the result of each baseline check from `README.md`, and list any additional country-specific questions. List official sources, access dates, verified changes, unknown or disputed claims, and check results. Request ordinary maintainer review of the evidence and diff. Require specialist language input only for a specific unresolved ambiguity; follow the Before PR gate rather than deferring it to merge.
 
-An infrastructure PR may contain only `.github/agents/` instructions and schema; country data belongs in later one-country PRs.
+An infrastructure PR may contain `.github/agents/` instructions, schema, watcher helpers, source inventory and operational baseline observations. It must not change country research claims or table rows. Follow `watcher/README.md` for operational state on the dedicated testing-repository branch. Country data changes belong in separate one-country PRs.
 
 ## Required review information in the PR
 

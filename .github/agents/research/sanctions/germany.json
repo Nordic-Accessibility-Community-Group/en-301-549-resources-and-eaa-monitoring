@@ -1,0 +1,57 @@
+{
+  "country": "Germany",
+  "record_type": "sanctions_review_notes",
+  "last_checked": "2026-09-25",
+  "review_note": "Official source checked; summary limited to the provisions cited.",
+  "public_page": "EAA sanctions.md#germany",
+  "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#germany",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/BFSG.pdf",
+      "label": "BFSG, § 1",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BFSG, § 1 — product and service scope."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__37.html",
+      "label": "BFSG § 37",
+      "source_type": "⚖️ Official law",
+      "review_note": "⚖️ Official law: BFSG § 37."
+    },
+    {
+      "url": "https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities",
+      "label": "Fieldfisher: risks of non-compliance",
+      "source_type": "📘 External — legal analysis",
+      "review_note": "📘 External — legal analysis: Fieldfisher: risks of non-compliance — 2 May 2025; additional sector context."
+    }
+  ],
+  "editorial_reviews": [
+    {
+      "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7c0934c905648f9939c74e7c72f607e3465ef1dd/EAA%20sanctions.md#germany",
+      "review_type": "public_wording_cleanup",
+      "note": "Editorial review only. No new legal verification; last_checked is unchanged. Previous cell text is preserved below, including unfinished checks and historical amounts.",
+      "changes": [
+        {
+          "column": "EAA areas and scope",
+          "previous_text": "Products, E-commerce, Banking, Electronic communications, Transport and E-books:    The listed BFSG penalties concern the products and consumer services in § 1. Audiovisual terminal equipment is included under Products; audiovisual access services have a separate regime.    Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "public_text": "Products, E-commerce, Banking, Electronic communications, Transport and E-books:    The BFSG penalties concern the products and consumer services in § 1. Audiovisual terminal equipment is included under Products; audiovisual access services have a separate regime.    Audiovisual access and 112 emergency calls:    ❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Other enforcement measures",
+          "previous_text": "The BFSG also provides market-surveillance measures; ❓ detailed conditions for restrictions and withdrawals are not summarised in this review.",
+          "public_text": "❓ Unknown",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        },
+        {
+          "column": "Conditions and exceptions",
+          "previous_text": "The two ceilings correspond to the offence groups in § 37(2). Separate audiovisual media provisions are not included.",
+          "public_text": "Section 37(2) sets two maximum fines for different groups of offences. Audiovisual access services have separate rules.",
+          "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
+        }
+      ]
+    }
+  ],
+  "public_row_sha256": "c646230565a1c020632995a49fa529e701f4f5bc37e339aacb829cfa093a30f0",
+  "language_check": "language-check.json"
+}
