@@ -3,25 +3,334 @@
   "country": "Sweden",
   "jurisdiction_group": "EU",
   "created_on": "2026-09-25",
-  "research_state": "not_yet_researched",
+  "research_state": "partially_researched",
   "search_result": "not_assessed",
-  "attempted_on": null,
+  "attempted_on": "2026-09-25",
   "verified_on": null,
   "knowledge_notes": [
-    "Initial workflow record only; no new source retrieval, claim audit or verification was performed. Earlier contributor knowledge is preserved in the pinned repository entries where present.",
-    "Existing public entries are linked through public-map.json and retained as inherited_unreviewed."
+    "Attachment-only research for existing Sweden statistics; no public page, map or other country is changed. The existing public entry remains inherited_unreviewed.",
+    "The quoted PTS reply is dated 7 September 2026, while the outer follow-up email is dated 14 September. Neither establishes the public heading Statistics from 2026-09-09. All four PDFs carry export timestamps on 7 September; report-title dates (3 September for complaints and 21 May for deficiencies) are not established data cutoffs.",
+    "Local contents and arithmetic were checked. unverified_source reflects the existing schema restriction on correspondence-only evidence, not a finding that the supplied figures are false. No external retrieval or new general Sweden research was performed.",
+    "The requester asked for company totals, but PTS explicitly answered in reports. PTS said statistics were unavailable for questions 3 (companies not stating compliance), 6 (planned cases not started) and 8 (cases meeting documentation requirements); this does not mean zero.",
+    "The 14 September follow-up asks for names of companies in active cases; no answer is present. The deficiency-report list must not be substituted for a list of active enforcement cases.",
+    "The earlier 124 complaints / 110 services / 14 products assertion and other monitoring assertions are outside this pass. Requests and invitations in the email are evidence context, not instructions to contact anyone."
   ],
   "public_entry_ids": [
     "sweden-1"
   ],
-  "attempts": [],
-  "claims": [],
+  "attempts": [
+    {
+      "attempted_on": "2026-09-25",
+      "scope": "Read the supplied email and four PDFs to trace the six existing September statistics claims.",
+      "sources_checked": [],
+      "limitations": "Local files only; no original MIME attachments or public URLs. Text extracted from all 38 PDF pages; visually inspected complaint totals p.2, product/service exemption totals p.2 and deficiency-list first/last pages. Counted 535 dated rows across 32 pages, but did not manually audit every organisation or derive unique-company/sector counts. Source review remained within the ten-minute country budget.",
+      "next_check": "Resolve date and sector qualifiers before public edits; obtain public primary provenance or a separately authorised correspondence-policy decision before verified status."
+    }
+  ],
+  "claims": [
+    {
+      "id": "se-deficiency-reports-20260907",
+      "kind": "statistics",
+      "text": "PTS reported receiving 535 deficiency reports and explicitly warned that one company may submit multiple reports, including for its website and app.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "unknown",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "Totalt har PTS mottagit 535 bristrapporteringar. 535 bristrapporteringar betyder inte att det är 535 olika företag, det kan vara så att ett företag rapporterat flera gånger, både för sin webbsida samt applikation.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        },
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Bristrapporteringar_(SAMTLIGA) (1).pdf; pp.1–32; export 7 September 2026 15:17:54 +0200; SHA-256 330e541f0ccc450a1b57173e6397273952fde60d963d6d9cfa98c41536ec3374",
+          "passage": "Columns: Inkommen (datum), Ärendenummer, Ärendetyp, Rapportering, Organisationsnamn, Område, Kategori tjänst, Kategori produkt. Recount: 535 dated data rows, receipt dates 27 June 2025–4 September 2026. This is a researcher recount, not a printed grand total.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Snapshot reported in the PTS reply dated 7 September 2026; exact database cutoff not specified.",
+        "units": "Deficiency reports, not unique companies",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "The inherited 535 reports wording is supported; no unique-company count is established. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-exemption-reports-20260907",
+      "kind": "statistics",
+      "text": "PTS reported 22 reports in which companies invoked exemptions and submitted supporting material. The supplied PDFs count reports in these categories: products 5 (mobile phones 2, other equipment for accessing communication services 2, payment terminals 1); services 17 (e-commerce 9, banking 8).",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [
+        "Products",
+        "E-commerce",
+        "Banking"
+      ],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "unknown",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "PTS har mottagit totalt 22 rapporter där företag åberopar undantag samt lämnat in underlag.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        },
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Åberopande_av_Undantag_PRODUKTER.pdf; p.2; export 7 September 2026 15:23:12 +0200; SHA-256 03fd4a5843e6f3688e4b1b7d0f184135a76d7a5f5ab1df3b803af3f8a45f3827",
+          "passage": "Mobiltelefon 2; Annan utrustning för att komma åt kommunikationstjänster 2; Betalterminal 1; Räkna 5.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        },
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Åberopande_av_undantag_TJÄNSTER.pdf; p.2; export 7 September 2026 15:23:33 +0200; SHA-256 05a7df0da7805cf700d2307cb1665cd207fa191b7e3663960fc65b8e1d19f0e2",
+          "passage": "E-handel 9; Bank 8; Räkna 17.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Snapshot reported in the PTS reply dated 7 September 2026; exact database cutoff not specified.",
+        "units": "Reports invoking exemptions with submitted supporting material",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "This does not establish 22 approved exemptions or 22 unique companies. Submission does not establish that documentation was complete or legally sufficient. The public wording 22 exemptions (with the required supporting documentation) needs qualification before reuse. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-active-supervision-20260907",
+      "kind": "statistics",
+      "text": "PTS reported 33 active supervision cases (tillsynsärenden).",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "För tillfället är 33 tillsynsärenden aktiva samt 29 marknadskontrollärenden.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Snapshot reported in the PTS reply dated 7 September 2026; exact database cutoff not specified.",
+        "units": "Active supervision cases",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "The reply does not allocate the 33 cases to e-commerce. The existing public e-commerce qualifier is not established by these materials. No case list or outcomes supplied. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-active-market-surveillance-20260907",
+      "kind": "statistics",
+      "text": "PTS reported 29 active market-surveillance cases (marknadskontrollärenden).",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "ongoing_monitoring",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "För tillfället är 33 tillsynsärenden aktiva samt 29 marknadskontrollärenden.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Snapshot reported in the PTS reply dated 7 September 2026; exact database cutoff not specified.",
+        "units": "Active market-surveillance cases",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "The inherited row describes these as product cases. The reply uses market-surveillance terminology without a detailed product breakdown; retain that source wording. No case list or outcomes supplied. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-complaints-20260907",
+      "kind": "statistics",
+      "text": "PTS reported 190 complaints within LPTT since the law entered into force. The monthly PDF totals 190.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "unknown",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "Vi har fått in 190 klagomål som omfattas av LPTT sedan lagen trädde i kraft, rapport bifogas.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        },
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Alla_KLAGOMÅL_grupperade_per_månad.pdf; p.2; export 7 September 2026 15:37:10 +0200; SHA-256 40597df16238ab8bb99ce59aad0e9950e305071ade6a2e82409c45062b323664",
+          "passage": "Månad: Inkommen (datum), Räkna. June–December 2025: 10, 44, 15, 19, 12, 8, 5. January–September 2026: 10, 5, 7, 8, 10, 12, 13, 10, 2. Printed total 190; independent sum 190.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Since entry into force according to the reply; PDF groups receipt months June 2025–September 2026. September is partial; exact data cutoff is unstated.",
+        "units": "Complaints within LPTT, not findings or unique complainants",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "No services/products split is supplied. The 3 September report-title date and 7 September export date should not be conflated. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    },
+    {
+      "id": "se-apotea-closure-20260907",
+      "kind": "statistics",
+      "text": "PTS reported that one supervision case had been closed, concerning Apotea.",
+      "authority_or_court": "Post- och telestyrelsen (PTS)",
+      "case_identifier": null,
+      "sectors": [],
+      "applicability": "EAA",
+      "legal_basis": "The correspondence concerns LPTT (Swedish accessibility legislation for certain products and services); statutory provisions were not independently checked in this attachment-only pass.",
+      "action_type": "Authority-reported statistics",
+      "procedural_stage": "closed",
+      "stage_detail": "Source terminology retained; no breach, penalty or compliance outcome inferred.",
+      "event_on": null,
+      "published_on": null,
+      "verified_on": null,
+      "status": "unverified_source",
+      "sources": [
+        {
+          "url": null,
+          "source_type": "contributor_correspondence",
+          "reference": "Aktuell statistik för tillgänglighetslagen.eml; quoted PTS reply of 7 September 2026; SHA-256 52b48b7508151c01950688013d161f0483f662f0417f60553dc3999ee67ddb83",
+          "passage": "Det är ett tillsynsärende som avslutats, ärendet avser Apotea.",
+          "attempted_on": "2026-09-25",
+          "retrieved_on": "2026-09-25",
+          "access_result": "reachable",
+          "provenance_note": "User-supplied local file inspected on 25 September 2026. No public source URL or independent authentication. Original file and personal contact details are not committed. The email is a 14 September follow-up quoting a PTS reply dated 7 September 2026 at 15:44; its MIME structure contains no attachments. The PDFs were supplied separately; their original attachment relationship cannot be proven from this EML."
+        }
+      ],
+      "statistics": {
+        "as_of": "2026-09-07",
+        "period": "Snapshot reported in the PTS reply dated 7 September 2026; exact database cutoff not specified.",
+        "units": "Closed supervision cases",
+        "counting_basis": "PTS reply and, where cited, separately supplied PDF counts. The as_of field represents the response/export date, not a confirmed database cutoff.",
+        "overlap_note": "No deduplication across reports, companies, complaints or cases. Do not add these totals together."
+      },
+      "uncertainty": "No case identifier, closure date, decision, reason, penalty or compliance finding is provided. Closure alone is not proof of compliance. Correspondence-supported; the current schema reserves verified status for retrieved public primary publications. No public publication date is asserted.",
+      "next_check": "Before any public revision, resolve the stated qualification and review exact proposed wording against this evidence."
+    }
+  ],
   "questions": [
     {
       "priority": "Follow-up",
-      "question": "Identify dated provenance, statistics scope and ongoing versus completed monitoring; distinguish counts from individual outcomes.",
-      "owner": "Future enforcement researcher",
-      "resolved_when": "A separately authorised evidence pass records its supported findings, limits and next checks."
+      "question": "Before revising the public statistics heading, should it cite the 7 September PTS reply instead of 9 September?",
+      "owner": "Maintainer / future authorised Sweden researcher",
+      "resolved_when": "The heading distinguishes the response/export date from any confirmed statistical cutoff."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "What supports the public e-commerce qualifier for 33 cases and the interpretation of 29 market-surveillance cases?",
+      "owner": "Maintainer / future authorised Sweden researcher",
+      "resolved_when": "A dated primary source or clarification supplies the sector scope; otherwise public wording uses the original case categories."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "How should the public exemption wording reflect reports invoking exemptions and submitted material?",
+      "owner": "Maintainer / future authorised Sweden researcher",
+      "resolved_when": "Reviewed wording avoids approval, unique-company and documentation-sufficiency claims."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "Can public primary provenance or a separately reviewed policy for official private correspondence support verified classification?",
+      "owner": "Maintainer / future authorised Sweden researcher",
+      "resolved_when": "A maintainer-approved evidence route preserves the distinction between checked correspondence and public verification."
+    },
+    {
+      "priority": "Follow-up",
+      "question": "What was the basis and date of the Apotea case closure?",
+      "owner": "Maintainer / future authorised Sweden researcher",
+      "resolved_when": "The closure decision or case reference is obtained without inferring a compliance finding from closure alone."
     }
   ]
 }
