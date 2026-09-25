@@ -24,10 +24,10 @@ This information is provided as a community resource and is not legal advice. Pl
   <tbody>
     <tr>
       <th scope="row" id="austria">Austria</th>
-      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>The BaFG penalties cover the products and consumer services in § 2. The maximum fine depends on the offence and the type of business.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>Up to €80,000 for placing or supplying specified non-compliant products or services.</li><li>Other groups of offences: up to €40,000 and €16,000.</li></ul></td>
+      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>The penalties under the BaFG law cover the products and consumer services listed in Section 2. The maximum fine depends on the offence and the type of business.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><p>According to law text shown in search results and Fieldfisher:</p><ul><li>Up to €80,000 for placing or supplying specified non-compliant products or services.</li><li>For other groups of offences, the maximum fine is either €40,000 or €16,000, depending on the group.</li></ul></td>
       <td><p>❓ Unknown</p></td>
-      <td><p>Section 36 sets lower maximum fines for microenterprises and small and medium-sized businesses. The amount depends on the offence.</p></td>
+      <td><p>Law text shown in search results and Fieldfisher describe lower maximum fines for microenterprises and small and medium-sized businesses. The amount depends on the offence (Section 36).</p></td>
       <td>
         <ul>
           <li><strong>⚖️ Official law:</strong> <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20012316&amp;Paragraf=2">BaFG § 2</a>.</li>
@@ -40,13 +40,13 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="belgium">Belgium</th>
       <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p>Up to €200,000, according to Fieldfisher. The EAA areas and offences covered are ❓ Unknown.</p></td>
+      <td><p>Up to €200,000, according to Fieldfisher. We have not confirmed which EAA categories or offences this amount applies to.</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>❓ Unknown</p></td>
       <td>
         <ul>
           <li><strong>📘 External — legal analysis:</strong> <a href="https://www.fieldfisher.com/en/insights/understanding-the-european-accessibility-act-risks-of-non-compliance-and-key-authorities">Fieldfisher: risks of non-compliance</a> — 2 May 2025.</li>
-          <li><strong>⚖️ Official law:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">EUR-Lex national transposition measures</a> — legislation index.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882">EUR-Lex: national laws implementing the EAA</a> — legislation index.</li>
         </ul>
       </td>
       <td><p>2026-09-25</p></td>
@@ -66,7 +66,7 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="croatia">Croatia</th>
-      <td><p>Products and services; legal entities, responsible officers and sole traders have different ranges.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p>The law covers products and services. Different fine ranges apply to legal entities, responsible officers and sole traders.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Manufacturers, authorised representatives and service providers that are legal entities: €6,630–€132,720.</li><li>Importers that are legal entities: €3,310–€66,360; distributors: €1,990–€13,270.</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Articles 32–36 set different ranges by offence and operator. Lower ranges apply to responsible individuals and sole traders.</p></td>
@@ -79,9 +79,9 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="cyprus">Cyprus</th>
-      <td><p>Products and services covered by Law 57(I)/2024; administrative and criminal routes.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Article 36: administrative fine up to €10,000; subsequent violation up to €20,000; continuing violation up to €500 per day.</li><li>Article 38: criminal fine up to €20,000 on first conviction, or €30,000 on a subsequent conviction.</li></ul></td>
-      <td><p>Article 38: imprisonment up to two years on first conviction, or three years on a subsequent conviction; a fine and imprisonment may be combined.</p></td>
+      <td><p>Law 57(I)/2024 covers products and services and provides for administrative and criminal penalties.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>According to CyLaw:</p><ul><li>Article 36: administrative fine up to €10,000; subsequent violation up to €20,000; continuing violation up to €500 per day.</li><li>Article 38: criminal fine up to €20,000 on first conviction, or €30,000 on a subsequent conviction.</li></ul></td>
+      <td><p>According to CyLaw, Article 38: imprisonment up to two years on first conviction, or three years on a subsequent conviction; a fine and imprisonment may be combined.</p></td>
       <td><p>Different offences and procedures apply to administrative penalties and criminal convictions.</p></td>
       <td>
         <ul>
@@ -92,7 +92,7 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="czechia">Czechia</th>
-      <td><p><strong>E-commerce, Banking and E-books:</strong></p><ul><li>The corrective-order fine concerns financial services, e-commerce and the sale of e-books and related software supervised by the Czech Trade Inspection.</li></ul><p><strong>Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p><strong>E-commerce, Banking and E-books:</strong></p><ul><li>The fine for failing to comply with a corrective order concerns services supervised by the Czech Trade Inspection in these categories: financial services, e-commerce, and the sale of e-books and related software.</li></ul><p><strong>Products, Electronic communications, Transport, Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td><p><strong>E-commerce, Banking and E-books:</strong></p><p>Up to CZK 10,000,000 if a service provider fails to take measures to bring the service into compliance.</p></td>
       <td><p>An authority may require corrective measures.</p></td>
       <td><p>The maximum applies to failure to follow corrective requirements under Act 424/2023.</p></td>
@@ -107,8 +107,8 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="denmark">Denmark</th>
       <td><p>Products and services within the scope of the accessibility law and the cited regulator guidance.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p>Violations can be referred to the police for a fine. Amount: ❓ Unknown</p></td>
-      <td><p>The regulator can order the business to remedy non-compliance.</p></td>
+      <td><p>Violations can be referred to the police and may result in a fine. Amount: ❓ Unknown</p></td>
+      <td><p>The regulator can order the business to meet the legal requirements.</p></td>
       <td><p>❓ Unknown</p></td>
       <td>
         <ul>
@@ -135,7 +135,7 @@ This information is provided as a community resource and is not legal advice. Pl
       <th scope="row" id="finland">Finland</th>
       <td><p>Digital services under the Act on the Provision of Digital Services.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td><p><strong>EAA areas covered: Unknown</strong></p><p>A conditional fine can support supervision or an order. The amount is determined case by case under the Act on Conditional Fines.</p></td>
-      <td><p>Supervisory guidance and orders to correct shortcomings.</p></td>
+      <td><p>The authority can provide guidance and order businesses to correct accessibility problems.</p></td>
       <td><p>A conditional fine is a last resort to make a business comply with an order. It is not a fixed fine for each accessibility problem.</p></td>
       <td>
         <ul>
@@ -160,8 +160,8 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="germany">Germany</th>
-      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport and E-books:</strong></p><ul><li>The BFSG penalties concern the products and consumer services in § 1. Audiovisual terminal equipment is included under Products; audiovisual access services have a separate regime.</li></ul><p><strong>Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport and E-books:</strong></p><ul><li>Up to €100,000 for specified non-compliant products/services and CE-marking violations.</li><li>Up to €10,000 for other listed violations, including information, identification, instructions, documentation and cooperation failures.</li></ul></td>
+      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport and E-books:</strong></p><ul><li>The BFSG penalties concern the products and consumer services in § 1. Audiovisual terminal equipment is included in the Products category. Separate rules apply to audiovisual access services.</li></ul><p><strong>Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport and E-books:</strong></p><ul><li>Up to €100,000 for specified non-compliant products/services and CE-marking violations.</li><li>Up to €10,000 for other listed violations, including failures to meet requirements for information, identification, instructions, documentation or cooperation.</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Section 37(2) sets two maximum fines for different groups of offences. Audiovisual access services have separate rules.</p></td>
       <td>
@@ -203,8 +203,8 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="ireland">Ireland</th>
       <td><p>Offences under S.I. 636/2023; companies and, in specified circumstances, responsible officers.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Summary conviction: class A fine, up to €5,000.</li><li>Conviction on indictment: up to €60,000.</li></ul></td>
-      <td><ul><li>Summary conviction: up to six months’ imprisonment, or both imprisonment and a fine.</li><li>Indictment: up to 18 months’ imprisonment, or both.</li><li>Compliance directions and consumer court actions.</li></ul></td>
+      <td><p><strong>EAA areas covered: Unknown</strong></p><p>According to Mason Hayes &amp; Curran:</p><ul><li>Summary conviction: class A fine, up to €5,000.</li><li>Conviction on indictment: up to €60,000.</li></ul></td>
+      <td><p>According to Mason Hayes &amp; Curran:</p><ul><li>Summary conviction: up to six months’ imprisonment, or both imprisonment and a fine.</li><li>Conviction on indictment: up to 18 months’ imprisonment, or both imprisonment and a fine.</li></ul><p>Compliance directions and consumer court actions.</p></td>
       <td><p>The penalty depends on the court procedure. Mason Hayes &amp; Curran describes a defence based on taking reasonable steps to prevent the offence. Imprisonment applies to individuals.</p></td>
       <td>
         <ul>
@@ -288,7 +288,7 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="netherlands">Netherlands</th>
-      <td><p>Separate regimes for products, e-commerce, electronic communications, banking, transport and media.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p>Separate rules apply to products, e-commerce, electronic communications, banking, transport and media.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>❓ Unknown</p></td>
       <td><p>The applicable penalties depend on the sector and regulator.</p></td>
@@ -342,7 +342,7 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="slovakia">Slovakia</th>
-      <td><p><strong>E-commerce, Banking, Transport and E-books:</strong></p><ul><li>The § 10 fines concern services within § 2 of Act 351/2022. Transport covers the listed passenger-service elements; urban, suburban and regional transport has a narrower scope.</li></ul><p><strong>Products, Electronic communications, Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td><p><strong>E-commerce, Banking, Transport and E-books:</strong></p><ul><li>The § 10 fines concern services within § 2 of Act 351/2022. For transport, the law covers only the parts of passenger services listed in Section 2. Coverage is more limited for urban, suburban and regional transport.</li></ul><p><strong>Products, Electronic communications, Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td><p><strong>E-commerce, Banking, Transport and E-books:</strong></p><ul><li>From €200 to 3% of turnover in the preceding accounting period, subject to offence-specific ceilings.</li><li>€6,000: accessibility or required accessibility information; €20,000: compliance procedures, notification or correction; €30,000: information, documentation or cooperation.</li></ul></td>
       <td><p>Some fines must be waived when the provider takes corrective measures; see Conditions and exceptions.</p></td>
       <td><p>For offences under § 10(1)(a) and (c), the authority must waive the fine if the provider takes corrective measures or shows that compliance would require a fundamental change to the service or impose a disproportionate burden under § 7(1).</p></td>
@@ -357,7 +357,7 @@ This information is provided as a community resource and is not legal advice. Pl
     <tr>
       <th scope="row" id="slovenia">Slovenia</th>
       <td><p><strong>Products:</strong></p><ul><li>The Article 34 range concerns manufacturers, importers and authorised representatives.</li></ul><p><strong>E-commerce and Banking:</strong></p><ul><li>Articles 39–40 set different ranges based on company size.</li></ul><p><strong>E-books:</strong></p><ul><li>Article 37 sets different ranges based on company size.</li></ul><p><strong>Electronic communications, Transport, Audiovisual access and 112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
-      <td><p><strong>Products:</strong></p><ul><li>Legal-person manufacturers/importers/authorised representatives: €3,000–€40,000 (Article 34).</li></ul><p><strong>E-commerce and Banking:</strong></p><ul><li>Legal persons: €500–€5,000; medium/large companies: €1,000–€10,000 (Articles 39–40).</li></ul><p><strong>E-books:</strong></p><ul><li>Legal persons: €400–€2,000; medium/large companies: €800–€4,000 (Article 37).</li></ul></td>
+      <td><p><strong>Products:</strong></p><ul><li>Manufacturers, importers and authorised representatives that are legal persons: €3,000–€40,000 (Article 34).</li></ul><p><strong>E-commerce and Banking:</strong></p><ul><li>Legal persons: €500–€5,000; medium/large companies: €1,000–€10,000 (Articles 39–40).</li></ul><p><strong>E-books:</strong></p><ul><li>Legal persons: €400–€2,000; medium/large companies: €800–€4,000 (Article 37).</li></ul></td>
       <td><p>❓ Unknown</p></td>
       <td><p>Separate ranges apply to individuals, distributors and other sectors. The 2023 law must be read together with the 2026 amendment.</p></td>
       <td>
@@ -400,7 +400,7 @@ This information is provided as a community resource and is not legal advice. Pl
 ## Reading the table
 
 - **❓ Unknown**: We do not yet have confirmed information. This does not mean that no sanction applies.
-- **EAA areas covered: Unknown**: We found information about sanctions, but have not confirmed which EAA areas they apply to.
+- **EAA areas covered: Unknown**: We have not confirmed which EAA categories these sanctions cover. This does not mean that the EAA itself does not cover these categories.
 - A sanction for a product does not automatically apply to the service used through that product.
 - A **conditional fine** is a payment used to make a business follow an order.
-- **Last checked** shows the date of the source review. Details and open checks are in the [country research notes](.github/agents/research/sanctions/README.md).
+- **Last checked** shows the date of the latest research attempt. It does not mean that every source or claim was verified. Further details are in the [country research notes](.github/agents/research/sanctions/README.md).

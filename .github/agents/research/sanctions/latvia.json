@@ -45,5 +45,7 @@
         }
       ]
     }
-  ]
+  ],
+  "public_row_sha256": "bca3094c7db85a9e954c989007b78a1e658e74e771017947e2d99cd16f104361",
+  "language_check": "language-check.json"
 }

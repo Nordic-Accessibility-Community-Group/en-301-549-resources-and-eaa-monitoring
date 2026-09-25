@@ -39,5 +39,7 @@
         }
       ]
     }
-  ]
+  ],
+  "public_row_sha256": "9cef294651b4d4d106eb031bf4d56938f1d5e6a6015b77b65244381c6ed657f9",
+  "language_check": "language-check.json"
 }
