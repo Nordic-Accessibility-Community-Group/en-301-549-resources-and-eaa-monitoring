@@ -8,7 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 
-DOMAINS = ('monitoring', 'sanctions', 'enforcement')
+DOMAINS = ('monitoring', 'sanctions', 'enforcement', 'adoption')
 
 def canonical(value):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
