@@ -6,25 +6,25 @@
 
 ## Resources
 
-- [Overlay Factsheet](https://overlayfactsheet.com/en/#what-is-a-web-accessibility-overlay) is a resource signed by almost 1000 accessibility professionals around the world.
-- [Article in Swedish about accessibility overlays](https://webperf.se/articles/t12toverlagg/).
-- [AccessiByeBye](https://www.accessibyebye.org/) is a web browser plugin to block overlays. They have a list of sites blocked by the plugin.
-- [The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments](https://overlays.dnikub.dev/), master's thesis by Daniela Kubesch, MSc MSc.
+- <a href="https://overlayfactsheet.com/en/#what-is-a-web-accessibility-overlay" hreflang="en">Overlay Factsheet</a> is a resource signed by almost 1000 accessibility professionals around the world.
+- <a href="https://webperf.se/articles/t12toverlagg/" hreflang="sv">Article in Swedish about accessibility overlays</a>.
+- <a href="https://www.accessibyebye.org/" hreflang="en">AccessiByeBye</a> is a web browser plugin to block overlays. They have a list of sites blocked by the plugin.
+- <a href="https://overlays.dnikub.dev/" hreflang="en">The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments</a>, master's thesis by Daniela Kubesch, MSc MSc.
 - [We intercepted every request from five accessibility tools. Here’s what they actually do to your site.](https://aiopsgroup.com/we-intercepted-every-request-from-five-accessibility-tools-heres-what-they-actually-do-to-your-site/)
 
 ### International
-- [event.virtualdays.com](https://event.virtualdays.com/swedishinstitutedemo) - Virtual days Event platform (UserWay)
+- <a href="https://event.virtualdays.com/swedishinstitutedemo" hreflang="en">event.virtualdays.com</a> - Virtual days Event platform (UserWay)
 
 ## EU countries
 
 ### Finland
 
-- [ivakonferens.se](https://ivakonferens.se/fi/saavutettavuus/) (Selma)
+- <a href="https://ivakonferens.se/fi/saavutettavuus/" hreflang="fi">ivakonferens.se</a> (Selma)
 - [fjallraven.com](https://www.fjallraven.com/fi/fi-fi/) (UserWay)
 
 ### Germany
-- [wuerzburg.de](https://www.wuerzburg.de) (Regiogate)
-- [wvv.de](https://www.wvv.de) (Eye-able)
+- <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> (Regiogate)
+- <a href="https://www.wvv.de" hreflang="de">wvv.de</a> (Eye-able)
 
 ### Norway
 
@@ -32,39 +32,39 @@
 
 ### Sweden
 
-- [websupport.se](https://websupport.se/) (AccessiWay)
+- <a href="https://websupport.se/" hreflang="sv">websupport.se</a> (AccessiWay)
 - [hags.com](https://hags.com) (Selma)
-- [hederaassistans.se](https://www.hederaassistans.se) (Selma)
-- [arvidsjaur.se](https://arvidsjaur.se) (Selma)
-- [floattech.se](https://www.floattech.se) (Selma)
-- [carson.nu](https://carson.nu) (Selma)
-- [livissomsorg.se](https://livissomsorg.se) (Selma)
-- [vivant.se](https://www.vivant.se) (Selma)
-- [hlr-instruktorerna.se](https://hlr-instruktorerna.se) (Selma)
+- <a href="https://www.hederaassistans.se" hreflang="sv">hederaassistans.se</a> (Selma)
+- <a href="https://arvidsjaur.se" hreflang="sv">arvidsjaur.se</a> (Selma)
+- <a href="https://www.floattech.se" hreflang="sv">floattech.se</a> (Selma)
+- <a href="https://carson.nu" hreflang="sv">carson.nu</a> (Selma)
+- <a href="https://livissomsorg.se" hreflang="sv">livissomsorg.se</a> (Selma)
+- <a href="https://www.vivant.se" hreflang="sv">vivant.se</a> (Selma)
+- <a href="https://hlr-instruktorerna.se" hreflang="sv">hlr-instruktorerna.se</a> (Selma)
 - [barilla.com](https://www.barilla.com/sv-se) (Accessibe)
 - [stadsallskapet.se](https://stadsallskapet.se) (Selma)
-- [bonlivacare.se](https://www.bonlivacare.se) (Selma)
+- <a href="https://www.bonlivacare.se" hreflang="sv">bonlivacare.se</a> (Selma)
 - [wgp.se](https://wgp.se) (Selma)
-- [basket.se](https://www.basket.se) (Selma)
-- [olofstromshus.se](https://www.olofstromshus.se) (UserWay)
-- [hudikhem.se](https://www.hudikhem.se) (Selma)
-- [bizmaker.se](https://bizmaker.se) (Selma)
+- <a href="https://www.basket.se" hreflang="sv">basket.se</a> (Selma)
+- <a href="https://www.olofstromshus.se" hreflang="sv">olofstromshus.se</a> (UserWay)
+- <a href="https://www.hudikhem.se" hreflang="sv">hudikhem.se</a> (Selma)
+- <a href="https://bizmaker.se" hreflang="sv">bizmaker.se</a> (Selma)
 - [zara.se](http://zara.se) (EqualWeb)
-- [uropenn.se](https://uropenn.se/) (Selma)
+- <a href="https://uropenn.se/" hreflang="sv">uropenn.se</a> (Selma)
 - [wettex.se](https://www.wettex.se/accessibility) (Accessibe)
-- [ingelas.se](https://www.ingelas.se/) (Accessibe)
-- [tress.com](https://www.tress.com/se/om-oss/tillganglighetsredogorelse) (Selma)
-- [agb-pharma.com](https://www.agb-pharma.com/tillganglighet/) (Accessibe)
-- [tressutemiljo.se](https://www.tressutemiljo.se/om-oss/tillganglighetsredogorelse) (Accessibe)
-- [safira.com](https://safira.com/se/tillganglighetsredogorelse) (Selma)
+- <a href="https://www.ingelas.se/" hreflang="sv">ingelas.se</a> (Accessibe)
+- <a href="https://www.tress.com/se/om-oss/tillganglighetsredogorelse" hreflang="sv">tress.com</a> (Selma)
+- <a href="https://www.agb-pharma.com/tillganglighet/" hreflang="sv">agb-pharma.com</a> (Accessibe)
+- <a href="https://www.tressutemiljo.se/om-oss/tillganglighetsredogorelse" hreflang="sv">tressutemiljo.se</a> (Accessibe)
+- <a href="https://safira.com/se/tillganglighetsredogorelse" hreflang="sv">safira.com</a> (Selma)
 - [travsport.se](https://www.travsport.se/svensk-travsport/om-webbplatsen/tillganglighetsredogorelse/) (Selma)
-- [dios.se](https://www.dios.se/om-dios/tillganglighetsredogorelse/) (Selma)
-- [goldenhits.se](https://goldenhits.se/tillganglighetsredogorelse/) (Selma)
-- [aktivitus.se](https://www.aktivitus.se/tillganglighetsutlatande/) (Accessibe)
+- <a href="https://www.dios.se/om-dios/tillganglighetsredogorelse/" hreflang="sv">dios.se</a> (Selma)
+- <a href="https://goldenhits.se/tillganglighetsredogorelse/" hreflang="sv">goldenhits.se</a> (Selma)
+- <a href="https://www.aktivitus.se/tillganglighetsutlatande/" hreflang="sv">aktivitus.se</a> (Accessibe)
 - [moroccanoil.com](https://se.moroccanoil.com/pages/accessibility-statement) (Accessibe)
-- [amalstravet.se](https://www.amalstravet.se/mer/tillganglighetsredogorelse/) (Selma)
-- [gotlandsboenden.se](https://gotlandsboenden.se/accessibility-statement/) (Elementor)
-- [jlindeberg.com](https://www.jlindeberg.com/sv-se) (Accessibly)
-- [tmeeting.se](https://www.tmeeting.se/) (WCAGready/ EaseAccess24)
-- [power.se](https://www.power.se/) (Equalweb)
+- <a href="https://www.amalstravet.se/mer/tillganglighetsredogorelse/" hreflang="sv">amalstravet.se</a> (Selma)
+- <a href="https://gotlandsboenden.se/accessibility-statement/" hreflang="sv">gotlandsboenden.se</a> (Elementor)
+- <a href="https://www.jlindeberg.com/sv-se" hreflang="sv">jlindeberg.com</a> (Accessibly)
+- <a href="https://www.tmeeting.se/" hreflang="sv">tmeeting.se</a> (WCAGready/ EaseAccess24)
+- <a href="https://www.power.se/" hreflang="sv">power.se</a> (Equalweb)
 - [fjallraven.com](https://www.fjallraven.com/se/sv-se/) (UserWay)

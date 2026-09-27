@@ -20,7 +20,7 @@
         "Czechia"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "9955b995d387af6313bafc322ebf96856f8cab27749d841639b3fada85ccd11b",
+      "row_sha256": "a7ef84d134cac8c5aa368a3c1e94e45f748ee505ebfc5610e48f6b50e253e280",
       "state": "reviewed",
       "claim_ids": [
         "czechia-coi-statutory-list-reference"
@@ -44,7 +44,7 @@
         "Finland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "acc962cb95f55c672dd272704e60901c33026f2c1d676d40785931973a021120",
+      "row_sha256": "d74913ad00b3f0637320b5aa88457f763223b85f1f6ca60d80f43d11626aa5b1",
       "state": "reviewed",
       "claim_ids": [
         "fi-consumer-service-complaints-june-2026"
@@ -57,7 +57,7 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "9c521cb5d08c4e87a16536690d499e754b48411d6e79013fae77f61c638ae37f",
+      "row_sha256": "111d779a8e11e4a54eafe932a4b8a6b235344153266330d3bf21aa01364e2f2d",
       "state": "reviewed",
       "claim_ids": [
         "fr-dgccrf-controls",
@@ -73,7 +73,7 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "9ede836c504d4fd736ee08e48a8e7da5e0b64e0aa1bc03ea233afe968822d959",
+      "row_sha256": "920ee80af070d3dd5598e156659795c61248ab8a11a6b9a3c6d7139d3e3f7bbe",
       "state": "reviewed",
       "claim_ids": [
         "fr-carrefour-interim-order-20260604",
@@ -98,7 +98,7 @@
         "Ireland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "ce51daa53130844a5138bf135f25445c90b48b7adf05076e8494ef216682b5fb",
+      "row_sha256": "14b1e4defb06edba7d45d24427afef1b6e1ed2774cbbfa0f7bdc6f4952c6cae3",
       "state": "reviewed",
       "claim_ids": [
         "ie-ccpc-2025-eaa-submissions"
@@ -136,7 +136,7 @@
         "Sweden"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "b976a409dfe4d6e12a992a987586aee29d45fa4c1aa1892e4fc3e5a144ced29b",
+      "row_sha256": "5e73f401edacd90ddc1aab21cc9fa4fd76a36e9a95b263484f72cf69a3a9ffbf",
       "state": "reviewed",
       "claim_ids": [
         "se-pts-products-launch",
@@ -155,7 +155,7 @@
         "Germany"
       ],
       "section": "Decisions from the EU commission",
-      "row_sha256": "a307bead71f003522f24dda4920ae2b50dbd0ef4c7b72648f8b5d4938b16457c",
+      "row_sha256": "2de6091dc92868616ecdd9b0b89a92482d7e41219c10bdc73c1d958535ef03ee",
       "state": "reviewed",
       "claim_ids": [
         "eu-croatia-germany-additional-opinions-20260311"
@@ -168,7 +168,7 @@
         "Norway"
       ],
       "section": "Table of Non-EU legal enforcement status",
-      "row_sha256": "3c1a5260f8912098717945a30da63c5af6cedd0f7045e4d6f025122954739550",
+      "row_sha256": "2ae8de74acb5896d62eb3a75183012973be1191283ffd76f0bddb0a35f253552",
       "state": "reviewed",
       "claim_ids": [
         "no-helsami-closure-20251223"
@@ -181,7 +181,7 @@
         "Germany"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "705dce44c6a8de38d2ed2ef7f93013a1f0bd8277abfd2e7509048b6eaa61fca8",
+      "row_sha256": "c8cbef64e954700dd1e9ee1ef85d44e1630e986d77ccb68babd86a7cc553d641",
       "state": "reviewed",
       "claim_ids": [
         "de-mlbf-nationwide-monitoring-2026"
@@ -194,7 +194,7 @@
         "Slovenia"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "3965bb9e4dc5e7e78ba9dd6110980f6a4b8e7b7236412fb69d5be7aab303f721",
+      "row_sha256": "9ac5ed0704a381d634ac6dff04fa3ac83d5f75a624e51576332df1026c49fdc9",
       "state": "reviewed",
       "claim_ids": [
         "si-akos-rtv-accessibility-inspection-2026"
@@ -207,7 +207,7 @@
         "Canada"
       ],
       "section": "Table of Non-EU legal enforcement status",
-      "row_sha256": "1b478e64bacc8fe2f6aee78be28faaa4c5e7ee06fcdae505ca98aa210c0d78ee",
+      "row_sha256": "cb6a753b21dfd574c069bc8db17978321fd2ae254c32e0015bd1e1c67816c845",
       "state": "reviewed",
       "claim_ids": [
         "ca-accessibility-commissioner-inspections-2025-2026"
@@ -220,7 +220,7 @@
         "United Kingdom"
       ],
       "section": "Table of Non-EU legal enforcement status",
-      "row_sha256": "0847bf7dba8e14fa968335cee9ba109d4ea891e215a1eb1a7154ee8cd61c82b8",
+      "row_sha256": "7c934f513f13d269c8216fb7236f5f9f50382f058c74fb351b972c68f0a3903c",
       "state": "reviewed",
       "claim_ids": [
         "uk-gds-ehrc-monitoring-2022-2024"
@@ -233,7 +233,7 @@
         "Estonia"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "be87851b8ad0cddd95b1eccce339e762f4c1ce440f57f06110957064e3f9b224",
+      "row_sha256": "ba4b0bd3652857561a1bf5d1f919cbae786c206d184c67c01cc4686fbacff78d",
       "state": "reviewed",
       "claim_ids": [
         "ee-ttja-monitoring-20260925",

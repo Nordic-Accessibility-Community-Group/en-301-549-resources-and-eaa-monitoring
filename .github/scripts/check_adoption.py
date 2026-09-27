@@ -60,6 +60,9 @@ def inherited_rows(root):
     require(hashlib.sha256(raw).hexdigest() == BASELINE_SHA256, 'Frozen adoption baseline changed')
     return json.loads(raw)['rows']
 
+from link_language import additive_language_digest
+
+
 def row_digest(row):
     return hashlib.sha256(row.encode()).hexdigest()
 
@@ -109,7 +112,7 @@ def check_domain(name, domain, pool, root, row, today):
         else:
             require(verified is None, 'Unverified claim has verification date')
     require(len(domain['public_claim_ids']) == len(set(domain['public_claim_ids'])) and all(i in claims for i in domain['public_claim_ids']), 'Public claim mapping')
-    require(row_digest(row) == domain['public_row_sha256'], name + ': public row changed without evidence mapping')
+    require(additive_language_digest(row, {domain['public_row_sha256']}) == domain['public_row_sha256'], name + ': public row changed without evidence mapping')
     require(domain['public_claim_ids'], 'Public row needs claim mappings')
     baseline = inherited_rows(root)
     old_name = 'Europe' if name == 'European Union' else name
