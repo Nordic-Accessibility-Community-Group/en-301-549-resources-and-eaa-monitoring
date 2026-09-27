@@ -412,6 +412,48 @@
       "country": "Canada"
     },
     {
+      "id": "world-discovery-4-2026-09-27-costa-rica",
+      "country": "Costa Rica",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/costa rica.json",
+          "disposition": "research_only",
+          "reason": "academic comparison of European policy; not national adoption",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "denmark-mailbox-review",
       "country": "Denmark",
       "recorded_on": "2026-09-25",
@@ -1498,6 +1540,48 @@
       "country": "Norway"
     },
     {
+      "id": "world-discovery-4-2026-09-27-peru",
+      "country": "Peru",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/peru.json",
+          "disposition": "research_only",
+          "reason": "government digital-service development/procurement guidance",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "si-akos-rtv-accessibility-inspection-2026",
       "country": "Slovenia",
       "recorded_on": "2026-09-25",
@@ -2180,6 +2264,48 @@
           "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
           "next_action": "Retain country evidence and legal-mapping questions for further research.",
           "pr": null
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-4-2026-09-27-uruguay",
+      "country": "Uruguay",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/uruguay.json",
+          "disposition": "research_only",
+          "reason": "municipal project technical specification",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
         }
       ]
     }

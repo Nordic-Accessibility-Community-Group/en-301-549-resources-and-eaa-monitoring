@@ -42,6 +42,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Costa Rica",
+      "slug": "costa rica",
+      "group": "non-EU"
+    },
+    {
       "name": "Croatia",
       "slug": "croatia",
       "group": "EU"
@@ -182,6 +187,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Peru",
+      "slug": "peru",
+      "group": "non-EU"
+    },
+    {
       "name": "Poland",
       "slug": "poland",
       "group": "EU"
@@ -234,6 +244,11 @@
     {
       "name": "United States",
       "slug": "united states",
+      "group": "non-EU"
+    },
+    {
+      "name": "Uruguay",
+      "slug": "uruguay",
       "group": "non-EU"
     },
     {

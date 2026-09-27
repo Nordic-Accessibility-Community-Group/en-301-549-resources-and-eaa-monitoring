@@ -1,0 +1,190 @@
+{
+  "schema_version": 2,
+  "country": "Costa Rica",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-4f8892b03267d34ac4bddd3e": {
+      "issuer": "Universidad de Costa Rica, PROLEDI/CICOM; copy hosted by Promotora",
+      "url": "https://www.promotora.go.cr/web/Assets/pdfs/Cuarto-Informe-Estado-Libertad-Expresion-Costa-Rica.pdf",
+      "source_type": "other_unverified",
+      "language": "es",
+      "passage": "2024 report, publisher page2, comparative table PDFpages139–140 and bibliography215. EN V1.1.2 appears in EU policy comparison. Academic contextual reference only; not national authority/adoption evidence.",
+      "publication_date": "2024",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-15feaa9e06e8b45e0cff004c": {
+      "issuer": "Costa Rica Procuraduría General, SCIJ",
+      "url": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/Z/2020-2029/2020-2024/2024/18C68/166788.HTML",
+      "source_type": "official_law",
+      "language": "es",
+      "passage": "Directive036-MTSS-MICITT heading and article1: repeals051-MTSS-MICITT. Retrieved text ends at article1; full replacement requirements not inspected.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-34a520ae9303d4f1313aa623": {
+      "issuer": "European Commission; copy hosted by Costa Rica Ministry of Finance",
+      "url": "https://www.hacienda.go.cr/docs/GuiaUEcontratacionsocialmenteresponsableII.pdf",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Cover identifies European Commission guidance2021/C237/01. Foreign document hosting does not establish Costa Rican adoption or domestic obligation.",
+      "publication_date": "2021-06-18",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-fa835dc6c2640a5c580cce46": {
+      "issuer": "Universidad de Costa Rica, PROLEDI/CICOM; copy hosted by Promotora",
+      "url": "https://www.promotora.go.cr/web/Assets/pdfs/Cuarto-Informe-Estado-Libertad-Expresion-Costa-Rica.pdf",
+      "source_type": "other_unverified",
+      "language": "es",
+      "passage": "2024 report, publisher page2, comparative table PDFpages139–140 and bibliography215. EN V1.1.2 appears in EU policy comparison. Academic contextual reference only; not national authority/adoption evidence. Source edition notation: V1.1.2 (2015-04).",
+      "publication_date": "2024",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-costa-rica-discovery-reference",
+          "aspect": "reference",
+          "statement": "The University of Costa Rica’s 2024 freedom-of-expression report references EN 301 549 V1.1.2:2015 in its comparison of European accessibility policy and its bibliography. This is an academic reference to European policy, not evidence that Costa Rica adopted EN 301 549.",
+          "scope": "academic comparison of European policy; not national adoption",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-fa835dc6c2640a5c580cce46"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Source-language review in discovery-4-review-2026-09-27.json. No public row proposed. Exact academic citation read, but source is not national standards/government adoption authority; strict evidence status remains unverified_source."
+        }
+      ],
+      "questions": [
+        "Further research: national standards catalogue, legal force, scope and exact EN edition. No public adoption row is supported by this reference alone.",
+        "Routing: no EAA monitoring/sanctions/enforcement change established; local law notes belong to future global legal mapping.",
+        "Legal mapping source source-15feaa9e06e8b45e0cff004c: Article 1 of Costa Rica’s Directive 036-MTSS-MICITT repeals Directive 051-MTSS-MICITT on accessible public-sector websites. The retrieved excerpt does not establish the replacement’s complete requirements. Retrieve complete directive and Law7600 before mapping current requirements.",
+        "Foreign hosting source source-34a520ae9303d4f1313aa623 is European Commission guidance; do not treat hosting as domestic adoption.",
+        "Academic report’s EN V1.1.2:2015 comparison concerns Europe. Its discussion of superseded Directive051 is historical; source correction preserved in separate legal evidence.",
+        "Source metadata refinement: retained earlier evidence fingerprint and added exact month notation without changing the academic-reference claim."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:go.cr \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:micitt.go.cr \"301549\" OR \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:go.cr \"EN 301 549\" accesibilidad -filetype:pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:pgrweb.go.cr 051-MTSS-MICITT sitios Web accesibles"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "2024 report, publisher page2, comparative table PDFpages139–140 and bibliography215. EN V1.1.2 appears in EU policy comparison. Academic contextual reference only; not national authority/adoption evidence.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.promotora.go.cr/web/Assets/pdfs/Cuarto-Informe-Estado-Libertad-Expresion-Costa-Rica.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Directive036-MTSS-MICITT heading and article1: repeals051-MTSS-MICITT. Retrieved text ends at article1; full replacement requirements not inspected.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/Z/2020-2029/2020-2024/2024/18C68/166788.HTML"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Cover identifies European Commission guidance2021/C237/01. Foreign document hosting does not establish Costa Rican adoption or domestic obligation.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.hacienda.go.cr/docs/GuiaUEcontratacionsocialmenteresponsableII.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-4-2026-09-27-costa-rica",
+      "country": "Costa Rica",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/costa rica.json",
+          "disposition": "research_only",
+          "reason": "academic comparison of European policy; not national adoption",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}
