@@ -272,6 +272,19 @@
             }
           },
           "additionalProperties": false
+        },
+        "adoption": {
+          "type": "object",
+          "required": [
+            "claims",
+            "questions",
+            "attempts",
+            "last_monthly_review",
+            "last_full_review",
+            "public_row_sha256",
+            "public_claim_ids",
+            "review_report"
+          ]
         }
       }
     },
