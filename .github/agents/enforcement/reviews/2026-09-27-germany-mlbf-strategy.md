@@ -47,3 +47,11 @@ The source-fidelity reviewer supplied these original passages and renderings; re
 - Both strategies, section 3.X.4 heading: “Mindestkontrollniveau, Durchsetzungsaktivitäten” — “minimum level of checks, enforcement activities”. Full-document inspection found general measures and fine provisions, without an individual penalty decision or named sanctioned party.
 
 Evidence-object provenance notes describe the earlier research-intake stage and remain unchanged. The independent publication wording reviews subsequently completed on 27 September are recorded here; earlier provenance is not a current claim that those reviews remain undone.
+
+## Independent actual-head PR review
+
+Reviewer `/root/germany_pr_review`, no-history fork, inspected GitHub PR #72 at `b31e09bd19a0b4664507f0c87230787ffe1ee70c`, its diff, description, records, specifications and reports. Found two bounded issues: missing recorded original excerpts/literal renderings and German language attributes on English link labels. Both were corrected; links now use destination-language `hreflang` and the corrected row fingerprint above.
+
+Reviewer reread actual GitHub head `8907729127f443c00eec6ac52eb4a8a215a64701` and its correction diff. Final verdict: no unresolved findings. Narrative and evidence claims unchanged; canonical and generated routing consistently identify PR #72. Independently reran enforcement validation, all 26 enforcement tests, verification-date and whitespace checks. Subsequent shared validation and Markdownlint passed. No new legal research; GitHub CI remains unconfirmed. This concluding report-only addition does not change reviewed evidence or wording.
+
+Before merge: human maintainer review; reconcile generated events.json after either this PR or #71 merges by regenerating from the combined canonical records. Do not discard either event. No automation or runtime-state change is included.
