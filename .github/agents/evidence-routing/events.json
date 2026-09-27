@@ -170,6 +170,90 @@
       "country": "Australia"
     },
     {
+      "id": "world-discovery-6-2026-09-27-031",
+      "country": "Azerbaijan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/azerbaijan.json",
+          "disposition": "research_only",
+          "reason": "contextual reference in cloud-service-level-agreement document",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-050",
+      "country": "Bangladesh",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bangladesh.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "belgium-inter-context",
       "country": "Belgium",
       "recorded_on": "2026-09-25",
@@ -1251,6 +1335,48 @@
       "country": "Japan"
     },
     {
+      "id": "world-discovery-6-2026-09-27-398",
+      "country": "Kazakhstan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kazakhstan.json",
+          "disposition": "research_only",
+          "reason": "European Union comparison in financial-regulation policy document",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-kenya-2026-09-27",
       "destinations": [
         {
@@ -1375,6 +1501,48 @@
         }
       ],
       "country": "Kenya"
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-414",
+      "country": "Kuwait",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kuwait.json",
+          "disposition": "research_only",
+          "reason": "national framework with unresolved effective-date placeholder",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
     },
     {
       "id": "luxembourg-osaps-20251117",
@@ -1750,6 +1918,132 @@
       ]
     },
     {
+      "id": "world-discovery-6-2026-09-27-634",
+      "country": "Qatar",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/qatar.json",
+          "disposition": "research_only",
+          "reason": "private public-benefit institution procurement guidance",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-410",
+      "country": "Republic of Korea",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/republic of korea.json",
+          "disposition": "research_only",
+          "reason": "academic comparison and proposed procurement guidelines",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-682",
+      "country": "Saudi Arabia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/saudi arabia.json",
+          "disposition": "research_only",
+          "reason": "agency digital-accessibility policy",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "si-akos-rtv-accessibility-inspection-2026",
       "country": "Slovenia",
       "recorded_on": "2026-09-25",
@@ -2061,6 +2355,90 @@
         }
       ],
       "country": "Switzerland"
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-158",
+      "country": "Taiwan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/taiwan.json",
+          "disposition": "research_only",
+          "reason": "translation of Dutch guidance in training material",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-6-2026-09-27-780",
+      "country": "Trinidad and Tobago",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/trinidad and tobago.json",
+          "disposition": "research_only",
+          "reason": "private purchase-order terms",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
     },
     {
       "id": "adoption-baseline-turkey-2026-09-27",

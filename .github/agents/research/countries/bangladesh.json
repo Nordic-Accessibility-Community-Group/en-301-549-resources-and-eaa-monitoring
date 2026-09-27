@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Bangladesh",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-2857afa33b8038c44d41b0f6": {
+      "issuer": "Bangladesh Ministry of Law",
+      "url": "https://bdlaws.minlaw.gov.bd/act-print-1126.html",
+      "source_type": "official_government",
+      "language": "bn",
+      "passage": "Act 39/2013; source text retrieved. Commencement exceptions and amendments need legal review.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-a49d5920dd163e3467405ecd": {
+      "issuer": "DAAD",
+      "url": "https://www.daad-bangladesh.org/en/accessibility-declaration/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "DAAD’s Bangladesh website declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a foreign institution’s regional website reference, not evidence of national adoption in Bangladesh. No EN edition is named in the declaration text.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-bangladesh-discovery-reference",
+          "aspect": "reference",
+          "statement": "DAAD’s Bangladesh website declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a foreign institution’s regional website reference, not evidence of national adoption in Bangladesh. No EN edition is named in the declaration text.",
+          "scope": "foreign institution regional website",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-a49d5920dd163e3467405ecd"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-2857afa33b8038c44d41b0f6: প্রতিবন্ধী ব্যক্তির অধিকার ও সুরক্ষা আইন, ২০১৩. Act 39/2013; source text retrieved. Commencement exceptions and amendments need legal review."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "\"Bangladesh\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.bd \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.bd Rights Protection Persons Disabilities Act 2013"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Act 39/2013; source text retrieved. Commencement exceptions and amendments need legal review.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-1126.html"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "DAAD’s Bangladesh website declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a foreign institution’s regional website reference, not evidence of national adoption in Bangladesh. No EN edition is named in the declaration text.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.daad-bangladesh.org/en/accessibility-declaration/"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-050",
+      "country": "Bangladesh",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bangladesh.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

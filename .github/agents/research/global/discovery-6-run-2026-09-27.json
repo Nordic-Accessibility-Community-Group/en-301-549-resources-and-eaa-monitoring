@@ -1,0 +1,389 @@
+{
+  "id": "world-discovery-6-2026-09-27",
+  "started_at": "2026-09-27T15:32:04Z",
+  "research_closed_at": "2026-09-27T15:48:00Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "elapsed_research_minutes": 15.9333,
+  "remaining_research_minutes": 14.0667,
+  "scope": [
+    "Bahrain",
+    "Bangladesh",
+    "Brunei Darussalam",
+    "Cambodia",
+    "China",
+    "Jordan",
+    "Kuwait",
+    "Lao People's Democratic Republic",
+    "Nepal",
+    "Pakistan",
+    "Qatar",
+    "Republic of Korea",
+    "Saudi Arabia",
+    "Sri Lanka",
+    "Taiwan",
+    "United Arab Emirates",
+    "Armenia",
+    "Azerbaijan",
+    "Georgia",
+    "Kazakhstan",
+    "Mongolia",
+    "Uzbekistan",
+    "Algeria",
+    "Benin",
+    "Burkina Faso",
+    "Burundi",
+    "Cabo Verde",
+    "Côte d’Ivoire",
+    "Democratic Republic of the Congo",
+    "Congo",
+    "Eswatini",
+    "Gabon",
+    "Gambia",
+    "Lesotho",
+    "Liberia",
+    "Madagascar",
+    "Mali",
+    "Mauritania",
+    "Niger",
+    "Sierra Leone",
+    "Togo",
+    "Bahamas",
+    "Barbados",
+    "Belize",
+    "Bolivia (Plurinational State of)",
+    "Cuba",
+    "El Salvador",
+    "Jamaica",
+    "Paraguay",
+    "Trinidad and Tobago"
+  ],
+  "selection_reason": "User requested another 50 pending entries: 22 in Asia, 19 in Africa, nine in the Americas.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 148,
+  "country_windows": {
+    "Bahrain": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Bangladesh": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Brunei Darussalam": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Cambodia": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "China": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Jordan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Kuwait": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Lao People's Democratic Republic": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Nepal": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Pakistan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Qatar": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Republic of Korea": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Saudi Arabia": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Sri Lanka": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Taiwan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "United Arab Emirates": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Armenia": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Azerbaijan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Georgia": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Kazakhstan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Mongolia": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Uzbekistan": {
+      "started_at": "2026-09-27T15:32:04Z",
+      "completed_by": "2026-09-27T15:42:04Z",
+      "conservative_elapsed_minutes": 10
+    },
+    "Algeria": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Benin": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Burkina Faso": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Burundi": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Cabo Verde": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Côte d’Ivoire": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Democratic Republic of the Congo": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Congo": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Eswatini": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Gabon": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Gambia": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Lesotho": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Liberia": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Madagascar": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Mali": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Mauritania": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Niger": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Sierra Leone": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Togo": {
+      "started_at": "2026-09-27T15:36:57Z",
+      "completed_by": "2026-09-27T15:46:18Z",
+      "conservative_elapsed_minutes": 9.35
+    },
+    "Bahamas": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Barbados": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Belize": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Bolivia (Plurinational State of)": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Cuba": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "El Salvador": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Jamaica": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Paraguay": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    },
+    "Trinidad and Tobago": {
+      "started_at": "2026-09-27T15:46:18Z",
+      "completed_by": "2026-09-27T15:48:00Z",
+      "conservative_elapsed_minutes": 1.7
+    }
+  },
+  "attempts_storage": {
+    "Bahrain": ".github/agents/research/global/worldwide-index.json#m49-048",
+    "Bangladesh": ".github/agents/research/countries/bangladesh.json",
+    "Brunei Darussalam": ".github/agents/research/global/worldwide-index.json#m49-096",
+    "Cambodia": ".github/agents/research/global/worldwide-index.json#m49-116",
+    "China": ".github/agents/research/global/worldwide-index.json#m49-156",
+    "Jordan": ".github/agents/research/global/worldwide-index.json#m49-400",
+    "Kuwait": ".github/agents/research/countries/kuwait.json",
+    "Lao People's Democratic Republic": ".github/agents/research/global/worldwide-index.json#m49-418",
+    "Nepal": ".github/agents/research/global/worldwide-index.json#m49-524",
+    "Pakistan": ".github/agents/research/global/worldwide-index.json#m49-586",
+    "Qatar": ".github/agents/research/countries/qatar.json",
+    "Republic of Korea": ".github/agents/research/countries/republic of korea.json",
+    "Saudi Arabia": ".github/agents/research/countries/saudi arabia.json",
+    "Sri Lanka": ".github/agents/research/global/worldwide-index.json#m49-144",
+    "Taiwan": ".github/agents/research/countries/taiwan.json",
+    "United Arab Emirates": ".github/agents/research/global/worldwide-index.json#m49-784",
+    "Armenia": ".github/agents/research/global/worldwide-index.json#m49-051",
+    "Azerbaijan": ".github/agents/research/countries/azerbaijan.json",
+    "Georgia": ".github/agents/research/global/worldwide-index.json#m49-268",
+    "Kazakhstan": ".github/agents/research/countries/kazakhstan.json",
+    "Mongolia": ".github/agents/research/global/worldwide-index.json#m49-496",
+    "Uzbekistan": ".github/agents/research/global/worldwide-index.json#m49-860",
+    "Algeria": ".github/agents/research/global/worldwide-index.json#m49-012",
+    "Benin": ".github/agents/research/global/worldwide-index.json#m49-204",
+    "Burkina Faso": ".github/agents/research/global/worldwide-index.json#m49-854",
+    "Burundi": ".github/agents/research/global/worldwide-index.json#m49-108",
+    "Cabo Verde": ".github/agents/research/global/worldwide-index.json#m49-132",
+    "Côte d’Ivoire": ".github/agents/research/global/worldwide-index.json#m49-384",
+    "Democratic Republic of the Congo": ".github/agents/research/global/worldwide-index.json#m49-180",
+    "Congo": ".github/agents/research/global/worldwide-index.json#m49-178",
+    "Eswatini": ".github/agents/research/global/worldwide-index.json#m49-748",
+    "Gabon": ".github/agents/research/global/worldwide-index.json#m49-266",
+    "Gambia": ".github/agents/research/global/worldwide-index.json#m49-270",
+    "Lesotho": ".github/agents/research/global/worldwide-index.json#m49-426",
+    "Liberia": ".github/agents/research/global/worldwide-index.json#m49-430",
+    "Madagascar": ".github/agents/research/global/worldwide-index.json#m49-450",
+    "Mali": ".github/agents/research/global/worldwide-index.json#m49-466",
+    "Mauritania": ".github/agents/research/global/worldwide-index.json#m49-478",
+    "Niger": ".github/agents/research/global/worldwide-index.json#m49-562",
+    "Sierra Leone": ".github/agents/research/global/worldwide-index.json#m49-694",
+    "Togo": ".github/agents/research/global/worldwide-index.json#m49-768",
+    "Bahamas": ".github/agents/research/global/worldwide-index.json#m49-044",
+    "Barbados": ".github/agents/research/global/worldwide-index.json#m49-052",
+    "Belize": ".github/agents/research/global/worldwide-index.json#m49-084",
+    "Bolivia (Plurinational State of)": ".github/agents/research/global/worldwide-index.json#m49-068",
+    "Cuba": ".github/agents/research/global/worldwide-index.json#m49-192",
+    "El Salvador": ".github/agents/research/global/worldwide-index.json#m49-222",
+    "Jamaica": ".github/agents/research/global/worldwide-index.json#m49-388",
+    "Paraguay": ".github/agents/research/global/worldwide-index.json#m49-600",
+    "Trinidad and Tobago": ".github/agents/research/countries/trinidad and tobago.json"
+  },
+  "verification_scope": "Nine scoped EN document references; 49 country law-source leads, with Cuba legal discovery unresolved. Two unreadable EN leads added to deferred research. No national adoption or complete legal mapping established.",
+  "public_page_changes": false,
+  "process_dependency": "Setup PR70; research PR71. Never merge.",
+  "validation": {
+    "check-country-records.py": "PASS: 63 countries, 768 claims, 71 delivery events",
+    "check_adoption.py --require-coverage": "PASS: 33 adoption records",
+    "test_adoption.py": "PASS: 27 tests",
+    "inventory_preservation": "PASS: 250 unique entries; 89 researched; 148 pending; 13 excluded; all pointers resolve; previous entries and deferred legal task unchanged; earlier EN leads preserved",
+    "markdownlint": "PASS: 40 files, no issues",
+    "git diff --check": "PASS",
+    "check-verification-dates.py": "PASS: no last_verified markers found",
+    "validate-rendered-html.sh": "NOT PASSED locally: system Tidy stopped on warnings in unchanged EAA enforcement tracking.md (HTML5 meta charset and table summary warnings). Used installed marked 18.0.9; no public HTML changed. CI result not asserted.",
+    "offline_local_links": "Unavailable locally: lychee not installed; CI result not asserted"
+  },
+  "limits": [
+    "Mixed catalogue, statute, announcement and search-only legal leads retain explicit access/currentness limits.",
+    "False-positive country-name co-occurrence in generic international reports, foreign street addresses and vendor/catalogue boilerplate was not treated as a country EN connection.",
+    "Togo and DR Congo EN sources each failed twice; no inferred confirmation from snippets.",
+    "First-group timings conservatively include the full ten-minute window; no fresh country-source research after each group closed."
+  ],
+  "coordination": "PR72 independently changes generated routing. Maintainer must regenerate from combined records before merging overlapping drafts."
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Taiwan",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-3e7f3c6b04776f96309c4417": {
+      "issuer": "Taiwan Ministry of Health and Welfare",
+      "url": "https://www.mohw.gov.tw/cp-6661-82651-1.html",
+      "source_type": "official_government",
+      "language": "zh-Hant",
+      "passage": "June 2025 translation consultation page, not a verified current statutory consolidation.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-5552a49cfc7e39c3b345e1bc": {
+      "issuer": "Taiwan National Institute of Cyber Security",
+      "url": "https://material.nics.nat.gov.tw/material/usability/digital-accessibility/",
+      "source_type": "official_government",
+      "language": "zh-Hant",
+      "passage": "Taiwan’s NICS digital-resilience teaching material references EN 301 549 in a translation of Dutch Logius guidance on accessibility and procurement. It does not by itself establish a Taiwanese legal requirement or national adoption. The procurement checklist refers to the latest version without specifying a numbered EN edition.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-taiwan-discovery-reference",
+          "aspect": "reference",
+          "statement": "Taiwan’s NICS digital-resilience teaching material references EN 301 549 in a translation of Dutch Logius guidance on accessibility and procurement. It does not by itself establish a Taiwanese legal requirement or national adoption. The procurement checklist refers to the latest version without specifying a numbered EN edition.",
+          "scope": "translation of Dutch guidance in training material",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-5552a49cfc7e39c3b345e1bc"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-3e7f3c6b04776f96309c4417: People with Disabilities Rights Protection Act — English translation consultation. June 2025 translation consultation page, not a verified current statutory consolidation."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.tw \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:law.moj.gov.tw ENG People Disabilities Rights Protection Act"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "Taiwan People Disabilities Rights Protection Act official"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "June 2025 translation consultation page, not a verified current statutory consolidation.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.mohw.gov.tw/cp-6661-82651-1.html"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Taiwan’s NICS digital-resilience teaching material references EN 301 549 in a translation of Dutch Logius guidance on accessibility and procurement. It does not by itself establish a Taiwanese legal requirement or national adoption. The procurement checklist refers to the latest version without specifying a numbered EN edition.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://material.nics.nat.gov.tw/material/usability/digital-accessibility/"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-158",
+      "country": "Taiwan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/taiwan.json",
+          "disposition": "research_only",
+          "reason": "translation of Dutch guidance in training material",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}
