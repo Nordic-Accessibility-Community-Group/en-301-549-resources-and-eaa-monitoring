@@ -1,0 +1,131 @@
+{
+  "reviewer": "deep_source_review (separate agent)",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Four exact final rows; national adoption/reference wording, not a legal applicability audit.",
+  "isolation_details": "Reviewer received neutral brief, original-source pointers/passages/context and exact proposed wording only, with no conversation history or research conclusions. Iceland and Kenya independently retrieved; Switzerland and Turkey compared against primary researcher-supplied original catalogue excerpts after reviewer retrieval failed. Human maintainer review not performed.",
+  "rows": {
+    "Iceland": {
+      "row_sha256": "662f718453014fe8fbc609622ceb15507cbd7002483f72f53357e25aa1030856",
+      "claim_ids": [
+        "adoption-iceland-deeper-cell-1",
+        "adoption-iceland-deeper-cell-2",
+        "adoption-iceland-deeper-cell-3",
+        "adoption-iceland-deeper-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Iceland",
+        "Adopted",
+        "Standard effective: 2021-07-15",
+        "EN 301 549:2021",
+        "ÍST EN 301549:2021. Icelandic standard covering accessibility requirements for ICT products and services.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial."
+    },
+    "Kenya": {
+      "row_sha256": "53767c45bdaf9f010aba85363cbb7c24d3e6fa5c3e68c7f0e0664e27ba4043db",
+      "claim_ids": [
+        "adoption-kenya-deeper-cell-1",
+        "adoption-kenya-deeper-cell-2",
+        "adoption-kenya-deeper-cell-3",
+        "adoption-kenya-deeper-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Kenya",
+        "Referenced",
+        "First editions: 2022",
+        "V3.2.1:2021",
+        "KS 2952-1:2022 (requirements) and KS 2952-2:2022 (conformance) reference EN 301 549 V3.2.1:2021-03 in their forewords.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial."
+    },
+    "Switzerland": {
+      "row_sha256": "553393ab8f1350a008556d6b7524df424f7e0cb9154888c26378210de3cd72b6",
+      "claim_ids": [
+        "adoption-switzerland-deeper-cell-1",
+        "adoption-switzerland-deeper-cell-2",
+        "adoption-switzerland-deeper-cell-3",
+        "adoption-switzerland-deeper-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Switzerland",
+        "Adopted",
+        "Published: 2021-08-01",
+        "EN 301 549:2021",
+        "SN EN 301549:2021 is listed as current by SNV and replaces SN EN 301549:2020.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial. Supported against supplied original catalogue excerpts; reviewer could not independently retrieve the source."
+    },
+    "Turkey": {
+      "row_sha256": "1ac511ce52fbd98f8c70614e6a622ad0226ffccd2e74fa499281f2915d226ed4",
+      "claim_ids": [
+        "adoption-turkey-deeper-cell-1",
+        "adoption-turkey-deeper-cell-2",
+        "adoption-turkey-deeper-cell-3",
+        "adoption-turkey-deeper-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Turkey",
+        "Adopted",
+        "Adopted: 2021-09-30",
+        "EN 301549:2021",
+        "TS EN 301549. TSE lists EN 301549:2021 as its source; the Turkish translation is dated 2023-09-19.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial. Supported against supplied original catalogue excerpts; reviewer could not independently retrieve the source."
+    }
+  },
+  "comparisons": [
+    {
+      "row": "Iceland",
+      "sections": "Catalogue title/status/date/source fields",
+      "original_excerpt": "ÍST EN 301549:2021; Gildistaka - 15.7.2021; Auglýst",
+      "literal_rendering": "National standard; effective and announced 15 July 2021.",
+      "source_urls": [
+        "https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2"
+      ],
+      "verdict": "Supported",
+      "corrections_and_limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial."
+    },
+    {
+      "row": "Kenya",
+      "sections": "Covers pp. 1/103 and forewords pp. 4/106",
+      "original_excerpt": "First Edition; During the preparation of this standard, reference was made to the following documents:; EN301-549V3.2.1:2021-03",
+      "literal_rendering": "Both first editions date to 2022; forewords consulted the specified EN edition.",
+      "source_urls": [
+        "https://inable.org/wp-content/uploads/2023/08/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf"
+      ],
+      "verdict": "Supported",
+      "corrections_and_limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial."
+    },
+    {
+      "row": "Switzerland",
+      "sections": "Catalogue title/status/date/source fields",
+      "original_excerpt": "Aktuell; Ausgabedatum: 1. August 2021; Gültig ab: 1. August 2021; Herausgeber: SNV; Ersetzt: SN EN 301549:2020",
+      "literal_rendering": "Current; issued and valid from 1 August 2021; publisher SNV; replaces 2020 edition.",
+      "source_urls": [
+        "https://connect.snv.ch/de/sn-en-301549-2021"
+      ],
+      "verdict": "Supported",
+      "corrections_and_limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial. Supported against supplied original catalogue excerpts; reviewer could not independently retrieve the source."
+    },
+    {
+      "row": "Turkey",
+      "sections": "Catalogue title/status/date/source fields",
+      "original_excerpt": "Kabul Tarihi 30.09.2021; Tercüme Tarihi 19.09.2023; Yararlanılan Kaynak EN 301549:2021; Dili tr; TÜRK STANDARDI",
+      "literal_rendering": "Acceptance/adoption date 30 September 2021; translation date 19 September 2023; source EN 301549:2021; Turkish language; Turkish standard.",
+      "source_urls": [
+        "https://intweb.tse.org.tr/Standard/Standard/Standard.aspx?081118051115108051104119110104055048065082077055103076076056084105047051104051110076085057097102065111105120071070082088101056114104069120101121108122119122071052079098119049047051082103098108102079097083050067116086076072077108090104075078106083119048053080109048072100072080087053101108083054100057111108068054077102048088101056086052068084117049107111099043055087081086101067054115074102119089065054121068065066052075105050050081069068087097114081061061"
+      ],
+      "verdict": "Supported",
+      "corrections_and_limits": "Source-to-wording fidelity only; no mandatory legal use or identical equivalence inferred. Updated date is editorial. Supported against supplied original catalogue excerpts; reviewer could not independently retrieve the source."
+    }
+  ]
+}

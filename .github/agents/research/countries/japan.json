@@ -24,6 +24,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-a15896963237ae538ddbb828": {
+      "issuer": "JEITA; preview hosted by Japanese Standards Association",
+      "url": "https://webdesk.jsa.or.jp/preview/pre_JEITA_CPR-6201_2019_j_ch.pdf",
+      "source_type": "official_standard_body",
+      "language": "ja",
+      "passage": "Cover: CPR-6201 is a technical report established March 2019. Contents and section 1 (PDF pages 1, 2, 4): introduces EN 301 549 and related standards as design references; annex contains a Japanese translation of V1.1.2. Inspected preview does not establish the edition-year suffix or national legal adoption.",
+      "publication_date": "2019-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -40,11 +51,11 @@
             "source-4cb727c07a70b71a041989a0"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim."
         },
         {
           "id": "adoption-japan-inherited-3",
@@ -57,11 +68,11 @@
             "source-4cb727c07a70b71a041989a0"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V1.1.2:2015",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim."
         },
         {
           "id": "adoption-japan-inherited-4",
@@ -74,11 +85,11 @@
             "source-4cb727c07a70b71a041989a0"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "JEITA CPR-6201",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim."
         },
         {
           "id": "adoption-japan-lead",
@@ -96,10 +107,84 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this."
+        },
+        {
+          "id": "adoption-japan-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Technical report / translation",
+          "scope": "Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-a15896963237ae538ddbb828"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-japan-round2-cell-2",
+          "aspect": "date",
+          "statement": "Report established: 2019-03",
+          "scope": "Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-a15896963237ae538ddbb828"
+          ],
+          "event_dates": [
+            {
+              "kind": "adoption",
+              "value": "2019-03"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history. Typed adoption event refers to establishment of this technical report, not national adoption of EN; exact source term is 制定."
+        },
+        {
+          "id": "adoption-japan-round2-cell-3",
+          "aspect": "edition",
+          "statement": "V1.1.2",
+          "scope": "Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-a15896963237ae538ddbb828"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-japan-round2-cell-4",
+          "aspect": "reference",
+          "statement": "JEITA CPR-6201 introduces EN 301 549 and includes a Japanese translation of V1.1.2 in an annex.",
+          "scope": "Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-a15896963237ae538ddbb828"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this."
+        "Follow-up: verify whether JEITA CPR-6201 is an explanatory report or a national adoption, and its exact EN edition. Catalogue entry alone does not resolve this.",
+        "Round 2 (2026-09-27): Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim."
       ],
       "attempts": [
         {
@@ -115,31 +200,66 @@
           "method": "web reader",
           "outcome": "reachable",
           "note": "Catalogue retrieved: CPR-6201, issue 2019.03, describes EN 301 549 and related accessibility standards. This does not establish adoption or the exact EN edition."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Cover: CPR-6201 is a technical report established March 2019. Contents and section 1 (PDF pages 1, 2, 4): introduces EN 301 549 and related standards as design references; annex contains a Japanese translation of V1.1.2. Inspected preview does not establish the edition-year suffix or national legal adoption.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://webdesk.jsa.or.jp/preview/pre_JEITA_CPR-6201_2019_j_ch.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Original catalogue link not readable; official catalogue index led to readable JSA-hosted report preview.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.jeita.or.jp/japanese/standard/book/CPR-6201_J/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Official catalogue listed CPR-6201, March 2019, and the JSA source.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.jeita.or.jp/cgi-bin/standard/search.cgi"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:jeita.or.jp \"CPR-6201\""
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "58e1dbffbd7c44b9d1d5777f9046efa70ea054050139cd64378d3fece2d9e341",
+      "public_row_sha256": "888baddf1587904d7c2fd0ca403938237551c8a1d5becbf961aff3c8bf7d6def",
       "public_claim_ids": [
-        "adoption-japan-inherited-1",
-        "adoption-japan-inherited-3",
-        "adoption-japan-inherited-4"
+        "adoption-japan-round2-cell-1",
+        "adoption-japan-round2-cell-2",
+        "adoption-japan-round2-cell-3",
+        "adoption-japan-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-japan-inherited-1"
+          "adoption-japan-round2-cell-1"
         ],
-        "2": [],
+        "2": [
+          "adoption-japan-round2-cell-2"
+        ],
         "3": [
-          "adoption-japan-inherited-3"
+          "adoption-japan-round2-cell-3"
         ],
         "4": [
-          "adoption-japan-inherited-4"
-        ],
-        "5": []
+          "adoption-japan-round2-cell-4"
+        ]
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -179,6 +299,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Japan"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-japan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/japan.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

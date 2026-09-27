@@ -2,7 +2,30 @@
   "schema_version": 2,
   "country": "Iceland",
   "jurisdiction_group": "non-EU",
-  "evidence": {},
+  "evidence": {
+    "source-3e51e66932aeebafc8cbc2ed": {
+      "issuer": "Icelandic Standards (ÍST)",
+      "url": "https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2",
+      "source_type": "official_standard_body",
+      "language": "is/en",
+      "passage": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+      "publication_date": "2021-07-15",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary in-app browser; national catalogue search and full detail inspected"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
+    }
+  },
   "domains": {
     "enforcement": {
       "schema_version": 1,
@@ -49,15 +72,123 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches. Round 2: Public wording retained; this attempt did not establish the inherited claim. No inspectable ÍST catalogue source located; inherited adoption unchanged. Next useful action: locate a precise national identifier/catalogue entry or supplied primary evidence, not repeated generic searches. Deeper round: later catalogue/standard evidence is recorded in adoption-iceland-deeper-cell-*; this historical assertion and its original verification status are retained."
+        },
+        {
+          "id": "adoption-iceland-round2-catalogue-search",
+          "aspect": "adoption",
+          "statement": "No inspectable national catalogue record was located in the bounded searches.",
+          "scope": "Search outcome only; inherited adoption is retained as unknown, not disproved.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history. Deeper round: later catalogue/standard evidence is recorded in adoption-iceland-deeper-cell-*; this historical assertion and its original verification status are retained."
+        },
+        {
+          "id": "adoption-iceland-deeper-cell-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-iceland-deeper-cell-2",
+          "aspect": "date",
+          "statement": "Standard effective: 2021-07-15",
+          "scope": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed"
+          ],
+          "event_dates": [
+            {
+              "kind": "effective",
+              "value": "2021-07-15"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-iceland-deeper-cell-3",
+          "aspect": "edition",
+          "statement": "EN 301 549:2021",
+          "scope": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-iceland-deeper-cell-4",
+          "aspect": "scope",
+          "statement": "ÍST EN 301549:2021. Icelandic standard covering accessibility requirements for ICT products and services.",
+          "scope": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-iceland-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-iceland-deeper-cell-3."
         }
       ],
       "questions": [
-        "Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches."
+        "Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches.",
+        "Round 2 (2026-09-27): No inspectable ÍST catalogue source located; inherited adoption unchanged. Next useful action: locate a precise national identifier/catalogue entry or supplied primary evidence, not repeated generic searches.",
+        "Deeper round (2026-09-27): National catalogue identity and standard-effective date resolved. Separately investigate legal/procurement use if required. Check whether the separate FprEN consultation (deadline 2026-08-22) progresses to national publication; do not replace current edition based on a draft."
       ],
       "attempts": [
         {
@@ -73,25 +204,130 @@
           "method": "official-source web search",
           "outcome": "search_lead",
           "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"301549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"EN 301 549\" \"ÍST\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "\"ÍST EN 301\" accessibility"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; no snippet verifies facts.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "query": "Iceland \"ÍST\" \"301\" \"549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; no snippet verifies facts.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "query": "\"301549\" \"ÍST\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser catalogue detail",
+          "outcome": "reachable",
+          "note": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Homepage/catalogue reachable; search requires browser.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://stadlar.is"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Homepage/catalogue reachable; search requires browser.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://stadlar.is/stadlabudin/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser search",
+          "outcome": "reachable",
+          "note": "Six records; current 2021 effective 15 July 2021, older editions withdrawn, separate FprEN consultation deadline 22 August 2026. Preview requires login; not attempted.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://stadlar.is/default.aspx?pageid=db11caf6-61f8-11ea-8104-005056bc217f&title=&search=&tags=std-301549%2C"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Ministry of Interior, Landsarkitektúr fyrir opinber upplýsingakerfi (2014), printed p.14/PDF p.16 section 4.2.2 lists ÍST EN 301549:2014. Historical corroboration only; no current legal-use inference.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://www.stjornarradid.is/media/innanrikisraduneyti-media/media/frettir-2014/landsarkitektur-fyrir-opinber-upplysingakerfi-nov2014.pdf"
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "b59e506da519e83e7087cbc546d8d996ffddf9413de5648ae575043f479d782b",
+      "public_row_sha256": "5def8c046bf6d3acdf0e27fbe4fc0c824f2354e659a3a7b27b46938dadfb3288",
       "public_claim_ids": [
-        "adoption-iceland-inherited-1"
+        "adoption-iceland-deeper-cell-1",
+        "adoption-iceland-deeper-cell-2",
+        "adoption-iceland-version-label",
+        "adoption-iceland-deeper-cell-4"
       ],
       "public_cells": {
         "0": [],
         "1": [
-          "adoption-iceland-inherited-1"
+          "adoption-iceland-deeper-cell-1"
         ],
-        "2": [],
-        "3": [],
-        "4": [],
+        "2": [
+          "adoption-iceland-deeper-cell-2"
+        ],
+        "3": [
+          "adoption-iceland-version-label"
+        ],
+        "4": [
+          "adoption-iceland-deeper-cell-4"
+        ],
         "5": []
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -132,6 +368,132 @@
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-iceland",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-deeper-iceland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-version-labels-iceland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }
       ],

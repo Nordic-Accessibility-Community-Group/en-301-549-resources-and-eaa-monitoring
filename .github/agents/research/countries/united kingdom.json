@@ -23,6 +23,39 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-18b2d13d37ef83f3154e3fd7": {
+      "issuer": "BSI",
+      "url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Catalogue: BS EN 301 549:2021 is current, published 30 June 2021, identical to EN 301 549:2021; predecessor 2019 edition withdrawn.",
+      "publication_date": "2021-06-30",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-6f1f0521fa6567f9921e02df": {
+      "issuer": "BSI; preview hosted by ANSI",
+      "url": "https://webstore.ansi.org/preview-pages/BSI/preview_30431599.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "National foreword, PDF page 2: UK implementation of EN 301 549:2021; supersedes BS EN 301 549:2019, which is withdrawn; published 30 June 2021. Edition uses the explicit EN year designation; internal v321 identifier is not treated as independent proof of version mapping.",
+      "publication_date": "2021-06-30",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
     }
   },
   "domains": {
@@ -103,11 +136,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks."
         },
         {
           "id": "adoption-united-kingdom-inherited-3",
@@ -118,11 +151,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V3.2.1:2021",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks."
         },
         {
           "id": "adoption-united-kingdom-lead",
@@ -140,10 +173,107 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+        },
+        {
+          "id": "adoption-united-kingdom-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-18b2d13d37ef83f3154e3fd7",
+            "source-6f1f0521fa6567f9921e02df"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-united-kingdom-round2-cell-2",
+          "aspect": "date",
+          "statement": "Published: 2021-06-30",
+          "scope": "Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-18b2d13d37ef83f3154e3fd7",
+            "source-6f1f0521fa6567f9921e02df"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2021-06-30"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-united-kingdom-round2-cell-3",
+          "aspect": "edition",
+          "statement": "EN 301 549:2021",
+          "scope": "Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-18b2d13d37ef83f3154e3fd7",
+            "source-6f1f0521fa6567f9921e02df"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-united-kingdom-round2-cell-4",
+          "aspect": "reference",
+          "statement": "BS EN 301 549:2021. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.",
+          "scope": "Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-18b2d13d37ef83f3154e3fd7",
+            "source-6f1f0521fa6567f9921e02df"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-united-kingdom-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-18b2d13d37ef83f3154e3fd7",
+            "source-6f1f0521fa6567f9921e02df",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-united-kingdom-round2-cell-3."
         }
       ],
       "questions": [
-        "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+        "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title.",
+        "Round 2 (2026-09-27): Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks."
       ],
       "attempts": [
         {
@@ -159,28 +289,82 @@
           "method": "web reader",
           "outcome": "reachable",
           "note": "Retrieved procurement guidance references EN 301 549. It does not identify the national edition; current legal interpretation needs separate evidence."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Catalogue: BS EN 301 549:2021 is current, published 30 June 2021, identical to EN 301 549:2021; predecessor 2019 edition withdrawn.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "National foreword, PDF page 2: UK implementation of EN 301 549:2021; supersedes BS EN 301 549:2019, which is withdrawn; published 30 June 2021. Edition uses the explicit EN year designation; internal v321 identifier is not treated as independent proof of version mapping.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://webstore.ansi.org/preview-pages/BSI/preview_30431599.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:bsigroup.com \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:knowledge.bsigroup.com \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "\"BS EN 301 549:2021\" BSI"
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "55678dfec9ac1e38c1b122d4abf3976178dc631cc5b2db3308a3e87d4e43ca78",
+      "public_row_sha256": "d165124afb1c5c3b416cbd3a8bb9d2c2cb9a5b958e6893a183cd4f4218dd2bcb",
       "public_claim_ids": [
-        "adoption-united-kingdom-inherited-1",
-        "adoption-united-kingdom-inherited-3"
+        "adoption-united-kingdom-round2-cell-1",
+        "adoption-united-kingdom-round2-cell-2",
+        "adoption-united-kingdom-version-label",
+        "adoption-united-kingdom-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-united-kingdom-inherited-1"
+          "adoption-united-kingdom-round2-cell-1"
         ],
-        "2": [],
+        "2": [
+          "adoption-united-kingdom-round2-cell-2"
+        ],
         "3": [
-          "adoption-united-kingdom-inherited-3"
+          "adoption-united-kingdom-version-label"
         ],
-        "4": [],
-        "5": []
+        "4": [
+          "adoption-united-kingdom-round2-cell-4"
+        ]
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -257,6 +441,90 @@
           "record": ".github/agents/research/countries/united kingdom.json",
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "United Kingdom"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-united-kingdom",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "United Kingdom"
+    },
+    {
+      "id": "adoption-version-labels-united-kingdom-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

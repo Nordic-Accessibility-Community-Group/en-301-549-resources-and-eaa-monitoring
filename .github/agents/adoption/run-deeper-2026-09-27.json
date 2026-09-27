@@ -1,0 +1,288 @@
+{
+  "run_id": "adoption-deeper-2026-09-27",
+  "started_at": "2026-09-27T13:27:13Z",
+  "research_closed_at": "2026-09-27T13:33:44Z",
+  "budget_minutes": 30,
+  "elapsed_research_minutes": 6.5167,
+  "remaining_research_minutes": 23.4833,
+  "country_budget_minutes": 10,
+  "country_windows": {
+    "Iceland and Kenya": {
+      "started_at": "2026-09-27T13:27:13Z",
+      "completed_by": "2026-09-27T13:33:44Z"
+    },
+    "Switzerland and Turkey": {
+      "started_at": "2026-09-27T13:30:02Z",
+      "completed_by": "2026-09-27T13:33:44Z"
+    }
+  },
+  "scope": "Requested deeper national adoption/reference research in order Iceland, Kenya, Switzerland, Turkey. Not full monthly or legal-use audits; periodic review dates unchanged.",
+  "research_state": "closed_supported_four_row_updates",
+  "records": [
+    ".github/agents/research/countries/iceland.json",
+    ".github/agents/research/countries/kenya.json",
+    ".github/agents/research/countries/switzerland.json",
+    ".github/agents/research/countries/turkey.json"
+  ],
+  "questions": {
+    "Iceland": "National catalogue identity and standard-effective date resolved. Separately investigate legal/procurement use if required. Check whether the separate FprEN consultation (deadline 2026-08-22) progresses to national publication; do not replace current edition based on a draft.",
+    "Kenya": "Both first-edition identities and EN references resolved from readable KEBS-authored mirror. Obtain an accessible official gazette or KEBS catalogue to establish exact publication/adoption date and present status; the May 2022 search lead was not readable. Legal/procurement mandates require separate evidence.",
+    "Switzerland": "National adoption, publication and supersession resolved using SNV. Legal/procurement use and exact equivalence grade require separate evidence. Earlier eCH/WCAG guidance does not determine national EN adoption.",
+    "Turkey": "TSE identity, acceptance, source edition and separate translation date resolved. Check future amendments and legal/procurement use separately; no mandatory scope inferred from national standard status."
+  },
+  "attempts": {
+    "Iceland": [
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "Iceland \"ÍST\" \"301\" \"549\""
+      },
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "\"301549\" \"ÍST\""
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser catalogue detail",
+        "outcome": "reachable",
+        "note": "Catalogue title ÍST EN 301549:2021; status Gildistaka and announced date both 15 July 2021. Scope: functional accessibility requirements for ICT products and services, including hardware and software. Catalogue search distinguishes withdrawn 2014/2015/2018/2019 editions and a separate FprEN consultation lead. URL contains prEN but the inspected product title/status establishes this final national standard. No mandatory legal use established.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Homepage/catalogue reachable; search requires browser.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://stadlar.is"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Homepage/catalogue reachable; search requires browser.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://stadlar.is/stadlabudin/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser search",
+        "outcome": "reachable",
+        "note": "Six records; current 2021 effective 15 July 2021, older editions withdrawn, separate FprEN consultation deadline 22 August 2026. Preview requires login; not attempted.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://stadlar.is/default.aspx?pageid=db11caf6-61f8-11ea-8104-005056bc217f&title=&search=&tags=std-301549%2C"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Ministry of Interior, Landsarkitektúr fyrir opinber upplýsingakerfi (2014), printed p.14/PDF p.16 section 4.2.2 lists ÍST EN 301549:2014. Historical corroboration only; no current legal-use inference.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.stjornarradid.is/media/innanrikisraduneyti-media/media/frettir-2014/landsarkitektur-fyrir-opinber-upplysingakerfi-nov2014.pdf"
+      }
+    ],
+    "Kenya": [
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "\"KS 2952\" accessibility standard Kenya foreword"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "site:new.kenyalaw.org \"2952-1:2022\""
+      },
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "\"Kenya Gazette\" \"13th May, 2022\" \"standards\" site:kenyalaw.org"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web PDF reader",
+        "outcome": "reachable",
+        "note": "KEBS-authored standard, mirrored by inABLE. Physical PDF pages 1 and 103: KS 2952-1:2022 requirements and KS 2952-2:2022 conformance, each First Edition. Forewords on pages 4 and 106 list EN 301-549 V3.2.1:2021-03 among documents consulted. Copyright 2022. Part 1 publication page inconsistently prints the Part 2 identifier; covers and both forewords support the correct two-part identities. References do not establish identical adoption or mandatory national legal use. Exact gazette date remains unverified.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://inable.org/wp-content/uploads/2023/08/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader failed. Prior failed attempts retained; no verification date advanced. Readable publisher-authored mirror used.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Gazette search lead failed reader retrieval; date not verified.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://africacheck.org/sites/default/files/media/documents/2022-06/Kenya-Revenues-28April2022.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "direct HTTP retrieval",
+        "outcome": "unreachable",
+        "note": "HTTP 403; stopped after two remote attempts. Prior sandbox DNS failure was not a remote attempt. No gazette date published.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://africacheck.org/sites/default/files/media/documents/2022-06/Kenya-Revenues-28April2022.pdf"
+      }
+    ],
+    "Switzerland": [
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "site:snv.ch \"301 549\""
+      },
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "\"301549\" site:snv.ch"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser catalogue detail",
+        "outcome": "reachable",
+        "note": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://connect.snv.ch/de/sn-en-301549-2021"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader HTTP 403.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.snv.ch"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser",
+        "outcome": "reachable",
+        "note": "Homepage loaded; followed official Normenshop link.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.snv.ch/de/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser search",
+        "outcome": "reachable",
+        "note": "National current 2021 result selected; foreign DIN/NF records excluded.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://connect.snv.ch/de/search?q=301549&scope=singleSearchField&includeWithdrawn=true&narrowResultsOpen=true"
+      }
+    ],
+    "Turkey": [
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "site:tse.org.tr \"EN 301\" \"549\""
+      },
+      {
+        "on": "2026-09-27",
+        "method": "source discovery search",
+        "outcome": "search_lead",
+        "note": "Discovery only; no snippet verifies facts.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "query": "\"301549\" site:intweb.tse.org.tr"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser catalogue detail",
+        "outcome": "reachable",
+        "note": "TSE catalogue detail for TS EN 301549, current (U / Yürürlükte), Turkish standard. Acceptance date 30 September 2021; Turkish translation date 19 September 2023; source EN 301549:2021; language tr; replaces TS EN 301549:2019. English and Turkish catalogue results share the acceptance date. International correspondence EQV is not interpreted as identical adoption. No compulsory legal use established.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://intweb.tse.org.tr/Standard/Standard/Standard.aspx?081118051115108051104119110104055048065082077055103076076056084105047051104051110076085057097102065111105120071070082088101056114104069120101121108122119122071052079098119049047051082103098108102079097083050067116086076072077108090104075078106083119048053080109048072100072080087053101108083054100057111108068054077102048088101056086052068084117049107111099043055087081086101067054115074102119089065054121068065066052075105050050081069068087097114081061061"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Homepage supplied standard services and direct catalogue search links.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.tse.org.tr/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Timeout; two attempts, then stopped.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.tse.org.tr/hizmetlerimiz/standart-hizmetler/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser",
+        "outcome": "unreachable",
+        "note": "Timeout; two attempts, then stopped.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://www.tse.org.tr/hizmetlerimiz/standart-hizmetler/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Search form reachable; browser TS No contains 301549 returned six standards and one work programme. Current Turkish record inspected.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://intweb.tse.org.tr/Standard/Standard/StandardAra.aspx"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser search",
+        "outcome": "reachable",
+        "note": "Search form reachable; browser TS No contains 301549 returned six standards and one work programme. Current Turkish record inspected.",
+        "run_id": "adoption-deeper-2026-09-27",
+        "url": "https://intweb.tse.org.tr/Standard/Standard/StandardAra.aspx"
+      }
+    ]
+  },
+  "review_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json",
+  "publication": {
+    "pr": 69,
+    "base": "main",
+    "prior_head": "777d0cdee30567343e2b2108610c3ef1586538d0",
+    "prerequisite": "PR68 merged by maintainer; main 1b093abdbb085825d74caef7a471cee88f087269. No merge by this run."
+  },
+  "notification_history": [
+    "Material findings reported; draft update in preparation."
+  ],
+  "schedule_status": "No recurring task activated.",
+  "validation": {
+    "shared_records": "PASS: 44 countries, 744 claims, 47 delivery events",
+    "adoption_coverage": "PASS: 14 records",
+    "tests": "22 adoption and 9 shared-record tests passed",
+    "verification_dates": "PASS",
+    "markdown": "PASS: 39 files",
+    "whitespace": "PASS",
+    "rendering": "Post-publication GitHub preview pending",
+    "ci": "Not yet checked for new head"
+  }
+}

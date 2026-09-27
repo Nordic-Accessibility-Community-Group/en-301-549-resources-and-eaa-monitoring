@@ -23,6 +23,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-59a5ada87c483ebf0d5ba77a": {
+      "issuer": "Uu-tilsynet",
+      "url": "https://www.uutilsynet.no/regelverk/kva-seier-forskrifta/153",
+      "source_type": "official_government",
+      "language": "nn",
+      "passage": "Delt regelverk for nettløysingar / Offentleg sektor: conformity with EN 301 549 v3.2.1 fulfils functional accessibility requirements for covered public-sector web solutions. The 12 additional WCAG criteria and accessibility-statement requirement apply from 1 February 2023. Coverage conditions and exceptions apply. This is an attributed WAD explanation, not a national standards-adoption date or an EAA commencement claim.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -106,11 +117,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
         },
         {
           "id": "adoption-norway-inherited-2",
@@ -121,11 +132,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "2025-06-28",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
         },
         {
           "id": "adoption-norway-inherited-3",
@@ -136,11 +147,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V3.2.1:2021",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
         },
         {
           "id": "adoption-norway-lead",
@@ -158,10 +169,67 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        },
+        {
+          "id": "adoption-norway-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Referenced in public-sector web rules",
+          "scope": "The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists).",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-59a5ada87c483ebf0d5ba77a"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-norway-round2-cell-2",
+          "aspect": "date",
+          "statement": "Additional WAD requirements: 2023-02-01",
+          "scope": "The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists).",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-59a5ada87c483ebf0d5ba77a"
+          ],
+          "event_dates": [
+            {
+              "kind": "effective",
+              "value": "2023-02-01"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-norway-round2-cell-4",
+          "aspect": "reference",
+          "statement": "Uu-tilsynet identifies EN 301 549 V3.2.1 for public-sector websites and apps; the 12 additional WCAG success criteria and accessibility-statement requirement apply from 1 February 2023.",
+          "scope": "The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists).",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-59a5ada87c483ebf0d5ba77a"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        "Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date.",
+        "Round 2 (2026-09-27): The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
       ],
       "attempts": [
         {
@@ -177,31 +245,74 @@
           "method": "web reader",
           "outcome": "reachable",
           "note": "Retrieved page hosts Norwegian EN 301 549 V3.2.1 material; does not establish national commencement."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Delt regelverk for nettløysingar / Offentleg sektor: conformity with EN 301 549 v3.2.1 fulfils functional accessibility requirements for covered public-sector web solutions. The 12 additional WCAG criteria and accessibility-statement requirement apply from 1 February 2023. Coverage conditions and exceptions apply. This is an attributed WAD explanation, not a national standards-adoption date or an EAA commencement claim.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.uutilsynet.no/regelverk/kva-seier-forskrifta/153"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unknown",
+          "note": "Redirected to a general Uu-tilsynet introduction; not used to support adoption or dates.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.digdir.no/standarder/universell-utforming-av-ikt/1499"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Authority guidance references relevant EN V3.2.1 provisions for self-service terminals and allows equivalent standards; no public-row claim drawn from this separate scope.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.uutilsynet.no/automater/krav-til-automater/1666"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:standards.no \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:uutilsynet.no \"EN 301 549\" \"1. februar 2023\""
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "d41539c7b8182ca65aba474d58920cf3f27ad20d03433ac82a6e0e46645e45b6",
+      "public_row_sha256": "d39640aac54e9ea535b5e1fbbdead64c121d6f734385d9ccfaca7537d8daf274",
       "public_claim_ids": [
-        "adoption-norway-inherited-1",
-        "adoption-norway-inherited-2",
-        "adoption-norway-inherited-3"
+        "adoption-norway-round2-cell-1",
+        "adoption-norway-round2-cell-2",
+        "adoption-norway-inherited-3",
+        "adoption-norway-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-norway-inherited-1"
+          "adoption-norway-round2-cell-1"
         ],
         "2": [
-          "adoption-norway-inherited-2"
+          "adoption-norway-round2-cell-2"
         ],
         "3": [
           "adoption-norway-inherited-3"
         ],
-        "4": [],
-        "5": []
+        "4": [
+          "adoption-norway-round2-cell-4"
+        ]
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -241,6 +352,48 @@
           "record": ".github/agents/research/countries/norway.json",
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Norway"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-norway",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/norway.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Relevant statement/monitoring evidence retained in adoption questions; no monitoring domain is registered for this jurisdiction.",
+          "next_action": "Register the destination and inspect scope/final status before proposing a monitoring-page addition; see round-2 adoption question and source.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/norway.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

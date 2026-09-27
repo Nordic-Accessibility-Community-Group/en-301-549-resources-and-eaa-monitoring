@@ -13,6 +13,28 @@
       "accessed_on": null,
       "access": "unknown",
       "method": "repository baseline"
+    },
+    "source-84d14e4fd1f5be0b58d8d6f4": {
+      "issuer": "Standards Australia",
+      "url": "https://store.standards.org.au/product/as-en-301-549-2024",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Catalogue description and Content history: current AS EN 301 549:2024 identically adopts EN 301 549:2021. Published 01/11/2024 (Australian day/month date); predecessor AS EN 301 549:2020 marked superseded. Product preview unavailable. Catalogue supports standards status, not compulsory legal use.",
+      "publication_date": "2024-11-01",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser; catalogue and history inspected"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
     }
   },
   "domains": {
@@ -29,11 +51,11 @@
             "source-875698275355294c06353dec"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
         },
         {
           "id": "adoption-australia-inherited-2",
@@ -46,11 +68,11 @@
             "source-875698275355294c06353dec"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "2020",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
         },
         {
           "id": "adoption-australia-inherited-3",
@@ -63,11 +85,11 @@
             "source-875698275355294c06353dec"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V3.1.1:2019",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
         },
         {
           "id": "adoption-australia-inherited-4",
@@ -80,15 +102,107 @@
             "source-875698275355294c06353dec"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "AS EN 301 549:2020",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
+        },
+        {
+          "id": "adoption-australia-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Adopted (identical)",
+          "scope": "Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-australia-round2-cell-2",
+          "aspect": "date",
+          "statement": "Published: 2024-11-01",
+          "scope": "Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2024-11-01"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-australia-round2-cell-3",
+          "aspect": "edition",
+          "statement": "EN 301 549:2021",
+          "scope": "Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-australia-round2-cell-4",
+          "aspect": "reference",
+          "statement": "AS EN 301 549:2024. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.",
+          "scope": "Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-australia-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-australia-round2-cell-3."
         }
       ],
       "questions": [
-        "Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained."
+        "Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained.",
+        "Round 2 (2026-09-27): Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
       ],
       "attempts": [
         {
@@ -111,34 +225,74 @@
           "method": "official-source web search",
           "outcome": "search_lead",
           "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser; catalogue and history inspected",
+          "outcome": "reachable",
+          "note": "Catalogue description and Content history: current AS EN 301 549:2024 identically adopts EN 301 549:2021. Published 01/11/2024 (Australian day/month date); predecessor AS EN 301 549:2020 marked superseded. Product preview unavailable. Catalogue supports standards status, not compulsory legal use.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://store.standards.org.au/product/as-en-301-549-2024"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Initial web-reader response empty/challenged; the one ordinary-browser fallback succeeded, recorded separately.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://store.standards.org.au/product/as-en-301-549-2024"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:standards.org.au \"AS EN 301 549:2020\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:standards.org.au \"301 549\" \"2024\""
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "ff8f8ce9b04265230bbdaf0bb4be2ee43216ae0e52329e29a847b288649be7b6",
+      "public_row_sha256": "70bc2c823f9fd58ca1f6301a040dcbb431e2557de2c0d152ce9dd7558b317850",
       "public_claim_ids": [
-        "adoption-australia-inherited-1",
-        "adoption-australia-inherited-2",
-        "adoption-australia-inherited-3",
-        "adoption-australia-inherited-4"
+        "adoption-australia-round2-cell-1",
+        "adoption-australia-round2-cell-2",
+        "adoption-australia-version-label",
+        "adoption-australia-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-australia-inherited-1"
+          "adoption-australia-round2-cell-1"
         ],
         "2": [
-          "adoption-australia-inherited-2"
+          "adoption-australia-round2-cell-2"
         ],
         "3": [
-          "adoption-australia-inherited-3"
+          "adoption-australia-version-label"
         ],
         "4": [
-          "adoption-australia-inherited-4"
-        ],
-        "5": []
+          "adoption-australia-round2-cell-4"
+        ]
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -178,6 +332,90 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Australia"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-australia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Australia"
+    },
+    {
+      "id": "adoption-version-labels-australia-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

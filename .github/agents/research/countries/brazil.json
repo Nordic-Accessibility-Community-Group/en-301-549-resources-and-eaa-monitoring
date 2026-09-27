@@ -68,6 +68,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "PDF text reader; title page"
+    },
+    "source-1a7b31319ba61f650fb2f417": {
+      "issuer": "ABNT; copy hosted by Câmara dos Deputados",
+      "url": "https://www2.camara.leg.br/a-camara/estruturaadm/gestao-na-camara-dos-deputados/responsabilidade-social-e-ambiental/acessibilidade/pdfs/ABNTNBR17225AcessibilidadeDigitalparaWeb.pdf",
+      "source_type": "official_standard_body",
+      "language": "pt-BR",
+      "passage": "PDF retrieved; bibliography item 11 includes an EN 301 549 V2.1.2 reference. Text search for the encoded V3.2.1 hyperlink did not resolve it this round. Earlier source-fidelity review and source records retained; this retrieval does not reverify the entire row.",
+      "publication_date": "2025-03-11",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -84,11 +95,11 @@
             "source-f1c6d7715ecc67eff43716a6"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Referenced",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption. Round 2: Public wording retained; this attempt did not establish the inherited claim. Partial PDF recheck only. Bibliography found; encoded section 6 hyperlink not independently resolved in this round. Earlier verified source-fidelity evidence retained. Follow-up remains whether another instrument establishes adoption or legal use."
         },
         {
           "id": "adoption-brazil-inherited-3",
@@ -101,11 +112,11 @@
             "source-f1c6d7715ecc67eff43716a6"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V1.1.2:2015",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption. Superseded in the public row by the two editions explicitly linked in ABNT NBR 17225:2025; the earlier V1.1.2 assertion remains unverified historical provenance."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption. Superseded in the public row by the two editions explicitly linked in ABNT NBR 17225:2025; the earlier V1.1.2 assertion remains unverified historical provenance. Round 2: Public wording retained; this attempt did not establish the inherited claim. Partial PDF recheck only. Bibliography found; encoded section 6 hyperlink not independently resolved in this round. Earlier verified source-fidelity evidence retained. Follow-up remains whether another instrument establishes adoption or legal use."
         },
         {
           "id": "adoption-brazil-inherited-4",
@@ -118,11 +129,11 @@
             "source-f1c6d7715ecc67eff43716a6"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "NMX-R-099-SCFI-2018",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption. Round 2: Public wording retained; this attempt did not establish the inherited claim. Partial PDF recheck only. Bibliography found; encoded section 6 hyperlink not independently resolved in this round. Earlier verified source-fidelity evidence retained. Follow-up remains whether another instrument establishes adoption or legal use."
         },
         {
           "id": "adoption-brazil-lead",
@@ -198,11 +209,29 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "User supplied Brazilian primary document in a new bounded follow-up. Independent no-history Portuguese/English wording check supported the exact new row. Older assertions and sources retained as history."
+        },
+        {
+          "id": "adoption-brazil-round2-bibliography",
+          "aspect": "reference",
+          "statement": "The retrieved ABNT PDF bibliography includes EN 301 549 V2.1.2.",
+          "scope": "Bibliography check only; prior section 6/version-link verification retained, not repeated.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-1a7b31319ba61f650fb2f417"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
         "Determine whether a separate instrument establishes EN adoption, equivalence or legal obligations; this standard reference does not settle that question.",
-        "The earlier FNDE procurement lead remains uninspected; investigate only if needed for a separately scoped claim."
+        "The earlier FNDE procurement lead remains uninspected; investigate only if needed for a separately scoped claim.",
+        "Round 2 (2026-09-27): Partial PDF recheck only. Bibliography found; encoded section 6 hyperlink not independently resolved in this round. Earlier verified source-fidelity evidence retained. Follow-up remains whether another instrument establishes adoption or legal use."
       ],
       "attempts": [
         {
@@ -253,6 +282,14 @@
           "method": "PDF text reader; title page",
           "outcome": "reachable",
           "note": "Bounded follow-up on user-supplied source; exact relationship and edition identity checked."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "PDF retrieved; bibliography item 11 includes an EN 301 549 V2.1.2 reference. Text search for the encoded V3.2.1 hyperlink did not resolve it this round. Earlier source-fidelity review and source records retained; this retrieval does not reverify the entire row.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www2.camara.leg.br/a-camara/estruturaadm/gestao-na-camara-dos-deputados/responsabilidade-social-e-ambiental/acessibilidade/pdfs/ABNTNBR17225AcessibilidadeDigitalparaWeb.pdf"
         }
       ],
       "last_monthly_review": null,
@@ -360,6 +397,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "ABNT reference check establishes no new monitoring authority, sanction or enforcement case for this destination.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Brazil"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-brazil",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/brazil.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }
