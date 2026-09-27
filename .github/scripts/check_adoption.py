@@ -2,6 +2,7 @@
 import argparse
 from datetime import date, timedelta
 import hashlib
+from html import unescape
 import json
 from pathlib import Path
 import re
@@ -10,8 +11,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import country_records as cr
 
 PAGE = 'EN 301 549 adoptation.md'
+BASELINE_SHA256 = '24e9b1a65aa55f415e7d1e0dfbdf0d189842d3677fdc6c1d9da57bbcfbd9024b'
 DOMAIN_KEYS = {'claims', 'questions', 'attempts', 'last_monthly_review', 'last_full_review',
-               'public_row_sha256', 'public_claim_ids', 'review_report'}
+               'public_row_sha256', 'public_claim_ids', 'public_cells', 'review_report'}
 CLAIM_KEYS = {'id', 'aspect', 'statement', 'scope', 'stage', 'status', 'source_refs',
               'event_dates', 'attempted_on', 'verified_on', 'next_review_due',
               'existing_text', 'review_note'}
@@ -43,6 +45,14 @@ def rows(root):
             require(name not in result, 'Duplicate adoption row')
             result[name] = row
     return result
+
+def cell_texts(row):
+    return [' '.join(unescape(re.sub('<[^>]+>', '', c)).split()) for c in re.findall(r'<td\b[^>]*>(.*?)</td>', row, re.S | re.I)]
+
+def inherited_rows(root):
+    raw = (root / '.github/agents/adoption/inherited-rows.json').read_bytes()
+    require(hashlib.sha256(raw).hexdigest() == BASELINE_SHA256, 'Frozen adoption baseline changed')
+    return json.loads(raw)['rows']
 
 def row_digest(row):
     return hashlib.sha256(row.encode()).hexdigest()
@@ -94,7 +104,27 @@ def check_domain(name, domain, pool, root, row, today):
             require(verified is None, 'Unverified claim has verification date')
     require(len(domain['public_claim_ids']) == len(set(domain['public_claim_ids'])) and all(i in claims for i in domain['public_claim_ids']), 'Public claim mapping')
     require(row_digest(row) == domain['public_row_sha256'], name + ': public row changed without evidence mapping')
-    new = [i for i in domain['public_claim_ids'] if claims[i]['existing_text'] is None]
+    require(domain['public_claim_ids'], 'Public row needs claim mappings')
+    baseline = inherited_rows(root)
+    old_name = 'Europe' if name == 'European Union' else name
+    old_row = baseline.get(old_name)
+    actual_cells = cell_texts(row)
+    old_cells = cell_texts(old_row) if old_row else [''] * 5
+    require(set(domain['public_cells']) == {str(i) for i in range(5)}, 'All public cells need mappings')
+    new = []
+    for i, text in enumerate(actual_cells):
+        mapped = domain['public_cells'][str(i)]
+        require(isinstance(mapped,list) and all(cid in domain['public_claim_ids'] for cid in mapped), 'Cell claim mapping invalid')
+        require(i == 0 or not text or mapped, 'Populated factual cell needs claim mapping')
+        editorial = (i == 0 and name == 'European Union' and old_name == 'Europe')
+        if i == 4 and old_row and old_cells[i] == '' and text == 'Source document (PDF)':
+            editorial = re.findall(r'href="([^"]+)"',old_row) == re.findall(r'href="([^"]+)"',row) and bool(re.findall(r'href="([^"]+)"',old_row))
+        if text != old_cells[i] and not editorial:
+            require(mapped, 'Changed public cell lacks evidence mapping')
+            require(all(claims[cid]['status'] == 'verified' for cid in mapped), 'Changed public cell lacks verified evidence')
+            new.extend(mapped)
+    new.extend(i for i in domain['public_claim_ids'] if claims[i]['existing_text'] is None)
+    new = list(set(new))
     require(all(claims[i]['status'] == 'verified' for i in new), 'New public assertion lacks verified evidence')
     if new:
         require(bool(domain['review_report']), 'New public wording needs isolated review report')
@@ -111,8 +141,10 @@ def check(root, require_coverage=False, today=None):
     today = today or date.today()
     public = rows(root)
     domains = {}
+    country_event_ids = set()
     for path in cr.folder(root).glob('*.json'):
         c = json.loads(path.read_text())
+        country_event_ids.update(e['id'] for e in c['deliveries'])
         if 'adoption' in c['domains']:
             domains[c['country']] = (c['domains']['adoption'],c['evidence'])
     global_path = root / '.github/agents/adoption/european-standard.json'
@@ -121,6 +153,22 @@ def check(root, require_coverage=False, today=None):
         require(g['subject'] == 'European Union', 'Global subject')
         require(set(g) == {'subject','evidence','adoption','deliveries'}, 'Global record keys')
         require(isinstance(g['deliveries'],list), 'Global deliveries')
+        event_ids = set(country_event_ids)
+        pages = {PAGE:'adoption','monitoring-agencies-information.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement'}
+        for event in g['deliveries']:
+            require(isinstance(event,dict), 'Global event must be an object')
+            require(bool(event.get('id')) and event['id'] not in event_ids, 'Global event ID missing/duplicate')
+            event_ids.add(event['id'])
+            targets = event['destinations']
+            require(isinstance(targets,list) and all(isinstance(t,dict) for t in targets), 'Global destinations must be objects')
+            require(len(targets) == 4 and {t['page'] for t in targets} == set(pages), 'Global event needs all destinations')
+            for target in targets:
+                require(target['domain'] == pages[target['page']] and bool(target['reason']), 'Global destination metadata')
+                require(target['disposition'] in ('proposed','already_present','research_only','needs_evidence','blocked_by_open_pr','not_applicable'), 'Global disposition')
+                if target['page'] == PAGE:
+                    require(target['record'] == str(global_path.relative_to(root)), 'Global adoption record path')
+                else:
+                    require(target['disposition'] == 'not_applicable' or (target['record'] and (root / target['record']).is_file()), 'Applicable global handoff record missing')
         domains['European Union' if 'European Union' in public else 'Europe'] = (g['adoption'],g['evidence'])
     require(set(domains).issubset(public), 'Research row missing from page')
     if require_coverage:

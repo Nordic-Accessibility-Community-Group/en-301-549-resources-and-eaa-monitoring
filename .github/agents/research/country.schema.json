@@ -283,7 +283,8 @@
             "last_full_review",
             "public_row_sha256",
             "public_claim_ids",
-            "review_report"
+            "review_report",
+            "public_cells"
           ]
         }
       }

@@ -1,5 +1,7 @@
 """Adoption regression checks: preserve uncertainty, scope and review boundaries."""
 import copy
+import json
+from unittest.mock import patch
 from datetime import date
 from pathlib import Path
 import tempfile
@@ -13,8 +15,10 @@ class AdoptionChecks(unittest.TestCase):
         self.row='<tr><td>Example</td><td>Adopted</td><td></td><td></td><td></td></tr>'
         self.claim={'id':'adoption-example-inherited','aspect':'adoption','statement':'Adopted','scope':'Inherited; scope unresolved','stage':'unknown','status':'unknown','source_refs':[],'event_dates':[],'attempted_on':None,'verified_on':None,'next_review_due':'2026-09-27','existing_text':'Adopted','review_note':'Preserved pending evidence'}
         self.domain={'claims':[self.claim],'questions':[],'attempts':[],'last_monthly_review':None,'last_full_review':None,'public_row_sha256':a.row_digest(self.row),'public_claim_ids':[self.claim['id']],'review_report':None}
+        self.domain['public_cells']={str(i):[self.claim['id']] for i in range(5)}
+        self.baseline_patch=patch.object(a,'inherited_rows',return_value={'Example':self.row}); self.baseline_patch.start()
         self.pool={}; self.today=date(2026,9,27)
-    def tearDown(self): self.tmp.cleanup()
+    def tearDown(self): self.baseline_patch.stop(); self.tmp.cleanup()
     def check(self): return a.check_domain('Example',self.domain,self.pool,self.root,self.row,self.today)
     def test_inherited_unknown_preserved(self): self.check()
     def test_new_unsupported_public_assertion_rejected(self):
@@ -45,6 +49,29 @@ class AdoptionChecks(unittest.TestCase):
     def test_missing_coverage_rejected(self):
         (self.root/a.PAGE).write_text('<table>'+self.row+'</table>')
         with self.assertRaisesRegex(ValueError,'Baseline missing'): a.check(self.root,True,self.today)
+    def test_inherited_flag_cannot_bypass_changed_cell_review(self):
+        self.row=self.row.replace('Adopted','Mandatory')
+        self.domain['public_row_sha256']=a.row_digest(self.row)
+        with self.assertRaisesRegex(ValueError,'Changed public cell lacks verified'): self.check()
+    def test_empty_claim_mapping_rejected(self):
+        self.domain['public_claim_ids']=[]
+        with self.assertRaisesRegex(ValueError,'needs claim mappings'): self.check()
+    def test_populated_cell_cannot_omit_mapping(self):
+        self.domain['public_cells']['1']=[]
+        with self.assertRaisesRegex(ValueError,'Populated factual cell'): self.check()
+    def test_global_events_reject_duplicates_and_missing_destinations(self):
+        (self.root/a.PAGE).write_text('<table>'+self.row.replace('Example','Europe')+'</table>')
+        folder=self.root/'.github/agents/adoption'; folder.mkdir(parents=True)
+        d=copy.deepcopy(self.domain); row=self.row.replace('Example','Europe'); d['public_row_sha256']=a.row_digest(row)
+        record={'subject':'European Union','evidence':{},'adoption':d,'deliveries':[{'id':'one','destinations':[]}]}
+        path=folder/'european-standard.json'
+        path.write_text(json.dumps(record))
+        with self.assertRaisesRegex(ValueError,'all destinations'): a.check(self.root,True,self.today)
+        targets=[{'page':p,'domain':domain,'record':'.github/agents/adoption/european-standard.json' if domain=='adoption' else None,'reason':'No relevant finding','disposition':'research_only' if domain=='adoption' else 'not_applicable'} for p,domain in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
+        record['deliveries']=[{'id':'one','destinations':targets}]*2; path.write_text(json.dumps(record))
+        with self.assertRaisesRegex(ValueError,'ID missing/duplicate'): a.check(self.root,True,self.today)
+        record['deliveries']=['garbage']; path.write_text(json.dumps(record))
+        with self.assertRaisesRegex(ValueError,'must be an object'): a.check(self.root,True,self.today)
     def test_adoption_adapter_preserves_other_domains(self):
         c={'country':'Example','evidence':{},'domains':{'enforcement':{'unchanged':[1,2]}}}
         old=copy.deepcopy(c['domains']['enforcement'])
