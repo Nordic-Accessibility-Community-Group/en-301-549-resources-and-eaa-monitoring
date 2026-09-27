@@ -38,5 +38,21 @@
   "Norway": {
     "updated_on": "2026-09-27",
     "reason": "Round 2: The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
+  },
+  "Iceland": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+  },
+  "Kenya": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+  },
+  "Switzerland": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+  },
+  "Turkey": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified."
   }
 }

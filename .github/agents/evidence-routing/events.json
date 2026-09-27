@@ -673,6 +673,48 @@
       "country": "Iceland"
     },
     {
+      "id": "adoption-deeper-iceland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
       "id": "adoption-baseline-india-2026-09-27",
       "destinations": [
         {
@@ -993,6 +1035,48 @@
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Kenya"
+    },
+    {
+      "id": "adoption-deeper-kenya-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kenya.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }
       ],
@@ -1517,6 +1601,48 @@
       "country": "Switzerland"
     },
     {
+      "id": "adoption-deeper-switzerland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Switzerland"
+    },
+    {
       "id": "adoption-baseline-turkey-2026-09-27",
       "destinations": [
         {
@@ -1595,6 +1721,48 @@
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Turkey"
+    },
+    {
+      "id": "adoption-deeper-turkey-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/turkey.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }
       ],

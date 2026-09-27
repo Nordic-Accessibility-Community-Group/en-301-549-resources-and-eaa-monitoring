@@ -46,10 +46,10 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   <tr>
     <td>Iceland</td>
     <td>Adopted</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Standard effective: 2021-07-15</td>
+    <td>EN 301 549:2021</td>
+    <td><a href="https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2">ÍST EN 301549:2021</a>. Icelandic standard covering accessibility requirements for ICT products and services.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>India</td>
@@ -70,12 +70,10 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   <tr>
     <td>Kenya</td>
     <td>Referenced</td>
-    <td></td>
+    <td>First editions: 2022</td>
     <td>V3.2.1:2021</td>
-    <td>
-      <a href="https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf">KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition</a>
-    </td>
-    <td></td>
+    <td><a href="https://inable.org/wp-content/uploads/2023/08/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf">KS 2952-1:2022 (requirements) and KS 2952-2:2022 (conformance)</a> reference EN 301 549 V3.2.1:2021-03 in their forewords.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Mexico</td>
@@ -103,19 +101,19 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   </tr>
   <tr>
     <td>Switzerland</td>
-    <td>Referenced</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Adopted</td>
+    <td>Published: 2021-08-01</td>
+    <td>EN 301 549:2021</td>
+    <td><a href="https://connect.snv.ch/de/sn-en-301549-2021">SN EN 301549:2021</a> is listed as current by SNV and replaces SN EN 301549:2020.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Turkey</td>
     <td>Adopted</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Adopted: 2021-09-30</td>
+    <td>EN 301549:2021</td>
+    <td><a href="https://intweb.tse.org.tr/Standard/Standard/Standard.aspx?081118051115108051104119110104055048065082077055103076076056084105047051104051110076085057097102065111105120071070082088101056114104069120101121108122119122071052079098119049047051082103098108102079097083050067116086076072077108090104075078106083119048053080109048072100072080087053101108083054100057111108068054077102048088101056086052068084117049107111099043055087081086101067054115074102119089065054121068065066052075105050050081069068087097114081061061">TS EN 301549</a>. TSE lists EN 301549:2021 as its source; the Turkish translation is dated 2023-09-19.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>United Kingdom</td>

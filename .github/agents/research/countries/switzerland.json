@@ -35,6 +35,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-ae550cc15782709b8705bf2b": {
+      "issuer": "Swiss Association for Standardization (SNV)",
+      "url": "https://connect.snv.ch/de/sn-en-301549-2021",
+      "source_type": "official_standard_body",
+      "language": "de",
+      "passage": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+      "publication_date": "2021-08-01",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary in-app browser; national catalogue search and full detail inspected"
     }
   },
   "domains": {
@@ -87,7 +98,7 @@
           "verified_on": null,
           "next_review_due": "2026-10-04",
           "existing_text": "Referenced",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead. Round 2: Public wording retained; this attempt did not establish the inherited claim. eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead. Round 2: Public wording retained; this attempt did not establish the inherited claim. eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549. Deeper round: later catalogue/standard evidence is recorded in adoption-switzerland-deeper-cell-*; this historical assertion and its original verification status are retained."
         },
         {
           "id": "adoption-switzerland-lead",
@@ -104,7 +115,7 @@
           "verified_on": null,
           "next_review_due": "2026-09-28",
           "existing_text": null,
-          "review_note": "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+          "review_note": "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead. Deeper round: later catalogue/standard evidence is recorded in adoption-switzerland-deeper-cell-*; this historical assertion and its original verification status are retained."
         },
         {
           "id": "adoption-switzerland-round2-ech-lead",
@@ -122,12 +133,86 @@
           "verified_on": null,
           "next_review_due": "2026-10-04",
           "existing_text": null,
-          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history. Deeper round: later catalogue/standard evidence is recorded in adoption-switzerland-deeper-cell-*; this historical assertion and its original verification status are retained."
+        },
+        {
+          "id": "adoption-switzerland-deeper-cell-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-ae550cc15782709b8705bf2b"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-switzerland-deeper-cell-2",
+          "aspect": "date",
+          "statement": "Published: 2021-08-01",
+          "scope": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-ae550cc15782709b8705bf2b"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2021-08-01"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-switzerland-deeper-cell-3",
+          "aspect": "edition",
+          "statement": "EN 301 549:2021",
+          "scope": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-ae550cc15782709b8705bf2b"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-switzerland-deeper-cell-4",
+          "aspect": "scope",
+          "statement": "SN EN 301549:2021 is listed as current by SNV and replaces SN EN 301549:2020.",
+          "scope": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-ae550cc15782709b8705bf2b"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
         }
       ],
       "questions": [
         "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead.",
-        "Round 2 (2026-09-27): eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549."
+        "Round 2 (2026-09-27): eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549.",
+        "Deeper round (2026-09-27): National adoption, publication and supersession resolved using SNV. Legal/procurement use and exact equivalence grade require separate evidence. Earlier eCH/WCAG guidance does not determine national EN adoption."
       ],
       "attempts": [
         {
@@ -175,25 +260,82 @@
           "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
           "run_id": "adoption-round-2-2026-09-27",
           "query": "\"EN 301 549\" Switzerland eCH 0059"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; no snippet verifies facts.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "query": "site:snv.ch \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; no snippet verifies facts.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "query": "\"301549\" site:snv.ch"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser catalogue detail",
+          "outcome": "reachable",
+          "note": "SNV catalogue: SN EN 301549:2021, current (Aktuell), issue date and valid-from date 1 August 2021, publisher and supplier SNV, replaces SN EN 301549:2020, amendments count zero. National catalogue establishes adoption/publication, not identical equivalence or mandatory legal use. Foreign DIN/NF results excluded.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://connect.snv.ch/de/sn-en-301549-2021"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Reader HTTP 403.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://www.snv.ch"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser",
+          "outcome": "reachable",
+          "note": "Homepage loaded; followed official Normenshop link.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://www.snv.ch/de/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser search",
+          "outcome": "reachable",
+          "note": "National current 2021 result selected; foreign DIN/NF records excluded.",
+          "run_id": "adoption-deeper-2026-09-27",
+          "url": "https://connect.snv.ch/de/search?q=301549&scope=singleSearchField&includeWithdrawn=true&narrowResultsOpen=true"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "73bb33d5f3d3dc65cb564b17bc41952ddfc0a06048f09fac6735eb5fcf5b772e",
+      "public_row_sha256": "553393ab8f1350a008556d6b7524df424f7e0cb9154888c26378210de3cd72b6",
       "public_claim_ids": [
-        "adoption-switzerland-inherited-1"
+        "adoption-switzerland-deeper-cell-1",
+        "adoption-switzerland-deeper-cell-2",
+        "adoption-switzerland-deeper-cell-3",
+        "adoption-switzerland-deeper-cell-4"
       ],
       "public_cells": {
         "0": [],
         "1": [
-          "adoption-switzerland-inherited-1"
+          "adoption-switzerland-deeper-cell-1"
         ],
-        "2": [],
-        "3": [],
-        "4": [],
+        "2": [
+          "adoption-switzerland-deeper-cell-2"
+        ],
+        "3": [
+          "adoption-switzerland-deeper-cell-3"
+        ],
+        "4": [
+          "adoption-switzerland-deeper-cell-4"
+        ],
         "5": []
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -276,6 +418,48 @@
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Switzerland"
+    },
+    {
+      "id": "adoption-deeper-switzerland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "proposed",
+          "reason": "Supported national adoption/reference correction.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "not_applicable",
+          "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }
       ],
