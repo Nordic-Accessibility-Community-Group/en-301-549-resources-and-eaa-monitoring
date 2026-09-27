@@ -1,0 +1,647 @@
+{
+  "id": "world-discovery-7-2026-09-27",
+  "started_at": "2026-09-27T15:57:55Z",
+  "research_closed_at": "2026-09-27T16:10:00Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "elapsed_research_minutes": 12.0834,
+  "remaining_research_minutes": 17.9166,
+  "scope": [
+    "Afghanistan",
+    "Bhutan",
+    "Iran (Islamic Republic of)",
+    "Iraq",
+    "Kyrgyzstan",
+    "Lebanon",
+    "Maldives",
+    "Myanmar",
+    "Oman",
+    "State of Palestine",
+    "Syrian Arab Republic",
+    "Tajikistan",
+    "Timor-Leste",
+    "Turkmenistan",
+    "Yemen",
+    "Central African Republic",
+    "Chad",
+    "Comoros",
+    "Djibouti",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Guinea",
+    "Guinea-Bissau",
+    "Libya",
+    "Sao Tome and Principe",
+    "Somalia",
+    "South Sudan",
+    "Sudan",
+    "Antigua and Barbuda",
+    "Dominica",
+    "Grenada",
+    "Guyana",
+    "Haiti",
+    "Honduras",
+    "Nicaragua",
+    "Saint Kitts and Nevis",
+    "Saint Lucia",
+    "Saint Vincent and the Grenadines",
+    "Suriname",
+    "Venezuela (Bolivarian Republic of)",
+    "Fiji",
+    "Kiribati",
+    "Marshall Islands",
+    "Micronesia (Federated States of)",
+    "Naoero",
+    "Palau",
+    "Papua New Guinea",
+    "Samoa",
+    "Solomon Islands",
+    "Tonga"
+  ],
+  "selection_reason": "User requested another 50 pending entries: 15 Asia, 13 Africa, 12 Americas, 10 Pacific.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 98,
+  "country_windows": {
+    "Afghanistan": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Bhutan": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Iran (Islamic Republic of)": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Iraq": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Kyrgyzstan": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Lebanon": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Maldives": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Myanmar": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Oman": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "State of Palestine": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Syrian Arab Republic": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Tajikistan": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Timor-Leste": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Turkmenistan": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Yemen": {
+      "started_at": "2026-09-27T15:57:55Z",
+      "completed_by": "2026-09-27T16:04:00Z",
+      "conservative_elapsed_minutes": 6.0834
+    },
+    "Central African Republic": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Chad": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Comoros": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Djibouti": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Equatorial Guinea": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Eritrea": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Guinea": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Guinea-Bissau": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Libya": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Sao Tome and Principe": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Somalia": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "South Sudan": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Sudan": {
+      "started_at": "2026-09-27T16:03:15Z",
+      "completed_by": "2026-09-27T16:07:00Z",
+      "conservative_elapsed_minutes": 3.75
+    },
+    "Antigua and Barbuda": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Dominica": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Grenada": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Guyana": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Haiti": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Honduras": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Nicaragua": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Saint Kitts and Nevis": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Saint Lucia": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Saint Vincent and the Grenadines": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Suriname": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Venezuela (Bolivarian Republic of)": {
+      "started_at": "2026-09-27T16:04:47Z",
+      "completed_by": "2026-09-27T16:09:00Z",
+      "conservative_elapsed_minutes": 4.2167
+    },
+    "Fiji": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Kiribati": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Marshall Islands": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Micronesia (Federated States of)": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Naoero": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Palau": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Papua New Guinea": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Samoa": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Solomon Islands": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    },
+    "Tonga": {
+      "started_at": "2026-09-27T16:07:00Z",
+      "completed_by": "2026-09-27T16:10:00Z",
+      "conservative_elapsed_minutes": 3
+    }
+  },
+  "attempts_storage": {
+    "Afghanistan": ".github/agents/research/global/worldwide-index.json#m49-004",
+    "Bhutan": ".github/agents/research/global/worldwide-index.json#m49-064",
+    "Iran (Islamic Republic of)": ".github/agents/research/global/worldwide-index.json#m49-364",
+    "Iraq": ".github/agents/research/global/worldwide-index.json#m49-368",
+    "Kyrgyzstan": ".github/agents/research/global/worldwide-index.json#m49-417",
+    "Lebanon": ".github/agents/research/global/worldwide-index.json#m49-422",
+    "Maldives": ".github/agents/research/global/worldwide-index.json#m49-462",
+    "Myanmar": ".github/agents/research/global/worldwide-index.json#m49-104",
+    "Oman": ".github/agents/research/global/worldwide-index.json#m49-512",
+    "State of Palestine": ".github/agents/research/global/worldwide-index.json#m49-275",
+    "Syrian Arab Republic": ".github/agents/research/global/worldwide-index.json#m49-760",
+    "Tajikistan": ".github/agents/research/global/worldwide-index.json#m49-762",
+    "Timor-Leste": ".github/agents/research/global/worldwide-index.json#m49-626",
+    "Turkmenistan": ".github/agents/research/global/worldwide-index.json#m49-795",
+    "Yemen": ".github/agents/research/global/worldwide-index.json#m49-887",
+    "Central African Republic": ".github/agents/research/global/worldwide-index.json#m49-140",
+    "Chad": ".github/agents/research/countries/chad.json",
+    "Comoros": ".github/agents/research/global/worldwide-index.json#m49-174",
+    "Djibouti": ".github/agents/research/global/worldwide-index.json#m49-262",
+    "Equatorial Guinea": ".github/agents/research/global/worldwide-index.json#m49-226",
+    "Eritrea": ".github/agents/research/global/worldwide-index.json#m49-232",
+    "Guinea": ".github/agents/research/global/worldwide-index.json#m49-324",
+    "Guinea-Bissau": ".github/agents/research/global/worldwide-index.json#m49-624",
+    "Libya": ".github/agents/research/global/worldwide-index.json#m49-434",
+    "Sao Tome and Principe": ".github/agents/research/global/worldwide-index.json#m49-678",
+    "Somalia": ".github/agents/research/global/worldwide-index.json#m49-706",
+    "South Sudan": ".github/agents/research/global/worldwide-index.json#m49-728",
+    "Sudan": ".github/agents/research/global/worldwide-index.json#m49-729",
+    "Antigua and Barbuda": ".github/agents/research/global/worldwide-index.json#m49-028",
+    "Dominica": ".github/agents/research/global/worldwide-index.json#m49-212",
+    "Grenada": ".github/agents/research/global/worldwide-index.json#m49-308",
+    "Guyana": ".github/agents/research/global/worldwide-index.json#m49-328",
+    "Haiti": ".github/agents/research/global/worldwide-index.json#m49-332",
+    "Honduras": ".github/agents/research/countries/honduras.json",
+    "Nicaragua": ".github/agents/research/global/worldwide-index.json#m49-558",
+    "Saint Kitts and Nevis": ".github/agents/research/global/worldwide-index.json#m49-659",
+    "Saint Lucia": ".github/agents/research/global/worldwide-index.json#m49-662",
+    "Saint Vincent and the Grenadines": ".github/agents/research/global/worldwide-index.json#m49-670",
+    "Suriname": ".github/agents/research/global/worldwide-index.json#m49-740",
+    "Venezuela (Bolivarian Republic of)": ".github/agents/research/global/worldwide-index.json#m49-862",
+    "Fiji": ".github/agents/research/global/worldwide-index.json#m49-242",
+    "Kiribati": ".github/agents/research/global/worldwide-index.json#m49-296",
+    "Marshall Islands": ".github/agents/research/global/worldwide-index.json#m49-584",
+    "Micronesia (Federated States of)": ".github/agents/research/global/worldwide-index.json#m49-583",
+    "Naoero": ".github/agents/research/global/worldwide-index.json#m49-520",
+    "Palau": ".github/agents/research/global/worldwide-index.json#m49-585",
+    "Papua New Guinea": ".github/agents/research/global/worldwide-index.json#m49-598",
+    "Samoa": ".github/agents/research/global/worldwide-index.json#m49-882",
+    "Solomon Islands": ".github/agents/research/global/worldwide-index.json#m49-090",
+    "Tonga": ".github/agents/research/global/worldwide-index.json#m49-776"
+  },
+  "source_access_ledger": [
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://mmd.gov.af/sites/default/files/2020-12/Law%20on%20Rigths%20and%20benefits%20of%20Disabled%20Persons%20-Eng%20%281%29.pdf",
+      "result": "Disability law (https://mmd.gov.af/sites/default/files/2020-12/Law%20on%20Rigths%20and%20benefits%20of%20Disabled%20Persons%20-Eng%20%281%29.pdf)\nciteturn219view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: application/pdf; Number of pages: 10; Source: open({\"ref_id\":\"https://mmd.gov.af/sites/default/files/2020-12/Law%20on%20Rigths%20and%20benefits%20of%20Disabled%20Persons%20-Eng%20%281%29.pdf\",\"lineno\":null}); Redirected to URL: https://mmd.gov.af/sites/default/files/2020-12/Law%20on%20Rigths%20and%20benefits%20of%20Disabled%20Persons%20-Eng%20(1).pdf; Total lines: 275\nL0@P0: URL: https://mmd.gov.af/sites/default/files/2020-12/Law%20on%20Rigths%20and%20benefits%20of%20Disabled%20"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://www.gnhc.gov.bt/en/wp-content/uploads/2019/12/National-Policy-for-Persons-with-Dsiabilities.pdf",
+      "result": "\nInternal Error ()\nciteturn219view1 [wordlim: 200] Source: open({\"ref_id\":\"https://www.gnhc.gov.bt/en/wp-content/uploads/2019/12/National-Policy-for-Persons-with-Dsiabilities.pdf\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://www.moj.gov.iq/upload/pdf/reat.pdf",
+      "result": "\nInternal Error ()\nciteturn219view2 [wordlim: 200] Source: open({\"ref_id\":\"https://www.moj.gov.iq/upload/pdf/reat.pdf\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://cbd.minjust.gov.kg/4-5633/edition/36287/ru",
+      "result": "\nЗакон КР от 8 августа 2025 года № 191 \"О правах и гарантиях (https://cbd.minjust.gov.kg/4-5633/edition/36287/ru)\nciteturn219view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://cbd.minjust.gov.kg/4-5633/edition/36287/ru\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://presidency.gov.mv/Press/Article/1427",
+      "result": "\nCouncil to Protect the Rights of People with Disabilities Established - The President's Office (https://presidency.gov.mv/Press/Article/1427)\nciteturn219view4 [wordlim: 200] Crawled: 8 months ago; Content type: text/html; Source: open({\"ref_id\":\"https://presidency.gov.mv/Press/Article/1427\",\"lineno\":null}); Total lines: 120\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://www.dsw.gov.mm/sites/default/files/ebooks-download/The%20Right%20of%20Persons%20with%20Disabilities%20Law.pdf",
+      "result": "\nInternal Error ()\nciteturn219view5 [wordlim: 200] Source: open({\"ref_id\":\"https://www.dsw.gov.mm/sites/default/files/ebooks-download/The%20Right%20of%20Persons%20with%20Disabilities%20Law.pdf\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://mjr.ogb.gov.ps/Decrees/Details/26925",
+      "result": "\nقانون رقم (4) لسنة 1999م بشأن حقوق المعوقين-فلسطين (https://mjr.ogb.gov.ps/Decrees/Details/26925)\nciteturn219view6 [wordlim: 200] Crawled: 5 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://mjr.ogb.gov.ps/Decrees/Details/26925\",\"lineno\":null}); Total lines: 37\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://mejlis.gov.tm/single-code/17?lang=ru",
+      "result": "\nInternal Error ()\nciteturn219view7 [wordlim: 200] Source: open({\"ref_id\":\"https://mejlis.gov.tm/single-code/17?lang=ru\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareadresult1",
+      "url": "https://agoye.gov.ye/page.php?id=326",
+      "result": "\nagoye.gov.ye (https://agoye.gov.ye/page.php?id=326)\nciteturn219view8 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"https://agoye.gov.ye/page.php?id=326\",\"lineno\":null}); Total lines: 229\n"
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://www.lp.gov.lb/ContentRecordDetails?id=13690&title=E-17",
+      "result": "Internal Error ()\nciteturn220view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.lp.gov.lb/ContentRecordDetails?id=13690&title=E-17\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.lp.gov.lb/ContentRecordDetails?id=13690&title=E-17 is not accessible via this tool.\n"
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://iranhumanrights.org/2020/01/english-translation-irans-law-to-protect-the-rights-of-the-disabled/",
+      "result": "\nEnglish Translation: Iran's \"Law to Protect the Rights of the Disabled\" - Center for Human Rights in Iran (https://iranhumanrights.org/2020/01/english-translation-irans-law-to-protect-the-rights-of-the-disabled/)\nciteturn220view1 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"https://iranhumanrights.org/2020/01/english-translation-irans-law-to-protect-the-rights-of-the-disabled/\",\"lineno\":null}); Total lines: 383\nL0: cite0†DONATE†thegivingblock.com L1: \nL2: cite1†فارسی†persian.iranhumanrights.org | ENGLISH\nL3:   * cite2†Home L4:   * cite3†Press Releases L5:   * cite4†Issues L6:     * cite5†Right to Protest L7:     * cite6†Right to "
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://mjla.gov.om/decrees/1/page/5",
+      "result": "\nInternal Error ()\nciteturn220view2 [wordlim: 200] Source: open({\"ref_id\":\"https://mjla.gov.om/decrees/1/page/5\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://sana.sy/health/2176492/",
+      "result": "\nفي اليوم الدولي للأشخاص ذوي الإعاقة... جهود متواصلة لزيادة الخدمات التي تقدمها لهم وزارة الصحة (https://sana.sy/health/2176492/)\nciteturn220view3 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://sana.sy/health/2176492/\",\"lineno\":null}); Total lines: 349\n"
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://ncz.tj/lv-legislation",
+      "result": "\nУпрощенная система «Базы Законодательства Республики Таджикистан» | Национальный центр законодательства при Президенте Республики Таджикистан (https://ncz.tj/lv-legislation)\nciteturn220view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://ncz.tj/lv-legislation\",\"lineno\":null}); Total lines: 950\n"
+    },
+    {
+      "group": "b7asiareads2",
+      "url": "https://mj.gov.tl/jornal/?q=node%2F789",
+      "result": "\nREPÚBLICA DEMOCRÁTICA DE TIMOR-LESTE | Jornal da República (https://mj.gov.tl/jornal/?q=node%2F789)\nciteturn220view5 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://mj.gov.tl/jornal/?q=node%2F789\",\"lineno\":null}); Redirected to URL: https://mj.gov.tl/jornal/?q=node/789; Total lines: 960\n"
+    },
+    {
+      "group": "b7afencandidates",
+      "url": "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf",
+      "result": "World Bank Document (https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf)\nciteturn229view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 118; Source: open({\"ref_id\":\"https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf\",\"lineno\":null}); Total lines: 5486\nL0@P0: Chad DE4A Country\nL1@P0: Diagnostic (P177120) - Next STEP.msg\nL2@P0: CHAD\nL3@P0-1: Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized2\nL4@P1: © 2023 The World Bank Group\nL5@P1: 1818 H Street NW, Washington, D"
+    },
+    {
+      "group": "b7afencandidates",
+      "url": "https://rainbetcasino.ca/accessibility/",
+      "result": "\nAccessibility Statement – Rainbet (https://rainbetcasino.ca/accessibility/)\nciteturn229view1 [wordlim: 200] Crawled: 2 months ago; Content type: text/html; Source: open({\"ref_id\":\"https://rainbetcasino.ca/accessibility/\",\"lineno\":null}); Total lines: 132\n"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/88121/CAF-88121.pdf",
+      "result": " (https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/88121/CAF-88121.pdf)\nciteturn241view0 [wordlim: 200] Crawled: 2 months ago; Content type: application/pdf; Number of pages: 3; Source: open({\"ref_id\":\"turn231search14\",\"lineno\":null}); Total lines: 224\nL64@P0: l,ReA I]OJANI-'lER :;OlO Edrrl<JfI • pec1l1/O! LOi portam ,~I(l/l.I. l'rotecllrln el fromolllJn\nL65@P0-1: de Ju Personn Handi'·.1I''''' el <on LiéLret J'app!Jcalion c\nL66@P1: SOMMAIRE\nL67@P1: LOI N°OO.007 DU 20 DeCEMBRE 2000, PORTANT\nL68@P1: \nL69@P1: STATUT, PROTECTION ET PROMOTION\nL70@P1: \nL71@P1: DE LA PERSONNE HANDICAPEE\nL72@P1: \nL73@P1: Cl Titre 1- Des dispositions générales... .. 2\nL74@P1: Cl Titre 1\\ - Des aides spéci"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://social.desa.un.org/sites/default/files/migrated/15/2019/11/Chad_Law-Bearing-Protection-for-Disabled-Persons-2007.pdf",
+      "result": "\nuntitled (https://social.desa.un.org/sites/default/files/migrated/15/2019/11/Chad_Law-Bearing-Protection-for-Disabled-Persons-2007.pdf)\nciteturn241view1 [wordlim: 200] Crawled: 1.3 years ago; Content type: application/pdf; Number of pages: 3; Source: open({\"ref_id\":\"turn231search12\",\"lineno\":null}); Total lines: 82\nL0@P0: LOIN° 007 IPRl2007 -----\nL1@P0: Vu la Constitution ;.\nL2@P0: L'Assemblee Nationale a delibere et adopte en sa seance du 07 Mai 2007.\nL3@P0: Le President de la Republique promulgue la loi dont la teneur suit:\nL4@P0: Article1'- La presente loi. determine les principes fondamentaux en matiere de\nL5@P0: protection des personnes handicapees.\nL6@P0: Article2.- La personne han"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://justice.gouv.km/texte/loi-du-22-decembre-2014-portant-loi-relative-a-la-promotion-et-a-la-protection-des-droits-des-personnes-handicapees/",
+      "result": "\nLoi du 22 Décembre 2014 Portant loi relative à la promotion et à la protection des droits des personnes handicapées - Ministère de la Justice des Comores (https://justice.gouv.km/texte/loi-du-22-decembre-2014-portant-loi-relative-a-la-promotion-et-a-la-protection-des-droits-des-personnes-handicapees/)\nciteturn241view2 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({\"ref_id\":\"turn231search0\",\"lineno\":null}); Total lines: 27\nL5: # Loi du 22 Décembre 2014 Portant loi relative à la promotion et à la protection des droits des personnes handicapées\nL6: \nL7: cite1†iframe L8: \nL9: cite2†Télécharger le PDF L10: \nL11: cite2†loi du 22 Décembre 2014 Portant loi rel"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://cnt.gov.gn/archive.assemblee/www.assemblee.gov.gn/conakry-le-15-mai-2018-l2018021an-loi-portant-protection-et-promotion-des-personnes-handicapees-en.html",
+      "result": "\nConakry le 15 Mai 2018. L/2018/021/AN Loi portant Protection et Promotion des Personnes Handicapées En République De Guinée. | ASSEMBLÉE NATIONALE DE GUINÉE (https://cnt.gov.gn/archive.assemblee/www.assemblee.gov.gn/conakry-le-15-mai-2018-l2018021an-loi-portant-protection-et-promotion-des-personnes-handicapees-en.html)\nciteturn241view3 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"turn232search0\",\"lineno\":null}); Total lines: 393\nL40: Article 2 : La présente loi vise à garantir l’égalité des chances en faveur des personnes handicapées ainsi que la protection et la promotion de leurs droits contre toutes formes de discrimination.\nL41: \nL42: \nL43: \nL44"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://www.loc.gov/item/eritrean-proc-118-2001/:",
+      "result": "\nInternal Error ()\nciteturn241view4 [wordlim: 200] Source: open({\"ref_id\":\"turn232search1\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.loc.gov/item/eritrean-proc-118-2001/: (403) Forbidden\n"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://www.adry.up.ac.za/country-reports-2025/guinea-bissau",
+      "result": "\nGuinea-Bissau (https://www.adry.up.ac.za/country-reports-2025/guinea-bissau)\nciteturn241view5 [wordlim: 200] Crawled: 3 months ago; Content type: text/html; Source: open({\"ref_id\":\"turn232search3\",\"lineno\":null}); Total lines: 392\nL206: ###### 11.3 Do persons with disabilities have a right to participation in political life (political representation and leadership) in Guinea-Bissau?\nL207: In Guinea-Bissau, persons with disabilities have a legal right to participate in political life through the nation’s ratification of the CRPD, which guarantees voting, candidacy, accessible procedures, and involvement in political and civil organisations.\n"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://aladel.gov.ly/home/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-5-%D9%84%D8%B3%D9%86%D8%A9-1987%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86/",
+      "result": "\nقانون رقم ( 5 ) لسنة 1987م بشأن المعاقين - وزارة العدل - دولة ليبيا (https://aladel.gov.ly/home/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-5-%D9%84%D8%B3%D9%86%D8%A9-1987%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86/)\nciteturn241view6 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"turn233search1\",\"lineno\":null}); Total lines: 212\nL19: مؤتمر الشعب العام،\nL20: تنفيذاً لقرارات المؤتمرات الشعبية الأساسية في دور انعقادها العادي الثالث لسنة 1396و.ر. الموافق 1986م. التي صاغها الملتقى العام للمؤتمرات الشعبية واللجان الشعبية ((مؤتمر الشعب العام)) في دور انعقاده العادي الثاني عشر في الفترة من 26 جمادي الآخرة إلى 1 رجب"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://inss.gov.st/assets/Leis/Lei_7_2004.pdf",
+      "result": "\n (https://inss.gov.st/assets/Leis/Lei_7_2004.pdf)\nciteturn241view7 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 11; Source: open({\"ref_id\":\"turn233search14\",\"lineno\":null}); Total lines: 482\nL49@P1: distributivas e é essencialmente financiada através do imposto.\nL50@P1: 2. Constitui objectivo da protecção social de cidadania\nL51@P1: o bem-estar das pessoas, das famílias e da comunidade, através da promoção social e do desenvolvimento regio\u0002nal, reduzindo progressivamente as desigualdades sociais e assimetrias regionais.\nL52@P1: 3. Preferencialmente, a protecção social de cidadania\nL55@P1: acções de assistência a pessoas e famílias em situações especialme"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=118274",
+      "result": "\nNATLEX - Somalia - Somali Disability Rights Protection Law (Law No. 29 of 2024) (https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=118274)\nciteturn241view8 [wordlim: 200] Crawled: 3 months ago; Content type: text/html; Source: open({\"ref_id\":\"turn233search3\",\"lineno\":null}); Total lines: 93\nL0:   cite0†Skip to Main Content L1: \nL2: cite1†Go to ILO main website†www.ilo.org L3: \nL4:   * Français\nL5:   * Español\nL6: \nL7:  cite12†Image: Go to ILO main website L8: \nL9:   cite13†Image: NATLEX Link L10: \nL11:  cite14†Image L12: \nL13:   * cite2†Home L14:   * SOM-2024-L-118274\nL15: \nL16: # Breadcrumb\nL17: \nL18: ## Title_of_text\nL19: \nL20: # Somali Disability Rights P"
+    },
+    {
+      "group": "b7afreads",
+      "url": "https://mop.gov.ss/download/pubs/SS_Transitional_Constitution.pdf",
+      "result": "\nTransitional Constitution of the Republic of South Sudan, 2011 (https://mop.gov.ss/download/pubs/SS_Transitional_Constitution.pdf)\nciteturn241view9 [wordlim: 200] Crawled: last week; Content type: application/pdf; Number of pages: 92; Source: open({\"ref_id\":\"turn235search14\",\"lineno\":null}); Total lines: 3153\nL1648@P49: set forth in Article 119 (2) of this Constitution; or\nL1649@P49: (e) death.\nL1650@P49: Declaration of Wealth and Prohibition of Private Business\nL1651@P49: 121. (1) All executive and legislative constitutional office holders, Justices, and senior\nL1652@P49: Civil Service officials at all levels of government shall, upon assumption of their\nL1653@P49: offices, make confide"
+    },
+    {
+      "group": "b7afreads2",
+      "url": "https://www.journalofficiel.dj/arabe/texte-juridique/loi-n207-an-17-7eme-l-relative-a-la-promotion-et-a-la-protection-des-droits-des-personnes-a-besoins-speciaux/",
+      "result": "Loi n° 207/AN/17/7ème L relative à la promotion et à la protection des droits des personnes à besoins spéciaux. - eJO (https://www.journalofficiel.dj/arabe/texte-juridique/loi-n207-an-17-7eme-l-relative-a-la-promotion-et-a-la-protection-des-droits-des-personnes-a-besoins-speciaux/)\nciteturn243view0 [wordlim: 200] Crawled: 2 months ago; Content type: text/html; Source: open({\"ref_id\":\"turn237search0\",\"lineno\":null}); Total lines: 245\nL44: ## إجراء بحث\nL45: \nL46: Rechercher\nL47: \nL48: ### Loi n° 207/AN/17/7ème L relative à la promotion et à la protection des droits des personnes à besoins spéciaux.\nL49: \nL50:   * التدبير: عام\nL51:   * cite9† تاريخ النشر: 06/02/2018  L52: \nL53: cite10† "
+    },
+    {
+      "group": "b7amencandidates",
+      "url": "https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf",
+      "result": "Form_G_Technical Bid.xlsx (https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf)\nciteturn250view0 [wordlim: 200] Crawled: last month; Content type: application/pdf; Number of pages: 5; Source: open({\"ref_id\":\"https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf\",\"lineno\":null}); Total lines: 295\nL0@P0: 3.1. General requirements and\nL1@P0: notes on scope\nL2@P0: Description and minimum/mandatory specifications\nL3@P0: Description of items offered, and Bidders’ statement on\nL4@P0: deviations.\nL5@P0:         i.            The self-service Kiosk consists of the items here listed, housed in a lockable, ergonomi"
+    },
+    {
+      "group": "b7amencandidates",
+      "url": "https://skytektguhn.wixsite.com/skytec/accessibility-statement",
+      "result": "\nInternal Error ()\nciteturn250view1 [wordlim: 200] Source: open({\"ref_id\":\"https://skytektguhn.wixsite.com/skytec/accessibility-statement\",\"lineno\":null}); Total lines: 1\n"
+    },
+    {
+      "group": "b7amencandidates",
+      "url": "https://g3ict.org/upload/G3ict-Research-DARE-Index-2020-Supporting-Qualitative-Country-Data-Shared-by-Respondents-October-2021.pdf",
+      "result": "\n (https://g3ict.org/upload/G3ict-Research-DARE-Index-2020-Supporting-Qualitative-Country-Data-Shared-by-Respondents-October-2021.pdf)\nciteturn250view2 [wordlim: 200] Crawled: 2 days ago; Content type: application/pdf; Number of pages: 174; Source: open({\"ref_id\":\"https://g3ict.org/upload/G3ict-Research-DARE-Index-2020-Supporting-Qualitative-Country-Data-Shared-by-Respondents-October-2021.pdf\",\"lineno\":null}); Total lines: 7694\n"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://laws.gov.ag/wp-content/uploads/2019/04/No.-32-of-2017-Disabilities-and-Equal-Opportunities-Act-2017.pdf",
+      "result": " (https://laws.gov.ag/wp-content/uploads/2019/04/No.-32-of-2017-Disabilities-and-Equal-Opportunities-Act-2017.pdf)\nciteturn262view0 [wordlim: 200] Crawled: 4 days ago; Content type: application/pdf; Number of pages: 28; Source: open({\"ref_id\":\"turn251search13\",\"lineno\":null}); Total lines: 675\nL295@P12: (iii) physical abuse;\nL296@P12: (iv) sexual abuse.\nL297@P12: (3) A person with a disability who is a victim of any form of exploitation, violence neglect or\nL298@P12: abuse shall have the right—\nL299@P12-13: (a) to protective services; andDisabilities and Equal Opportunities Act, 2017 14 No. 32 of 2017.\nL300@P13: (b) to have the exploitation, violence or abuse investigated by the appropria"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://www.dominica.gov.dm/laws/chapters/chap1-01.pdf",
+      "result": "\n (https://www.dominica.gov.dm/laws/chapters/chap1-01.pdf)\nciteturn262view1 [wordlim: 200] Crawled: yesterday; Content type: application/pdf; Number of pages: 144; Source: open({\"ref_id\":\"turn251search17\",\"lineno\":null}); Total lines: 0\n"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://www.gov.gd/government/the-constitution",
+      "result": "\nThe Grenada Constitution (https://www.gov.gd/government/the-constitution)\nciteturn262view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn251search2\",\"lineno\":null}); Total lines: 1012\nL844: (4) Where the offices of Attorney-General and Director of Public Prosecutions are held by the same person, the following provisions of this Constitution shall have effect, in relation to that person, as if references therein to the Director of Public Prosecutions included references to the Attorney-General, that is to say, sections 80, 86(6), 86(7), 86(8), 86(9), 93 and 111(8) but the provisions of this subsection shall be without prejudice to the powers of Parlia"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://seiph.gouv.ht/le-moniteur-loi-portant-sur-l%E2%80%99integration-des-personnes-handicapees/",
+      "result": "\nLe Moniteur: Loi Portant sur l’Intégration des Personnes Handicapées – BSEIPH (https://seiph.gouv.ht/le-moniteur-loi-portant-sur-l%E2%80%99integration-des-personnes-handicapees/)\nciteturn262view4 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"turn252search1\",\"lineno\":null}); Total lines: 48\nL0: * * *\nL1: \nL2:   * cite0†Le Secrétaire d’État L3:   * cite1†Primature.ht†primature.gouv.ht L4:   * cite2†Presidence.ht†www.presidence.ht L5: \nL6:   * cite3†Accueil L7:   * cite4†A Propos L8:   * cite5†Articles L9:   * cite6†Associations L10:   * cite7†Multimedia L11:   * cite8†Publications L12:   * cite9†Contact L13: \nL14: # Le Mon"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/559-ley-de-equidad-y-desarrollo-integral-para-las-personas-con-discapacidad",
+      "result": "\nLey de Equidad y Desarrollo Integral para las personas con discapacidad (https://www.tsc.gob.hn/biblioteca/index.php/leyes/559-ley-de-equidad-y-desarrollo-integral-para-las-personas-con-discapacidad)\nciteturn262view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn252search3\",\"lineno\":null}); Total lines: 80\nL61: # Ley de Equidad y Desarrollo Integral para las personas con discapacidad\nL62: \nL63: Detalles\nL64:     Categoría: cite4†Leyes L65:     Visto: 27472\nL66: \nL67: Poder Legislativo\nL68: \nL69: Decreto No. 160-2005\nL70: \nL71: Ley de Equidad y Desarrollo Integral para las Personas con Discapacidad\nL72: \nL73: \nL74: \nL75: cite31†Descargar L76: \nL"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://www.gov.kn/the-constitution/",
+      "result": "\nThe Constitution – The Government of St. Kitts and Nevis (https://www.gov.kn/the-constitution/)\nciteturn262view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn256search1\",\"lineno\":null}); Total lines: 114\nL66: The cite56†Constitution of Saint Kitts and Nevis was adopted on 23 June 1983 and took effect when the country became independent on 19 September 1983. It consists of 11 chapters  and  various  schedules,  which  establish  the  rights,  responsibilities  and definition  of  the  citizens  of  the  federation.  It  also  provides  the  form  and  structure  of government, and enumerates the powers of the different branches of government.\nL68:"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://www.govt.lc/news/ministry-of-equity-to-host-mini-consultations-on-draft-policy-for-persons-with-disabilities",
+      "result": "\nWeb Portal of the Government of Saint Lucia (https://www.govt.lc/news/ministry-of-equity-to-host-mini-consultations-on-draft-policy-for-persons-with-disabilities)\nciteturn262view8 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"turn257search0\",\"lineno\":null}); Total lines: 114\nL57: CONSULTATIONS BEGIN OCT. 13 AND WILL END ON OCT. 23. cite27†Image Beginning October 13, 2025, the Ministry of Equity, Social Justice and Empowerment will launch a series of national mini consultations aimed at engaging persons with disabilities, their families, representative organizations, and key stakeholders in meaningful dialogue on the Draft National Policy for Per"
+    },
+    {
+      "group": "b7amreads",
+      "url": "https://gov.sr/awj-streeft-naar-gelijke-kansen-en-inclusiviteit-op-de-arbeidsmarkt/",
+      "result": "\nAWJ streeft naar gelijke kansen en inclusiviteit op de arbeidsmarkt (https://gov.sr/awj-streeft-naar-gelijke-kansen-en-inclusiviteit-op-de-arbeidsmarkt/)\nciteturn262view10 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"turn253search1\",\"lineno\":null}); Total lines: 142\nL115: Hiermee heeft de commissie de eerste stap gezet om gestalte te geven aan de doelstelling van de Wet Gelijke Behandeling Arbeid die in werking is getreden in november 2022. Met deze wet wordt gestreefd naar gelijke behandeling op zowel de arbeidsmarkt als op de werkvloer. Tevens wordt gestreefd naar het uitbannen van discriminatie op basis van onder andere geslacht, etniciteit, na"
+    },
+    {
+      "group": "b7amreads2",
+      "url": "https://attorneygeneralchambers.com/laws-of-saint-lucia/constitution-of-saint-lucia/section-13-01",
+      "result": "13. Protection From Discrimination On The Grounds Of Race, Etc | Constitution Of Saint Lucia | Revised Laws of Saint Lucia | Attorney General Chambers (https://attorneygeneralchambers.com/laws-of-saint-lucia/constitution-of-saint-lucia/section-13-01)\nciteturn264view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"turn261search0\",\"lineno\":null}); Total lines: 480\nL54: (3)   In this section, the expression “discriminatory” means affording different treatment to different persons attributable wholly or mainly to their respective descriptions by sex, race, place of origin, political opinions, colour or creed whereby persons of one such description are su"
+    },
+    {
+      "group": "b7amreads2",
+      "url": "https://siteal.iiep.unesco.org/sites/default/files/sit_accion_files/ley_organica_para_la_inclusion_igualdad_y_desarrollo_integral_de_las_personas_con_discapacidad_2.pdf",
+      "result": "\n (https://siteal.iiep.unesco.org/sites/default/files/sit_accion_files/ley_organica_para_la_inclusion_igualdad_y_desarrollo_integral_de_las_personas_con_discapacidad_2.pdf)\nciteturn264view1 [wordlim: 200] Crawled: last week; Content type: application/pdf; Number of pages: 16; Source: open({\"ref_id\":\"turn261search12\",\"lineno\":null}); Total lines: 2125\nL0@P0: 6.817 Extraordinario GACETA OFICIAL DE LA REPÚBLICA BOLIVARIANA DE VENEZUELA 1\nL1@P0: AÑO CLI - MES IX Caracas, jueves 27 de junio de 2024 N° 6.817 Extraordinario\nL2@P0: SUMARIO\nL3@P0: ASAMBLEA NACIONAL\nL4@P0: Ley Orgánica para la Inclusión, Igualdad y\nL5@P0: Desarrollo Integral de las Personas con\nL6@P0: Discapacidad.\nL7@P0: ASAMBLEA "
+    },
+    {
+      "group": "b7amreads2",
+      "url": "https://www.dna.sr/media/ikeltftw/sb_2022___137.pdf",
+      "result": "\n (https://www.dna.sr/media/ikeltftw/sb_2022___137.pdf)\nciteturn264view2 [wordlim: 200] Crawled: 5 days ago; Content type: application/pdf; Number of pages: 20; Source: open({\"ref_id\":\"turn261search15\",\"lineno\":null}); Total lines: 1288\nL0@P0: 2022\nL1@P0: WET van 10 november 2022, betreffende het bevorderen van de gelijke\nL2@P0: behandeling inzake arbeid.\nL3@P0: (Wet Gelijke Behandeling Arbeid)\nL4@P0: DE PRESIDENT VAN DE REPT]BLIEK SURINAME,\nL5@P0: In overweging genomen hebbende, dat in het kader van het bevorderen van het\nL6@P0: voorkomen van discriminatie en de bevordering van de gelijke behandeling\nL7@P0: irr:/rre arbeid het wenselijk is om op basis van intemationale standaarden, over\n"
+    },
+    {
+      "group": "b7pacreads",
+      "url": "https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/12/Marshall-islands_Rights-of-Persons-with-disabilities-Act-2015.pdf:",
+      "result": "Internal Error ()\nciteturn279view0 [wordlim: 200] Source: open({\"ref_id\":\"turn272search12\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/12/Marshall-islands_Rights-of-Persons-with-disabilities-Act-2015.pdf: (403) Forbidden\n"
+    },
+    {
+      "group": "b7pacreads",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2025/08/examen-de-kiribati-au-crpd-le-pays-dispose-dun-cadre-pour-faire",
+      "result": "\nExperts of the Committee on the Rights of Persons with Disabilities Commend Kiribati’s Disability Policy Framework, Ask Questions on Infrastructure Accessibility and Forced Institutionalisation | The United Nations Office at Geneva (https://www.ungeneva.org/en/news-media/meeting-summary/2025/08/examen-de-kiribati-au-crpd-le-pays-dispose-dun-cadre-pour-faire)\nciteturn279view1 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"turn272search8\",\"lineno\":null}); Total lines: 193\nL74: The State had a gender equality policy that addressed the rights of women and girls with disabilities.  The Government planned to improve data collection on women with disabilitie"
+    },
+    {
+      "group": "b7pacreads",
+      "url": "https://www.ag.gov.ws/wp-content/uploads/2024/02/Labour-and-Employment-Relations-Act-2013.pdf",
+      "result": "\nLabour and Employment Relations Act 2013 (https://www.ag.gov.ws/wp-content/uploads/2024/02/Labour-and-Employment-Relations-Act-2013.pdf)\nciteturn279view3 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 53; Source: open({\"ref_id\":\"turn273search12\",\"lineno\":null}); Total lines: 2126\nL178@P2: BE IT ENACTED by the Legislative Assembly of Samoa in\nL179@P2: Parliament assembled as follows:\nL180@P2: PART 1\nL181@P2: PRELIMINARY\nL182@P2: 1. Short title and commencement – (1) This Act may be cited\nL183@P2: as the Labour and Employment Relations Act 2013.\nL184@P2: (2) This Act commences on the date of assent of the Head of\nL185@P2: State.\nL186@P2: 2. Interpretation – "
+    },
+    {
+      "group": "b7pacreads",
+      "url": "https://solomons.gov.sb/national-disability-development-policy-2022-2031-rehabilitation-strategic-plan-2022-2031-successfully-launched/:",
+      "result": "\nInternal Error ()\nciteturn279view4 [wordlim: 200] Source: open({\"ref_id\":\"turn274search3\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://solomons.gov.sb/national-disability-development-policy-2022-2031-rehabilitation-strategic-plan-2022-2031-successfully-launched/: (400) Timeout fetching\n"
+    },
+    {
+      "group": "b7pacreads",
+      "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1988/1988-0002/ConstitutionofTonga.pdf_3.pdf",
+      "result": "\nConstitution of Tonga (https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1988/1988-0002/ConstitutionofTonga.pdf_3.pdf)\nciteturn279view5 [wordlim: 200] Crawled: yesterday; Content type: application/pdf; Number of pages: 43; Source: open({\"ref_id\":\"turn274search12\",\"lineno\":null}); Total lines: 1471\nL334@P11: expiration of 42 days after the date of the conviction; and in cases where notice of\nL335@P11: appeal or leave to appeal is given within 42 days after the date of conviction, until\nL336@P11: the determination of the appeal; and if the conviction is quashed on appeal or the\nL337@P11: sentence reduced to no more than 2 years imprisonment then this clause shall not\nL338@P11: have effec"
+    },
+    {
+      "group": "b7pacreads2",
+      "url": "https://www.parliament.gov.fj/wp-content/uploads/2018/03/Act-4-Rights-of-Persons-with-Disabilities.pdf",
+      "result": " (https://www.parliament.gov.fj/wp-content/uploads/2018/03/Act-4-Rights-of-Persons-with-Disabilities.pdf)\nciteturn281view0 [wordlim: 200] Crawled: 4 days ago; Content type: application/pdf; Number of pages: 26; Source: open({\"ref_id\":\"turn275search12\",\"lineno\":null}); Total lines: 892\nL62@P1: 51. Directives by the Minister\nL63@P1: 52. Regulations\nL64@P1: 53. Repeal\nL65@P1: SCHEDULE Registration of organisations affiliated\nL66@P1: with the National Council for Persons with\nL67@P1-2: Disabilities9\nL68@P2: TO MAKE PROVISIONS FOR THE PROTECTION OF THE RIGHTS OF PERSONS\nL69@P2: WITH DISABILITIES IN ACCORDANCE WITH THE UNITED NATIONS\nL70@P2: CONVENTION ON THE RIGHTS OF PERSONS WITH DISABILITIES"
+    },
+    {
+      "group": "b7pacreads2",
+      "url": "https://www.cfsm.gov.fm/14th-cfsm-public-laws/",
+      "result": "\n14th Public Laws – FSM Congress (https://www.cfsm.gov.fm/14th-cfsm-public-laws/)\nciteturn281view2 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"turn278search0\",\"lineno\":null}); Total lines: 256\nL168: cite94†PL. 14-82 |  | To further amend Sections 1 and 2 of Public Law No. 14-67, as amended by Public Law No. 14-72, to change the uses and allottee of certain funds previously appropriated therein and to make technical changes, and for other purposes.\nL169: cite95†PL. 14-81 |  | To further amend Title 52 of the Code of the Federated States of Micronesia, as amended, by amending section 117 to exempt National Weather Services employees from the Pub"
+    },
+    {
+      "group": "b7pacreads2",
+      "url": "https://www.cfsm.gov.fm/wp-content/uploads/2024/08/PUBLIC-LAW-12-76.pdf",
+      "result": "\nMicrosoft Word - PUBLIC LAW 12-076 (https://www.cfsm.gov.fm/wp-content/uploads/2024/08/PUBLIC-LAW-12-76.pdf)\nciteturn281view3 [wordlim: 200] Crawled: last month; Content type: application/pdf; Number of pages: 18; Source: open({\"ref_id\":\"turn272search13\",\"lineno\":null}); Total lines: 496\nL332@P11: 22 guardian has submitted an application.\"\nL333@P11: 23 Section 6. Title 53 of the Code of the Federated States of\nL334@P11: 24 Micronesia, as amended, is hereby further amended by adding a new\nL335@P11-12: 25 section 803A to read as follows:CONGRESSIONAL BILL NO. 12-104, C.D.1, C.D.2,\nL336@P12: C.D.3, C.D.4\nL337@P12: PUBLIC LAW NO. 12-76\nL338@P12: 13 of 13\nL339@P12: 1 \"Section 803A. Disability"
+    },
+    {
+      "group": "b7pngread",
+      "url": "https://papuanewguinea.un.org/en/298982-statement-un-resident-coordinator-passage-disability-services-bill",
+      "result": "Statement of the UN Resident Coordinator on the Passage of the Disability Services Bill | United Nations in Papua New Guinea (https://papuanewguinea.un.org/en/298982-statement-un-resident-coordinator-passage-disability-services-bill)\nciteturn282view0 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({\"ref_id\":\"turn280search3\",\"lineno\":null}); Total lines: 38\nL0: cite0†iframe†www.googletagmanager.com L1: \nL2: Press Release\nL3: # Statement of the UN Resident Coordinator on the Passage of the Disability Services Bill\nL4: \nL5: 01 August 2025\nL6: Yesterday’s unanimous passage of the Disability Services Bill of 2025 by the National Parliament is a landmark achievement"
+    }
+  ],
+  "verification_scope": "Two scoped document-level EN references, both retaining unverified_source adoption status. Law, constitutional, policy or proposal leads for all50; current legal applicability not verified. Comoros and Oman unresolved EN leads deferred.",
+  "public_page_changes": false,
+  "process_dependency": "Setup PR70; research PR71. Never merge.",
+  "validation": {
+    "country_records": "PASS: 65 countries, 770 claims, 73 delivery events",
+    "adoption_coverage": "PASS: 35 adoption records",
+    "adoption_tests": "27 passed",
+    "inventory_integrity": "PASS: 250 unique entries, 98 pending, 13 exclusions; all earlier entries and legal task preserved; pointers resolve",
+    "markdownlint": "PASS: 40 Markdown files",
+    "diff_whitespace": "PASS",
+    "verification_date_content_check": "PASS: no last_verified markers; this is not research verification",
+    "rendered_html": "Local system tidy produces HTML5 warnings in unchanged enforcement page; no public Markdown changed",
+    "live_links": "Full lychee link checker unavailable; source access outcomes recorded individually; no blanket live-link claim",
+    "CI": "Not checked; local validation only"
+  },
+  "limits": [
+    "Bounded discovery only; no full national-law audits. Failed/empty readers and secondary-host provenance remain explicit.",
+    "Generic vendor, foreign-address, bibliography and country-name co-occurrences were not treated as national EN connections.",
+    "Regional windows overlap because source checks were batched. Timings conservatively cover active research and completed source-fidelity review, not subsequent file preparation.",
+    "Comoros operator/address provenance and Oman academic passage remain unresolved. Honduras original procurement package remains unauthenticated."
+  ],
+  "coordination": "PR72 independently changes generated routing; maintainer must regenerate from combined records before merging overlapping drafts."
+}

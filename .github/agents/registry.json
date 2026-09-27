@@ -62,6 +62,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Chad",
+      "slug": "chad",
+      "group": "non-EU"
+    },
+    {
       "name": "Costa Rica",
       "slug": "costa rica",
       "group": "non-EU"
@@ -129,6 +134,11 @@
     {
       "name": "Greenland",
       "slug": "greenland",
+      "group": "non-EU"
+    },
+    {
+      "name": "Honduras",
+      "slug": "honduras",
       "group": "non-EU"
     },
     {

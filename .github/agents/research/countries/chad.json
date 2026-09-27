@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "country": "Chad",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-39019fbea6f2510eff796d8e": {
+      "issuer": "UN DESA hosting Chad legislation",
+      "url": "https://social.desa.un.org/sites/default/files/migrated/15/2019/11/Chad_Law-Bearing-Protection-for-Disabled-Persons-2007.pdf",
+      "source_type": "other_unverified",
+      "language": "fr",
+      "passage": "Three-page copy retrieved; current amendments and implementing measures remain unreviewed.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-2993f59b8642555d34d6f580": {
+      "issuer": "World Bank",
+      "url": "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "The World Bank’s 2023 Chad Digital Economy Diagnostic lists EN 301 549 V2.1.2 among global accessibility references in its disability-inclusion discussion. This is an international diagnostic reference; it does not establish adoption by Chad.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-chad-discovery-reference",
+          "aspect": "reference",
+          "statement": "The World Bank’s 2023 Chad Digital Economy Diagnostic lists EN 301 549 V2.1.2 among global accessibility references in its disability-inclusion discussion. This is an international diagnostic reference; it does not establish adoption by Chad.",
+          "scope": "international diagnostic reference",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-2993f59b8642555d34d6f580"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording independently reviewed in discovery-7-review-2026-09-27.json. Source category remains other_unverified for adoption evidence; no national standard adoption or current legal effect claimed. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards and procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map current discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-39019fbea6f2510eff796d8e: Loi n°007/PR/2007 portant protection des personnes handicapées. Three-page copy retrieved; current amendments and implementing measures remain unreviewed.",
+        "Source notation is V2.1.2 without a year; retain this notation and establish edition year from the standard before adding a year suffix. Box16 appears on physical PDF pages111–112."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "\"Chad\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "site:gouv.td \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "Tchad loi 007 2007 personnes handicapées"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Three-page copy retrieved; current amendments and implementing measures remain unreviewed.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "url": "https://social.desa.un.org/sites/default/files/migrated/15/2019/11/Chad_Law-Bearing-Protection-for-Disabled-Persons-2007.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "The World Bank’s 2023 Chad Digital Economy Diagnostic lists EN 301 549 V2.1.2 among global accessibility references in its disability-inclusion discussion. This is an international diagnostic reference; it does not establish adoption by Chad.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "url": "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-7-2026-09-27-148",
+      "country": "Chad",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/chad.json",
+          "disposition": "research_only",
+          "reason": "international diagnostic reference",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

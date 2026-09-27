@@ -580,6 +580,48 @@
       "country": "Canada"
     },
     {
+      "id": "world-discovery-7-2026-09-27-148",
+      "country": "Chad",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/chad.json",
+          "disposition": "research_only",
+          "reason": "international diagnostic reference",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "world-discovery-4-2026-09-27-costa-rica",
       "country": "Costa Rica",
       "destinations": [
@@ -920,6 +962,48 @@
           "disposition": "not_applicable",
           "reason": "No supported EAA change.",
           "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-7-2026-09-27-340",
+      "country": "Honduras",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/honduras.json",
+          "disposition": "research_only",
+          "reason": "project-specific procurement document, authority and final status unverified",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
           "pr": 71
         }
       ]
