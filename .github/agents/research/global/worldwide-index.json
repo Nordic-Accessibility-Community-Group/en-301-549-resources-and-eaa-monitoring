@@ -144,6 +144,43 @@
       "next_action": "In a later authorised legal-research round, inspect existing country evidence first, then official legislation and authorities. Define any dedicated legal domain/schema before storing structured law claims in canonical records.",
       "completion_criterion": "Every listed country has scoped primary-source law findings or documented gaps; distinguish applicability, commencement and amendments.",
       "schedule": null
+    },
+    {
+      "id": "unverified-en-references-deep-research",
+      "status": "deferred",
+      "created_on": "2026-09-27",
+      "country_ids": [
+        "m49-704"
+      ],
+      "purpose": "Resolve unverified EN 301 549 references through deeper primary-source research, starting with the three Vietnamese standards/TBT bulletin leads.",
+      "scope": "Recorded unverified EN reference leads; extend this task with further leads found in later discovery batches.",
+      "leads": [
+        {
+          "country_id": "m49-704",
+          "country": "Viet Nam",
+          "finding_ids": [
+            "world-discovery-3-2026-09-27-704-en-search"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-4c8c6f34aa19a2d2ca31e270",
+              "url": "https://tcvn.gov.vn/wp-content/uploads/2022/04/AP62021.pdf"
+            },
+            {
+              "source_ref": "source-4d98c75e022ae905e2e1e7ad",
+              "url": "https://tbt.gov.vn/wp-content/uploads/B%E1%BA%A3n-tin-2026-S1.1-final.pdf"
+            },
+            {
+              "source_ref": "source-fd5370309970dfc5c0867956",
+              "url": "https://tcvn.gov.vn/wp-content/uploads/2020/08/AP022020.pdf"
+            }
+          ]
+        }
+      ],
+      "next_action": "In a later authorised bounded pass, retrieve readable official originals or official alternative copies using ordinary browser access or document extraction. Read surrounding context and cited documents; search relevant national standards/procurement records. Record exact EN version, issuing body, dates, relationship and scope. Distinguish a foreign-standard listing or EU commentary from national adoption, procurement requirements or another institutional reference. Obtain isolated source-language review for translated or meaning-sensitive summaries. Preserve failures and unresolved questions.",
+      "completion_criterion": "Every queued lead has a source-supported classification with passages and provenance, or an explicit access/verification blocker and next action. Only supported explicit EN connections move to a canonical country JSON with an index pointer; preserve the exact relationship without implying national adoption. Keep unresolved leads in the shared JSON.",
+      "budget": "Apply repository limits per newly authorised run: 30 minutes total, 10 per country; deeper work may require multiple passes.",
+      "schedule": null
     }
   ],
   "regional_records": [
