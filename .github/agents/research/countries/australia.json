@@ -24,6 +24,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "ordinary browser; catalogue and history inspected"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
     }
   },
   "domains": {
@@ -169,6 +180,24 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-australia-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-84d14e4fd1f5be0b58d8d6f4",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-australia-round2-cell-3."
         }
       ],
       "questions": [
@@ -228,15 +257,23 @@
           "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
           "run_id": "adoption-round-2-2026-09-27",
           "query": "site:standards.org.au \"301 549\" \"2024\""
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "993cf1a53ec977cc31e626c9554af2070cdb5921ee55f8110e89af298a392507",
+      "public_row_sha256": "70bc2c823f9fd58ca1f6301a040dcbb431e2557de2c0d152ce9dd7558b317850",
       "public_claim_ids": [
         "adoption-australia-round2-cell-1",
         "adoption-australia-round2-cell-2",
-        "adoption-australia-round2-cell-3",
+        "adoption-australia-version-label",
         "adoption-australia-round2-cell-4"
       ],
       "public_cells": {
@@ -249,13 +286,13 @@
           "adoption-australia-round2-cell-2"
         ],
         "3": [
-          "adoption-australia-round2-cell-3"
+          "adoption-australia-version-label"
         ],
         "4": [
           "adoption-australia-round2-cell-4"
         ]
       },
-      "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -337,6 +374,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Australia"
+    },
+    {
+      "id": "adoption-version-labels-australia-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

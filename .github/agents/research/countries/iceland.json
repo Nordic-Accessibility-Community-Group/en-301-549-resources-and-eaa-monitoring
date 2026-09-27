@@ -13,6 +13,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "ordinary in-app browser; national catalogue search and full detail inspected"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
     }
   },
   "domains": {
@@ -154,6 +165,24 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-iceland-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-3e51e66932aeebafc8cbc2ed",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-iceland-deeper-cell-3."
         }
       ],
       "questions": [
@@ -263,15 +292,23 @@
           "note": "Ministry of Interior, Landsarkitektúr fyrir opinber upplýsingakerfi (2014), printed p.14/PDF p.16 section 4.2.2 lists ÍST EN 301549:2014. Historical corroboration only; no current legal-use inference.",
           "run_id": "adoption-deeper-2026-09-27",
           "url": "https://www.stjornarradid.is/media/innanrikisraduneyti-media/media/frettir-2014/landsarkitektur-fyrir-opinber-upplysingakerfi-nov2014.pdf"
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "662f718453014fe8fbc609622ceb15507cbd7002483f72f53357e25aa1030856",
+      "public_row_sha256": "5def8c046bf6d3acdf0e27fbe4fc0c824f2354e659a3a7b27b46938dadfb3288",
       "public_claim_ids": [
         "adoption-iceland-deeper-cell-1",
         "adoption-iceland-deeper-cell-2",
-        "adoption-iceland-deeper-cell-3",
+        "adoption-iceland-version-label",
         "adoption-iceland-deeper-cell-4"
       ],
       "public_cells": {
@@ -283,14 +320,14 @@
           "adoption-iceland-deeper-cell-2"
         ],
         "3": [
-          "adoption-iceland-deeper-cell-3"
+          "adoption-iceland-version-label"
         ],
         "4": [
           "adoption-iceland-deeper-cell-4"
         ],
         "5": []
       },
-      "review_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json"
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -414,6 +451,48 @@
           "record": ".github/agents/research/countries/iceland.json",
           "disposition": "not_applicable",
           "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-version-labels-iceland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }

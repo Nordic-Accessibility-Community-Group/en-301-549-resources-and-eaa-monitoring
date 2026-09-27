@@ -86,6 +86,48 @@
       "country": "Australia"
     },
     {
+      "id": "adoption-version-labels-australia-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Australia"
+    },
+    {
       "id": "belgium-inter-context",
       "country": "Belgium",
       "recorded_on": "2026-09-25",
@@ -708,6 +750,48 @@
           "record": ".github/agents/research/countries/iceland.json",
           "disposition": "not_applicable",
           "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-version-labels-iceland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }
@@ -1643,6 +1727,48 @@
       "country": "Switzerland"
     },
     {
+      "id": "adoption-version-labels-switzerland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Switzerland"
+    },
+    {
       "id": "adoption-baseline-turkey-2026-09-27",
       "destinations": [
         {
@@ -1769,6 +1895,48 @@
       "country": "Turkey"
     },
     {
+      "id": "adoption-version-labels-turkey-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/turkey.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Turkey"
+    },
+    {
       "id": "uk-gds-ehrc-monitoring-2022-2024",
       "country": "United Kingdom",
       "recorded_on": "2026-09-25",
@@ -1883,6 +2051,48 @@
           "record": ".github/agents/research/countries/united kingdom.json",
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "United Kingdom"
+    },
+    {
+      "id": "adoption-version-labels-united-kingdom-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

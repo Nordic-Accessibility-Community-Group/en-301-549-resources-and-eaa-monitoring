@@ -24,6 +24,17 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "ordinary in-app browser; national catalogue search and full detail inspected"
+    },
+    "source-324da5f74211657a212ffe66": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover identifies EN 301 549 V3.2.1 (2021-03). Establishes version and year for the EN 301 549:2021 edition cited by national sources. Does not itself establish national adoption.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web PDF reader, cover"
     }
   },
   "domains": {
@@ -138,6 +149,24 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "Deeper round: narrow national standard/reference claim. Translation date in Turkey is a translation-publication event, not initial adoption. Previous assertions retained; no full legal-use audit."
+        },
+        {
+          "id": "adoption-turkey-version-label",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Version label for the previously established EN 301 549:2021 national source edition; national identifier remains unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-2008d68b9fcc78c280ed6731",
+            "source-324da5f74211657a212ffe66"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-turkey-deeper-cell-3."
         }
       ],
       "questions": [
@@ -263,15 +292,23 @@
           "note": "Search form reachable; browser TS No contains 301549 returned six standards and one work programme. Current Turkish record inspected.",
           "run_id": "adoption-deeper-2026-09-27",
           "url": "https://intweb.tse.org.tr/Standard/Standard/StandardAra.aspx"
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "web PDF reader, cover",
+          "outcome": "reachable",
+          "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
+          "run_id": "adoption-version-labels-2026-09-27"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "1ac511ce52fbd98f8c70614e6a622ad0226ffccd2e74fa499281f2915d226ed4",
+      "public_row_sha256": "c004d4f50da124eca6803c6381bf0cb0da2300b8e8e4d5584758765cfbb4ee62",
       "public_claim_ids": [
         "adoption-turkey-deeper-cell-1",
         "adoption-turkey-deeper-cell-2",
-        "adoption-turkey-deeper-cell-3",
+        "adoption-turkey-version-label",
         "adoption-turkey-deeper-cell-4"
       ],
       "public_cells": {
@@ -283,14 +320,14 @@
           "adoption-turkey-deeper-cell-2"
         ],
         "3": [
-          "adoption-turkey-deeper-cell-3"
+          "adoption-turkey-version-label"
         ],
         "4": [
           "adoption-turkey-deeper-cell-4"
         ],
         "5": []
       },
-      "review_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json"
+      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -414,6 +451,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "This national-standard evidence establishes no new monitoring, sanctions or enforcement activity/duty.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        }
+      ],
+      "country": "Turkey"
+    },
+    {
+      "id": "adoption-version-labels-turkey-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/turkey.json",
+          "disposition": "proposed",
+          "reason": "Version-column label mapped to explicit ETSI cover version/year.",
+          "next_action": "Ordinary maintainer review; see claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
+          "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Version-label clarification establishes no change for this domain.",
           "next_action": "Reassess if later evidence establishes relevant legal duties or activity.",
           "pr": null
         }

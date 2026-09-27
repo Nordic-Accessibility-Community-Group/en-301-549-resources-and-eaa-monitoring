@@ -15,7 +15,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td>Australia</td>
     <td>Adopted (identical)</td>
     <td>Published: 2024-11-01</td>
-    <td>EN 301 549:2021</td>
+    <td>V3.2.1:2021</td>
     <td><a href="https://store.standards.org.au/product/as-en-301-549-2024">AS EN 301 549:2024</a>. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.</td>
     <td>2026-09-27</td>
   </tr>
@@ -47,7 +47,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td>Iceland</td>
     <td>Adopted</td>
     <td>Standard effective: 2021-07-15</td>
-    <td>EN 301 549:2021</td>
+    <td>V3.2.1:2021</td>
     <td><a href="https://stadlar.is/stadlabudin/vara/?ProductName=prEN-301549-2">ÍST EN 301549:2021</a>. Icelandic standard covering accessibility requirements for ICT products and services.</td>
     <td>2026-09-27</td>
   </tr>
@@ -103,7 +103,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td>Switzerland</td>
     <td>Adopted</td>
     <td>Published: 2021-08-01</td>
-    <td>EN 301 549:2021</td>
+    <td>V3.2.1:2021</td>
     <td><a href="https://connect.snv.ch/de/sn-en-301549-2021">SN EN 301549:2021</a> is listed as current by SNV and replaces SN EN 301549:2020.</td>
     <td>2026-09-27</td>
   </tr>
@@ -111,7 +111,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td>Turkey</td>
     <td>Adopted</td>
     <td>Adopted: 2021-09-30</td>
-    <td>EN 301549:2021</td>
+    <td>V3.2.1:2021</td>
     <td><a href="https://intweb.tse.org.tr/Standard/Standard/Standard.aspx?081118051115108051104119110104055048065082077055103076076056084105047051104051110076085057097102065111105120071070082088101056114104069120101121108122119122071052079098119049047051082103098108102079097083050067116086076072077108090104075078106083119048053080109048072100072080087053101108083054100057111108068054077102048088101056086052068084117049107111099043055087081086101067054115074102119089065054121068065066052075105050050081069068087097114081061061">TS EN 301549</a>. TSE lists EN 301549:2021 as its source; the Turkish translation is dated 2023-09-19.</td>
     <td>2026-09-27</td>
   </tr>
@@ -119,7 +119,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td>United Kingdom</td>
     <td>Adopted</td>
     <td>Published: 2021-06-30</td>
-    <td>EN 301 549:2021</td>
+    <td>V3.2.1:2021</td>
     <td><a href="https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2">BS EN 301 549:2021</a>. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.</td>
     <td>2026-09-27</td>
   </tr>

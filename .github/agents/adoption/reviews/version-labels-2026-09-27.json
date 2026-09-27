@@ -1,0 +1,171 @@
+{
+  "reviewer": "version_label_review (delta); prior isolated reviewers for unchanged cells",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Only Version-column label changed to V3.2.1:2021. Unchanged cells retain separately identified prior source-fidelity reviews. No new national adoption claim.",
+  "rows": {
+    "Australia": {
+      "row_sha256": "70bc2c823f9fd58ca1f6301a040dcbb431e2557de2c0d152ce9dd7558b317850",
+      "claim_ids": [
+        "adoption-australia-round2-cell-1",
+        "adoption-australia-round2-cell-2",
+        "adoption-australia-version-label",
+        "adoption-australia-round2-cell-4"
+      ],
+      "reviewed_text": [
+        "Australia",
+        "Adopted (identical)",
+        "Published: 2024-11-01",
+        "V3.2.1:2021",
+        "AS EN 301 549:2024. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.",
+        "2026-09-27"
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json",
+      "unchanged_cells": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "delta_reviewed_cells": [
+        3
+      ],
+      "limits": "Delta review covers version mapping only. Other wording is unchanged and covered by the linked prior report; no implication of a fresh full-row source review."
+    },
+    "Iceland": {
+      "row_sha256": "5def8c046bf6d3acdf0e27fbe4fc0c824f2354e659a3a7b27b46938dadfb3288",
+      "claim_ids": [
+        "adoption-iceland-deeper-cell-1",
+        "adoption-iceland-deeper-cell-2",
+        "adoption-iceland-version-label",
+        "adoption-iceland-deeper-cell-4"
+      ],
+      "reviewed_text": [
+        "Iceland",
+        "Adopted",
+        "Standard effective: 2021-07-15",
+        "V3.2.1:2021",
+        "ÍST EN 301549:2021. Icelandic standard covering accessibility requirements for ICT products and services.",
+        "2026-09-27"
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json",
+      "unchanged_cells": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "delta_reviewed_cells": [
+        3
+      ],
+      "limits": "Delta review covers version mapping only. Other wording is unchanged and covered by the linked prior report; no implication of a fresh full-row source review."
+    },
+    "Switzerland": {
+      "row_sha256": "9fec77e7d7f162db59a9e43eb89afc0b79f7258e37b3e96303b65e5fab96d852",
+      "claim_ids": [
+        "adoption-switzerland-deeper-cell-1",
+        "adoption-switzerland-deeper-cell-2",
+        "adoption-switzerland-version-label",
+        "adoption-switzerland-deeper-cell-4"
+      ],
+      "reviewed_text": [
+        "Switzerland",
+        "Adopted",
+        "Published: 2021-08-01",
+        "V3.2.1:2021",
+        "SN EN 301549:2021 is listed as current by SNV and replaces SN EN 301549:2020.",
+        "2026-09-27"
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json",
+      "unchanged_cells": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "delta_reviewed_cells": [
+        3
+      ],
+      "limits": "Delta review covers version mapping only. Other wording is unchanged and covered by the linked prior report; no implication of a fresh full-row source review."
+    },
+    "Turkey": {
+      "row_sha256": "c004d4f50da124eca6803c6381bf0cb0da2300b8e8e4d5584758765cfbb4ee62",
+      "claim_ids": [
+        "adoption-turkey-deeper-cell-1",
+        "adoption-turkey-deeper-cell-2",
+        "adoption-turkey-version-label",
+        "adoption-turkey-deeper-cell-4"
+      ],
+      "reviewed_text": [
+        "Turkey",
+        "Adopted",
+        "Adopted: 2021-09-30",
+        "V3.2.1:2021",
+        "TS EN 301549. TSE lists EN 301549:2021 as its source; the Turkish translation is dated 2023-09-19.",
+        "2026-09-27"
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/deeper-source-fidelity-2026-09-27.json",
+      "unchanged_cells": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "delta_reviewed_cells": [
+        3
+      ],
+      "limits": "Delta review covers version mapping only. Other wording is unchanged and covered by the linked prior report; no implication of a fresh full-row source review."
+    },
+    "United Kingdom": {
+      "row_sha256": "d165124afb1c5c3b416cbd3a8bb9d2c2cb9a5b958e6893a183cd4f4218dd2bcb",
+      "claim_ids": [
+        "adoption-united-kingdom-round2-cell-1",
+        "adoption-united-kingdom-round2-cell-2",
+        "adoption-united-kingdom-version-label",
+        "adoption-united-kingdom-round2-cell-4"
+      ],
+      "reviewed_text": [
+        "United Kingdom",
+        "Adopted",
+        "Published: 2021-06-30",
+        "V3.2.1:2021",
+        "BS EN 301 549:2021. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.",
+        "2026-09-27"
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json",
+      "unchanged_cells": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "delta_reviewed_cells": [
+        3
+      ],
+      "limits": "Delta review covers version mapping only. Other wording is unchanged and covered by the linked prior report; no implication of a fresh full-row source review."
+    }
+  },
+  "comparisons": [
+    {
+      "original_excerpt": "EN 301 549 V3.2.1 (2021-03)",
+      "literal_rendering": "EN 301 549, version 3.2.1, March 2021.",
+      "reviewed_text": "V3.2.1:2021",
+      "verdict": "Supported",
+      "source_urls": [
+        "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+      ],
+      "sections": "Cover",
+      "limits": "Version/year mapping only; national adoption remains supported by existing country sources."
+    }
+  ]
+}

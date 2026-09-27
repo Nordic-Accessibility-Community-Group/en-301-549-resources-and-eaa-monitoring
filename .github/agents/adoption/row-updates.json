@@ -25,7 +25,7 @@
   },
   "Australia": {
     "updated_on": "2026-09-27",
-    "reason": "Round 2: Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history."
+    "reason": "Round 2: Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Version column normalized to V3.2.1:2021 from the ETSI cover."
   },
   "Japan": {
     "updated_on": "2026-09-27",
@@ -33,7 +33,7 @@
   },
   "United Kingdom": {
     "updated_on": "2026-09-27",
-    "reason": "Round 2: Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier."
+    "reason": "Round 2: Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Version column normalized to V3.2.1:2021 from the ETSI cover."
   },
   "Norway": {
     "updated_on": "2026-09-27",
@@ -41,7 +41,7 @@
   },
   "Iceland": {
     "updated_on": "2026-09-27",
-    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
   },
   "Kenya": {
     "updated_on": "2026-09-27",
@@ -49,10 +49,10 @@
   },
   "Switzerland": {
     "updated_on": "2026-09-27",
-    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
   },
   "Turkey": {
     "updated_on": "2026-09-27",
-    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
   }
 }
