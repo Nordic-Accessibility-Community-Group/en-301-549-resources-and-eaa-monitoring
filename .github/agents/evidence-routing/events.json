@@ -44,6 +44,48 @@
       ]
     },
     {
+      "id": "world-discovery-9-2026-09-27-533",
+      "country": "Aruba",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/aruba.json",
+          "disposition": "research_only",
+          "reason": "Institutional website reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-australia-2026-09-27",
       "destinations": [
         {
@@ -369,6 +411,48 @@
           "record": ".github/agents/research/countries/belgium.json",
           "disposition": "research_only",
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-9-2026-09-27-535",
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bonaire, sint eustatius and saba.json",
+          "disposition": "research_only",
+          "reason": "Legislative explanatory-note reference; commencement and scope unresolved",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
         }
@@ -868,6 +952,48 @@
           "record": ".github/agents/research/countries/croatia.json",
           "disposition": "research_only",
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-9-2026-09-27-531",
+      "country": "Curaçao",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/curaçao.json",
+          "disposition": "research_only",
+          "reason": "Institutional website reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
         }
@@ -1471,6 +1597,48 @@
       ]
     },
     {
+      "id": "world-discovery-9-2026-09-27-312",
+      "country": "Guadeloupe",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/guadeloupe.json",
+          "disposition": "research_only",
+          "reason": "Corporate website statement; no territorial adoption finding",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "world-discovery-7-2026-09-27-340",
       "country": "Honduras",
       "destinations": [
@@ -2047,6 +2215,48 @@
         }
       ],
       "country": "Japan"
+    },
+    {
+      "id": "world-discovery-9-2026-09-27-832",
+      "country": "Jersey",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/jersey.json",
+          "disposition": "research_only",
+          "reason": "Corporate voluntary comparison; no territorial adoption finding",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
     },
     {
       "id": "world-discovery-6-2026-09-27-398",
@@ -3047,6 +3257,48 @@
           "disposition": "not_applicable",
           "reason": "No supported EAA change from this discovery.",
           "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-9-2026-09-27-534",
+      "country": "Sint Maarten (Dutch part)",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sint maarten (dutch part).json",
+          "disposition": "research_only",
+          "reason": "Netherlands representation website reference; not local governmental adoption",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
         }
       ]
@@ -4111,6 +4363,48 @@
           "disposition": "not_applicable",
           "reason": "No supported EAA change.",
           "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-9-2026-09-27-248",
+      "country": "Åland",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/åland.json",
+          "disposition": "research_only",
+          "reason": "Website-specific reference; territorial requirements unresolved",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/åland.json",
+          "disposition": "research_only",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
         }
       ]

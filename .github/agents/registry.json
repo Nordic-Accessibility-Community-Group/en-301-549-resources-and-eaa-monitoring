@@ -17,6 +17,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Aruba",
+      "slug": "aruba",
+      "group": "non-EU"
+    },
+    {
       "name": "Australia",
       "slug": "australia",
       "group": "non-EU"
@@ -40,6 +45,11 @@
       "name": "Belgium",
       "slug": "belgium",
       "group": "EU"
+    },
+    {
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "slug": "bonaire-sint-eustatius-and-saba",
+      "group": "non-EU"
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -80,6 +90,11 @@
       "name": "Croatia",
       "slug": "croatia",
       "group": "EU"
+    },
+    {
+      "name": "Curaçao",
+      "slug": "curacao",
+      "group": "non-EU"
     },
     {
       "name": "Cyprus",
@@ -142,6 +157,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Guadeloupe",
+      "slug": "guadeloupe",
+      "group": "non-EU"
+    },
+    {
       "name": "Honduras",
       "slug": "honduras",
       "group": "non-EU"
@@ -174,6 +194,11 @@
     {
       "name": "Japan",
       "slug": "japan",
+      "group": "non-EU"
+    },
+    {
+      "name": "Jersey",
+      "slug": "jersey",
       "group": "non-EU"
     },
     {
@@ -284,6 +309,11 @@
     {
       "name": "Saudi Arabia",
       "slug": "saudi arabia",
+      "group": "non-EU"
+    },
+    {
+      "name": "Sint Maarten (Dutch part)",
+      "slug": "sint-maarten-dutch-part",
       "group": "non-EU"
     },
     {
