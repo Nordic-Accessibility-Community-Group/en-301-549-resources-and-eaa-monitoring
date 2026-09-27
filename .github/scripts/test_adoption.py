@@ -20,6 +20,14 @@ class AdoptionChecks(unittest.TestCase):
         self.pool={}; self.today=date(2026,9,27)
     def tearDown(self): self.baseline_patch.stop(); self.tmp.cleanup()
     def check(self): return a.check_domain('Example',self.domain,self.pool,self.root,self.row,self.today)
+    def test_current_filename_preferred_and_legacy_fallback(self):
+        (self.root/a.PAGE).write_text('<table>'+self.row+'</table>')
+        self.assertIn('Example',a.rows(self.root))
+        current=self.root/'EN 301 549 adoption.md'
+        current.write_text('<table>'+self.row.replace('Example','Current')+'</table>')
+        self.assertEqual({'Current'},set(a.rows(self.root)))
+        (self.root/a.PAGE).unlink()
+        self.assertEqual({'Current'},set(a.rows(self.root)))
     def test_inherited_unknown_preserved(self): self.check()
     def test_new_unsupported_public_assertion_rejected(self):
         self.claim['existing_text']=None
