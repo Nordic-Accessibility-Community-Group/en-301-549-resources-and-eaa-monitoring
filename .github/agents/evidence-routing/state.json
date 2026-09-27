@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr66-sync-17893ed0",
-    "acquired_at": "2026-09-27T12:37:19.324Z",
-    "expires_at": "2026-09-27T13:07:19.324Z",
-    "delivery_ids": [
-      "17893ed0-ba70-11f1-843b-4a64230b7bc0"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -465,6 +458,16 @@
       "outcome": "existing_suggestions_partially_resolved_no_new_handoff",
       "suggestion_id": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review",
       "note": "PR #66 now consumes PR #67 head 9960381 and correctly implements Updated date with row-updates.json, six changed-row dates, blank unchanged rows and empty column-six claim mappings. PR #67 title/body/current-head review remains separately pending. Existing PR-reference normalization in #66 remains unchanged."
+    },
+    {
+      "delivery_id": "17893ed0-ba70-11f1-843b-4a64230b7bc0",
+      "event": "pull_request.synchronize",
+      "pull_request": 66,
+      "head_sha": "fdb5ec3608b5c4b7f1893ee0e0d0b6328408e9af",
+      "checked_on": "2026-09-27T12:37:47.110Z",
+      "outcome": "duplicate_existing_suggestion_no_new_handoff",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "Latest head retains the correct Updated date implementation and the previously assessed evidence scope. Six baseline proposed adoption destinations still have null PR references and the Brazil ABNT delivery still uses a full URL rather than numeric 66; no additional evidence or cross-page change was found."
     }
   ],
   "suggestions": [
@@ -529,8 +532,8 @@
       "proposed_change": "Before merge, set pr to numeric 66 on the proposed adoption destination in the Brazil, Canada, India, Mexico and New Zealand baseline deliveries and in .github/agents/adoption/european-standard.json. Also normalize the new adoption-brazil-abnt-reference-2026-09-27 destination from the full PR URL to numeric 66. Regenerate .github/agents/evidence-routing/events.json from canonical country records; the EU-wide delivery remains only in its global record. Preserve all monitoring, enforcement and sanctions dispositions.",
       "evidence": "Current PR #66 head b1a717a proposes the corresponding public adoption-page changes, but all six proposed adoption destinations have pr: null. PR #66 is the only open content PR covering these changes.",
       "limitations": "Routing metadata only. No new factual wording, country research, monitoring, enforcement or sanctions change is indicated. The EU-wide delivery is intentionally outside the country-only events projection.",
-      "updated_on": "2026-09-27T12:36:28.318Z",
-      "progress": "Head 380a8eb fixes the Updated date presentation but leaves six baseline adoption PR references null and the new Brazil ABNT delivery as a full URL instead of numeric 66."
+      "updated_on": "2026-09-27T12:37:47.110Z",
+      "progress": "Head fdb5ec3 preserves the correct Updated date implementation but leaves the recorded PR-reference normalization unchanged."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
