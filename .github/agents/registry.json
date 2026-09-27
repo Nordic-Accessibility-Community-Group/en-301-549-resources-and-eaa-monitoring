@@ -152,6 +152,11 @@
       "group": "EU"
     },
     {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "group": "non-EU"
+    },
+    {
       "name": "Malta",
       "slug": "malta",
       "group": "EU"

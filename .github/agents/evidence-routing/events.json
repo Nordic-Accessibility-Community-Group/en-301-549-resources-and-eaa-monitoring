@@ -1204,6 +1204,48 @@
       ]
     },
     {
+      "id": "world-discovery-2-2026-09-27-malaysia",
+      "country": "Malaysia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/malaysia.json",
+          "disposition": "research_only",
+          "reason": "Explicit institutional EN reference; no public row proposed.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-mexico-2026-09-27",
       "destinations": [
         {

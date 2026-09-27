@@ -1,0 +1,54 @@
+{
+  "id": "world-discovery-2-2026-09-27",
+  "started_at": "2026-09-27T14:31:04Z",
+  "research_closed_at": "2026-09-27T14:37:20Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "scope": [
+    "Singapore",
+    "Malaysia",
+    "Philippines"
+  ],
+  "selection_reason": "Next three pending Southeast Asian entries; bounded discovery, not an exhaustive regional or worldwide survey.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 231,
+  "attempts_storage": {
+    "Malaysia": ".github/agents/research/countries/malaysia.json",
+    "Singapore": ".github/agents/research/global/worldwide-index.json#m49-702",
+    "Philippines": ".github/agents/research/global/worldwide-index.json#m49-608"
+  },
+  "verification_scope": "Exact cited passages and isolated wording review. Malaysia law PDF remains unreadable lead; Singapore law requires statutory/commencement checks; Philippines amendments not audited.",
+  "process_dependency": "PR70 supplies inventory and research-only canonical-record support; process remains in that separate prerequisite PR.",
+  "public_page_changes": false,
+  "validation": {
+    "shared_country_records": "PASS:46 countries,751 claims,54 delivery events",
+    "adoption_coverage": "PASS:16 research records; public rows unchanged",
+    "adoption_tests": "27 passed",
+    "inventory": "PASS:250 unique entries,231 pending; prior entries and deferred tasks unchanged; source/claim pointers resolve",
+    "whitespace": "PASS",
+    "source_fidelity": "Four summaries Supported by isolated reviewer",
+    "markdown": "PASS:40 files"
+  },
+  "elapsed_research_minutes": 6.2667,
+  "remaining_research_minutes": 23.7333,
+  "country_windows": {
+    "Singapore": {
+      "started_at": "2026-09-27T14:31:04Z",
+      "completed_by": "2026-09-27T14:37:20Z",
+      "conservative_elapsed_minutes": 6.2667
+    },
+    "Malaysia": {
+      "started_at": "2026-09-27T14:31:04Z",
+      "completed_by": "2026-09-27T14:37:20Z",
+      "conservative_elapsed_minutes": 6.2667
+    },
+    "Philippines": {
+      "started_at": "2026-09-27T14:31:04Z",
+      "completed_by": "2026-09-27T14:37:20Z",
+      "conservative_elapsed_minutes": 6.2667
+    }
+  },
+  "notification_history": [
+    "Announced selected countries; reported institutional Malaysia distinction and law findings before PR update."
+  ]
+}

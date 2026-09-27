@@ -7,13 +7,13 @@
     "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
     "inventory_count": 250,
     "excluded_existing_adoption_countries": 13,
-    "pending_discovery_entries": 234,
+    "pending_discovery_entries": 231,
     "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
     "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
     "baseline_page": "EN 301 549 adoption.md",
     "country_law_research_performed": true,
     "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership.",
-    "researched_this_round_entries": 3
+    "researched_this_round_entries": 6
   },
   "inventory_source": {
     "issuer": "United Nations Statistics Division",
@@ -118,9 +118,9 @@
       "id": "worldwide-en-discovery-round-1",
       "status": "in_progress",
       "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
-      "next_action": "Continue with the remaining234 pending entries; preserve follow-up questions for this three-country batch.",
+      "next_action": "Continue with the remaining231 pending entries; preserve follow-up questions from both batches.",
       "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research.",
-      "last_run": "world-discovery-1-2026-09-27"
+      "last_run": "world-discovery-2-2026-09-27"
     },
     {
       "id": "global-legal-mapping-existing-adoption-countries",
@@ -3670,22 +3670,20 @@
       "iso_alpha3": "MYS",
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/malaysia.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_connection_supported",
+        "country_record": ".github/agents/research/countries/malaysia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-malaysia-konelayan-reference"
+        ],
+        "relationship": "institutional website statement reference",
+        "scope_note": "Not evidence of national adoption; no public row proposed."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-462",
@@ -4650,21 +4648,180 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:gov.ph \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:dict.gov.ph \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:ncda.gov.ph \"301 549\" OR \"301549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Posted legislation located.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:ncda.gov.ph \"7277\" \"Discrimination\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Posted legislation and2024 implementing-rules lead located.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:ncda.gov.ph \"344\" accessibility law"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Section32 read.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "url": "https://ncda.gov.ph/disability-laws/republic-acts/republic-act-7277/"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Section1 read.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "url": "https://ncda.gov.ph/disability-laws/batas-pambansa/batas-pambansa-blg-344/"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search discovery only",
+            "outcome": "deferred",
+            "note": "Not opened; retained for next legal-mapping pass.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "url": "https://ncda.gov.ph/revised-2024-rules-and-regulations-implementing-batas-pambansa-344/"
+          }
+        ],
+        "sources": {
+          "source-71c3fe1305b5114c3fc19e53": {
+            "issuer": "Philippines National Council on Disability Affairs",
+            "url": "https://ncda.gov.ph/disability-laws/republic-acts/republic-act-7277/",
+            "source_type": "official_law",
+            "language": "en",
+            "passage": "Posted Republic Act7277 section32: disability discrimination against qualified persons in public/private employment prohibited. Later amendments and consolidation not audited.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-e4e8833f6bee537dfcc11d07": {
+            "issuer": "Philippines National Council on Disability Affairs",
+            "url": "https://ncda.gov.ph/disability-laws/batas-pambansa/batas-pambansa-blg-344/",
+            "source_type": "official_law",
+            "language": "en",
+            "passage": "Posted BP344 section1: permits for covered public-use construction/repair/renovation conditional on mobility-accessibility features. Later implementing rules not audited.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-477bb71475bbf04461d9ac54": {
+            "issuer": "Philippines National Council on Disability Affairs",
+            "url": "https://ncda.gov.ph/revised-2024-rules-and-regulations-implementing-batas-pambansa-344/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Search lead: revised2024 implementing rules for BP344. Page not opened; no substantive provisions verified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search discovery only"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-2-2026-09-27-608-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only; not a non-adoption assertion."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "philippines-ra7277-section32",
+            "official_title": "Republic Act No.7277 (Magna Carta for Disabled Persons)",
+            "jurisdiction": "Philippines",
+            "law_type": "discrimination",
+            "status": "verified",
+            "legal_status": "Posted statutory provision retrieved; current full consolidation and commencement not audited.",
+            "scope": "Section 32 of Republic Act No. 7277 prohibits public and private entities from discriminating against qualified persons with disabilities in employment because of disability.",
+            "relevant_provisions": [
+              "section32"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-71c3fe1305b5114c3fc19e53"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": "2026-09-27",
+            "limitations": "Verification limited to cited text; no complete current-law or applicability audit.",
+            "next_action": "Check current statutory text, amendments, implementing rules, scope and commencement before public legal mapping."
+          },
+          {
+            "id": "philippines-bp344-section1",
+            "official_title": "Batas Pambansa Blg.344 (Accessibility Law)",
+            "jurisdiction": "Philippines",
+            "law_type": "accessibility",
+            "status": "verified",
+            "legal_status": "Posted statutory provision retrieved; current full consolidation and commencement not audited.",
+            "scope": "Section 1 of Batas Pambansa Blg. 344 ties permits for construction, repair or renovation of covered public-use buildings and facilities to mobility-related accessibility features. This is built-environment legislation, not an EN 301 549 adoption finding.",
+            "relevant_provisions": [
+              "section1"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-e4e8833f6bee537dfcc11d07"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": "2026-09-27",
+            "limitations": "Verification limited to cited text; no complete current-law or applicability audit.",
+            "next_action": "Check current statutory text, amendments, implementing rules, scope and commencement before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Continue EN discovery using official standards/procurement and local-language sources; do not repeat exhausted identical searches in this run.",
+          "Review statutory currentness, commencement, scope and implementing rules before global legal-page publication.",
+          "Routing: research-only intake; no EAA monitoring, sanctions or enforcement change established.",
+          "Inspect revised2024 BP344 implementing rules lead source-477bb71475bbf04461d9ac54; not read in this run."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "partial_research"
     },
     {
       "id": "m49-612",
@@ -5325,21 +5482,152 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:gov.sg \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:tech.gov.sg \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN result; search outcome is not proof of absence.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:imda.gov.sg \"301 549\" OR \"301549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable guidance result.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:developer.tech.gov.sg accessibility digital service standards WCAG"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable guidance result.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:designsystem.tech.gov.sg accessibility WCAG"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government answers located.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "query": "site:mom.gov.sg \"Workplace Fairness Act\" disability 2027"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Paragraph7 read.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0227-written-answer-to-pq-on-making-workplaces-happier"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Paragraph3 read.",
+            "run_id": "world-discovery-2-2026-09-27",
+            "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0909-written-answer-to-pq-on-effectiveness-of-wcn-and-protection-against-workplace-discrimination"
+          }
+        ],
+        "sources": {
+          "source-bc2c9a20108be3c77f93634e": {
+            "issuer": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0227-written-answer-to-pq-on-making-workplaces-happier",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Paragraph7 identifies disability/mental-health conditions and reports planned end-2027 implementation; statutory text and commencement instrument not checked.",
+            "publication_date": "2026-02-27",
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-5c7dd26df58403085ac115db": {
+            "issuer": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0909-written-answer-to-pq-on-effectiveness-of-wcn-and-protection-against-workplace-discrimination",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Paragraph3 describes Workplace Fairness Act coming into force in2027. Prospective government statement, not proof of current commencement.",
+            "publication_date": "2026-09-09",
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-2-2026-09-27-702-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only; not a non-adoption assertion."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "singapore-workplace-fairness-lead",
+            "official_title": "Workplace Fairness Act",
+            "jurisdiction": "Singapore",
+            "law_type": "discrimination",
+            "status": "lead",
+            "legal_status": "Government implementation statements retrieved; statutory text and commencement instrument not checked.",
+            "scope": "Singapore’s Ministry of Manpower identifies disability and mental-health conditions among the Workplace Fairness Act’s protected characteristics and reports implementation planned for end-2027. Its 9 September 2026 answer also describes the Act as coming into force in 2027. These government statements are leads for statutory and commencement checks, not evidence that the Act is already in force.",
+            "relevant_provisions": [],
+            "event_dates": [
+              {
+                "kind": "planned_implementation_year",
+                "value": "2027"
+              }
+            ],
+            "source_refs": [
+              "source-bc2c9a20108be3c77f93634e",
+              "source-5c7dd26df58403085ac115db"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Verification limited to cited text; no complete current-law or applicability audit.",
+            "next_action": "Check current statutory text, amendments, implementing rules, scope and commencement before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Continue EN discovery using official standards/procurement and local-language sources; do not repeat exhausted identical searches in this run.",
+          "Review statutory currentness, commencement, scope and implementing rules before global legal-page publication.",
+          "Routing: research-only intake; no EAA monitoring, sanctions or enforcement change established."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-534",
