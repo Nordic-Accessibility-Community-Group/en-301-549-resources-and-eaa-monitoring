@@ -1,6 +1,17 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr66-67-final-43e1-6430",
+    "acquired_at": "2026-09-27T12:40:22.242Z",
+    "expires_at": "2026-09-27T13:10:22.242Z",
+    "delivery_ids": [
+      "43e1efe0-ba70-11f1-9f74-a5eb7abcbb9e",
+      "46d3b8a0-ba70-11f1-8e41-e0742a6cf0ef",
+      "479cadf0-ba70-11f1-93d7-f32cbaa88123",
+      "60e8a980-ba70-11f1-8d22-588b870494c0",
+      "6430a890-ba70-11f1-899c-3c9a2d99af4d"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
