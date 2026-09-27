@@ -2,7 +2,7 @@
 
 ## Scope and version
 
-New strategy paragraph in Germany's existing monitoring row only. Row SHA-256: `a9ca02136b5d4796979ac2e00cc4b3cd53eea36f1b4e1df30836748b5def3979`. Existing June monitoring paragraph, unrelated overlay row and all other countries are unchanged and not newly verified. Monitoring and sanctions public pages are unchanged. Germany research and generated routing index retain cross-page follow-ups.
+New strategy paragraph in Germany's existing monitoring row only. Row SHA-256: `c3a3bc5e2d930d0fbf4a817be37c72e8622436e49c1b87442f5ae2785cdb29f4`. Existing June monitoring paragraph, unrelated overlay row and all other countries are unchanged and not newly verified. Monitoring and sanctions public pages are unchanged. Germany research and generated routing index retain cross-page follow-ups.
 
 Exact new wording:
 
@@ -35,3 +35,15 @@ The supplied LinkedIn share URL failed direct retrieval; an indexed matching pos
 ## Checks and PR review
 
 Shared country/schema/reference/routing and domain checks passed: 44 jurisdictions, 753 claims, 53 delivery events. All 26 enforcement regression tests passed. Verification-date check reports no markers; whitespace check passed. Final independent actual-head PR review is recorded below after publication. Human maintainer approval is required.
+
+## Recorded original excerpts and literal renderings
+
+The source-fidelity reviewer supplied these original passages and renderings; references above provide surrounding context. All final sentences were Supported.
+
+- Announcement: “am 29. Januar 2026 durch den Verwaltungsrat beschlossen” — “adopted on 29 January 2026 by the administrative board”. Institutional attribution to MLBF preserves this meaning.
+- Both strategies, section 3.X.2: “aktiven (anlassunabhängigen) und reaktiven (anlassabhängigen)” — “active (independent of a specific trigger) and reactive (dependent on a specific trigger)”. Surrounding paragraphs describe systematic checks, risk factors, external information and application processing.
+- Both strategies, section 3.X.2.5: “Anträge gemäß §32 BFSG” — “applications under section 32 BFSG”. The following definition concerns applications to initiate market-surveillance measures by consumers or recognised associations; requests for action is the reviewed plain-language rendering.
+- Service strategy, section 3.X.2.1: “insbesondere bei webbasierten Dienstleistungen auf automatisierte Vorprüfungen” — “especially for web-based services, [it relies] on automated preliminary checks”. Initial automated checks preserves this scope.
+- Both strategies, section 3.X.4 heading: “Mindestkontrollniveau, Durchsetzungsaktivitäten” — “minimum level of checks, enforcement activities”. Full-document inspection found general measures and fine provisions, without an individual penalty decision or named sanctioned party.
+
+Evidence-object provenance notes describe the earlier research-intake stage and remain unchanged. The independent publication wording reviews subsequently completed on 27 September are recorded here; earlier provenance is not a current claim that those reviews remain undone.

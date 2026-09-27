@@ -718,8 +718,8 @@
           "domain": "enforcement",
           "disposition": "proposed",
           "reason": "Existing monitoring entry omits strategy adoption and methods.",
-          "next_action": "Review proposed strategy paragraph in the draft PR.",
-          "pr": null
+          "next_action": "Maintainer review of draft PR #72; preserve sanctions follow-up.",
+          "pr": 72
         },
         {
           "page": "monitoring-agencies-information.md",
