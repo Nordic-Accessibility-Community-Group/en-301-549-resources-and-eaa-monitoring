@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr65-ready-73216a00",
-    "acquired_at": "2026-09-27T12:11:34.150Z",
-    "expires_at": "2026-09-27T12:41:34.150Z",
-    "delivery_ids": [
-      "73216a00-ba6c-11f1-8f0f-c94e9ba4f131"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -395,6 +388,16 @@
       "outcome": "new_actionable_routing_metadata",
       "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
       "note": "PR #66 correctly limits the new evidence to adoption, but the six proposed adoption destinations in Brazil, Canada, India, Mexico, New Zealand and the EU-wide record have null PR references even though #66 is the covering draft. Other destination dispositions are supported and no additional public-page handoff was found."
+    },
+    {
+      "delivery_id": "73216a00-ba6c-11f1-8f0f-c94e9ba4f131",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 65,
+      "head_sha": "c75a28059ead57a3e6e363649d804ff05f2b8aa2",
+      "checked_on": "2026-09-27T12:12:20.724Z",
+      "outcome": "actual_state_merged_process_only_unblocks_pr66",
+      "suggestion_id": "pr65-merged|pr66|retarget-main",
+      "note": "PR #65 is already merged and remains process-only. Open draft PR #66 still targets codex/en301549-adoption-workflow at the merged #65 head, so its documented post-merge refresh and retarget step is now actionable."
     }
   ],
   "suggestions": [
@@ -458,7 +461,20 @@
       "covering_pr": 66,
       "proposed_change": "Before merge, set pr to 66 on the proposed adoption destination in the Brazil, Canada, India, Mexico and New Zealand canonical country deliveries and in .github/agents/adoption/european-standard.json. Regenerate .github/agents/evidence-routing/events.json from the canonical country records; the EU-wide delivery remains only in its global record. Keep the destinations proposed until merge and preserve all monitoring, enforcement and sanctions dispositions.",
       "evidence": "Current PR #66 head b1a717a proposes the corresponding public adoption-page changes, but all six proposed adoption destinations have pr: null. PR #66 is the only open content PR covering these changes.",
-      "limitations": "Routing metadata only. No new factual wording, country research, monitoring, enforcement or sanctions change is indicated. The EU-wide delivery is intentionally outside the country-only events projection."
+      "limitations": "Routing metadata only. No new factual wording, country research, monitoring, enforcement or sanctions change is indicated. The EU-wide delivery is intentionally outside the country-only events projection.",
+      "updated_on": "2026-09-27T12:12:20.724Z",
+      "progress": "PR #65 has merged. PR #66 remains the covering content draft; apply the PR-reference correction while refreshing and retargeting #66 to main."
+    },
+    {
+      "id": "pr65-merged|pr66|retarget-main",
+      "country": "Cross-project adoption baseline",
+      "target": "Open PR #66 base branch and validation state",
+      "created_on": "2026-09-27T12:12:20.724Z",
+      "status": "open_pr_update_required",
+      "covering_pr": 66,
+      "proposed_change": "Refresh PR #66 on merged main and retarget it from codex/en301549-adoption-workflow to main before final review. Confirm that its diff contains only the adoption baseline/content work, rerun its documented validations, and retain the separately recorded correction that proposed adoption destinations must reference PR #66.",
+      "evidence": "PR #65 is merged into main at head c75a28059ead57a3e6e363649d804ff05f2b8aa2. PR #66 remains open and draft with base codex/en301549-adoption-workflow at that same SHA; its own description requires refresh and retarget after #65 merges.",
+      "limitations": "Dependency/branch hygiene only. PR #65 adds no evidence or public claims, and this does not alter the factual assessment or other-page dispositions in PR #66."
     }
   ]
 }
