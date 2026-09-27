@@ -7,13 +7,13 @@
     "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
     "inventory_count": 250,
     "excluded_existing_adoption_countries": 13,
-    "pending_discovery_entries": 98,
+    "pending_discovery_entries": 48,
     "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
     "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
     "baseline_page": "EN 301 549 adoption.md",
     "country_law_research_performed": true,
     "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership.",
-    "researched_this_round_entries": 139
+    "researched_this_round_entries": 189
   },
   "inventory_source": {
     "issuer": "United Nations Statistics Division",
@@ -118,9 +118,9 @@
       "id": "worldwide-en-discovery-round-1",
       "status": "in_progress",
       "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
-      "next_action": "Continue with 98 pending entries; preserve all seven batches and deferred EN/legal work.",
+      "next_action": "Continue48 pending entries; preserve eight batches and deferred EN/legal mapping.",
       "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research.",
-      "last_run": "world-discovery-7-2026-09-27"
+      "last_run": "world-discovery-8-2026-09-27"
     },
     {
       "id": "global-legal-mapping-existing-adoption-countries",
@@ -159,7 +159,17 @@
         "m49-768",
         "m49-180",
         "m49-174",
-        "m49-512"
+        "m49-512",
+        "m49-008",
+        "m49-196",
+        "m49-440",
+        "m49-470",
+        "m49-807",
+        "m49-620",
+        "m49-642",
+        "m49-688",
+        "m49-344",
+        "m49-234"
       ],
       "purpose": "Resolve unverified EN 301 549 references through deeper primary-source research, preserving the recorded scope and access limitations of every lead.",
       "scope": "Recorded unverified EN reference leads; extend this task with further leads found in later discovery batches.",
@@ -305,6 +315,136 @@
               "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/6196/6484/15199"
             }
           ]
+        },
+        {
+          "country_id": "m49-008",
+          "country": "Albania",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-008-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-2933dfee57905663b6a0cdaa",
+              "url": "https://dps.gov.al/en/project/show/dps%3Aproj%3A66087"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-196",
+          "country": "Cyprus",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-196-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-af6a20723de004246da301bf",
+              "url": "https://cyprus.representation.ec.europa.eu/accessibility_en?prefLang=ga"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-440",
+          "country": "Lithuania",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-440-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-600a5429f362b9bd75a75087",
+              "url": "https://www.e-tar.lt/rs/actualedition/TAR.3FB3953EFFDC/RhXljJcduS/format/ISO_PDF/"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-470",
+          "country": "Malta",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-470-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-c4c9b18d26ed7a471ed348a3",
+              "url": "https://finance.gov.mt/accessibility/"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-807",
+          "country": "North Macedonia",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-807-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-75ca86bd318ab3fd4b51eda7",
+              "url": "https://isrsm.gov.mk/sq/download/file/page-section/57"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-620",
+          "country": "Portugal",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-620-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-3ccb533aac38a0ce70e8edd9",
+              "url": "https://www.acessibilidade.gov.pt/blogue/categoria-acessibilidade/3passos-declaracao/"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-642",
+          "country": "Romania",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-642-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-b1dfffe1360b27066ad2fd70",
+              "url": "https://legislatie.just.ro/public/DetaliiDocument/263193"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-688",
+          "country": "Serbia",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-688-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-194574d5636c707d5769d971",
+              "url": "https://iss.rs/sr_Cyrl/project/show/iss%3Aproj%3A69414"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-344",
+          "country": "China, Hong Kong Special Administrative Region",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-344-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-1f1a992c76337bf378ab978f",
+              "url": "https://www.sgs.com/en-hk/services/european-accessibility-act-eaa-services"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-234",
+          "country": "Faroe Islands",
+          "finding_ids": [
+            "world-discovery-8-2026-09-27-234-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-4754af1f54a8bbbce1e246ac",
+              "url": "https://gjaldstovan.fo/Gjaldstovan/media/2497/faa-mest-ud-af-microsoft-365-nilu-safar-technical-solution-specialist-microsoft.pdf"
+            }
+          ]
         }
       ],
       "next_action": "In a later authorised bounded pass, retrieve readable official originals or official alternative copies using ordinary browser access or document extraction. Read surrounding context and cited documents; search relevant national standards/procurement records. Record exact EN version, issuing body, dates, relationship and scope. Distinguish a foreign-standard listing or EU commentary from national adoption, procurement requirements or another institutional reference. Obtain isolated source-language review for translated or meaning-sensitive summaries. Preserve failures and unresolved questions.",
@@ -439,21 +579,95 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:dps.gov.al \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:dps.gov.al \"SSH EN 301 549 V3.2.1:2021\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Albania law inclusion accessibility persons disabilities 93 2014 official"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:qbz.gov.al \"93/2014\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Catalogue search lead SSH EN301549V3.2.1:2021; two failed retrievals, metadata not verified.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://dps.gov.al/en/project/show/dps%3Aproj%3A66087"
+          }
+        ],
+        "sources": {
+          "source-2933dfee57905663b6a0cdaa": {
+            "issuer": "DPS",
+            "url": "https://dps.gov.al/en/project/show/dps%3Aproj%3A66087",
+            "source_type": "other_unverified",
+            "language": "sq/en",
+            "passage": "Catalogue search lead SSH EN301549V3.2.1:2021; two failed retrievals, metadata not verified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-008-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-2933dfee57905663b6a0cdaa"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-012",
@@ -605,21 +819,112 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Andorra \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:govern.ad \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Andorra accessibilitat llei 27 2017 discapacitat"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:govern.ad \"accessibilitat\" \"2025\" llei"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Read law27/2017; government catalogue also identifies Llei24/2025: https://www.govern.ad/es/tematiques/habitatge/normativa . Current consolidated requirements unresolved.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://portaljuridicandorra.ad/L2017027_0"
+          }
+        ],
+        "sources": {
+          "source-d60fb2f0d295aa995d859507": {
+            "issuer": "Andorra legal portal",
+            "url": "https://portaljuridicandorra.ad/L2017027_0",
+            "source_type": "official_government",
+            "language": "ca",
+            "passage": "Read law27/2017; government catalogue also identifies Llei24/2025: https://www.govern.ad/es/tematiques/habitatge/normativa . Current consolidated requirements unresolved.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-020-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-020-law",
+            "official_title": "Llei 27/2017; newer universal-accessibility law catalogue lead",
+            "jurisdiction": "Andorra",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-d60fb2f0d295aa995d859507"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Read law27/2017; government catalogue also identifies Llei24/2025: https://www.govern.ad/es/tematiques/habitatge/normativa . Current consolidated requirements unresolved.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-d60fb2f0d295aa995d859507: Llei 27/2017; newer universal-accessibility law catalogue lead. Read law27/2017; government catalogue also identifies Llei24/2025: https://www.govern.ad/es/tematiques/habitatge/normativa . Current consolidated requirements unresolved."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-024",
@@ -1135,21 +1440,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/austria.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/austria.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-austria-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-031",
@@ -1558,21 +1861,81 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Belarus \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Беларусь\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Беларусь закон права инвалидов 2022 183 З"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:pravo.by \"183-З\" \"инвалидов\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:mintrud.gov.by \"183-З\""
+          }
+        ],
         "sources": {},
-        "en_findings": [],
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-112-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-056",
@@ -1583,21 +1946,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/belgium.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/belgium.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-belgium-discovery-reference"
+        ],
+        "relationship": "website reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-084",
@@ -2112,22 +2473,20 @@
       "iso_alpha3": "BIH",
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/bosnia and herzegovina.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/bosnia and herzegovina.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-bosnia-and-herzegovina-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-072",
@@ -2454,21 +2813,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/bulgaria.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/bulgaria.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-bulgaria-discovery-reference"
+        ],
+        "relationship": "website reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-854",
@@ -3370,21 +3727,125 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Hong Kong \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.hk \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:elegislation.gov.hk cap 487 disability"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search metadata only",
+            "outcome": "unknown",
+            "note": "Historical verified-legislation list search lead; retrieve current ordinance.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.elegislation.gov.hk/verifiedlist?_lang=en&dt=20200402102000000000"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Generic export-market testing-service marketing on Hong Kong locale page; no domestic adoption or procurement connection established.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.sgs.com/en-hk/services/european-accessibility-act-eaa-services"
+          }
+        ],
+        "sources": {
+          "source-2c5ce319a6ef29ca0a611a27": {
+            "issuer": "Hong Kong e-Legislation",
+            "url": "https://www.elegislation.gov.hk/verifiedlist?_lang=en&dt=20200402102000000000",
+            "source_type": "official_government",
+            "language": "en/zh",
+            "passage": "Historical verified-legislation list search lead; retrieve current ordinance.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search metadata only"
+          },
+          "source-1f1a992c76337bf378ab978f": {
+            "issuer": "SGS",
+            "url": "https://www.sgs.com/en-hk/services/european-accessibility-act-eaa-services",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Generic export-market testing-service marketing on Hong Kong locale page; no domestic adoption or procurement connection established.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-344-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-1f1a992c76337bf378ab978f"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-344-law",
+            "official_title": "Disability Discrimination Ordinance, Cap487",
+            "jurisdiction": "China, Hong Kong Special Administrative Region",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-2c5ce319a6ef29ca0a611a27"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Historical verified-legislation list search lead; retrieve current ordinance.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-2c5ce319a6ef29ca0a611a27: Disability Discrimination Ordinance, Cap487. Historical verified-legislation list search lead; retrieve current ordinance."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-446",
@@ -3395,21 +3856,104 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Macao \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.mo \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:bo.io.gov.mo 9/83 barreiras"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Reader failed; architectural-barrier law metadata only; current status unresolved.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://bo.io.gov.mo/bo/i/83/40/lei09.asp"
+          }
+        ],
+        "sources": {
+          "source-d25abe888c7ba02af75903d4": {
+            "issuer": "Macao Official Gazette",
+            "url": "https://bo.io.gov.mo/bo/i/83/40/lei09.asp",
+            "source_type": "official_government",
+            "language": "pt",
+            "passage": "Reader failed; architectural-barrier law metadata only; current status unresolved.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-446-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-446-law",
+            "official_title": "Lei9/83/M",
+            "jurisdiction": "China, Macao Special Administrative Region",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-d25abe888c7ba02af75903d4"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Reader failed; architectural-barrier law metadata only; current status unresolved.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-d25abe888c7ba02af75903d4: Lei9/83/M. Reader failed; architectural-barrier law metadata only; current status unresolved."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-162",
@@ -3886,21 +4430,104 @@
       "inventory_basis": "UN M49 main list",
       "region": "Oceania",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Cook Islands \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.ck \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.ck disability act 2008"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Official complaint guidance; obtain complete current Act.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://ombudsman.gov.ck/complaints/disability-act-2008/"
+          }
+        ],
+        "sources": {
+          "source-050ee18ac760f95b08565e92": {
+            "issuer": "Cook Islands Ombudsman",
+            "url": "https://ombudsman.gov.ck/complaints/disability-act-2008/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Official complaint guidance; obtain complete current Act.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-184-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-184-law",
+            "official_title": "Disability Act2008",
+            "jurisdiction": "Cook Islands",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-050ee18ac760f95b08565e92"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Official complaint guidance; obtain complete current Act.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-050ee18ac760f95b08565e92: Disability Act2008. Official complaint guidance; obtain complete current Act."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-188",
@@ -3934,21 +4561,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/croatia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/croatia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-croatia-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-192",
@@ -4069,21 +4694,149 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": ".github/agents/research/countries/cyprus.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:cys.org.cy \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Cyprus\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.cy \"EN 301\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:cylaw.org 127 2000 αναπηρίες"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.cy \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:cylaw.org \"127(I)/2000\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search metadata only",
+            "outcome": "unknown",
+            "note": "Search metadata only; current text not read.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://cylaw.org/nomoi/enop/non-ind/2000_1_127/"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "EU representation website lead, not national standard adoption; one failed retrieval.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://cyprus.representation.ec.europa.eu/accessibility_en?prefLang=ga"
+          }
+        ],
+        "sources": {
+          "source-ffaadc2229ad7a9995e4b1eb": {
+            "issuer": "CyLaw",
+            "url": "https://cylaw.org/nomoi/enop/non-ind/2000_1_127/",
+            "source_type": "official_government",
+            "language": "el",
+            "passage": "Search metadata only; current text not read.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search metadata only"
+          },
+          "source-af6a20723de004246da301bf": {
+            "issuer": "European Commission representation",
+            "url": "https://cyprus.representation.ec.europa.eu/accessibility_en?prefLang=ga",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "EU representation website lead, not national standard adoption; one failed retrieval.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-196-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-af6a20723de004246da301bf"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-196-law",
+            "official_title": "Ο Περί Ατόμων με Αναπηρίες Νόμος του 2000 (127(I)/2000)",
+            "jurisdiction": "Cyprus",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-ffaadc2229ad7a9995e4b1eb"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search metadata only; current text not read.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-ffaadc2229ad7a9995e4b1eb: Ο Περί Ατόμων με Αναπηρίες Νόμος του 2000 (127(I)/2000). Search metadata only; current text not read."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-203",
@@ -4094,21 +4847,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/czechia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/czechia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-czechia-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-384",
@@ -4235,21 +4986,104 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "North Korea \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"조선\" \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:ohchr.org DPRK rights persons disabilities law"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "International mission report; primary national law text and current status unresolved.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://seoul.ohchr.org/en/node/195"
+          }
+        ],
+        "sources": {
+          "source-c493ebba359a70ddf13a1b74": {
+            "issuer": "OHCHR Special Rapporteur",
+            "url": "https://seoul.ohchr.org/en/node/195",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "International mission report; primary national law text and current status unresolved.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-408-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-408-law",
+            "official_title": "Law on Protection of Persons with Disabilities (report lead)",
+            "jurisdiction": "Democratic People's Republic of Korea",
+            "law_type": "policy/report lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-c493ebba359a70ddf13a1b74"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "International mission report; primary national law text and current status unresolved.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-c493ebba359a70ddf13a1b74: Law on Protection of Persons with Disabilities (report lead). International mission report; primary national law text and current status unresolved."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-180",
@@ -4397,21 +5231,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/denmark.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/denmark.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-denmark-discovery-reference"
+        ],
+        "relationship": "standards access guidance",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-262",
@@ -5332,21 +6164,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/estonia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/estonia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-estonia-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-748",
@@ -5613,21 +6443,125 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/faroe islands.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Faroe Islands \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:fo \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:logir.fo breki mismuni"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Title/header dates differ; no exact date or legal-effect claim recorded.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://logir.fo/Logtingslog/63-fra-26-06-2011-fra-at-banna-mismuni-a-arbeidsmarknadinum-orsakad-av-breki"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search metadata only",
+            "outcome": "unknown",
+            "note": "Search snippet lists foreign regulatory examples; local relationship unresolved and no full read completed.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://gjaldstovan.fo/Gjaldstovan/media/2497/faa-mest-ud-af-microsoft-365-nilu-safar-technical-solution-specialist-microsoft.pdf"
+          }
+        ],
+        "sources": {
+          "source-5b9320aadfc407de76209b84": {
+            "issuer": "Lógasavn",
+            "url": "https://logir.fo/Logtingslog/63-fra-26-06-2011-fra-at-banna-mismuni-a-arbeidsmarknadinum-orsakad-av-breki",
+            "source_type": "official_government",
+            "language": "fo",
+            "passage": "Title/header dates differ; no exact date or legal-effect claim recorded.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-4754af1f54a8bbbce1e246ac": {
+            "issuer": "Gjaldstovan-hosted Microsoft presentation",
+            "url": "https://gjaldstovan.fo/Gjaldstovan/media/2497/faa-mest-ud-af-microsoft-365-nilu-safar-technical-solution-specialist-microsoft.pdf",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Search snippet lists foreign regulatory examples; local relationship unresolved and no full read completed.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search metadata only"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-234-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-4754af1f54a8bbbce1e246ac"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-234-law",
+            "official_title": "Løgtingslóg63/2011 um at banna mismuni á arbeiðsmarknaðinum orsakað av breki",
+            "jurisdiction": "Faroe Islands",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-5b9320aadfc407de76209b84"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Title/header dates differ; no exact date or legal-effect claim recorded.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-5b9320aadfc407de76209b84: Løgtingslóg63/2011 um at banna mismuni á arbeiðsmarknaðinum orsakað av breki. Title/header dates differ; no exact date or legal-effect claim recorded."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-242",
@@ -5753,21 +6687,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/finland.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/finland.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-finland-discovery-reference"
+        ],
+        "relationship": "government guidance reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-250",
@@ -5778,21 +6710,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/france.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/france.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-france-discovery-reference"
+        ],
+        "relationship": "guidance reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-254",
@@ -6202,21 +7132,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/germany.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/germany.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-germany-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-288",
@@ -6275,21 +7203,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/greece.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/greece.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-greece-discovery-reference"
+        ],
+        "relationship": "standards-body presentation reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-304",
@@ -7102,21 +8028,73 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Vatican \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:vatican.va \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:vaticanstate.va disabilità legge"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:vatican.va \"disabilities\" \"law\""
+          }
+        ],
         "sources": {},
-        "en_findings": [],
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-336-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-340",
@@ -7150,21 +8128,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/hungary.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/hungary.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-hungary-discovery-reference"
+        ],
+        "relationship": "translation publication reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-352",
@@ -7574,21 +8550,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/ireland.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/ireland.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-ireland-discovery-reference"
+        ],
+        "relationship": "guidance reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-833",
@@ -7802,21 +8776,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/italy.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/italy.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-italy-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-388",
@@ -8250,21 +9222,120 @@
       "inventory_basis": "Supplementary research entry; code documented in UN M49 Q&A",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Kosovo \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Kosovo\" \"301549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:rks-gov.net \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gzk.rks-gov.net 05/L-021 discrimination"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Kosovo\" \"Law No. 05/L-021\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search metadata only",
+            "outcome": "unknown",
+            "note": "Search metadata only; consolidated law not checked.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=10924&langid=2"
+          }
+        ],
+        "sources": {
+          "source-86b338e78a3b6018d9dc2826": {
+            "issuer": "Kosovo Official Gazette",
+            "url": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=10924&langid=2",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Search metadata only; consolidated law not checked.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search metadata only"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-412-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-412-law",
+            "official_title": "Law05/L-021 on Protection from Discrimination",
+            "jurisdiction": "Kosovo",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-86b338e78a3b6018d9dc2826"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search metadata only; consolidated law not checked.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-86b338e78a3b6018d9dc2826: Law05/L-021 on Protection from Discrimination. Search metadata only; consolidated law not checked."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-414",
@@ -8505,21 +9576,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/latvia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/latvia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-latvia-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-422",
@@ -8984,21 +10053,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/liechtenstein.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/liechtenstein.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-liechtenstein-discovery-reference"
+        ],
+        "relationship": "website reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-440",
@@ -9009,21 +10076,133 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/lithuania.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:lsd.lrv.lt \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"LST EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:e-seimas.lrs.lt equal opportunities law disability"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Lithuania\" \"Law on Equal Treatment\" official"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search metadata only",
+            "outcome": "unknown",
+            "note": "Official guidance search lead; underlying law not read.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://vdi.lrv.lt/en/equal-opportunities/"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Search indicates EN reference; two failed PDF reads prevent passage verification.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.e-tar.lt/rs/actualedition/TAR.3FB3953EFFDC/RhXljJcduS/format/ISO_PDF/"
+          }
+        ],
+        "sources": {
+          "source-c3bd5fd26453fdeb9f57b934": {
+            "issuer": "State Labour Inspectorate",
+            "url": "https://vdi.lrv.lt/en/equal-opportunities/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Official guidance search lead; underlying law not read.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search metadata only"
+          },
+          "source-600a5429f362b9bd75a75087": {
+            "issuer": "Lithuanian legal portal",
+            "url": "https://www.e-tar.lt/rs/actualedition/TAR.3FB3953EFFDC/RhXljJcduS/format/ISO_PDF/",
+            "source_type": "other_unverified",
+            "language": "lt",
+            "passage": "Search indicates EN reference; two failed PDF reads prevent passage verification.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-440-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-600a5429f362b9bd75a75087"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-440-law",
+            "official_title": "Law on Equal Treatment",
+            "jurisdiction": "Lithuania",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-c3bd5fd26453fdeb9f57b934"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Official guidance search lead; underlying law not read.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-c3bd5fd26453fdeb9f57b934: Law on Equal Treatment. Official guidance search lead; underlying law not read."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-442",
@@ -9034,21 +10213,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/luxembourg.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/luxembourg.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-luxembourg-discovery-reference"
+        ],
+        "relationship": "website reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-450",
@@ -9537,21 +10714,125 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/malta.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:mccaa.org.mt \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.mt \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:legislation.mt Equal Opportunities Persons Disability 413"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "PDF source; version and amendments require checking.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://legislation.mt/getpdf/607803f4df724c17c8861adb"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Website statement EN search lead; two failed reads.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://finance.gov.mt/accessibility/"
+          }
+        ],
+        "sources": {
+          "source-e4abb515808a2b38e3d8394a": {
+            "issuer": "Legislation Malta",
+            "url": "https://legislation.mt/getpdf/607803f4df724c17c8861adb",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "PDF source; version and amendments require checking.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-c4c9b18d26ed7a471ed348a3": {
+            "issuer": "Ministry of Finance",
+            "url": "https://finance.gov.mt/accessibility/",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Website statement EN search lead; two failed reads.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-470-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-c4c9b18d26ed7a471ed348a3"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-470-law",
+            "official_title": "Equal Opportunities (Persons with Disability) Act, Chapter413",
+            "jurisdiction": "Malta",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-e4abb515808a2b38e3d8394a"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "PDF source; version and amendments require checking.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-e4abb515808a2b38e3d8394a: Equal Opportunities (Persons with Disability) Act, Chapter413. PDF source; version and amendments require checking."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-584",
@@ -10076,21 +11357,112 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Monaco \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gouv.mc \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:legimonaco.mc loi 1.410 handicap"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Monaco\" \"301549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Reader failed once; title retained as discovery metadata.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://legimonaco.mc/tnc/loi/2014/12-02-1.410"
+          }
+        ],
+        "sources": {
+          "source-85a8d0dee301d50fb772e834": {
+            "issuer": "Legimonaco",
+            "url": "https://legimonaco.mc/tnc/loi/2014/12-02-1.410",
+            "source_type": "official_government",
+            "language": "fr",
+            "passage": "Reader failed once; title retained as discovery metadata.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-492-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-492-law",
+            "official_title": "Loi1.410 du2décembre2014",
+            "jurisdiction": "Monaco",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-85a8d0dee301d50fb772e834"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Reader failed once; title retained as discovery metadata.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-85a8d0dee301d50fb772e834: Loi1.410 du2décembre2014. Reader failed once; title retained as discovery metadata."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-496",
@@ -10200,22 +11572,20 @@
       "iso_alpha3": "MNE",
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/montenegro.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/montenegro.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-montenegro-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-500",
@@ -10914,21 +12284,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/netherlands.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/netherlands.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-netherlands-discovery-reference"
+        ],
+        "relationship": "catalogue reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-540",
@@ -11309,21 +12677,112 @@
       "inventory_basis": "UN M49 main list",
       "region": "Oceania",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Niue \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.nu \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.nu disability policy"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Niue\" \"disability\" \"policy\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Media lead on policy review; reader failed; not a verified enacted law.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://tvniue.com/2022/06/24/another-call-on-the-government-to-ratify-crpd-in-the-review-of-the-national-policy-on-disability/"
+          }
+        ],
+        "sources": {
+          "source-294898ac87b343d546cf5c36": {
+            "issuer": "Broadcasting Corporation Niue",
+            "url": "https://tvniue.com/2022/06/24/another-call-on-the-government-to-ratify-crpd-in-the-review-of-the-national-policy-on-disability/",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Media lead on policy review; reader failed; not a verified enacted law.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-570-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-570-law",
+            "official_title": "National Policy on Disability",
+            "jurisdiction": "Niue",
+            "law_type": "policy/report lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-294898ac87b343d546cf5c36"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Media lead on policy review; reader failed; not a verified enacted law.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-294898ac87b343d546cf5c36: National Policy on Disability. Media lead on policy review; reader failed; not a verified enacted law."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-574",
@@ -11359,21 +12818,125 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:isrsm.gov.mk \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"МКС EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:mtsp.gov.mk закон спречување дискриминација"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "PDF retrieval failed once; consolidation date unresolved.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.mtsp.gov.mk/WBStorage/Files/diskriminacija_konsolidiran.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Bulletin contains MKS101550:2015 and EN in related-report title, but section and document status were not resolved; defer country connection.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://isrsm.gov.mk/sq/download/file/page-section/57"
+          }
+        ],
+        "sources": {
+          "source-1935b7ba264bcaa16dce707e": {
+            "issuer": "Social Policy Ministry",
+            "url": "https://www.mtsp.gov.mk/WBStorage/Files/diskriminacija_konsolidiran.pdf",
+            "source_type": "official_government",
+            "language": "mk",
+            "passage": "PDF retrieval failed once; consolidation date unresolved.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          },
+          "source-75ca86bd318ab3fd4b51eda7": {
+            "issuer": "ISRSM",
+            "url": "https://isrsm.gov.mk/sq/download/file/page-section/57",
+            "source_type": "other_unverified",
+            "language": "mk/en",
+            "passage": "Bulletin contains MKS101550:2015 and EN in related-report title, but section and document status were not resolved; defer country connection.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-807-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-75ca86bd318ab3fd4b51eda7"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-807-law",
+            "official_title": "Закон за спречување и заштита од дискриминација",
+            "jurisdiction": "North Macedonia",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-1935b7ba264bcaa16dce707e"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "PDF retrieval failed once; consolidation date unresolved.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-1935b7ba264bcaa16dce707e: Закон за спречување и заштита од дискриминација. PDF retrieval failed once; consolidation date unresolved."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-580",
@@ -12400,21 +13963,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/poland.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/poland.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-poland-discovery-reference"
+        ],
+        "relationship": "guidance reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-620",
@@ -12425,21 +13986,125 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/portugal.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Portugal \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:acessibilidade.gov.pt \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:diariodarepublica.pt lei 46 2006 deficiência"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Legal-source lead; current amendments and provisions not audited.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://diariodarepublica.pt/dr/detalhe/lei/46-2006-540797"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Two failed reads of agency guidance; observatory reader returned empty content; references remain unverified.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.acessibilidade.gov.pt/blogue/categoria-acessibilidade/3passos-declaracao/"
+          }
+        ],
+        "sources": {
+          "source-d42e0f8cf964e2774cb45e56": {
+            "issuer": "Diário da República",
+            "url": "https://diariodarepublica.pt/dr/detalhe/lei/46-2006-540797",
+            "source_type": "official_government",
+            "language": "pt",
+            "passage": "Legal-source lead; current amendments and provisions not audited.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-3ccb533aac38a0ce70e8edd9": {
+            "issuer": "Portuguese accessibility portal",
+            "url": "https://www.acessibilidade.gov.pt/blogue/categoria-acessibilidade/3passos-declaracao/",
+            "source_type": "other_unverified",
+            "language": "pt",
+            "passage": "Two failed reads of agency guidance; observatory reader returned empty content; references remain unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-620-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-3ccb533aac38a0ce70e8edd9"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-620-law",
+            "official_title": "Lei46/2006",
+            "jurisdiction": "Portugal",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-d42e0f8cf964e2774cb45e56"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Legal-source lead; current amendments and provisions not audited.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-d42e0f8cf964e2774cb45e56: Lei46/2006. Legal-source lead; current amendments and provisions not audited."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-630",
@@ -12520,22 +14185,20 @@
       "iso_alpha3": "MDA",
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/republic of moldova.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/republic of moldova.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-republic-of-moldova-discovery-reference"
+        ],
+        "relationship": "related technical report",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-642",
@@ -12546,21 +14209,79 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/romania.json",
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Romania \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:legislatie.just.ro \"448\" \"2006\" handicap"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "Search indicates EN301549V3.2.1 in December2022norms; two failed reads.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://legislatie.just.ro/public/DetaliiDocument/263193"
+          }
+        ],
+        "sources": {
+          "source-b1dfffe1360b27066ad2fd70": {
+            "issuer": "Romanian legal portal",
+            "url": "https://legislatie.just.ro/public/DetaliiDocument/263193",
+            "source_type": "other_unverified",
+            "language": "ro",
+            "passage": "Search indicates EN301549V3.2.1 in December2022norms; two failed reads.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-642-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-b1dfffe1360b27066ad2fd70"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-643",
@@ -12571,21 +14292,73 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Russia \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:rst.gov.ru \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:pravo.gov.ru \"181-ФЗ\" инвалидов"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"181-ФЗ\" \"Социальной защите\" government"
+          }
+        ],
         "sources": {},
-        "en_findings": [],
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-643-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-646",
@@ -13289,21 +15062,73 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "San Marino \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.sm \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:consigliograndeegenerale.sm \"28\" \"2015\" disabilità"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"San Marino\" \"legge 10 marzo 2015 n.28\""
+          }
+        ],
         "sources": {},
-        "en_findings": [],
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-674-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
         "law_findings": [],
-        "questions": []
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "pending"
     },
     {
       "id": "m49-678",
@@ -13552,21 +15377,117 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Serbia \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.rs zakon sprečavanju diskriminacije osoba invaliditetom"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "2016 amendment only; retrieve consolidated statute.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://www.parlament.gov.rs/upload/archive/files/lat/pdf/zakoni/2016/3138-15%20lat.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "failed",
+            "note": "SRPS EN301549:2019 catalogue lead; two failed reads.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://iss.rs/sr_Cyrl/project/show/iss%3Aproj%3A69414"
+          }
+        ],
+        "sources": {
+          "source-c2131a9bb9c2d7bf9f8b41b4": {
+            "issuer": "Serbian parliament",
+            "url": "https://www.parlament.gov.rs/upload/archive/files/lat/pdf/zakoni/2016/3138-15%20lat.pdf",
+            "source_type": "official_government",
+            "language": "sr",
+            "passage": "2016 amendment only; retrieve consolidated statute.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-194574d5636c707d5769d971": {
+            "issuer": "ISS",
+            "url": "https://iss.rs/sr_Cyrl/project/show/iss%3Aproj%3A69414",
+            "source_type": "other_unverified",
+            "language": "sr",
+            "passage": "SRPS EN301549:2019 catalogue lead; two failed reads.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "failed",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-688-en",
+            "statement": "Unresolved EN reference lead retained; country relationship not established.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-194574d5636c707d5769d971"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-688-law",
+            "official_title": "Amendment to Law on Prevention of Discrimination against Persons with Disabilities",
+            "jurisdiction": "Serbia",
+            "law_type": "accessibility/discrimination legal-source lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-c2131a9bb9c2d7bf9f8b41b4"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "2016 amendment only; retrieve consolidated statute.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-c2131a9bb9c2d7bf9f8b41b4: Amendment to Law on Prevention of Discrimination against Persons with Disabilities. 2016 amendment only; retrieve consolidated statute."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-690",
@@ -13981,21 +15902,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/slovakia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/slovakia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-slovakia-discovery-reference"
+        ],
+        "relationship": "historical standard preview",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-705",
@@ -14006,21 +15925,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/slovenia.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/slovenia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-slovenia-discovery-reference"
+        ],
+        "relationship": "standards access guidance",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-090",
@@ -14522,21 +16439,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/spain.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/spain.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-spain-discovery-reference"
+        ],
+        "relationship": "standards-body publication",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-144",
@@ -15001,21 +16916,19 @@
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
       "existing_repository_record": ".github/agents/research/countries/sweden.json",
-      "round_status": "pending",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/sweden.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-sweden-discovery-reference"
+        ],
+        "relationship": "procurement guidance reference",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-756",
@@ -16101,21 +18014,112 @@
       "inventory_basis": "UN M49 main list",
       "region": "Oceania",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Tuvalu \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.tv \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.tv disability policy"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "\"Tuvalu\" \"disability\" \"policy\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Policy catalogue only; distinguish2018policy and later unendorsed revision leads.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://gender.gov.tv/policies-strategies/"
+          }
+        ],
+        "sources": {
+          "source-56996c91ec759c6734ce490d": {
+            "issuer": "Tuvalu Gender Department",
+            "url": "https://gender.gov.tv/policies-strategies/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Policy catalogue only; distinguish2018policy and later unendorsed revision leads.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-798-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-798-law",
+            "official_title": "National disability-policy catalogue",
+            "jurisdiction": "Tuvalu",
+            "law_type": "policy/report lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-56996c91ec759c6734ce490d"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Policy catalogue only; distinguish2018policy and later unendorsed revision leads.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-56996c91ec759c6734ce490d: National disability-policy catalogue. Policy catalogue only; distinguish2018policy and later unendorsed revision leads."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-792",
@@ -16289,22 +18293,20 @@
       "iso_alpha3": "UKR",
       "inventory_basis": "UN M49 main list",
       "region": "Europe",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/ukraine.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/ukraine.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-ukraine-discovery-reference"
+        ],
+        "relationship": "international development report",
+        "scope_note": "Source-specific reference; national legal effect and latest edition not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-784",
@@ -16807,21 +18809,104 @@
       "inventory_basis": "UN M49 main list",
       "region": "Oceania",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Bounded discovery only; not evidence of absence or non-adoption."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "Vanuatu \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.vu \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "query": "site:gov.vu disability inclusive development policy"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Policy period has ended; successor and legal effect not established.",
+            "run_id": "world-discovery-8-2026-09-27",
+            "url": "https://mjcs.gov.vu/images/policy/DID_Policy_2018-2025.pdf"
+          }
+        ],
+        "sources": {
+          "source-7614375c781d1b7396a10002": {
+            "issuer": "Justice and Community Services Ministry",
+            "url": "https://mjcs.gov.vu/images/policy/DID_Policy_2018-2025.pdf",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Policy period has ended; successor and legal effect not established.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-548-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bounded discovery only; not evidence of absence or non-adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-8-2026-09-27-548-law",
+            "official_title": "National Disability Inclusive Development Policy2018–2025",
+            "jurisdiction": "Vanuatu",
+            "law_type": "policy/report lead",
+            "status": "lead",
+            "legal_status": "Unresolved; no current legal-applicability claim.",
+            "scope": "Source discovery and metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-7614375c781d1b7396a10002"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Policy period has ended; successor and legal effect not established.",
+            "next_action": "Retrieve authoritative current instrument and independently review provisions before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+          "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+          "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Legal mapping lead source-7614375c781d1b7396a10002: National Disability Inclusive Development Policy2018–2025. Policy period has ended; successor and legal effect not established."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-862",

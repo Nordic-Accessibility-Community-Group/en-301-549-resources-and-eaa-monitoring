@@ -1,0 +1,312 @@
+{
+  "reviewed_on": "2026-09-27",
+  "isolation": "no_history",
+  "scope": "27 exact source-reference statements; no public wording or substantive legal interpretation.",
+  "reviews": {
+    "Austria": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.austrian-standards.at/de/shop/ove-onorm-en-301549-v3-2-1-2021-05-01~p2575676",
+      "source_language": "de/en",
+      "exact_reviewed_text": "Austrian Standards lists ÖVE/ÖNORM EN 301549 V3.2.1, issued on 1 May 2021, referring to EN 301 549 V3.2.1:2021 (source notation 2021-03).",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "ÖVE/ÖNORM EN 301549 V3.2.1",
+      "literal_rendering": "ÖVE/ÖNORM EN301549 V3.2.1; issue date1May2021"
+    },
+    "Belgium": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.workinginbelgium.fgov.be/en/accessibility-statement.html",
+      "source_language": "en",
+      "exact_reviewed_text": "The NSSO accessibility statement for Working in Belgium refers to EN 301 549 when reporting partial website compliance. This is a website-specific reference, not a national standards-adoption finding.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "partially complies",
+      "literal_rendering": "Website partially complies"
+    },
+    "Bosnia and Herzegovina": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://isbih.gov.ba/uploads/dokumenti/Glasnik/sluzbene-objave-2-2022.pdf",
+      "source_language": "bs/hr/sr/en",
+      "exact_reviewed_text": "ISBIH’s 2022 bulletin lists BAS EN 301 549 V3.2.1:2022 and identifies EN 301 549 V3.2.1:2021 as identical (IDT).",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "BAS EN 301 549 V3.2.1:2022; IDT",
+      "literal_rendering": "BAS standard; identical to the named EN document"
+    },
+    "Bulgaria": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.statereserve.bg/bg/speczialni/deklaracziya-za-dostpnost.html",
+      "source_language": "bg",
+      "exact_reviewed_text": "The Bulgarian State Reserve’s accessibility declaration identifies BDS EN 301549:2021 and EN 301 549 V3.2.1:2021 as applicable standards for its website assessment. This is an agency website reference.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Приложим стандарт",
+      "literal_rendering": "Applicable standard"
+    },
+    "Croatia": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://repozitorij.hzn.hr/norm/HRN%2BEN%2B301%2B549%2BV3.2.1%3A2021",
+      "source_language": "hr/en",
+      "exact_reviewed_text": "HZN’s repository lists HRN EN 301 549 V3.2.1:2021 for ICT accessibility requirements.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "HRN EN 301 549 V3.2.1:2021",
+      "literal_rendering": "ICT accessibility requirements"
+    },
+    "Czechia": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://agenturacas.gov.cz/produkty-a-sluzby/reprodukce-csn/normy-spotrebitele/podpora-a-integrace-osob-se-zdravotnim-postizenim/",
+      "source_language": "cs",
+      "exact_reviewed_text": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "ČSN EN 301549; ČSN ETSI EN 301 549 V3.2.1",
+      "literal_rendering": "National EN row; adjacent ETSI rows specify versions"
+    },
+    "Denmark": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.ds.dk/da/tilgaengelighed",
+      "source_language": "da",
+      "exact_reviewed_text": "Danish Standards makes DS/ETSI EN 301 549 V3.2.1:2021 available in Danish and English for public bodies under its agreement with the Agency for Digital Government.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "downloades i en dansk/engelsk version",
+      "literal_rendering": "Downloadable in a Danish/English version"
+    },
+    "Estonia": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.evs.ee/en/evs-en-301-549-v4-1-1-2026",
+      "source_language": "en",
+      "exact_reviewed_text": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Valid from 16.09.2026",
+      "literal_rendering": "Valid from16September2026"
+    },
+    "Finland": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services-0",
+      "source_language": "en",
+      "exact_reviewed_text": "Traficom’s guidance on the Act on the Provision of Digital Services identifies EN 301 549 as the standard defining its technical accessibility requirements and links an SFS edition.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "technical accessibility requirements",
+      "literal_rendering": "Technical accessibility requirements"
+    },
+    "France": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://accessibilite.numerique.gouv.fr/ressources/references/",
+      "source_language": "fr",
+      "exact_reviewed_text": "The French government’s RGAA reference page links EN 301 549 V2.1.2:2018 in French and English. This establishes a reference in that guidance, not the latest applicable national edition.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "EN 301 549 V2.1.2 (2018-08)",
+      "literal_rendering": "French and English links to V2.1.2 (2018-08)"
+    },
+    "Germany": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.dinmedia.de/en/standard/din-en-301549/353869627?indexName=prod_dinmedia_products",
+      "source_language": "en",
+      "exact_reviewed_text": "DIN Media lists DIN EN 301549:2022-06 with EN 301 549 V3.2.1:2021 (source notation 2021-03) as its English version.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "English version EN 301549 V3.2.1 (2021-03)",
+      "literal_rendering": "English version EN301549V3.2.1(2021-03)"
+    },
+    "Greece": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://elot.gr/wp-content/uploads/2025/11/2.-%CE%95%CE%9B%CE%9F%CE%A4_%CE%A4%CE%97%CE%9B%CE%95%CE%A0%CE%99%CE%9A%CE%9F%CE%99%CE%9D%CE%A9%CE%9D%CE%99%CE%95%CE%A3_%CE%A8%CE%A5%CE%A1%CE%A1%CE%97%CE%A3.pdf",
+      "source_language": "el/en",
+      "exact_reviewed_text": "An ELOT telecommunications-standardization presentation lists ELOT EN 301 549 among example ETSI standards. The cited slide does not specify an edition.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Ενδεικτικά Πρότυπα ETSI",
+      "literal_rendering": "Illustrative ETSI standards"
+    },
+    "Hungary": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.mszt.hu/hu-hu/szabvanyositas/hirek/2020/12/ikt-termekek-es-szolgaltatasok-akadalymentessegi-kovetelmenyei",
+      "source_language": "hu",
+      "exact_reviewed_text": "MSZT states that it published the Hungarian-language version of MSZ EN 301 549:2020 on 1 December 2020. The underlying EN version and subsequent national editions require separate checking.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "2020. december 1-jén tette közzé",
+      "literal_rendering": "Published the Hungarian-language version on1December2020"
+    },
+    "Ireland": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://nda.ie/monitoring/eu-web-accessibility-directive/what-are-the-eu-web-accessibility-requirements",
+      "source_language": "en",
+      "exact_reviewed_text": "Ireland’s National Disability Authority refers to EN 301 549 V3.2.1 in its guidance on public-body websites and mobile applications under the Web Accessibility Directive.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "standard EN 301 549 v 3.2.1",
+      "literal_rendering": "Standard EN301549V3.2.1"
+    },
+    "Italy": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://store.uni.com/uni-cei-en-301549-2021",
+      "source_language": "it",
+      "exact_reviewed_text": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "requisiti di accessibilità funzionali",
+      "literal_rendering": "Functional accessibility requirements"
+    },
+    "Latvia": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.lvs.lv/lv/products/154379",
+      "source_language": "lv",
+      "exact_reviewed_text": "LVS lists LVS EN 301549:2022 L in Latvian and identifies ETSI EN 301 549 V3.2.1:2021 (source notation 2021-03) among its source documents.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Izcelsmes dokumenti",
+      "literal_rendering": "Source documents"
+    },
+    "Liechtenstein": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.llv.li/de/navigation/footer-nav/barrierefreiheitserklaerung",
+      "source_language": "de",
+      "exact_reviewed_text": "The Liechtenstein administration’s accessibility statement refers to EN 301 549 V3.2.1:2021 (source notation 2021-03) when reporting partial website compliance. This is a website-specific reference.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "teilweise … vereinbar",
+      "literal_rendering": "Partially compatible"
+    },
+    "Luxembourg": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://portail-qualite.public.lu/fr/support/accessibilite.html",
+      "source_language": "fr",
+      "exact_reviewed_text": "ILNAS’s website accessibility statement reports partial compliance with EN 301 549 and RGAA v4. This is a website-specific reference without an edition in the cited passage.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Le présent site internet est en conformité partielle",
+      "literal_rendering": "This website partially conforms"
+    },
+    "Montenegro": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://isme.me/en/download/file/page-section/304",
+      "source_language": "cnr",
+      "exact_reviewed_text": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Zahtjevi pristupačnosti za ICT proizvode i usluge",
+      "literal_rendering": "Accessibility requirements for ICT products and services"
+    },
+    "Netherlands (Kingdom of the)": {
+      "reviewer": "batch8_fidelity_b",
+      "source_url": "https://www.nen.nl/en/nen-en-301549-2021-en-292903",
+      "source_language": "en",
+      "exact_reviewed_text": "NEN’s catalogue lists NEN-EN 301549:2021, published on 1 June 2021. The retrieved metadata does not identify the underlying EN version.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Publication date … Jun 1, 2021",
+      "literal_rendering": "Publication date1June2021"
+    },
+    "Poland": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://bip.uke.gov.pl/normy/normy%2C1%2C1%2Cwersja.html",
+      "source_language": "pl",
+      "exact_reviewed_text": "UKE’s standards page refers to EN 301 549 V3.2.1:2021 and links its Polish translation in PKN’s catalogue. This records the page’s reference, not a finding about the latest edition.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "wersja V3.2.1 z 2021 roku",
+      "literal_rendering": "Version V3.2.1 from2021"
+    },
+    "Republic of Moldova": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://shop.standard.md/ro/standart_print/648264",
+      "source_language": "ro",
+      "exact_reviewed_text": "ISM’s catalogue lists SM CEN/CLC/ETSI TR 101550:2022, whose title refers to EN 301 549 V1.1.1. This is a related technical report, not adoption of EN 301 549 itself.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Documente referitoare la EN 301 549 (V1.1.1)",
+      "literal_rendering": "Documents relating to EN301549V1.1.1"
+    },
+    "Slovakia": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://normy.normoff.gov.sk/norma/121650/nahlad/",
+      "source_language": "sk/en",
+      "exact_reviewed_text": "The Slovak standards office hosts a preview of STN EN 301 549 V1.1.2:2015. Its cover states that it includes the English version of the European Standard; latest national status requires separate checking.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "This standard includes the English version of the European Standard.",
+      "literal_rendering": "This standard includes the English version of the European Standard"
+    },
+    "Slovenia": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.gov.si/novice/2025-01-13-brezplacno-do-standarda-sist-en-301-549-v3-2-1/",
+      "source_language": "sl",
+      "exact_reviewed_text": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Brezplačno do standarda SIST EN 301 549 V3.2.1",
+      "literal_rendering": "Free access to SIST EN301549V3.2.1"
+    },
+    "Spain": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://revista.une.org/44/requisitos-de-accesibilidad-para-productos-y-servicios-tic.html",
+      "source_language": "es",
+      "exact_reviewed_text": "UNE’s February 2022 magazine lists UNE-EN 301549 among new standards for ICT accessibility requirements. The cited article does not identify the underlying EN version.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Nuevas normas; UNE-EN 301549",
+      "literal_rendering": "New standards; ICT accessibility requirements"
+    },
+    "Sweden": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.avropa.se/upphandlingar/vara-fokusomraden/tillganglighet/",
+      "source_language": "sv",
+      "exact_reviewed_text": "Sweden’s National Procurement Services lists EN 301 549 among its guidance documents for accessibility in public procurement. The cited passage does not specify an edition.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "Styrande och vägledande dokument",
+      "literal_rendering": "Governing and guidance documents"
+    },
+    "Ukraine": {
+      "reviewer": "batch8_fidelity_a",
+      "source_url": "https://www.undp.org/ukraine/blog/new-standard-change-government-websites-and-applications",
+      "source_language": "en",
+      "exact_reviewed_text": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no current-law or public-row approval. Original passages checked live; PDF screenshots failed for Bosnia/Greece. Czechia and Hungary corrections rechecked.",
+      "excerpt": "completely duplicates the eponymous European standard",
+      "literal_rendering": "Completely duplicates the eponymous European standard"
+    }
+  },
+  "corrections": [
+    "Czechia: distinguished undated row from adjacent versioned ETSI rows; corrected text rechecked Supported.",
+    "Hungary: attached1December2020 to translation publication rather than announcement; corrected text rechecked Supported."
+  ],
+  "limits": [
+    "Other-domain claims inherited unchanged and not reviewed in this batch.",
+    "Law-source metadata remains unverified lead material."
+  ]
+}
