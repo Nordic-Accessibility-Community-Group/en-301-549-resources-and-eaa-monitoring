@@ -72,6 +72,19 @@ class AdoptionChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'ID missing/duplicate'): a.check(self.root,True,self.today)
         record['deliveries']=['garbage']; path.write_text(json.dumps(record))
         with self.assertRaisesRegex(ValueError,'must be an object'): a.check(self.root,True,self.today)
+    def test_changed_link_requires_evidence(self):
+        original=self.row.replace('<td>Adopted</td>','<td><a href="https://example.org/original">Adopted</a></td>')
+        self.baseline_patch.stop(); self.baseline_patch=patch.object(a,'inherited_rows',return_value={'Example':original}); self.baseline_patch.start()
+        self.row=original.replace('https://example.org/original','https://other.example/new')
+        self.domain['public_row_sha256']=a.row_digest(self.row)
+        with self.assertRaisesRegex(ValueError,'Changed public cell lacks verified'): self.check()
+    def test_global_handoff_cannot_point_to_arbitrary_file(self):
+        (self.root/a.PAGE).write_text('<table>'+self.row.replace('Example','Europe')+'</table>')
+        folder=self.root/'.github/agents/adoption'; folder.mkdir(parents=True)
+        (self.root/'unrelated.txt').write_text('not a country record')
+        targets=[{'page':p,'domain':d,'record':'.github/agents/adoption/european-standard.json' if d=='adoption' else 'unrelated.txt' if d=='monitoring' else None,'reason':'Fixture','disposition':'research_only' if d in ('adoption','monitoring') else 'not_applicable'} for p,d in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
+        (folder/'european-standard.json').write_text(json.dumps({'subject':'European Union','evidence':{},'adoption':self.domain,'deliveries':[{'id':'one','destinations':targets}]}))
+        with self.assertRaisesRegex(ValueError,'canonical country record'): a.check(self.root,True,self.today)
     def test_adoption_adapter_preserves_other_domains(self):
         c={'country':'Example','evidence':{},'domains':{'enforcement':{'unchanged':[1,2]}}}
         old=copy.deepcopy(c['domains']['enforcement'])

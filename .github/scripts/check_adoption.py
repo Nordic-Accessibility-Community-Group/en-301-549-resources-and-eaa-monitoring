@@ -49,6 +49,9 @@ def rows(root):
 def cell_texts(row):
     return [' '.join(unescape(re.sub('<[^>]+>', '', c)).split()) for c in re.findall(r'<td\b[^>]*>(.*?)</td>', row, re.S | re.I)]
 
+def cell_links(row):
+    return [[unescape(url) for url in re.findall(r'href=["\']([^"\']+)["\']', cell, re.I)] for cell in re.findall(r'<td\b[^>]*>(.*?)</td>', row, re.S | re.I)]
+
 def inherited_rows(root):
     raw = (root / '.github/agents/adoption/inherited-rows.json').read_bytes()
     require(hashlib.sha256(raw).hexdigest() == BASELINE_SHA256, 'Frozen adoption baseline changed')
@@ -110,6 +113,8 @@ def check_domain(name, domain, pool, root, row, today):
     old_row = baseline.get(old_name)
     actual_cells = cell_texts(row)
     old_cells = cell_texts(old_row) if old_row else [''] * 5
+    actual_links = cell_links(row)
+    old_links = cell_links(old_row) if old_row else [[] for _ in range(5)]
     require(set(domain['public_cells']) == {str(i) for i in range(5)}, 'All public cells need mappings')
     new = []
     for i, text in enumerate(actual_cells):
@@ -119,7 +124,7 @@ def check_domain(name, domain, pool, root, row, today):
         editorial = (i == 0 and name == 'European Union' and old_name == 'Europe')
         if i == 4 and old_row and old_cells[i] == '' and text == 'Source document (PDF)':
             editorial = re.findall(r'href="([^"]+)"',old_row) == re.findall(r'href="([^"]+)"',row) and bool(re.findall(r'href="([^"]+)"',old_row))
-        if text != old_cells[i] and not editorial:
+        if (text != old_cells[i] or actual_links[i] != old_links[i]) and not editorial:
             require(mapped, 'Changed public cell lacks evidence mapping')
             require(all(claims[cid]['status'] == 'verified' for cid in mapped), 'Changed public cell lacks verified evidence')
             new.extend(mapped)
@@ -168,7 +173,14 @@ def check(root, require_coverage=False, today=None):
                 if target['page'] == PAGE:
                     require(target['record'] == str(global_path.relative_to(root)), 'Global adoption record path')
                 else:
-                    require(target['disposition'] == 'not_applicable' or (target['record'] and (root / target['record']).is_file()), 'Applicable global handoff record missing')
+                    if target['disposition'] == 'not_applicable':
+                        require(target['record'] is None, 'Inapplicable global handoff must have null record')
+                    else:
+                        require(isinstance(target['record'],str), 'Applicable global handoff record missing')
+                        destination = (root / target['record']).resolve()
+                        require(destination.parent == cr.folder(root).resolve() and destination.suffix == '.json' and destination.is_file(), 'Global handoff must use canonical country record')
+                        country = json.loads(destination.read_text())
+                        require(target['domain'] in country['domains'], 'Global handoff domain missing')
         domains['European Union' if 'European Union' in public else 'Europe'] = (g['adoption'],g['evidence'])
     require(set(domains).issubset(public), 'Research row missing from page')
     if require_coverage:
