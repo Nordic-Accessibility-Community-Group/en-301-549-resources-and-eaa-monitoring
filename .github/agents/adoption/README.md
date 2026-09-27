@@ -1,6 +1,6 @@
 # EN 301 549 adoption research
 
-Follow [workflow](../workflow.md), [evidence](../evidence.md), [review](../review.md) and [shared storage](../research/README.md). This specification applies only to `EN 301 549 adoptation.md` in the testing repository. The user authorised setup, baseline research and recurring maintenance on 27 September 2026. Never approve, merge, enable auto-merge or write main. Only the user can explicitly change the no-merge rule; continuing work or passing checks cannot change it.
+Follow [workflow](../workflow.md), [evidence](../evidence.md), [review](../review.md) and [shared storage](../research/README.md). This specification applies only to `EN 301 549 adoptation.md` in the testing repository. The user authorised proceeding with the research and maintenance suggestions on 27 September 2026. Setup and baseline work can proceed; activation of the exact recurring schedule remains pending explicit approval. Never approve, merge, enable auto-merge or write main. Only the user can explicitly change the no-merge rule; continuing work or passing checks cannot change it.
 
 ## Scope and records
 
@@ -28,7 +28,7 @@ Process changes have their own draft PR. Content may use a clearly dependent dra
 
 ## Recurring maintenance
 
-Use the current-chat weekly scheduled task, Monday 09:00 Europe/Stockholm, with monthly and quarterly work selected within that task. No GitHub Actions change or reuse of the EAA watcher's state/lease branches is authorised. The scheduler prompt must read this file from current main; until this setup is merged, inspect the known adoption drafts and update those drafts only. Do not bypass human review to activate main.
+Proposed schedule: a current-chat weekly task, Monday 09:00 Europe/Stockholm, with monthly and quarterly work selected within that task. It is not active. Automatic approval review requires explicit approval of that exact persistent schedule before activation. No GitHub Actions change or reuse of the EAA watcher's state/lease branches is authorised. The scheduler prompt must read this file from current main; until this setup is merged, inspect the known adoption drafts and update those drafts only. Do not bypass human review to activate main.
 
 On each run:
 
