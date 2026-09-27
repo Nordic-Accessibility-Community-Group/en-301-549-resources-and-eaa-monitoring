@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr66-sync-ae04c380",
-    "acquired_at": "2026-09-27T12:35:55.450Z",
-    "expires_at": "2026-09-27T13:05:55.450Z",
-    "delivery_ids": [
-      "ae04c380-ba6f-11f1-9cd3-d75a2cfc7685"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -455,6 +448,16 @@
       "outcome": "new_actionable_contract_change",
       "suggestion_id": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review",
       "note": "PR #67 changed the sixth-column contract from scoped Last verified data to editorial Updated date metadata. PR #66 still targets the prior PR #67 head and implements the superseded design. PR #67 title/body and independent-review claim also describe the prior semantics/head."
+    },
+    {
+      "delivery_id": "ae04c380-ba6f-11f1-9cd3-d75a2cfc7685",
+      "event": "pull_request.synchronize",
+      "pull_request": 66,
+      "head_sha": "380a8eb8933b9762635a76a1be336d80f20d9dac",
+      "checked_on": "2026-09-27T12:36:28.318Z",
+      "outcome": "existing_suggestions_partially_resolved_no_new_handoff",
+      "suggestion_id": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review",
+      "note": "PR #66 now consumes PR #67 head 9960381 and correctly implements Updated date with row-updates.json, six changed-row dates, blank unchanged rows and empty column-six claim mappings. PR #67 title/body/current-head review remains separately pending. Existing PR-reference normalization in #66 remains unchanged."
     }
   ],
   "suggestions": [
@@ -519,8 +522,8 @@
       "proposed_change": "Before merge, set pr to numeric 66 on the proposed adoption destination in the Brazil, Canada, India, Mexico and New Zealand baseline deliveries and in .github/agents/adoption/european-standard.json. Also normalize the new adoption-brazil-abnt-reference-2026-09-27 destination from the full PR URL to numeric 66. Regenerate .github/agents/evidence-routing/events.json from canonical country records; the EU-wide delivery remains only in its global record. Preserve all monitoring, enforcement and sanctions dispositions.",
       "evidence": "Current PR #66 head b1a717a proposes the corresponding public adoption-page changes, but all six proposed adoption destinations have pr: null. PR #66 is the only open content PR covering these changes.",
       "limitations": "Routing metadata only. No new factual wording, country research, monitoring, enforcement or sanctions change is indicated. The EU-wide delivery is intentionally outside the country-only events projection.",
-      "updated_on": "2026-09-27T12:28:20.472Z",
-      "progress": "Head 5f8b7aa adds the requested Last verified column and a qualified Brazil ABNT handoff. The baseline PR references remain null, and the new Brazil destination uses a full URL instead of numeric 66."
+      "updated_on": "2026-09-27T12:36:28.318Z",
+      "progress": "Head 380a8eb fixes the Updated date presentation but leaves six baseline adoption PR references null and the new Brazil ABNT delivery as a full URL instead of numeric 66."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
@@ -554,11 +557,13 @@
       "country": "Brazil, Canada, European Union, India, Mexico, New Zealand and remaining adoption rows",
       "target": "PR #67 process contract and open PR #66 adoption content",
       "created_on": "2026-09-27T12:34:31.536Z",
-      "status": "open_pr_update_required",
+      "status": "partial_pr66_covered_pr67_pending",
       "covering_pr": 66,
       "proposed_change": "Before merge, update PR #67's title/body to describe the editorial Updated date column and independently recheck current head 9960381, because the recorded review covered prior head a202422 and the semantics changed. Then refresh PR #66 onto the latest PR #67 head: rename Last verified to Updated date; add adoption/row-updates.json; use date-only 2026-09-27 values for Brazil, Canada, European Union, India, Mexico and New Zealand because those rows change in #66; leave unchanged rows blank; set public_cells['5'] to empty arrays; update row hashes and presentation review. Keep verification dates/scope only in research records.",
       "evidence": "PR #67 head 9960381 now validates an editorial update record, empty claim mappings and date-only cells. PR #66 head 5f8b7aa still targets prior PR #67 head a202422 and publishes scoped Last verified values mapped to verified claims. PR #67's title/body still describe the superseded verification design and cite review of a202422.",
-      "limitations": "Updated date records public-row edits, not source verification, legal effect or whole-row accuracy. This is a presentation/provenance correction and supports no monitoring, enforcement or sanctions change."
+      "limitations": "Updated date records public-row edits, not source verification, legal effect or whole-row accuracy. This is a presentation/provenance correction and supports no monitoring, enforcement or sanctions change.",
+      "updated_on": "2026-09-27T12:36:28.318Z",
+      "progress": "PR #66 head 380a8eb correctly implements the Updated date contract. PR #67 still needs title/body alignment and review of current head 9960381 before merge."
     }
   ]
 }
