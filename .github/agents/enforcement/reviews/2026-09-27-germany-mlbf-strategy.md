@@ -1,0 +1,37 @@
+# Germany MLBF strategy addition — 27 September 2026
+
+## Scope and version
+
+New strategy paragraph in Germany's existing monitoring row only. Row SHA-256: `a9ca02136b5d4796979ac2e00cc4b3cd53eea36f1b4e1df30836748b5def3979`. Existing June monitoring paragraph, unrelated overlay row and all other countries are unchanged and not newly verified. Monitoring and sanctions public pages are unchanged. Germany research and generated routing index retain cross-page follow-ups.
+
+Exact new wording:
+
+> On 29 January 2026, MLBF adopted separate market surveillance strategies for products and services. The strategies combine planned checks based on risk with investigations started in response to reports and requests for action. For web-based services, the service strategy includes initial automated checks. These documents describe how MLBF plans and carries out market checks; they do not report individual penalties.
+
+## Isolated German source fidelity
+
+Reviewer `/root/german_strategy_fidelity`, no-history fork, reviewed the exact final wording against the announcement and complete product (8 pages) and service (7 pages) PDFs. Verdict: Supported. The reviewer received the neutral brief, original passages, source links and proposed wording only, without research conclusions or desired verdicts.
+
+- Announcement: 29 January adoption by the administrative board; the announcement is dated 19 February. Institutional attribution to MLBF is supported.
+- Both strategies, section 3.X.2: active checks independent of a specific trigger and reactive checks dependent on a trigger. Systematic risk-based checks and external information/application processing support the summary.
+- Both, section 3.X.2.5: applications to initiate market-surveillance measures by consumers or recognised associations support the plain-language phrase requests for action. No automatic full investigation for every submission is implied.
+- Service strategy, section 3.X.2.1: automated preliminary checks especially for web-based services support initial automated checks. This does not assert complete automated compliance testing.
+- Both, section 3.X.4 and full documents: general measures and fine provisions, without an identified individual penalty or sanctioned party. This is not a claim that no penalties exist elsewhere.
+
+Document version 8 January, adoption 29 January and announcement 19 February remain distinct. The language verdict is not legal certification or independent authentication.
+
+## Isolated B2 readability
+
+Reviewer `/root/strategy_readability`, no-history fork, received only proposed public wording and a readability brief. Suggested replacing proactive, prompted, preliminary and surveillance with simpler expressions, and clarifying applications. Final wording above was rechecked: Supported. The resulting requests for action wording was independently checked by the German reviewer and supported.
+
+## Sources and limitations
+
+- [MLBF adoption announcement](https://www.mlbf-barrierefrei.de/Aktuelles/Markt%C3%BCberwachungsstrategien-beschlossen.php?FID=3.11.1).
+- [Product strategy](https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&FID=4290.35.1), version 8 January 2026.
+- [Service strategy](https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&FID=4290.33.1), version 8 January 2026.
+
+The supplied LinkedIn share URL failed direct retrieval; an indexed matching post was a discovery lead only. All published additions rely on official documents. No fresh country-wide search, case outcomes or statutory penalty conditions are asserted. The separate almost-700-report search lead remains unverified after a failed ministry-page retrieval.
+
+## Checks and PR review
+
+Shared country/schema/reference/routing and domain checks passed: 44 jurisdictions, 753 claims, 53 delivery events. All 26 enforcement regression tests passed. Verification-date check reports no markers; whitespace check passed. Final independent actual-head PR review is recorded below after publication. Human maintainer approval is required.

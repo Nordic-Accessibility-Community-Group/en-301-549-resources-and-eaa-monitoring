@@ -181,10 +181,14 @@
         "Germany"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "705dce44c6a8de38d2ed2ef7f93013a1f0bd8277abfd2e7509048b6eaa61fca8",
+      "row_sha256": "a9ca02136b5d4796979ac2e00cc4b3cd53eea36f1b4e1df30836748b5def3979",
       "state": "reviewed",
       "claim_ids": [
-        "de-mlbf-nationwide-monitoring-2026"
+        "de-mlbf-nationwide-monitoring-2026",
+        "de-mlbf-strategies-adopted-20260129",
+        "de-mlbf-risk-reactive-strategy-2026",
+        "de-mlbf-automated-prechecks-2026",
+        "de-mlbf-strategy-not-case-outcomes-2026"
       ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/7357b8692f6c1f0cd3415c3f714765627e74b7dd/EAA%20enforcement%20tracking.md"
     },
