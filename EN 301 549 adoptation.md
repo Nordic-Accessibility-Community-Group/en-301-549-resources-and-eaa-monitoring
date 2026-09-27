@@ -2,8 +2,6 @@
 
 This table tracks adoption, references and proposals involving EN 301 549. Standards adoption and legal obligations need separate evidence. EU-wide standards information appears under European Union.
 
-Dates identify their event where verified. Blank cells mean information has not been recorded. Updated date shows when a row’s information was last edited; it does not indicate verification. Blank update dates mean no date has been recorded. Research records track verification and unresolved claims.
-
 <table>
   <tr>
     <th>Country or jurisdiction</th>
