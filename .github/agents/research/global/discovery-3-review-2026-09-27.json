@@ -1,0 +1,50 @@
+{
+  "reviewer": "batch3_fidelity",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Three exact research summaries; linguistic fidelity only.",
+  "source_languages": [
+    "id",
+    "vi",
+    "en"
+  ],
+  "reviewed_texts": {
+    "ID": "Article 18 of Indonesia’s Law No. 8 of 2016 identifies rights of persons with disabilities to accessibility for using public facilities and to reasonable accommodation as a form of accessibility for individuals.",
+    "VN": "Article 14(1) of Viet Nam’s Law No. 51/2010/QH12 prohibits stigmatization and discrimination against persons with disabilities.",
+    "TH": "The Ministry of Labour-hosted English translation of Thailand’s disability empowerment law describes a prohibition of unfair disability discrimination in section 15, including certain unintended effects, with a qualified exception in its third paragraph. The translation has no legal authority; the Thai original must be checked."
+  },
+  "source_urls": [
+    "https://peraturan.bpk.go.id/Home/Download/26352/UU%20Nomor%208%20Tahun%202016.pdf",
+    "https://vanban.chinhphu.vn/?docid=96045&pageid=27160",
+    "https://www.mol.go.th/wp-content/uploads/sites/2/2021/02/ENG-พรบ-ส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ-พ.ศ.-2550.pdf"
+  ],
+  "verdict": "Supported",
+  "corrections": [
+    "Indonesia: explicitly identify persons with disabilities as rights holders and render accommodation as a form of accessibility for individuals."
+  ],
+  "recheck": "Reviewer confirmed all three final variants Supported after Indonesia correction.",
+  "comparisons": [
+    {
+      "language": "id",
+      "section": "article 18",
+      "excerpt": "mendapatkan Aksesibilitas untuk memanfaatkan fasilitas publik",
+      "literal_rendering": "obtain accessibility to use public facilities",
+      "context": "Second limb: reasonable accommodation as a form of accessibility for individuals. Supplied original passage reviewed."
+    },
+    {
+      "language": "vi",
+      "section": "article 14(1)",
+      "excerpt": "Kỳ thị, phân biệt đối xử người khuyết tật.",
+      "literal_rendering": "Stigmatization of, and discrimination against, persons with disabilities.",
+      "context": "Item is under acts strictly prohibited; supplied passage reviewed."
+    },
+    {
+      "language": "en",
+      "section": "section 15 and disclaimer",
+      "excerpt": "without the intent to directly discriminate; on a case-by-case basis; CONTAINS NO LEGAL AUTHORITY",
+      "literal_rendering": "Unintentional adverse effects included; exception is case-specific; translation lacks legal authority.",
+      "context": "Reviewer retrieved hosted translation. Thai original not reviewed; qualified exception retained."
+    }
+  ],
+  "limits": "No legal-currentness audit. Indonesia/Viet Nam supplied original passages; Thailand non-authoritative English translation. Vietnamese EN search leads not linguistically verified."
+}

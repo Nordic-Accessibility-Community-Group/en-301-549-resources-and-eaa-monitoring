@@ -1,0 +1,55 @@
+{
+  "id": "world-discovery-3-2026-09-27",
+  "started_at": "2026-09-27T14:41:59Z",
+  "research_closed_at": "2026-09-27T14:45:46Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "scope": [
+    "Indonesia",
+    "Thailand",
+    "Viet Nam"
+  ],
+  "selection_reason": "Next pending Southeast Asian entries; bounded discovery, not an exhaustive regional survey.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 228,
+  "attempts_storage": {
+    "Indonesia": ".github/agents/research/global/worldwide-index.json#m49-360",
+    "Thailand": ".github/agents/research/global/worldwide-index.json#m49-764",
+    "Viet Nam": ".github/agents/research/global/worldwide-index.json#m49-704"
+  },
+  "verification_scope": "Original provisions for Indonesia/Viet Nam and non-authoritative Thai-law English translation. Vietnamese EN PDF leads unreadable; no supported EN country connection recorded.",
+  "process_dependency": "Setup PR70 supplies inventory contract; research stays in PR71.",
+  "public_page_changes": false,
+  "validation": {
+    "country_records": "PASS:46 countries,751 claims,54 delivery events",
+    "adoption_coverage": "PASS:16 research records",
+    "adoption_tests": "27 passed",
+    "inventory": "PASS:250 unique entries;228 pending; all prior entries and deferred tasks preserved; pointers/source references resolve",
+    "markdown": "PASS:40 files",
+    "whitespace": "PASS",
+    "source_fidelity": "Three final summaries Supported; Indonesia wording refined and rechecked"
+  },
+  "elapsed_research_minutes": 3.7833,
+  "remaining_research_minutes": 26.2167,
+  "country_windows": {
+    "Indonesia": {
+      "started_at": "2026-09-27T14:41:59Z",
+      "completed_by": "2026-09-27T14:45:46Z",
+      "conservative_elapsed_minutes": 3.7833
+    },
+    "Thailand": {
+      "started_at": "2026-09-27T14:41:59Z",
+      "completed_by": "2026-09-27T14:45:46Z",
+      "conservative_elapsed_minutes": 3.7833
+    },
+    "Viet Nam": {
+      "started_at": "2026-09-27T14:41:59Z",
+      "completed_by": "2026-09-27T14:45:46Z",
+      "conservative_elapsed_minutes": 3.7833
+    }
+  },
+  "notification_history": [
+    "Announced scope; reported unreadable Vietnamese EN leads and Thai translation limitation."
+  ],
+  "coordination": "PR72 changes Germany and generated routing index. This batch changes shared inventory and its own logs only. Before either PR merges, regenerate routing from combined canonical records to preserve both PRs’ events."
+}

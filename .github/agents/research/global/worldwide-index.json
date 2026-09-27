@@ -7,13 +7,13 @@
     "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
     "inventory_count": 250,
     "excluded_existing_adoption_countries": 13,
-    "pending_discovery_entries": 231,
+    "pending_discovery_entries": 228,
     "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
     "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
     "baseline_page": "EN 301 549 adoption.md",
     "country_law_research_performed": true,
     "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership.",
-    "researched_this_round_entries": 6
+    "researched_this_round_entries": 9
   },
   "inventory_source": {
     "issuer": "United Nations Statistics Division",
@@ -118,9 +118,9 @@
       "id": "worldwide-en-discovery-round-1",
       "status": "in_progress",
       "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
-      "next_action": "Continue with the remaining231 pending entries; preserve follow-up questions from both batches.",
+      "next_action": "Continue with the remaining 228 pending entries; preserve follow-ups from all three batches.",
       "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research.",
-      "last_run": "world-discovery-2-2026-09-27"
+      "last_run": "world-discovery-3-2026-09-27"
     },
     {
       "id": "global-legal-mapping-existing-adoption-countries",
@@ -2816,21 +2816,113 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:go.id \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:bsn.go.id \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:go.id \"EN 301\" aksesibilitas"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Official law PDF located.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:peraturan.bpk.go.id Undang Undang 8 2016 Penyandang Disabilitas"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Article 18 text read; articles 24 and 26 located. Follow-up readers inspected sections; no failed-access retry.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://peraturan.bpk.go.id/Home/Download/26352/UU%20Nomor%208%20Tahun%202016.pdf"
+          }
+        ],
+        "sources": {
+          "source-352ed3f11a1c1aa537a65293": {
+            "issuer": "Indonesia BPK legislation portal",
+            "url": "https://peraturan.bpk.go.id/Home/Download/26352/UU%20Nomor%208%20Tahun%202016.pdf",
+            "source_type": "official_law",
+            "language": "id",
+            "passage": "Law No. 8 of 2016, article 18, PDF page 16: public-facility access and reasonable accommodation. Articles 24 and 26 also located as follow-up material. Original posted text; consolidation and implementing rules not audited.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-3-2026-09-27-360-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only. Foreign-standard listings or EU commentary do not establish national adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "indonesia-disability-law-batch3",
+            "official_title": "Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas",
+            "jurisdiction": "Indonesia",
+            "law_type": "accessibility",
+            "status": "verified",
+            "legal_status": "Posted statutory provision retrieved; current full consolidation and implementation not audited.",
+            "scope": "Article 18 of Indonesia’s Law No. 8 of 2016 identifies rights of persons with disabilities to accessibility for using public facilities and to reasonable accommodation as a form of accessibility for individuals.",
+            "relevant_provisions": [
+              "article 18"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-352ed3f11a1c1aa537a65293"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": "2026-09-27",
+            "limitations": "Verification concerns cited text only; no complete current-law or applicability audit.",
+            "next_action": "Check authoritative current text, implementing rules, scope, exceptions and commencement before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Continue EN discovery through official catalogues and local-language procurement sources in a new bounded pass.",
+          "Retain disability-law sources for future global legal mapping, including accessibility and discrimination coverage beyond the narrow provision inspected.",
+          "Routing: research-only shared intake; no public adoption, EAA monitoring, sanctions or enforcement change established."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "partial_research"
     },
     {
       "id": "m49-364",
@@ -6226,21 +6318,130 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:go.th \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:tisi.go.th \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN 301 549 result; unrelated telecom standards excluded.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:go.th \"EN 301\" accessibility"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable result.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:dep.go.th persons disabilities empowerment act 2007 section 15"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted law follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable result.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:dep.go.th \"Empowerment Act\" \"2007\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted law follow-up search",
+            "outcome": "search_lead",
+            "note": "Government-hosted translation located.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:go.th \"Persons with Disabilities Empowerment Act\" \"15\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Section 15, exception and disclaimer read. Translation is not legally authoritative.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://www.mol.go.th/wp-content/uploads/sites/2/2021/02/ENG-พรบ-ส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ-พ.ศ.-2550.pdf"
+          }
+        ],
+        "sources": {
+          "source-3f6871b3996ac3dbb80e4cf1": {
+            "issuer": "Thailand Ministry of Labour; Council of State project translation",
+            "url": "https://www.mol.go.th/wp-content/uploads/sites/2/2021/02/ENG-พรบ-ส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ-พ.ศ.-2550.pdf",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Section 15 and disclaimer, PDF page 8; English educational translation amended through 2013, marked pending approval. Prohibition includes effects without intent; paragraph 3 contains a conditional exception with remedial measures. Thai original has sole legal authority.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-3-2026-09-27-764-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only. Foreign-standard listings or EU commentary do not establish national adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "thailand-disability-law-batch3",
+            "official_title": "Empowerment of Persons with Disabilities Act, B.E. 2550 (2007), as translated with amendments through 2013",
+            "jurisdiction": "Thailand",
+            "law_type": "discrimination",
+            "status": "lead",
+            "legal_status": "Government-hosted non-authoritative translation; Thai original and current consolidation not checked.",
+            "scope": "The Ministry of Labour-hosted English translation of Thailand’s disability empowerment law describes a prohibition of unfair disability discrimination in section 15, including certain unintended effects, with a qualified exception in its third paragraph. The translation has no legal authority; the Thai original must be checked.",
+            "relevant_provisions": [
+              "section 15"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-3f6871b3996ac3dbb80e4cf1"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Verification concerns cited text only; no complete current-law or applicability audit.",
+            "next_action": "Check authoritative current text, implementing rules, scope, exceptions and commencement before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Continue EN discovery through official catalogues and local-language procurement sources in a new bounded pass.",
+          "Retain disability-law sources for future global legal mapping, including accessibility and discrimination coverage beyond the narrow provision inspected.",
+          "Routing: research-only shared intake; no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Read the authoritative Thai original, section 15 exception and later amendments; English translation alone is a legal lead."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-626",
@@ -6805,21 +7006,199 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Vietnamese bulletin references remain unreadable, unverified leads; no supported national relationship."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Standards bulletins/TBT PDF leads found; snippets alone not verified.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:gov.vn \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "First reader failure; no readable body.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://tcvn.gov.vn/wp-content/uploads/2022/04/AP62021.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "First reader failure; no readable body.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://tbt.gov.vn/wp-content/uploads/B%E1%BA%A3n-tin-2026-S1.1-final.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Second failure; stop attempts.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://tcvn.gov.vn/wp-content/uploads/2022/04/AP62021.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Second failure; stop attempts.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://tbt.gov.vn/wp-content/uploads/B%E1%BA%A3n-tin-2026-S1.1-final.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable readable alternative.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:gov.vn \"EN 301 549\" accessibility -filetype:pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable readable alternative.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:tcvn.gov.vn \"301549\" -filetype:pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Initial search returned unrelated resolution and references; not confused with the law.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:vanban.chinhphu.vn 51/2010/QH12 người khuyết tật"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted law follow-up search",
+            "outcome": "search_lead",
+            "note": "Correct official law page found.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "query": "site:vanban.chinhphu.vn \"LUẬT NGƯỜI KHUYẾT TẬT\" \"51/2010\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Article 14(1) actual text read.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://vanban.chinhphu.vn/?docid=96045&pageid=27160"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "search discovery only",
+            "outcome": "deferred",
+            "note": "Additional bulletin lead not opened.",
+            "run_id": "world-discovery-3-2026-09-27",
+            "url": "https://tcvn.gov.vn/wp-content/uploads/2020/08/AP022020.pdf"
+          }
+        ],
+        "sources": {
+          "source-bd3caf10b697ea88b5e9b9cf": {
+            "issuer": "Viet Nam Government legal-document portal",
+            "url": "https://vanban.chinhphu.vn/?docid=96045&pageid=27160",
+            "source_type": "official_law",
+            "language": "vi",
+            "passage": "Law No. 51/2010/QH12, article 14(1): prohibits stigmatization/discrimination. Original posted text; later amendments not audited. Page metadata date and passage adoption date differ; no publication-date assertion made.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-4c8c6f34aa19a2d2ca31e270": {
+            "issuer": "Viet Nam standards authority, tcvn.gov.vn",
+            "url": "https://tcvn.gov.vn/wp-content/uploads/2022/04/AP62021.pdf",
+            "source_type": "official_government",
+            "language": "vi",
+            "passage": "Search-discovered EN reference lead only. Full text not inspected; foreign-standard/EU discussion must not be treated as Vietnamese adoption. Relationship and edition remain unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "two web-reader attempts failed"
+          },
+          "source-4d98c75e022ae905e2e1e7ad": {
+            "issuer": "Viet Nam TBT Office",
+            "url": "https://tbt.gov.vn/wp-content/uploads/B%E1%BA%A3n-tin-2026-S1.1-final.pdf",
+            "source_type": "official_government",
+            "language": "vi",
+            "passage": "Search-discovered EN reference lead only. Full text not inspected; foreign-standard/EU discussion must not be treated as Vietnamese adoption. Relationship and edition remain unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "two web-reader attempts failed"
+          },
+          "source-fd5370309970dfc5c0867956": {
+            "issuer": "Viet Nam standards authority, tcvn.gov.vn",
+            "url": "https://tcvn.gov.vn/wp-content/uploads/2020/08/AP022020.pdf",
+            "source_type": "official_government",
+            "language": "vi",
+            "passage": "Search-discovered EN reference lead only. Full text not inspected; foreign-standard/EU discussion must not be treated as Vietnamese adoption. Relationship and edition remain unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unknown",
+            "method": "search discovery only; not opened"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-3-2026-09-27-704-en-search",
+            "statement": "EN reference leads found in search results, but source bodies could not be inspected; no country connection verified.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-4c8c6f34aa19a2d2ca31e270",
+              "source-4d98c75e022ae905e2e1e7ad",
+              "source-fd5370309970dfc5c0867956"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only. Foreign-standard listings or EU commentary do not establish national adoption."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "viet-nam-disability-law-batch3",
+            "official_title": "Luật người khuyết tật, số 51/2010/QH12",
+            "jurisdiction": "Viet Nam",
+            "law_type": "discrimination",
+            "status": "verified",
+            "legal_status": "Posted statutory provision retrieved; current full consolidation and implementation not audited.",
+            "scope": "Article 14(1) of Viet Nam’s Law No. 51/2010/QH12 prohibits stigmatization and discrimination against persons with disabilities.",
+            "relevant_provisions": [
+              "article 14(1)"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-bd3caf10b697ea88b5e9b9cf"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": "2026-09-27",
+            "limitations": "Verification concerns cited text only; no complete current-law or applicability audit.",
+            "next_action": "Check authoritative current text, implementing rules, scope, exceptions and commencement before public legal mapping."
+          }
+        ],
+        "questions": [
+          "Continue EN discovery through official catalogues and local-language procurement sources in a new bounded pass.",
+          "Retain disability-law sources for future global legal mapping, including accessibility and discrimination coverage beyond the narrow provision inspected.",
+          "Routing: research-only shared intake; no public adoption, EAA monitoring, sanctions or enforcement change established.",
+          "Retrieve readable copies of the three bulletin leads. Distinguish foreign-standard reporting from any national policy connection before creating a canonical country record."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "partial_research"
     },
     {
       "id": "m49-876",
