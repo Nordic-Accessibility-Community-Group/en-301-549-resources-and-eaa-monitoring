@@ -218,7 +218,7 @@
     "Turkey": "Government platform statement is only a scoped lead. Next useful action: obtain a TSE catalogue record with TS identifier, EN edition and adoption/publication date."
   },
   "notification_history": [
-    "Started bounded round; reported candidate national corrections; reported EU/NZ status and unresolved entries; draft publication notification pending."
+    "Drafts #68 and #69 created; final handoff pending."
   ],
   "infrastructure_pr": 68,
   "infrastructure_review": {
@@ -236,7 +236,9 @@
     "markdown_lint": "PASS: 39 files, zero issues",
     "verification_dates": "PASS: no last_verified markers found",
     "diff_whitespace": "PASS",
-    "rendered_html": "Pending final preview",
-    "ci": "Not yet inspected"
-  }
+    "rendered_html": "Actual GitHub preview inspected: 14 rows, six columns, date-only update cells, readable links and event line breaks. Local script unavailable (npx missing); equivalent marked rendering succeeded; legacy local Tidy emitted missing-document-wrapper and table-summary warnings.",
+    "ci": "No workflow runs returned for the initial content commit at post-publication inspection; CI not claimed."
+  },
+  "content_pr": 69,
+  "reviewed_content_head": "b5839bec01d1c2ce2cf2704bbcee53d5982fc731"
 }
