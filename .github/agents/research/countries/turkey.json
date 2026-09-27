@@ -1,0 +1,107 @@
+{
+  "schema_version": 2,
+  "country": "Turkey",
+  "jurisdiction_group": "non-EU",
+  "evidence": {},
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-turkey-inherited-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Adopted",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: obtain TSE catalogue and exact edition/date; no inspectable primary result established in bounded searches."
+        }
+      ],
+      "questions": [
+        "Follow-up: obtain TSE catalogue and exact edition/date; no inspectable primary result established in bounded searches."
+      ],
+      "attempts": [
+        {
+          "query": "\"EN 301 549\" Türkiye",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "query": "\"EN 301 549\" \"TS\" Turkey",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "89ccf995e78033f91bcabf1383a7cf850f991b525e0002149069638b91825094",
+      "public_claim_ids": [
+        "adoption-turkey-inherited-1"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-turkey-inherited-1"
+        ],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-turkey-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/turkey.json",
+          "disposition": "research_only",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Turkey"
+    }
+  ]
+}

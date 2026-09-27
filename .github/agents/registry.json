@@ -12,6 +12,11 @@
   ],
   "jurisdictions": [
     {
+      "name": "Australia",
+      "slug": "australia",
+      "group": "non-EU"
+    },
+    {
       "name": "Austria",
       "slug": "austria",
       "group": "EU"
@@ -20,6 +25,11 @@
       "name": "Belgium",
       "slug": "belgium",
       "group": "EU"
+    },
+    {
+      "name": "Brazil",
+      "slug": "brazil",
+      "group": "non-EU"
     },
     {
       "name": "Bulgaria",
@@ -97,6 +107,11 @@
       "group": "non-EU"
     },
     {
+      "name": "India",
+      "slug": "india",
+      "group": "non-EU"
+    },
+    {
       "name": "Ireland",
       "slug": "ireland",
       "group": "EU"
@@ -105,6 +120,16 @@
       "name": "Italy",
       "slug": "italy",
       "group": "EU"
+    },
+    {
+      "name": "Japan",
+      "slug": "japan",
+      "group": "non-EU"
+    },
+    {
+      "name": "Kenya",
+      "slug": "kenya",
+      "group": "non-EU"
     },
     {
       "name": "Latvia",
@@ -132,9 +157,19 @@
       "group": "EU"
     },
     {
+      "name": "Mexico",
+      "slug": "mexico",
+      "group": "non-EU"
+    },
+    {
       "name": "Netherlands",
       "slug": "netherlands",
       "group": "EU"
+    },
+    {
+      "name": "New Zealand",
+      "slug": "new zealand",
+      "group": "non-EU"
     },
     {
       "name": "Norway",
@@ -179,6 +214,11 @@
     {
       "name": "Switzerland",
       "slug": "switzerland",
+      "group": "non-EU"
+    },
+    {
+      "name": "Turkey",
+      "slug": "turkey",
       "group": "non-EU"
     },
     {

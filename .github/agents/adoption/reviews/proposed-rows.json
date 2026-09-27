@@ -1,0 +1,68 @@
+{
+  "Canada": {
+    "text": [
+      "Canada",
+      "National standard adopted",
+      "Adoption announced: 2024-05-31",
+      "V3.2.1:2021",
+      "CAN/ASC – EN 301 549:2024. The 2024 announcement describes voluntary use.Adoption announcement checked: 2026-09-27."
+    ],
+    "row_sha256": "8507f9c69c351b92919b874a3ba3693c6fbb1d6b3c6f26d83c5e09397cedc913",
+    "claim_ids": [
+      "adoption-canada-canada-adoption"
+    ]
+  },
+  "Brazil": {
+    "text": [
+      "Brazil",
+      "Referenced",
+      "",
+      "V1.1.2:2015",
+      "Supporting Brazilian source not yet established. The previously linked NMX-R-099-SCFI-2018 concerns Mexico; see the Mexico entry."
+    ],
+    "row_sha256": "9950339b64637417840d9e268e0beb3890a802918903e4c6a2241ff6ee520a63",
+    "claim_ids": [
+      "adoption-brazil-mexico-source-correction"
+    ]
+  },
+  "European Union": {
+    "text": [
+      "European Union",
+      "Published standard; WAD reference",
+      "V4.1.1 published: 2026-09-02OJ citation target: 2026-12-16",
+      "V3.2.1:2021 (WAD guidance)V4.1.1:2026 (published)",
+      "Commission WAD guidance lists V3.2.1. The ETSI schedule records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.Schedule checked: 2026-09-27."
+    ],
+    "row_sha256": "c12a597629f13f71d70408ae9cedd49e6447b032b3a33e2cc6910adcdd0caac1",
+    "claim_ids": [
+      "adoption-europe-etsi-publication",
+      "adoption-europe-wad-citation"
+    ]
+  },
+  "Mexico": {
+    "text": [
+      "Mexico",
+      "Adopted",
+      "DOF publication: 2018-11-23Entry into force: 2019-01-22",
+      "V1.1.2:2015",
+      "NMX-R-099-SCFI-2018: official catalogue; previously listed PDF (not rechecked). ICT accessibility requirements for public procurement in Mexico.Catalogue dates checked: 2026-09-27. EN edition/equivalence remains under review."
+    ],
+    "row_sha256": "d3d9684ac6e604c1f6efe16a7b002f99bfe39645b7b0239212e682cc34c3fa45",
+    "claim_ids": [
+      "adoption-mexico-mexico-date"
+    ]
+  },
+  "New Zealand": {
+    "text": [
+      "New Zealand",
+      "Draft reference",
+      "Consultation: 2026-07-13 to 2026-08-07",
+      "V4.1.1 (proposed; reference unconfirmed)",
+      "Draft Digital Accessibility Standard. Final version expected early 2027; start date and mandated agencies remain unconfirmed.Draft checked: 2026-09-27."
+    ],
+    "row_sha256": "aa0183cf00626c0ffe6e8f23a35a0627a57cdf4c7420f0ebccdab01b166bec66",
+    "claim_ids": [
+      "adoption-new-zealand-nz-reference"
+    ]
+  }
+}
