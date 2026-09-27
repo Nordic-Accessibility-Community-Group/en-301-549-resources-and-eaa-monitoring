@@ -12,6 +12,17 @@
       "retrieved_on": "2026-09-25",
       "access_result": "reachable",
       "provenance_note": "Retrieved during the bounded remaining-entry audit on 25 September 2026. Passage is an English evidence summary unless marked as a quotation."
+    },
+    "source-6b0aa6b083e89e80c5ce89ba": {
+      "issuer": "Nkom",
+      "url": "https://nkom.no/om-nkom/standardisering",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Retrieved page hosts Norwegian EN 301 549 V3.2.1 material; does not establish national commencement.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -83,7 +94,158 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-norway-inherited-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Adopted",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        },
+        {
+          "id": "adoption-norway-inherited-2",
+          "aspect": "date",
+          "statement": "2025-06-28",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "2025-06-28",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        },
+        {
+          "id": "adoption-norway-inherited-3",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "V3.2.1:2021",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        },
+        {
+          "id": "adoption-norway-lead",
+          "aspect": "reference",
+          "statement": "Retrieved page hosts Norwegian EN 301 549 V3.2.1 material; does not establish national commencement.",
+          "scope": "Research lead only; not a published adoption conclusion.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-6b0aa6b083e89e80c5ce89ba"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": null,
+          "review_note": "Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+        }
+      ],
+      "questions": [
+        "Follow-up: establish national adoption date and separate WAD/EAA/EEA applicability. The inherited 2025-06-28 date remains unverified; Nkom hosting a translation does not establish that commencement date."
+      ],
+      "attempts": [
+        {
+          "query": "site:standard.no \"EN 301 549\" 2021",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "url": "https://nkom.no/om-nkom/standardisering",
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Retrieved page hosts Norwegian EN 301 549 V3.2.1 material; does not establish national commencement."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "d41539c7b8182ca65aba474d58920cf3f27ad20d03433ac82a6e0e46645e45b6",
+      "public_claim_ids": [
+        "adoption-norway-inherited-1",
+        "adoption-norway-inherited-2",
+        "adoption-norway-inherited-3"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-norway-inherited-1"
+        ],
+        "2": [
+          "adoption-norway-inherited-2"
+        ],
+        "3": [
+          "adoption-norway-inherited-3"
+        ],
+        "4": [],
+        "5": []
+      },
+      "review_report": null
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "adoption-baseline-norway-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/norway.json",
+          "disposition": "research_only",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/norway.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Norway"
+    }
+  ]
 }

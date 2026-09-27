@@ -1,0 +1,242 @@
+{
+  "subject": "European Union",
+  "evidence": {
+    "source-ec824da771a0d0c330717c44": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-a7874518ae591831d2e00674": {
+      "issuer": "ETSI",
+      "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "REN/HF-00301561 schedule: Publication (version 4.1.1), Target 2026-09-03, Achieved 2026-09-02. Delivery to the EC: Target 2026-09-23, Achieved 2026-09-08. Citation in the OJ: Target 2026-12-16, Achieved blank. A target is not completed citation.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser; schedule columns inspected"
+    },
+    "source-bce0054b5ef6031f5d478f01": {
+      "issuer": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Technical-standard section identifies V3.2.1 as the latest harmonised WAD version on this guidance page. Publication and Official Journal citation are distinct. Guidance was last updated 5 May 2025; use exact OJ decisions for current legal effect and dates, not inconsistent date wording in this guidance.",
+      "publication_date": "2025-05-05",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "adoption": {
+    "claims": [
+      {
+        "id": "adoption-europe-inherited-1",
+        "aspect": "adoption",
+        "statement": "Adopted",
+        "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-ec824da771a0d0c330717c44"
+        ],
+        "event_dates": [],
+        "attempted_on": null,
+        "verified_on": null,
+        "next_review_due": "2026-09-28",
+        "existing_text": "Adopted",
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+      },
+      {
+        "id": "adoption-europe-inherited-2",
+        "aspect": "date",
+        "statement": "2025-06-28",
+        "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-ec824da771a0d0c330717c44"
+        ],
+        "event_dates": [],
+        "attempted_on": null,
+        "verified_on": null,
+        "next_review_due": "2026-09-28",
+        "existing_text": "2025-06-28",
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+      },
+      {
+        "id": "adoption-europe-inherited-3",
+        "aspect": "edition",
+        "statement": "V3.2.1:2021",
+        "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-ec824da771a0d0c330717c44"
+        ],
+        "event_dates": [],
+        "attempted_on": null,
+        "verified_on": null,
+        "next_review_due": "2026-09-28",
+        "existing_text": "V3.2.1:2021",
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+      },
+      {
+        "id": "adoption-europe-inherited-4",
+        "aspect": "reference",
+        "statement": "Version 4.1.1 is published and addtion to the Official Journal is planned for 2026-12-16.",
+        "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-ec824da771a0d0c330717c44"
+        ],
+        "event_dates": [],
+        "attempted_on": null,
+        "verified_on": null,
+        "next_review_due": "2026-09-28",
+        "existing_text": "Version 4.1.1 is published and addtion to the Official Journal is planned for 2026-12-16.",
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+      },
+      {
+        "id": "adoption-europe-etsi-publication",
+        "aspect": "publication",
+        "statement": "ETSI records V4.1.1 publication achieved on 2 September 2026 and targets OJ citation for 16 December 2026; no achieved citation date is recorded.",
+        "scope": "ETSI work-item schedule, not a completed OJ legal act.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-a7874518ae591831d2e00674"
+        ],
+        "event_dates": [
+          {
+            "kind": "publication",
+            "value": "2026-09-02"
+          },
+          {
+            "kind": "target",
+            "value": "2026-12-16"
+          }
+        ],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+      },
+      {
+        "id": "adoption-europe-wad-citation",
+        "aspect": "citation",
+        "statement": "Commission WAD guidance lists V3.2.1 as its harmonised reference.",
+        "scope": "Attributed WAD guidance last updated May 2025; not an EAA harmonisation claim.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-bce0054b5ef6031f5d478f01"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+      }
+    ],
+    "questions": [
+      "Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+    ],
+    "attempts": [
+      {
+        "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+        "on": "2026-09-27",
+        "method": "ordinary browser; schedule columns inspected",
+        "outcome": "reachable",
+        "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+      },
+      {
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation",
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+      }
+    ],
+    "last_monthly_review": null,
+    "last_full_review": null,
+    "public_row_sha256": "5e5189710083801c0c3891e973b95c5a525539a914171ad6416909724876787d",
+    "public_claim_ids": [
+      "adoption-europe-etsi-publication",
+      "adoption-europe-wad-citation"
+    ],
+    "public_cells": {
+      "0": [],
+      "1": [
+        "adoption-europe-etsi-publication",
+        "adoption-europe-wad-citation"
+      ],
+      "2": [
+        "adoption-europe-etsi-publication"
+      ],
+      "3": [
+        "adoption-europe-etsi-publication",
+        "adoption-europe-wad-citation"
+      ],
+      "4": [
+        "adoption-europe-etsi-publication",
+        "adoption-europe-wad-citation"
+      ],
+      "5": []
+    },
+    "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-europe-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/adoption/european-standard.json",
+          "disposition": "proposed",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": 2,
+  "country": "Brazil",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-f1c6d7715ecc67eff43716a6": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-4e21da461d0025e9ae61e47e": {
+      "issuer": "FNDE, Brazil",
+      "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/programas-do-livro/consultas-editais/editais/tecnologias-educacionais/EDITALGUIADETECNOLOGIASVERSOPUBLICADAMEC02.04.2018.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Search-only lead: section 1.1.5.3 reportedly references EN in educational-technology evaluation criteria; PDF uninspected.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "search result only"
+    },
+    "source-acaf8d1eacec853a2e2cc138": {
+      "issuer": "Secretaría de Economía, Mexico",
+      "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Main-information section: NMX-R-099-SCFI-2018 concerns ICT accessibility for public procurement in Mexico. Catalogue gives DOF publication 2018-11-23 and entry into force 2019-01-22. Equivalence metadata is not used to establish the EN edition.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-2efd67f732709435f71706bd": {
+      "issuer": "ABNT; copy hosted by the Brazilian Chamber of Deputies",
+      "url": "https://www2.camara.leg.br/a-camara/estruturaadm/gestao-na-camara-dos-deputados/responsabilidade-social-e-ambiental/acessibilidade/pdfs/ABNTNBR17225AcessibilidadeDigitalparaWeb.pdf",
+      "source_type": "official_standard_body",
+      "language": "pt-BR",
+      "passage": "Title page: first edition dated 11 March 2025. Section 1 (printed p.1) identifies website accessibility and WCAG 2.2. Section 6 (printed p.36), supporting material, links EN 301 549 V3.2.1. Bibliography item 11 (printed p.69) links V2.1.2. EN is not listed among section 2 normative references. These citations alone do not establish adoption of EN. Summary, not a verbatim quotation.",
+      "publication_date": "2025-03-11",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "PDF text reader; title, scope, normative references, section 6 and bibliography inspected; linked ETSI title pages checked. Screenshot retrieval failed."
+    },
+    "source-2d69805aba867f00f9628966": {
+      "issuer": "ETSI/CEN/CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Title page identifies EN 301 549 V3.2.1 (2021-03).",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "PDF text reader; title page"
+    },
+    "source-3d388e101a5dddd10dda2c8a": {
+      "issuer": "ETSI/CEN/CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Title page identifies EN 301 549 V2.1.2 (2018-08).",
+      "publication_date": "2018-08",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "PDF text reader; title page"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-brazil-inherited-1",
+          "aspect": "adoption",
+          "statement": "Referenced",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-f1c6d7715ecc67eff43716a6"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Referenced",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption."
+        },
+        {
+          "id": "adoption-brazil-inherited-3",
+          "aspect": "edition",
+          "statement": "V1.1.2:2015",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-f1c6d7715ecc67eff43716a6"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "V1.1.2:2015",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption. Superseded in the public row by the two editions explicitly linked in ABNT NBR 17225:2025; the earlier V1.1.2 assertion remains unverified historical provenance."
+        },
+        {
+          "id": "adoption-brazil-inherited-4",
+          "aspect": "reference",
+          "statement": "NMX-R-099-SCFI-2018",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-f1c6d7715ecc67eff43716a6"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "NMX-R-099-SCFI-2018",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption."
+        },
+        {
+          "id": "adoption-brazil-lead",
+          "aspect": "reference",
+          "statement": "Search-only lead: section 1.1.5.3 reportedly references EN in educational-technology evaluation criteria; PDF uninspected.",
+          "scope": "Research lead only; not a published adoption conclusion.",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-4e21da461d0025e9ae61e47e"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": null,
+          "review_note": "Follow-up: recover a Brazilian primary source and exact EN edition. The Mexican source is misassigned. A gov.br FNDE educational-technology procurement PDF is an unverified lead, not evidence of general adoption."
+        },
+        {
+          "id": "adoption-brazil-mexico-source-correction",
+          "aspect": "source_correction",
+          "statement": "The previously linked NMX-R-099-SCFI-2018 concerns Mexico.",
+          "scope": "Correcting a misassigned source; Brazil adoption and edition are not disproved.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-acaf8d1eacec853a2e2cc138"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        },
+        {
+          "id": "adoption-brazil-abnt-first-edition",
+          "aspect": "publication",
+          "statement": "ABNT NBR 17225:2025 first edition is dated 11 March 2025.",
+          "scope": "Specific references in ABNT NBR 17225:2025; no general legal obligation or equivalence established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-2efd67f732709435f71706bd"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2025-03-11"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User supplied Brazilian primary document in a new bounded follow-up. Independent no-history Portuguese/English wording check supported the exact new row. Older assertions and sources retained as history."
+        },
+        {
+          "id": "adoption-brazil-abnt-en-references",
+          "aspect": "reference",
+          "statement": "ABNT NBR 17225:2025 covers web accessibility based on WCAG 2.2; section 6 links EN V3.2.1 as supporting material and bibliography item 11 links V2.1.2. These references alone do not establish EN adoption.",
+          "scope": "Specific references in ABNT NBR 17225:2025; no general legal obligation or equivalence established.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-2efd67f732709435f71706bd",
+            "source-2d69805aba867f00f9628966",
+            "source-3d388e101a5dddd10dda2c8a"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "User supplied Brazilian primary document in a new bounded follow-up. Independent no-history Portuguese/English wording check supported the exact new row. Older assertions and sources retained as history."
+        }
+      ],
+      "questions": [
+        "Determine whether a separate instrument establishes EN adoption, equivalence or legal obligations; this standard reference does not settle that question.",
+        "The earlier FNDE procurement lead remains uninspected; investigate only if needed for a separately scoped claim."
+      ],
+      "attempts": [
+        {
+          "query": "site:abnt.org.br \"EN 301 549\"",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "query": "\"EN 301 549\" Brasil norma",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/programas-do-livro/consultas-editais/editais/tecnologias-educacionais/EDITALGUIADETECNOLOGIASVERSOPUBLICADAMEC02.04.2018.pdf",
+          "on": "2026-09-27",
+          "method": "search result only",
+          "outcome": "search_lead",
+          "note": "Search-only lead: section 1.1.5.3 reportedly references EN in educational-technology evaluation criteria; PDF uninspected."
+        },
+        {
+          "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+        },
+        {
+          "url": "https://www2.camara.leg.br/a-camara/estruturaadm/gestao-na-camara-dos-deputados/responsabilidade-social-e-ambiental/acessibilidade/pdfs/ABNTNBR17225AcessibilidadeDigitalparaWeb.pdf",
+          "on": "2026-09-27",
+          "method": "PDF text reader; title, scope, normative references, section 6 and bibliography inspected; linked ETSI title pages checked. Screenshot retrieval failed.",
+          "outcome": "reachable",
+          "note": "Bounded follow-up on user-supplied source; exact relationship and edition identity checked."
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+          "on": "2026-09-27",
+          "method": "PDF text reader; title page",
+          "outcome": "reachable",
+          "note": "Bounded follow-up on user-supplied source; exact relationship and edition identity checked."
+        },
+        {
+          "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf",
+          "on": "2026-09-27",
+          "method": "PDF text reader; title page",
+          "outcome": "reachable",
+          "note": "Bounded follow-up on user-supplied source; exact relationship and edition identity checked."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "1bf7f83933864bb8d8227b6ea4f183c4813785c3b0dd15f157f41a3479eb2bce",
+      "public_claim_ids": [
+        "adoption-brazil-abnt-first-edition",
+        "adoption-brazil-abnt-en-references"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-brazil-abnt-en-references"
+        ],
+        "2": [
+          "adoption-brazil-abnt-first-edition"
+        ],
+        "3": [
+          "adoption-brazil-abnt-en-references"
+        ],
+        "4": [
+          "adoption-brazil-abnt-en-references"
+        ],
+        "5": []
+      },
+      "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+    }
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-brazil-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/brazil.json",
+          "disposition": "proposed",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Brazil"
+    },
+    {
+      "id": "adoption-brazil-abnt-reference-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/brazil.json",
+          "disposition": "proposed",
+          "reason": "ABNT standard now provides direct evidence for EN references and first-edition date.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/66"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "ABNT reference check establishes no new monitoring authority, sanction or enforcement case for this destination.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "ABNT reference check establishes no new monitoring authority, sanction or enforcement case for this destination.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "ABNT reference check establishes no new monitoring authority, sanction or enforcement case for this destination.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Brazil"
+    }
+  ]
+}

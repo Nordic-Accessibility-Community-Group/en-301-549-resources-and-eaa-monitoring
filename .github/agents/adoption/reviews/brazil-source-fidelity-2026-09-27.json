@@ -1,0 +1,50 @@
+{
+  "reviewer": "brazil_wording (separate agent)",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "source_languages": [
+    "pt-BR",
+    "en"
+  ],
+  "scope": "Brazil row only; title, section 1, section 2, section 6 and bibliography item 11, plus linked ETSI title pages. No broader legal applicability review.",
+  "sources": [
+    "https://www2.camara.leg.br/a-camara/estruturaadm/gestao-na-camara-dos-deputados/responsabilidade-social-e-ambiental/acessibilidade/pdfs/ABNTNBR17225AcessibilidadeDigitalparaWeb.pdf",
+    "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+    "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf"
+  ],
+  "comparisons": [
+    {
+      "original": "Primeira edição; 11.03.2025",
+      "literal": "First edition; 11 March 2025",
+      "verdict": "Supported"
+    },
+    {
+      "original": "Material de apoio",
+      "literal": "Supporting material",
+      "verdict": "Supported"
+    },
+    {
+      "original": "Bibliografia",
+      "literal": "Bibliography",
+      "verdict": "Supported"
+    }
+  ],
+  "findings": "Scope identifies WCAG 2.2. Section 6 provides technical guidance and tools; EN is absent from section 2 normative references. Linked title pages independently confirm V3.2.1 and V2.1.2. References alone do not establish adoption is a limited inference, not a claim of no adoption anywhere. Check date is editorial metadata.",
+  "rows": {
+    "Brazil": {
+      "row_sha256": "1a58c70b0d9848c8e153a69ac2823398c1e1f8dc2dafcdaa3ffcd20844b5484b",
+      "claim_ids": [
+        "adoption-brazil-abnt-first-edition",
+        "adoption-brazil-abnt-en-references"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Brazil",
+        "Referenced",
+        "ABNT first edition: 2025-03-11",
+        "V3.2.1 (supporting material); V2.1.2 (bibliography)",
+        "ABNT NBR 17225:2025 covers web accessibility based on WCAG 2.2. Section 6 links EN 301 549 V3.2.1 as supporting material; bibliography item 11 links V2.1.2. These references alone do not establish adoption of EN 301 549.Reference details checked: 2026-09-27."
+      ]
+    }
+  }
+}

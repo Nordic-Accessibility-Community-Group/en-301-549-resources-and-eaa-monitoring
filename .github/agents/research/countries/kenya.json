@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "country": "Kenya",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-6e7877c9ca61fa6ba4149421": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-ff3dac63f0695b66d4c945f0": {
+      "issuer": "ICT Authority, Kenya",
+      "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Search-only lead; foreword and exact EN relationship need inspection.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "search result only"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-kenya-inherited-1",
+          "aspect": "adoption",
+          "statement": "Referenced",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-6e7877c9ca61fa6ba4149421"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Referenced",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        },
+        {
+          "id": "adoption-kenya-inherited-3",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-6e7877c9ca61fa6ba4149421"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "V3.2.1:2021",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        },
+        {
+          "id": "adoption-kenya-inherited-4",
+          "aspect": "reference",
+          "statement": "KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-6e7877c9ca61fa6ba4149421"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        },
+        {
+          "id": "adoption-kenya-lead",
+          "aspect": "reference",
+          "statement": "Search-only lead; foreword and exact EN relationship need inspection.",
+          "scope": "Research lead only; not a published adoption conclusion.",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-ff3dac63f0695b66d4c945f0"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": null,
+          "review_note": "Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        }
+      ],
+      "questions": [
+        "Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+      ],
+      "attempts": [
+        {
+          "query": "\"KS 2952\" site:icta.go.ke",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf",
+          "on": "2026-09-27",
+          "method": "search result only",
+          "outcome": "search_lead",
+          "note": "Search-only lead; foreword and exact EN relationship need inspection."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "66e09e80d3abd9bb4068416279d10b9ea62e45cfba48f574b124389676ef7a64",
+      "public_claim_ids": [
+        "adoption-kenya-inherited-1",
+        "adoption-kenya-inherited-3",
+        "adoption-kenya-inherited-4"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-kenya-inherited-1"
+        ],
+        "2": [],
+        "3": [
+          "adoption-kenya-inherited-3"
+        ],
+        "4": [
+          "adoption-kenya-inherited-4"
+        ],
+        "5": []
+      },
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-kenya-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kenya.json",
+          "disposition": "research_only",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Kenya"
+    }
+  ]
+}
