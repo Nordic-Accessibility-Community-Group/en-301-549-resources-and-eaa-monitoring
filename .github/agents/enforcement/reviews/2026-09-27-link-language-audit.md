@@ -16,7 +16,7 @@ Shared presentation rules require `hreflang` for established destination languag
 
 Public visible wording and URLs are unchanged. Markdown links with known destination languages use equivalent HTML anchors. Three pre-existing blank-line boundaries inside reviewed Finland, France and Ireland enforcement rows were removed because Markdown otherwise exposed some cell HTML as code instead of rendering the links. Rendered comparison across all 11 pages, with those pre-existing boundaries normalised on the baseline side, confirms unchanged text, destinations and document structure apart from `hreflang`.
 
-Sanctions reviewed-row hashes and enforcement reviewed-row hashes are refreshed without changing legal verification dates, evidence or claims. Frozen baselines and inherited statuses are untouched. A shared digest helper permits only added `hreflang` attributes when removing them restores the exact previously accepted row bytes; altered text, href, lang or other attributes do not qualify. Adoption uses the same helper so historical evidence/wording reports are not rewritten as fresh reviews. The independent reviewer must inspect this narrow preservation rule.
+Sanctions reviewed-row hashes and enforcement reviewed-row hashes are refreshed without changing legal verification dates, evidence or claims. Frozen baselines and inherited statuses are untouched. A shared digest helper permits only added `hreflang` attributes when removing them restores the exact previously accepted row bytes; altered text, href, lang or other attributes do not qualify. Adoption uses the same helper so historical evidence/wording reports are not rewritten as fresh reviews. The independent reviewer confirmed this narrow preservation rule.
 
 ## Open PRs and final-batch follow-up
 
@@ -26,10 +26,16 @@ Sanctions reviewed-row hashes and enforcement reviewed-row hashes are refreshed 
 
 The user requested a final pass after the active Analyze EN 301 549 updates task completes its last batch. A coordination request was delivered to that task. Heartbeat `final-en-link-language-audit` is active, checks hourly, stays quiet during research/unchanged state, and pauses after the requested final audit. It must inspect actual final PR heads rather than treating this snapshot as the last batch.
 
-Before merge, refresh against any merged #70/#71/#72 changes, preserving all evidence and regenerating only generated indexes where needed. This PR does not merge anything, change facts or change watcher runtime state.
+Before merge, the task preparing this PR for merge must refresh against any merged #70/#71/#72 changes, preserve all evidence and regenerate only generated indexes where needed. Completion requires resolving overlapping fields, rerunning the applicable validators and link-language check, and recording the resulting head and results in the PR. The final-batch heartbeat owns the later #71 link-language recheck; it does not approve a merge. Documented unresolved destinations are nonblocking follow-up unless a specific omission is shown to prevent publication. This PR does not merge anything, change facts or change watcher runtime state.
 
 ## Validation
 
 Shared country/schema/domain/routing validation passes: 44 countries, 749 claims, 52 events. Link-language coverage check passes with the explicit unresolved counts above. Enforcement: 28 tests; sanctions: 5; adoption: 22; link-language parser/coverage: 2; current-storage tests: 8 — all pass. The separate frozen migration test rejects the intentionally updated sanctions row hashes; it is an original-migration acceptance test, not a factual/editorial-update check. Its frozen manifest is unchanged.
 
 Markdownlint and verification-date checks pass. Rendered preservation and whitespace checks pass. GitHub CI and the independent actual-PR review are reported separately after publication. No translation of new factual wording was introduced, so isolated source-to-wording and B2 reviews are not applicable; destination-language evidence is recorded in the audit.
+
+## Independent actual-head review
+
+An independent reviewer inspected GitHub PR #73 at `f9c64b5c47427a29a4d3fb49606ba234099b2bda`, tree `b537046a0aea4222adc4b595bca1428d49f22da0`, and found no blocking issues. The remote tree matched the reviewed local tree. All 567 destinations and decoded labels were preserved across 11 pages; other text was unchanged after whitespace normalization. Country-record changes were limited to sanctions row hashes. Link-language (2), enforcement (28) and adoption (22) tests and all three domain validators passed independently. The reviewer confirmed supported language decisions remain separate from retrieval failures and other explicit gaps.
+
+The current parser covers inline Markdown links and double-quoted HTML anchors, not reference-style Markdown or other HTML attribute quoting. All current public-page links were accounted for; future syntax expansion must extend coverage before claiming a complete audit. This is a presentation/infrastructure review, not renewed legal research or live revalidation of every source. GitHub reported zero check runs at the reviewed head, so GitHub CI remains unconfirmed. This review-record follow-up changes only this report.
