@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr65-ready-73216a00",
+    "acquired_at": "2026-09-27T12:11:34.150Z",
+    "expires_at": "2026-09-27T12:41:34.150Z",
+    "delivery_ids": [
+      "73216a00-ba6c-11f1-8f0f-c94e9ba4f131"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
