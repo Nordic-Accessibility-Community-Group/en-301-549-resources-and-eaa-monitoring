@@ -49,15 +49,31 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches. Round 2: Public wording retained; this attempt did not establish the inherited claim. No inspectable ÍST catalogue source located; inherited adoption unchanged. Next useful action: locate a precise national identifier/catalogue entry or supplied primary evidence, not repeated generic searches."
+        },
+        {
+          "id": "adoption-iceland-round2-catalogue-search",
+          "aspect": "adoption",
+          "statement": "No inspectable national catalogue record was located in the bounded searches.",
+          "scope": "Search outcome only; inherited adoption is retained as unknown, not disproved.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches."
+        "Follow-up: obtain an Icelandic Standards catalogue entry and separately establish WAD/EEA legal scope; no precise primary result established in bounded searches.",
+        "Round 2 (2026-09-27): No inspectable ÍST catalogue source located; inherited adoption unchanged. Next useful action: locate a precise national identifier/catalogue entry or supplied primary evidence, not repeated generic searches."
       ],
       "attempts": [
         {
@@ -73,6 +89,38 @@
           "method": "official-source web search",
           "outcome": "search_lead",
           "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"301549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:stadlar.is \"EN 301 549\" \"ÍST\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "\"ÍST EN 301\" accessibility"
         }
       ],
       "last_monthly_review": null,
@@ -131,6 +179,48 @@
           "record": ".github/agents/research/countries/iceland.json",
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Iceland"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-iceland",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/iceland.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

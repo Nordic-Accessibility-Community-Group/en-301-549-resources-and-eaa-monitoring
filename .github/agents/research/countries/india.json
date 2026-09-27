@@ -24,6 +24,17 @@
       "accessed_on": null,
       "access": "unknown",
       "method": "search result only"
+    },
+    "source-34b79b59c98ce9cb953640e2": {
+      "issuer": "Bureau of Indian Standards; copy hosted by Broadband India Forum",
+      "url": "https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Cover and Foreword, PDF pages 1–2: IS 17802 (Part 1):2021, December 2021, technical adoption of EN 301 549 V3.2.1. Changes address Indian regulatory references and official languages; technical coverage otherwise identical. Publisher-authored standard on a third-party host; no assertion of mandatory application. Personal watermark details excluded.",
+      "publication_date": "2021-12",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -40,11 +51,11 @@
             "source-d85c6bc114994eae639e7b68"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication."
         },
         {
           "id": "adoption-india-inherited-3",
@@ -57,11 +68,11 @@
             "source-d85c6bc114994eae639e7b68"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V3.2.1:2021",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication."
         },
         {
           "id": "adoption-india-lead",
@@ -79,10 +90,84 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected."
+        },
+        {
+          "id": "adoption-india-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Adopted with national adaptations",
+          "scope": "Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-34b79b59c98ce9cb953640e2"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-india-round2-cell-2",
+          "aspect": "date",
+          "statement": "Published: 2021-12",
+          "scope": "Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-34b79b59c98ce9cb953640e2"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2021-12"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-india-round2-cell-3",
+          "aspect": "edition",
+          "statement": "V3.2.1",
+          "scope": "Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-34b79b59c98ce9cb953640e2"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-india-round2-cell-4",
+          "aspect": "reference",
+          "statement": "IS 17802 (Part 1):2021. Technical adoption with adaptations for Indian regulatory references and official languages; technical coverage otherwise identical.",
+          "scope": "Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-34b79b59c98ce9cb953640e2"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected."
+        "Follow-up: inspect BIS IS 17802 Part 1, amendments and exact EN basis; the BIS programme-of-work result suggests a modified/technically equivalent relationship, but its PDF was not inspected.",
+        "Round 2 (2026-09-27): Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication."
       ],
       "attempts": [
         {
@@ -98,30 +183,58 @@
           "method": "search result only",
           "outcome": "search_lead",
           "note": "Search-only lead for IS 17802 (Part 1):2021; no PDF verification."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Cover and Foreword, PDF pages 1–2: IS 17802 (Part 1):2021, December 2021, technical adoption of EN 301 549 V3.2.1. Changes address Indian regulatory references and official languages; technical coverage otherwise identical. Publisher-authored standard on a third-party host; no assertion of mandatory application. Personal watermark details excluded.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Direct candidate URL failed; existing BIF-hosted BIS standard was readable. No retries of this candidate.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.bis.gov.in/wp-content/uploads/2022/02/IS-17802-Part-1-2021.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:bis.gov.in \"17802\" \"301\""
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "f1f84a04db87dc9f2da9e7179479cde84af2df8c1905b939a59ddec7b893cfb9",
+      "public_row_sha256": "7114c6ae3b70637f3a212ba2d917667c5adb0d1d78374e16c0d26b7845be2ebb",
       "public_claim_ids": [
-        "adoption-india-inherited-1",
-        "adoption-india-inherited-3"
+        "adoption-india-round2-cell-1",
+        "adoption-india-round2-cell-2",
+        "adoption-india-round2-cell-3",
+        "adoption-india-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-india-inherited-1"
+          "adoption-india-round2-cell-1"
         ],
-        "2": [],
+        "2": [
+          "adoption-india-round2-cell-2"
+        ],
         "3": [
-          "adoption-india-inherited-3"
+          "adoption-india-round2-cell-3"
         ],
         "4": [
-          "adoption-india-inherited-1"
-        ],
-        "5": []
+          "adoption-india-round2-cell-4"
+        ]
       },
-      "review_report": null
+      "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -161,6 +274,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-india",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/india.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

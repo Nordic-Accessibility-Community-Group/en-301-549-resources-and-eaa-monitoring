@@ -13,6 +13,28 @@
       "accessed_on": null,
       "access": "unknown",
       "method": "search result only"
+    },
+    "source-0a0f07a2f2fe46438aae914c": {
+      "issuer": "eCH",
+      "url": "https://www.ech.ch/de/ech/ech-0059/3.0",
+      "source_type": "official_standard_body",
+      "language": "de",
+      "passage": "eCH-0059 version 3.0 catalogue: approved 4 June 2020, published 25 June 2020; WCAG 2.1 basis. This does not establish an EN 301 549 reference.",
+      "publication_date": "2020-06-25",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-34faec60b1e82316ddc29c28": {
+      "issuer": "eCH",
+      "url": "https://www.ech.ch/sites/default/files/dosvers/hauptdokument/STAN_d_DEF_2020-05-19_eCH-0059_V3.0_Accessibility%20Standard.pdf",
+      "source_type": "official_standard_body",
+      "language": "de",
+      "passage": "eCH-0059 version 3.0 PDF inspected and searched for 301; no matching passage found. Limited text search, not evidence of absence of a national adoption/reference elsewhere.",
+      "publication_date": "2020-05-19",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -61,11 +83,11 @@
           "status": "unknown",
           "source_refs": [],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Referenced",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead. Round 2: Public wording retained; this attempt did not establish the inherited claim. eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549."
         },
         {
           "id": "adoption-switzerland-lead",
@@ -83,10 +105,29 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+        },
+        {
+          "id": "adoption-switzerland-round2-ech-lead",
+          "aspect": "reference",
+          "statement": "eCH-0059 version 3.0 is based on WCAG 2.1; its relationship to the inherited EN reference remains unresolved.",
+          "scope": "Retrieved catalogue/PDF do not settle national EN adoption or reference.",
+          "stage": "final",
+          "status": "unknown",
+          "source_refs": [
+            "source-0a0f07a2f2fe46438aae914c",
+            "source-34faec60b1e82316ddc29c28"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+        "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead.",
+        "Round 2 (2026-09-27): eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549."
       ],
       "attempts": [
         {
@@ -102,6 +143,38 @@
           "method": "search result only",
           "outcome": "search_lead",
           "note": "Search-only lead for a legislative proposal; not enacted-law evidence."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "eCH-0059 version 3.0 catalogue: approved 4 June 2020, published 25 June 2020; WCAG 2.1 basis. This does not establish an EN 301 549 reference.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.ech.ch/de/ech/ech-0059/3.0"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "eCH-0059 version 3.0 PDF inspected and searched for 301; no matching passage found. Limited text search, not evidence of absence of a national adoption/reference elsewhere.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.ech.ch/sites/default/files/dosvers/hauptdokument/STAN_d_DEF_2020-05-19_eCH-0059_V3.0_Accessibility%20Standard.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:ech.ch \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "\"EN 301 549\" Switzerland eCH 0059"
         }
       ],
       "last_monthly_review": null,
@@ -160,6 +233,48 @@
           "record": ".github/agents/research/countries/switzerland.json",
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Switzerland"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-switzerland",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

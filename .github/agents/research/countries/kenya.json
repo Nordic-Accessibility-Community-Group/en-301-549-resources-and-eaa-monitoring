@@ -24,6 +24,17 @@
       "accessed_on": null,
       "access": "unknown",
       "method": "search result only"
+    },
+    "source-4389d0a4b16a4ebdfa0f93d7": {
+      "issuer": "ICT Authority (linked host)",
+      "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Linked KS 2952 PDF was not readable in the web reader or ordinary browser. No standard text was verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unreachable",
+      "method": "web reader then one ordinary-browser attempt"
     }
   },
   "domains": {
@@ -40,11 +51,11 @@
             "source-6e7877c9ca61fa6ba4149421"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Referenced",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass. Round 2: Public wording retained; this attempt did not establish the inherited claim. Both reader and one ordinary-browser attempt left the linked PDF unreadable. Follow-up: locate an accessible ICT Authority or KEBS copy of KS 2952-1:2022 and inspect the foreword, edition relationship and status; do not infer from filename."
         },
         {
           "id": "adoption-kenya-inherited-3",
@@ -57,11 +68,11 @@
             "source-6e7877c9ca61fa6ba4149421"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V3.2.1:2021",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass. Round 2: Public wording retained; this attempt did not establish the inherited claim. Both reader and one ordinary-browser attempt left the linked PDF unreadable. Follow-up: locate an accessible ICT Authority or KEBS copy of KS 2952-1:2022 and inspect the foreword, edition relationship and status; do not infer from filename."
         },
         {
           "id": "adoption-kenya-inherited-4",
@@ -74,11 +85,11 @@
             "source-6e7877c9ca61fa6ba4149421"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass. Round 2: Public wording retained; this attempt did not establish the inherited claim. Both reader and one ordinary-browser attempt left the linked PDF unreadable. Follow-up: locate an accessible ICT Authority or KEBS copy of KS 2952-1:2022 and inspect the foreword, edition relationship and status; do not infer from filename."
         },
         {
           "id": "adoption-kenya-lead",
@@ -96,10 +107,28 @@
           "next_review_due": "2026-09-28",
           "existing_text": null,
           "review_note": "Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        },
+        {
+          "id": "adoption-kenya-round2-access",
+          "aspect": "reference",
+          "statement": "The inherited linked standard could not be read in this round.",
+          "scope": "Access outcome only; inherited reference and edition are not disproved.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-4389d0a4b16a4ebdfa0f93d7"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass."
+        "Follow-up: inspect KS 2952-1:2022 foreword, exact EN reference and current KEBS catalogue status; the official PDF lead has not been read in this pass.",
+        "Round 2 (2026-09-27): Both reader and one ordinary-browser attempt left the linked PDF unreadable. Follow-up: locate an accessible ICT Authority or KEBS copy of KS 2952-1:2022 and inspect the foreword, edition relationship and status; do not infer from filename."
       ],
       "attempts": [
         {
@@ -115,6 +144,30 @@
           "method": "search result only",
           "outcome": "search_lead",
           "note": "Search-only lead; foreword and exact EN relationship need inspection."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "First attempt: linked PDF not readable; no source text inspected.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "official-source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources and limitations recorded separately. Search strings reconstructed from this round tool history; no snippet treated as evidence.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "query": "site:kebs.org \"2952\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser",
+          "outcome": "unreachable",
+          "note": "Second attempt: PDF tab remained empty; no readable text. Stopped after the one browser fallback.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf"
         }
       ],
       "last_monthly_review": null,
@@ -179,6 +232,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Kenya"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-kenya",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kenya.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

@@ -1,0 +1,231 @@
+{
+  "reviewer": "round_source_fidelity (separate agent)",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "source_languages": [
+    "en",
+    "ja",
+    "es",
+    "nn"
+  ],
+  "scope": "Seven final rows; exact text, links and dates below. Independent reviewer received neutral brief, sources and proposed wording only.",
+  "rows": {
+    "Australia": {
+      "row_sha256": "993cf1a53ec977cc31e626c9554af2070cdb5921ee55f8110e89af298a392507",
+      "claim_ids": [
+        "adoption-australia-round2-cell-1",
+        "adoption-australia-round2-cell-2",
+        "adoption-australia-round2-cell-3",
+        "adoption-australia-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Australia",
+        "Adopted (identical)",
+        "Published: 2024-11-01",
+        "EN 301 549:2021",
+        "AS EN 301 549:2024. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    },
+    "Japan": {
+      "row_sha256": "888baddf1587904d7c2fd0ca403938237551c8a1d5becbf961aff3c8bf7d6def",
+      "claim_ids": [
+        "adoption-japan-round2-cell-1",
+        "adoption-japan-round2-cell-2",
+        "adoption-japan-round2-cell-3",
+        "adoption-japan-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Japan",
+        "Technical report / translation",
+        "Report established: 2019-03",
+        "V1.1.2",
+        "JEITA CPR-6201 introduces EN 301 549 and includes a Japanese translation of V1.1.2 in an annex.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    },
+    "India": {
+      "row_sha256": "7114c6ae3b70637f3a212ba2d917667c5adb0d1d78374e16c0d26b7845be2ebb",
+      "claim_ids": [
+        "adoption-india-round2-cell-1",
+        "adoption-india-round2-cell-2",
+        "adoption-india-round2-cell-3",
+        "adoption-india-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "India",
+        "Adopted with national adaptations",
+        "Published: 2021-12",
+        "V3.2.1",
+        "IS 17802 (Part 1):2021. Technical adoption with adaptations for Indian regulatory references and official languages; technical coverage otherwise identical.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    },
+    "United Kingdom": {
+      "row_sha256": "e8912ee18f05b611b80709eb84756f69941ef17a6279e2815e1152ce0ab8645e",
+      "claim_ids": [
+        "adoption-united-kingdom-round2-cell-1",
+        "adoption-united-kingdom-round2-cell-2",
+        "adoption-united-kingdom-round2-cell-3",
+        "adoption-united-kingdom-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "United Kingdom",
+        "Adopted",
+        "Published: 2021-06-30",
+        "EN 301 549:2021",
+        "BS EN 301 549:2021. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    },
+    "Mexico": {
+      "row_sha256": "8ed548e465217351e3f20281ffce7576514d2252e7f80c54e9f376f6ee9fdddb",
+      "claim_ids": [
+        "adoption-mexico-round2-cell-1",
+        "adoption-mexico-round2-cell-2",
+        "adoption-mexico-round2-cell-3",
+        "adoption-mexico-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Mexico",
+        "Modified adoption",
+        "DOF publication: 2018-11-23Entry into force: 2019-01-22",
+        "V1.1.2:2015",
+        "NMX-R-099-SCFI-2018. Modified adoption of EN 301 549 V1.1.2:2015 for public procurement in Mexico.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    },
+    "Norway": {
+      "row_sha256": "d39640aac54e9ea535b5e1fbbdead64c121d6f734385d9ccfaca7537d8daf274",
+      "claim_ids": [
+        "adoption-norway-round2-cell-1",
+        "adoption-norway-round2-cell-2",
+        "adoption-norway-inherited-3",
+        "adoption-norway-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Norway",
+        "Referenced in public-sector web rules",
+        "Additional WAD requirements: 2023-02-01",
+        "V3.2.1:2021",
+        "Uu-tilsynet identifies EN 301 549 V3.2.1 for public-sector websites and apps; the 12 additional WCAG success criteria and accessibility-statement requirement apply from 1 February 2023.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only. Updated date is editorial. Norway unchanged :2021 suffix retained from baseline, not independently established in this review."
+    },
+    "European Union": {
+      "row_sha256": "e7d13d0f1ddf95143ea09ed62f7817c17502e06161986ec19eca2ecc32241ec6",
+      "claim_ids": [
+        "adoption-europe-round2-cell-1",
+        "adoption-europe-round2-cell-2",
+        "adoption-europe-round2-cell-3",
+        "adoption-europe-round2-cell-4"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "European Union",
+        "Published standard; WAD reference",
+        "V3.2.1 WAD citation: 2021-08-12V4.1.1 published: 2026-09-02OJ citation target: 2026-12-16",
+        "V3.2.1:2021 (WAD citation)V4.1.1:2026 (published)",
+        "Decision (EU) 2021/1339 cites V3.2.1 for the WAD. The ETSI schedule records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.",
+        "2026-09-27"
+      ],
+      "limits": "Source-to-wording fidelity only; no blanket legal applicability or authenticity certification. Updated date is editorial."
+    }
+  },
+  "comparisons": [
+    {
+      "row": "Australia",
+      "sections": "Catalogue description and Content history",
+      "original_excerpt": "identically adopts EN 301 549:2021",
+      "literal_rendering": "The 2024 Australian standard identically adopts the 2021 EN edition; catalogue marks the 2020 predecessor superseded.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Australian day/month date interpreted as 1 November 2024.",
+      "source_urls": [
+        "https://store.standards.org.au/product/as-en-301-549-2024"
+      ]
+    },
+    {
+      "row": "Japan",
+      "sections": "Cover; contents; section 1 (PDF pp. 1, 2, 4)",
+      "original_excerpt": "2019 年 3月制定",
+      "literal_rendering": "Established March 2019. The report introduces EN and includes a Japanese V1.1.2 translation annex.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Initial issued label corrected to established; unsupported European year suffix omitted.",
+      "source_urls": [
+        "https://webdesk.jsa.or.jp/preview/pre_JEITA_CPR-6201_2019_j_ch.pdf"
+      ]
+    },
+    {
+      "row": "India",
+      "sections": "Cover and Foreword (PDF pp. 1–2)",
+      "original_excerpt": "The technical coverage is otherwise identical.",
+      "literal_rendering": "Technical adoption with limited adaptations to Indian regulatory references and official languages.",
+      "verdict": "Supported",
+      "corrections_and_limits": "European year suffix omitted because the inspected foreword gives V3.2.1 only.",
+      "source_urls": [
+        "https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf"
+      ]
+    },
+    {
+      "row": "United Kingdom",
+      "sections": "BSI catalogue; national foreword (PDF p. 2)",
+      "original_excerpt": "UK implementation of EN 301549:2021",
+      "literal_rendering": "UK implementation; the 2019 British predecessor is withdrawn; publication 30 June 2021.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Final edition uses the explicit EN year designation, not an inferred version mapping.",
+      "source_urls": [
+        "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
+        "https://webstore.ansi.org/preview-pages/BSI/preview_30431599.pdf"
+      ]
+    },
+    {
+      "row": "Mexico",
+      "sections": "Standard cover/preface and official catalogue dates",
+      "original_excerpt": "adopción modificada",
+      "literal_rendering": "Modified adoption of the Spanish-language European standard; procurement scope in Mexico.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Catalogue equivalence fields conflict; public relationship follows the explicit standard preface.",
+      "source_urls": [
+        "https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf",
+        "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/"
+      ]
+    },
+    {
+      "row": "Norway",
+      "sections": "Delt regelverk for nettløysingar / Offentleg sektor",
+      "original_excerpt": "frå 1. februar 2023",
+      "literal_rendering": "From 1 February 2023; context limits the new duties to 12 extra WCAG criteria and an accessibility statement.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Initial broad additional-requirements explanation narrowed to name the specific requirements; inherited edition year also corroborated by EU decision.",
+      "source_urls": [
+        "https://www.uutilsynet.no/regelverk/kva-seier-forskrifta/153"
+      ]
+    },
+    {
+      "row": "European Union",
+      "sections": "OJ header, recitals 1–5, Annex row 2; ETSI Publication and Citation milestones",
+      "original_excerpt": "EN 301 549 V3.2.1 (2021-03)",
+      "literal_rendering": "WAD reference published 12 August 2021; ETSI records newer publication achieved and OJ citation only targeted.",
+      "verdict": "Supported",
+      "corrections_and_limits": "Blank schedule field is not proof of absence of citation elsewhere; no EAA citation claim.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng",
+        "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282"
+      ]
+    }
+  ],
+  "isolation_details": "New agent fork_turns=none. Only neutral language brief, original-source pointers/context and exact proposed wording supplied; no repository research conclusions or workflow history. Corrected final wording rechecked. Human maintainer review not performed.",
+  "links_note": "Original passages and source URLs were reviewed. HTML links attach those URLs to the exact reviewed prose; Updated date is editorial metadata. Historical sources remain in canonical evidence."
+}

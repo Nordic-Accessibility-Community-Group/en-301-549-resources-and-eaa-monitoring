@@ -24,6 +24,28 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-96665b7cd060e80577f34714": {
+      "issuer": "Secretaría de Economía, Dirección General de Normas; copy hosted by CEDH Nuevo León",
+      "url": "https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Cover and Prefacio, PDF pages 1–2: NMX-R-099-SCFI-2018 concerns ICT accessibility requirements suitable for public procurement in Mexico; explicitly a modified adoption of the Spanish version of EN 301 549 V1.1.2:2015, adapted to Mexican language and law. Does not itself establish compulsory procurement use.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-bb4299326b307344440b0315": {
+      "issuer": "Secretaría de Economía",
+      "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "NMX-R-099-SCFI-2018 catalogue: publication in DOF 23 November 2018; entry into force 22 January 2019; status vigente. Catalogue equivalence fields are inconsistent (NEQ and Idéntica); the standard preface, not those fields, supports modified adoption.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -40,11 +62,11 @@
             "source-732c227e5ed91dda141203b4"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Adopted",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately."
         },
         {
           "id": "adoption-mexico-inherited-3",
@@ -57,11 +79,11 @@
             "source-732c227e5ed91dda141203b4"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "V1.1.2:2015",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately."
         },
         {
           "id": "adoption-mexico-inherited-4",
@@ -74,11 +96,11 @@
             "source-732c227e5ed91dda141203b4"
           ],
           "event_dates": [],
-          "attempted_on": null,
+          "attempted_on": "2026-09-27",
           "verified_on": null,
-          "next_review_due": "2026-09-28",
+          "next_review_due": "2026-10-04",
           "existing_text": "Accessibility requirements suitable for public procurement of information and communications technology (ICT) products and services in Mexico.",
-          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately."
         },
         {
           "id": "adoption-mexico-mexico-date",
@@ -105,10 +127,88 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        },
+        {
+          "id": "adoption-mexico-round2-cell-1",
+          "aspect": "adoption",
+          "statement": "Modified adoption",
+          "scope": "Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-96665b7cd060e80577f34714"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-mexico-round2-cell-2",
+          "aspect": "date",
+          "statement": "DOF publication: 2018-11-23Entry into force: 2019-01-22",
+          "scope": "Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-bb4299326b307344440b0315"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2018-11-23"
+            },
+            {
+              "kind": "effective",
+              "value": "2019-01-22"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-mexico-round2-cell-3",
+          "aspect": "edition",
+          "statement": "V1.1.2:2015",
+          "scope": "Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-96665b7cd060e80577f34714"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        },
+        {
+          "id": "adoption-mexico-round2-cell-4",
+          "aspect": "reference",
+          "statement": "NMX-R-099-SCFI-2018. Modified adoption of EN 301 549 V1.1.2:2015 for public procurement in Mexico.",
+          "scope": "Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-96665b7cd060e80577f34714"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
         }
       ],
       "questions": [
-        "Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+        "Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check.",
+        "Round 2 (2026-09-27): Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately."
       ],
       "attempts": [
         {
@@ -117,33 +217,50 @@
           "method": "web reader",
           "outcome": "reachable",
           "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Cover and Prefacio, PDF pages 1–2: NMX-R-099-SCFI-2018 concerns ICT accessibility requirements suitable for public procurement in Mexico; explicitly a modified adoption of the Spanish version of EN 301 549 V1.1.2:2015, adapted to Mexican language and law. Does not itself establish compulsory procurement use.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "NMX-R-099-SCFI-2018 catalogue: publication in DOF 23 November 2018; entry into force 22 January 2019; status vigente. Catalogue equivalence fields are inconsistent (NEQ and Idéntica); the standard preface, not those fields, supports modified adoption.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "d0ef909817c509824eec47a6fc8141978f3e08a259703ffe4cfccc09cdeb0a5d",
+      "public_row_sha256": "8ed548e465217351e3f20281ffce7576514d2252e7f80c54e9f376f6ee9fdddb",
       "public_claim_ids": [
-        "adoption-mexico-inherited-1",
-        "adoption-mexico-mexico-date",
-        "adoption-mexico-inherited-3"
+        "adoption-mexico-round2-cell-1",
+        "adoption-mexico-round2-cell-2",
+        "adoption-mexico-round2-cell-3",
+        "adoption-mexico-round2-cell-4"
       ],
       "public_cells": {
         "0": [],
+        "5": [],
         "1": [
-          "adoption-mexico-inherited-1"
+          "adoption-mexico-round2-cell-1"
         ],
         "2": [
-          "adoption-mexico-mexico-date"
+          "adoption-mexico-round2-cell-2"
         ],
         "3": [
-          "adoption-mexico-inherited-3"
+          "adoption-mexico-round2-cell-3"
         ],
         "4": [
-          "adoption-mexico-mexico-date"
-        ],
-        "5": []
+          "adoption-mexico-round2-cell-4"
+        ]
       },
-      "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+      "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
     }
   },
   "deliveries": [
@@ -183,6 +300,48 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Mexico"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-mexico",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/mexico.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

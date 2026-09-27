@@ -33,6 +33,28 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-9f91cff7242e92d7593b7701": {
+      "issuer": "European Commission / Official Journal",
+      "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "Decision (EU) 2021/1339, OJ L 289 of 12 August 2021, pages 53–55: recitals 1–5 concern WAD Directive (EU) 2016/2102; Annex inserts reference EN 301 549 V3.2.1 (2021-03). Article 2 enters into force on publication; withdrawal of predecessor reference applies from 12 February 2022. This source establishes the 2021 WAD citation, not a V4.1.1 EAA citation.",
+      "publication_date": "2021-08-12",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser; full decision and annex inspected"
+    },
+    "source-a9fda83268683c7cb00f3cd7": {
+      "issuer": "ETSI",
+      "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Schedule WKI_ID 64282: Publication V4.1.1 Target 2026-09-03, Achieved 2026-09-02; Delivery to EC Target 2026-09-23, Achieved 2026-09-08; Citation in OJ Target 2026-12-16, Achieved blank. Rechecked in this round; target is not a completed citation.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser; target/achieved columns inspected"
     }
   },
   "adoption": {
@@ -48,11 +70,11 @@
           "source-ec824da771a0d0c330717c44"
         ],
         "event_dates": [],
-        "attempted_on": null,
+        "attempted_on": "2026-09-27",
         "verified_on": null,
-        "next_review_due": "2026-09-28",
+        "next_review_due": "2026-10-04",
         "existing_text": "Adopted",
-        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
       },
       {
         "id": "adoption-europe-inherited-2",
@@ -65,11 +87,11 @@
           "source-ec824da771a0d0c330717c44"
         ],
         "event_dates": [],
-        "attempted_on": null,
+        "attempted_on": "2026-09-27",
         "verified_on": null,
-        "next_review_due": "2026-09-28",
+        "next_review_due": "2026-10-04",
         "existing_text": "2025-06-28",
-        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
       },
       {
         "id": "adoption-europe-inherited-3",
@@ -82,11 +104,11 @@
           "source-ec824da771a0d0c330717c44"
         ],
         "event_dates": [],
-        "attempted_on": null,
+        "attempted_on": "2026-09-27",
         "verified_on": null,
-        "next_review_due": "2026-09-28",
+        "next_review_due": "2026-10-04",
         "existing_text": "V3.2.1:2021",
-        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
       },
       {
         "id": "adoption-europe-inherited-4",
@@ -99,11 +121,11 @@
           "source-ec824da771a0d0c330717c44"
         ],
         "event_dates": [],
-        "attempted_on": null,
+        "attempted_on": "2026-09-27",
         "verified_on": null,
-        "next_review_due": "2026-09-28",
+        "next_review_due": "2026-10-04",
         "existing_text": "Version 4.1.1 is published and addtion to the Official Journal is planned for 2026-12-16.",
-        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+        "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted. Round 2: Superseded in the public row by narrowly sourced claims; retained here as provenance. Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
       },
       {
         "id": "adoption-europe-etsi-publication",
@@ -147,10 +169,96 @@
         "next_review_due": "2026-10-04",
         "existing_text": null,
         "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+      },
+      {
+        "id": "adoption-europe-round2-cell-1",
+        "aspect": "adoption",
+        "statement": "Published standard; WAD reference",
+        "scope": "Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-9f91cff7242e92d7593b7701",
+          "source-a9fda83268683c7cb00f3cd7"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+      },
+      {
+        "id": "adoption-europe-round2-cell-2",
+        "aspect": "date",
+        "statement": "V3.2.1 WAD citation: 2021-08-12V4.1.1 published: 2026-09-02OJ citation target: 2026-12-16",
+        "scope": "Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-9f91cff7242e92d7593b7701",
+          "source-a9fda83268683c7cb00f3cd7"
+        ],
+        "event_dates": [
+          {
+            "kind": "citation",
+            "value": "2021-08-12"
+          },
+          {
+            "kind": "publication",
+            "value": "2026-09-02"
+          },
+          {
+            "kind": "target",
+            "value": "2026-12-16"
+          }
+        ],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+      },
+      {
+        "id": "adoption-europe-round2-cell-3",
+        "aspect": "edition",
+        "statement": "V3.2.1:2021 (WAD citation)V4.1.1:2026 (published)",
+        "scope": "Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-9f91cff7242e92d7593b7701",
+          "source-a9fda83268683c7cb00f3cd7"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+      },
+      {
+        "id": "adoption-europe-round2-cell-4",
+        "aspect": "reference",
+        "statement": "Decision (EU) 2021/1339 cites V3.2.1 for the WAD. The ETSI schedule records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.",
+        "scope": "Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-9f91cff7242e92d7593b7701",
+          "source-a9fda83268683c7cb00f3cd7"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-27",
+        "verified_on": "2026-09-27",
+        "next_review_due": "2026-10-04",
+        "existing_text": null,
+        "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
       }
     ],
     "questions": [
-      "Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted."
+      "Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted.",
+      "Round 2 (2026-09-27): Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
     ],
     "attempts": [
       {
@@ -166,35 +274,58 @@
         "method": "web reader",
         "outcome": "reachable",
         "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser; full decision and annex inspected",
+        "outcome": "reachable",
+        "note": "Decision (EU) 2021/1339, OJ L 289 of 12 August 2021, pages 53–55: recitals 1–5 concern WAD Directive (EU) 2016/2102; Annex inserts reference EN 301 549 V3.2.1 (2021-03). Article 2 enters into force on publication; withdrawal of predecessor reference applies from 12 February 2022. This source establishes the 2021 WAD citation, not a V4.1.1 EAA citation.",
+        "run_id": "adoption-round-2-2026-09-27",
+        "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "ordinary browser; target/achieved columns inspected",
+        "outcome": "reachable",
+        "note": "Schedule WKI_ID 64282: Publication V4.1.1 Target 2026-09-03, Achieved 2026-09-02; Delivery to EC Target 2026-09-23, Achieved 2026-09-08; Citation in OJ Target 2026-12-16, Achieved blank. Rechecked in this round; target is not a completed citation.",
+        "run_id": "adoption-round-2-2026-09-27",
+        "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Initial web-reader response empty/challenged; the one ordinary-browser fallback succeeded, recorded separately.",
+        "run_id": "adoption-round-2-2026-09-27",
+        "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"
       }
     ],
     "last_monthly_review": null,
     "last_full_review": null,
-    "public_row_sha256": "5e5189710083801c0c3891e973b95c5a525539a914171ad6416909724876787d",
+    "public_row_sha256": "e7d13d0f1ddf95143ea09ed62f7817c17502e06161986ec19eca2ecc32241ec6",
     "public_claim_ids": [
-      "adoption-europe-etsi-publication",
-      "adoption-europe-wad-citation"
+      "adoption-europe-round2-cell-1",
+      "adoption-europe-round2-cell-2",
+      "adoption-europe-round2-cell-3",
+      "adoption-europe-round2-cell-4"
     ],
     "public_cells": {
       "0": [],
+      "5": [],
       "1": [
-        "adoption-europe-etsi-publication",
-        "adoption-europe-wad-citation"
+        "adoption-europe-round2-cell-1"
       ],
       "2": [
-        "adoption-europe-etsi-publication"
+        "adoption-europe-round2-cell-2"
       ],
       "3": [
-        "adoption-europe-etsi-publication",
-        "adoption-europe-wad-citation"
+        "adoption-europe-round2-cell-3"
       ],
       "4": [
-        "adoption-europe-etsi-publication",
-        "adoption-europe-wad-citation"
-      ],
-      "5": []
+        "adoption-europe-round2-cell-4"
+      ]
     },
-    "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+    "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
   },
   "deliveries": [
     {
@@ -233,6 +364,47 @@
           "record": null,
           "disposition": "not_applicable",
           "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-european-union",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/adoption/european-standard.json",
+          "disposition": "proposed",
+          "reason": "Supported public correction and preserved history.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
           "pr": null
         }

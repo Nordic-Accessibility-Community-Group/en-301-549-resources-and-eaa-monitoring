@@ -13,11 +13,11 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   </tr>
   <tr>
     <td>Australia</td>
-    <td>Adopted</td>
-    <td>2020</td>
-    <td>V3.1.1:2019</td>
-    <td><a href="https://www.normsplash.com/Samples/AS/184992232/AS-EN-301-549-2020-en.pdf">AS EN 301 549:2020</a></td>
-    <td></td>
+    <td>Adopted (identical)</td>
+    <td>Published: 2024-11-01</td>
+    <td>EN 301 549:2021</td>
+    <td><a href="https://store.standards.org.au/product/as-en-301-549-2024">AS EN 301 549:2024</a>. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Canada</td>
@@ -38,9 +38,9 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   <tr>
     <td>European Union</td>
     <td>Published standard; WAD reference</td>
-    <td>V4.1.1 published: 2026-09-02<br>OJ citation target: 2026-12-16</td>
-    <td>V3.2.1:2021 (WAD guidance)<br>V4.1.1:2026 (published)</td>
-    <td><a href="https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation">Commission WAD guidance</a> lists V3.2.1. The <a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282">ETSI schedule</a> records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.</td>
+    <td>V3.2.1 WAD citation: 2021-08-12<br>V4.1.1 published: 2026-09-02<br>OJ citation target: 2026-12-16</td>
+    <td>V3.2.1:2021 (WAD citation)<br>V4.1.1:2026 (published)</td>
+    <td><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng">Decision (EU) 2021/1339</a> cites V3.2.1 for the <a href="https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation">WAD</a>. The <a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282">ETSI schedule</a> records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.</td>
     <td>2026-09-27</td>
   </tr>
   <tr>
@@ -53,23 +53,19 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   </tr>
   <tr>
     <td>India</td>
-    <td>Adopted</td>
-    <td></td>
-    <td>V3.2.1:2021</td>
-    <td>
-      <a href="https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf">Source document (PDF)</a>
-    </td>
+    <td>Adopted with national adaptations</td>
+    <td>Published: 2021-12</td>
+    <td>V3.2.1</td>
+    <td><a href="https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf">IS 17802 (Part 1):2021</a>. Technical adoption with adaptations for Indian regulatory references and official languages; technical coverage otherwise identical.</td>
     <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Japan</td>
-    <td>Adopted</td>
-    <td></td>
-    <td>V1.1.2:2015</td>
-    <td>
-      <a href="https://www.jeita.or.jp/japanese/standard/book/CPR-6201_J/#target/page_no=1">JEITA CPR-6201</a>
-    </td>
-    <td></td>
+    <td>Technical report / translation</td>
+    <td>Report established: 2019-03</td>
+    <td>V1.1.2</td>
+    <td><a href="https://webdesk.jsa.or.jp/preview/pre_JEITA_CPR-6201_2019_j_ch.pdf">JEITA CPR-6201</a> introduces EN 301 549 and includes a Japanese translation of V1.1.2 in an annex.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Kenya</td>
@@ -83,10 +79,10 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   </tr>
   <tr>
     <td>Mexico</td>
-    <td>Adopted</td>
+    <td>Modified adoption</td>
     <td>DOF publication: 2018-11-23<br>Entry into force: 2019-01-22</td>
     <td>V1.1.2:2015</td>
-    <td><a href="https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/">NMX-R-099-SCFI-2018: official catalogue</a>; <a href="https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf">previously listed PDF (not rechecked)</a>. ICT accessibility requirements for public procurement in Mexico. EN edition/equivalence remains under review.</td>
+    <td><a href="https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/">NMX-R-099-SCFI-2018</a>. <a href="https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf">Modified adoption of EN 301 549 V1.1.2:2015 for public procurement in Mexico</a>.</td>
     <td>2026-09-27</td>
   </tr>
   <tr>
@@ -99,11 +95,11 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   </tr>
   <tr>
     <td>Norway</td>
-    <td>Adopted</td>
-    <td>2025-06-28</td>
+    <td>Referenced in public-sector web rules</td>
+    <td>Additional WAD requirements: 2023-02-01</td>
     <td>V3.2.1:2021</td>
-    <td></td>
-    <td></td>
+    <td><a href="https://www.uutilsynet.no/regelverk/kva-seier-forskrifta/153">Uu-tilsynet</a> identifies EN 301 549 V3.2.1 for public-sector websites and apps; the 12 additional WCAG success criteria and accessibility-statement requirement apply from 1 February 2023.</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Switzerland</td>
@@ -124,10 +120,10 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
   <tr>
     <td>United Kingdom</td>
     <td>Adopted</td>
-    <td></td>
-    <td>V3.2.1:2021</td>
-    <td></td>
-    <td></td>
+    <td>Published: 2021-06-30</td>
+    <td>EN 301 549:2021</td>
+    <td><a href="https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2">BS EN 301 549:2021</a>. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.</td>
+    <td>2026-09-27</td>
   </tr>
 </table>
 
