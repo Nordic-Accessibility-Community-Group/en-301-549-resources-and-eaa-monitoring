@@ -12,6 +12,11 @@
   ],
   "jurisdictions": [
     {
+      "name": "Angola",
+      "slug": "angola",
+      "group": "non-EU"
+    },
+    {
       "name": "Australia",
       "slug": "australia",
       "group": "non-EU"
@@ -35,6 +40,11 @@
       "name": "Bulgaria",
       "slug": "bulgaria",
       "group": "EU"
+    },
+    {
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "group": "non-EU"
     },
     {
       "name": "Canada",
@@ -67,6 +77,11 @@
       "group": "EU"
     },
     {
+      "name": "Egypt",
+      "slug": "egypt",
+      "group": "non-EU"
+    },
+    {
       "name": "Estonia",
       "slug": "estonia",
       "group": "EU"
@@ -90,6 +105,11 @@
       "name": "Germany",
       "slug": "germany",
       "group": "EU"
+    },
+    {
+      "name": "Ghana",
+      "slug": "ghana",
+      "group": "non-EU"
     },
     {
       "name": "Greece",
@@ -249,6 +269,11 @@
     {
       "name": "Uruguay",
       "slug": "uruguay",
+      "group": "non-EU"
+    },
+    {
+      "name": "Zimbabwe",
+      "slug": "zimbabwe",
       "group": "non-EU"
     },
     {

@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Ghana",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-40798c0996dfba9ebae28c89": {
+      "issuer": "Ghana Ministry of Gender, Children and Social Protection",
+      "url": "https://www.mogcsp.gov.gh/department-of-social-developments/",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Listed in departmental legal framework; statute and current amendments not inspected.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-f318e7b3ba5534f9ff819b20": {
+      "issuer": "DAAD",
+      "url": "https://www.daad-ghana.org/en/accessibility-declaration/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "DAAD’s Ghana website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Ghana adopting the standard. No EN edition is specified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-ghana-discovery-reference",
+          "aspect": "reference",
+          "statement": "DAAD’s Ghana website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Ghana adopting the standard. No EN edition is specified.",
+          "scope": "foreign institution regional website",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-f318e7b3ba5534f9ff819b20"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact reference read; issuer is not national adoption authority. Isolated source-fidelity review: discovery-5-review-2026-09-27.json. No public row."
+        }
+      ],
+      "questions": [
+        "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+        "Map both accessibility and discrimination laws in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change supported.",
+        "Legal mapping lead source-40798c0996dfba9ebae28c89: Persons with Disability Act, 2006 (Act 715). Listed in departmental legal framework; statute and current amendments not inspected."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Broad discovery only; institutional/commercial hits require source context.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "\"Ghana\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "site:gov.gh \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Listed in departmental legal framework; statute and current amendments not inspected.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://www.mogcsp.gov.gh/department-of-social-developments/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "DAAD’s Ghana website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Ghana adopting the standard. No EN edition is specified.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://www.daad-ghana.org/en/accessibility-declaration/"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "site:mogcsp.gov.gh Persons Disability Act 715",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-5-2026-09-27-ghana",
+      "country": "Ghana",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/ghana.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

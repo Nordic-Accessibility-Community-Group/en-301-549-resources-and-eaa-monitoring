@@ -2,6 +2,48 @@
   "version": 1,
   "events": [
     {
+      "id": "world-discovery-5-2026-09-27-angola",
+      "country": "Angola",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/angola.json",
+          "disposition": "research_only",
+          "reason": "private purchase-order terms",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-australia-2026-09-27",
       "destinations": [
         {
@@ -291,6 +333,48 @@
       "country": "Brazil"
     },
     {
+      "id": "world-discovery-5-2026-09-27-cameroon",
+      "country": "Cameroon",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/cameroon.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "ca-accessibility-commissioner-inspections-2025-2026",
       "country": "Canada",
       "recorded_on": "2026-09-25",
@@ -488,6 +572,48 @@
       ]
     },
     {
+      "id": "world-discovery-5-2026-09-27-egypt",
+      "country": "Egypt",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/egypt.json",
+          "disposition": "research_only",
+          "reason": "corporate group accessibility policy",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
       "id": "estonia-ttja-20260925",
       "country": "Estonia",
       "recorded_on": "2026-09-25",
@@ -669,6 +795,48 @@
           "next_action": "No public change proposed from this claim.",
           "pr": null,
           "domain": "sanctions"
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-ghana",
+      "country": "Ghana",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/ghana.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
         }
       ]
     },
@@ -2305,6 +2473,48 @@
           "disposition": "not_applicable",
           "reason": "No supported EAA destination change from this foreign-country discovery.",
           "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-zimbabwe",
+      "country": "Zimbabwe",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/zimbabwe.json",
+          "disposition": "research_only",
+          "reason": "corporate demonstration-site contextual reference",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
           "pr": 71
         }
       ]

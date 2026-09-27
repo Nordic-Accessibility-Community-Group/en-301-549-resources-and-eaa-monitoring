@@ -7,13 +7,13 @@
     "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
     "inventory_count": 250,
     "excluded_existing_adoption_countries": 13,
-    "pending_discovery_entries": 218,
+    "pending_discovery_entries": 198,
     "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
     "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
     "baseline_page": "EN 301 549 adoption.md",
     "country_law_research_performed": true,
     "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership.",
-    "researched_this_round_entries": 19
+    "researched_this_round_entries": 39
   },
   "inventory_source": {
     "issuer": "United Nations Statistics Division",
@@ -118,9 +118,9 @@
       "id": "worldwide-en-discovery-round-1",
       "status": "in_progress",
       "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
-      "next_action": "Continue with the remaining 218 pending entries; preserve follow-ups from all four batches.",
+      "next_action": "Continue with 198 pending entries; preserve follow-ups from all five batches.",
       "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research.",
-      "last_run": "world-discovery-4-2026-09-27"
+      "last_run": "world-discovery-5-2026-09-27"
     },
     {
       "id": "global-legal-mapping-existing-adoption-countries",
@@ -152,9 +152,12 @@
       "country_ids": [
         "m49-704",
         "m49-032",
-        "m49-170"
+        "m49-170",
+        "m49-834",
+        "m49-894",
+        "m49-800"
       ],
-      "purpose": "Resolve unverified EN301549 references through deeper primary-source research; Vietnamese bulletins plus Argentine hosted publications and a Colombian purchase-order attachment.",
+      "purpose": "Resolve unverified EN 301 549 references through deeper primary-source research, preserving the recorded scope and access limitations of every lead.",
       "scope": "Recorded unverified EN reference leads; extend this task with further leads found in later discovery batches.",
       "leads": [
         {
@@ -205,6 +208,45 @@
             {
               "source_ref": "source-a735f60ef32953b347adc64c",
               "url": "https://operaciones.colombiacompra.gov.co/sites/cce_public/files/documentos_adicionales_oc/documentos_oc_92485.pdf"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-834",
+          "country": "United Republic of Tanzania",
+          "finding_ids": [
+            "world-discovery-5-2026-09-27-834-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-33d3921ea6e7a88f70430583",
+              "url": "https://tbs.go.tz/uploads/publications/en-1739785247-EDC%206%20%283227%29DTZS%20Communications%20and%20ICT%20products%20and%20services%20accessibility%20to%20persons%20with%20disabilities%20requirements.pdf"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-894",
+          "country": "Zambia",
+          "finding_ids": [
+            "world-discovery-5-2026-09-27-894-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-b865763973ed2bc1d2b8a069",
+              "url": "https://archive.gazettes.africa/archive/zm/2020/zm-government-gazette-dated-2020-03-06-no-6851.pdf"
+            }
+          ]
+        },
+        {
+          "country_id": "m49-800",
+          "country": "Uganda",
+          "finding_ids": [
+            "world-discovery-5-2026-09-27-800-en"
+          ],
+          "sources": [
+            {
+              "source_ref": "source-c86d6031e6f88a86ed81ac10",
+              "url": "https://www.motortrader.co.ug/legal/accessibility/"
             }
           ]
         }
@@ -358,22 +400,20 @@
       "iso_alpha3": "AGO",
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/angola.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/angola.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-angola-discovery-reference"
+        ],
+        "relationship": "private purchase-order terms",
+        "scope_note": "Institutional/corporate reference only; national adoption not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-660",
@@ -1076,21 +1116,105 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Botswana\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.bw \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "The posted Persons with Disability Act, 2024 (No. 6) provides for commencement by ministerial order in the Gazette. This source alone does not establish whether such an order has since been issued.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.gov.bw/sites/default/files/2025-03/Act%20No%206%20of%202024%20PERSONS%20WITH%20DISABILITY%20%281%29.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:gov.bw \"Disability\" \"Act\" 2024",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-3b6225d0c6e1b40e0e2cefe9": {
+            "issuer": "Government of Botswana",
+            "url": "https://www.gov.bw/sites/default/files/2025-03/Act%20No%206%20of%202024%20PERSONS%20WITH%20DISABILITY%20%281%29.pdf",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "The posted Persons with Disability Act, 2024 (No. 6) provides for commencement by ministerial order in the Gazette. This source alone does not establish whether such an order has since been issued.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-072-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-072-law",
+            "official_title": "Persons with Disability Act, 2024 (No. 6)",
+            "jurisdiction": "Botswana",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [
+              "section 1 (commencement only)"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-3b6225d0c6e1b40e0e2cefe9"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "The posted Persons with Disability Act, 2024 (No. 6) provides for commencement by ministerial order in the Gazette. This source alone does not establish whether such an order has since been issued.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-074",
@@ -1349,22 +1473,20 @@
       "iso_alpha3": "CMR",
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/cameroon.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/cameroon.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-cameroon-discovery-reference"
+        ],
+        "relationship": "foreign institution regional website",
+        "scope_note": "Institutional/corporate reference only; national adoption not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-124",
@@ -2551,22 +2673,20 @@
       "iso_alpha3": "EGY",
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/egypt.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/egypt.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-egypt-discovery-reference"
+        ],
+        "relationship": "corporate group accessibility policy",
+        "scope_note": "Institutional/corporate reference only; national adoption not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-222",
@@ -2702,21 +2822,111 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Ethiopia\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.et \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Bilingual catalogue heading read; statute provisions not mapped.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://justice.gov.et/am/law/right-to-employment-of-persons-with-disability-proclamation/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:moj.gov.et disability proclamation 568 2008",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Ethiopia right employment persons disabilities proclamation 568 2008 ministry justice",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-996b0eeaae64eb486136d636": {
+            "issuer": "Ethiopia Ministry of Justice",
+            "url": "https://justice.gov.et/am/law/right-to-employment-of-persons-with-disability-proclamation/",
+            "source_type": "official_government",
+            "language": "am/en",
+            "passage": "Bilingual catalogue heading read; statute provisions not mapped.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-231-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-231-law",
+            "official_title": "Right to Employment of Persons with Disability Proclamation No. 568/2008",
+            "jurisdiction": "Ethiopia",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-996b0eeaae64eb486136d636"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Bilingual catalogue heading read; statute provisions not mapped.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-238",
@@ -3026,22 +3236,20 @@
       "iso_alpha3": "GHA",
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/ghana.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/ghana.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-ghana-discovery-reference"
+        ],
+        "relationship": "foreign institution regional website",
+        "scope_note": "Institutional/corporate reference only; national adoption not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-292",
@@ -4526,21 +4734,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Malawi\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.mw \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Download page labelled Disability Act dated 7 April 2025; attachment not inspected. Resolve exact year/title against statute, rather than treating webpage date as enactment.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://mhrcmw.org/download/disability-act/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Malawi Persons with Disabilities Act 2024 government",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-e5c1680e508fd13e344e8f0b": {
+            "issuer": "Malawi Human Rights Commission",
+            "url": "https://mhrcmw.org/download/disability-act/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Download page labelled Disability Act dated 7 April 2025; attachment not inspected. Resolve exact year/title against statute, rather than treating webpage date as enactment.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-454-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-454-law",
+            "official_title": "Disability Act; 2024 Persons with Disability legislation lead",
+            "jurisdiction": "Malawi",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-e5c1680e508fd13e344e8f0b"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Download page labelled Disability Act dated 7 April 2025; attachment not inspected. Resolve exact year/title against statute, rather than treating webpage date as enactment.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-458",
@@ -4724,21 +5014,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Mauritius\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:govmu.org \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Official list also names Building Control accessibility regulations 2017 amended 2022 and points to Supreme Court for latest law. Bodies not inspected.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://govmu.org/EN/infoservices/socialsecurity/Pages/legislation.aspx"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:govmu.org Protection Promotion Rights Persons Disabilities Act 2024",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-dfe844c7f572492f649e0629": {
+            "issuer": "Government of Mauritius",
+            "url": "https://govmu.org/EN/infoservices/socialsecurity/Pages/legislation.aspx",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Official list also names Building Control accessibility regulations 2017 amended 2022 and points to Supreme Court for latest law. Bodies not inspected.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-480-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-480-law",
+            "official_title": "Protection and Promotion of the Rights of Persons with Disabilities Act 2024",
+            "jurisdiction": "Mauritius",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-dfe844c7f572492f649e0629"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Official list also names Building Control accessibility regulations 2017 amended 2022 and points to Supreme Court for latest law. Bodies not inspected.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-175",
@@ -4925,21 +5297,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Morocco\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.ma \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Historical action-plan page; use only as law discovery, retrieve current official statute and implementing rules.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://social.gov.ma/deuxieme-axe-plan-daction-national-pour-la-promotion-des-droits-des-personnes-en-situation-de-handicap-2017-2021/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:social.gov.ma loi cadre 97.13 handicap",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-2fc500a3601bb82ae9c47be6": {
+            "issuer": "Morocco Ministry of Solidarity",
+            "url": "https://social.gov.ma/deuxieme-axe-plan-daction-national-pour-la-promotion-des-droits-des-personnes-en-situation-de-handicap-2017-2021/",
+            "source_type": "official_government",
+            "language": "fr",
+            "passage": "Historical action-plan page; use only as law discovery, retrieve current official statute and implementing rules.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-504-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-504-law",
+            "official_title": "Loi-cadre 97-13 relative à la protection des droits des personnes en situation de handicap",
+            "jurisdiction": "Morocco",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-2fc500a3601bb82ae9c47be6"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Historical action-plan page; use only as law discovery, retrieve current official statute and implementing rules.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-508",
@@ -4950,21 +5404,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Mozambique\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.mz \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Gazette heading and article 1 read; no full current-law audit. Mirror provenance retained.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://faolex.fao.org/docs/pdf/moz228091.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Mozambique lei 10 2024 pessoas deficiencia governo",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-d195f7c02c80e605e250eb6c": {
+            "issuer": "Mozambique Boletim da República; FAO-hosted facsimile",
+            "url": "https://faolex.fao.org/docs/pdf/moz228091.pdf",
+            "source_type": "official_government",
+            "language": "pt",
+            "passage": "Gazette heading and article 1 read; no full current-law audit. Mirror provenance retained.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-508-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-508-law",
+            "official_title": "Lei n.º 10/2024 de 7 de Junho",
+            "jurisdiction": "Mozambique",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-d195f7c02c80e605e250eb6c"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Gazette heading and article 1 read; no full current-law audit. Mirror provenance retained.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-104",
@@ -5000,21 +5536,111 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Namibia\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.na \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Council legal-document catalogue read; linked statute and amendments not inspected.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://ndcn.com.na/legislation-documents/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:parliament.na National Disability Council Act 26 2004",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Namibia National Disability Council Act 2004 government",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-9731923c7b3d926dfb386474": {
+            "issuer": "National Disability Council of Namibia",
+            "url": "https://ndcn.com.na/legislation-documents/",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Council legal-document catalogue read; linked statute and amendments not inspected.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-516-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-516-law",
+            "official_title": "National Disability Council Act 2004",
+            "jurisdiction": "Namibia",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-9731923c7b3d926dfb386474"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Council legal-document catalogue read; linked statute and amendments not inspected.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-520",
@@ -5202,21 +5828,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Nigeria\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.ng \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "PDF reader failed; search lead only.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://ncpwd.gov.ng/pdfs/48document.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:ncpwd.gov.ng Discrimination Persons Disabilities Prohibition Act 2018",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-f53abaaa49696ed4d1ad72b0": {
+            "issuer": "Nigeria NCPWD",
+            "url": "https://ncpwd.gov.ng/pdfs/48document.pdf",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "PDF reader failed; search lead only.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-566-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-566-law",
+            "official_title": "Discrimination Against Persons with Disabilities (Prohibition) Act 2018",
+            "jurisdiction": "Nigeria",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-f53abaaa49696ed4d1ad72b0"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "PDF reader failed; search lead only.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-570",
@@ -6061,21 +6769,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Rwanda\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.rw \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "NCPD-hosted service standards quote law, including page 23. Original statute/current consolidation not inspected.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.ncpd.gov.rw/index.php?eID=dumpFile&f=110145&t=f&token=025eb30dbd62156e5abc2196895244b3b8f5fd16"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:ncpd.gov.rw law 01 2007 disabilities",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-218e9caaa0aa17c36bd2d6e5": {
+            "issuer": "Rwanda NCPD",
+            "url": "https://www.ncpd.gov.rw/index.php?eID=dumpFile&f=110145&t=f&token=025eb30dbd62156e5abc2196895244b3b8f5fd16",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "NCPD-hosted service standards quote law, including page 23. Original statute/current consolidation not inspected.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-646-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-646-law",
+            "official_title": "Law No. 01/2007 of 20 January 2007 relating to protection of persons with disabilities in general",
+            "jurisdiction": "Rwanda",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-218e9caaa0aa17c36bd2d6e5"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "NCPD-hosted service standards quote law, including page 23. Original statute/current consolidation not inspected.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-638",
@@ -6386,21 +7176,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Senegal\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gouv.sn \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "PDF reader failed; title is search metadata only.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/11/Senegal_Loi-d%E2%80%99orientation-sociale.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Senegal loi 2010-15 orientation sociale personnes handicapees gouvernement",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-410db69631a4357c1bb3b60f": {
+            "issuer": "Senegal Journal Officiel; UN-hosted lead",
+            "url": "https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/11/Senegal_Loi-d%E2%80%99orientation-sociale.pdf",
+            "source_type": "official_government",
+            "language": "fr",
+            "passage": "PDF reader failed; title is search metadata only.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-686-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-686-law",
+            "official_title": "Loi d’orientation sociale n° 2010-15 du 6 juillet 2010",
+            "jurisdiction": "Senegal",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-410db69631a4357c1bb3b60f"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "PDF reader failed; title is search metadata only.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-688",
@@ -6436,21 +7308,111 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Seychelles\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.sc \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Third-party archived law lead; reader failed. Obtain official text and check replacement/repeal.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://archive.dredf.org/legal-advocacy/international-disability-rights/international-laws/seychelles-national-council-for-disabled-persons-act/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Seychelles persons disabilities act government 2024",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Seychelles National Council Disabled Persons Act government",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-1df49ad6b0ce903c98b4ab4e": {
+            "issuer": "DREDF archive; original Seychelles issuer not checked",
+            "url": "https://archive.dredf.org/legal-advocacy/international-disability-rights/international-laws/seychelles-national-council-for-disabled-persons-act/",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Third-party archived law lead; reader failed. Obtain official text and check replacement/repeal.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-690-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-690-law",
+            "official_title": "National Council for Disabled Persons Act",
+            "jurisdiction": "Seychelles",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-1df49ad6b0ce903c98b4ab4e"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Third-party archived law lead; reader failed. Obtain official text and check replacement/repeal.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-694",
@@ -7489,21 +8451,103 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Tunisia\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:gov.tn \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Reader failed; search catalogue lists original and amendment. Obtain current text.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.social.gov.tn/fr/legislations?keyword=&page=2&service=All"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:social.gov.tn loi 2005 83 handicap",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-4e234375314ab61d6f17af5e": {
+            "issuer": "Tunisia Ministry of Social Affairs",
+            "url": "https://www.social.gov.tn/fr/legislations?keyword=&page=2&service=All",
+            "source_type": "official_government",
+            "language": "fr",
+            "passage": "Reader failed; search catalogue lists original and amendment. Obtain current text.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-788-en",
+            "statement": "No explicit EN connection established in the logged bounded searches.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-788-law",
+            "official_title": "Loi n° 2005-83 du 15 août 2005; amendment Loi n° 2016-41",
+            "jurisdiction": "Tunisia",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-4e234375314ab61d6f17af5e"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Reader failed; search catalogue lists original and amendment. Obtain current text.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-795",
@@ -7617,21 +8661,132 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Uganda\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:go.ug \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Official legal framework list read; reconcile earlier 2019-titled search hit with enacted 2020 law and 2024 amendment. No provisions asserted.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.ncpd.go.ug/legal-%26-Policy-frameworks"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Private website EN search lead; one failed reader attempt. Exact scope and edition unverified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.motortrader.co.ug/legal/accessibility/"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:mglsd.go.ug Persons Disabilities Act 2020",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Uganda Persons Disabilities Act 2020 government pdf",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-db992293f70f01ea2674511a": {
+            "issuer": "Uganda National Council for Persons with Disabilities",
+            "url": "https://www.ncpd.go.ug/legal-%26-Policy-frameworks",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Official legal framework list read; reconcile earlier 2019-titled search hit with enacted 2020 law and 2024 amendment. No provisions asserted.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-c86d6031e6f88a86ed81ac10": {
+            "issuer": "MotorTrader Uganda",
+            "url": "https://www.motortrader.co.ug/legal/accessibility/",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Private website EN search lead; one failed reader attempt. Exact scope and edition unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-800-en",
+            "statement": "Unverified EN reference lead retained.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-c86d6031e6f88a86ed81ac10"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-800-law",
+            "official_title": "Persons with Disabilities Act, 2020; Persons with Disabilities (Amendment) Act, 2024",
+            "jurisdiction": "Uganda",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-db992293f70f01ea2674511a"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Official legal framework list read; reconcile earlier 2019-titled search hit with enacted 2020 law and 2024 amendment. No provisions asserted.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-804",
@@ -7720,21 +8875,148 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Tanzania\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:go.tz \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Official catalogue metadata read. Territory, commencement and consolidated provisions not mapped.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://oagmis.oag.go.tz/portal/acts/159"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Search lead: EDC 6 (3227) DTZS, apparent draft with assistance from EN V3.2.1:2021 (snippet notation V3.2.1 (2021-03)). Two reader failures; draft cover, final status and exact relationship unverified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://tbs.go.tz/uploads/publications/en-1739785247-EDC%206%20%283227%29DTZS%20Communications%20and%20ICT%20products%20and%20services%20accessibility%20to%20persons%20with%20disabilities%20requirements.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Search lead: EDC 6 (3227) DTZS, apparent draft with assistance from EN V3.2.1:2021 (snippet notation V3.2.1 (2021-03)). Two reader failures; draft cover, final status and exact relationship unverified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://tbs.go.tz/uploads/publications/en-1739785247-EDC%206%20%283227%29DTZS%20Communications%20and%20ICT%20products%20and%20services%20accessibility%20to%20persons%20with%20disabilities%20requirements.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:pmo.go.tz persons disabilities act 2010",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "Tanzania Persons Disabilities Act 2010 official government",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:tbs.go.tz \"301-549\"",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-2f7e25a1d4a7180ab1b9efdb": {
+            "issuer": "Tanzania Office of the Attorney General",
+            "url": "https://oagmis.oag.go.tz/portal/acts/159",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Official catalogue metadata read. Territory, commencement and consolidated provisions not mapped.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-33d3921ea6e7a88f70430583": {
+            "issuer": "Tanzania Bureau of Standards",
+            "url": "https://tbs.go.tz/uploads/publications/en-1739785247-EDC%206%20%283227%29DTZS%20Communications%20and%20ICT%20products%20and%20services%20accessibility%20to%20persons%20with%20disabilities%20requirements.pdf",
+            "source_type": "official_standard_body",
+            "language": "en",
+            "passage": "Search lead: EDC 6 (3227) DTZS, apparent draft with assistance from EN V3.2.1:2021 (snippet notation V3.2.1 (2021-03)). Two reader failures; draft cover, final status and exact relationship unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-834-en",
+            "statement": "Unverified EN reference lead retained.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-33d3921ea6e7a88f70430583"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-834-law",
+            "official_title": "The Persons with Disabilities Act, 2010",
+            "jurisdiction": "United Republic of Tanzania",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-2f7e25a1d4a7180ab1b9efdb"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Official catalogue metadata read. Territory, commencement and consolidated provisions not mapped.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-581",
@@ -8194,21 +9476,140 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "unverified_reference_leads",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Broad discovery only; institutional/commercial hits require source context.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "\"Zambia\" \"EN 301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "query": "site:zabs.org.zm \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Reader failed although search indexed catalogue. No substantive provision verified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://www.parliament.gov.zm/node/3123"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Search lead lists ZS EN 301 549 V1.1.1. Two reader failures; notice context, status and national adoption unverified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://archive.gazettes.africa/archive/zm/2020/zm-government-gazette-dated-2020-03-06-no-6851.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Search lead lists ZS EN 301 549 V1.1.1. Two reader failures; notice context, status and national adoption unverified.",
+            "run_id": "world-discovery-5-2026-09-27",
+            "url": "https://archive.gazettes.africa/archive/zm/2020/zm-government-gazette-dated-2020-03-06-no-6851.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "site:parliament.gov.zm Persons Disabilities Act 2012",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          },
+          {
+            "on": "2026-09-27",
+            "query": "\"ZS\" \"301 549\" Zambia",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "Discovery only; legal source context and limitations recorded separately.",
+            "run_id": "world-discovery-5-2026-09-27"
+          }
+        ],
+        "sources": {
+          "source-21ff800db2e6dc59f62a4245": {
+            "issuer": "National Assembly of Zambia",
+            "url": "https://www.parliament.gov.zm/node/3123",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Reader failed although search indexed catalogue. No substantive provision verified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          },
+          "source-b865763973ed2bc1d2b8a069": {
+            "issuer": "Zambia Gazette mirror at Gazettes Africa",
+            "url": "https://archive.gazettes.africa/archive/zm/2020/zm-government-gazette-dated-2020-03-06-no-6851.pdf",
+            "source_type": "other_unverified",
+            "language": "en",
+            "passage": "Search lead lists ZS EN 301 549 V1.1.1. Two reader failures; notice context, status and national adoption unverified.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-894-en",
+            "statement": "Unverified EN reference lead retained.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [
+              "source-b865763973ed2bc1d2b8a069"
+            ],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Not evidence of absence or non-adoption; further official/local-language discovery needed."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "world-discovery-5-2026-09-27-894-law",
+            "official_title": "The Persons with Disabilities Act 2012, Act No. 6",
+            "jurisdiction": "Zambia",
+            "law_type": "accessibility/discrimination",
+            "status": "lead",
+            "legal_status": "Current applicability, amendments and commencement require a dedicated legal pass.",
+            "scope": "Law discovery and source metadata only.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-21ff800db2e6dc59f62a4245"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Reader failed although search indexed catalogue. No substantive provision verified.",
+            "next_action": "Retrieve authoritative consolidated law, commencement, exceptions and implementing rules before publication."
+          }
+        ],
+        "questions": [
+          "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+          "Map both accessibility and discrimination laws in a later legal pass.",
+          "Routing: research only; no EAA monitoring, sanctions or enforcement change supported."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-716",
@@ -8218,22 +9619,20 @@
       "iso_alpha3": "ZWE",
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/zimbabwe.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_reference_recorded",
+        "country_record": ".github/agents/research/countries/zimbabwe.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-zimbabwe-discovery-reference"
+        ],
+        "relationship": "corporate demonstration-site contextual reference",
+        "scope_note": "Institutional/corporate reference only; national adoption not established."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-248",

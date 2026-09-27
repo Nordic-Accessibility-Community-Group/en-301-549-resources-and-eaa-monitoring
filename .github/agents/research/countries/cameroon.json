@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "country": "Cameroon",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-c291316f96b77a63f0d7ee29": {
+      "issuer": "Cameroon Prime Minister services",
+      "url": "https://www.spm.gov.cm/site/sites/default/files/DOCs/droits_de_lhomme_recueil_des_textes_french_text-final_1_pdf_version.pdf",
+      "source_type": "official_government",
+      "language": "fr",
+      "passage": "Official compilation, PDF page 837 heading. Current consolidation and implementing decree not checked.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-82989287bb41ca58b1789819": {
+      "issuer": "DAAD",
+      "url": "https://www.daad.cm/en/accessibility-declaration/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "DAAD’s Cameroon website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Cameroon adopting the standard. No EN edition is specified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-cameroon-discovery-reference",
+          "aspect": "reference",
+          "statement": "DAAD’s Cameroon website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Cameroon adopting the standard. No EN edition is specified.",
+          "scope": "foreign institution regional website",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-82989287bb41ca58b1789819"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact reference read; issuer is not national adoption authority. Isolated source-fidelity review: discovery-5-review-2026-09-27.json. No public row."
+        }
+      ],
+      "questions": [
+        "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+        "Map both accessibility and discrimination laws in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change supported.",
+        "Legal mapping lead source-c291316f96b77a63f0d7ee29: Loi n° 2010/002 du 13 avril 2010 portant Promotion et Protection des Personnes Handicapées. Official compilation, PDF page 837 heading. Current consolidation and implementing decree not checked."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Broad discovery only; institutional/commercial hits require source context.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "\"Cameroon\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "site:gov.cm \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Official compilation, PDF page 837 heading. Current consolidation and implementing decree not checked.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://www.spm.gov.cm/site/sites/default/files/DOCs/droits_de_lhomme_recueil_des_textes_french_text-final_1_pdf_version.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "DAAD’s Cameroon website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Cameroon adopting the standard. No EN edition is specified.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://www.daad.cm/en/accessibility-declaration/"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "site:prc.cm loi 2010 002 personnes handicapees",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "Cameroon loi 2010 002 protection personnes handicapees minas",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-5-2026-09-27-cameroon",
+      "country": "Cameroon",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/cameroon.json",
+          "disposition": "research_only",
+          "reason": "foreign institution regional website",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}
