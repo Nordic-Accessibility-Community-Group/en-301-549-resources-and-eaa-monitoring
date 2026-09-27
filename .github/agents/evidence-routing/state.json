@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr67-sync-98ec1160",
-    "acquired_at": "2026-09-27T12:34:00.953Z",
-    "expires_at": "2026-09-27T13:04:00.953Z",
-    "delivery_ids": [
-      "98ec1160-ba6f-11f1-9a47-b1d07935a69a"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -445,6 +438,16 @@
       "outcome": "existing_suggestion_scope_updated",
       "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
       "note": "Current head adds the six-column handoff and a qualified Brazil ABNT source event. Brazil is correctly limited to adoption/reference evidence and other pages are not_applicable. Baseline proposed adoption destinations still have null PR references; the new Brazil ABNT delivery uses a URL string instead of the repository's numeric PR convention."
+    },
+    {
+      "delivery_id": "98ec1160-ba6f-11f1-9a47-b1d07935a69a",
+      "event": "pull_request.synchronize",
+      "pull_request": 67,
+      "head_sha": "996038157c9cdcf0ec1ae053aff6210c89a599a8",
+      "checked_on": "2026-09-27T12:34:31.536Z",
+      "outcome": "new_actionable_contract_change",
+      "suggestion_id": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review",
+      "note": "PR #67 changed the sixth-column contract from scoped Last verified data to editorial Updated date metadata. PR #66 still targets the prior PR #67 head and implements the superseded design. PR #67 title/body and independent-review claim also describe the prior semantics/head."
     }
   ],
   "suggestions": [
@@ -522,21 +525,33 @@
       "proposed_change": "Refresh PR #66 on merged main and retarget it from codex/en301549-adoption-workflow to main before final review. Confirm that its diff contains only the adoption baseline/content work, rerun its documented validations, and retain the separately recorded correction that proposed adoption destinations must reference PR #66.",
       "evidence": "PR #65 is merged into main at head c75a28059ead57a3e6e363649d804ff05f2b8aa2. PR #66 remains open and draft with base codex/en301549-adoption-workflow at that same SHA; its own description requires refresh and retarget after #65 merges.",
       "limitations": "Dependency/branch hygiene only. PR #65 adds no evidence or public claims, and this does not alter the factual assessment or other-page dispositions in PR #66.",
-      "updated_on": "2026-09-27T12:28:20.472Z",
-      "progress": "PR #66 now targets open PR #67 to consume the verification-column validator. After #67 merges, refresh and retarget #66 to main as documented."
+      "updated_on": "2026-09-27T12:34:31.536Z",
+      "progress": "PR #66 remains stacked on PR #67 but targets prior head a202422. Refresh to current PR #67 head 9960381, then retarget to main after #67 merges."
     },
     {
       "id": "pr67|adoption-last-verified|handoff-to-pr66",
       "country": "Brazil, Canada, Mexico, New Zealand, European Union and remaining adoption rows",
       "target": "Open PR #66: EN 301 549 adoptation.md, canonical adoption records and isolated review report",
       "created_on": "2026-09-27T12:25:54.573Z",
-      "status": "covered_by_open_pr66",
+      "status": "superseded_by_pr67_contract_change",
       "covering_pr": 66,
       "proposed_change": "After the PR #67 validator contract is available, update existing PR #66 to add a sixth Last verified cell to every adoption row. Use scoped 2026-09-27 dates only for mapped verified public claims in Brazil, Canada, Mexico, New Zealand and the EU-wide record; use Not yet verified for rows without verified public claims. Add public_cells['5'] mappings, refresh row hashes and the isolated wording-review report, and remove or reconcile the old inline checked-date presentation.",
       "evidence": "PR #67 head a202422 introduces six-column validation and requires a date plus reviewed scope. PR #66 head b1a717a still has only five table cells per row; its verified dates appear inside Additional information comments/text rather than a dedicated scoped column.",
       "limitations": "Presentation and provenance handoff only; it does not verify inherited row status, editions or legal scope. No monitoring, enforcement or sanctions change is supported.",
-      "updated_on": "2026-09-27T12:28:20.472Z",
-      "progress": "PR #66 head 5f8b7aa adds all six cells, scoped dates, Not yet verified labels, public_cells mappings, updated hashes and presentation review."
+      "updated_on": "2026-09-27T12:34:31.536Z",
+      "progress": "PR #67 head 9960381 replaces Last verified with editorial Updated date semantics. The prior six-column handoff is no longer the intended contract.",
+      "superseded_by": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review"
+    },
+    {
+      "id": "pr67|adoption-updated-date|handoff-to-pr66-and-head-review",
+      "country": "Brazil, Canada, European Union, India, Mexico, New Zealand and remaining adoption rows",
+      "target": "PR #67 process contract and open PR #66 adoption content",
+      "created_on": "2026-09-27T12:34:31.536Z",
+      "status": "open_pr_update_required",
+      "covering_pr": 66,
+      "proposed_change": "Before merge, update PR #67's title/body to describe the editorial Updated date column and independently recheck current head 9960381, because the recorded review covered prior head a202422 and the semantics changed. Then refresh PR #66 onto the latest PR #67 head: rename Last verified to Updated date; add adoption/row-updates.json; use date-only 2026-09-27 values for Brazil, Canada, European Union, India, Mexico and New Zealand because those rows change in #66; leave unchanged rows blank; set public_cells['5'] to empty arrays; update row hashes and presentation review. Keep verification dates/scope only in research records.",
+      "evidence": "PR #67 head 9960381 now validates an editorial update record, empty claim mappings and date-only cells. PR #66 head 5f8b7aa still targets prior PR #67 head a202422 and publishes scoped Last verified values mapped to verified claims. PR #67's title/body still describe the superseded verification design and cite review of a202422.",
+      "limitations": "Updated date records public-row edits, not source verification, legal effect or whole-row accuracy. This is a presentation/provenance correction and supports no monitoring, enforcement or sanctions change."
     }
   ]
 }
