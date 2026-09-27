@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr65-sync-73e27fd0",
-    "acquired_at": "2026-09-27T10:09:49.782Z",
-    "expires_at": "2026-09-27T10:39:49.782Z",
-    "delivery_ids": [
-      "73e27fd0-ba5b-11f1-8376-6979293f0ab6"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -358,6 +351,15 @@
       "checked_on": "2026-09-27T09:40:30.101Z",
       "outcome": "ignored_process_only",
       "note": "Synchronized head adds an inherited-row fixture for adoption validation. It still introduces no evidence, factual claim, research result or public-page change; future adoption content remains a separate draft."
+    },
+    {
+      "delivery_id": "73e27fd0-ba5b-11f1-8376-6979293f0ab6",
+      "event": "pull_request.synchronize",
+      "pull_request": 65,
+      "head_sha": "370cf1d1fc7fba54cb71c74735b05fb20a320120",
+      "checked_on": "2026-09-27T10:10:08.045Z",
+      "outcome": "ignored_process_only",
+      "note": "Latest synchronized head remains adoption workflow/schema/validator setup only. No source, factual claim, country research result, delivery event or public page is added."
     }
   ],
   "suggestions": [
@@ -409,7 +411,7 @@
       "proposed_change": "Create a small migration-aware follow-up PR: in .github/agents/research/countries/sweden.json set delivery se-pts-supervision-2025-report and its enforcement destination to already_present; replace PR-review next actions with no further action for the delivered change; retain PR #61 as the enforcement delivery reference; preserve monitoring already_present and sanctions research_only. Then regenerate .github/agents/evidence-routing/events.json with the repository generator.",
       "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
       "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes.",
-      "updated_on": "2026-09-27T09:40:30.101Z",
+      "updated_on": "2026-09-27T10:10:08.045Z",
       "progress": "PR #65 remains adoption process-only and does not cover this correction. No open PR currently updates the canonical Sweden delivery and generated routing index."
     }
   ]
