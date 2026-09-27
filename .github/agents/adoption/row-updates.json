@@ -1,0 +1,26 @@
+{
+  "Canada": {
+    "updated_on": "2026-09-27",
+    "reason": "Adoption announcement date and description clarified."
+  },
+  "Brazil": {
+    "updated_on": "2026-09-27",
+    "reason": "ABNT source, first-edition date and EN references added."
+  },
+  "European Union": {
+    "updated_on": "2026-09-27",
+    "reason": "Publication, OJ target and WAD source distinguished."
+  },
+  "Mexico": {
+    "updated_on": "2026-09-27",
+    "reason": "Catalogue event dates and source qualifications added."
+  },
+  "New Zealand": {
+    "updated_on": "2026-09-27",
+    "reason": "Draft status, consultation dates and provisional reference clarified."
+  },
+  "India": {
+    "updated_on": "2026-09-27",
+    "reason": "Empty source link given a readable label."
+  }
+}

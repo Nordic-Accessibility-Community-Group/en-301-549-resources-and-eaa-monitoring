@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-09-27T09:27:24Z",
+  "research_state": "partial_baseline",
+  "scope": "All 14 inherited rows captured; targeted evidence checks, not complete national audits.",
+  "budget_minutes": 30,
+  "questions": [
+    "Retained inherited claims do not count as verified coverage.",
+    "Research completion timing recorded at final handoff."
+  ],
+  "records": [
+    ".github/agents/research/countries/australia.json",
+    ".github/agents/research/countries/canada.json",
+    ".github/agents/research/countries/brazil.json",
+    ".github/agents/adoption/european-standard.json",
+    ".github/agents/research/countries/iceland.json",
+    ".github/agents/research/countries/india.json",
+    ".github/agents/research/countries/japan.json",
+    ".github/agents/research/countries/kenya.json",
+    ".github/agents/research/countries/mexico.json",
+    ".github/agents/research/countries/new zealand.json",
+    ".github/agents/research/countries/norway.json",
+    ".github/agents/research/countries/switzerland.json",
+    ".github/agents/research/countries/turkey.json",
+    ".github/agents/research/countries/united kingdom.json"
+  ],
+  "research_closed_at": "2026-09-27T11:32:58Z",
+  "remaining_research_minutes": 0,
+  "timing_limit": "Start time was recorded, but separate per-jurisdiction elapsed times were not captured. End-to-end elapsed includes implementation, review and permission waits and exceeds the nominal research budget. This is a partial setup pass, not a certified budget-compliant full audit. No further source research after closure.",
+  "schedule_status": "Not active: exact weekly schedule awaits explicit user approval after automatic approval review rejection."
+}

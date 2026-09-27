@@ -1,0 +1,12 @@
+{
+  "scope": "User supplied ABNT PDF; Brazil only follow-up, no new-country rollout.",
+  "started_at": "2026-09-27T12:16:30Z",
+  "start_time_precision": "Approximate, from turn activity; first clock observation was 12:17:33Z.",
+  "budget_minutes": 10,
+  "research_state": "completed_narrow_source_check",
+  "source_limits": "PDF text inspected; screenshot requests failed with cache/timeout errors. ETSI map reader returned no content; map relationship remains user-provided provenance, not independently verified. No full standard equivalence or current-law audit.",
+  "schedule_status": "Unchanged, not activated.",
+  "research_closed_at": "2026-09-27T12:21:51Z",
+  "remaining_research_minutes_at_close": 4,
+  "remaining_budget_note": "Conservative estimate from approximate start; no further source research. Subsequent verification-column implementation and checks are presentation/validation work."
+}

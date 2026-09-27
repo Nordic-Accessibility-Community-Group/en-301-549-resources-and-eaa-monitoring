@@ -12,6 +12,17 @@
       "retrieved_on": "2026-09-25",
       "access_result": "reachable",
       "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    },
+    "source-191d476f5d5d663497d5ad2e": {
+      "issuer": "UK government",
+      "url": "https://www.gov.uk/guidance/make-things-accessible",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Retrieved procurement guidance references EN 301 549. It does not identify the national edition; current legal interpretation needs separate evidence.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -80,6 +91,96 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-united-kingdom-inherited-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Adopted",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+        },
+        {
+          "id": "adoption-united-kingdom-inherited-3",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "V3.2.1:2021",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+        },
+        {
+          "id": "adoption-united-kingdom-lead",
+          "aspect": "reference",
+          "statement": "Retrieved procurement guidance references EN 301 549. It does not identify the national edition; current legal interpretation needs separate evidence.",
+          "scope": "Research lead only; not a published adoption conclusion.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-191d476f5d5d663497d5ad2e"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": null,
+          "review_note": "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+        }
+      ],
+      "questions": [
+        "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title."
+      ],
+      "attempts": [
+        {
+          "query": "\"301 549\" accessibility site:gov.uk",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/make-things-accessible",
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Retrieved procurement guidance references EN 301 549. It does not identify the national edition; current legal interpretation needs separate evidence."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "55678dfec9ac1e38c1b122d4abf3976178dc631cc5b2db3308a3e87d4e43ca78",
+      "public_claim_ids": [
+        "adoption-united-kingdom-inherited-1",
+        "adoption-united-kingdom-inherited-3"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-united-kingdom-inherited-1"
+        ],
+        "2": [],
+        "3": [
+          "adoption-united-kingdom-inherited-3"
+        ],
+        "4": [],
+        "5": []
+      },
+      "review_report": null
     }
   },
   "deliveries": [
@@ -119,6 +220,48 @@
           "domain": "sanctions"
         }
       ]
+    },
+    {
+      "id": "adoption-baseline-united-kingdom-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "research_only",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "United Kingdom"
     }
   ]
 }

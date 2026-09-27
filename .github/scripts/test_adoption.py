@@ -85,6 +85,27 @@ class AdoptionChecks(unittest.TestCase):
         targets=[{'page':p,'domain':d,'record':'.github/agents/adoption/european-standard.json' if d=='adoption' else 'unrelated.txt' if d=='monitoring' else None,'reason':'Fixture','disposition':'research_only' if d in ('adoption','monitoring') else 'not_applicable'} for p,d in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
         (folder/'european-standard.json').write_text(json.dumps({'subject':'European Union','evidence':{},'adoption':self.domain,'deliveries':[{'id':'one','destinations':targets}]}))
         with self.assertRaisesRegex(ValueError,'canonical country record'): a.check(self.root,True,self.today)
+    def sixth(self, text, mapped):
+        self.row=self.row.replace('</tr>','<td>'+text+'</td></tr>')
+        self.domain['public_row_sha256']=a.row_digest(self.row)
+        self.domain['public_cells']['5']=mapped
+    def record_update(self, date):
+        p=self.root/'.github/agents/adoption/row-updates.json';p.parent.mkdir(parents=True,exist_ok=True)
+        p.write_text(json.dumps({'Example':{'updated_on':date,'reason':'Public link label edited'}}))
+    def test_unknown_updated_date_is_blank(self):
+        self.sixth('',[]);self.check()
+    def test_editorial_update_does_not_imply_verification(self):
+        self.record_update('2026-09-27');self.sixth('2026-09-27',[]);self.check()
+        self.assertIsNone(self.claim['verified_on'])
+    def test_updated_date_requires_record(self):
+        self.sixth('2026-09-27',[])
+        with self.assertRaisesRegex(ValueError,'row update record'):self.check()
+    def test_updated_date_rejects_scope_text(self):
+        self.record_update('2026-09-27 — verified');self.sixth('2026-09-27 — verified',[])
+        with self.assertRaisesRegex(ValueError,'date only'):self.check()
+    def test_updated_date_cannot_be_future(self):
+        self.record_update('2026-09-28');self.sixth('2026-09-28',[])
+        with self.assertRaisesRegex(ValueError,'Future observation'):self.check()
     def test_adoption_adapter_preserves_other_domains(self):
         c={'country':'Example','evidence':{},'domains':{'enforcement':{'unchanged':[1,2]}}}
         old=copy.deepcopy(c['domains']['enforcement'])

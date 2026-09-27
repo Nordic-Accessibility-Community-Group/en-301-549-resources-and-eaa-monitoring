@@ -2,7 +2,19 @@
   "schema_version": 2,
   "country": "Switzerland",
   "jurisdiction_group": "non-EU",
-  "evidence": {},
+  "evidence": {
+    "source-c1a7c2960c5f6dab86c71730": {
+      "issuer": "Swiss federal administration",
+      "url": "https://www.edi.admin.ch/dam/edi/de/dokumente/gleichstellung/amtliches/botschaft_behig.pdf.download.pdf/Botschaft%20zur%20%C3%84nderung%20des%20Behindertengleichstellungsgesetzes.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Search-only lead for a legislative proposal; not enacted-law evidence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "search result only"
+    }
+  },
   "domains": {
     "enforcement": {
       "schema_version": 1,
@@ -37,7 +49,122 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-switzerland-inherited-1",
+          "aspect": "adoption",
+          "statement": "Referenced",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Referenced",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+        },
+        {
+          "id": "adoption-switzerland-lead",
+          "aspect": "reference",
+          "statement": "Search-only lead for a legislative proposal; not enacted-law evidence.",
+          "scope": "Research lead only; not a published adoption conclusion.",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-c1a7c2960c5f6dab86c71730"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": null,
+          "review_note": "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+        }
+      ],
+      "questions": [
+        "Follow-up: distinguish eCH guidance, standards-body adoption and enacted obligations. A government bill-message PDF is only an uninspected proposal lead."
+      ],
+      "attempts": [
+        {
+          "query": "\"EN 301 549\" Switzerland site:admin.ch",
+          "on": "2026-09-27",
+          "method": "official-source web search",
+          "outcome": "search_lead",
+          "note": "Targeted discovery only; see questions for unresolved checks."
+        },
+        {
+          "url": "https://www.edi.admin.ch/dam/edi/de/dokumente/gleichstellung/amtliches/botschaft_behig.pdf.download.pdf/Botschaft%20zur%20%C3%84nderung%20des%20Behindertengleichstellungsgesetzes.pdf",
+          "on": "2026-09-27",
+          "method": "search result only",
+          "outcome": "search_lead",
+          "note": "Search-only lead for a legislative proposal; not enacted-law evidence."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "73bb33d5f3d3dc65cb564b17bc41952ddfc0a06048f09fac6735eb5fcf5b772e",
+      "public_claim_ids": [
+        "adoption-switzerland-inherited-1"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-switzerland-inherited-1"
+        ],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "review_report": null
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "adoption-baseline-switzerland-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "research_only",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/switzerland.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Switzerland"
+    }
+  ]
 }

@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "country": "Mexico",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-732c227e5ed91dda141203b4": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-acaf8d1eacec853a2e2cc138": {
+      "issuer": "Secretaría de Economía, Mexico",
+      "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Main-information section: NMX-R-099-SCFI-2018 concerns ICT accessibility for public procurement in Mexico. Catalogue gives DOF publication 2018-11-23 and entry into force 2019-01-22. Equivalence metadata is not used to establish the EN edition.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-mexico-inherited-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-732c227e5ed91dda141203b4"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Adopted",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+        },
+        {
+          "id": "adoption-mexico-inherited-3",
+          "aspect": "edition",
+          "statement": "V1.1.2:2015",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-732c227e5ed91dda141203b4"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "V1.1.2:2015",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+        },
+        {
+          "id": "adoption-mexico-inherited-4",
+          "aspect": "reference",
+          "statement": "Accessibility requirements suitable for public procurement of information and communications technology (ICT) products and services in Mexico.",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-732c227e5ed91dda141203b4"
+          ],
+          "event_dates": [],
+          "attempted_on": null,
+          "verified_on": null,
+          "next_review_due": "2026-09-28",
+          "existing_text": "Accessibility requirements suitable for public procurement of information and communications technology (ICT) products and services in Mexico.",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+        },
+        {
+          "id": "adoption-mexico-mexico-date",
+          "aspect": "date",
+          "statement": "The official catalogue gives publication 23 November 2018 and entry into force 22 January 2019 for NMX-R-099-SCFI-2018.",
+          "scope": "Catalogue dates for a Mexican ICT public-procurement standard; exact EN equivalence remains unverified.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-acaf8d1eacec853a2e2cc138"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2018-11-23"
+            },
+            {
+              "kind": "effective",
+              "value": "2019-01-22"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        }
+      ],
+      "questions": [
+        "Follow-up: establish precise EN equivalence/edition from the standard and gazette; catalogue equivalence fields conflict. Preserve inherited Adopted and V1.1.2:2015 pending that check."
+      ],
+      "attempts": [
+        {
+          "url": "https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/",
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "d0ef909817c509824eec47a6fc8141978f3e08a259703ffe4cfccc09cdeb0a5d",
+      "public_claim_ids": [
+        "adoption-mexico-inherited-1",
+        "adoption-mexico-mexico-date",
+        "adoption-mexico-inherited-3"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-mexico-inherited-1"
+        ],
+        "2": [
+          "adoption-mexico-mexico-date"
+        ],
+        "3": [
+          "adoption-mexico-inherited-3"
+        ],
+        "4": [
+          "adoption-mexico-mexico-date"
+        ],
+        "5": []
+      },
+      "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+    }
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-mexico-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/mexico.json",
+          "disposition": "proposed",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Mexico"
+    }
+  ]
+}

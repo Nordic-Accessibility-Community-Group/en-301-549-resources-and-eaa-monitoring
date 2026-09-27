@@ -1,0 +1,94 @@
+{
+  "reviewer": "source_fidelity and brazil_wording (separate agents; prior source comparisons retained)",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Factual wording inherits the prior isolated source reports. At user request, replace public verification metadata with editorial Updated date only; verification remains in research records. This is a presentation migration, not a new source review.",
+  "source_reports": [
+    ".github/agents/adoption/reviews/baseline-source-fidelity.json",
+    ".github/agents/adoption/reviews/brazil-source-fidelity-2026-09-27.json"
+  ],
+  "rows": {
+    "Brazil": {
+      "row_sha256": "1bf7f83933864bb8d8227b6ea4f183c4813785c3b0dd15f157f41a3479eb2bce",
+      "claim_ids": [
+        "adoption-brazil-abnt-first-edition",
+        "adoption-brazil-abnt-en-references"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Brazil",
+        "Referenced",
+        "ABNT first edition: 2025-03-11",
+        "V3.2.1 (supporting material); V2.1.2 (bibliography)",
+        "ABNT NBR 17225:2025 covers web accessibility based on WCAG 2.2. Section 6 links EN 301 549 V3.2.1 as supporting material; bibliography item 11 links V2.1.2. These references alone do not establish adoption of EN 301 549.",
+        "2026-09-27"
+      ],
+      "presentation_change": "Last verified replaced by date-only editorial Updated date; factual text unchanged."
+    },
+    "Mexico": {
+      "row_sha256": "d0ef909817c509824eec47a6fc8141978f3e08a259703ffe4cfccc09cdeb0a5d",
+      "claim_ids": [
+        "adoption-mexico-mexico-date"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Mexico",
+        "Adopted",
+        "DOF publication: 2018-11-23Entry into force: 2019-01-22",
+        "V1.1.2:2015",
+        "NMX-R-099-SCFI-2018: official catalogue; previously listed PDF (not rechecked). ICT accessibility requirements for public procurement in Mexico. EN edition/equivalence remains under review.",
+        "2026-09-27"
+      ],
+      "presentation_change": "Last verified replaced by date-only editorial Updated date; factual text unchanged."
+    },
+    "New Zealand": {
+      "row_sha256": "e1879dbb5f5e1b5b0eb600894f58495c78e2ac3d0f322b8fe91c47beef0931dc",
+      "claim_ids": [
+        "adoption-new-zealand-nz-reference"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "New Zealand",
+        "Draft reference",
+        "Consultation: 2026-07-13 to 2026-08-07",
+        "V4.1.1 (proposed; reference unconfirmed)",
+        "Draft Digital Accessibility Standard. Final version expected early 2027; start date and mandated agencies remain unconfirmed.",
+        "2026-09-27"
+      ],
+      "presentation_change": "Last verified replaced by date-only editorial Updated date; factual text unchanged."
+    },
+    "Canada": {
+      "row_sha256": "93d62a5b0cc6d917377e2883e01218d7c722ebd07e5af2c8d1cf2f7983bf08e3",
+      "claim_ids": [
+        "adoption-canada-canada-adoption"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "Canada",
+        "National standard adopted",
+        "Adoption announced: 2024-05-31",
+        "V3.2.1:2021",
+        "CAN/ASC – EN 301 549:2024. The 2024 announcement describes voluntary use.",
+        "2026-09-27"
+      ],
+      "presentation_change": "Last verified replaced by date-only editorial Updated date; factual text unchanged."
+    },
+    "European Union": {
+      "row_sha256": "5e5189710083801c0c3891e973b95c5a525539a914171ad6416909724876787d",
+      "claim_ids": [
+        "adoption-europe-etsi-publication",
+        "adoption-europe-wad-citation"
+      ],
+      "verdict": "Supported",
+      "reviewed_text": [
+        "European Union",
+        "Published standard; WAD reference",
+        "V4.1.1 published: 2026-09-02OJ citation target: 2026-12-16",
+        "V3.2.1:2021 (WAD guidance)V4.1.1:2026 (published)",
+        "Commission WAD guidance lists V3.2.1. The ETSI schedule records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.",
+        "2026-09-27"
+      ],
+      "presentation_change": "Last verified replaced by date-only editorial Updated date; factual text unchanged."
+    }
+  }
+}
