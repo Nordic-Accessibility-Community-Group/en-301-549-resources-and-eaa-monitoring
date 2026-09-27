@@ -1932,7 +1932,8 @@
           "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
           "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
           "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
-          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+          "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists.",
+          "Additional unverified legal lead surfaced in search: Belarus Law183-З of30June2022 concerning rights/social integration of persons with disabilities, secondary host https://base.spinform.ru/show_doc.fwx?rgn=141601 . Full text was not read and official authority/currentness remain unresolved; retrieve an authoritative text before legal mapping."
         ]
       },
       "legal_mapping_status": "pending"
