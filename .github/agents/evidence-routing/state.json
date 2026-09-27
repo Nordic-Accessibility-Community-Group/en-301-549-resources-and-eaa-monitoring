@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr66-open-65220710",
+    "acquired_at": "2026-09-27T11:42:53.112Z",
+    "expires_at": "2026-09-27T12:12:53.112Z",
+    "delivery_ids": [
+      "65220710-ba68-11f1-9476-671445e5f3e0"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
