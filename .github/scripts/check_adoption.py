@@ -35,7 +35,10 @@ def event_date(value):
     return date.fromisoformat(value + {4:'-01-01',7:'-01',10:''}[len(value)])
 
 def rows(root):
-    text = (root / PAGE).read_text()
+    page = root / 'EN 301 549 adoption.md'
+    if not page.exists():
+        page = root / PAGE
+    text = page.read_text()
     result = {}
     for row in re.findall(r'<tr\b[^>]*>.*?</tr>', text, re.S | re.I):
         cells = re.findall(r'<td\b[^>]*>(.*?)</td>', row, re.S | re.I)
