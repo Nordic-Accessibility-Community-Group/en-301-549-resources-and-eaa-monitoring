@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr67-open-5c53a2f0",
-    "acquired_at": "2026-09-27T12:25:03.456Z",
-    "expires_at": "2026-09-27T12:55:03.456Z",
-    "delivery_ids": [
-      "5c53a2f0-ba6e-11f1-96c1-e0f0065a3089"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -415,6 +408,16 @@
       "outcome": "duplicate_existing_suggestion",
       "suggestion_id": "pr65-merged|pr66|retarget-main",
       "note": "Explicit merge delivery confirms the already-reviewed actual state. PR #65 is process-only; PR #66 remains open, draft, and based on the merged workflow branch. The recorded retarget/refresh action and PR #66 routing-metadata correction remain unchanged."
+    },
+    {
+      "delivery_id": "5c53a2f0-ba6e-11f1-96c1-e0f0065a3089",
+      "event": "pull_request.opened",
+      "pull_request": 67,
+      "head_sha": "a202422f3c14ab33c84defd878c5497786af2d82",
+      "checked_on": "2026-09-27T12:25:54.573Z",
+      "outcome": "new_actionable_existing_pr_handoff",
+      "suggestion_id": "pr67|adoption-last-verified|handoff-to-pr66",
+      "note": "PR #67 is process-only and adds a scoped sixth-column validation contract. Open content PR #66 still renders five columns and keeps check dates in Additional information, so the requested Last verified presentation and canonical mappings are not yet implemented."
     }
   ],
   "suggestions": [
@@ -494,6 +497,17 @@
       "limitations": "Dependency/branch hygiene only. PR #65 adds no evidence or public claims, and this does not alter the factual assessment or other-page dispositions in PR #66.",
       "updated_on": "2026-09-27T12:13:30.128Z",
       "progress": "Explicit PR #65 merge delivery confirms the condition. PR #66 still targets codex/en301549-adoption-workflow and must be refreshed/retargeted to main."
+    },
+    {
+      "id": "pr67|adoption-last-verified|handoff-to-pr66",
+      "country": "Brazil, Canada, Mexico, New Zealand, European Union and remaining adoption rows",
+      "target": "Open PR #66: EN 301 549 adoptation.md, canonical adoption records and isolated review report",
+      "created_on": "2026-09-27T12:25:54.573Z",
+      "status": "open_pr_update_required",
+      "covering_pr": 66,
+      "proposed_change": "After the PR #67 validator contract is available, update existing PR #66 to add a sixth Last verified cell to every adoption row. Use scoped 2026-09-27 dates only for mapped verified public claims in Brazil, Canada, Mexico, New Zealand and the EU-wide record; use Not yet verified for rows without verified public claims. Add public_cells['5'] mappings, refresh row hashes and the isolated wording-review report, and remove or reconcile the old inline checked-date presentation.",
+      "evidence": "PR #67 head a202422 introduces six-column validation and requires a date plus reviewed scope. PR #66 head b1a717a still has only five table cells per row; its verified dates appear inside Additional information comments/text rather than a dedicated scoped column.",
+      "limitations": "Presentation and provenance handoff only; it does not verify inherited row status, editions or legal scope. No monitoring, enforcement or sanctions change is supported."
     }
   ]
 }
