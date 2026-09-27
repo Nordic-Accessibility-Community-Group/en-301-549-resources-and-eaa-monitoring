@@ -123,15 +123,16 @@ def check_domain(name, domain, pool, root, row, today):
         mapped = domain['public_cells'][str(i)]
         require(isinstance(mapped,list) and all(cid in domain['public_claim_ids'] for cid in mapped), 'Cell claim mapping invalid')
         if i == 5:
-            require(not actual_links[i], 'Verification cell must not contain links')
-            if text == 'Not yet verified':
-                require(not mapped and not any(claims[cid]['status'] == 'verified' for cid in domain['public_claim_ids']), 'Verification label contradicts public claims')
-            else:
-                require(mapped and all(claims[cid]['status'] == 'verified' for cid in mapped), 'Verification date needs verified claims')
-                dates = set(re.findall(r'\d{4}-\d{2}-\d{2}', text))
-                require(dates == {claims[cid]['verified_on'] for cid in mapped}, 'Verification date must match mapped claims')
-                require(' — ' in text and len(text.split(' — ',1)[1].strip()) > 0, 'Verification date needs scope')
-                new.extend(mapped)
+            require(not actual_links[i] and not mapped, 'Updated date is editorial metadata, not a claim')
+            updates_path = root / '.github/agents/adoption/row-updates.json'
+            updates = json.loads(updates_path.read_text()) if updates_path.exists() else {}
+            update = updates.get(name)
+            expected = update['updated_on'] if update else ''
+            require(text == expected, 'Updated date must match row update record')
+            if text:
+                require(bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}', text)), 'Updated date must be a date only')
+                day(text, today)
+                require(bool(update.get('reason')), 'Row update needs a reason')
             continue
         require(i == 0 or not text or mapped, 'Populated factual cell needs claim mapping')
         editorial = (i == 0 and name == 'European Union' and old_name == 'Europe')

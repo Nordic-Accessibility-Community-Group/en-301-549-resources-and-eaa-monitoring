@@ -89,34 +89,23 @@ class AdoptionChecks(unittest.TestCase):
         self.row=self.row.replace('</tr>','<td>'+text+'</td></tr>')
         self.domain['public_row_sha256']=a.row_digest(self.row)
         self.domain['public_cells']['5']=mapped
-    def test_unknown_verification_column(self):
-        self.sixth('Not yet verified',[]); self.check()
-    def test_unverified_claim_cannot_display_verification_date(self):
-        self.sixth('2026-09-27 — adoption',[self.claim['id']])
-        with self.assertRaisesRegex(ValueError,'needs verified claims'): self.check()
-    def test_verification_date_must_match_evidence(self):
-        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
-        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
-        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
-        self.sixth('2026-09-26 — adoption',[self.claim['id']])
-        with self.assertRaisesRegex(ValueError,'must match'): self.check()
-    def test_verification_date_requires_scope(self):
-        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
-        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
-        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
-        self.sixth('2026-09-27',[self.claim['id']])
-        with self.assertRaisesRegex(ValueError,'needs scope'): self.check()
-    def test_verification_scope_requires_review_and_accepts_reviewed_scope(self):
-        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
-        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
-        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
-        self.sixth('2026-09-27 — adoption',[self.claim['id']])
-        with self.assertRaisesRegex(ValueError,'isolated review'): self.check()
-        report={'isolation':'no_history','reviewer':'independent fixture','reviewed_on':'2026-09-27','rows':{'Example':{'verdict':'Supported','row_sha256':self.domain['public_row_sha256'],'claim_ids':[self.claim['id']]}}}
-        (self.root/'review.json').write_text(json.dumps(report));self.domain['review_report']='review.json';self.check()
-        self.row=self.row.replace(' — adoption',' — Mandatory nationwide in every sector')
-        self.domain['public_row_sha256']=a.row_digest(self.row)
-        with self.assertRaisesRegex(ValueError,'final public wording'):self.check()
+    def record_update(self, date):
+        p=self.root/'.github/agents/adoption/row-updates.json';p.parent.mkdir(parents=True,exist_ok=True)
+        p.write_text(json.dumps({'Example':{'updated_on':date,'reason':'Public link label edited'}}))
+    def test_unknown_updated_date_is_blank(self):
+        self.sixth('',[]);self.check()
+    def test_editorial_update_does_not_imply_verification(self):
+        self.record_update('2026-09-27');self.sixth('2026-09-27',[]);self.check()
+        self.assertIsNone(self.claim['verified_on'])
+    def test_updated_date_requires_record(self):
+        self.sixth('2026-09-27',[])
+        with self.assertRaisesRegex(ValueError,'row update record'):self.check()
+    def test_updated_date_rejects_scope_text(self):
+        self.record_update('2026-09-27 — verified');self.sixth('2026-09-27 — verified',[])
+        with self.assertRaisesRegex(ValueError,'date only'):self.check()
+    def test_updated_date_cannot_be_future(self):
+        self.record_update('2026-09-28');self.sixth('2026-09-28',[])
+        with self.assertRaisesRegex(ValueError,'Future observation'):self.check()
     def test_adoption_adapter_preserves_other_domains(self):
         c={'country':'Example','evidence':{},'domains':{'enforcement':{'unchanged':[1,2]}}}
         old=copy.deepcopy(c['domains']['enforcement'])
