@@ -85,6 +85,38 @@ class AdoptionChecks(unittest.TestCase):
         targets=[{'page':p,'domain':d,'record':'.github/agents/adoption/european-standard.json' if d=='adoption' else 'unrelated.txt' if d=='monitoring' else None,'reason':'Fixture','disposition':'research_only' if d in ('adoption','monitoring') else 'not_applicable'} for p,d in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
         (folder/'european-standard.json').write_text(json.dumps({'subject':'European Union','evidence':{},'adoption':self.domain,'deliveries':[{'id':'one','destinations':targets}]}))
         with self.assertRaisesRegex(ValueError,'canonical country record'): a.check(self.root,True,self.today)
+    def sixth(self, text, mapped):
+        self.row=self.row.replace('</tr>','<td>'+text+'</td></tr>')
+        self.domain['public_row_sha256']=a.row_digest(self.row)
+        self.domain['public_cells']['5']=mapped
+    def test_unknown_verification_column(self):
+        self.sixth('Not yet verified',[]); self.check()
+    def test_unverified_claim_cannot_display_verification_date(self):
+        self.sixth('2026-09-27 — adoption',[self.claim['id']])
+        with self.assertRaisesRegex(ValueError,'needs verified claims'): self.check()
+    def test_verification_date_must_match_evidence(self):
+        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
+        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
+        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
+        self.sixth('2026-09-26 — adoption',[self.claim['id']])
+        with self.assertRaisesRegex(ValueError,'must match'): self.check()
+    def test_verification_date_requires_scope(self):
+        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
+        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
+        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
+        self.sixth('2026-09-27',[self.claim['id']])
+        with self.assertRaisesRegex(ValueError,'needs scope'): self.check()
+    def test_verification_scope_requires_review_and_accepts_reviewed_scope(self):
+        source={'issuer':'Agency','url':'https://example.org','source_type':'official_government','language':'en','passage':'Adopted','publication_date':None,'accessed_on':'2026-09-27','access':'reachable','method':'reader'}
+        sid='source-'+cr.digest(source)[:24];self.pool[sid]=source
+        self.claim.update(status='verified',verified_on='2026-09-27',attempted_on='2026-09-27',source_refs=[sid])
+        self.sixth('2026-09-27 — adoption',[self.claim['id']])
+        with self.assertRaisesRegex(ValueError,'isolated review'): self.check()
+        report={'isolation':'no_history','reviewer':'independent fixture','reviewed_on':'2026-09-27','rows':{'Example':{'verdict':'Supported','row_sha256':self.domain['public_row_sha256'],'claim_ids':[self.claim['id']]}}}
+        (self.root/'review.json').write_text(json.dumps(report));self.domain['review_report']='review.json';self.check()
+        self.row=self.row.replace(' — adoption',' — Mandatory nationwide in every sector')
+        self.domain['public_row_sha256']=a.row_digest(self.row)
+        with self.assertRaisesRegex(ValueError,'final public wording'):self.check()
     def test_adoption_adapter_preserves_other_domains(self):
         c={'country':'Example','evidence':{},'domains':{'enforcement':{'unchanged':[1,2]}}}
         old=copy.deepcopy(c['domains']['enforcement'])

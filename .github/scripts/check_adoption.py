@@ -40,7 +40,7 @@ def rows(root):
     for row in re.findall(r'<tr\b[^>]*>.*?</tr>', text, re.S | re.I):
         cells = re.findall(r'<td\b[^>]*>(.*?)</td>', row, re.S | re.I)
         if cells:
-            require(len(cells) == 5, 'Adoption table must have five cells per row')
+            require(len(cells) in (5, 6), 'Adoption table must have five legacy or six current cells per row')
             name = re.sub('<[^>]+>', '', cells[0]).strip()
             require(name not in result, 'Duplicate adoption row')
             result[name] = row
@@ -113,13 +113,26 @@ def check_domain(name, domain, pool, root, row, today):
     old_row = baseline.get(old_name)
     actual_cells = cell_texts(row)
     old_cells = cell_texts(old_row) if old_row else [''] * 5
+    old_cells += [''] * (len(actual_cells) - len(old_cells))
     actual_links = cell_links(row)
     old_links = cell_links(old_row) if old_row else [[] for _ in range(5)]
-    require(set(domain['public_cells']) == {str(i) for i in range(5)}, 'All public cells need mappings')
+    old_links += [[] for _ in range(len(actual_cells) - len(old_links))]
+    require(set(domain['public_cells']) == {str(i) for i in range(len(actual_cells))}, 'All public cells need mappings')
     new = []
     for i, text in enumerate(actual_cells):
         mapped = domain['public_cells'][str(i)]
         require(isinstance(mapped,list) and all(cid in domain['public_claim_ids'] for cid in mapped), 'Cell claim mapping invalid')
+        if i == 5:
+            require(not actual_links[i], 'Verification cell must not contain links')
+            if text == 'Not yet verified':
+                require(not mapped and not any(claims[cid]['status'] == 'verified' for cid in domain['public_claim_ids']), 'Verification label contradicts public claims')
+            else:
+                require(mapped and all(claims[cid]['status'] == 'verified' for cid in mapped), 'Verification date needs verified claims')
+                dates = set(re.findall(r'\d{4}-\d{2}-\d{2}', text))
+                require(dates == {claims[cid]['verified_on'] for cid in mapped}, 'Verification date must match mapped claims')
+                require(' — ' in text and len(text.split(' — ',1)[1].strip()) > 0, 'Verification date needs scope')
+                new.extend(mapped)
+            continue
         require(i == 0 or not text or mapped, 'Populated factual cell needs claim mapping')
         editorial = (i == 0 and name == 'European Union' and old_name == 'Europe')
         if i == 4 and old_row and old_cells[i] == '' and text == 'Source document (PDF)':
