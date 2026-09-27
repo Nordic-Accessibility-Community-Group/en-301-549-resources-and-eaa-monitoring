@@ -227,6 +227,11 @@
       "group": "non-EU"
     },
     {
+      "name": "United States",
+      "slug": "united states",
+      "group": "non-EU"
+    },
+    {
       "name": "Åland",
       "slug": "åland",
       "group": "EU territory"

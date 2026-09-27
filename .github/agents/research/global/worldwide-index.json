@@ -7,12 +7,13 @@
     "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
     "inventory_count": 250,
     "excluded_existing_adoption_countries": 13,
-    "pending_discovery_entries": 237,
+    "pending_discovery_entries": 234,
     "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
     "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
     "baseline_page": "EN 301 549 adoption.md",
-    "country_law_research_performed": false,
-    "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership."
+    "country_law_research_performed": true,
+    "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership.",
+    "researched_this_round_entries": 3
   },
   "inventory_source": {
     "issuer": "United Nations Statistics Division",
@@ -115,10 +116,11 @@
   "tasks": [
     {
       "id": "worldwide-en-discovery-round-1",
-      "status": "pending",
+      "status": "in_progress",
       "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
-      "next_action": "Run bounded regional discovery batches; record attempts and law leads even where no EN connection is found.",
-      "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research."
+      "next_action": "Continue with the remaining234 pending entries; preserve follow-up questions for this three-country batch.",
+      "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research.",
+      "last_run": "world-discovery-1-2026-09-27"
     },
     {
       "id": "global-legal-mapping-existing-adoption-countries",
@@ -2939,21 +2941,174 @@
       "inventory_basis": "UN M49 main list",
       "region": "Asia",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only the logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN source.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.il \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable explicit EN source.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.il \"EN 301 549\" נגישות"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "Empty results; not a full standards catalogue audit.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:sii.org.il \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "law/standard discovery search",
+            "outcome": "search_lead",
+            "note": "IS5568 PDF and institutional statements found as leads; PDF not read.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.il \"5568\" accessibility disability law"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "law discovery search",
+            "outcome": "search_lead",
+            "note": "Official law translation endpoint and government statements located.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.il \"Equal Rights for Persons with Disabilities Law\" 1998"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Reader returned no body; no claim verified here. Alternative government statement used.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://main.knesset.gov.il/en/About/Pages/AccStatement.aspx"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Reader internal error.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.gov.il/BlobFolder/legalinfo/equality_law/en/sitedocs_equal_rights_for_persons_with_disabilities_law.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "ordinary in-app browser",
+            "outcome": "unreachable",
+            "note": "Page shell only, no readable text; two attempts then stop.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.gov.il/BlobFolder/legalinfo/equality_law/en/sitedocs_equal_rights_for_persons_with_disabilities_law.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "unreachable",
+            "note": "Reader error; alternative official statement used.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.gov.il/en/service/application_for_information_people_with_disabilities"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Law/standard references in institutional statement read.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.mevaker.gov.il/en/accessibility-statement"
+          }
+        ],
+        "sources": {
+          "source-d838e8afc060ceeb2867fa35": {
+            "issuer": "Office of the State Comptroller and Ombudsman of Israel",
+            "url": "https://www.mevaker.gov.il/en/accessibility-statement",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Accessibility arrangements and website sections cite the 1998 disability law, 2013 service accessibility regulations, IS 5568 AA and WCAG 2.0. Institutional statement only; not the legislation or national applicability audit.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-7ecef1c566ca356f95a1b406": {
+            "issuer": "Government of Israel; law translation endpoint",
+            "url": "https://www.gov.il/BlobFolder/legalinfo/equality_law/en/sitedocs_equal_rights_for_persons_with_disabilities_law.pdf",
+            "source_type": "official_law",
+            "language": "en",
+            "passage": "No readable text obtained. Search identified this law PDF, but direct reader failed and browser exposed no readable PDF content. No statutory provisions verified from this URL.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader failed; one ordinary browser attempt unreadable"
+          },
+          "source-376e387defcd32dbc07cd5b2": {
+            "issuer": "Commission for Equal Rights of Persons with Disabilities",
+            "url": "https://www.gov.il/en/service/application_for_information_people_with_disabilities",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Search lead only; direct reader failed. No claim verified from this endpoint.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "unreachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-1-2026-09-27-376-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only; no non-adoption assertion."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "israel-equal-rights-law-and-regulations-lead",
+            "official_title": "Equal Rights for Persons with Disabilities Law, 5758-1998; Service Accessibility Adjustments Regulations, 5773-2013",
+            "jurisdiction": "Israel",
+            "law_type": "accessibility",
+            "status": "lead",
+            "legal_status": "Named in official institutional statement; consolidated law text not retrieved.",
+            "scope": "Israel’s State Comptroller cites the Equal Rights for Persons with Disabilities Law (5758-1998) and the 2013 Service Accessibility Adjustments Regulations; its own website statement identifies IS 5568 at AA level and WCAG 2.0. These are law/standard leads, not a verified nationwide legal-scope audit or an EN connection.",
+            "relevant_provisions": [],
+            "event_dates": [],
+            "source_refs": [
+              "source-d838e8afc060ceeb2867fa35",
+              "source-7ecef1c566ca356f95a1b406"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Institutional accessibility statement supports discovery, not nationwide legal applicability, exemptions, current versions or commencement. Failed law-PDF retrieval does not verify its contents.",
+            "next_action": "Obtain readable official consolidated law/regulations and national-standard catalogue; retain discrimination-law coverage as part of later mapping."
+          }
+        ],
+        "questions": [
+          "Continue country discovery using official catalogue and local-language sources; do not repeat exhausted identical searches in this run.",
+          "Assess legal scope, commencement, amendments and exceptions in a later bounded legal-mapping pass.",
+          "Routing: adoption remains research-only; no monitoring, sanctions or enforcement page change established. Law findings are for future global legal mapping, not EAA application."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "law_leads_recorded"
     },
     {
       "id": "m49-380",
@@ -5320,21 +5475,133 @@
       "inventory_basis": "UN M49 main list",
       "region": "Africa",
       "existing_repository_record": null,
-      "round_status": "pending",
+      "round_status": "bounded_search_completed_follow_up_needed",
       "en_connection": {
-        "status": "not_researched",
+        "status": "no_reference_found_in_checked_sources",
         "country_record": null,
         "domain": null,
-        "claim_ids": []
+        "claim_ids": [],
+        "scope_note": "Only the logged searches and sources; not proof of absence."
       },
       "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
+        "attempts": [
+          {
+            "on": "2026-09-27",
+            "method": "source discovery search",
+            "outcome": "search_lead",
+            "note": "No usable primary EN result; initial query used this literal syntax.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site.gov.za \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN result.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.za \"accessibility\" \"EN 301\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "targeted follow-up search",
+            "outcome": "search_lead",
+            "note": "No usable EN result; catalogue itself not exhaustively searched.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:sabs.co.za \"301549\" OR \"301 549\""
+          },
+          {
+            "on": "2026-09-27",
+            "method": "law discovery search",
+            "outcome": "search_lead",
+            "note": "Official law and landing page located.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "query": "site:gov.za Promotion Equality Prevention Unfair Discrimination Act disability section 9"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Section9 actual text read.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.justice.gov.za/legislation/acts/2000-004.pdf"
+          },
+          {
+            "on": "2026-09-27",
+            "method": "web reader",
+            "outcome": "reachable",
+            "note": "Partial commencement and amendments inspected.",
+            "run_id": "world-discovery-1-2026-09-27",
+            "url": "https://www.gov.za/ve/documents/promotion-equality-and-prevention-unfair-discrimination-act"
+          }
+        ],
+        "sources": {
+          "source-d42bbc30ad56d8a1ec0570d9": {
+            "issuer": "South African Department of Justice",
+            "url": "https://www.justice.gov.za/legislation/acts/2000-004.pdf",
+            "source_type": "official_law",
+            "language": "en",
+            "passage": "Consolidated Act 4 of 2000, section 9(a)-(c), PDF page 5: unfair disability discrimination includes supporting facilities, environmental accessibility and obstacles/accommodation. No EN connection in this passage. Currentness of all amendments not audited.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          },
+          "source-6726abde44e6334e9b15202c": {
+            "issuer": "South African Government",
+            "url": "https://www.gov.za/ve/documents/promotion-equality-and-prevention-unfair-discrimination-act",
+            "source_type": "official_government",
+            "language": "en",
+            "passage": "Act 4 of 2000 landing page: selected sections commenced 1 September 2000. Listed amendment history extends to 2023 Act effective in 2024. Does not date section 9 commencement; do not apply the partial commencement date to the whole Act.",
+            "publication_date": null,
+            "accessed_on": "2026-09-27",
+            "access": "reachable",
+            "method": "web reader"
+          }
+        },
+        "en_findings": [
+          {
+            "id": "world-discovery-1-2026-09-27-710-en-search",
+            "statement": "No explicit EN 301 549 connection established in this bounded search.",
+            "relationship": "unknown",
+            "stage": "unknown",
+            "version": null,
+            "source_refs": [],
+            "status": "unknown",
+            "attempted_on": "2026-09-27",
+            "verified_on": null,
+            "limitations": "Search outcome only; no non-adoption assertion."
+          }
+        ],
+        "law_findings": [
+          {
+            "id": "south-africa-pepuda-section9",
+            "official_title": "Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000",
+            "jurisdiction": "South Africa",
+            "law_type": "discrimination",
+            "status": "verified",
+            "legal_status": "Enacted text retrieved; current full consolidation and section-specific commencement not audited.",
+            "scope": "Section 9 of South Africa’s Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000 addresses unfair disability discrimination, including accessibility obstacles and reasonable accommodation. This passage does not establish an EN 301 549 connection.",
+            "relevant_provisions": [
+              "section 9(a)-(c)"
+            ],
+            "event_dates": [],
+            "source_refs": [
+              "source-d42bbc30ad56d8a1ec0570d9",
+              "source-6726abde44e6334e9b15202c"
+            ],
+            "attempted_on": "2026-09-27",
+            "verified_on": "2026-09-27",
+            "limitations": "Verification applies to the cited section text only. Government landing-page commencement covers selected sections, not section9; no whole-Act date inferred.",
+            "next_action": "Check section-specific commencement/amendments and accessibility regulations; continue official standards-catalogue discovery."
+          }
+        ],
+        "questions": [
+          "Continue country discovery using official catalogue and local-language sources; do not repeat exhausted identical searches in this run.",
+          "Assess legal scope, commencement, amendments and exceptions in a later bounded legal-mapping pass.",
+          "Routing: adoption remains research-only; no monitoring, sanctions or enforcement page change established. Law findings are for future global legal mapping, not EAA application."
+        ]
       },
-      "legal_mapping_status": "not_started"
+      "legal_mapping_status": "partial_research"
     },
     {
       "id": "m49-239",
@@ -6101,22 +6368,20 @@
       "iso_alpha3": "USA",
       "inventory_basis": "UN M49 main list",
       "region": "Americas",
-      "existing_repository_record": null,
-      "round_status": "pending",
+      "existing_repository_record": ".github/agents/research/countries/united states.json",
+      "round_status": "researched_connection_found",
       "en_connection": {
-        "status": "not_researched",
-        "country_record": null,
-        "domain": null,
-        "claim_ids": []
+        "status": "explicit_connection_supported",
+        "country_record": ".github/agents/research/countries/united states.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-united-states-2017-comparison"
+        ],
+        "relationship": "historical policy comparison; incorporation explicitly rejected",
+        "scope_note": "No public adoption row proposed."
       },
-      "research": {
-        "attempts": [],
-        "sources": {},
-        "en_findings": [],
-        "law_findings": [],
-        "questions": []
-      },
-      "legal_mapping_status": "not_started"
+      "research": null,
+      "legal_mapping_status": "source_linked_notes_in_country_record"
     },
     {
       "id": "m49-850",

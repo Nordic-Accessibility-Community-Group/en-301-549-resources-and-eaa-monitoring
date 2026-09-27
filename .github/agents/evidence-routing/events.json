@@ -2098,6 +2098,48 @@
         }
       ],
       "country": "United Kingdom"
+    },
+    {
+      "id": "world-discovery-1-2026-09-27-united-states",
+      "country": "United States",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united states.json",
+          "disposition": "research_only",
+          "reason": "Historical explicit EN comparison; no public row proposed.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        }
+      ]
     }
   ]
 }
