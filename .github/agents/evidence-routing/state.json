@@ -1,17 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr66-67-final-43e1-6430",
-    "acquired_at": "2026-09-27T12:40:22.242Z",
-    "expires_at": "2026-09-27T13:10:22.242Z",
-    "delivery_ids": [
-      "43e1efe0-ba70-11f1-9f74-a5eb7abcbb9e",
-      "46d3b8a0-ba70-11f1-8e41-e0742a6cf0ef",
-      "479cadf0-ba70-11f1-93d7-f32cbaa88123",
-      "60e8a980-ba70-11f1-8d22-588b870494c0",
-      "6430a890-ba70-11f1-899c-3c9a2d99af4d"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -479,6 +468,56 @@
       "outcome": "duplicate_existing_suggestion_no_new_handoff",
       "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
       "note": "Latest head retains the correct Updated date implementation and the previously assessed evidence scope. Six baseline proposed adoption destinations still have null PR references and the Brazil ABNT delivery still uses a full URL rather than numeric 66; no additional evidence or cross-page change was found."
+    },
+    {
+      "delivery_id": "43e1efe0-ba70-11f1-9f74-a5eb7abcbb9e",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 66,
+      "head_sha": "fdb5ec3608b5c4b7f1893ee0e0d0b6328408e9af",
+      "checked_on": "2026-09-27T12:41:07.799Z",
+      "outcome": "superseded_by_intermediate_merge",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "PR #66 merged into PR #67's feature branch, not directly to main; completion is assessed only at the later PR #67 merge."
+    },
+    {
+      "delivery_id": "46d3b8a0-ba70-11f1-8e41-e0742a6cf0ef",
+      "event": "pull_request.merged",
+      "pull_request": 66,
+      "head_sha": "fdb5ec3608b5c4b7f1893ee0e0d0b6328408e9af",
+      "checked_on": "2026-09-27T12:41:07.799Z",
+      "outcome": "intermediate_branch_merge_not_main",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "PR #66 merged into PR #67's feature branch, not directly to main; completion is assessed only at the later PR #67 merge."
+    },
+    {
+      "delivery_id": "479cadf0-ba70-11f1-93d7-f32cbaa88123",
+      "event": "pull_request.synchronize",
+      "pull_request": 67,
+      "head_sha": "1da04aa27a1f24d4a61253def99460d7bf27fd5a",
+      "checked_on": "2026-09-27T12:41:07.799Z",
+      "outcome": "superseded_by_final_merge",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "Later PR #67 merge is authoritative for the combined process and content head."
+    },
+    {
+      "delivery_id": "60e8a980-ba70-11f1-8d22-588b870494c0",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 67,
+      "head_sha": "1da04aa27a1f24d4a61253def99460d7bf27fd5a",
+      "checked_on": "2026-09-27T12:41:07.799Z",
+      "outcome": "superseded_by_final_merge",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "Later PR #67 merge is authoritative for the combined process and content head."
+    },
+    {
+      "delivery_id": "6430a890-ba70-11f1-899c-3c9a2d99af4d",
+      "event": "pull_request.merged",
+      "pull_request": 67,
+      "head_sha": "1da04aa27a1f24d4a61253def99460d7bf27fd5a",
+      "checked_on": "2026-09-27T12:41:07.799Z",
+      "outcome": "new_actionable_post_merge_normalization",
+      "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
+      "note": "PR #67 merged the combined process and adoption content to main. Seven adoption destinations remain proposed despite their public changes now being present; normalize them to already_present, no further action, with final main delivery PR #67."
     }
   ],
   "suggestions": [
@@ -536,28 +575,29 @@
     {
       "id": "pr66|adoption-proposals|covering-pr-links",
       "country": "Brazil, Canada, India, Mexico, New Zealand and European Union",
-      "target": "PR #66 canonical adoption deliveries plus generated .github/agents/evidence-routing/events.json",
+      "target": "Canonical adoption deliveries on main plus generated .github/agents/evidence-routing/events.json",
       "created_on": "2026-09-27T11:45:21.355Z",
-      "status": "open_pr_update_required",
-      "covering_pr": 66,
-      "proposed_change": "Before merge, set pr to numeric 66 on the proposed adoption destination in the Brazil, Canada, India, Mexico and New Zealand baseline deliveries and in .github/agents/adoption/european-standard.json. Also normalize the new adoption-brazil-abnt-reference-2026-09-27 destination from the full PR URL to numeric 66. Regenerate .github/agents/evidence-routing/events.json from canonical country records; the EU-wide delivery remains only in its global record. Preserve all monitoring, enforcement and sanctions dispositions.",
-      "evidence": "Current PR #66 head b1a717a proposes the corresponding public adoption-page changes, but all six proposed adoption destinations have pr: null. PR #66 is the only open content PR covering these changes.",
-      "limitations": "Routing metadata only. No new factual wording, country research, monitoring, enforcement or sanctions change is indicated. The EU-wide delivery is intentionally outside the country-only events projection.",
-      "updated_on": "2026-09-27T12:37:47.110Z",
-      "progress": "Head fdb5ec3 preserves the correct Updated date implementation but leaves the recorded PR-reference normalization unchanged."
+      "status": "post_pr67_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a small post-merge metadata PR: set the adoption destinations for adoption-baseline-europe-2026-09-27, adoption-baseline-brazil-2026-09-27, adoption-brazil-abnt-reference-2026-09-27, adoption-baseline-canada-2026-09-27, adoption-baseline-india-2026-09-27, adoption-baseline-mexico-2026-09-27 and adoption-baseline-new-zealand-2026-09-27 to already_present; set pr to numeric 67 because PR #67 delivered the combined content to main; replace pending-review next actions with no further action. Edit canonical country/global records and regenerate events.json; do not edit the generated index alone.",
+      "evidence": "Merged PR #67 at merge commit da5a9e6 contains the Updated date adoption page, the six baseline public changes and the Brazil ABNT update. PR #66 was merged only into PR #67's branch; PR #67 is the final main delivery.",
+      "limitations": "Metadata only. Preserve monitoring, enforcement and sanctions dispositions. Brazil establishes ABNT publication details and specific EN references, not general EN adoption or legal obligations. The EU-wide delivery remains outside the country-only events projection.",
+      "updated_on": "2026-09-27T12:41:07.799Z",
+      "progress": "Public content and research records reached main through PR #67; seven adoption destinations still require post-merge status/PR/next-action normalization."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
       "country": "Cross-project adoption baseline",
       "target": "Open PR #66 base branch and validation state",
       "created_on": "2026-09-27T12:12:20.724Z",
-      "status": "blocked_by_pr67_merge",
-      "covering_pr": 66,
+      "status": "resolved_merged",
+      "covering_pr": 67,
       "proposed_change": "Refresh PR #66 on merged main and retarget it from codex/en301549-adoption-workflow to main before final review. Confirm that its diff contains only the adoption baseline/content work, rerun its documented validations, and retain the separately recorded correction that proposed adoption destinations must reference PR #66.",
       "evidence": "PR #65 is merged into main at head c75a28059ead57a3e6e363649d804ff05f2b8aa2. PR #66 remains open and draft with base codex/en301549-adoption-workflow at that same SHA; its own description requires refresh and retarget after #65 merges.",
       "limitations": "Dependency/branch hygiene only. PR #65 adds no evidence or public claims, and this does not alter the factual assessment or other-page dispositions in PR #66.",
-      "updated_on": "2026-09-27T12:34:31.536Z",
-      "progress": "PR #66 remains stacked on PR #67 but targets prior head a202422. Refresh to current PR #67 head 9960381, then retarget to main after #67 merges."
+      "updated_on": "2026-09-27T12:41:07.799Z",
+      "progress": "Resolved by the stacked merge sequence: PR #66 merged into PR #67 and PR #67 merged the combined head to main.",
+      "resolved_on": "2026-09-27T12:41:07.799Z"
     },
     {
       "id": "pr67|adoption-last-verified|handoff-to-pr66",
@@ -578,13 +618,14 @@
       "country": "Brazil, Canada, European Union, India, Mexico, New Zealand and remaining adoption rows",
       "target": "PR #67 process contract and open PR #66 adoption content",
       "created_on": "2026-09-27T12:34:31.536Z",
-      "status": "partial_pr66_covered_pr67_pending",
-      "covering_pr": 66,
+      "status": "resolved_merged",
+      "covering_pr": 67,
       "proposed_change": "Before merge, update PR #67's title/body to describe the editorial Updated date column and independently recheck current head 9960381, because the recorded review covered prior head a202422 and the semantics changed. Then refresh PR #66 onto the latest PR #67 head: rename Last verified to Updated date; add adoption/row-updates.json; use date-only 2026-09-27 values for Brazil, Canada, European Union, India, Mexico and New Zealand because those rows change in #66; leave unchanged rows blank; set public_cells['5'] to empty arrays; update row hashes and presentation review. Keep verification dates/scope only in research records.",
       "evidence": "PR #67 head 9960381 now validates an editorial update record, empty claim mappings and date-only cells. PR #66 head 5f8b7aa still targets prior PR #67 head a202422 and publishes scoped Last verified values mapped to verified claims. PR #67's title/body still describe the superseded verification design and cite review of a202422.",
       "limitations": "Updated date records public-row edits, not source verification, legal effect or whole-row accuracy. This is a presentation/provenance correction and supports no monitoring, enforcement or sanctions change.",
-      "updated_on": "2026-09-27T12:36:28.318Z",
-      "progress": "PR #66 head 380a8eb correctly implements the Updated date contract. PR #67 still needs title/body alignment and review of current head 9960381 before merge."
+      "updated_on": "2026-09-27T12:41:07.799Z",
+      "progress": "Resolved by merged PR #67: final title/body describe Updated date, the combined content uses row-updates.json and date-only editorial cells, and review/validation records are included.",
+      "resolved_on": "2026-09-27T12:41:07.799Z"
     }
   ]
 }
