@@ -269,6 +269,8 @@
     "local_rendered_html": "Not passed: system legacy HTML Tidy reports HTML5 charset and table-summary warnings on unchanged Markdown; this PR changes JSON only.",
     "local_link_check": "Unavailable: lychee not installed; defer to repository CI.",
     "ci": "Not yet observed at preparation time; see actual PR checks.",
-    "limits": "Structure and preservation checks do not certify legal interpretation or live source status."
-  }
+    "limits": "Structure and preservation checks do not certify legal interpretation or live source status.",
+    "markdownlint": "PASS: markdownlint-cli2 0.23.2; 39 Markdown files, zero issues."
+  },
+  "pull_request": 74
 }

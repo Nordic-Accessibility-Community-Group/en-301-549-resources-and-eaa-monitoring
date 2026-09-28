@@ -733,7 +733,6 @@
     ],
     "public_cells": {
       "0": [],
-      "5": [],
       "1": [
         "adoption-europe-round2-cell-1"
       ],
@@ -745,7 +744,8 @@
       ],
       "4": [
         "adoption-europe-round2-cell-4"
-      ]
+      ],
+      "5": []
     },
     "review_report": ".github/agents/adoption/reviews/round-2-source-fidelity-2026-09-27.json"
   },
@@ -842,7 +842,7 @@
           "disposition": "research_only",
           "reason": "Public-sector standards comparison retained for future presentation.",
           "next_action": "Complete claim-specific follow-ups and register any future public-sector page before publication.",
-          "pr": null
+          "pr": 74
         },
         {
           "page": "monitoring-agencies-information.md",
