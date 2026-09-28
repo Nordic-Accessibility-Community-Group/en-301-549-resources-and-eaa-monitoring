@@ -1,0 +1,274 @@
+{
+  "run_id": "public-sector-version-comparison-2026-09-28",
+  "record_type": "research_verification_round",
+  "canonical_record": ".github/agents/adoption/european-standard.json",
+  "source_refs": {
+    "article": "source-b2e8f37f5779fa652c936f7d",
+    "v4": "source-3dc6da4ee0102b723b064818",
+    "v3": "source-24cf3069d8761dc1f8b93f9f",
+    "schedule": "source-268706ca41149b76d5486a12",
+    "oj": "source-ad6d6f5343d043f75360815b",
+    "ec": "source-e9fb6611927d9c4130941bac"
+  },
+  "article_url": "https://alverdae.com/en/changes-en-301549-public-sector-websites/",
+  "article_publication_date": "2026-09-25",
+  "checked_on": "2026-09-28",
+  "comparison": {
+    "previous": "EN 301 549 V3.2.1:2021",
+    "new": "EN 301 549 V4.1.1:2026",
+    "audience": "Public-sector websites under the WAD; related document/software conditions retained where needed."
+  },
+  "scope": "Selected article assertions and high-impact table labels checked against primary sources. Not every table row or normative requirement was audited. Canonical wording/status/source metadata live in european-standard.json; this report indexes the assessments.",
+  "timing": {
+    "conservative_start_utc": "2026-09-28T13:10:00Z",
+    "first_clock_observation_utc": "2026-09-28T13:12:31Z",
+    "research_cutoff_utc": "2026-09-28T13:20:00Z",
+    "budget_minutes": 10,
+    "remaining_research_minutes": 0,
+    "note": "Initial source work preceded first explicit clock observation; conservative start is approximate. Research stops at cutoff; preparation and validation may continue. Independent review was dispatched before cutoff and returned while records were being prepared; precise reviewer completion time was not logged. No further source retrieval was requested."
+  },
+  "assessments": [
+    {
+      "claim_id": "adoption-europe-public-sector-wcag-20260928",
+      "article_claim_summary": "WCAG update",
+      "assessment": "supported"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-annex-20260928",
+      "article_claim_summary": "New table labelled Annex A, table ZA.1",
+      "assessment": "correction_needed"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-parsing-20260928",
+      "article_claim_summary": "Parsing labelled Deleted",
+      "assessment": "qualified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-documents-20260928",
+      "article_claim_summary": "Document clause rows labelled Deleted",
+      "assessment": "qualified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-preferences-20260928",
+      "article_claim_summary": "Preferences split across web, documents and software",
+      "assessment": "qualified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-support-20260928",
+      "article_claim_summary": "Old support-service rows labelled Deleted",
+      "assessment": "qualified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-existing-five-20260928",
+      "article_claim_summary": "Chapter 5 entries labelled New",
+      "assessment": "qualified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-grouped-heading-20260928",
+      "article_claim_summary": "Grouped chapter 9 row labelled No change",
+      "assessment": "correction_needed"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-authoring-20260928",
+      "article_claim_summary": "Authoring tools moved to chapter 5",
+      "assessment": "supported"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-publication-20260928",
+      "article_claim_summary": "Published September 2026",
+      "assessment": "supported"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-forecast-20260928",
+      "article_claim_summary": "Expected OJ publication November 2026",
+      "assessment": "not_corroborated"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-legal-current-20260928",
+      "article_claim_summary": "Current and future legal applicability",
+      "assessment": "partly_checked"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-auditor-practice-20260928",
+      "article_claim_summary": "Most auditors already use WCAG 2.2",
+      "assessment": "not_verified"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-national-examples-20260928",
+      "article_claim_summary": "National implementation examples",
+      "assessment": "not_checked"
+    },
+    {
+      "claim_id": "adoption-europe-public-sector-communication-20260928",
+      "article_claim_summary": "Communication expansion and EPG additions",
+      "assessment": "partly_checked"
+    }
+  ],
+  "document_fingerprints": {
+    "v4_sha256": "636914c5c18dc58cf7716b8935502f1471de05caf5e1e6ae32469eed929cb824",
+    "v3_sha256": "1eee3a1841a94567da8e59f3b19a782ce9ab081c386b6a2a763b8cde13ff5b49"
+  },
+  "access_limits": [
+    "Article reader failed; ordinary browser succeeded.",
+    "EUR-Lex reader required ordinary-browser fallback. Historical 2021 act read, not an exhaustive current OJ inventory.",
+    "PDF rendering tool failed; local selected pages inspected after successful downloads. Full PDFs/text are not committed."
+  ],
+  "follow_up": [
+    "Public-sector handoff (public-sector-version-comparison-2026-09-28): use .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json and its canonical claim IDs before proposing a public-sector comparison page; first register the destination under evidence.md. No public row or Updated date was changed.",
+    "Follow-up: check current WAD-specific OJ acts for V4.1.1:2026, restrictions and transition/withdrawal dates. Owner: next EU standards research pass. Resolve only with the relevant legal act; neither the article nor an ETSI target suffices.",
+    "Follow-up: complete a clause-by-clause normative comparison including all chapter 6 communication changes, 12.4–12.5 EPG conditions, authoring-tool changes and every article table row. This round is not a full technical audit.",
+    "Follow-up: verify the article’s Swedish and Dutch legal examples against current national primary legislation, and seek evidence for its auditor-practice claim before repeating either as verified."
+  ],
+  "public_changes": false,
+  "independent_review": {
+    "status": "completed_with_scope_limits",
+    "reviewer": "/root/public_sector_fidelity",
+    "reviewed_on": "2026-09-28",
+    "isolation": "No conversation-history fork; only neutral fidelity brief, exact wording and primary-source sections supplied.",
+    "scope": "Eight selected English research statements; no public text changed. Other claim assessments did not receive independent source-fidelity review.",
+    "comparisons": [
+      {
+        "claim_id": "adoption-europe-public-sector-wcag-20260928",
+        "original_reviewed_wording": "V4.1.1:2026 uses WCAG 2.2 in its web requirements, compared with WCAG 2.1 in V3.2.1:2021.",
+        "final_wording": "V4.1.1:2026 uses WCAG 2.2 in its web requirements, compared with WCAG 2.1 in V3.2.1:2021.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "9.0, 9.1.1.1",
+        "short_source_excerpt": "WCAG 2.2 / WCAG 2.1",
+        "literal_rendering": "Web criteria advance from WCAG 2.1 to WCAG 2.2.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "WCAG does not exhaust EN web requirements.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-annex-20260928",
+        "original_reviewed_wording": "V4.1.1:2026 places the WAD correspondence table in Annex ZA, Table ZA.1; V3.2.1:2021 used Annex A, Table A.1.",
+        "final_wording": "V4.1.1:2026 places the WAD web-content correspondence table in Annex ZA, Table ZA.1; V3.2.1:2021 used Annex A, Table A.1.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "Annex ZA/Table ZA.1; Annex A/Table A.1",
+        "short_source_excerpt": "Table ZA.1 / Table A.1",
+        "literal_rendering": "The web-content WAD mapping moves to Annex ZA.",
+        "verdict": "Supported with narrowing",
+        "correction": "Adopted reviewer-supplied narrower formulation.",
+        "limits": "These are web-content tables; mobile-app mappings are ZA.2/A.2.",
+        "final_wording_recheck": "Reviewer supplied this narrower wording; no additional independent recheck after research cutoff."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-parsing-20260928",
+        "original_reviewed_wording": "V4.1.1:2026 retains clause 9.4.1.1 as Void; the Parsing requirement is removed, not the numbered slot.",
+        "final_wording": "V4.1.1:2026 retains clause 9.4.1.1 as Void; the Parsing requirement is removed, not the numbered slot.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "9.4.1.1",
+        "short_source_excerpt": "9.4.1.1 Void / 9.4.1.1 Parsing",
+        "literal_rendering": "The numbered slot remains without its former Parsing obligation.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "Does not mean every issue formerly associated with parsing is irrelevant.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-documents-20260928",
+        "original_reviewed_wording": "Chapter 10 remains present, and Annex ZA expressly includes downloadable documents and forms. Their disappearance as individual rows in a comparison table must not be read as removal of document accessibility requirements.",
+        "final_wording": "Chapter 10 remains present, and Annex ZA expressly includes downloadable documents and forms. Their disappearance as individual rows in a comparison table must not be read as removal of document accessibility requirements.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "Chapter 10; Annex ZA introduction",
+        "short_source_excerpt": "Non-web documents; documents, including forms",
+        "literal_rendering": "Chapter 10 and the express downloadable-document scope remain.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "Does not establish all old document requirements are unchanged.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-preferences-20260928",
+        "original_reviewed_wording": "The new clauses 9.7 and 10.7 restrict blocking or overriding specified user preferences and accessibility features, subject to their stated conditions and essential-information/function exceptions. Software clause 11.7 also has platform and essential-function qualifications.",
+        "final_wording": "The new clauses 9.7 and 10.7 restrict blocking or overriding specified user preferences and accessibility features, subject to their stated conditions and essential-information/function exceptions. Software clause 11.7 also has platform and essential-function qualifications.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "9.7, 10.7, 11.7",
+        "short_source_excerpt": "essential",
+        "literal_rendering": "Preferences provisions have defined scope and essential-information/function exceptions.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "Not all preferences, platforms or software are covered without conditions.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-support-20260928",
+        "original_reviewed_wording": "V4.1.1:2026 clause 12.2 expressly includes support services in its scope; deletion of old clause identifiers is not evidence that all support-service requirements disappeared.",
+        "final_wording": "V4.1.1:2026 clause 12.2 expressly covers digitally available information about support services; deletion of old clause identifiers does not establish that every requirement relating to support services disappeared.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "V4 12.2; V3 12.2.2–12.2.4",
+        "short_source_excerpt": "support services",
+        "literal_rendering": "Digitally available service information follows the requirements appropriate to its format.",
+        "verdict": "Supported with narrowing",
+        "correction": "Adopted reviewer-supplied narrower formulation.",
+        "limits": "Does not establish preservation of old support-service duties themselves, particularly effective communication.",
+        "final_wording_recheck": "Reviewer supplied this narrower wording; no additional independent recheck after research cutoff."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-existing-five-20260928",
+        "original_reviewed_wording": "Clauses 5.6.1, 5.6.2, 5.7, 5.8 and 5.9 already exist in V3.2.1:2021; New in a WAD web mapping comparison does not mean newly invented requirements in the standard.",
+        "final_wording": "Clauses 5.6.1, 5.6.2, 5.7, 5.8 and 5.9 already exist in V3.2.1:2021; New in a WAD web mapping comparison does not mean newly invented requirements in the standard.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "V3 5.6.1–5.9",
+        "short_source_excerpt": "Key repeat; Simultaneous user actions",
+        "literal_rendering": "The listed identifiers and requirements existed in the previous edition.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "Does not establish unchanged normative text or conditions.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      },
+      {
+        "claim_id": "adoption-europe-public-sector-grouped-heading-20260928",
+        "original_reviewed_wording": "The grouped No change label for 9.1.1.1–9.2.4.7 misses at least the heading change at 9.1.2.2 from Captions to Subtitles.",
+        "final_wording": "The grouped No change label for 9.1.1.1–9.2.4.7 misses at least the heading change at 9.1.2.2 from Captions to Subtitles.",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "sections": "9.1.2.2",
+        "short_source_excerpt": "Captions / Subtitles",
+        "literal_rendering": "The heading changes although the referenced WCAG criterion retains Captions in its name.",
+        "verdict": "Supported",
+        "correction": null,
+        "limits": "Heading difference alone is not proof of substantive obligation change; article explicitly presents a title/number comparison.",
+        "final_wording_recheck": "Unchanged from exact reviewed wording."
+      }
+    ],
+    "limits": "Not a comprehensive normative comparison, current-law certification, human review or PR approval. Narrowed wording is the reviewer recommendation; no further independent recheck performed."
+  },
+  "canonical_claims_sha256": "b489231ce3686ca837ded1675e7af1fcb91be0629747d7da30281a811e3814f1",
+  "validation": {
+    "country_records": "PASS: 44 countries, 749 country claims, 52 country events; global EU record checked separately.",
+    "adoption": "PASS: 14 adoption records, require-coverage enabled.",
+    "adoption_tests": "PASS: 22 tests.",
+    "verification_dates": "PASS: no last_verified markers found.",
+    "preservation": "PASS: previous EU claims/evidence/attempts/questions/deliveries and public mappings/review dates unchanged.",
+    "diff_whitespace": "PASS",
+    "local_rendered_html": "Not passed: system legacy HTML Tidy reports HTML5 charset and table-summary warnings on unchanged Markdown; this PR changes JSON only.",
+    "local_link_check": "Unavailable: lychee not installed; defer to repository CI.",
+    "ci": "Not yet observed at preparation time; see actual PR checks.",
+    "limits": "Structure and preservation checks do not certify legal interpretation or live source status."
+  }
+}

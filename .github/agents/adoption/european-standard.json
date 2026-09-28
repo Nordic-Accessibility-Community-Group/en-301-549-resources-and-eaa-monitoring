@@ -55,6 +55,72 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "ordinary browser; target/achieved columns inspected"
+    },
+    "source-b2e8f37f5779fa652c936f7d": {
+      "issuer": "Alverdae",
+      "url": "https://alverdae.com/en/changes-en-301549-public-sector-websites/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Secondary comparison by Sander. Its table expressly compares clause titles and numbers, not full requirement content; website scope excludes a full document/mobile-app comparison.",
+      "publication_date": "2026-09-25",
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "ordinary browser"
+    },
+    "source-3dc6da4ee0102b723b064818": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "EN 301 549 V4.1.1 (2026-09). Inspected chapters 5–7, 9–12 and Annex ZA, especially 9.0, 9.4.1.1, 9.7, 10.7, 11.7, 12.2 and ZA introduction/table ZA.1. Clause identifiers and selected text checked; not a full normative redline.",
+      "publication_date": "2026-09",
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "PDF download, text extraction and selected page rendering"
+    },
+    "source-24cf3069d8761dc1f8b93f9f": {
+      "issuer": "ETSI / CEN / CENELEC",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "EN 301 549 V3.2.1 (2021-03). Compared chapter/heading structure and selected clauses in 5–7, 9–12 and Annex A/Table A.1 against the new edition. Full requirement equivalence was not audited.",
+      "publication_date": "2021-03",
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "PDF download, text extraction and selected page rendering"
+    },
+    "source-268706ca41149b76d5486a12": {
+      "issuer": "ETSI",
+      "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "WKI 64282: publication V4.1.1 achieved 2026-09-02; delivery to EC achieved 2026-09-08; OJ citation target 2026-12-16, achieved blank. The schedule does not establish an actual directive-specific citation.",
+      "publication_date": null,
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "ordinary browser; Target and Achieved columns inspected"
+    },
+    "source-ad6d6f5343d043f75360815b": {
+      "issuer": "European Commission / Official Journal",
+      "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "Decision (EU) 2021/1339, Annex and Article 2, OJ L 289 of 12 August 2021: reference to EN 301 549 V3.2.1 (2021-03). Historical WAD citation, not proof of current exhaustive citation status.",
+      "publication_date": "2021-08-12",
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "ordinary browser; decision and annex read"
+    },
+    "source-e9fb6611927d9c4130941bac": {
+      "issuer": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "The page identifies V3.2.1 as the harmonised WAD version and distinguishes standard publication from OJ citation. Guidance is dated May 2025; not sufficient alone to certify September 2026 legal status.",
+      "publication_date": "2025-05-05",
+      "accessed_on": "2026-09-28",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "adoption": {
@@ -254,11 +320,295 @@
         "next_review_due": "2026-10-04",
         "existing_text": null,
         "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+      },
+      {
+        "id": "adoption-europe-public-sector-wcag-20260928",
+        "aspect": "edition",
+        "statement": "V4.1.1:2026 uses WCAG 2.2 in its web requirements, compared with WCAG 2.1 in V3.2.1:2021.",
+        "scope": "9.0 and 9.1–9.4; six additional A/AA criteria appear in chapter 9. This is a standard-content comparison, not a legal commencement claim.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-wcag-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-annex-20260928",
+        "aspect": "source_correction",
+        "statement": "V4.1.1:2026 places the WAD web-content correspondence table in Annex ZA, Table ZA.1; V3.2.1:2021 used Annex A, Table A.1.",
+        "scope": "Article locator mixes the old annex letter with the new table number.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-annex-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-parsing-20260928",
+        "aspect": "reference",
+        "statement": "V4.1.1:2026 retains clause 9.4.1.1 as Void; the Parsing requirement is removed, not the numbered slot.",
+        "scope": "Clause 9.4.1.1 and tables A.1/ZA.1; deletion describes the requirement, not removal of the retained identifier.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-parsing-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-documents-20260928",
+        "aspect": "scope",
+        "statement": "Chapter 10 remains present, and Annex ZA expressly includes downloadable documents and forms. Their disappearance as individual rows in a comparison table must not be read as removal of document accessibility requirements.",
+        "scope": "Chapter 10, Annex ZA introduction and Table ZA.1; the article excludes a full document comparison. Applicability still depends on scope and conditions.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-documents-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-preferences-20260928",
+        "aspect": "scope",
+        "statement": "The new clauses 9.7 and 10.7 restrict blocking or overriding specified user preferences and accessibility features, subject to their stated conditions and essential-information/function exceptions. Software clause 11.7 also has platform and essential-function qualifications.",
+        "scope": "Clauses 9.7, 10.7 and 11.7; do not generalise this into an unconditional requirement for every preference on every platform.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-preferences-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-support-20260928",
+        "aspect": "scope",
+        "statement": "V4.1.1:2026 clause 12.2 expressly covers digitally available information about support services; deletion of old clause identifiers does not establish that every requirement relating to support services disappeared.",
+        "scope": "V4 clause 12.2 and its note, compared with V3 12.2.2–12.2.4; no one-to-one equivalence of every old obligation asserted.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-support-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-existing-five-20260928",
+        "aspect": "reference",
+        "statement": "Clauses 5.6.1, 5.6.2, 5.7, 5.8 and 5.9 already exist in V3.2.1:2021; New in a WAD web mapping comparison does not mean newly invented requirements in the standard.",
+        "scope": "Distinguish addition to the web correspondence table from creation of a standard requirement; no unchanged normative-text claim.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-existing-five-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-grouped-heading-20260928",
+        "aspect": "source_correction",
+        "statement": "The grouped No change label for 9.1.1.1–9.2.4.7 misses at least the heading change at 9.1.2.2 from Captions to Subtitles.",
+        "scope": "Heading comparison only; terminology does not imply speech-only subtitles satisfy the accessibility requirement.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-grouped-heading-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-authoring-20260928",
+        "aspect": "reference",
+        "statement": "Authoring tools move from V3.2.1:2021 clause 11.8 to V4.1.1:2026 clause 5.10.",
+        "scope": "Structural movement confirmed; full normative equivalence not checked.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-authoring-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-publication-20260928",
+        "aspect": "publication",
+        "statement": "The ETSI schedule records V4.1.1 publication achieved on 2 September 2026.",
+        "scope": "ETSI achieved milestone and final PDF edition; publication alone does not establish legal applicability.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-268706ca41149b76d5486a12",
+          "source-3dc6da4ee0102b723b064818"
+        ],
+        "event_dates": [
+          {
+            "kind": "publication",
+            "value": "2026-09-02"
+          }
+        ],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-publication-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-forecast-20260928",
+        "aspect": "citation",
+        "statement": "ETSI lists 16 December 2026 as an OJ citation target with no achieved date. The article’s November forecast is not corroborated by this schedule.",
+        "scope": "Neither forecast is an effective date or proof of citation. A schedule entry is not an exhaustive OJ search.",
+        "stage": "final",
+        "status": "verified",
+        "source_refs": [
+          "source-268706ca41149b76d5486a12"
+        ],
+        "event_dates": [
+          {
+            "kind": "target",
+            "value": "2026-12-16"
+          }
+        ],
+        "attempted_on": "2026-09-28",
+        "verified_on": "2026-09-28",
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-forecast-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-legal-current-20260928",
+        "aspect": "citation",
+        "statement": "V3.2.1:2021 remains the applicable version and V4.1.1:2026 becomes applicable when cited in the OJ.",
+        "scope": "Historical V3.2.1 WAD citation and conditional presumption mechanism confirmed. Current exhaustive OJ status, any transition/withdrawal provisions and national rules were not established; avoid an automatic universal applicability claim.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-b2e8f37f5779fa652c936f7d",
+          "source-ad6d6f5343d043f75360815b",
+          "source-e9fb6611927d9c4130941bac",
+          "source-3dc6da4ee0102b723b064818"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": null,
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-legal-current-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-auditor-practice-20260928",
+        "aspect": "reference",
+        "statement": "Most accessibility auditors already use WCAG 2.2.",
+        "scope": "No survey or other supporting evidence established in this pass; practical impact opinion is not a standards fact.",
+        "stage": "unknown",
+        "status": "unverified_source",
+        "source_refs": [
+          "source-b2e8f37f5779fa652c936f7d"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": null,
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-auditor-practice-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-national-examples-20260928",
+        "aspect": "scope",
+        "statement": "Swedish DOS-lagen and the Netherlands decree are national implementations of the WAD.",
+        "scope": "Primary national legislation and amendments were not checked in this EU standard comparison.",
+        "stage": "unknown",
+        "status": "unverified_source",
+        "source_refs": [
+          "source-b2e8f37f5779fa652c936f7d"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": null,
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-national-examples-20260928"
+      },
+      {
+        "id": "adoption-europe-public-sector-communication-20260928",
+        "aspect": "reference",
+        "statement": "Chapter 6 is expanded and new electronic programme guide provisions appear in chapter 12.",
+        "scope": "Structure and V4 12.4–12.5 located. Detailed old/new duty comparison, feature conditions and all table rows remain for a later pass.",
+        "stage": "unknown",
+        "status": "unknown",
+        "source_refs": [
+          "source-b2e8f37f5779fa652c936f7d",
+          "source-3dc6da4ee0102b723b064818",
+          "source-24cf3069d8761dc1f8b93f9f"
+        ],
+        "event_dates": [],
+        "attempted_on": "2026-09-28",
+        "verified_on": null,
+        "next_review_due": "2026-10-05",
+        "existing_text": null,
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-communication-20260928"
       }
     ],
     "questions": [
       "Follow-up: verify actual citation against directive-specific OJ records and monitor ETSI target changes. EUR-Lex reader returned a challenge; one ordinary-browser attempt gave no readable text. No new completed citation is asserted.",
-      "Round 2 (2026-09-27): Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
+      "Round 2 (2026-09-27): Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+      "Public-sector handoff (public-sector-version-comparison-2026-09-28): use .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json and its canonical claim IDs before proposing a public-sector comparison page; first register the destination under evidence.md. No public row or Updated date was changed.",
+      "Follow-up: check current WAD-specific OJ acts for V4.1.1:2026, restrictions and transition/withdrawal dates. Owner: next EU standards research pass. Resolve only with the relevant legal act; neither the article nor an ETSI target suffices.",
+      "Follow-up: complete a clause-by-clause normative comparison including all chapter 6 communication changes, 12.4–12.5 EPG conditions, authoring-tool changes and every article table row. This round is not a full technical audit.",
+      "Follow-up: verify the article’s Swedish and Dutch legal examples against current national primary legislation, and seek evidence for its auditor-practice claim before repeating either as verified."
     ],
     "attempts": [
       {
@@ -298,6 +648,78 @@
         "note": "Initial web-reader response empty/challenged; the one ordinary-browser fallback succeeded, recorded separately.",
         "run_id": "adoption-round-2-2026-09-27",
         "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"
+      },
+      {
+        "url": "https://alverdae.com/en/changes-en-301549-public-sector-websites/",
+        "on": "2026-09-28",
+        "method": "ordinary browser",
+        "outcome": "reachable",
+        "note": "Secondary comparison by Sander. Its table expressly compares clause titles and numbers, not full requirement content; website scope excludes a full document/mobile-app comparison.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf",
+        "on": "2026-09-28",
+        "method": "PDF download, text extraction and selected page rendering",
+        "outcome": "reachable",
+        "note": "EN 301 549 V4.1.1 (2026-09). Inspected chapters 5–7, 9–12 and Annex ZA, especially 9.0, 9.4.1.1, 9.7, 10.7, 11.7, 12.2 and ZA introduction/table ZA.1. Clause identifiers and selected text checked; not a full normative redline.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "on": "2026-09-28",
+        "method": "PDF download, text extraction and selected page rendering",
+        "outcome": "reachable",
+        "note": "EN 301 549 V3.2.1 (2021-03). Compared chapter/heading structure and selected clauses in 5–7, 9–12 and Annex A/Table A.1 against the new edition. Full requirement equivalence was not audited.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+        "on": "2026-09-28",
+        "method": "ordinary browser; Target and Achieved columns inspected",
+        "outcome": "reachable",
+        "note": "WKI 64282: publication V4.1.1 achieved 2026-09-02; delivery to EC achieved 2026-09-08; OJ citation target 2026-12-16, achieved blank. The schedule does not establish an actual directive-specific citation.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng",
+        "on": "2026-09-28",
+        "method": "ordinary browser; decision and annex read",
+        "outcome": "reachable",
+        "note": "Decision (EU) 2021/1339, Annex and Article 2, OJ L 289 of 12 August 2021: reference to EN 301 549 V3.2.1 (2021-03). Historical WAD citation, not proof of current exhaustive citation status.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation",
+        "on": "2026-09-28",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The page identifies V3.2.1 as the harmonised WAD version and distinguishes standard publication from OJ citation. Guidance is dated May 2025; not sufficient alone to certify September 2026 legal status.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://alverdae.com/en/changes-en-301549-public-sector-websites/",
+        "on": "2026-09-28",
+        "method": "initial reader/render/download access",
+        "outcome": "unreachable",
+        "note": "Reader failed; ordinary-browser fallback succeeded.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng",
+        "on": "2026-09-28",
+        "method": "initial reader/render/download access",
+        "outcome": "unreachable",
+        "note": "Reader returned challenge/JavaScript response; ordinary-browser fallback succeeded.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf",
+        "on": "2026-09-28",
+        "method": "initial reader/render/download access",
+        "outcome": "unreachable",
+        "note": "PDF screenshot tool failed to render requested page; local PDF rendering succeeded. Initial sandbox download could not resolve host; authorised network download succeeded.",
+        "run_id": "public-sector-version-comparison-2026-09-28"
       }
     ],
     "last_monthly_review": null,
@@ -406,6 +828,47 @@
           "disposition": "not_applicable",
           "reason": "No supported change in this destination established by the narrow standards/reference check.",
           "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "public-sector-version-comparison-2026-09-28",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/adoption/european-standard.json",
+          "disposition": "research_only",
+          "reason": "Public-sector standards comparison retained for future presentation.",
+          "next_action": "Complete claim-specific follow-ups and register any future public-sector page before publication.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This standards comparison establishes no new agency remit, sanction or enforcement event for this destination.",
+          "next_action": "Reassess only if domain-specific evidence is found.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This standards comparison establishes no new agency remit, sanction or enforcement event for this destination.",
+          "next_action": "Reassess only if domain-specific evidence is found.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This standards comparison establishes no new agency remit, sanction or enforcement event for this destination.",
+          "next_action": "Reassess only if domain-specific evidence is found.",
           "pr": null
         }
       ]
