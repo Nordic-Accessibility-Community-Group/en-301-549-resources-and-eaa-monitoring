@@ -44,7 +44,7 @@
         "Finland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "acc962cb95f55c672dd272704e60901c33026f2c1d676d40785931973a021120",
+      "row_sha256": "d8b61a2318448ab10f786dbf776355c6125a2eb6ee45bb575906a310999aba80",
       "state": "reviewed",
       "claim_ids": [
         "fi-consumer-service-complaints-june-2026"
@@ -57,7 +57,7 @@
         "France"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "9c521cb5d08c4e87a16536690d499e754b48411d6e79013fae77f61c638ae37f",
+      "row_sha256": "273c8d6395171d18b99af13b6028d98f838d1bcdd72ba25750977ba337fcd505",
       "state": "reviewed",
       "claim_ids": [
         "fr-dgccrf-controls",
@@ -98,7 +98,7 @@
         "Ireland"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "ce51daa53130844a5138bf135f25445c90b48b7adf05076e8494ef216682b5fb",
+      "row_sha256": "dcda8fc4c2a8a786c5ca9fbf675fc04f8a11f0de6a7bb2dfdf12f298745be16d",
       "state": "reviewed",
       "claim_ids": [
         "ie-ccpc-2025-eaa-submissions"
