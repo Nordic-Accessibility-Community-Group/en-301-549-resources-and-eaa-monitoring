@@ -31,3 +31,7 @@ Repository readers, links, inventory and instructions are migrated together. Wat
 ## Standards adoption extension
 
 Adoption uses the same canonical country files and evidence fingerprints, with its separate [contract](../adoption/README.md). Adoption-only jurisdictions do not require invented monitoring, sanctions or enforcement domains. European standard release and EU-wide citation history use `adoption/european-standard.json` because they are not a country. Its deliveries remain global and outside the existing country routing projection. Historical domains, exception fingerprints and frozen migration baselines remain unchanged.
+
+## Worldwide discovery inventory
+
+The [worldwide index](global/README.md) records the full country-and-area discovery queue. Countries without an explicit EN connection keep research in its shared JSON; supported connections point to canonical country files. This does not replace existing domain records or authorise a new legal domain. The index also retains the deferred legal-mapping task for already-listed adoption countries.

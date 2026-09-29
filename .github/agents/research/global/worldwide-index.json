@@ -1,0 +1,6424 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-09-27",
+  "updated_on": "2026-09-27",
+  "purpose": "Worldwide EN 301 549 discovery and evidence intake for a future global discrimination/accessibility law mapping.",
+  "scope": {
+    "basis": "248 entries from the UN M49 country-or-area list, plus Kosovo and Taiwan as supplementary research jurisdictions from its Q&A. Inclusion is research coverage, not a sovereignty classification.",
+    "inventory_count": 250,
+    "excluded_existing_adoption_countries": 13,
+    "pending_discovery_entries": 237,
+    "baseline_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+    "baseline_commit": "6e182119eb73d17e06599236a5f3b413bca67374",
+    "baseline_page": "EN 301 549 adoption.md",
+    "country_law_research_performed": false,
+    "exclusion_rule": "Only country rows already on the adoption page are excluded from this EN discovery round. Existing monitoring/sanctions/enforcement records alone do not exclude a country. Do not infer country-specific adoption from EU membership."
+  },
+  "inventory_source": {
+    "issuer": "United Nations Statistics Division",
+    "url": "https://unstats.un.org/unsd/methodology/m49/",
+    "sections": [
+      "English Countries or Areas table",
+      "Geographic Regions",
+      "Questions & Answers: Kosovo and Taiwan"
+    ],
+    "retrieved_on": "2026-09-27",
+    "snapshot_sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+    "method": "Official page read and downloaded; country names/codes extracted from English HTML table. Supplementary entries added explicitly from Q&A.",
+    "notes": [
+      "Names are retained as published; aliases connect repository names such as Turkey and United Kingdom.",
+      "Null ISO codes for supplementary entries mean not taken from the source table, not a claim that no other identifier exists."
+    ]
+  },
+  "storage_rules": {
+    "no_explicit_en_connection": "Keep research in this shared index entry. Pending is not a negative finding; no_reference_found_in_checked_sources requires an actual bounded search log.",
+    "explicit_en_connection": "Create or reuse the canonical country JSON, record source-supported connection and link it here. A draft/reference/translation is an explicit connection but not national adoption. Add registry/adoption-domain metadata under existing contracts; do not create a duplicate country file.",
+    "promotion": "Transfer shared research history to the canonical record with stable provenance and references, then set research to null here. Keep only the pointer and administrative status in this index. Resolve schema support explicitly; never drop law findings during transfer.",
+    "legal_findings": "Capture official law title, jurisdiction, type, source URL, relevant provisions, scope, dates with event meaning, status and uncertainty. Preserve distinctions between enacted/in-force/proposed and between legal obligations and voluntary standards.",
+    "existing_other_domains": "Preserve existing_repository_record without treating it as EN evidence. This inventory creates no country file solely for law-only findings."
+  },
+  "research_contract": {
+    "attempt_fields": [
+      "id",
+      "on",
+      "query_or_url",
+      "method",
+      "outcome",
+      "scope",
+      "elapsed_minutes",
+      "limitations",
+      "next_action"
+    ],
+    "source_fields": [
+      "id",
+      "issuer",
+      "url",
+      "language",
+      "title",
+      "publication_date",
+      "accessed_on",
+      "access",
+      "passage_or_section"
+    ],
+    "en_finding_fields": [
+      "id",
+      "statement",
+      "relationship",
+      "stage",
+      "version",
+      "source_refs",
+      "status",
+      "attempted_on",
+      "verified_on",
+      "limitations"
+    ],
+    "law_finding_fields": [
+      "id",
+      "official_title",
+      "jurisdiction",
+      "law_type",
+      "status",
+      "scope",
+      "relevant_provisions",
+      "event_dates",
+      "source_refs",
+      "attempted_on",
+      "verified_on",
+      "limitations",
+      "next_action"
+    ],
+    "event_date_fields": [
+      "kind",
+      "value"
+    ],
+    "research_statuses": [
+      "not_researched",
+      "candidate",
+      "explicit_connection_supported",
+      "no_reference_found_in_checked_sources",
+      "inconclusive",
+      "previously_mapped"
+    ],
+    "finding_statuses": [
+      "lead",
+      "verified",
+      "disputed",
+      "unknown"
+    ],
+    "law_types": [
+      "discrimination",
+      "accessibility",
+      "other_relevant"
+    ],
+    "budget": "30 minutes per run; 10 minutes per jurisdiction; at most two attempts per failing URL and two targeted follow-up searches per unresolved question. Log actual timing."
+  },
+  "tasks": [
+    {
+      "id": "worldwide-en-discovery-round-1",
+      "status": "pending",
+      "scope": "Entries with round_status pending; exclude the 13 current adoption-country rows.",
+      "next_action": "Run bounded regional discovery batches; record attempts and law leads even where no EN connection is found.",
+      "completion_criterion": "Each eligible entry has a dated bounded search outcome or explicit deferred/access-blocked reason; supported EN connections link to canonical country research."
+    },
+    {
+      "id": "global-legal-mapping-existing-adoption-countries",
+      "status": "deferred",
+      "country_ids": [
+        "m49-036",
+        "m49-076",
+        "m49-124",
+        "m49-352",
+        "m49-356",
+        "m49-392",
+        "m49-404",
+        "m49-484",
+        "m49-554",
+        "m49-578",
+        "m49-756",
+        "m49-792",
+        "m49-826"
+      ],
+      "purpose": "Later map discrimination and accessibility laws for countries already on the adoption page, as input to a global legal mapping.",
+      "next_action": "In a later authorised legal-research round, inspect existing country evidence first, then official legislation and authorities. Define any dedicated legal domain/schema before storing structured law claims in canonical records.",
+      "completion_criterion": "Every listed country has scoped primary-source law findings or documented gaps; distinguish applicability, commencement and amendments.",
+      "schedule": null
+    }
+  ],
+  "regional_records": [
+    {
+      "name": "European Union",
+      "record": ".github/agents/adoption/european-standard.json",
+      "domain": "adoption",
+      "round_status": "excluded_existing_regional_record",
+      "note": "Not counted as a country and not propagated to member states as national evidence."
+    }
+  ],
+  "countries": [
+    {
+      "id": "m49-004",
+      "name": "Afghanistan",
+      "aliases": [],
+      "m49_code": "004",
+      "iso_alpha3": "AFG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-008",
+      "name": "Albania",
+      "aliases": [],
+      "m49_code": "008",
+      "iso_alpha3": "ALB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-012",
+      "name": "Algeria",
+      "aliases": [],
+      "m49_code": "012",
+      "iso_alpha3": "DZA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-016",
+      "name": "American Samoa",
+      "aliases": [],
+      "m49_code": "016",
+      "iso_alpha3": "ASM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-020",
+      "name": "Andorra",
+      "aliases": [],
+      "m49_code": "020",
+      "iso_alpha3": "AND",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-024",
+      "name": "Angola",
+      "aliases": [],
+      "m49_code": "024",
+      "iso_alpha3": "AGO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-660",
+      "name": "Anguilla",
+      "aliases": [],
+      "m49_code": "660",
+      "iso_alpha3": "AIA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-010",
+      "name": "Antarctica",
+      "aliases": [],
+      "m49_code": "010",
+      "iso_alpha3": "ATA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Antarctica",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-028",
+      "name": "Antigua and Barbuda",
+      "aliases": [],
+      "m49_code": "028",
+      "iso_alpha3": "ATG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-032",
+      "name": "Argentina",
+      "aliases": [],
+      "m49_code": "032",
+      "iso_alpha3": "ARG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-051",
+      "name": "Armenia",
+      "aliases": [],
+      "m49_code": "051",
+      "iso_alpha3": "ARM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-533",
+      "name": "Aruba",
+      "aliases": [],
+      "m49_code": "533",
+      "iso_alpha3": "ABW",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-036",
+      "name": "Australia",
+      "aliases": [],
+      "m49_code": "036",
+      "iso_alpha3": "AUS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": ".github/agents/research/countries/australia.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/australia.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-australia-round2-cell-1",
+          "adoption-australia-round2-cell-2",
+          "adoption-australia-version-label",
+          "adoption-australia-round2-cell-4"
+        ],
+        "public_relationship": "Adopted (identical)",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-040",
+      "name": "Austria",
+      "aliases": [],
+      "m49_code": "040",
+      "iso_alpha3": "AUT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/austria.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-031",
+      "name": "Azerbaijan",
+      "aliases": [],
+      "m49_code": "031",
+      "iso_alpha3": "AZE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-044",
+      "name": "Bahamas",
+      "aliases": [],
+      "m49_code": "044",
+      "iso_alpha3": "BHS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-048",
+      "name": "Bahrain",
+      "aliases": [],
+      "m49_code": "048",
+      "iso_alpha3": "BHR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-050",
+      "name": "Bangladesh",
+      "aliases": [],
+      "m49_code": "050",
+      "iso_alpha3": "BGD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-052",
+      "name": "Barbados",
+      "aliases": [],
+      "m49_code": "052",
+      "iso_alpha3": "BRB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-112",
+      "name": "Belarus",
+      "aliases": [],
+      "m49_code": "112",
+      "iso_alpha3": "BLR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-056",
+      "name": "Belgium",
+      "aliases": [],
+      "m49_code": "056",
+      "iso_alpha3": "BEL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/belgium.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-084",
+      "name": "Belize",
+      "aliases": [],
+      "m49_code": "084",
+      "iso_alpha3": "BLZ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-204",
+      "name": "Benin",
+      "aliases": [],
+      "m49_code": "204",
+      "iso_alpha3": "BEN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-060",
+      "name": "Bermuda",
+      "aliases": [],
+      "m49_code": "060",
+      "iso_alpha3": "BMU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-064",
+      "name": "Bhutan",
+      "aliases": [],
+      "m49_code": "064",
+      "iso_alpha3": "BTN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-068",
+      "name": "Bolivia (Plurinational State of)",
+      "aliases": [],
+      "m49_code": "068",
+      "iso_alpha3": "BOL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-535",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "aliases": [],
+      "m49_code": "535",
+      "iso_alpha3": "BES",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-070",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [],
+      "m49_code": "070",
+      "iso_alpha3": "BIH",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-072",
+      "name": "Botswana",
+      "aliases": [],
+      "m49_code": "072",
+      "iso_alpha3": "BWA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-074",
+      "name": "Bouvet Island",
+      "aliases": [],
+      "m49_code": "074",
+      "iso_alpha3": "BVT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-076",
+      "name": "Brazil",
+      "aliases": [],
+      "m49_code": "076",
+      "iso_alpha3": "BRA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": ".github/agents/research/countries/brazil.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/brazil.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-brazil-abnt-first-edition",
+          "adoption-brazil-abnt-en-references"
+        ],
+        "public_relationship": "Referenced",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-086",
+      "name": "British Indian Ocean Territory",
+      "aliases": [],
+      "m49_code": "086",
+      "iso_alpha3": "IOT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-092",
+      "name": "British Virgin Islands",
+      "aliases": [],
+      "m49_code": "092",
+      "iso_alpha3": "VGB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-096",
+      "name": "Brunei Darussalam",
+      "aliases": [],
+      "m49_code": "096",
+      "iso_alpha3": "BRN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-100",
+      "name": "Bulgaria",
+      "aliases": [],
+      "m49_code": "100",
+      "iso_alpha3": "BGR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/bulgaria.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-854",
+      "name": "Burkina Faso",
+      "aliases": [],
+      "m49_code": "854",
+      "iso_alpha3": "BFA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-108",
+      "name": "Burundi",
+      "aliases": [],
+      "m49_code": "108",
+      "iso_alpha3": "BDI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-132",
+      "name": "Cabo Verde",
+      "aliases": [],
+      "m49_code": "132",
+      "iso_alpha3": "CPV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-116",
+      "name": "Cambodia",
+      "aliases": [],
+      "m49_code": "116",
+      "iso_alpha3": "KHM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-120",
+      "name": "Cameroon",
+      "aliases": [],
+      "m49_code": "120",
+      "iso_alpha3": "CMR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-124",
+      "name": "Canada",
+      "aliases": [],
+      "m49_code": "124",
+      "iso_alpha3": "CAN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": ".github/agents/research/countries/canada.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/canada.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-canada-canada-adoption",
+          "adoption-canada-inherited-3"
+        ],
+        "public_relationship": "National standard adopted",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-136",
+      "name": "Cayman Islands",
+      "aliases": [],
+      "m49_code": "136",
+      "iso_alpha3": "CYM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-140",
+      "name": "Central African Republic",
+      "aliases": [],
+      "m49_code": "140",
+      "iso_alpha3": "CAF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-148",
+      "name": "Chad",
+      "aliases": [],
+      "m49_code": "148",
+      "iso_alpha3": "TCD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-152",
+      "name": "Chile",
+      "aliases": [],
+      "m49_code": "152",
+      "iso_alpha3": "CHL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-156",
+      "name": "China",
+      "aliases": [],
+      "m49_code": "156",
+      "iso_alpha3": "CHN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-344",
+      "name": "China, Hong Kong Special Administrative Region",
+      "aliases": [],
+      "m49_code": "344",
+      "iso_alpha3": "HKG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-446",
+      "name": "China, Macao Special Administrative Region",
+      "aliases": [],
+      "m49_code": "446",
+      "iso_alpha3": "MAC",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-162",
+      "name": "Christmas Island",
+      "aliases": [],
+      "m49_code": "162",
+      "iso_alpha3": "CXR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-166",
+      "name": "Cocos (Keeling) Islands",
+      "aliases": [],
+      "m49_code": "166",
+      "iso_alpha3": "CCK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-170",
+      "name": "Colombia",
+      "aliases": [],
+      "m49_code": "170",
+      "iso_alpha3": "COL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-174",
+      "name": "Comoros",
+      "aliases": [],
+      "m49_code": "174",
+      "iso_alpha3": "COM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-178",
+      "name": "Congo",
+      "aliases": [],
+      "m49_code": "178",
+      "iso_alpha3": "COG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-184",
+      "name": "Cook Islands",
+      "aliases": [],
+      "m49_code": "184",
+      "iso_alpha3": "COK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-188",
+      "name": "Costa Rica",
+      "aliases": [],
+      "m49_code": "188",
+      "iso_alpha3": "CRI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-191",
+      "name": "Croatia",
+      "aliases": [],
+      "m49_code": "191",
+      "iso_alpha3": "HRV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/croatia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-192",
+      "name": "Cuba",
+      "aliases": [],
+      "m49_code": "192",
+      "iso_alpha3": "CUB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-531",
+      "name": "Curaçao",
+      "aliases": [],
+      "m49_code": "531",
+      "iso_alpha3": "CUW",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-196",
+      "name": "Cyprus",
+      "aliases": [],
+      "m49_code": "196",
+      "iso_alpha3": "CYP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": ".github/agents/research/countries/cyprus.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-203",
+      "name": "Czechia",
+      "aliases": [],
+      "m49_code": "203",
+      "iso_alpha3": "CZE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/czechia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-384",
+      "name": "Côte d’Ivoire",
+      "aliases": [],
+      "m49_code": "384",
+      "iso_alpha3": "CIV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-408",
+      "name": "Democratic People's Republic of Korea",
+      "aliases": [],
+      "m49_code": "408",
+      "iso_alpha3": "PRK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-180",
+      "name": "Democratic Republic of the Congo",
+      "aliases": [],
+      "m49_code": "180",
+      "iso_alpha3": "COD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-208",
+      "name": "Denmark",
+      "aliases": [],
+      "m49_code": "208",
+      "iso_alpha3": "DNK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/denmark.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-262",
+      "name": "Djibouti",
+      "aliases": [],
+      "m49_code": "262",
+      "iso_alpha3": "DJI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-212",
+      "name": "Dominica",
+      "aliases": [],
+      "m49_code": "212",
+      "iso_alpha3": "DMA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-214",
+      "name": "Dominican Republic",
+      "aliases": [],
+      "m49_code": "214",
+      "iso_alpha3": "DOM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-218",
+      "name": "Ecuador",
+      "aliases": [],
+      "m49_code": "218",
+      "iso_alpha3": "ECU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-818",
+      "name": "Egypt",
+      "aliases": [],
+      "m49_code": "818",
+      "iso_alpha3": "EGY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-222",
+      "name": "El Salvador",
+      "aliases": [],
+      "m49_code": "222",
+      "iso_alpha3": "SLV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-226",
+      "name": "Equatorial Guinea",
+      "aliases": [],
+      "m49_code": "226",
+      "iso_alpha3": "GNQ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-232",
+      "name": "Eritrea",
+      "aliases": [],
+      "m49_code": "232",
+      "iso_alpha3": "ERI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-233",
+      "name": "Estonia",
+      "aliases": [],
+      "m49_code": "233",
+      "iso_alpha3": "EST",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/estonia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-748",
+      "name": "Eswatini",
+      "aliases": [],
+      "m49_code": "748",
+      "iso_alpha3": "SWZ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-231",
+      "name": "Ethiopia",
+      "aliases": [],
+      "m49_code": "231",
+      "iso_alpha3": "ETH",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-238",
+      "name": "Falkland Islands (Malvinas)",
+      "aliases": [],
+      "m49_code": "238",
+      "iso_alpha3": "FLK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-234",
+      "name": "Faroe Islands",
+      "aliases": [],
+      "m49_code": "234",
+      "iso_alpha3": "FRO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/faroe islands.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-242",
+      "name": "Fiji",
+      "aliases": [],
+      "m49_code": "242",
+      "iso_alpha3": "FJI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-246",
+      "name": "Finland",
+      "aliases": [],
+      "m49_code": "246",
+      "iso_alpha3": "FIN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/finland.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-250",
+      "name": "France",
+      "aliases": [],
+      "m49_code": "250",
+      "iso_alpha3": "FRA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/france.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-254",
+      "name": "French Guiana",
+      "aliases": [],
+      "m49_code": "254",
+      "iso_alpha3": "GUF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-258",
+      "name": "French Polynesia",
+      "aliases": [],
+      "m49_code": "258",
+      "iso_alpha3": "PYF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-260",
+      "name": "French Southern Territories",
+      "aliases": [],
+      "m49_code": "260",
+      "iso_alpha3": "ATF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-266",
+      "name": "Gabon",
+      "aliases": [],
+      "m49_code": "266",
+      "iso_alpha3": "GAB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-270",
+      "name": "Gambia",
+      "aliases": [],
+      "m49_code": "270",
+      "iso_alpha3": "GMB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-268",
+      "name": "Georgia",
+      "aliases": [],
+      "m49_code": "268",
+      "iso_alpha3": "GEO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-276",
+      "name": "Germany",
+      "aliases": [],
+      "m49_code": "276",
+      "iso_alpha3": "DEU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/germany.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-288",
+      "name": "Ghana",
+      "aliases": [],
+      "m49_code": "288",
+      "iso_alpha3": "GHA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-292",
+      "name": "Gibraltar",
+      "aliases": [],
+      "m49_code": "292",
+      "iso_alpha3": "GIB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-300",
+      "name": "Greece",
+      "aliases": [],
+      "m49_code": "300",
+      "iso_alpha3": "GRC",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/greece.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-304",
+      "name": "Greenland",
+      "aliases": [],
+      "m49_code": "304",
+      "iso_alpha3": "GRL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": ".github/agents/research/countries/greenland.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-308",
+      "name": "Grenada",
+      "aliases": [],
+      "m49_code": "308",
+      "iso_alpha3": "GRD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-312",
+      "name": "Guadeloupe",
+      "aliases": [],
+      "m49_code": "312",
+      "iso_alpha3": "GLP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-316",
+      "name": "Guam",
+      "aliases": [],
+      "m49_code": "316",
+      "iso_alpha3": "GUM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-320",
+      "name": "Guatemala",
+      "aliases": [],
+      "m49_code": "320",
+      "iso_alpha3": "GTM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-831",
+      "name": "Guernsey",
+      "aliases": [],
+      "m49_code": "831",
+      "iso_alpha3": "GGY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-324",
+      "name": "Guinea",
+      "aliases": [],
+      "m49_code": "324",
+      "iso_alpha3": "GIN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-624",
+      "name": "Guinea-Bissau",
+      "aliases": [],
+      "m49_code": "624",
+      "iso_alpha3": "GNB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-328",
+      "name": "Guyana",
+      "aliases": [],
+      "m49_code": "328",
+      "iso_alpha3": "GUY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-332",
+      "name": "Haiti",
+      "aliases": [],
+      "m49_code": "332",
+      "iso_alpha3": "HTI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-334",
+      "name": "Heard Island and McDonald Islands",
+      "aliases": [],
+      "m49_code": "334",
+      "iso_alpha3": "HMD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-336",
+      "name": "Holy See",
+      "aliases": [],
+      "m49_code": "336",
+      "iso_alpha3": "VAT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-340",
+      "name": "Honduras",
+      "aliases": [],
+      "m49_code": "340",
+      "iso_alpha3": "HND",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-348",
+      "name": "Hungary",
+      "aliases": [],
+      "m49_code": "348",
+      "iso_alpha3": "HUN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/hungary.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-352",
+      "name": "Iceland",
+      "aliases": [],
+      "m49_code": "352",
+      "iso_alpha3": "ISL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/iceland.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/iceland.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-iceland-deeper-cell-1",
+          "adoption-iceland-deeper-cell-2",
+          "adoption-iceland-version-label",
+          "adoption-iceland-deeper-cell-4"
+        ],
+        "public_relationship": "Adopted",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-356",
+      "name": "India",
+      "aliases": [],
+      "m49_code": "356",
+      "iso_alpha3": "IND",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": ".github/agents/research/countries/india.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/india.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-india-round2-cell-1",
+          "adoption-india-round2-cell-2",
+          "adoption-india-round2-cell-3",
+          "adoption-india-round2-cell-4"
+        ],
+        "public_relationship": "Adopted with national adaptations",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-360",
+      "name": "Indonesia",
+      "aliases": [],
+      "m49_code": "360",
+      "iso_alpha3": "IDN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-364",
+      "name": "Iran (Islamic Republic of)",
+      "aliases": [],
+      "m49_code": "364",
+      "iso_alpha3": "IRN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-368",
+      "name": "Iraq",
+      "aliases": [],
+      "m49_code": "368",
+      "iso_alpha3": "IRQ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-372",
+      "name": "Ireland",
+      "aliases": [],
+      "m49_code": "372",
+      "iso_alpha3": "IRL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/ireland.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-833",
+      "name": "Isle of Man",
+      "aliases": [],
+      "m49_code": "833",
+      "iso_alpha3": "IMN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-376",
+      "name": "Israel",
+      "aliases": [],
+      "m49_code": "376",
+      "iso_alpha3": "ISR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-380",
+      "name": "Italy",
+      "aliases": [],
+      "m49_code": "380",
+      "iso_alpha3": "ITA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/italy.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-388",
+      "name": "Jamaica",
+      "aliases": [],
+      "m49_code": "388",
+      "iso_alpha3": "JAM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-392",
+      "name": "Japan",
+      "aliases": [],
+      "m49_code": "392",
+      "iso_alpha3": "JPN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": ".github/agents/research/countries/japan.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/japan.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-japan-round2-cell-1",
+          "adoption-japan-round2-cell-2",
+          "adoption-japan-round2-cell-3",
+          "adoption-japan-round2-cell-4"
+        ],
+        "public_relationship": "Technical report / translation",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-832",
+      "name": "Jersey",
+      "aliases": [],
+      "m49_code": "832",
+      "iso_alpha3": "JEY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-400",
+      "name": "Jordan",
+      "aliases": [],
+      "m49_code": "400",
+      "iso_alpha3": "JOR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-398",
+      "name": "Kazakhstan",
+      "aliases": [],
+      "m49_code": "398",
+      "iso_alpha3": "KAZ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-404",
+      "name": "Kenya",
+      "aliases": [],
+      "m49_code": "404",
+      "iso_alpha3": "KEN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": ".github/agents/research/countries/kenya.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/kenya.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-kenya-deeper-cell-1",
+          "adoption-kenya-deeper-cell-2",
+          "adoption-kenya-deeper-cell-3",
+          "adoption-kenya-deeper-cell-4"
+        ],
+        "public_relationship": "Referenced",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-296",
+      "name": "Kiribati",
+      "aliases": [],
+      "m49_code": "296",
+      "iso_alpha3": "KIR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-412",
+      "name": "Kosovo",
+      "aliases": [],
+      "m49_code": "412",
+      "iso_alpha3": null,
+      "inventory_basis": "Supplementary research entry; code documented in UN M49 Q&A",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-414",
+      "name": "Kuwait",
+      "aliases": [],
+      "m49_code": "414",
+      "iso_alpha3": "KWT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-417",
+      "name": "Kyrgyzstan",
+      "aliases": [],
+      "m49_code": "417",
+      "iso_alpha3": "KGZ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-418",
+      "name": "Lao People's Democratic Republic",
+      "aliases": [],
+      "m49_code": "418",
+      "iso_alpha3": "LAO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-428",
+      "name": "Latvia",
+      "aliases": [],
+      "m49_code": "428",
+      "iso_alpha3": "LVA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/latvia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-422",
+      "name": "Lebanon",
+      "aliases": [],
+      "m49_code": "422",
+      "iso_alpha3": "LBN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-426",
+      "name": "Lesotho",
+      "aliases": [],
+      "m49_code": "426",
+      "iso_alpha3": "LSO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-430",
+      "name": "Liberia",
+      "aliases": [],
+      "m49_code": "430",
+      "iso_alpha3": "LBR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-434",
+      "name": "Libya",
+      "aliases": [],
+      "m49_code": "434",
+      "iso_alpha3": "LBY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-438",
+      "name": "Liechtenstein",
+      "aliases": [],
+      "m49_code": "438",
+      "iso_alpha3": "LIE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/liechtenstein.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-440",
+      "name": "Lithuania",
+      "aliases": [],
+      "m49_code": "440",
+      "iso_alpha3": "LTU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/lithuania.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-442",
+      "name": "Luxembourg",
+      "aliases": [],
+      "m49_code": "442",
+      "iso_alpha3": "LUX",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/luxembourg.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-450",
+      "name": "Madagascar",
+      "aliases": [],
+      "m49_code": "450",
+      "iso_alpha3": "MDG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-454",
+      "name": "Malawi",
+      "aliases": [],
+      "m49_code": "454",
+      "iso_alpha3": "MWI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-458",
+      "name": "Malaysia",
+      "aliases": [],
+      "m49_code": "458",
+      "iso_alpha3": "MYS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-462",
+      "name": "Maldives",
+      "aliases": [],
+      "m49_code": "462",
+      "iso_alpha3": "MDV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-466",
+      "name": "Mali",
+      "aliases": [],
+      "m49_code": "466",
+      "iso_alpha3": "MLI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-470",
+      "name": "Malta",
+      "aliases": [],
+      "m49_code": "470",
+      "iso_alpha3": "MLT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/malta.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-584",
+      "name": "Marshall Islands",
+      "aliases": [],
+      "m49_code": "584",
+      "iso_alpha3": "MHL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-474",
+      "name": "Martinique",
+      "aliases": [],
+      "m49_code": "474",
+      "iso_alpha3": "MTQ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-478",
+      "name": "Mauritania",
+      "aliases": [],
+      "m49_code": "478",
+      "iso_alpha3": "MRT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-480",
+      "name": "Mauritius",
+      "aliases": [],
+      "m49_code": "480",
+      "iso_alpha3": "MUS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-175",
+      "name": "Mayotte",
+      "aliases": [],
+      "m49_code": "175",
+      "iso_alpha3": "MYT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-484",
+      "name": "Mexico",
+      "aliases": [],
+      "m49_code": "484",
+      "iso_alpha3": "MEX",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": ".github/agents/research/countries/mexico.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/mexico.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-mexico-round2-cell-1",
+          "adoption-mexico-round2-cell-2",
+          "adoption-mexico-round2-cell-3",
+          "adoption-mexico-round2-cell-4"
+        ],
+        "public_relationship": "Modified adoption",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-583",
+      "name": "Micronesia (Federated States of)",
+      "aliases": [],
+      "m49_code": "583",
+      "iso_alpha3": "FSM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-492",
+      "name": "Monaco",
+      "aliases": [],
+      "m49_code": "492",
+      "iso_alpha3": "MCO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-496",
+      "name": "Mongolia",
+      "aliases": [],
+      "m49_code": "496",
+      "iso_alpha3": "MNG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-499",
+      "name": "Montenegro",
+      "aliases": [],
+      "m49_code": "499",
+      "iso_alpha3": "MNE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-500",
+      "name": "Montserrat",
+      "aliases": [],
+      "m49_code": "500",
+      "iso_alpha3": "MSR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-504",
+      "name": "Morocco",
+      "aliases": [],
+      "m49_code": "504",
+      "iso_alpha3": "MAR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-508",
+      "name": "Mozambique",
+      "aliases": [],
+      "m49_code": "508",
+      "iso_alpha3": "MOZ",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-104",
+      "name": "Myanmar",
+      "aliases": [],
+      "m49_code": "104",
+      "iso_alpha3": "MMR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-516",
+      "name": "Namibia",
+      "aliases": [],
+      "m49_code": "516",
+      "iso_alpha3": "NAM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-520",
+      "name": "Naoero",
+      "aliases": [
+        "Nauru"
+      ],
+      "m49_code": "520",
+      "iso_alpha3": "NRU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-524",
+      "name": "Nepal",
+      "aliases": [],
+      "m49_code": "524",
+      "iso_alpha3": "NPL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-528",
+      "name": "Netherlands (Kingdom of the)",
+      "aliases": [
+        "Netherlands"
+      ],
+      "m49_code": "528",
+      "iso_alpha3": "NLD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/netherlands.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-540",
+      "name": "New Caledonia",
+      "aliases": [],
+      "m49_code": "540",
+      "iso_alpha3": "NCL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-554",
+      "name": "New Zealand",
+      "aliases": [],
+      "m49_code": "554",
+      "iso_alpha3": "NZL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": ".github/agents/research/countries/new zealand.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/new zealand.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-new-zealand-nz-reference"
+        ],
+        "public_relationship": "Draft reference",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-558",
+      "name": "Nicaragua",
+      "aliases": [],
+      "m49_code": "558",
+      "iso_alpha3": "NIC",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-562",
+      "name": "Niger",
+      "aliases": [],
+      "m49_code": "562",
+      "iso_alpha3": "NER",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-566",
+      "name": "Nigeria",
+      "aliases": [],
+      "m49_code": "566",
+      "iso_alpha3": "NGA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-570",
+      "name": "Niue",
+      "aliases": [],
+      "m49_code": "570",
+      "iso_alpha3": "NIU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-574",
+      "name": "Norfolk Island",
+      "aliases": [],
+      "m49_code": "574",
+      "iso_alpha3": "NFK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-807",
+      "name": "North Macedonia",
+      "aliases": [],
+      "m49_code": "807",
+      "iso_alpha3": "MKD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-580",
+      "name": "Northern Mariana Islands",
+      "aliases": [],
+      "m49_code": "580",
+      "iso_alpha3": "MNP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-578",
+      "name": "Norway",
+      "aliases": [],
+      "m49_code": "578",
+      "iso_alpha3": "NOR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/norway.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/norway.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-norway-round2-cell-1",
+          "adoption-norway-round2-cell-2",
+          "adoption-norway-inherited-3",
+          "adoption-norway-round2-cell-4"
+        ],
+        "public_relationship": "Referenced in public-sector web rules",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-512",
+      "name": "Oman",
+      "aliases": [],
+      "m49_code": "512",
+      "iso_alpha3": "OMN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-586",
+      "name": "Pakistan",
+      "aliases": [],
+      "m49_code": "586",
+      "iso_alpha3": "PAK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-585",
+      "name": "Palau",
+      "aliases": [],
+      "m49_code": "585",
+      "iso_alpha3": "PLW",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-591",
+      "name": "Panama",
+      "aliases": [],
+      "m49_code": "591",
+      "iso_alpha3": "PAN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-598",
+      "name": "Papua New Guinea",
+      "aliases": [],
+      "m49_code": "598",
+      "iso_alpha3": "PNG",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-600",
+      "name": "Paraguay",
+      "aliases": [],
+      "m49_code": "600",
+      "iso_alpha3": "PRY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-604",
+      "name": "Peru",
+      "aliases": [],
+      "m49_code": "604",
+      "iso_alpha3": "PER",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-608",
+      "name": "Philippines",
+      "aliases": [],
+      "m49_code": "608",
+      "iso_alpha3": "PHL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-612",
+      "name": "Pitcairn",
+      "aliases": [],
+      "m49_code": "612",
+      "iso_alpha3": "PCN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-616",
+      "name": "Poland",
+      "aliases": [],
+      "m49_code": "616",
+      "iso_alpha3": "POL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/poland.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-620",
+      "name": "Portugal",
+      "aliases": [],
+      "m49_code": "620",
+      "iso_alpha3": "PRT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/portugal.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-630",
+      "name": "Puerto Rico",
+      "aliases": [],
+      "m49_code": "630",
+      "iso_alpha3": "PRI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-634",
+      "name": "Qatar",
+      "aliases": [],
+      "m49_code": "634",
+      "iso_alpha3": "QAT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-410",
+      "name": "Republic of Korea",
+      "aliases": [],
+      "m49_code": "410",
+      "iso_alpha3": "KOR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-498",
+      "name": "Republic of Moldova",
+      "aliases": [],
+      "m49_code": "498",
+      "iso_alpha3": "MDA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-642",
+      "name": "Romania",
+      "aliases": [],
+      "m49_code": "642",
+      "iso_alpha3": "ROU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/romania.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-643",
+      "name": "Russian Federation",
+      "aliases": [],
+      "m49_code": "643",
+      "iso_alpha3": "RUS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-646",
+      "name": "Rwanda",
+      "aliases": [],
+      "m49_code": "646",
+      "iso_alpha3": "RWA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-638",
+      "name": "Réunion",
+      "aliases": [],
+      "m49_code": "638",
+      "iso_alpha3": "REU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-652",
+      "name": "Saint Barthélemy",
+      "aliases": [],
+      "m49_code": "652",
+      "iso_alpha3": "BLM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-654",
+      "name": "Saint Helena",
+      "aliases": [],
+      "m49_code": "654",
+      "iso_alpha3": "SHN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-659",
+      "name": "Saint Kitts and Nevis",
+      "aliases": [],
+      "m49_code": "659",
+      "iso_alpha3": "KNA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-662",
+      "name": "Saint Lucia",
+      "aliases": [],
+      "m49_code": "662",
+      "iso_alpha3": "LCA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-663",
+      "name": "Saint Martin (French Part)",
+      "aliases": [],
+      "m49_code": "663",
+      "iso_alpha3": "MAF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-666",
+      "name": "Saint Pierre and Miquelon",
+      "aliases": [],
+      "m49_code": "666",
+      "iso_alpha3": "SPM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-670",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [],
+      "m49_code": "670",
+      "iso_alpha3": "VCT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-882",
+      "name": "Samoa",
+      "aliases": [],
+      "m49_code": "882",
+      "iso_alpha3": "WSM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-674",
+      "name": "San Marino",
+      "aliases": [],
+      "m49_code": "674",
+      "iso_alpha3": "SMR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-678",
+      "name": "Sao Tome and Principe",
+      "aliases": [],
+      "m49_code": "678",
+      "iso_alpha3": "STP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-682",
+      "name": "Saudi Arabia",
+      "aliases": [],
+      "m49_code": "682",
+      "iso_alpha3": "SAU",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-686",
+      "name": "Senegal",
+      "aliases": [],
+      "m49_code": "686",
+      "iso_alpha3": "SEN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-688",
+      "name": "Serbia",
+      "aliases": [],
+      "m49_code": "688",
+      "iso_alpha3": "SRB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-690",
+      "name": "Seychelles",
+      "aliases": [],
+      "m49_code": "690",
+      "iso_alpha3": "SYC",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-694",
+      "name": "Sierra Leone",
+      "aliases": [],
+      "m49_code": "694",
+      "iso_alpha3": "SLE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-702",
+      "name": "Singapore",
+      "aliases": [],
+      "m49_code": "702",
+      "iso_alpha3": "SGP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-534",
+      "name": "Sint Maarten (Dutch part)",
+      "aliases": [],
+      "m49_code": "534",
+      "iso_alpha3": "SXM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-703",
+      "name": "Slovakia",
+      "aliases": [],
+      "m49_code": "703",
+      "iso_alpha3": "SVK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/slovakia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-705",
+      "name": "Slovenia",
+      "aliases": [],
+      "m49_code": "705",
+      "iso_alpha3": "SVN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/slovenia.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-090",
+      "name": "Solomon Islands",
+      "aliases": [],
+      "m49_code": "090",
+      "iso_alpha3": "SLB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-706",
+      "name": "Somalia",
+      "aliases": [],
+      "m49_code": "706",
+      "iso_alpha3": "SOM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-710",
+      "name": "South Africa",
+      "aliases": [],
+      "m49_code": "710",
+      "iso_alpha3": "ZAF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-239",
+      "name": "South Georgia and the South Sandwich Islands",
+      "aliases": [],
+      "m49_code": "239",
+      "iso_alpha3": "SGS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-728",
+      "name": "South Sudan",
+      "aliases": [],
+      "m49_code": "728",
+      "iso_alpha3": "SSD",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-724",
+      "name": "Spain",
+      "aliases": [],
+      "m49_code": "724",
+      "iso_alpha3": "ESP",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/spain.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-144",
+      "name": "Sri Lanka",
+      "aliases": [],
+      "m49_code": "144",
+      "iso_alpha3": "LKA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-275",
+      "name": "State of Palestine",
+      "aliases": [],
+      "m49_code": "275",
+      "iso_alpha3": "PSE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-729",
+      "name": "Sudan",
+      "aliases": [],
+      "m49_code": "729",
+      "iso_alpha3": "SDN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-740",
+      "name": "Suriname",
+      "aliases": [],
+      "m49_code": "740",
+      "iso_alpha3": "SUR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-744",
+      "name": "Svalbard and Jan Mayen Islands",
+      "aliases": [],
+      "m49_code": "744",
+      "iso_alpha3": "SJM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-752",
+      "name": "Sweden",
+      "aliases": [],
+      "m49_code": "752",
+      "iso_alpha3": "SWE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/sweden.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-756",
+      "name": "Switzerland",
+      "aliases": [],
+      "m49_code": "756",
+      "iso_alpha3": "CHE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/switzerland.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/switzerland.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-switzerland-deeper-cell-1",
+          "adoption-switzerland-deeper-cell-2",
+          "adoption-switzerland-version-label",
+          "adoption-switzerland-deeper-cell-4"
+        ],
+        "public_relationship": "Adopted",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-760",
+      "name": "Syrian Arab Republic",
+      "aliases": [],
+      "m49_code": "760",
+      "iso_alpha3": "SYR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-158",
+      "name": "Taiwan",
+      "aliases": [],
+      "m49_code": "158",
+      "iso_alpha3": null,
+      "inventory_basis": "Supplementary research entry; code documented in UN M49 Q&A",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-762",
+      "name": "Tajikistan",
+      "aliases": [],
+      "m49_code": "762",
+      "iso_alpha3": "TJK",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-764",
+      "name": "Thailand",
+      "aliases": [],
+      "m49_code": "764",
+      "iso_alpha3": "THA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-626",
+      "name": "Timor-Leste",
+      "aliases": [],
+      "m49_code": "626",
+      "iso_alpha3": "TLS",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-768",
+      "name": "Togo",
+      "aliases": [],
+      "m49_code": "768",
+      "iso_alpha3": "TGO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-772",
+      "name": "Tokelau",
+      "aliases": [],
+      "m49_code": "772",
+      "iso_alpha3": "TKL",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-776",
+      "name": "Tonga",
+      "aliases": [],
+      "m49_code": "776",
+      "iso_alpha3": "TON",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-780",
+      "name": "Trinidad and Tobago",
+      "aliases": [],
+      "m49_code": "780",
+      "iso_alpha3": "TTO",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-788",
+      "name": "Tunisia",
+      "aliases": [],
+      "m49_code": "788",
+      "iso_alpha3": "TUN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-795",
+      "name": "Turkmenistan",
+      "aliases": [],
+      "m49_code": "795",
+      "iso_alpha3": "TKM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-796",
+      "name": "Turks and Caicos Islands",
+      "aliases": [],
+      "m49_code": "796",
+      "iso_alpha3": "TCA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-798",
+      "name": "Tuvalu",
+      "aliases": [],
+      "m49_code": "798",
+      "iso_alpha3": "TUV",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-792",
+      "name": "Türkiye",
+      "aliases": [
+        "Turkey"
+      ],
+      "m49_code": "792",
+      "iso_alpha3": "TUR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": ".github/agents/research/countries/turkey.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/turkey.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-turkey-deeper-cell-1",
+          "adoption-turkey-deeper-cell-2",
+          "adoption-turkey-version-label",
+          "adoption-turkey-deeper-cell-4"
+        ],
+        "public_relationship": "Adopted",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-800",
+      "name": "Uganda",
+      "aliases": [],
+      "m49_code": "800",
+      "iso_alpha3": "UGA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-804",
+      "name": "Ukraine",
+      "aliases": [],
+      "m49_code": "804",
+      "iso_alpha3": "UKR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-784",
+      "name": "United Arab Emirates",
+      "aliases": [],
+      "m49_code": "784",
+      "iso_alpha3": "ARE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-826",
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "aliases": [
+        "United Kingdom"
+      ],
+      "m49_code": "826",
+      "iso_alpha3": "GBR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/united kingdom.json",
+      "round_status": "excluded_already_on_adoption_page",
+      "en_connection": {
+        "status": "previously_mapped",
+        "country_record": ".github/agents/research/countries/united kingdom.json",
+        "domain": "adoption",
+        "claim_ids": [
+          "adoption-united-kingdom-round2-cell-1",
+          "adoption-united-kingdom-round2-cell-2",
+          "adoption-united-kingdom-version-label",
+          "adoption-united-kingdom-round2-cell-4"
+        ],
+        "public_relationship": "Adopted",
+        "scope_note": "Reference to existing claim-level evidence, including provisional draft/translation relationships; not a new verification or mandatory-use finding."
+      },
+      "research": null,
+      "legal_mapping_status": "deferred_existing_adoption_entry"
+    },
+    {
+      "id": "m49-834",
+      "name": "United Republic of Tanzania",
+      "aliases": [],
+      "m49_code": "834",
+      "iso_alpha3": "TZA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-581",
+      "name": "United States Minor Outlying Islands",
+      "aliases": [],
+      "m49_code": "581",
+      "iso_alpha3": "UMI",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-840",
+      "name": "United States of America",
+      "aliases": [],
+      "m49_code": "840",
+      "iso_alpha3": "USA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-850",
+      "name": "United States Virgin Islands",
+      "aliases": [],
+      "m49_code": "850",
+      "iso_alpha3": "VIR",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-858",
+      "name": "Uruguay",
+      "aliases": [],
+      "m49_code": "858",
+      "iso_alpha3": "URY",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-860",
+      "name": "Uzbekistan",
+      "aliases": [],
+      "m49_code": "860",
+      "iso_alpha3": "UZB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-548",
+      "name": "Vanuatu",
+      "aliases": [],
+      "m49_code": "548",
+      "iso_alpha3": "VUT",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-862",
+      "name": "Venezuela (Bolivarian Republic of)",
+      "aliases": [],
+      "m49_code": "862",
+      "iso_alpha3": "VEN",
+      "inventory_basis": "UN M49 main list",
+      "region": "Americas",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-704",
+      "name": "Viet Nam",
+      "aliases": [],
+      "m49_code": "704",
+      "iso_alpha3": "VNM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-876",
+      "name": "Wallis and Futuna Islands",
+      "aliases": [],
+      "m49_code": "876",
+      "iso_alpha3": "WLF",
+      "inventory_basis": "UN M49 main list",
+      "region": "Oceania",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-732",
+      "name": "Western Sahara",
+      "aliases": [],
+      "m49_code": "732",
+      "iso_alpha3": "ESH",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-887",
+      "name": "Yemen",
+      "aliases": [],
+      "m49_code": "887",
+      "iso_alpha3": "YEM",
+      "inventory_basis": "UN M49 main list",
+      "region": "Asia",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-894",
+      "name": "Zambia",
+      "aliases": [],
+      "m49_code": "894",
+      "iso_alpha3": "ZMB",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-716",
+      "name": "Zimbabwe",
+      "aliases": [],
+      "m49_code": "716",
+      "iso_alpha3": "ZWE",
+      "inventory_basis": "UN M49 main list",
+      "region": "Africa",
+      "existing_repository_record": null,
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    },
+    {
+      "id": "m49-248",
+      "name": "Åland Islands",
+      "aliases": [
+        "Åland"
+      ],
+      "m49_code": "248",
+      "iso_alpha3": "ALA",
+      "inventory_basis": "UN M49 main list",
+      "region": "Europe",
+      "existing_repository_record": ".github/agents/research/countries/åland.json",
+      "round_status": "pending",
+      "en_connection": {
+        "status": "not_researched",
+        "country_record": null,
+        "domain": null,
+        "claim_ids": []
+      },
+      "research": {
+        "attempts": [],
+        "sources": {},
+        "en_findings": [],
+        "law_findings": [],
+        "questions": []
+      },
+      "legal_mapping_status": "not_started"
+    }
+  ]
+}

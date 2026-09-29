@@ -1,0 +1,25 @@
+{
+  "reviewer": "world_index_review",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "pr": 70,
+  "reviewed_head": "da7c019b682dc35df009a1d3f461709237f48bb0",
+  "scope": "Actual three-file PR metadata/diff, local index and READMEs; identity/region/exclusion/reference/storage checks, no legal research.",
+  "findings": [
+    {
+      "id": "antarctica-region",
+      "priority": "P3",
+      "finding": "Antarctica was assigned Americas by sequential region carry-forward.",
+      "resolution": "Corrected to Antarctica. All 248 regions rechecked against the official HTML parent hierarchy; this was the only mismatch.",
+      "status": "resolved"
+    }
+  ],
+  "verified_invariants": [
+    "248 exact UN table identities plus 2 explicit supplements",
+    "250 unique IDs",
+    "13 adoption country exclusions and deferred-task IDs match",
+    "Existing country paths and adoption claim pointers resolve",
+    "Unresearched entries contain no invented findings"
+  ],
+  "limitations": "No legal research or source-fidelity review; primary agent ran repository validators. Human review still required."
+}
