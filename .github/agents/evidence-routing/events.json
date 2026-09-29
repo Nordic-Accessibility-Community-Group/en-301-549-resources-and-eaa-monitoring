@@ -1513,6 +1513,43 @@
       ]
     },
     {
+      "id": "de-mlbf-strategy-intake-20260927",
+      "country": "Germany",
+      "recorded_on": "2026-09-27",
+      "status": "proposed",
+      "reason": "Official strategy evidence recorded; user authorised a draft enforcement-page addition. Sanctions statutory-conditions follow-up remains separate.",
+      "next_action": "Suggest focused Germany PR; preserve separate statutory-conditions follow-up.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "enforcement",
+          "disposition": "proposed",
+          "reason": "Existing monitoring entry omits strategy adoption and methods.",
+          "next_action": "Maintainer review of draft PR #72; preserve sanctions follow-up.",
+          "pr": 72
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "monitoring",
+          "disposition": "research_only",
+          "reason": "No changed authority or reporting route; strategy recorded as context.",
+          "next_action": "No public change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "sanctions",
+          "disposition": "needs_evidence",
+          "reason": "Other enforcement measures is Unknown; strategy provides a lead to statutory correction/restriction/prohibition conditions.",
+          "next_action": "Check BFSG provisions and propose qualified wording; do not infer imposed penalties.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-ghana",
       "country": "Ghana",
       "destinations": [
