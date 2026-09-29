@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "country": "Azerbaijan",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-43fe08286aba7e377b53e20f": {
+      "issuer": "Azerbaijan e-qanun",
+      "url": "https://frameworks.e-qanun.az/39/f_39591.html",
+      "source_type": "official_government",
+      "language": "az",
+      "passage": "Extracted disability-law body conflicts with page heading about Dənizkənarı Bulvar. Resolve source identity before relying on it; no legal claim verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-bf16aa0d769a6f23466330a2": {
+      "issuer": "AZSTAND",
+      "url": "https://azstand.gov.az/upload/files/AZS%20ISO-IEC%2019086-1-2022%20son.pdf",
+      "source_type": "official_standard_body",
+      "language": "az",
+      "passage": "An AZSTAND-hosted document labelled AZS ISO/IEC 19086-1:2022 cites EN 301 549 in its discussion of European ICT accessibility requirements and its bibliography. This is a reference within a cloud-service-level-agreement document; it does not establish national adoption of EN 301 549. The posted copy leaves approval particulars blank.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-azerbaijan-discovery-reference",
+          "aspect": "reference",
+          "statement": "An AZSTAND-hosted document labelled AZS ISO/IEC 19086-1:2022 cites EN 301 549 in its discussion of European ICT accessibility requirements and its bibliography. This is a reference within a cloud-service-level-agreement document; it does not establish national adoption of EN 301 549. The posted copy leaves approval particulars blank.",
+          "scope": "contextual reference in cloud-service-level-agreement document",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-bf16aa0d769a6f23466330a2"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-43fe08286aba7e377b53e20f: Law on the Rights of Persons with Disabilities (2018) — source identity unresolved. Extracted disability-law body conflicts with page heading about Dənizkənarı Bulvar. Resolve source identity before relying on it; no legal claim verified."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.az \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:e-qanun.az əlilliyi olan şəxslərin hüquqları 2018"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Extracted disability-law body conflicts with page heading about Dənizkənarı Bulvar. Resolve source identity before relying on it; no legal claim verified.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://frameworks.e-qanun.az/39/f_39591.html"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "An AZSTAND-hosted document labelled AZS ISO/IEC 19086-1:2022 cites EN 301 549 in its discussion of European ICT accessibility requirements and its bibliography. This is a reference within a cloud-service-level-agreement document; it does not establish national adoption of EN 301 549. The posted copy leaves approval particulars blank.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://azstand.gov.az/upload/files/AZS%20ISO-IEC%2019086-1-2022%20son.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-031",
+      "country": "Azerbaijan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/azerbaijan.json",
+          "disposition": "research_only",
+          "reason": "contextual reference in cloud-service-level-agreement document",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

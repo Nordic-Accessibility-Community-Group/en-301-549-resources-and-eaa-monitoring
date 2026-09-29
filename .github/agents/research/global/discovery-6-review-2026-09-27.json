@@ -1,0 +1,114 @@
+{
+  "reviewed_on": "2026-09-27",
+  "isolation": "no_history",
+  "verdict": "Supported bounded wordings; Korean intended edition remains ambiguous and is explicitly qualified.",
+  "reviews": {
+    "Bangladesh": {
+      "reviewer": "batch6_en_review",
+      "exact_reviewed_text": "DAAD’s Bangladesh website declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a foreign institution’s regional website reference, not evidence of national adoption in Bangladesh. No EN edition is named in the declaration text.",
+      "source_url": "https://www.daad-bangladesh.org/en/accessibility-declaration/",
+      "source_language": "en",
+      "excerpt": "German Academic Exchange Service (DAAD)",
+      "literal_rendering": "English original. Regional website declaration invokes German BGG/BITV.",
+      "verdict": "Supported",
+      "passage_locator": "Opening declaration and German BGG/BITV context"
+    },
+    "Azerbaijan": {
+      "reviewer": "batch6_en_review",
+      "exact_reviewed_text": "An AZSTAND-hosted document labelled AZS ISO/IEC 19086-1:2022 cites EN 301 549 in its discussion of European ICT accessibility requirements and its bibliography. This is a reference within a cloud-service-level-agreement document; it does not establish national adoption of EN 301 549. The posted copy leaves approval particulars blank.",
+      "source_url": "https://azstand.gov.az/upload/files/AZS%20ISO-IEC%2019086-1-2022%20son.pdf",
+      "source_language": "az",
+      "excerpt": "Avropada İKT məhsul və xidmətlərinin dövlət satın alınması üçün EN 301 549 Əlçatanlıq tələbləri",
+      "literal_rendering": "EN 301 549 accessibility requirements for public procurement of ICT products and services in Europe.",
+      "verdict": "Supported",
+      "passage_locator": "Cover, preface item2; PDF p24 section10.2.1.2; p52 bibliography21"
+    },
+    "Kazakhstan": {
+      "reviewer": "batch6_en_review",
+      "exact_reviewed_text": "A Kazakhstan government-hosted financial-regulation document discusses EN 301 549 in its European Union comparison. This is a comparative policy reference, not evidence of Kazakhstan adopting the standard. No EN edition is specified in that passage.",
+      "source_url": "https://www.gov.kz/uploads/2023/7/5/65effc03aa15a0d6621d1a1cad5e9324_original.291047.pdf",
+      "source_language": "ru",
+      "excerpt": "Европейский союз (ЕС); Также действует технический стандарт European Standard EN 301 549",
+      "literal_rendering": "European Union (EU); the technical standard European Standard EN 301 549 also applies.",
+      "verdict": "Supported",
+      "passage_locator": "PDF p10 European Union heading and EN passage"
+    },
+    "Qatar": {
+      "reviewer": "batch6_en_review",
+      "exact_reviewed_text": "Mada Center’s Accessible Procurement Best Practices guide references EN 301 549 and reproduces functional-performance material labelled V1.1.1:2014 (source notation V1.1.1 (2014-02)). This is procurement guidance from a private institution for public benefit, not evidence of Qatari national adoption or binding procurement law.",
+      "source_url": "https://policy.mada.org.qa/wp-content/uploads/2023/02/BP-ACCESSIBLE-PROCUREMENT-ENGLISH23.pdf",
+      "source_language": "en",
+      "excerpt": "private institution for public benefit; EN 301 549 V1.1.1 (2014-02)",
+      "literal_rendering": "English original; private institution guidance, Appendix 4.",
+      "verdict": "Supported",
+      "passage_locator": "PDF p5 issuer, p7 European procurement, Appendix4 pp27–28"
+    },
+    "Kuwait": {
+      "reviewer": "batch6_ar_review",
+      "exact_reviewed_text": "The Kuwait National Framework for Digital Accessibility hosted by PADA explicitly calls for EN 301 549 in ICT procurement, including supplier declarations of conformity. The posted text leaves the effective date as a placeholder tied to signing as bylaws, so it does not by itself establish that those requirements are in force.",
+      "source_url": "https://www.pada.gov.kw/media/filer_public/93/f4/93f47da6-9f47-4890-a9d7-59d36a685c04/kuwait_national_framework_new.pdf",
+      "source_language": "en",
+      "excerpt": "This standard shall take effect as of (date)from its signing as bylaws.",
+      "literal_rendering": "English original; commencement placeholder retained.",
+      "verdict": "Supported",
+      "passage_locator": "PDF pp31–33; sections3.8.1–3.8.5.1"
+    },
+    "Saudi Arabia": {
+      "reviewer": "batch6_ar_review",
+      "exact_reviewed_text": "The Saudi Food and Drug Authority’s digital-accessibility policy states that the authority commits to compliance with EN 301 549, alongside other accessibility standards. This is an agency policy reference and does not by itself establish nationwide adoption of EN 301 549. No EN edition is named.",
+      "source_url": "https://www.sfda.gov.sa/sites/default/files/2026-05/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%85%D9%83%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A.pdf",
+      "source_language": "ar",
+      "excerpt": "تلتزم الهيئة بالامتثال لـ",
+      "literal_rendering": "The Authority commits to compliance with.",
+      "verdict": "Supported",
+      "passage_locator": "PDF pp2–3 scope and commitment; p5 suppliers"
+    },
+    "Taiwan": {
+      "reviewer": "batch6_asia_review",
+      "exact_reviewed_text": "Taiwan’s NICS digital-resilience teaching material references EN 301 549 in a translation of Dutch Logius guidance on accessibility and procurement. It does not by itself establish a Taiwanese legal requirement or national adoption. The procurement checklist refers to the latest version without specifying a numbered EN edition.",
+      "source_url": "https://material.nics.nat.gov.tw/material/usability/digital-accessibility/",
+      "source_language": "zh-Hant",
+      "excerpt": "本文翻譯自; 針對荷蘭公部門機關撰寫",
+      "literal_rendering": "This article is translated from; written for Dutch public-sector bodies.",
+      "verdict": "Supported",
+      "passage_locator": "Opening attribution, accessibility standards section and procurement checklist"
+    },
+    "Republic of Korea": {
+      "reviewer": "batch6_asia_review",
+      "exact_reviewed_text": "A Korean library-research article references EN 301 549 in international comparisons and proposed e-book procurement guidelines. This academic reference does not establish national adoption. Its bibliography labels the standard 2021 but links V3.1.1 (2019-11), leaving the intended edition uncertain.",
+      "source_url": "https://journal.kci.go.kr/liss/archive/articleView?artiId=ART003218126",
+      "source_language": "ko",
+      "excerpt": "가이드라인(안); EN 301 549 (2021).",
+      "literal_rendering": "Guidelines (draft/proposal); bibliography label retained.",
+      "verdict": "Supported",
+      "passage_locator": "Article PDF pp138,140–143,150 and linked ETSI cover"
+    },
+    "Trinidad and Tobago": {
+      "reviewer": "batch6_tt_fidelity",
+      "exact_reviewed_text": "Microsoft’s Trinidad and Tobago purchase-order terms reference EN 301 549 for purchases with a user interface. This is a private contractual reference and does not by itself establish national adoption. No EN edition is specified.",
+      "source_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/accex/documents/presentations/PO-Terms-and-Conditions_en-TT.pdf",
+      "source_language": "en",
+      "excerpt": "For purchases with a User Interface (UI), this includes conformance",
+      "literal_rendering": "English original; section 17 also names EN 301 549.",
+      "verdict": "Supported",
+      "passage_locator": "PDF p10 section17, regional headers and section1 agreement"
+    }
+  },
+  "limits": [
+    "Language/source fidelity only; not legal-currentness or national-adoption certification.",
+    "Azerbaijan review used extracted approval placeholders; PDF screenshot requests failed.",
+    "Kuwait extracted headings contain encoding corruption; decisive procurement and commencement wording was readable.",
+    "Law findings remain discovery leads; no substantive legal summaries or public wording are proposed."
+  ],
+  "corrections": [
+    "Saudi wording uses does not by itself establish nationwide adoption.",
+    "Taiwan final wording identifies Dutch Logius provenance.",
+    "Korea final wording includes proposed procurement guidelines and explicitly retains unresolved edition mismatch."
+  ],
+  "additional_review_sources": {
+    "Republic of Korea": [
+      "https://journal.kci.go.kr/liss/archive/articlePdf?artiId=ART003218126",
+      "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf"
+    ]
+  }
+}

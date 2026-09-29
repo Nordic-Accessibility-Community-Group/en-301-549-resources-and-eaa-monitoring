@@ -148,10 +148,11 @@ Type can be:
     <td>Monitoring reported</td>
     <td>
       <p>In a publication dated 1 June 2026, Germany’s joint market surveillance authority (MLBF) reported that it had begun nationwide work in September 2025. Since then, it had been monitoring compliance with the Barrierefreiheitsstärkungsgesetz (BFSG). The publication does not identify individual cases or sanctions.</p>
-      <p><strong>Official authority publication:</strong> <a href="https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&amp;ModID=7&amp;object=tx%2C4290.5.1" hreflang="de">MLBF monitoring update, 1 June 2026</a>.</p>
+      <p>On 29 January 2026, MLBF adopted separate market surveillance strategies for products and services. The strategies combine planned checks based on risk with investigations started in response to reports and requests for action. For web-based services, the service strategy includes initial automated checks. These documents describe how MLBF plans and carries out market checks; they do not report individual penalties.</p>
+      <p><strong>Official authority publication:</strong> <a href="https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&amp;ModID=7&amp;object=tx%2C4290.5.1" hreflang="de">MLBF monitoring update, 1 June 2026</a>; <a href="https://www.mlbf-barrierefrei.de/Aktuelles/Markt%C3%BCberwachungsstrategien-beschlossen.php?FID=3.11.1" hreflang="de">strategy adoption announcement, 19 February 2026</a>; <a href="https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&amp;FID=4290.35.1" hreflang="de">product strategy (PDF, German)</a>; <a href="https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&amp;FID=4290.33.1" hreflang="de">service strategy (PDF, German)</a>.</p>
     </td>
     <td>2026-09-25</td>
-    <td>2026-09-25</td>
+    <td>2026-09-27</td>
   </tr>
   <tr>
     <td>Germany</td>

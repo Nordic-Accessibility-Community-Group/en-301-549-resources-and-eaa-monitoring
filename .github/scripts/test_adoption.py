@@ -20,6 +20,27 @@ class AdoptionChecks(unittest.TestCase):
         self.pool={}; self.today=date(2026,9,27)
     def tearDown(self): self.baseline_patch.stop(); self.tmp.cleanup()
     def check(self): return a.check_domain('Example',self.domain,self.pool,self.root,self.row,self.today)
+    def research_only(self):
+        self.domain.update(public_row_sha256=None, public_claim_ids=[], public_cells={}, review_report=None)
+    def test_unpublished_research_record_allowed(self):
+        self.research_only()
+        a.check_domain('Unlisted',self.domain,self.pool,self.root,None,self.today)
+    def test_unpublished_record_rejects_stale_mapping(self):
+        self.research_only();self.domain['public_claim_ids']=[self.claim['id']]
+        with self.assertRaisesRegex(ValueError,'empty publication mappings'):
+            a.check_domain('Unlisted',self.domain,self.pool,self.root,None,self.today)
+    def test_unpublished_record_still_checks_evidence(self):
+        self.research_only();self.claim['source_refs']=['missing']
+        with self.assertRaisesRegex(ValueError,'Missing evidence'):
+            a.check_domain('Unlisted',self.domain,self.pool,self.root,None,self.today)
+    def test_inherited_row_cannot_be_hidden_as_research(self):
+        self.research_only()
+        with self.assertRaisesRegex(ValueError,'cannot become research-only'):
+            a.check_domain('Example',self.domain,self.pool,self.root,None,self.today)
+    def test_unpublished_record_cannot_be_empty(self):
+        self.research_only();self.domain['claims']=[]
+        with self.assertRaisesRegex(ValueError,'needs claims'):
+            a.check_domain('Unlisted',self.domain,self.pool,self.root,None,self.today)
     def test_current_filename_preferred_and_legacy_fallback(self):
         (self.root/a.PAGE).write_text('<table>'+self.row+'</table>')
         self.assertIn('Example',a.rows(self.root))

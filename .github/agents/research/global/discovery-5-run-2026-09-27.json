@@ -1,0 +1,177 @@
+{
+  "id": "world-discovery-5-2026-09-27",
+  "started_at": "2026-09-27T15:15:36Z",
+  "research_closed_at": "2026-09-27T15:24:40Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "elapsed_research_minutes": 9.0667,
+  "remaining_research_minutes": 20.9333,
+  "scope": [
+    "Angola",
+    "Botswana",
+    "Cameroon",
+    "Egypt",
+    "Ethiopia",
+    "Ghana",
+    "Malawi",
+    "Mauritius",
+    "Morocco",
+    "Mozambique",
+    "Namibia",
+    "Nigeria",
+    "Rwanda",
+    "Senegal",
+    "Seychelles",
+    "United Republic of Tanzania",
+    "Tunisia",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "selection_reason": "User requested another twenty. Pending African entries; already-mapped countries excluded.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 198,
+  "country_windows": {
+    "Angola": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Botswana": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Cameroon": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Egypt": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Ethiopia": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Ghana": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Malawi": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Mauritius": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Morocco": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Mozambique": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Namibia": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Nigeria": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Rwanda": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Senegal": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Seychelles": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "United Republic of Tanzania": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Tunisia": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Uganda": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Zambia": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    },
+    "Zimbabwe": {
+      "started_at": "2026-09-27T15:15:36Z",
+      "completed_by": "2026-09-27T15:24:40Z",
+      "conservative_elapsed_minutes": 9.0667
+    }
+  },
+  "attempts_storage": {
+    "Angola": ".github/agents/research/countries/angola.json",
+    "Botswana": ".github/agents/research/global/worldwide-index.json#m49-072",
+    "Cameroon": ".github/agents/research/countries/cameroon.json",
+    "Egypt": ".github/agents/research/countries/egypt.json",
+    "Ethiopia": ".github/agents/research/global/worldwide-index.json#m49-231",
+    "Ghana": ".github/agents/research/countries/ghana.json",
+    "Malawi": ".github/agents/research/global/worldwide-index.json#m49-454",
+    "Mauritius": ".github/agents/research/global/worldwide-index.json#m49-480",
+    "Morocco": ".github/agents/research/global/worldwide-index.json#m49-504",
+    "Mozambique": ".github/agents/research/global/worldwide-index.json#m49-508",
+    "Namibia": ".github/agents/research/global/worldwide-index.json#m49-516",
+    "Nigeria": ".github/agents/research/global/worldwide-index.json#m49-566",
+    "Rwanda": ".github/agents/research/global/worldwide-index.json#m49-646",
+    "Senegal": ".github/agents/research/global/worldwide-index.json#m49-686",
+    "Seychelles": ".github/agents/research/global/worldwide-index.json#m49-690",
+    "United Republic of Tanzania": ".github/agents/research/global/worldwide-index.json#m49-834",
+    "Tunisia": ".github/agents/research/global/worldwide-index.json#m49-788",
+    "Uganda": ".github/agents/research/global/worldwide-index.json#m49-800",
+    "Zambia": ".github/agents/research/global/worldwide-index.json#m49-894",
+    "Zimbabwe": ".github/agents/research/countries/zimbabwe.json"
+  },
+  "verification_scope": "Five explicit corporate/foreign-institution EN references. Twenty legal-source leads. No national adoption, complete current-law or site-conformance claim. Three unreadable EN leads queued for deeper research.",
+  "public_page_changes": false,
+  "process_dependency": "Setup PR70; research PR71. Never merge.",
+  "validation": {
+    "country_records": "PASS:54 countries,759 claims,62 delivery events",
+    "adoption_coverage": "PASS:24 records; public rows unchanged",
+    "adoption_tests": "27 passed",
+    "inventory": "PASS:250 unique entries;198 pending; prior entries and deferred legal task preserved; pointers resolve",
+    "markdown": "PASS:40 files",
+    "whitespace": "PASS",
+    "source_fidelity": "Six final wordings Supported; Egypt edition correction rechecked"
+  },
+  "limits": [
+    "Two failures each for Tanzania draft and Zambia Gazette; Uganda private-site read failed once. No text inferred from snippets.",
+    "Other legal sources include catalogue metadata, hosted copies and unreadable leads. Status remains lead; no legal-currentness conclusion.",
+    "Institutional and corporate sources remain unverified_source under national-adoption evidence rules, despite explicit references being read.",
+    "Shared JSON keeps fifteen countries; five canonical records retain law leads in evidence/questions."
+  ],
+  "coordination": "PR72 independently changes generated routing. Regenerate from combined records before maintainer merge."
+}

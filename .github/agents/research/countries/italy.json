@@ -187,6 +187,28 @@
       "label": "Legislative Decree 82/2022, Article 24",
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Legislative Decree 82/2022, Article 24 — original published provision; separate Law 4/2004 regime not verified."
+    },
+    "source-8a9f3f7368558854d51bf48d": {
+      "issuer": "Normattiva",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004G0015&atto.dataPubblicazioneGazzetta=2004-01-17&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=vigente&title=lbl.dettaglioAtto",
+      "source_type": "official_government",
+      "language": "it",
+      "passage": "Search metadata only; consolidation not read.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unknown",
+      "method": "search metadata only"
+    },
+    "source-2e3b3a221d2290d145e31e7d": {
+      "issuer": "UNI",
+      "url": "https://store.uni.com/uni-cei-en-301549-2021",
+      "source_type": "official_standard_body",
+      "language": "it",
+      "passage": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -626,6 +648,73 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-italy-discovery-reference",
+          "aspect": "reference",
+          "statement": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text.",
+          "scope": "catalogue reference",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-2e3b3a221d2290d145e31e7d"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-8a9f3f7368558854d51bf48d: Legge9gennaio2004 n.4. Search metadata only; consolidation not read."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:uni.com \"301549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:normattiva.it legge 4 2004 accessibilità"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "search metadata only",
+          "outcome": "unknown",
+          "note": "Search metadata only; consolidation not read.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004G0015&atto.dataPubblicazioneGazzetta=2004-01-17&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=vigente&title=lbl.dettaglioAtto"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://store.uni.com/uni-cei-en-301549-2021"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
     }
   },
   "deliveries": [
@@ -663,6 +752,48 @@
           "next_action": "None for this evidence",
           "pr": null,
           "domain": "sanctions"
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-8-2026-09-27-380",
+      "country": "Italy",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "catalogue reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
         }
       ]
     }

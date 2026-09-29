@@ -42,3 +42,7 @@ On each run:
 ## Checks
 
 Run `python3 .github/scripts/check-country-records.py`, `python3 .github/scripts/check_adoption.py --require-coverage`, and `python3 .github/scripts/test_adoption.py`, plus existing content checks. The setup-only PR may run without --require-coverage before the content baseline exists. The checker validates structure, evidence references, date semantics, row mappings and review hashes; it does not certify legal interpretation, source authenticity or live reachability. Do not modify the events-calendar date checker or GitHub Actions. Record unavailable checks honestly.
+
+## Unpublished discovery records
+
+An explicit EN connection can be recorded in a canonical adoption domain before a public row is proposed. Such records must have claims and valid evidence metadata, public_row_sha256 null, public_claim_ids empty, public_cells empty and review_report null. Existing inherited public rows cannot be hidden this way. Coverage checks still require every public row to have a record. Before adding any public row, populate the mappings and obtain the usual verified evidence and isolated wording review. A policy comparison or an explicit rejection of incorporation is a connection, not national adoption.

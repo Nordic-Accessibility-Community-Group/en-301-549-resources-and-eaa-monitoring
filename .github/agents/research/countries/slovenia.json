@@ -264,6 +264,28 @@
       "retrieved_on": "2026-09-25",
       "access_result": "reachable",
       "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    },
+    "source-29b985494ec91c4be781079e": {
+      "issuer": "PISRS",
+      "url": "https://pisrs.si/api/datoteke/integracije/430130525",
+      "source_type": "official_government",
+      "language": "sl",
+      "passage": "Unofficial consolidated text hosted by official portal; follow its disclaimer.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-fffcf377cd03e7213ec4d724": {
+      "issuer": "Information Society Inspectorate",
+      "url": "https://www.gov.si/novice/2025-01-13-brezplacno-do-standarda-sist-en-301-549-v3-2-1/",
+      "source_type": "official_government",
+      "language": "sl",
+      "passage": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -691,6 +713,73 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-slovenia-discovery-reference",
+          "aspect": "reference",
+          "statement": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards.",
+          "scope": "standards access guidance",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-fffcf377cd03e7213ec4d724"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-29b985494ec91c4be781079e: Zakon o izenačevanju možnosti invalidov. Unofficial consolidated text hosted by official portal; follow its disclaimer."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "Slovenia \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:pisrs.si izenačevanju možnosti invalidov"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Unofficial consolidated text hosted by official portal; follow its disclaimer.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://pisrs.si/api/datoteke/integracije/430130525"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.gov.si/novice/2025-01-13-brezplacno-do-standarda-sist-en-301-549-v3-2-1/"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
     }
   },
   "deliveries": [
@@ -728,6 +817,48 @@
           "next_action": "No public change proposed from this claim.",
           "pr": null,
           "domain": "sanctions"
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-8-2026-09-27-705",
+      "country": "Slovenia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "research_only",
+          "reason": "standards access guidance",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
         }
       ]
     }

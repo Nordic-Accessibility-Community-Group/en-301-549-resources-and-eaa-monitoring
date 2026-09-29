@@ -1,0 +1,64 @@
+{
+  "reviewed_on": "2026-09-27",
+  "reviewer": "batch5_fidelity",
+  "isolation": "no_history",
+  "source_languages": [
+    "en",
+    "pt"
+  ],
+  "reviewed_texts": {
+    "Angola": "Microsoft’s Angola-labelled Portuguese purchase-order terms, updated August 2026, reference EN 301 549 in section 17 for purchases with a user interface. This is a private contractual reference, not evidence of Angolan national adoption. No EN edition is specified.",
+    "Cameroon": "DAAD’s Cameroon website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Cameroon adopting the standard. No EN edition is specified.",
+    "Ghana": "DAAD’s Ghana website accessibility declaration references EN 301 549 in the context of German BGG/BITV requirements. This is a German institution’s regional website reference, not evidence of Ghana adopting the standard. No EN edition is specified.",
+    "Egypt": "CeraVe’s Egypt website publishes L’Oréal’s group accessibility commitment referencing EN 301 549 for websites and online services. This is a corporate policy reference, not evidence of Egyptian national adoption or verified site conformance. The statement does not name an EN edition in its text; its EN link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)).",
+    "Zimbabwe": "TotalEnergies’ Zimbabwe website hosts a website-factory demonstration-site accessibility declaration that mentions EN 301 549 when discussing WCAG criterion 4.1.1. This is a corporate contextual reference, not evidence of Zimbabwe adopting the standard or of the Zimbabwe site itself meeting it. No EN edition is specified.",
+    "Botswana commencement": "The posted Persons with Disability Act, 2024 (No. 6) provides for commencement by ministerial order in the Gazette. This source alone does not establish whether such an order has since been issued."
+  },
+  "source_urls": {
+    "Angola": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/accex/documents/presentations/PO-Terms-and-Conditions_pt-AO.pdf",
+    "Cameroon": "https://www.daad.cm/en/accessibility-declaration/",
+    "Ghana": "https://www.daad-ghana.org/en/accessibility-declaration/",
+    "Egypt": "https://www.cerave.eg/en/accessibility-statement-en-us",
+    "Zimbabwe": "https://zw.totalenergies.com/news-and-publications/accessibility-not-compliant",
+    "Botswana commencement": "https://www.gov.bw/sites/default/files/2025-03/Act%20No%206%20of%202024%20PERSONS%20WITH%20DISABILITY%20%281%29.pdf"
+  },
+  "comparisons": {
+    "Angola": {
+      "excerpt": "No caso de compras com uma Interface de Utilizador (IU), isso inclui a conformidade",
+      "literal_rendering": "For purchases with a User Interface (UI), this includes compliance.",
+      "verdict": "Supported"
+    },
+    "Cameroon": {
+      "excerpt": "applies to the website of the German Academic Exchange Service (DAAD)",
+      "literal_rendering": "Already English; original wording retained.",
+      "verdict": "Supported"
+    },
+    "Ghana": {
+      "excerpt": "applies to the website of the German Academic Exchange Service (DAAD)",
+      "literal_rendering": "Already English; original wording retained.",
+      "verdict": "Supported"
+    },
+    "Egypt": {
+      "excerpt": "We are committed to ensuring that our websites and online services are accessible",
+      "literal_rendering": "Already English; original wording retained.",
+      "verdict": "Supported"
+    },
+    "Zimbabwe": {
+      "excerpt": "This declaration applies to the Demonstration site",
+      "literal_rendering": "Already English; original wording retained.",
+      "verdict": "Supported"
+    },
+    "Botswana commencement": {
+      "excerpt": "Date of Commencement: ON NOTICE",
+      "literal_rendering": "Already English; original wording retained.",
+      "verdict": "Supported"
+    }
+  },
+  "verdict": "Supported",
+  "corrections": [
+    "Egypt: unversioned page body links to EN V2.1.2:2018; exact source notation V2.1.2 (2018-08) retained. Final wording rechecked Supported.",
+    "Botswana commencement passage locator: printed A.45, PDF page 3."
+  ],
+  "limits": "Source fidelity and scope only. Corporate and foreign-institution references are not national adoption evidence. Other legal findings are discovery metadata/leads, not reviewed substantive summaries. No public wording changes.",
+  "linked_edition_url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf"
+}

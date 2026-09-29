@@ -4454,6 +4454,24 @@
       "language": "en",
       "reason": "Local repository document inspected; primary prose/record language is English.",
       "checked_on": "2026-09-27"
+    },
+    {
+      "url": "https://www.mlbf-barrierefrei.de/Aktuelles/Markt%C3%BCberwachungsstrategien-beschlossen.php?FID=3.11.1",
+      "language": "de",
+      "reason": "Recorded German-source inspection and isolated review in .github/agents/enforcement/reviews/2026-09-27-germany-mlbf-strategy.md (merged PR72); ledger reconciliation on 2026-09-29, not a fresh retrieval.",
+      "checked_on": "2026-09-27"
+    },
+    {
+      "url": "https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&FID=4290.35.1",
+      "language": "de",
+      "reason": "Recorded German-source inspection and isolated review in .github/agents/enforcement/reviews/2026-09-27-germany-mlbf-strategy.md (merged PR72); ledger reconciliation on 2026-09-29, not a fresh retrieval.",
+      "checked_on": "2026-09-27"
+    },
+    {
+      "url": "https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&FID=4290.33.1",
+      "language": "de",
+      "reason": "Recorded German-source inspection and isolated review in .github/agents/enforcement/reviews/2026-09-27-germany-mlbf-strategy.md (merged PR72); ledger reconciliation on 2026-09-29, not a fresh retrieval.",
+      "checked_on": "2026-09-27"
     }
   ]
 }

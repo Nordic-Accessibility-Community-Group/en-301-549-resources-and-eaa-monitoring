@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "country": "Peru",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-4422db1a1d8d996255ff0b06": {
+      "issuer": "Peru government digital-service guidance",
+      "url": "https://guias.servicios.gob.pe/creacion-servicios-digitales/tecnologia/inclusion-usuarios",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Section Cómo construir o adquirir tecnología accesible: explicit EN reference in development/acquisition guidance. No edition. Does not itself establish national adoption or statutory force.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-3bd18c5560cc49de156b6839": {
+      "issuer": "Congress of Peru, Gob.pe",
+      "url": "https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/211941-29973",
+      "source_type": "official_law",
+      "language": "es",
+      "passage": "Law 29973 legal-source lead; page returned HTTP418. No provisions verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unreachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-peru-discovery-reference",
+          "aspect": "reference",
+          "statement": "Peru’s government digital-service guidance directs new development or acquisition to use EN 301 549 to understand accessibility requirements during procurement. This is a guidance reference; no EN edition or national standards-adoption status is established by the page.",
+          "scope": "government digital-service development/procurement guidance",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-4422db1a1d8d996255ff0b06"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Source-language review in discovery-4-review-2026-09-27.json. No public row proposed. Verification limited to the explicit reference, not national adoption, legal force or implementation."
+        }
+      ],
+      "questions": [
+        "Further research: national standards catalogue, legal force, scope and exact EN edition. No public adoption row is supported by this reference alone.",
+        "Routing: no EAA monitoring/sanctions/enforcement change established; local law notes belong to future global legal mapping.",
+        "Law lead source-3bd18c5560cc49de156b6839: Ley29973, Ley General de la Persona con Discapacidad. Multiple official endpoints unreadable; no legal provision verified. Obtain current official text and implementing rules."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:gob.pe \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:gob.pe \"29973\" \"accesibilidad\" ley"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Section Cómo construir o adquirir tecnología accesible: explicit EN reference in development/acquisition guidance. No edition. Does not itself establish national adoption or statutory force.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://guias.servicios.gob.pe/creacion-servicios-digitales/tecnologia/inclusion-usuarios"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Law 29973 legal-source lead; page returned HTTP418. No provisions verified.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/211941-29973"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Guide-linked law book failed.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.gob.pe/i/223512"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Congress PDF failed.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www2.congreso.gob.pe/sicr/cendocbib/con4_uibd.nsf/E1755D9887ED063005257C68005CA871/%24FILE/ley_29973.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Labour ministry alternate PDF failed; leave law scope unverified.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://discapacidad.trabajo.gob.pe/wp-content/uploads/2021/03/Ley-29973.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-4-2026-09-27-peru",
+      "country": "Peru",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/peru.json",
+          "disposition": "research_only",
+          "reason": "government digital-service development/procurement guidance",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

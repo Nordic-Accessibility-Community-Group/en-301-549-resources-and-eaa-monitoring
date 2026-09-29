@@ -1,0 +1,113 @@
+{
+  "id": "world-discovery-4-2026-09-27",
+  "started_at": "2026-09-27T14:50:21Z",
+  "research_closed_at": "2026-09-27T14:57:59Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "scope": [
+    "Argentina",
+    "Chile",
+    "Colombia",
+    "Costa Rica",
+    "Dominican Republic",
+    "Ecuador",
+    "Guatemala",
+    "Panama",
+    "Peru",
+    "Uruguay"
+  ],
+  "selection_reason": "User requested a larger ten-country batch. Pending Latin American entries selected; already-mapped Brazil and Mexico excluded.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 218,
+  "attempts_storage": {
+    "Argentina": ".github/agents/research/global/worldwide-index.json#m49-032",
+    "Chile": ".github/agents/research/global/worldwide-index.json#m49-152",
+    "Colombia": ".github/agents/research/global/worldwide-index.json#m49-170",
+    "Costa Rica": ".github/agents/research/countries/costa rica.json",
+    "Dominican Republic": ".github/agents/research/global/worldwide-index.json#m49-214",
+    "Ecuador": ".github/agents/research/global/worldwide-index.json#m49-218",
+    "Guatemala": ".github/agents/research/global/worldwide-index.json#m49-320",
+    "Panama": ".github/agents/research/global/worldwide-index.json#m49-591",
+    "Peru": ".github/agents/research/countries/peru.json",
+    "Uruguay": ".github/agents/research/countries/uruguay.json"
+  },
+  "verification_scope": "Two governmental EN references; one academic European-policy comparison kept under unverified_source authority status; seven narrow legal text summaries; other laws retained as leads. No complete national current-law or adoption audit.",
+  "process_dependency": "PR70 supplies inventory and research-only canonical-record support. Factual research remains PR71.",
+  "public_page_changes": false,
+  "elapsed_research_minutes": 7.6333,
+  "remaining_research_minutes": 22.3667,
+  "country_windows": {
+    "Argentina": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Chile": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Colombia": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Costa Rica": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Dominican Republic": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Ecuador": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Guatemala": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Panama": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Peru": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    },
+    "Uruguay": {
+      "started_at": "2026-09-27T14:50:21Z",
+      "completed_by": "2026-09-27T14:57:59Z",
+      "conservative_elapsed_minutes": 7.6333
+    }
+  },
+  "validation": {
+    "country_records": "PASS:49 countries,754 claims,57 delivery events",
+    "adoption_coverage": "PASS:19 research records; public rows unchanged",
+    "adoption_tests": "27 passed",
+    "inventory": "PASS:250 unique entries;218 pending; previous research and legal backlog preserved; EN backlog extended; source/claim/task pointers resolve",
+    "markdown": "PASS:40 files",
+    "whitespace": "PASS",
+    "source_fidelity": "Ten final Spanish-source summaries Supported by two isolated reviewers"
+  },
+  "notification_history": [
+    "Announced ten-country scope.",
+    "Reported government guidance/project references and third-party source distinctions.",
+    "Reported legal-source intake and new deferred EN leads."
+  ],
+  "coordination": "PR72 independently changes Germany and events.json. Regenerate combined routing before merge to preserve all events; do not merge either PR as agent.",
+  "limits": [
+    "EN search results are not proof of national adoption or absence.",
+    "Costa Rica academic report discusses Europe; source status does not certify national adoption authority.",
+    "Law bodies for Dominican Republic and Peru unreadable; Panama metadata is not current substantive law.",
+    "Chile source is the explicit2024-08-24 version; later changes not audited.",
+    "Colombia EN procurement attachment and Argentine hosted publications remain unreadable leads, queued in the deferred task."
+  ]
+}

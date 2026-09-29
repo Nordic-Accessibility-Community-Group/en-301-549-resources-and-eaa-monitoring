@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "country": "Uruguay",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-a31196071b57d5dcb9e78807": {
+      "issuer": "Intendencia de Montevideo",
+      "url": "https://www.montevideo.gub.uy/asl/sistemas/siab/Cartelera.nsf/d86379920b665b43832575f6005207c2/beea021c4e7c793c032581d30068a0d5/$FILE/Anexo%2012%20-%20Memoria%20Modulo%20Interactivo%20Florencio%20Sanchez.pdf",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Annex12, page1 introduction: interactive module to conform to EN301549. Local project specification; no edition, publication date, award or actual implementation verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-e5ded9cff181e6def02d243c": {
+      "issuer": "Uruguay IMPO",
+      "url": "https://www.impo.com.uy/bases/leyes/18651-2010/77",
+      "source_type": "official_law",
+      "language": "es",
+      "passage": "Law18.651, article77(A): statutory accessibility definition. Posted provision only; no whole-law currentness audit.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-uruguay-discovery-reference",
+          "aspect": "reference",
+          "statement": "Montevideo’s technical specification for the Florencio Sánchez monument’s interactive module states that the module is to conform to EN 301 549. This is a project-specific reference, not evidence of national adoption or completed implementation; no EN edition is specified.",
+          "scope": "municipal project technical specification",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-a31196071b57d5dcb9e78807"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Source-language review in discovery-4-review-2026-09-27.json. No public row proposed. Verification limited to the explicit reference, not national adoption, legal force or implementation."
+        }
+      ],
+      "questions": [
+        "Further research: national standards catalogue, legal force, scope and exact EN edition. No public adoption row is supported by this reference alone.",
+        "Routing: no EAA monitoring/sanctions/enforcement change established; local law notes belong to future global legal mapping.",
+        "Legal mapping source source-e5ded9cff181e6def02d243c: For purposes of Uruguay’s Law 18.651, Article 77(A) defines accessibility for persons with disabilities as the condition of spaces, objects, instruments, systems or media being usable by everyone safely and as autonomously and comfortably as possible. Full currentness/implementation requires a later pass.",
+        "Check project procurement date, status and EN edition; do not infer implementation from specification."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:gub.uy \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Search led to retained sources or no usable result; see source reads and EN outcome. Search snippets are discovery only.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "query": "site:impo.com.uy ley 18651 accesibilidad"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Annex12, page1 introduction: interactive module to conform to EN301549. Local project specification; no edition, publication date, award or actual implementation verified.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.montevideo.gub.uy/asl/sistemas/siab/Cartelera.nsf/d86379920b665b43832575f6005207c2/beea021c4e7c793c032581d30068a0d5/$FILE/Anexo%2012%20-%20Memoria%20Modulo%20Interactivo%20Florencio%20Sanchez.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Law18.651, article77(A): statutory accessibility definition. Posted provision only; no whole-law currentness audit.",
+          "run_id": "world-discovery-4-2026-09-27",
+          "url": "https://www.impo.com.uy/bases/leyes/18651-2010/77"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-4-2026-09-27-uruguay",
+      "country": "Uruguay",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/uruguay.json",
+          "disposition": "research_only",
+          "reason": "municipal project technical specification",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA destination change from this foreign-country discovery.",
+          "next_action": "Retain qualified reference and source-linked legal questions for further research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

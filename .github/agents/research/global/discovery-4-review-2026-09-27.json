@@ -1,0 +1,95 @@
+{
+  "reviewed_on": "2026-09-27",
+  "isolation": "no_history",
+  "reviewers": [
+    "batch4_en_fidelity",
+    "batch4_law_fidelity"
+  ],
+  "source_languages": [
+    "es"
+  ],
+  "scope": "Ten exact summaries: three EN references and seven law/guidance passages. Source fidelity only; no full legal-currentness audit.",
+  "reviewed_texts": {
+    "PE": "Peru’s government digital-service guidance directs new development or acquisition to use EN 301 549 to understand accessibility requirements during procurement. This is a guidance reference; no EN edition or national standards-adoption status is established by the page.",
+    "UY": "Montevideo’s technical specification for the Florencio Sánchez monument’s interactive module states that the module is to conform to EN 301 549. This is a project-specific reference, not evidence of national adoption or completed implementation; no EN edition is specified.",
+    "CR": "The University of Costa Rica’s 2024 freedom-of-expression report references EN 301 549 V1.1.2:2015 in its comparison of European accessibility policy and its bibliography. This is an academic reference to European policy, not evidence that Costa Rica adopted EN 301 549.",
+    "CR-law": "Article 1 of Costa Rica’s Directive 036-MTSS-MICITT repeals Directive 051-MTSS-MICITT on accessible public-sector websites. The retrieved excerpt does not establish the replacement’s complete requirements.",
+    "UY-law": "For purposes of Uruguay’s Law 18.651, Article 77(A) defines accessibility for persons with disabilities as the condition of spaces, objects, instruments, systems or media being usable by everyone safely and as autonomously and comfortably as possible.",
+    "AR": "Article 6 of Argentina’s Law 26.653 requires national-state purchases or contracts for computing technology serving the public or internal employees/users to take disability-accessibility requirements into account.",
+    "CL": "Article 8 of Chile’s Law 20.422 provides for state anti-discrimination measures comprising accessibility requirements, necessary adjustments and prevention of harassment.",
+    "CO": "Article 3 of Colombia’s Resolution 1519 of 2020 requires covered entities to meet WCAG 2.1 AA from 1 January 2022 under Annex 1, for their web portals and electronic offices, including existing content and the specified development/update processes.",
+    "EC": "Article 64 of Ecuador’s 2025 disability law requires suitable access, circulation, information and facilities in public or private works open to public and community use, in urban or rural settings, for persons with disabilities, older persons and persons with reduced mobility.",
+    "GT": "Article 54 in CONADI’s posted text of Guatemala’s Decree 135-96 requires new construction, extensions or remodelling of the listed public buildings and spaces to follow technical specifications enabling easy access and movement for persons with disabilities."
+  },
+  "source_urls": {
+    "PE": "https://guias.servicios.gob.pe/creacion-servicios-digitales/tecnologia/inclusion-usuarios",
+    "UY": "https://www.montevideo.gub.uy/asl/sistemas/siab/Cartelera.nsf/d86379920b665b43832575f6005207c2/beea021c4e7c793c032581d30068a0d5/$FILE/Anexo%2012%20-%20Memoria%20Modulo%20Interactivo%20Florencio%20Sanchez.pdf",
+    "CR": "https://www.promotora.go.cr/web/Assets/pdfs/Cuarto-Informe-Estado-Libertad-Expresion-Costa-Rica.pdf",
+    "CR-law": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/Z/2020-2029/2020-2024/2024/18C68/166788.HTML",
+    "UY-law": "https://www.impo.com.uy/bases/leyes/18651-2010/77",
+    "AR": "https://www.argentina.gob.ar/normativa/nacional/175694/texto",
+    "CL": "https://www.bcn.cl/leychile/navegar?idNorma=1010903&idParte=&idVersion=2024-08-24",
+    "CO": "https://normograma.mintic.gov.co/mintic/compilacion/docs/resolucion_mintic_1519_2020.htm",
+    "EC": "https://www.asambleanacional.gob.ec/es/system/files/ro_12.pdf",
+    "GT": "https://conadi.gob.gt/web/wp-content/uploads/2020/02/Ley-135-96-Atenci%C3%B3n-a-Personas-con-Di-scapacidad.pdf"
+  },
+  "comparisons": {
+    "PE": {
+      "excerpt": "Cualquier desarrollo nuevo o adquisición debe usar el estándar abierto EN 301 549",
+      "literal_rendering": "Any new development or acquisition must use the open standard EN301549.",
+      "verdict": "Supported"
+    },
+    "UY": {
+      "excerpt": "El mismo estará de acuerdo a la norma EN 301 549.",
+      "literal_rendering": "It shall be in accordance with EN301549.",
+      "verdict": "Supported"
+    },
+    "CR": {
+      "excerpt": "Unión Europea; norma EN 301 549 V1.1.2 (2015-04)",
+      "literal_rendering": "European Union; standard EN301549 V1.1.2 (April2015).",
+      "verdict": "Supported"
+    },
+    "CR-law": {
+      "excerpt": "Artículo 1. Deróguese la Directriz N.º 051-MTSS-MICITT",
+      "literal_rendering": "Article1: Directive051-MTSS-MICITT is hereby repealed.",
+      "verdict": "Supported"
+    },
+    "UY-law": {
+      "excerpt": "utilizable por todas las personas en forma segura",
+      "literal_rendering": "usable by all persons safely",
+      "verdict": "Supported"
+    },
+    "AR": {
+      "excerpt": "tendrán que contemplar los requisitos de accesibilidad establecidos para personas con discapacidad",
+      "literal_rendering": "must take into account the accessibility requirements established for persons with disabilities",
+      "verdict": "Supported"
+    },
+    "CL": {
+      "excerpt": "exigencias de accesibilidad, realización de ajustes necesarios y prevención de conductas de acoso",
+      "literal_rendering": "accessibility requirements, necessary adjustments and prevention of harassment",
+      "verdict": "Supported"
+    },
+    "CO": {
+      "excerpt": "actualización, estructuración, reestructuración, diseño, rediseño de sus portales web y sedes electrónicas",
+      "literal_rendering": "updating, structuring, restructuring, design and redesign of web portals and electronic offices",
+      "verdict": "Supported"
+    },
+    "EC": {
+      "excerpt": "deberán proveerse accesos, medios de circulación, información e instalaciones adecuadas",
+      "literal_rendering": "suitable access, means of circulation, information and facilities must be provided",
+      "verdict": "Supported"
+    },
+    "GT": {
+      "excerpt": "conforme a especificaciones técnicas que permitan el fácil acceso y la locomoción de las personas con discapacidad",
+      "literal_rendering": "according to technical specifications allowing easy access and movement for persons with disabilities",
+      "verdict": "Supported"
+    }
+  },
+  "verdict": "Supported",
+  "corrections": [
+    "Uruguay legal definition explicitly scoped to the law and persons with disabilities.",
+    "Costa Rica retains requested year-version notation V1.1.2:2015; exact source notation V1.1.2(2015-04) retained in evidence."
+  ],
+  "recheck": "EN reviewer confirmed final five wordings Supported after refinements; other five law summaries Supported unchanged.",
+  "limits": "Costa Rica report is academic European-policy comparison, not national adoption authority. Its table was text-extracted; reviewer screenshot retrieval failed. Guatemala first article54 belongs to decree text despite confusing regulation running header; later regulatory article54 is different. No claim drawn from unreadable Argentina/Colombia EN attachments or Dominican/Peruvian law bodies."
+}

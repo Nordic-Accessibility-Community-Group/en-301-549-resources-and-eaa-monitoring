@@ -1,0 +1,27 @@
+{
+  "reviewer": "batch2_fidelity",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Four exact research summaries; no public row or full legal-currentness audit.",
+  "source_languages": [
+    "ms",
+    "en"
+  ],
+  "reviewed_texts": {
+    "MY": "KO-NELAYAN’s website accessibility statement explicitly mentions EN 301 549 when explaining disclosure of remaining accessibility gaps. The statement targets WCAG 2.1 AA and describes partial conformance. This is an institutional reference, not evidence of Malaysian national adoption; no EN edition is specified.",
+    "SG": "Singapore’s Ministry of Manpower identifies disability and mental-health conditions among the Workplace Fairness Act’s protected characteristics and reports implementation planned for end-2027. Its 9 September 2026 answer also describes the Act as coming into force in 2027. These government statements are leads for statutory and commencement checks, not evidence that the Act is already in force.",
+    "PH1": "Section 32 of Republic Act No. 7277 prohibits public and private entities from discriminating against qualified persons with disabilities in employment because of disability.",
+    "PH2": "Section 1 of Batas Pambansa Blg. 344 ties permits for construction, repair or renovation of covered public-use buildings and facilities to mobility-related accessibility features. This is built-environment legislation, not an EN 301 549 adoption finding."
+  },
+  "source_urls": [
+    "https://konelayan.sabah.gov.my/penyata-kebolehcapaian.html",
+    "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0227-written-answer-to-pq-on-making-workplaces-happier",
+    "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2026/0909-written-answer-to-pq-on-effectiveness-of-wcn-and-protection-against-workplace-discrimination",
+    "https://ncda.gov.ph/disability-laws/republic-acts/republic-act-7277/",
+    "https://ncda.gov.ph/disability-laws/batas-pambansa/batas-pambansa-blg-344/"
+  ],
+  "verdict": "Supported",
+  "corrections": [],
+  "recheck": "All four final variants supported without substantive correction.",
+  "limits": "Malaysia reference is institutional only, with no EN edition. Singapore implementation remains prospective. Philippines review concerns posted original provisions only; amendments and2024 implementing rules not audited."
+}
