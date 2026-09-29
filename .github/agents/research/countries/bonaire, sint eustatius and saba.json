@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "country": "Bonaire, Sint Eustatius and Saba",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-cfa1d6585e7a972a762809d3": {
+      "issuer": "Government of the Netherlands",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2024/04/26/inwoners-bes-eilanden-beter-beschermd-tegen-discriminatie",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "Proposal announcement; not evidence of enactment or commencement. Separate 2025 digital-government decree is retained as the EN source.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-52e7deeb561a76e98a71dea5": {
+      "issuer": "Rijksdienst Caribisch Nederland",
+      "url": "https://www.rijksdienstcn.com/binaries/rijksdienstcn-nederlands/documenten/rapporten/toegankelijkheid/2024/11/index/Contentonderzoek%2Bhttps_www.rijksdienstcn.com_%2BWCAG%2B2.1%2BAA.pdf",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "Institutional content audit source retained; report has EN/WCAG basis, not independent evidence of whole-territory adoption or full-site conformance.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-45bb23d6044684ff66535737": {
+      "issuer": "Dutch official gazette",
+      "url": "https://zoek.officielebekendmakingen.nl/stb-2025-406.html",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-bonaire-sint-eustatius-and-saba-discovery-reference",
+          "aspect": "reference",
+          "statement": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification.",
+          "scope": "Legislative explanatory-note reference; commencement and scope unresolved",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-45bb23d6044684ff66535737"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact source-reference wording independently checked in discovery-9-review-2026-09-27.json. This does not establish territorial adoption, legal applicability or current edition; no public row. Corporate/place-brand sources remain unverified_source."
+        }
+      ],
+      "questions": [
+        "Resolve current EN edition, authority, territorial scope and legal effect separately. This pass establishes only recorded source relationships.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-cfa1d6585e7a972a762809d3: BES anti-discrimination proposal announcement (26 April 2024). Proposal announcement; not evidence of enactment or commencement. Separate 2025 digital-government decree is retained as the EN source.",
+        "Additional source source-52e7deeb561a76e98a71dea5: Institutional content audit source retained; report has EN/WCAG basis, not independent evidence of whole-territory adoption or full-site conformance."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "\"Bonaire, Sint Eustatius and Saba\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "site:rijksdienstcn.com \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "site:rijksoverheid.nl Caribisch Nederland gelijke behandeling handicap wet"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Proposal announcement; not evidence of enactment or commencement. Separate 2025 digital-government decree is retained as the EN source.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2024/04/26/inwoners-bes-eilanden-beter-beschermd-tegen-discriminatie"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Institutional content audit source retained; report has EN/WCAG basis, not independent evidence of whole-territory adoption or full-site conformance.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "url": "https://www.rijksdienstcn.com/binaries/rijksdienstcn-nederlands/documenten/rapporten/toegankelijkheid/2024/11/index/Contentonderzoek%2Bhttps_www.rijksdienstcn.com_%2BWCAG%2B2.1%2BAA.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "url": "https://zoek.officielebekendmakingen.nl/stb-2025-406.html"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-9-2026-09-27-535",
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bonaire, sint eustatius and saba.json",
+          "disposition": "research_only",
+          "reason": "Legislative explanatory-note reference; commencement and scope unresolved",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

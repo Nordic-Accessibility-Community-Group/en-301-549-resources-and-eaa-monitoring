@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Qatar",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-bc03eeb372a4bc438d0a4407": {
+      "issuer": "Qatar Al Meezan legal portal",
+      "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=22225&language=ar&lawId=10162",
+      "source_type": "official_government",
+      "language": "ar",
+      "passage": "Reader failed; search metadata only. Commencement and provisions unverified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unreachable",
+      "method": "web reader"
+    },
+    "source-4b25767ee7fba3ac59160e17": {
+      "issuer": "Mada Center",
+      "url": "https://policy.mada.org.qa/wp-content/uploads/2023/02/BP-ACCESSIBLE-PROCUREMENT-ENGLISH23.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Mada Center’s Accessible Procurement Best Practices guide references EN 301 549 and reproduces functional-performance material labelled V1.1.1:2014 (source notation V1.1.1 (2014-02)). This is procurement guidance from a private institution for public benefit, not evidence of Qatari national adoption or binding procurement law.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-qatar-discovery-reference",
+          "aspect": "reference",
+          "statement": "Mada Center’s Accessible Procurement Best Practices guide references EN 301 549 and reproduces functional-performance material labelled V1.1.1:2014 (source notation V1.1.1 (2014-02)). This is procurement guidance from a private institution for public benefit, not evidence of Qatari national adoption or binding procurement law.",
+          "scope": "private public-benefit institution procurement guidance",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-4b25767ee7fba3ac59160e17"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-bc03eeb372a4bc438d0a4407: Law No. 22 of 2025 concerning persons with disabilities. Reader failed; search metadata only. Commencement and provisions unverified."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.qa \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:mada.org.qa \"EN 301\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:almeezan.qa persons disabilities law 2025"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Reader failed; search metadata only. Commencement and provisions unverified.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=22225&language=ar&lawId=10162"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Mada Center’s Accessible Procurement Best Practices guide references EN 301 549 and reproduces functional-performance material labelled V1.1.1:2014 (source notation V1.1.1 (2014-02)). This is procurement guidance from a private institution for public benefit, not evidence of Qatari national adoption or binding procurement law.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://policy.mada.org.qa/wp-content/uploads/2023/02/BP-ACCESSIBLE-PROCUREMENT-ENGLISH23.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-634",
+      "country": "Qatar",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/qatar.json",
+          "disposition": "research_only",
+          "reason": "private public-benefit institution procurement guidance",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

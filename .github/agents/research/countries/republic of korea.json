@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "country": "Republic of Korea",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-af067993fffbfa4826cbb544": {
+      "issuer": "Korea Legislation Research Institute",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=55535&key=38&type=part",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "English translation retrieved; displayed amendments through 2020 cannot establish latest law.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-03629a1c68afa9ff4c445869": {
+      "issuer": "Korean library-research article published via KCI",
+      "url": "https://journal.kci.go.kr/liss/archive/articleView?artiId=ART003218126",
+      "source_type": "other_unverified",
+      "language": "ko",
+      "passage": "A Korean library-research article references EN 301 549 in international comparisons and proposed e-book procurement guidelines. This academic reference does not establish national adoption. Its bibliography labels the standard 2021 but links V3.1.1 (2019-11), leaving the intended edition uncertain.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-republic-of-korea-discovery-reference",
+          "aspect": "reference",
+          "statement": "A Korean library-research article references EN 301 549 in international comparisons and proposed e-book procurement guidelines. This academic reference does not establish national adoption. Its bibliography labels the standard 2021 but links V3.1.1 (2019-11), leaving the intended edition uncertain.",
+          "scope": "academic comparison and proposed procurement guidelines",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-03629a1c68afa9ff4c445869"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-af067993fffbfa4826cbb544: Act on the Prohibition of Discrimination against Persons with Disabilities, Remedy against Infringement of Their Rights, etc.. English translation retrieved; displayed amendments through 2020 cannot establish latest law.",
+        "Resolve bibliography 2021 versus linked EN V3.1.1:2019 (source notation V3.1.1 (2019-11)); no definitive cited edition assigned."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:go.kr \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:elaw.klri.re.kr prohibition discrimination persons disabilities act"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "English translation retrieved; displayed amendments through 2020 cannot establish latest law.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=55535&key=38&type=part"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "A Korean library-research article references EN 301 549 in international comparisons and proposed e-book procurement guidelines. This academic reference does not establish national adoption. Its bibliography labels the standard 2021 but links V3.1.1 (2019-11), leaving the intended edition uncertain.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://journal.kci.go.kr/liss/archive/articleView?artiId=ART003218126"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-410",
+      "country": "Republic of Korea",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/republic of korea.json",
+          "disposition": "research_only",
+          "reason": "academic comparison and proposed procurement guidelines",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

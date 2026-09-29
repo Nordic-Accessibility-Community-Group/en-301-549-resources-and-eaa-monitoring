@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "country": "Montenegro",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-c5b93a25af230854988afc0e": {
+      "issuer": "Human and Minority Rights Ministry",
+      "url": "https://www.gov.me/dokumenta/a7cee929-28ed-4814-a2a4-07fd126b0311",
+      "source_type": "official_government",
+      "language": "cnr",
+      "passage": "Publication landing page; do not confuse newer draft search hit with enacted law.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-e034679c4ebf984e9c51773a": {
+      "issuer": "ISME",
+      "url": "https://isme.me/en/download/file/page-section/304",
+      "source_type": "official_standard_body",
+      "language": "cnr",
+      "passage": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-montenegro-discovery-reference",
+          "aspect": "reference",
+          "statement": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry.",
+          "scope": "catalogue reference",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-e034679c4ebf984e9c51773a"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-c5b93a25af230854988afc0e: Zakon o zabrani diskriminacije lica sa invaliditetom. Publication landing page; do not confuse newer draft search hit with enacted law."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:isme.me \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "\"MEST EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:isme.me \"301549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:gov.me zakon zabrani diskriminacije invaliditetom"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Publication landing page; do not confuse newer draft search hit with enacted law.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.gov.me/dokumenta/a7cee929-28ed-4814-a2a4-07fd126b0311"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://isme.me/en/download/file/page-section/304"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-8-2026-09-27-499",
+      "country": "Montenegro",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/montenegro.json",
+          "disposition": "research_only",
+          "reason": "catalogue reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

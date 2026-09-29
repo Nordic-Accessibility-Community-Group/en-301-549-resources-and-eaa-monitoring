@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Egypt",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-da55229fb4184944055092a7": {
+      "issuer": "Egypt State Information Service",
+      "url": "https://hrightsstudies.sis.gov.eg/en/laws/the-most-important-features-of-law-no-10-of-2018-on-the-rights-of-persons-with-disabilities/",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Reader returned 502; retain search lead only.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unreachable",
+      "method": "web reader"
+    },
+    "source-57beef2b01d59b8fe5faa5e6": {
+      "issuer": "L’Oréal / CeraVe",
+      "url": "https://www.cerave.eg/en/accessibility-statement-en-us",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "CeraVe’s Egypt website publishes L’Oréal’s group accessibility commitment referencing EN 301 549 for websites and online services. This is a corporate policy reference, not evidence of Egyptian national adoption or verified site conformance. The statement does not name an EN edition in its text; its EN link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)).",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-egypt-discovery-reference",
+          "aspect": "reference",
+          "statement": "CeraVe’s Egypt website publishes L’Oréal’s group accessibility commitment referencing EN 301 549 for websites and online services. This is a corporate policy reference, not evidence of Egyptian national adoption or verified site conformance. The statement does not name an EN edition in its text; its EN link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)).",
+          "scope": "corporate group accessibility policy",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-57beef2b01d59b8fe5faa5e6"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact reference read; issuer is not national adoption authority. Isolated source-fidelity review: discovery-5-review-2026-09-27.json. No public row."
+        }
+      ],
+      "questions": [
+        "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+        "Map both accessibility and discrimination laws in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change supported.",
+        "Legal mapping lead source-da55229fb4184944055092a7: Law No. 10 of 2018 on the Rights of Persons with Disabilities. Reader returned 502; retain search lead only."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Broad discovery only; institutional/commercial hits require source context.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "\"Egypt\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "site:gov.eg \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Reader returned 502; retain search lead only.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://hrightsstudies.sis.gov.eg/en/laws/the-most-important-features-of-law-no-10-of-2018-on-the-rights-of-persons-with-disabilities/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "CeraVe’s Egypt website publishes L’Oréal’s group accessibility commitment referencing EN 301 549 for websites and online services. This is a corporate policy reference, not evidence of Egyptian national adoption or verified site conformance. The statement does not name an EN edition in its text; its EN link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)).",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://www.cerave.eg/en/accessibility-statement-en-us"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "site:sis.gov.eg disabilities law 10 2018",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-5-2026-09-27-egypt",
+      "country": "Egypt",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/egypt.json",
+          "disposition": "research_only",
+          "reason": "corporate group accessibility policy",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

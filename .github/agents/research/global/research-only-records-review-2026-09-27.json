@@ -1,0 +1,22 @@
+{
+  "reviewer": "research_only_validator_review",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "pr": 70,
+  "base_head": "84c1788861b6da9c8139b989b07f5f6ceb26de27",
+  "reviewed_head": "c62dbecc32699db1b59497acea4e10cdd64a7e97",
+  "scope": [
+    ".github/scripts/check_adoption.py",
+    ".github/scripts/test_adoption.py",
+    ".github/agents/adoption/README.md"
+  ],
+  "verdict": "No code findings",
+  "validation": "Actual remote diff and local blob hashes checked;27 tests independently passed.",
+  "findings": [
+    {
+      "finding": "PR description omitted new three-file validator delta.",
+      "disposition": "Description updated to include code, fixtures, instructions and review scope."
+    }
+  ],
+  "limits": "No legal/source-meaning review or review of dependent country research PR; earlier inventory review recorded separately."
+}

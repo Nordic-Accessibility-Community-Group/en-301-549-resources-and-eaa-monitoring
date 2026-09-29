@@ -1,0 +1,796 @@
+{
+  "id": "world-discovery-9-2026-09-27",
+  "started_at": "2026-09-27T17:13:41Z",
+  "research_closed_at": "2026-09-27T17:28:26Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "elapsed_research_minutes": 14.75,
+  "scope": [
+    "American Samoa",
+    "Anguilla",
+    "Antarctica",
+    "Aruba",
+    "Bermuda",
+    "Bonaire, Sint Eustatius and Saba",
+    "Bouvet Island",
+    "British Indian Ocean Territory",
+    "British Virgin Islands",
+    "Cayman Islands",
+    "Christmas Island",
+    "Cocos (Keeling) Islands",
+    "Curaçao",
+    "Falkland Islands (Malvinas)",
+    "French Guiana",
+    "French Polynesia",
+    "French Southern Territories",
+    "Gibraltar",
+    "Greenland",
+    "Guadeloupe",
+    "Guam",
+    "Guernsey",
+    "Heard Island and McDonald Islands",
+    "Isle of Man",
+    "Jersey",
+    "Martinique",
+    "Mayotte",
+    "Montserrat",
+    "New Caledonia",
+    "Norfolk Island",
+    "Northern Mariana Islands",
+    "Pitcairn",
+    "Puerto Rico",
+    "Réunion",
+    "Saint Barthélemy",
+    "Saint Helena",
+    "Saint Martin (French Part)",
+    "Saint Pierre and Miquelon",
+    "Sint Maarten (Dutch part)",
+    "South Georgia and the South Sandwich Islands",
+    "Svalbard and Jan Mayen Islands",
+    "Tokelau",
+    "Turks and Caicos Islands",
+    "United States Minor Outlying Islands",
+    "United States Virgin Islands",
+    "Wallis and Futuna Islands",
+    "Western Sahara",
+    "Åland Islands"
+  ],
+  "selection_reason": "All48 remaining pending entries, mainly territories/areas;13 existing public adoption countries remain excluded.",
+  "country_windows": {
+    "American Samoa": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Anguilla": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Antarctica": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Aruba": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Bermuda": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Bonaire, Sint Eustatius and Saba": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Bouvet Island": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "British Indian Ocean Territory": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "British Virgin Islands": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Cayman Islands": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Christmas Island": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Cocos (Keeling) Islands": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Curaçao": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Falkland Islands (Malvinas)": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "French Guiana": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "French Polynesia": {
+      "started_at": "2026-09-27T17:13:41Z",
+      "completed_by": "2026-09-27T17:21:44Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "French Southern Territories": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Gibraltar": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Greenland": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Guadeloupe": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Guam": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Guernsey": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Heard Island and McDonald Islands": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Isle of Man": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Jersey": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Martinique": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Mayotte": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Montserrat": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "New Caledonia": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Norfolk Island": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Northern Mariana Islands": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Pitcairn": {
+      "started_at": "2026-09-27T17:17:00Z",
+      "completed_by": "2026-09-27T17:23:10Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Puerto Rico": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Réunion": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Saint Barthélemy": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Saint Helena": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Saint Martin (French Part)": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Saint Pierre and Miquelon": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Sint Maarten (Dutch part)": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "South Georgia and the South Sandwich Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Svalbard and Jan Mayen Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Tokelau": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Turks and Caicos Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "United States Minor Outlying Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "United States Virgin Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Wallis and Futuna Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Western Sahara": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    },
+    "Åland Islands": {
+      "started_at": "2026-09-27T17:21:53Z",
+      "completed_by": "2026-09-27T17:28:26Z",
+      "note": "Overlapping bounded source-search and fidelity-review window; preparation/validation afterwards."
+    }
+  },
+  "remaining_pending_entries": 0,
+  "source_access_ledger": {
+    "American Samoa": [
+      {
+        "url": "https://asbar.org/code-annotated/4-1307-rights-of-persons-with-developmental-disabilities/",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Secondary legal publisher; reader timeout. Retrieve authoritative current text before interpreting rights."
+      }
+    ],
+    "Anguilla": [
+      {
+        "url": "https://www.gov.ai/document/msd/National%20Forum%20on%20Disability%20REPORT%202012.pdf",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Policy/report lead, not enacted legislation. Reader rejected oversized PDF; treaty discussion does not establish domestic implementation."
+      }
+    ],
+    "Antarctica": [],
+    "Aruba": [
+      {
+        "url": "https://www.toegankelijkheidsverklaring.nl/register/17794",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "The Governor of Aruba’s registered website accessibility statement refers to EN 301 549 in describing the coverage of its accessibility research. This is an institutional website reference, not a territory-wide adoption finding."
+      }
+    ],
+    "Bermuda": [
+      {
+        "url": "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1981/Human%20Rights%20Act%201981",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official consolidated PDF located; provisions, amendments and present applicability not independently reviewed."
+      }
+    ],
+    "Bonaire, Sint Eustatius and Saba": [
+      {
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2024/04/26/inwoners-bes-eilanden-beter-beschermd-tegen-discriminatie",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Proposal announcement; not evidence of enactment or commencement. Separate 2025 digital-government decree is retained as the EN source."
+      },
+      {
+        "url": "https://www.rijksdienstcn.com/binaries/rijksdienstcn-nederlands/documenten/rapporten/toegankelijkheid/2024/11/index/Contentonderzoek%2Bhttps_www.rijksdienstcn.com_%2BWCAG%2B2.1%2BAA.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Institutional content audit source retained; report has EN/WCAG basis, not independent evidence of whole-territory adoption or full-site conformance."
+      },
+      {
+        "url": "https://zoek.officielebekendmakingen.nl/stb-2025-406.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification."
+      }
+    ],
+    "Bouvet Island": [],
+    "British Indian Ocean Territory": [
+      {
+        "url": "https://www.gov.uk/world/organisations/british-indian-ocean-territory",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Constitutional-context source only. No identified disability/accessibility law; current territorial arrangements require separate checking."
+      }
+    ],
+    "British Virgin Islands": [
+      {
+        "url": "https://www.legislation.gov.uk/uksi/2007/1678/pdfs/uksi_20071678_en.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Constitutional legal-source lead; equality provisions, amendments and applicability require separate review."
+      }
+    ],
+    "Cayman Islands": [
+      {
+        "url": "https://gov.ky/w/disabilities-solomon-webster-law-2016",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official law landing page located; verify linked consolidated text and commencement before legal mapping."
+      }
+    ],
+    "Christmas Island": [
+      {
+        "url": "https://www.legislation.gov.au/C2004A04426/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Federal compilation dated 1 July 2026 located. Territorial application, exceptions and interaction with local law remain unverified; no automatic territorial coverage is asserted."
+      }
+    ],
+    "Cocos (Keeling) Islands": [
+      {
+        "url": "https://www.legislation.gov.au/C2004A04426/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Federal compilation dated 1 July 2026 located. Territorial application, exceptions and interaction with local law remain unverified; no automatic territorial coverage is asserted."
+      }
+    ],
+    "Curaçao": [
+      {
+        "url": "https://minfin.cw/wp-content/uploads/2019/03/4._Staatsregeling_Cura__ao.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Constitution text located; Article 3 is an equality-source lead. Consolidation and current scope not verified."
+      },
+      {
+        "url": "https://www.gouverneurcuracao.com/service/toegankelijkheid",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking."
+      }
+    ],
+    "Falkland Islands (Malvinas)": [
+      {
+        "url": "https://www.legislation.gov.uk/uksi/2008/2846/made",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Reader retrieval failed; constitutional equality/discrimination lead needs current-text review."
+      }
+    ],
+    "French Guiana": [
+      {
+        "url": "https://www.ac-guyane.fr/handicap-122332",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official local guidance identifies the 2005 disability law; territorial provisions and current legal obligations not independently checked."
+      }
+    ],
+    "French Polynesia": [
+      {
+        "url": "https://www.service-public.pf/dsfe/faq-items/le-cadre-reglementaire/",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official family-care regulatory landing page. Follow linked law; disability relevance, amendments and scope require review."
+      },
+      {
+        "url": "https://www.service-public.pf/handicap/",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Initial disability landing-page retrieval failed; later DSFE regulatory landing page located."
+      }
+    ],
+    "French Southern Territories": [],
+    "Gibraltar": [
+      {
+        "url": "https://www.gibraltarlaws.gov.gi/uploads/legislations/disability/2017-10/2017-10o.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official PDF located; current consolidation, implementation and scope unverified."
+      },
+      {
+        "url": "https://aktualitetsmagasin.se/accessibility-statement/",
+        "access": "unknown",
+        "method": "search metadata only",
+        "note": "Search lead associates publisher registration with Gibraltar and EN wording. Local operator provenance and statement scope not established; search metadata only."
+      }
+    ],
+    "Greenland": [
+      {
+        "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2024/inatsisartutlov-nr-36-af-04_06_2024?sc_lang=da",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official Danish text located; no independent review of provisions, commencement or exceptions."
+      }
+    ],
+    "Guadeloupe": [
+      {
+        "url": "https://www.guadeloupe.gouv.fr/Actions-de-l-Etat/Rendre-accessible-mon-territoire",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Search metadata identifies accessibility guidance; direct reader retrieval failed. Treat legal implications as unresolved."
+      },
+      {
+        "url": "https://www.dsautomobiles.gp/outils/declaration-accessibilite.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "DS Automobiles–Auto Guadeloupe’s accessibility declaration for dsautomobiles.gp refers to EN 301 549 V3.2.1 and states that the site is considered non-conformant pending a complete audit. This is a corporate website reference, not a territorial adoption finding."
+      }
+    ],
+    "Guam": [
+      {
+        "url": "https://guamcourts.org/Rules-of-Procedure/images/GRGAPL%2020240909_control.pdf",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official court-rule PDF search lead referring to ADA; reader returned 502. This is a court-admission lead, not comprehensive territorial legislation."
+      }
+    ],
+    "Guernsey": [
+      {
+        "url": "https://eeos.gg/resources-organisations-my-issue-about-employing-people-discrimination-prevention-discrimination-20",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official-service legislation directory; retrieve linked current law and phased commencement provisions before substantive mapping."
+      }
+    ],
+    "Heard Island and McDonald Islands": [
+      {
+        "url": "https://www.legislation.gov.au/C2004A04426/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Federal compilation dated 1 July 2026 located. Territorial application, exceptions and interaction with local law remain unverified; no automatic territorial coverage is asserted."
+      }
+    ],
+    "Isle of Man": [
+      {
+        "url": "https://www.gov.im/categories/working-in-the-isle-of-man/employment-rights/equality-act-2017/?iomg-device=Desktop",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official guidance landing page located; current statutory text and scope require checking."
+      }
+    ],
+    "Jersey": [
+      {
+        "url": "https://www.jerseylaw.je/laws/current/l_10_2013",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Current-law page located; individual provisions, amendments and applicability have not been independently interpreted."
+      },
+      {
+        "url": "https://switch.je/accessibility-statement",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Switch Digital’s accessibility statement says that its website is published from Jersey and discusses EN 301 549 when comparing its voluntary WCAG 2.2 target with the earlier WCAG version referenced by that standard. This is a corporate comparison, not adoption of EN 301 549 by Jersey."
+      }
+    ],
+    "Martinique": [
+      {
+        "url": "https://www.martinique.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-construction-et-habitat-transport-et-deplacements/Plan-logement-outre-mer/Reglementation-accessibilite",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official guidance search lead; direct retrieval failed. No verified legal-scope conclusion."
+      },
+      {
+        "url": "https://universite-populaire.saejee.fr/confidencialite/accessibilite-numerique.html",
+        "access": "unknown",
+        "method": "search metadata only",
+        "note": "Search lead contains EN wording and Fort-de-France registration context; operational territorial relationship remains unverified."
+      }
+    ],
+    "Mayotte": [
+      {
+        "url": "https://www.mayotte.gouv.fr/Outils/Accessibilite",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Search result includes copied Meurthe-et-Moselle website wording; direct retrieval failed. Resolve template mismatch before relying on territorial attribution."
+      },
+      {
+        "url": "https://tesis.fr/accessibilite/",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Search lead mentioning EN in digital-health accessibility context for Réunion/Mayotte; two reader failures. Statement, actor coverage and territorial relationship require retrieval."
+      }
+    ],
+    "Montserrat": [
+      {
+        "url": "https://www.legislation.gov.uk/uksi/2010/2474/contents/made",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official reader failed; constitutional discrimination lead remains unverified."
+      }
+    ],
+    "New Caledonia": [
+      {
+        "url": "https://juridoc.gouv.nc/juridoc/jdtextes.nsf/%28web-All%29/7388DD772A16E5544B25755E007A9AF0/%24File/Loi-du-pays_2009-1_du_07-01-2009.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official employment/disability law PDF located; current consolidation and provisions require separate review."
+      }
+    ],
+    "Norfolk Island": [
+      {
+        "url": "https://www.legislation.gov.au/C2004A04426/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Federal compilation dated 1 July 2026 located. Territorial application, exceptions and interaction with local law remain unverified; no automatic territorial coverage is asserted."
+      }
+    ],
+    "Northern Mariana Islands": [
+      {
+        "url": "https://www.cnmilaw.org/pdf/superior/24-12-30-CV24-0131.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Judicial-source lead mentioning an ADA claim; not a finding that the claim succeeded or a comprehensive statutory mapping."
+      }
+    ],
+    "Pitcairn": [
+      {
+        "url": "https://www.government.pn/laws",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Government directory links constitution; site warns electronic legislation has no official status. Retrieve authoritative text before substantive conclusions."
+      }
+    ],
+    "Puerto Rico": [
+      {
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0238-2004.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Historical scanned law PDF located; OCR imperfect. Verify current consolidated text before legal interpretation."
+      },
+      {
+        "url": "https://www.tous.com/es-es/accessibility-policies.html",
+        "access": "unknown",
+        "method": "search metadata only",
+        "note": "Group policy names TOUS Puerto Rico LLC and EN301549; direct applicability to Puerto Rico entity/assets not established. Localized Iberia and WordPress pages are insufficient territorial evidence."
+      }
+    ],
+    "Réunion": [
+      {
+        "url": "https://www.reunion.gouv.fr/Actions-de-l-Etat/Solidarite-cohesion-sociale-et-politique-de-la-ville/Politiques-du-handicap/20-ANS-DE-LA-LOI-HANDICAP-ET-DU-FIPHFP",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official announcement search lead; direct retrieval returned 502. Territorial provisions and current application not verified."
+      },
+      {
+        "url": "https://tesis.fr/accessibilite/",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Search lead mentioning EN in digital-health accessibility context for Réunion/Mayotte; two reader failures. Statement, actor coverage and territorial relationship require retrieval."
+      }
+    ],
+    "Saint Barthélemy": [
+      {
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000050491010/",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Decree concerning Saint-Barthélemy territorial disability office located. Provisions and current applicability require independent legal review."
+      },
+      {
+        "url": "https://www.senat.fr/rap/l22-186/l22-1868.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "2022 legislative report discusses EN301549 in general framework and separately discusses overseas implementation. Connection to a specific territorial EN obligation remains unresolved; do not conflate proposed EAA extension with verified EN adoption."
+      }
+    ],
+    "Saint Helena": [
+      {
+        "url": "https://www.sainthelena.gov.sh/st-helena/government/legislation/general-introduction/",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Official constitutional framework guide located; distinct island arrangements and current equality provisions require checking."
+      }
+    ],
+    "Saint Martin (French Part)": [
+      {
+        "url": "https://www.senat.fr/leg/etudes-impact/pjl13-447-ei/pjl13-447-ei.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Historical legislative impact study discusses overseas application including Saint-Martin. Not enacted or current law; follow through to authoritative instruments."
+      },
+      {
+        "url": "https://www.senat.fr/rap/l22-186/l22-1868.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "2022 legislative report discusses EN301549 in general framework and separately discusses overseas implementation. Connection to a specific territorial EN obligation remains unresolved; do not conflate proposed EAA extension with verified EN adoption."
+      }
+    ],
+    "Saint Pierre and Miquelon": [
+      {
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/JORFARTI000001480995",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Territorial application provision located; exceptions, amendments and current effect require a separate review."
+      },
+      {
+        "url": "https://www.senat.fr/rap/l22-186/l22-1868.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "2022 legislative report discusses EN301549 in general framework and separately discusses overseas implementation. Connection to a specific territorial EN obligation remains unresolved; do not conflate proposed EAA extension with verified EN adoption."
+      }
+    ],
+    "Sint Maarten (Dutch part)": [
+      {
+        "url": "https://rm.coe.int/rap-cha-nl-sm-0-2020/1680a075e4",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "State reporting source identifies constitutional equality material. Retrieve current constitution and review provisions; report is not the consolidated law."
+      },
+      {
+        "url": "https://english.vnacs.nl/",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Institutional identity: represents the Netherlands in Aruba, Curaçao and Sint Maarten."
+      },
+      {
+        "url": "https://papiamentu.vnacs.nl/servisio/aksesibilidat",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "The Dutch Representation in Aruba, Curaçao and Sint Maarten refers to EN 301 549 in its Papiamentu website accessibility page. This is a reference by the Netherlands’ representation, not evidence of adoption by Sint Maarten’s government."
+      }
+    ],
+    "South Georgia and the South Sandwich Islands": [],
+    "Svalbard and Jan Mayen Islands": [
+      {
+        "url": "https://www.regjeringen.no/no/dokumenter/prop.-162-l-20242025/id3116949/?ch=6",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Legislative proposal discusses territorial disability-rights questions. Follow enacted text and commencement; do not infer mainland accessibility rules apply unchanged to Svalbard or Jan Mayen."
+      }
+    ],
+    "Tokelau": [
+      {
+        "url": "https://pacificdisability.org/wp-content/uploads/2023/04/Pacific-IE-Report_2022.pdf",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "Regional report identifies a policy lead; retrieve the actual government policy and ascertain current status. Not a statute or territorial EN reference."
+      }
+    ],
+    "Turks and Caicos Islands": [
+      {
+        "url": "https://tcistatus.gov.tc/agc/2009-revised-laws",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Search metadata locates ordinance in historical 2009 directory; both 2009 and 2018 directory retrievals failed. Current text and status unresolved."
+      },
+      {
+        "url": "https://premier.gov.tc/agc/2018-revised-laws",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "2018 revised laws directory reader failed; law status unresolved."
+      }
+    ],
+    "United States Minor Outlying Islands": [],
+    "United States Virgin Islands": [],
+    "Wallis and Futuna Islands": [
+      {
+        "url": "https://www.wallis-et-futuna.gouv.fr/Services-de-l-Etat-et-du-Territoire/Les-autres-services-de-l-Etat-et-du-Territoire/Service-de-l-Inspection-du-Travail-et-des-Affaires-Sociales-SITAS",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official service-page lead; reader failed. Identify underlying territorial instruments before treating assistance as a legal entitlement."
+      },
+      {
+        "url": "https://www.senat.fr/rap/l22-186/l22-1868.html",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "2022 legislative report discusses EN301549 in general framework and separately discusses overseas implementation. Connection to a specific territorial EN obligation remains unresolved; do not conflate proposed EAA extension with verified EN adoption."
+      }
+    ],
+    "Western Sahara": [],
+    "Åland Islands": [
+      {
+        "url": "https://www.regeringen.ax/sites/default/files/law/code/hela_2024.pdf",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official law collection search lead; reader returned 403. Current amendments, scope and EN relationship need direct text verification."
+      },
+      {
+        "url": "https://www.regeringen.ax/sites/default/files/attachments/page/rapport_tillganglighetsdirektivet.pdf",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Official web-accessibility monitoring report search lead with EN wording; direct reader returned403. Retrieve for possible stronger public-sector connection."
+      },
+      {
+        "url": "https://www.regeringen.ax/sites/default/files/attachments/page/handbok-offentlig-upphandling-landskapet-aland-2.12.2019_0.pdf",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Public procurement handbook search lead mentions EN301549; direct reader403. Scope and current status unverified."
+      },
+      {
+        "url": "https://varumarke.ax/tillganglighet/",
+        "access": "unreachable",
+        "method": "web reader",
+        "note": "Swedish original direct retrieval failed in fidelity check; indexed excerpt supplied to clean reviewer, whose direct confirmation relied on published English version."
+      },
+      {
+        "url": "https://varumarke.ax/en/accessibility/",
+        "access": "reachable",
+        "method": "web reader",
+        "note": "The Åland place-brand website’s accessibility statement refers to EN 301 549/WCAG 2.1 when identifying downloads and documents whose accessibility has not been fully verified. This establishes a website-specific reference, not a finding about territorial legal requirements."
+      }
+    ]
+  },
+  "verification_scope": "Seven source-specific EN records; nine unresolved EN leads retained in shared research;39 law/policy/report source leads. No absence-of-law or non-adoption findings.",
+  "public_page_changes": false,
+  "coordination": "PR71 remains based on setup PR70. PR72 overlaps Germany and generated routing; PR73 overlaps existing country presentation hashes and adds public link-language validation. Maintainer must preserve all domain/presentation changes, regenerate routing and rerun checks after combining branches. This final batch and full PR71 diff add no public-page links.",
+  "validation": {
+    "country_records": "Passed:75 countries,804 claims,107 delivery events.",
+    "adoption_records": "Passed:69 records;27 regression tests passed.",
+    "inventory_preservation": "Passed:250 entries,237 researched,0 pending,13 excluded; source pointers and prior domain/evidence/delivery history preserved.",
+    "markdown_whitespace_dates": "Passed.",
+    "html": "Incomplete: system Tidy warnings on unchanged enforcement page stop validator; same baseline limitation.",
+    "links": "No exhaustive link check; reader failures retained.",
+    "public_link_language_scope": "This12-file research-only batch adds/changes no links in public Markdown pages; no lang/hreflang edits needed.",
+    "ci": "Not claimed."
+  },
+  "limits": [
+    "Initial discovery complete, not comprehensive global legal mapping or verified territorial adoption.",
+    "No public links added or edited by this batch; public-link lang/hreflang audit is not applicable to JSON-only changes.",
+    "Corporate/place-brand references preserve unverified_source status.",
+    "Failed retrievals and search-only leads explicitly retained; no exhaustive link validation.",
+    "All country windows remain below10minutes; entire research/fidelity phase below30minutes."
+  ],
+  "related_pr_heads": {
+    "70": "677cf326f96552e5884fb19a6a5c3219154a901a",
+    "72": "54efec62d3ab3a76c4deadf74c865a2e13e630b4",
+    "73": "f9c64b5c47427a29a4d3fb49606ba234099b2bda"
+  }
+}

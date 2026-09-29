@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "country": "Kuwait",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-e3405fa8a587292ebe807204": {
+      "issuer": "Kuwait PADA",
+      "url": "https://online.pada.gov.kw/MainLaw.aspx",
+      "source_type": "official_government",
+      "language": "ar",
+      "passage": "Posted law retrieved; current consolidation and implementing rules not checked.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-3a53119a760efe34c3667753": {
+      "issuer": "Kuwait PADA",
+      "url": "https://www.pada.gov.kw/media/filer_public/93/f4/93f47da6-9f47-4890-a9d7-59d36a685c04/kuwait_national_framework_new.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "The Kuwait National Framework for Digital Accessibility hosted by PADA explicitly calls for EN 301 549 in ICT procurement, including supplier declarations of conformity. The posted text leaves the effective date as a placeholder tied to signing as bylaws, so it does not by itself establish that those requirements are in force.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "download and PDF text extraction"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-kuwait-discovery-reference",
+          "aspect": "reference",
+          "statement": "The Kuwait National Framework for Digital Accessibility hosted by PADA explicitly calls for EN 301 549 in ICT procurement, including supplier declarations of conformity. The posted text leaves the effective date as a placeholder tied to signing as bylaws, so it does not by itself establish that those requirements are in force.",
+          "scope": "national framework with unresolved effective-date placeholder",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-3a53119a760efe34c3667753"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-e3405fa8a587292ebe807204: Law No. 8 of 2010 concerning rights of persons with disabilities. Posted law retrieved; current consolidation and implementing rules not checked.",
+        "Retrieve a signed/final commencement instrument and exact cited EN edition; posted effective date remains a placeholder."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.kw \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:pada.gov.kw law 8 2010 disabilities"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Posted law retrieved; current consolidation and implementing rules not checked.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://online.pada.gov.kw/MainLaw.aspx"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "First web-reader attempt failed: size limit for Kuwait, timeout for Saudi Arabia.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.pada.gov.kw/media/filer_public/93/f4/93f47da6-9f47-4890-a9d7-59d36a685c04/kuwait_national_framework_new.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "download and PDF text extraction",
+          "outcome": "reachable",
+          "note": "The Kuwait National Framework for Digital Accessibility hosted by PADA explicitly calls for EN 301 549 in ICT procurement, including supplier declarations of conformity. The posted text leaves the effective date as a placeholder tied to signing as bylaws, so it does not by itself establish that those requirements are in force.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.pada.gov.kw/media/filer_public/93/f4/93f47da6-9f47-4890-a9d7-59d36a685c04/kuwait_national_framework_new.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-414",
+      "country": "Kuwait",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kuwait.json",
+          "disposition": "research_only",
+          "reason": "national framework with unresolved effective-date placeholder",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

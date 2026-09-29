@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Saudi Arabia",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-8efa3d72b29265af08716455": {
+      "issuer": "Saudi Ministry of Human Resources and Social Development",
+      "url": "https://www.hrsd.gov.sa/en/knowledge-centre/decisions-and-regulations/regulation-and-procedures/%D9%86%D8%B8%D8%A7%D9%85-%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%B4%D8%AE%D8%A7%D8%B5-%D8%B0%D9%88%D9%8A-%D8%A7%D9%84%D8%A5%D8%B9%D8%A7%D9%82%D8%A9",
+      "source_type": "official_government",
+      "language": "ar",
+      "passage": "Ministry summary references Resolution 110 of 06/02/1445H. Web publication date is not law commencement.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-4fb693ef10ebc5c7af005780": {
+      "issuer": "Saudi Food and Drug Authority",
+      "url": "https://www.sfda.gov.sa/sites/default/files/2026-05/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%85%D9%83%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A.pdf",
+      "source_type": "official_government",
+      "language": "ar",
+      "passage": "The Saudi Food and Drug Authority’s digital-accessibility policy states that the authority commits to compliance with EN 301 549, alongside other accessibility standards. This is an agency policy reference and does not by itself establish nationwide adoption of EN 301 549. No EN edition is named.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "download and PDF text extraction"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-saudi-arabia-discovery-reference",
+          "aspect": "reference",
+          "statement": "The Saudi Food and Drug Authority’s digital-accessibility policy states that the authority commits to compliance with EN 301 549, alongside other accessibility standards. This is an agency policy reference and does not by itself establish nationwide adoption of EN 301 549. No EN edition is named.",
+          "scope": "agency digital-accessibility policy",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-4fb693ef10ebc5c7af005780"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-8efa3d72b29265af08716455: Law of the Rights of Persons with Disabilities. Ministry summary references Resolution 110 of 06/02/1445H. Web publication date is not law commencement."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.sa \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:hrsd.gov.sa rights persons disabilities law 2023"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Ministry summary references Resolution 110 of 06/02/1445H. Web publication date is not law commencement.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.hrsd.gov.sa/en/knowledge-centre/decisions-and-regulations/regulation-and-procedures/%D9%86%D8%B8%D8%A7%D9%85-%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%B4%D8%AE%D8%A7%D8%B5-%D8%B0%D9%88%D9%8A-%D8%A7%D9%84%D8%A5%D8%B9%D8%A7%D9%82%D8%A9"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "First web-reader attempt failed: size limit for Kuwait, timeout for Saudi Arabia.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.sfda.gov.sa/sites/default/files/2026-05/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%85%D9%83%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "download and PDF text extraction",
+          "outcome": "reachable",
+          "note": "The Saudi Food and Drug Authority’s digital-accessibility policy states that the authority commits to compliance with EN 301 549, alongside other accessibility standards. This is an agency policy reference and does not by itself establish nationwide adoption of EN 301 549. No EN edition is named.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.sfda.gov.sa/sites/default/files/2026-05/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%85%D9%83%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-682",
+      "country": "Saudi Arabia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/saudi arabia.json",
+          "disposition": "research_only",
+          "reason": "agency digital-accessibility policy",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

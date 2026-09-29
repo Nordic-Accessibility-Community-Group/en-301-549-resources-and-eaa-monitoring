@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "country": "Kazakhstan",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-f120ab5c316c0b9cedcbbbe7": {
+      "issuer": "Kazakhstan Adilet",
+      "url": "https://old.adilet.zan.kz/eng/docs/K2300000224",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "English text retrieved; disability provisions and current consolidation require dedicated review.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-2d3c45ef1a4b75f4258ca7b9": {
+      "issuer": "Kazakhstan government portal",
+      "url": "https://www.gov.kz/uploads/2023/7/5/65effc03aa15a0d6621d1a1cad5e9324_original.291047.pdf",
+      "source_type": "official_government",
+      "language": "ru",
+      "passage": "A Kazakhstan government-hosted financial-regulation document discusses EN 301 549 in its European Union comparison. This is a comparative policy reference, not evidence of Kazakhstan adopting the standard. No EN edition is specified in that passage.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-kazakhstan-discovery-reference",
+          "aspect": "reference",
+          "statement": "A Kazakhstan government-hosted financial-regulation document discusses EN 301 549 in its European Union comparison. This is a comparative policy reference, not evidence of Kazakhstan adopting the standard. No EN edition is specified in that passage.",
+          "scope": "European Union comparison in financial-regulation policy document",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-2d3c45ef1a4b75f4258ca7b9"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-f120ab5c316c0b9cedcbbbe7: Social Code of the Republic of Kazakhstan, No. 224-VII (2023). English text retrieved; disability provisions and current consolidation require dedicated review."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.kz \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:adilet.zan.kz social code disabilities 2023"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "English text retrieved; disability provisions and current consolidation require dedicated review.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://old.adilet.zan.kz/eng/docs/K2300000224"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "A Kazakhstan government-hosted financial-regulation document discusses EN 301 549 in its European Union comparison. This is a comparative policy reference, not evidence of Kazakhstan adopting the standard. No EN edition is specified in that passage.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://www.gov.kz/uploads/2023/7/5/65effc03aa15a0d6621d1a1cad5e9324_original.291047.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-398",
+      "country": "Kazakhstan",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/kazakhstan.json",
+          "disposition": "research_only",
+          "reason": "European Union comparison in financial-regulation policy document",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}
