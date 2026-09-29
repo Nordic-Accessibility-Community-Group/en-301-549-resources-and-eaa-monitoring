@@ -33,3 +33,7 @@ Preserve contributor entries when public confirmation is missing; record their p
 ## Validation
 
 Run existing content checks and applicable domain validators/tests; record commands, results, reviewed versions and limits. Structural checks do not establish legal accuracy, readable prose or live-link reachability. The events-calendar verification-date script is a repository content check, not research verification; do not modify it for this work. Do not change GitHub Actions or operational state as an incidental part of content work. Report CI only from actual runs, and report unavailable checks honestly.
+
+All public links follow the shared [presentation rules](presentation.md), including destination-language `hreflang` and visible-text `lang`.
+
+Run `python3 .github/scripts/check-link-languages.py` for public link-language coverage. The audit records unresolved destinations explicitly; structural success is not proof that those destinations were verified. Recheck affected evidence when links or language versions change.

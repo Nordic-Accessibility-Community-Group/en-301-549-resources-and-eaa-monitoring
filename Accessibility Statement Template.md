@@ -1,29 +1,29 @@
 # Accessibility statement template
-- ⚠️ Always use HTML when possible. [PDF: Still Unfit for Human Consumption, 20 Years Later](https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/).
-- 💡 There is an in-depth article [The accessibility statement at Axess Lab](https://axesslab.com/accessibility-statement-for-the-eaa).
-- 💡 Information about monitoring agencies across the EU [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md)
-- 💡 An implemented live version can be found at [Accessibility Cloud](https://www.accessibilitycloud.com/).
-- 💡 Tetra logical has a great article about the EAA [Understanding the European Accessibility Act (EAA), by Léonie Watson](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
-- [List of sites with accessibility statements](https://codeberg.org/yatil/accessibility-statements)
+- ⚠️ Always use HTML when possible. <a href="https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/" hreflang="en">PDF: Still Unfit for Human Consumption, 20 Years Later</a>.
+- 💡 There is an in-depth article <a href="https://axesslab.com/accessibility-statement-for-the-eaa" hreflang="en">The accessibility statement at Axess Lab</a>.
+- 💡 Information about monitoring agencies across the EU <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">Table of countries under the EAA</a>
+- 💡 An implemented live version can be found at <a href="https://www.accessibilitycloud.com/" hreflang="en">Accessibility Cloud</a>.
+- 💡 Tetra logical has a great article about the EAA <a href="https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/" hreflang="en">Understanding the European Accessibility Act (EAA), by Léonie Watson</a>
+- <a href="https://codeberg.org/yatil/accessibility-statements" hreflang="en">List of sites with accessibility statements</a>
 
 ## About the template
 This accessibility statement template for the is based on the demands from the EU-directive for the public sector.
 The focus is on assisting the user rather than merely outlining legal requirements and shortcomings/failures. THe monitoring agencies are for the EAA referred to as market surveillance.
 
 ### What does the law say?
-It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list [Table of countries under the EAA](https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md). What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
+It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">Table of countries under the EAA</a>. What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
 You need to report any known accessibility issues to the appropriate government agency for each country you're active in.
 
 You also need to describe the accessibility or inaccessibility of products in your online store.
 
 #### Documentation required for the EAA
-> [CHAPTER IV  Obligations of service providers  Article 13  Obligations of service providers](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#cpt_IV)
+> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#cpt_IV" hreflang="en">CHAPTER IV  Obligations of service providers  Article 13  Obligations of service providers</a>
 > 
 > 2.   Service providers shall prepare the necessary information in accordance with Annex V and shall explain how the services meet the applicable accessibility requirements. **The information shall be made available to the public in written and oral format, including in a manner which is accessible to persons with disabilities.** Service providers shall keep that information for as long as the service is in operation.
 > 
 > 4.   In the case of non-conformity, service providers shall take the corrective measures necessary to bring the service into conformity with the applicable accessibility requirements. Furthermore, where the service is not compliant with applicable accessibility requirements, service providers **shall immediately inform the competent national authorities of the Member States in which the service is provided**, to that effect, giving details, in particular, of the non-compliance and of any corrective measures taken.
 
-[Annex V-  Information on services meeting accessibility requirements](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_V)
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_V" hreflang="en">Annex V-  Information on services meeting accessibility requirements</a>
 > 1. The service provider shall include the information assessing how the service meets the accessibility requirements referred to in Article 4 in the general terms and conditions, or equivalent document. The information shall describe the applicable requirements and cover, as far as relevant for the assessment the design and the operation of the service. In addition to the consumer information requirements of Directive 2011/83/EU, the information shall, where applicable, contain the following elements:
 > 
 > > a. a general description of the service in accessible formats;
@@ -37,12 +37,12 @@ You also need to describe the accessibility or inaccessibility of products in yo
 > 3. The service provider shall provide information demonstrating that the service delivery process and its monitoring ensure compliance of the service with point 1 of this Annex and with the applicable requirements of this Directive.
 
 #### Documentation required for the The Web Directive (WAD)
-[Preamble to the European Web accessibility directive, Recital 44](https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng#rct_44:~:text=An%20accessibility%20statement)
+<a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng#rct_44:~:text=An%20accessibility%20statement" hreflang="en">Preamble to the European Web accessibility directive, Recital 44</a>
 > (44) An accessibility statement should be provided by public sector bodies on the compliance of their websites and mobile applications with the accessibility requirements laid down by this Directive. That  accessibility statement should include, where appropriate, the accessible alternatives provided for.
 
 #### Disproportionate burden
 For the public sector the government agencies have been very strict in what they accept as disproportionate burden. In Sweden, Digg has stated that if a company risks bankruptcy by implementing accessibility fixes immediately, it is still required to make the fixes but may plan to do so over a longer period.
-[Criteria for assessment of disproportionate burden](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI)
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI" hreflang="en">Criteria for assessment of disproportionate burden</a>
 The directive says that an assessment needs to be made and documented to be able to claim disproportionate burden.
 
 <!-- markdownlint-disable-next-line MD025 -->
@@ -68,8 +68,8 @@ As a guest, it's important to feel confident about the whole experience from pur
 > These real destination guides illustrate the kind of accessibility information that can help visitors plan. Replace them with links for your own destinations or shops.
 
 - [Accessible London](https://www.visitlondon.com/traveller-information/essential-information/accessible-london)
-- [Accessible attractions in Copenhagen](https://www.visitcopenhagen.com/copenhagen/planning/accessibility/accessible-attractions-in-copenhagen)
-- [Accessible tourism in Barcelona](https://professional.barcelonaturisme.com/en/travel-trade/why-barcelona/accessible)
+- <a href="https://www.visitcopenhagen.com/copenhagen/planning/accessibility/accessible-attractions-in-copenhagen" hreflang="en">Accessible attractions in Copenhagen</a>
+- <a href="https://professional.barcelonaturisme.com/en/travel-trade/why-barcelona/accessible" hreflang="en">Accessible tourism in Barcelona</a>
   
 ### Guided Tours with guides
 We offer special guided tours with a guide.
@@ -85,7 +85,7 @@ As a visually impaired user, you may encounter images without descriptive text a
 
 As a user with impaired hearing, ....
 
-> For this part with detailed issues you could put each item in a collapsible element such as [details disclosure](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details). If you have multiple such elements it's helpful to provide an "Expand all" option. The following is an example of how to list an issue. Remember that even though the law says you need to address issues covered by the law - this takes time to evaluate and it is better to focus on the user experience instead of compliance. If you do that - you will cover most of the legalities too.
+> For this part with detailed issues you could put each item in a collapsible element such as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details" hreflang="en">details disclosure</a>. If you have multiple such elements it's helpful to provide an "Expand all" option. The following is an example of how to list an issue. Remember that even though the law says you need to address issues covered by the law - this takes time to evaluate and it is better to focus on the user experience instead of compliance. If you do that - you will cover most of the legalities too.
 ##### Images lack ALT text
 
 **Description:** Many of the images on the site currently lack alternative text (ALT text) which is accessible to assistive technology such as screen readers.  
@@ -134,7 +134,7 @@ The accessibility requirements of the law are considered met, with the exception
 
 ### How do I report accessibility issues?
 First, tell us about any problems that prevent you from accessing our services so we can fix them and help you further. There are instructions for how to do so under the heading "We will help you". If you aren't satisfied with our response, you can report us to the regulator(s) XYZ (after 28 June 2025). 
-We value your feedback and we list the [fixed issues reported by users.](#fixes)
+We value your feedback and we list the <a href="#fixes" hreflang="en">fixed issues reported by users.</a>
 > There is no information for the EAA here yet, so when the reporting service is published this can be updated.
 > You need to have internal processes to handle complaints - your support staff also needs to be trained.
 
