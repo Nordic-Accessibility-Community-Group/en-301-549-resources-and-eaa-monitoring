@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Curaçao",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-f98f70f65a49204bf290157a": {
+      "issuer": "Curaçao Ministry of Finance",
+      "url": "https://minfin.cw/wp-content/uploads/2019/03/4._Staatsregeling_Cura__ao.pdf",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "Constitution text located; Article 3 is an equality-source lead. Consolidation and current scope not verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-fb048030ed69cbde2f1451f1": {
+      "issuer": "Governor of Curaçao",
+      "url": "https://www.gouverneurcuracao.com/service/toegankelijkheid",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-curacao-discovery-reference",
+          "aspect": "reference",
+          "statement": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking.",
+          "scope": "Institutional website reference",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-fb048030ed69cbde2f1451f1"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact source-reference wording independently checked in discovery-9-review-2026-09-27.json. This does not establish territorial adoption, legal applicability or current edition; no public row. Corporate/place-brand sources remain unverified_source."
+        }
+      ],
+      "questions": [
+        "Resolve current EN edition, authority, territorial scope and legal effect separately. This pass establishes only recorded source relationships.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-f98f70f65a49204bf290157a: Staatsregeling van Curaçao. Constitution text located; Article 3 is an equality-source lead. Consolidation and current scope not verified."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "\"Curaçao\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "site:gobiernu.cw handicap discriminatie wet"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "query": "Curaçao Staatsregeling artikel 3 discriminatie"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Constitution text located; Article 3 is an equality-source lead. Consolidation and current scope not verified.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "url": "https://minfin.cw/wp-content/uploads/2019/03/4._Staatsregeling_Cura__ao.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking.",
+          "run_id": "world-discovery-9-2026-09-27",
+          "url": "https://www.gouverneurcuracao.com/service/toegankelijkheid"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-9-2026-09-27-531",
+      "country": "Curaçao",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/curaçao.json",
+          "disposition": "research_only",
+          "reason": "Institutional website reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

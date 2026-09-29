@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "country": "United States",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-e3d8753954dc5700cf175852": {
+      "issuer": "US Access Board",
+      "url": "https://www.access-board.gov/ict/preamble.html",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "2017 final-rule preamble, comparison table 2 and section IV.I: compares EN V1.1.2 (2015-04), but rejects incorporation or equivalence to Section 508 compliance. Historical policy connection only.",
+      "publication_date": "2017-01-18",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-64cc4e6acca8f2d8156a943f": {
+      "issuer": "US Access Board",
+      "url": "https://www.access-board.gov/ict/",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "E201.1 and E202: federal ICT scope and exceptions. Publication 18 January 2017; corrected effective date 21 March 2017, Section 508 compliance 18 January 2018. Section 255 has a separate FCC adoption condition.",
+      "publication_date": "2017-01-18",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-0c307e3e68d907cb33edf812": {
+      "issuer": "US Department of Justice",
+      "url": "https://www.ada.gov/law-and-regs/ada/",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "ADA Title II, 42 USC 12132: qualified individuals, disability-based exclusion, benefits and discrimination by public entities, subject to the subchapter. Current posted text inspected, not an audit of implementing regulations or deadlines.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-united-states-2017-comparison",
+          "aspect": "reference",
+          "statement": "The US Access Board compares its 2017 ICT rule with EN 301 549 V1.1.2 (2015-04), but explicitly declines incorporation by reference or treating EN conformance as Section 508 compliance. This is an explicit policy/technical connection, not evidence of US national adoption.",
+          "scope": "2017 US federal ICT rule preamble only; not all US jurisdictions or subsequent legislation.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-e3d8753954dc5700cf175852"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2017-01-18"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Explicit discussion and harmonisation comparison qualifies for a research file. Rejection of incorporation is preserved. No public adoption row proposed; isolated source-fidelity report in global/discovery-1-review-2026-09-27.json."
+        }
+      ],
+      "questions": [
+        "Legal mapping source source-0c307e3e68d907cb33edf812: ADA Title II section 12132 prohibits public entities from excluding qualified individuals with disabilities from services, programs or activities, denying them benefits, or discriminating against them because of disability, subject to the subchapter. Further work: inspect implementing rules, exceptions and dates before a global legal page; no complete current-law audit.",
+        "Legal mapping source source-64cc4e6acca8f2d8156a943f: Revised Section 508 standards cover federal-agency ICT procured, developed, maintained or used, subject to the specified exceptions. Further work: independently examine statutory Section508 and current regulations; do not generalise to private-sector ICT.",
+        "EN follow-up: inspect more recent federal/procurement material for other explicit relationships. This 2017 rejection does not establish that EN is never used anywhere in the United States.",
+        "Future legal mapping: retain these source-linked notes until a structured legal-domain contract exists; do not duplicate them in the shared index.",
+        "Routing: no monitoring/sanctions/enforcement event or agency-role change established; US federal law is not EAA enforcement. Future global legal-page handoff uses the two preserved legal sources above."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Preamble located.",
+          "run_id": "world-discovery-1-2026-09-27",
+          "query": "site:access-board.gov \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Comparison and rejection sections read.",
+          "run_id": "world-discovery-1-2026-09-27",
+          "url": "https://www.access-board.gov/ict/preamble.html"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "E201.1/E202 and dates read.",
+          "run_id": "world-discovery-1-2026-09-27",
+          "url": "https://www.access-board.gov/ict/"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Title II section12132 read.",
+          "run_id": "world-discovery-1-2026-09-27",
+          "url": "https://www.ada.gov/law-and-regs/ada/"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-1-2026-09-27-united-states",
+      "country": "United States",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united states.json",
+          "disposition": "research_only",
+          "reason": "Historical explicit EN comparison; no public row proposed.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by the scoped foreign-law discovery.",
+          "next_action": "Retain country evidence and legal-mapping questions for further research.",
+          "pr": null
+        }
+      ]
+    }
+  ]
+}

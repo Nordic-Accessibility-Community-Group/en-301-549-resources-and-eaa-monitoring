@@ -96,6 +96,17 @@
         "reviewed_on": "2026-09-25",
         "scope_limit": "Attributed current monitoring and submitted plans only; no named cases, formal sanctions or completed compliance inferred."
       }
+    },
+    "source-c95f40204561b32d1577645a": {
+      "issuer": "EVS",
+      "url": "https://www.evs.ee/en/evs-en-301-549-v4-1-1-2026",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -459,6 +470,65 @@
           "resolved_when": "Dated competent-authority evidence distinguishes contacts, plans, formal measures and completed outcomes."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-estonia-discovery-reference",
+          "aspect": "reference",
+          "statement": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding.",
+          "scope": "catalogue reference",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-c95f40204561b32d1577645a"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "No sufficiently identified law source captured within this country window; continue the logged legal searches. This is not evidence that no law exists."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:evs.ee \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:riigiteataja.ee Equal Treatment Act"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.evs.ee/en/evs-en-301-549-v4-1-1-2026"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
     }
   },
   "deliveries": [
@@ -496,6 +566,48 @@
           "next_action": "None for this evidence",
           "pr": null,
           "domain": "sanctions"
+        }
+      ]
+    },
+    {
+      "id": "world-discovery-8-2026-09-27-233",
+      "country": "Estonia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "research_only",
+          "reason": "catalogue reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
         }
       ]
     }

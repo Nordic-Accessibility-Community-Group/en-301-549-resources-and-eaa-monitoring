@@ -1,0 +1,31 @@
+{
+  "reviewer": "discovery_source_review",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "scope": "Five exact research summaries; no public row proposed, no full legal/currentness audit.",
+  "source_languages": [
+    "en"
+  ],
+  "reviewed_texts": {
+    "US": "The US Access Board compares its 2017 ICT rule with EN 301 549 V1.1.2 (2015-04), but explicitly declines incorporation by reference or treating EN conformance as Section 508 compliance. This is an explicit policy/technical connection, not evidence of US national adoption.",
+    "SA": "Section 9 of South Africa’s Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000 addresses unfair disability discrimination, including accessibility obstacles and reasonable accommodation. This passage does not establish an EN 301 549 connection.",
+    "IL": "Israel’s State Comptroller cites the Equal Rights for Persons with Disabilities Law (5758-1998) and the 2013 Service Accessibility Adjustments Regulations; its own website statement identifies IS 5568 at AA level and WCAG 2.0. These are law/standard leads, not a verified nationwide legal-scope audit or an EN connection.",
+    "ADA": "ADA Title II section 12132 prohibits public entities from excluding qualified individuals with disabilities from services, programs or activities, denying them benefits, or discriminating against them because of disability, subject to the subchapter.",
+    "508": "Revised Section 508 standards cover federal-agency ICT procured, developed, maintained or used, subject to the specified exceptions."
+  },
+  "source_urls": [
+    "https://www.access-board.gov/ict/preamble.html",
+    "https://www.justice.gov.za/legislation/acts/2000-004.pdf",
+    "https://www.mevaker.gov.il/en/accessibility-statement",
+    "https://www.ada.gov/law-and-regs/ada/",
+    "https://www.access-board.gov/ict/"
+  ],
+  "verdict": "Supported",
+  "corrections": [
+    "Preserved qualified individuals and subchapter limits in ADA wording.",
+    "Narrowed Israel wording to IS5568 at AA level and WCAG2.0.",
+    "Used unfair disability discrimination for South Africa."
+  ],
+  "recheck": "Reviewer confirmed all five final corrected variants Supported.",
+  "limits": "US relationship is explicit comparison/rejection of incorporation; no nationwide adoption conclusion. Israel law findings remain leads. South Africa statutory-text finding does not certify current complete consolidation."
+}

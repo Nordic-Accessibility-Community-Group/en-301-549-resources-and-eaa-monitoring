@@ -1,0 +1,40 @@
+{
+  "operation": "PR 71 refresh after maintainer merged PR 70",
+  "date": "2026-09-29",
+  "previous_head": "feb2425e5c16ce41c6c7cb922ab6fdeba141404c",
+  "main": "b2f00e03dc0155ac29bfa0dd6266e078655ce0d9",
+  "scope": "Incorporate current main into the existing draft branch and retarget PR to main. No new research or public wording.",
+  "main_changes": "Main removed three blank lines in enforcement rows for Finland, France and Ireland. Exact comparison confirms only blank-line deletion. Updated current public-map fingerprints; frozen baseline unchanged.",
+  "fingerprints": [
+    {
+      "entry": "finland-1",
+      "old": "acc962cb95f55c672dd272704e60901c33026f2c1d676d40785931973a021120",
+      "new": "d8b61a2318448ab10f786dbf776355c6125a2eb6ee45bb575906a310999aba80"
+    },
+    {
+      "entry": "france-1",
+      "old": "9c521cb5d08c4e87a16536690d499e754b48411d6e79013fae77f61c638ae37f",
+      "new": "273c8d6395171d18b99af13b6028d98f838d1bcdd72ba25750977ba337fcd505"
+    },
+    {
+      "entry": "ireland-1",
+      "old": "ce51daa53130844a5138bf135f25445c90b48b7adf05076e8494ef216682b5fb",
+      "new": "dcda8fc4c2a8a786c5ca9fbf675fc04f8a11f0de6a7bb2dfdf12f298745be16d"
+    }
+  ],
+  "preservation": "All 75 canonical country records and regenerated 107-event routing index are byte-identical to previous PR head. Public enforcement page is byte-identical to main. Worldwide inventory remains 250 entries: 55 connections, 182 bounded searches needing follow-up, 13 excluded; zero pending initial-discovery entries.",
+  "checks": {
+    "country_records": "PASS: 75 countries, 804 claims, 107 events",
+    "adoption_coverage": "PASS: 69 records",
+    "adoption_tests": "PASS: 27",
+    "enforcement_tests": "PASS: 26",
+    "markdownlint": "PASS: 40 files, zero issues",
+    "verification_dates": "PASS: no markers",
+    "rendered_html": "System legacy Tidy stops on existing HTML5 charset/table-summary warnings; not a passing check.",
+    "lychee": "Not available locally; inspect GitHub CI separately.",
+    "source_review": "Not repeated: no changed evidence or meaning-sensitive wording.",
+    "ci": "Not observed at report creation."
+  },
+  "remaining_coordination": "After this PR merges, refresh PR 72 and regenerate routing from combined canonical records. Then refresh PR 73, preserving this research, PR 72 Germany changes and presentation fingerprints.",
+  "merge_authority": "Maintainer only; no main write, PR merge, approval or auto-merge performed."
+}

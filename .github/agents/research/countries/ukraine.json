@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Ukraine",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-7b0d20a1dd7f6982e460563e": {
+      "issuer": "Verkhovna Rada",
+      "url": "https://zakon.rada.gov.ua/laws/anot/875-12",
+      "source_type": "official_government",
+      "language": "uk",
+      "passage": "Historical summary reader failed; obtain full current text.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "failed",
+      "method": "web reader"
+    },
+    "source-2b7acd2169565717dd30745e": {
+      "issuer": "UNDP",
+      "url": "https://www.undp.org/ukraine/blog/new-standard-change-government-websites-and-applications",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-ukraine-discovery-reference",
+          "aspect": "reference",
+          "statement": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking.",
+          "scope": "international development report",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-2b7acd2169565717dd30745e"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-7b0d20a1dd7f6982e460563e: Law875-XII on social protection of persons with disabilities. Historical summary reader failed; obtain full current text."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "Ukraine \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:zakon.rada.gov.ua \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:zakon.rada.gov.ua \"875-XII\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Historical summary reader failed; obtain full current text.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://zakon.rada.gov.ua/laws/anot/875-12"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.undp.org/ukraine/blog/new-standard-change-government-websites-and-applications"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-8-2026-09-27-804",
+      "country": "Ukraine",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/ukraine.json",
+          "disposition": "research_only",
+          "reason": "international development report",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from discovery.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

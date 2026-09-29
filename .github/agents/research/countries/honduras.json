@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "country": "Honduras",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-9b74d489a4363981e79c839f": {
+      "issuer": "Honduras Tribunal Superior de Cuentas",
+      "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/559-ley-de-equidad-y-desarrollo-integral-para-las-personas-con-discapacidad",
+      "source_type": "official_government",
+      "language": "es",
+      "passage": "Official law catalogue accessed; current text and implementing instruments, including later regulations, remain for legal mapping.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-7c05c8e5e0c54bda89f96ed8": {
+      "issuer": "Kiosk Industry (third-party host; issuing authority unverified)",
+      "url": "https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "A technical-bid document hosted by Kiosk Industry for self-service kiosks intended for delivery to Honduras specifies EN 301 549 in touchscreen and camera accessibility requirements. The issuing procurement authority and final tender status remain unverified; this document does not establish nationwide adoption.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-honduras-discovery-reference",
+          "aspect": "reference",
+          "statement": "A technical-bid document hosted by Kiosk Industry for self-service kiosks intended for delivery to Honduras specifies EN 301 549 in touchscreen and camera accessibility requirements. The issuing procurement authority and final tender status remain unverified; this document does not establish nationwide adoption.",
+          "scope": "project-specific procurement document, authority and final status unverified",
+          "stage": "unknown",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-7c05c8e5e0c54bda89f96ed8"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording independently reviewed in discovery-7-review-2026-09-27.json. Source category remains other_unverified for adoption evidence; no national standard adoption or current legal effect claimed. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards and procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map current discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-9b74d489a4363981e79c839f: Ley de Equidad y Desarrollo Integral para las Personas con Discapacidad — Decreto 160-2005. Official law catalogue accessed; current text and implementing instruments, including later regulations, remain for legal mapping.",
+        "Authenticate the original UNDP/RNP procurement package, exact edition and final tender status. Unreadable additional website lead https://skytektguhn.wixsite.com/skytec/accessibility-statement failed once; do not infer operator authority from its snippet."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "\"Honduras\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "site:gob.hn \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "site:tsc.gob.hn ley equidad desarrollo integral personas discapacidad"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "\"Honduras\" \"kiosks\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets are leads, not proof of adoption, absence or current legal applicability.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "query": "\"Honduras\" \"Form G\" kiosks UNDP"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Official law catalogue accessed; current text and implementing instruments, including later regulations, remain for legal mapping.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/559-ley-de-equidad-y-desarrollo-integral-para-las-personas-con-discapacidad"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "A technical-bid document hosted by Kiosk Industry for self-service kiosks intended for delivery to Honduras specifies EN 301 549 in touchscreen and camera accessibility requirements. The issuing procurement authority and final tender status remain unverified; this document does not establish nationwide adoption.",
+          "run_id": "world-discovery-7-2026-09-27",
+          "url": "https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-7-2026-09-27-340",
+      "country": "Honduras",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/honduras.json",
+          "disposition": "research_only",
+          "reason": "project-specific procurement document, authority and final status unverified",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Continue source authentication and national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

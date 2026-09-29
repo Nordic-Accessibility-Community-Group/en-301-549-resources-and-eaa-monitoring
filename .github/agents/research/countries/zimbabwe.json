@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "country": "Zimbabwe",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-e66e6d0a0d30d534dae62169": {
+      "issuer": "ZimLII legal database",
+      "url": "https://zimlii.org/akn/zw/act/2025/3/eng%402026-02-06",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Reader failed. Search suggests 2026 version; commencement/repeal requires official Gazette before asserting current status.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unreachable",
+      "method": "web reader"
+    },
+    "source-4b72ee5dcd1a0272e8792f1b": {
+      "issuer": "TotalEnergies",
+      "url": "https://zw.totalenergies.com/news-and-publications/accessibility-not-compliant",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "TotalEnergies’ Zimbabwe website hosts a website-factory demonstration-site accessibility declaration that mentions EN 301 549 when discussing WCAG criterion 4.1.1. This is a corporate contextual reference, not evidence of Zimbabwe adopting the standard or of the Zimbabwe site itself meeting it. No EN edition is specified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-zimbabwe-discovery-reference",
+          "aspect": "reference",
+          "statement": "TotalEnergies’ Zimbabwe website hosts a website-factory demonstration-site accessibility declaration that mentions EN 301 549 when discussing WCAG criterion 4.1.1. This is a corporate contextual reference, not evidence of Zimbabwe adopting the standard or of the Zimbabwe site itself meeting it. No EN edition is specified.",
+          "scope": "corporate demonstration-site contextual reference",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-4b72ee5dcd1a0272e8792f1b"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact reference read; issuer is not national adoption authority. Isolated source-fidelity review: discovery-5-review-2026-09-27.json. No public row."
+        }
+      ],
+      "questions": [
+        "Continue official standards/procurement research; no nationwide adoption or non-adoption conclusion established.",
+        "Map both accessibility and discrimination laws in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change supported.",
+        "Legal mapping lead source-e66e6d0a0d30d534dae62169: Persons with Disabilities Act, 2025 (Act 3). Reader failed. Search suggests 2026 version; commencement/repeal requires official Gazette before asserting current status."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Broad discovery only; institutional/commercial hits require source context.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "\"Zimbabwe\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Government/standards-domain follow-up; no national conclusion from search absence.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "query": "site:gov.zw \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Reader failed. Search suggests 2026 version; commencement/repeal requires official Gazette before asserting current status.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://zimlii.org/akn/zw/act/2025/3/eng%402026-02-06"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "TotalEnergies’ Zimbabwe website hosts a website-factory demonstration-site accessibility declaration that mentions EN 301 549 when discussing WCAG criterion 4.1.1. This is a corporate contextual reference, not evidence of Zimbabwe adopting the standard or of the Zimbabwe site itself meeting it. No EN edition is specified.",
+          "run_id": "world-discovery-5-2026-09-27",
+          "url": "https://zw.totalenergies.com/news-and-publications/accessibility-not-compliant"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "site:parlzim.gov.zw Persons Disabilities Act 2025",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        },
+        {
+          "on": "2026-09-27",
+          "query": "Zimbabwe Persons Disabilities Act 2025 government gazette",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Discovery only; legal source context and limitations recorded separately.",
+          "run_id": "world-discovery-5-2026-09-27"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-5-2026-09-27-zimbabwe",
+      "country": "Zimbabwe",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/zimbabwe.json",
+          "disposition": "research_only",
+          "reason": "corporate demonstration-site contextual reference",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change.",
+          "next_action": "Further national standards/legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "reviewed_on": "2026-09-27",
+  "isolation": "no_history",
+  "scope": "Two exact EN reference statements; no public wording or substantive law summaries.",
+  "reviews": {
+    "Chad": {
+      "reviewer": "batch7_chad_fidelity",
+      "source_url": "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/Chad-country-diagnostic.pdf",
+      "source_language": "en",
+      "excerpt": "Commonly recommended references and standards for accessibility in various sectors; EN 301 549 V2.1.2",
+      "literal_rendering": "English original lists the standard among global accessibility references in the report disability discussion.",
+      "exact_reviewed_text": "The World Bank’s 2023 Chad Digital Economy Diagnostic lists EN 301 549 V2.1.2 among global accessibility references in its disability-inclusion discussion. This is an international diagnostic reference; it does not establish adoption by Chad.",
+      "verdict": "Supported",
+      "limits": "Diagnostic reference is not national adoption. Text extraction inspected; reviewer screenshot retrieval failed."
+    },
+    "Honduras": {
+      "reviewer": "batch7_honduras_fidelity",
+      "source_url": "https://kioskindustry.org/wp-content/uploads/2026/05/Kiosks-50-Honduras-Fom_G_Technical_Bid.pdf",
+      "source_language": "en",
+      "excerpt": "Hardware support for EN 301 549 accessibility requirement for ICT products.",
+      "literal_rendering": "English original requires hardware support in the touchscreen specification and references ADA/EN in the camera specification.",
+      "exact_reviewed_text": "A technical-bid document hosted by Kiosk Industry for self-service kiosks intended for delivery to Honduras specifies EN 301 549 in touchscreen and camera accessibility requirements. The issuing procurement authority and final tender status remain unverified; this document does not establish nationwide adoption.",
+      "verdict": "Supported after correction and recheck",
+      "correction": "Changed delivered to Honduras to intended for delivery to Honduras; completed delivery is not established.",
+      "limits": "Third-party host; issuer authentication and final tender status unverified. Text extraction inspected; reviewer screenshot retrieval failed."
+    }
+  },
+  "limits": [
+    "Language fidelity does not establish authority, national adoption or current legal applicability.",
+    "Legal findings remain discovery metadata/leads; no provision-level interpretation or public legal claim."
+  ]
+}
