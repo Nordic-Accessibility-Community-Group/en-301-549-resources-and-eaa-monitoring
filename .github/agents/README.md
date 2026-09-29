@@ -1,6 +1,6 @@
 # EAA research and publication
 
-All monitoring, sanctions and enforcement work follows [workflow](workflow.md), [evidence](evidence.md) and [review](review.md). Read the applicable page specification: [monitoring](monitoring.md), [sanctions](research/sanctions/README.md), or [enforcement](enforcement/README.md). These shared rules replace duplicate stage instructions; page specifications add requirements, not conflicting overrides.
+All monitoring, sanctions, enforcement and standards-adoption work follows [workflow](workflow.md), [evidence](evidence.md) and [review](review.md). Read the applicable page specification: [monitoring](monitoring.md), [sanctions](research/sanctions/README.md), [enforcement](enforcement/README.md), or [standards adoption](adoption/README.md). These shared rules replace duplicate stage instructions; page specifications add requirements, not conflicting overrides.
 
 Evidence intake applies to contributor-supplied material, research and automated runs. Update relevant research and assess every registered page even when the public edit concerns only one page. Public edits stay within the user's authorised scope; record a concrete handoff for other destinations. Research-only updates do not require speculative public changes.
 

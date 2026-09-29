@@ -1,0 +1,17 @@
+{
+  "reviewer": "infra_review (separate agent)",
+  "isolation": "no_history",
+  "reviewed_on": "2026-09-27",
+  "pr": 65,
+  "reviewed_head": "370cf1d1fc7fba54cb71c74735b05fb20a320120",
+  "verdict": "No remaining actionable findings",
+  "resolved": [
+    "Inherited wording bypass: frozen baseline and per-cell gates",
+    "Empty mappings: populated factual cells require mappings",
+    "Global malformed events: event and cross-country ID validation",
+    "Changed href: link destinations compared as well as wording",
+    "Global handoffs: canonical record/domain required; not_applicable record null"
+  ],
+  "checks": "16 adoption tests passed in independent recheck; positive fixtures inspected in preceding review.",
+  "limits": "Infrastructure only; excludes legal accuracy, source reachability, uncommitted content, scheduler operation, CI and human approval."
+}

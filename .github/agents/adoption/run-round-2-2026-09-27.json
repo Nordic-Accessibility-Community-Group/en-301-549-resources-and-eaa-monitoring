@@ -1,0 +1,244 @@
+{
+  "run_id": "adoption-round-2-2026-09-27",
+  "started_at": "2026-09-27T13:02:07Z",
+  "research_closed_at": "2026-09-27T13:12:13Z",
+  "elapsed_wall_minutes": 10.1,
+  "remaining_run_budget_minutes": 19.9,
+  "research_state": "bounded_round_closed",
+  "scope": "All 14 existing entries received a source-access or discovery attempt; seven public updates, seven unchanged. Not a completed monthly/full national audit.",
+  "budget_minutes": 30,
+  "per_jurisdiction_limit_minutes": 10,
+  "timing_limit": "Actual run clock recorded. Searches overlapped and individual active timers were not instrumented; no certified per-jurisdiction timing claim. Country review was instructed to finish by 13:12 UTC. EU review completed at closure. No new research after closure.",
+  "attempt_limit_note": "Iceland and Turkey each received four discovery queries (initial plus three variants), exceeding the two targeted follow-up limit by one each. Stopped further discovery and recorded unresolved actions. Failed URLs received no more than one ordinary-browser fallback.",
+  "base_main": "3ecce3794947317e36150481cc8c5f63a9768416",
+  "public_changed": [
+    "Australia",
+    "Japan",
+    "India",
+    "United Kingdom",
+    "Mexico",
+    "Norway",
+    "European Union"
+  ],
+  "public_unchanged": [
+    "Canada",
+    "Brazil",
+    "Iceland",
+    "Kenya",
+    "New Zealand",
+    "Switzerland",
+    "Turkey"
+  ],
+  "records": [
+    ".github/agents/research/countries/australia.json",
+    ".github/agents/research/countries/canada.json",
+    ".github/agents/research/countries/brazil.json",
+    ".github/agents/adoption/european-standard.json",
+    ".github/agents/research/countries/iceland.json",
+    ".github/agents/research/countries/india.json",
+    ".github/agents/research/countries/japan.json",
+    ".github/agents/research/countries/kenya.json",
+    ".github/agents/research/countries/mexico.json",
+    ".github/agents/research/countries/new zealand.json",
+    ".github/agents/research/countries/norway.json",
+    ".github/agents/research/countries/switzerland.json",
+    ".github/agents/research/countries/turkey.json",
+    ".github/agents/research/countries/united kingdom.json"
+  ],
+  "before_rows": {
+    "Australia": {
+      "text": [
+        "Australia",
+        "Adopted",
+        "2020",
+        "V3.1.1:2019",
+        "AS EN 301 549:2020",
+        ""
+      ],
+      "sha256": "ff8f8ce9b04265230bbdaf0bb4be2ee43216ae0e52329e29a847b288649be7b6"
+    },
+    "Canada": {
+      "text": [
+        "Canada",
+        "National standard adopted",
+        "Adoption announced: 2024-05-31",
+        "V3.2.1:2021",
+        "CAN/ASC – EN 301 549:2024. The 2024 announcement describes voluntary use.",
+        "2026-09-27"
+      ],
+      "sha256": "93d62a5b0cc6d917377e2883e01218d7c722ebd07e5af2c8d1cf2f7983bf08e3"
+    },
+    "Brazil": {
+      "text": [
+        "Brazil",
+        "Referenced",
+        "ABNT first edition: 2025-03-11",
+        "V3.2.1 (supporting material); V2.1.2 (bibliography)",
+        "ABNT NBR 17225:2025 covers web accessibility based on WCAG 2.2. Section 6 links EN 301 549 V3.2.1 as supporting material; bibliography item 11 links V2.1.2. These references alone do not establish adoption of EN 301 549.",
+        "2026-09-27"
+      ],
+      "sha256": "1bf7f83933864bb8d8227b6ea4f183c4813785c3b0dd15f157f41a3479eb2bce"
+    },
+    "European Union": {
+      "text": [
+        "European Union",
+        "Published standard; WAD reference",
+        "V4.1.1 published: 2026-09-02OJ citation target: 2026-12-16",
+        "V3.2.1:2021 (WAD guidance)V4.1.1:2026 (published)",
+        "Commission WAD guidance lists V3.2.1. The ETSI schedule records V4.1.1 publication and a target for OJ citation; its achieved citation date is blank. The target is not confirmation of citation.",
+        "2026-09-27"
+      ],
+      "sha256": "5e5189710083801c0c3891e973b95c5a525539a914171ad6416909724876787d"
+    },
+    "Iceland": {
+      "text": [
+        "Iceland",
+        "Adopted",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sha256": "b59e506da519e83e7087cbc546d8d996ffddf9413de5648ae575043f479d782b"
+    },
+    "India": {
+      "text": [
+        "India",
+        "Adopted",
+        "",
+        "V3.2.1:2021",
+        "Source document (PDF)",
+        "2026-09-27"
+      ],
+      "sha256": "f1f84a04db87dc9f2da9e7179479cde84af2df8c1905b939a59ddec7b893cfb9"
+    },
+    "Japan": {
+      "text": [
+        "Japan",
+        "Adopted",
+        "",
+        "V1.1.2:2015",
+        "JEITA CPR-6201",
+        ""
+      ],
+      "sha256": "58e1dbffbd7c44b9d1d5777f9046efa70ea054050139cd64378d3fece2d9e341"
+    },
+    "Kenya": {
+      "text": [
+        "Kenya",
+        "Referenced",
+        "",
+        "V3.2.1:2021",
+        "KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition",
+        ""
+      ],
+      "sha256": "66e09e80d3abd9bb4068416279d10b9ea62e45cfba48f574b124389676ef7a64"
+    },
+    "Mexico": {
+      "text": [
+        "Mexico",
+        "Adopted",
+        "DOF publication: 2018-11-23Entry into force: 2019-01-22",
+        "V1.1.2:2015",
+        "NMX-R-099-SCFI-2018: official catalogue; previously listed PDF (not rechecked). ICT accessibility requirements for public procurement in Mexico. EN edition/equivalence remains under review.",
+        "2026-09-27"
+      ],
+      "sha256": "d0ef909817c509824eec47a6fc8141978f3e08a259703ffe4cfccc09cdeb0a5d"
+    },
+    "New Zealand": {
+      "text": [
+        "New Zealand",
+        "Draft reference",
+        "Consultation: 2026-07-13 to 2026-08-07",
+        "V4.1.1 (proposed; reference unconfirmed)",
+        "Draft Digital Accessibility Standard. Final version expected early 2027; start date and mandated agencies remain unconfirmed.",
+        "2026-09-27"
+      ],
+      "sha256": "e1879dbb5f5e1b5b0eb600894f58495c78e2ac3d0f322b8fe91c47beef0931dc"
+    },
+    "Norway": {
+      "text": [
+        "Norway",
+        "Adopted",
+        "2025-06-28",
+        "V3.2.1:2021",
+        "",
+        ""
+      ],
+      "sha256": "d41539c7b8182ca65aba474d58920cf3f27ad20d03433ac82a6e0e46645e45b6"
+    },
+    "Switzerland": {
+      "text": [
+        "Switzerland",
+        "Referenced",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sha256": "73bb33d5f3d3dc65cb564b17bc41952ddfc0a06048f09fac6735eb5fcf5b772e"
+    },
+    "Turkey": {
+      "text": [
+        "Turkey",
+        "Adopted",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sha256": "89ccf995e78033f91bcabf1383a7cf850f991b525e0002149069638b91825094"
+    },
+    "United Kingdom": {
+      "text": [
+        "United Kingdom",
+        "Adopted",
+        "",
+        "V3.2.1:2021",
+        "",
+        ""
+      ],
+      "sha256": "55678dfec9ac1e38c1b122d4abf3976178dc631cc5b2db3308a3e87d4e43ca78"
+    }
+  },
+  "questions": {
+    "Australia": "Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+    "Japan": "Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere. Follow-up: a national standards-body record is needed for a broader adoption claim.",
+    "India": "Resolved technical relationship in the BIS foreword. Follow-up: prefer a BIS-hosted accessible copy and independently research any mandatory scope only if required; do not infer it from publication.",
+    "United Kingdom": "Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+    "Mexico": "Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history. Follow-up: check amendments and compulsory-use claims separately.",
+    "Norway": "The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists).",
+    "European Union": "Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained.",
+    "Canada": "Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately.",
+    "Brazil": "Partial PDF recheck only. Bibliography found; encoded section 6 hyperlink not independently resolved in this round. Earlier verified source-fidelity evidence retained. Follow-up remains whether another instrument establishes adoption or legal use.",
+    "New Zealand": "Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing.",
+    "Kenya": "Both reader and one ordinary-browser attempt left the linked PDF unreadable. Follow-up: locate an accessible ICT Authority or KEBS copy of KS 2952-1:2022 and inspect the foreword, edition relationship and status; do not infer from filename.",
+    "Iceland": "No inspectable ÍST catalogue source located; inherited adoption unchanged. Next useful action: locate a precise national identifier/catalogue entry or supplied primary evidence, not repeated generic searches.",
+    "Switzerland": "eCH source supports WCAG guidance but does not settle the inherited EN reference. Next useful action: obtain a precise SNV catalogue identifier or official instrument explicitly referencing EN 301 549.",
+    "Turkey": "Government platform statement is only a scoped lead. Next useful action: obtain a TSE catalogue record with TS identifier, EN edition and adoption/publication date."
+  },
+  "notification_history": [
+    "Drafts #68 and #69 created; final handoff pending."
+  ],
+  "infrastructure_pr": 68,
+  "infrastructure_review": {
+    "reviewer": "infra_review",
+    "head": "ef7dd3e36a158f1d49aafa8a7cbacc674cfc56ca",
+    "verdict": "No actionable findings",
+    "scope": "Actual four-file PR diff, instructions, fixtures and description; 22 local tests passed. No CI/runtime/legal review."
+  },
+  "schedule_status": "No recurring schedule activated.",
+  "validation": {
+    "shared_records": "PASS: 44 countries, 728 claims, 43 country delivery events",
+    "adoption_coverage": "PASS: 14 records",
+    "adoption_tests": "22 passed",
+    "shared_record_tests": "9 passed",
+    "markdown_lint": "PASS: 39 files, zero issues",
+    "verification_dates": "PASS: no last_verified markers found",
+    "diff_whitespace": "PASS",
+    "rendered_html": "Actual GitHub preview inspected: 14 rows, six columns, date-only update cells, readable links and event line breaks. Local script unavailable (npx missing); equivalent marked rendering succeeded; legacy local Tidy emitted missing-document-wrapper and table-summary warnings.",
+    "ci": "No workflow runs returned for the initial content commit at post-publication inspection; CI not claimed."
+  },
+  "content_pr": 69,
+  "reviewed_content_head": "b5839bec01d1c2ce2cf2704bbcee53d5982fc731"
+}

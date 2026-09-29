@@ -4,7 +4,7 @@ One canonical file per authorised jurisdiction lives in countries/<lowercase cou
 
 ## Evidence and domains
 
-The root owns country identity, jurisdiction_group, evidence, domains and deliveries. Domains contain monitoring, sanctions or enforcement only when a corresponding record exists. Do not invent missing domains or turn unavailable evidence into a public placeholder. Each domain preserves its original dates, claims, questions and legacy notes. Sanctions review notes are not converted into verified claims. Monitoring claims gain stable administrative IDs; enforcement IDs remain unchanged.
+The root owns country identity, jurisdiction_group, evidence, domains and deliveries. Domains contain monitoring, sanctions, enforcement or adoption only when a corresponding record exists. Do not invent missing domains or turn unavailable evidence into a public placeholder. Each domain preserves its original dates, claims, questions and legacy notes. Sanctions review notes are not converted into verified claims. Monitoring claims gain stable administrative IDs; enforcement IDs remain unchanged.
 
 Evidence is a country-local pool of exact recorded source objects. source_refs preserves source order and duplicates where meaningful. Identical complete source objects share an ID; different passages, source types, dates or provenance remain distinct even when URLs match. IDs are content fingerprints: editing evidence creates a new ID and requires deliberate reference updates. A shared object is not a shared verification verdict. Source shapes remain compatible with their domain projections; this mechanical migration does not reinterpret legacy correspondence prose or standardise unlike observations by inference.
 
@@ -12,7 +12,7 @@ Edit canonical domains directly, retaining claim IDs across reordering. country_
 
 ## Publication and routing
 
-Country deliveries is canonical. Generate evidence-routing/events.json with `python3 .github/scripts/generate-routing-index.py --write`; it is a compatibility projection for existing PR-event readers. Destination domain identifies monitoring, sanctions or enforcement in the shared file. An absent domain retains a null record and explicit not_applicable reason. A truly multi-country event needs one owner with references, not duplicate event IDs. Keep current public mappings and frozen baselines separate; reverse references remain validated until a separately reviewed map simplification.
+Country deliveries is canonical. Generate evidence-routing/events.json with `python3 .github/scripts/generate-routing-index.py --write`; it is a compatibility projection for existing PR-event readers. Destination domain identifies monitoring, sanctions, enforcement or adoption in the shared file. An absent domain retains a null record and explicit not_applicable reason. A truly multi-country event needs one owner with references, not duplicate event IDs. Keep current public mappings and frozen baselines separate; reverse references remain validated until a separately reviewed map simplification.
 
 Do not edit historical review reports to imply they reviewed the migrated version. Public factual wording stays unchanged; the Estonia research link and current row hash change only to point at the canonical record. Frozen baseline bytes remain unchanged.
 
@@ -27,3 +27,7 @@ The original monitoring schema validates expanded monitoring data. Existing enfo
 ## Runtime migration boundary
 
 Repository readers, links, inventory and instructions are migrated together. Watcher and PR-event runtime state/leases and history are unchanged. The original setup conversation confirms Fridays at 09:00 Europe/Stockholm from 2 October 2026 for Denmark, Sweden, Ireland, Italy and Portugal. The watcher runtime branch was read successfully with baseline-2026-09-25 and no active lease. The deployed cloud task prompts are outside this repository and could not be inspected or changed through the available controls. Before merging the migration, the automation owner must verify/update those prompts to read current main instructions, shared record_path/domain, and canonical deliveries, then run a read-only smoke check. Do not claim the external runtime migration completed solely because repository tests passed. The generated ledger retains its events array to reduce compatibility risk; it does not authorise duplicate writable records.
+
+## Standards adoption extension
+
+Adoption uses the same canonical country files and evidence fingerprints, with its separate [contract](../adoption/README.md). Adoption-only jurisdictions do not require invented monitoring, sanctions or enforcement domains. European standard release and EU-wide citation history use `adoption/european-standard.json` because they are not a country. Its deliveries remain global and outside the existing country routing projection. Historical domains, exception fingerprints and frozen migration baselines remain unchanged.

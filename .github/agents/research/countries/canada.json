@@ -12,6 +12,39 @@
       "retrieved_on": "2026-09-25",
       "access_result": "reachable",
       "provenance_note": "Primary source read on 25 September 2026. Passage is a concise English evidence summary, not a verbatim quotation. Retrieved official HTML."
+    },
+    "source-c5a3cd27509169602760d4bc": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-119df8da0ab89fb807be599b": {
+      "issuer": "Accessibility Standards Canada",
+      "url": "https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Announcement dated 31 May 2024: ASC adopts EN 301 549:2021 as CAN/ASC – EN 301 549:2024, a National Standard of Canada. The announcement describes voluntary use; it does not establish subsequent regulation or universal application.",
+      "publication_date": "2024-05-31",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-ea2d89da793f761e602eedc6": {
+      "issuer": "Accessibility Standards Canada",
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt/2-references",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Official standard page header: CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT); published May 2024. This check covers identity and publication month only; earlier announcement date and voluntary-use statement were not independently reread in this round.",
+      "publication_date": "2024-05",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -74,6 +107,167 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-canada-inherited-1",
+          "aspect": "adoption",
+          "statement": "Adopted",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-c5a3cd27509169602760d4bc"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "Adopted",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only. Round 2: Public wording retained; this attempt did not establish the inherited claim. Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately."
+        },
+        {
+          "id": "adoption-canada-inherited-2",
+          "aspect": "date",
+          "statement": "2024",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-c5a3cd27509169602760d4bc"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "2024",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only. Round 2: Public wording retained; this attempt did not establish the inherited claim. Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately."
+        },
+        {
+          "id": "adoption-canada-inherited-3",
+          "aspect": "edition",
+          "statement": "V3.2.1:2021",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-c5a3cd27509169602760d4bc"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "V3.2.1:2021",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only. Round 2: Public wording retained; this attempt did not establish the inherited claim. Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately."
+        },
+        {
+          "id": "adoption-canada-inherited-4",
+          "aspect": "reference",
+          "statement": "Accessibility Standards Canada adopts the globally recognized accessibility standard for ICT products and services",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-c5a3cd27509169602760d4bc"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "Accessibility Standards Canada adopts the globally recognized accessibility standard for ICT products and services",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only. Round 2: Public wording retained; this attempt did not establish the inherited claim. Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately."
+        },
+        {
+          "id": "adoption-canada-canada-adoption",
+          "aspect": "adoption",
+          "statement": "ASC announced adoption as CAN/ASC – EN 301 549:2024 on 31 May 2024; the announcement describes voluntary use.",
+          "scope": "Historical national-standard announcement, not present universal legal applicability.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-119df8da0ab89fb807be599b"
+          ],
+          "event_dates": [
+            {
+              "kind": "adoption",
+              "value": "2024-05-31"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        },
+        {
+          "id": "adoption-canada-round2-standard-identity",
+          "aspect": "reference",
+          "statement": "The official standard identifies CAN/ASC - EN 301 549:2024 as EN 301 549:2021, IDT, published May 2024.",
+          "scope": "Standard header only; earlier public announcement claim unchanged.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-ea2d89da793f761e602eedc6"
+          ],
+          "event_dates": [
+            {
+              "kind": "publication",
+              "value": "2024-05"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        }
+      ],
+      "questions": [
+        "Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only.",
+        "Round 2 (2026-09-27): Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately."
+      ],
+      "attempts": [
+        {
+          "url": "https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products",
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Official standard page header: CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT); published May 2024. This check covers identity and publication month only; earlier announcement date and voluntary-use statement were not independently reread in this round.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt/2-references"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "93d62a5b0cc6d917377e2883e01218d7c722ebd07e5af2c8d1cf2f7983bf08e3",
+      "public_claim_ids": [
+        "adoption-canada-canada-adoption",
+        "adoption-canada-inherited-3"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-canada-canada-adoption"
+        ],
+        "2": [
+          "adoption-canada-canada-adoption"
+        ],
+        "3": [
+          "adoption-canada-inherited-3"
+        ],
+        "4": [
+          "adoption-canada-canada-adoption"
+        ],
+        "5": []
+      },
+      "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
     }
   },
   "deliveries": [
@@ -113,6 +307,90 @@
           "domain": "sanctions"
         }
       ]
+    },
+    {
+      "id": "adoption-baseline-canada-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "proposed",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Canada"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-canada",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "Canada"
     }
   ]
 }

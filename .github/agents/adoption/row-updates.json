@@ -1,0 +1,58 @@
+{
+  "Canada": {
+    "updated_on": "2026-09-27",
+    "reason": "Adoption announcement date and description clarified."
+  },
+  "Brazil": {
+    "updated_on": "2026-09-27",
+    "reason": "ABNT source, first-edition date and EN references added."
+  },
+  "European Union": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved access to the historical 2021 WAD OJ decision and confirmed its citation date. Continue to check directive-specific current OJ acts for V4.1.1; no completed EAA citation established by the ETSI target. Prior failed-access attempts retained."
+  },
+  "Mexico": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved EN edition and modified relationship from the standard preface. Catalogue equivalence fields conflict; preface is the basis for the public wording. Preserve prior uncertainty and source history."
+  },
+  "New Zealand": {
+    "updated_on": "2026-09-27",
+    "reason": "Draft status, consultation dates and provisional reference clarified."
+  },
+  "India": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved technical relationship in the BIS foreword."
+  },
+  "Australia": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Version column normalized to V3.2.1:2021 from the ETSI cover."
+  },
+  "Japan": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere."
+  },
+  "United Kingdom": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Version column normalized to V3.2.1:2021 from the ETSI cover."
+  },
+  "Norway": {
+    "updated_on": "2026-09-27",
+    "reason": "Round 2: The inherited 2025-06-28 date is still unsupported. Public row now describes the evidenced WAD reference and dates only the 12 additional WCAG criteria/accessibility-statement requirement. National standards adoption remains a separate unresolved question. Monitoring handoff: inspect the authority guidance on public-sector statement duties; register a monitoring domain/destination before a public addition (no monitoring domain currently exists)."
+  },
+  "Iceland": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
+  },
+  "Kenya": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified."
+  },
+  "Switzerland": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
+  },
+  "Turkey": {
+    "updated_on": "2026-09-27",
+    "reason": "National standard/reference identity, event date, edition and source added or clarified. Version column normalized to V3.2.1:2021 from the ETSI cover."
+  }
+}

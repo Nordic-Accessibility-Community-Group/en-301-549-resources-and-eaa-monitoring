@@ -1,0 +1,299 @@
+{
+  "schema_version": 2,
+  "country": "New Zealand",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-7675e074c4b8f359471a2392": {
+      "issuer": "Inherited contributor reference",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Inherited link; no fresh claim verification from its presence.",
+      "publication_date": null,
+      "accessed_on": null,
+      "access": "unknown",
+      "method": "repository baseline"
+    },
+    "source-a092c56ea284f48691c83564": {
+      "issuer": "NZ Digital Government",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Opening and sections 2.1–2.3, 3.4: consultation draft used 13 July–7 August 2026; final version expected early 2027. Bracketed text remains unconfirmed, including the start date and EN 301 549 version 4.1.1 reference. Mandated agencies remain under confirmation. Last updated 6 July 2026 is page metadata. Section 3.5 proposes public accessibility statements; this is not a current duty.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser"
+    },
+    "source-180de430f6518693650d50d0": {
+      "issuer": "New Zealand Government, digital.govt.nz",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Draft DAS page: consultation 13 July–7 August 2026; final expected early 2027. Square brackets remain unconfirmed, including start date and section 3.4 V4.1.1 reference; mandated agencies still being confirmed. Sections 3.5 and 4.4 propose accessibility statements, ongoing monitoring/reporting and GCDO testing, not current obligations.",
+      "publication_date": "2026-07-06",
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "ordinary browser; draft status and sections 2, 3.4, 3.5, 4.4 inspected"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-new-zealand-inherited-1",
+          "aspect": "adoption",
+          "statement": "Referenced",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-7675e074c4b8f359471a2392"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "Referenced",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: monitor final DAS publication, bracketed EN edition, start date and mandated agencies. No final obligation established. Monitoring-page handoff: draft section 3.5 proposes public accessibility statements; consider jurisdiction registration and inspect final text before any monitoring-page addition. Round 2: Public wording retained; this attempt did not establish the inherited claim. Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing."
+        },
+        {
+          "id": "adoption-new-zealand-inherited-2",
+          "aspect": "date",
+          "statement": "2026-07-06",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-7675e074c4b8f359471a2392"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "2026-07-06",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: monitor final DAS publication, bracketed EN edition, start date and mandated agencies. No final obligation established. Monitoring-page handoff: draft section 3.5 proposes public accessibility statements; consider jurisdiction registration and inspect final text before any monitoring-page addition. Round 2: Public wording retained; this attempt did not establish the inherited claim. Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing."
+        },
+        {
+          "id": "adoption-new-zealand-inherited-3",
+          "aspect": "edition",
+          "statement": "V4.1.1:2025",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-7675e074c4b8f359471a2392"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "V4.1.1:2025",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: monitor final DAS publication, bracketed EN edition, start date and mandated agencies. No final obligation established. Monitoring-page handoff: draft section 3.5 proposes public accessibility statements; consider jurisdiction registration and inspect final text before any monitoring-page addition. Round 2: Public wording retained; this attempt did not establish the inherited claim. Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing."
+        },
+        {
+          "id": "adoption-new-zealand-inherited-4",
+          "aspect": "reference",
+          "statement": "Draft Digital Accessibility Standard",
+          "scope": "Inherited entry; exact adoption/legal scope remains to be established.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-7675e074c4b8f359471a2392"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-04",
+          "existing_text": "Draft Digital Accessibility Standard",
+          "review_note": "Preserved from main 45710f3. No new verification inferred. Follow-up: monitor final DAS publication, bracketed EN edition, start date and mandated agencies. No final obligation established. Monitoring-page handoff: draft section 3.5 proposes public accessibility statements; consider jurisdiction registration and inspect final text before any monitoring-page addition. Round 2: Public wording retained; this attempt did not establish the inherited claim. Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing."
+        },
+        {
+          "id": "adoption-new-zealand-nz-reference",
+          "aspect": "reference",
+          "statement": "The DAS consultation draft uses a bracketed V4.1.1 reference; its start date and mandated agencies remain unconfirmed. Consultation ran 13 July–7 August 2026 and the final version is expected early 2027.",
+          "scope": "Proposed government standard, not a current final duty.",
+          "stage": "draft",
+          "status": "verified",
+          "source_refs": [
+            "source-a092c56ea284f48691c83564"
+          ],
+          "event_dates": [
+            {
+              "kind": "consultation_start",
+              "value": "2026-07-13"
+            },
+            {
+              "kind": "consultation_end",
+              "value": "2026-08-07"
+            },
+            {
+              "kind": "page_updated",
+              "value": "2026-07-06"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        },
+        {
+          "id": "adoption-new-zealand-round2-draft-recheck",
+          "aspect": "reference",
+          "statement": "The DAS remains a consultation draft with provisional V4.1.1, start date and mandated agencies; final version expected early 2027.",
+          "scope": "Draft page recheck; proposed statements and monitoring duties are not current obligations.",
+          "stage": "draft",
+          "status": "verified",
+          "source_refs": [
+            "source-180de430f6518693650d50d0"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-04",
+          "existing_text": null,
+          "review_note": "Round 2: source inspected for this narrow claim. Does not verify unrelated claims or current legal applicability. Prior assertions and sources retained in history."
+        }
+      ],
+      "questions": [
+        "Follow-up: monitor final DAS publication, bracketed EN edition, start date and mandated agencies. No final obligation established. Monitoring-page handoff: draft section 3.5 proposes public accessibility statements; consider jurisdiction registration and inspect final text before any monitoring-page addition.",
+        "Round 2 (2026-09-27): Draft and provisional reference unchanged. Follow up on final publication, start date, issuing authority and mandated agencies. Monitoring handoff: sections 3.5 and 4.4 propose statements, monitoring/reporting and GCDO testing; no monitoring domain exists, so register scope and verify final text before publishing."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das",
+          "on": "2026-09-27",
+          "method": "ordinary browser",
+          "outcome": "reachable",
+          "note": "Read source and compared exact proposed claim; isolated wording review recorded separately."
+        },
+        {
+          "on": "2026-09-27",
+          "method": "ordinary browser; draft status and sections 2, 3.4, 3.5, 4.4 inspected",
+          "outcome": "reachable",
+          "note": "Draft DAS page: consultation 13 July–7 August 2026; final expected early 2027. Square brackets remain unconfirmed, including start date and section 3.4 V4.1.1 reference; mandated agencies still being confirmed. Sections 3.5 and 4.4 propose accessibility statements, ongoing monitoring/reporting and GCDO testing, not current obligations.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unreachable",
+          "note": "Initial web-reader response empty/challenged; the one ordinary-browser fallback succeeded, recorded separately.",
+          "run_id": "adoption-round-2-2026-09-27",
+          "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": "e1879dbb5f5e1b5b0eb600894f58495c78e2ac3d0f322b8fe91c47beef0931dc",
+      "public_claim_ids": [
+        "adoption-new-zealand-nz-reference"
+      ],
+      "public_cells": {
+        "0": [],
+        "1": [
+          "adoption-new-zealand-nz-reference"
+        ],
+        "2": [
+          "adoption-new-zealand-nz-reference"
+        ],
+        "3": [
+          "adoption-new-zealand-nz-reference"
+        ],
+        "4": [
+          "adoption-new-zealand-nz-reference"
+        ],
+        "5": []
+      },
+      "review_report": ".github/agents/adoption/reviews/updated-date-presentation.json"
+    }
+  },
+  "deliveries": [
+    {
+      "id": "adoption-baseline-new-zealand-2026-09-27",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/new zealand.json",
+          "disposition": "proposed",
+          "reason": "Adoption evidence baseline and supported corrections; unresolved inherited claims retained.",
+          "next_action": "Complete pending checks and maintainer review.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "New Zealand is outside the existing monitoring-page coverage; draft public-information lead is retained in adoption questions for future registration/final-text review, not a current duty.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this destination established by the narrow standards-adoption check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "New Zealand"
+    },
+    {
+      "id": "adoption-round-2-2026-09-27-new-zealand",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/new zealand.json",
+          "disposition": "research_only",
+          "reason": "Bounded research recorded; public row unchanged.",
+          "next_action": "Maintainer review of draft and claim-specific pending questions.",
+          "pr": 69
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Relevant statement/monitoring evidence retained in adoption questions; no monitoring domain is registered for this jurisdiction.",
+          "next_action": "Register the destination and inspect scope/final status before proposing a monitoring-page addition; see round-2 adoption question and source.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change in this destination established by the narrow standards/reference check.",
+          "next_action": "Reassess if later evidence establishes a relevant change.",
+          "pr": null
+        }
+      ],
+      "country": "New Zealand"
+    }
+  ]
+}

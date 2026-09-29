@@ -1,0 +1,19 @@
+{
+  "source_commit": "45710f3f2b9673bb4f3f39b4bb0c211dc7f3a3cf",
+  "rows": {
+    "Australia": "<tr>\n    <td>Australia</td>\n    <td>Adopted</td>\n    <td>2020</td>\n    <td>V3.1.1:2019</td>\n    <td><a href=\"https://www.normsplash.com/Samples/AS/184992232/AS-EN-301-549-2020-en.pdf\">AS EN 301 549:2020</a></td>\n  </tr>",
+    "Canada": "<tr>\n    <td>Canada</td>\n    <td>Adopted</td>\n    <td>2024</td>\n    <td>V3.2.1:2021</td>\n    <td>\n      <a href=\"https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products\">Accessibility Standards Canada adopts the globally recognized accessibility standard for ICT products and services</a>\n    </td>\n  </tr>",
+    "Brazil": "<tr>\n    <td>Brazil</td>\n    <td>Referenced</td>\n    <td></td>\n    <td>V1.1.2:2015</td>\n    <td>\n      <a href=\"https://platiica.economia.gob.mx/normalizacion/nmx-r-099-scfi-2018/\">NMX-R-099-SCFI-2018</a>\n    </td>\n  </tr>",
+    "Europe": "<tr>\n    <td>Europe</td>\n    <td>Adopted</td>\n    <td>2025-06-28</td>\n    <td>V3.2.1:2021</td>\n    <td><a href=\"https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282\">Version 4.1.1 is published</a> and addtion to the Official Journal is planned for 2026-12-16.</td>\n  </tr>",
+    "Iceland": "<tr>\n    <td>Iceland</td>\n    <td>Adopted</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>",
+    "India": "<tr>\n    <td>India</td>\n    <td>Adopted</td>\n    <td></td>\n    <td>V3.2.1:2021</td>\n    <td>\n      <a href=\"https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf\"></a>\n    </td>\n  </tr>",
+    "Japan": "<tr>\n    <td>Japan</td>\n    <td>Adopted</td>\n    <td></td>\n    <td>V1.1.2:2015</td>\n    <td>\n      <a href=\"https://www.jeita.or.jp/japanese/standard/book/CPR-6201_J/#target/page_no=1\">JEITA CPR-6201</a>\n    </td>\n  </tr>",
+    "Kenya": "<tr>\n    <td>Kenya</td>\n    <td>Referenced</td>\n    <td></td>\n    <td>V3.2.1:2021</td>\n    <td>\n      <a href=\"https://cms.icta.go.ke/sites/default/files/2024-10/Kenya-Accessibility-Standard-ICT-Products-and-Services_KS-2952-1-2-2022_May_2023_.pdf\">KENYA STANDARD KS 2952-1:2022, ICS 33.030; 53.080, First Edition</a>\n    </td>\n  </tr>",
+    "Mexico": "<tr>\n    <td>Mexico</td>\n    <td>Adopted</td>\n    <td></td>\n    <td>V1.1.2:2015</td>\n    <td>\n      <a href=\"https://www.cedhnl.org.mx/bs/discapacidad/docs/NMX-TICs.pdf\">Accessibility requirements suitable for public procurement of information \nand communications technology (ICT) products and services in Mexico.</a>\n    </td>\n  </tr>",
+    "New Zealand": "<tr>\n    <td>New Zealand</td>\n    <td>Referenced</td>\n    <td>2026-07-06</td>\n    <td>V4.1.1:2025</td>\n    <td>\n      <a href=\"https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/digital-accessibility-standard/draft-das\">Draft Digital Accessibility Standard</a>\n    </td>\n  </tr>",
+    "Norway": "<tr>\n    <td>Norway</td>\n    <td>Adopted</td>\n    <td>2025-06-28</td>\n    <td>V3.2.1:2021</td>\n    <td></td>\n  </tr>",
+    "Switzerland": "<tr>\n    <td>Switzerland</td>\n    <td>Referenced</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>",
+    "Turkey": "<tr>\n    <td>Turkey</td>\n    <td>Adopted</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>",
+    "United Kingdom": "<tr>\n    <td>United Kingdom</td>\n    <td>Adopted</td>\n    <td></td>\n    <td>V3.2.1:2021</td>\n    <td></td>\n  </tr>"
+  }
+}
