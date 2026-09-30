@@ -329,16 +329,16 @@ This information is provided as a community resource and is not legal advice. Pl
     </tr>
     <tr>
       <th scope="row" id="romania" align="left" valign="top">Romania</th>
-      <td align="left" valign="top"><p>Products and services under Law 232/2022, Article 29.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
+      <td align="left" valign="top"><p>Products and services under Law 232/2022, Article 27.</p><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li>❓ Unknown</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown</li></ul></td>
       <td align="left" valign="top"><p><strong>EAA areas covered: Unknown</strong></p><ul><li>Listed offences: RON 5,000–10,000, RON 6,000–12,000 or RON 7,000–15,000, depending on the obligation breached.</li><li>Improper conformity marking: RON 2,500–5,000.</li></ul></td>
       <td align="left" valign="top"><p>Product withdrawal/recall, suspension of activity or authorisations may accompany fines. Incorrect marking also entails withdrawal and/or prohibition of market availability.</p></td>
-      <td align="left" valign="top"><p>Article 29 sets the range for each offence. RON 15,000 is the highest amount in the listed ranges.</p></td>
+      <td align="left" valign="top"><p>Article 27 sets the range for each offence. RON 15,000 is the highest amount in the listed ranges.</p></td>
       <td align="left" valign="top">
         <ul>
-          <li><strong>⚖️ Official law:</strong> <a href="https://legislatie.just.ro/Public/DetaliiDocument/257778" hreflang="ro">Law 232/2022, Article 29</a>.</li>
+          <li><strong>⚖️ Official law:</strong> <a href="https://legislatie.just.ro/Public/DetaliiDocument/257778" hreflang="ro">Law 232/2022, Article 27</a>.</li>
         </ul>
       </td>
-      <td align="left" valign="top"><p>2026-09-25</p></td>
+      <td align="left" valign="top"><p>2026-09-30</p></td>
     </tr>
     <tr>
       <th scope="row" id="slovakia" align="left" valign="top">Slovakia</th>

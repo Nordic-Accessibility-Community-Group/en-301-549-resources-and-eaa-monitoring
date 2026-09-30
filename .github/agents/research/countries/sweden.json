@@ -1806,6 +1806,13 @@
       "evidence": "DOS-lagen (2018:1937), sections 1–4: public digital services; section 2 references Directive (EU) 2016/2102, and section 4 includes defined private operators. Current and future section 4 versions are separately marked; no future amendment treated as current.",
       "source_type": "legislation",
       "section": "Sections 1–4, including temporal headings"
+    },
+    "source-999bdb29e91dfb38c89b36fd": {
+      "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-09-30",
+      "section": "När ska ni rapportera; Var regleras detta?",
+      "evidence": "Service providers report immediately under section24 of Act2023:254. PTS considers reporting within14days after noticing a defect sufficient. This is PTS guidance, not a universal product-reporting deadline."
     }
   },
   "domains": {
@@ -2301,6 +2308,18 @@
             "source-169df94a5ea1520cdfce4eaf"
           ],
           "id": "monitoring-3baaacbaf26b403632adc56e"
+        },
+        {
+          "id": "monitoring-00754e4a10c87d1b2b18af42",
+          "field": "additional_information",
+          "assertion": "For E-commerce and Banking services, providers must report accessibility defects immediately. PTS considers reporting within 14 days after noticing the defect sufficient.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "E-commerce and Banking services",
+          "review_note": "User-authorised clarification 2026-09-30. Supersedes public sentence: Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not. The already-fixed clause is preserved here as inherited contributor wording, not independently disproved; the replacement is limited to public PTS guidance. No inference that the guidance excludes other services. F5 September statistics expressly excluded by user: original files were manually inspected and counted; no statistics change.",
+          "source_refs": [
+            "source-999bdb29e91dfb38c89b36fd"
+          ]
         }
       ],
       "questions": [
@@ -3153,6 +3172,43 @@
           "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
           "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "se-reporting-timing-20260930",
+      "country": "Sweden",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "User requests e-commerce/banking reporting clarification; September statistics excluded.",
+      "next_action": "Review focused wording.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Clarify immediate reporting and PTS 14-day interpretation.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "No change authorised to statistics or sanctions.",
+          "next_action": "None.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No change authorised to statistics or sanctions.",
+          "next_action": "None.",
+          "pr": null
         }
       ]
     }
