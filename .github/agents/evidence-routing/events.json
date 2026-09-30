@@ -3541,6 +3541,43 @@
       ]
     },
     {
+      "id": "sk-multimodal-link-repair-20260930",
+      "country": "Slovakia",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "User-authorised replacement of broken official reporting link.",
+      "next_action": "Review PR77.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Official URL replacement only.",
+          "next_action": "Review PR77.",
+          "pr": 77
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Link repair does not establish new sanctions or enforcement facts.",
+          "next_action": "None.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Link repair does not establish new sanctions or enforcement facts.",
+          "next_action": "None.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "si-akos-rtv-accessibility-inspection-2026",
       "country": "Slovenia",
       "recorded_on": "2026-09-25",

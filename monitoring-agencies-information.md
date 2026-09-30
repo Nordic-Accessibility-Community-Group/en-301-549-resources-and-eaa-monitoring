@@ -709,7 +709,7 @@
         <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
       </ul>
       <p><strong>Audiovisual access (multimodal services):</strong></p>
-      <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
+      <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu" hreflang="sk">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><strong>Public and company reporting:</strong> ❓ Unknown.</li></ul>
     </td>
