@@ -929,7 +929,8 @@
         "The earlier 124 complaints / 110 services / 14 products assertion and other monitoring assertions are outside this pass. Requests and invitations in the email are evidence context, not instructions to contact anyone.",
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
         "All Monitoring agencies research, 25 September 2026: 8 September banking announcement re-read; already included in merged page. Search also found a wider website study, deferred rather than conflated with enforcement statistics. Earlier correspondence-supported statistics retained with their existing qualifications. This pass did not audit every sector authority.",
-        "Evidence event se-pts-supervision-2025-report: source read on 2026-09-25. Section 6.1 supports a dated enforcement baseline. Monitoring remit and reporting-service existence already present; no statutory sanctions update established. Section 6.2.9 concerns LEK and is not used as EAA evidence."
+        "Evidence event se-pts-supervision-2025-report: source read on 2026-09-25. Section 6.1 supports a dated enforcement baseline. Monitoring remit and reporting-service existence already present; no statutory sanctions update established. Section 6.2.9 concerns LEK and is not used as EAA evidence.",
+        "deque-webinar-2026-09-17, slide 6: re-read PTS banking announcement on 2026-09-30; existing claim se-pts-banking-launch remains supported. Later checks of websites/apps are possible, not a completed finding. The unnamed other EU country is an unverified webinar lead; identity and primary evidence required. No public change."
       ],
       "public_entry_ids": [
         "sweden-1"
@@ -1600,6 +1601,48 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "deque-webinar-2026-09-17-sweden",
+      "country": "Sweden",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "already_present",
+          "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
+          "next_action": "Seek dated follow-up outcomes in authority publications.",
+          "pr": null
         }
       ]
     }

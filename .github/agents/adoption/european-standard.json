@@ -121,6 +121,28 @@
       "accessed_on": "2026-09-28",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-eef6431babaab9bc5c9365c3": {
+      "issuer": "Deque / Matthew Luken",
+      "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Article forecasts OJ citation around 30 November 2026. This is a secondary forecast, not proof of citation.",
+      "publication_date": "2026-09-08",
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
+    },
+    "source-00032455cbec3cceebf945f6": {
+      "issuer": "ETSI",
+      "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Observed 30 September 2026: Publication V4.1.1 achieved 2 September; delivery to EC achieved 8 September; OJ target field displays 16 December, achieved blank. Contributor says the schedule date is old and no longer relevant. Displayed target retained only as a contested planning observation, not a reliable current forecast.",
+      "publication_date": null,
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
     }
   },
   "adoption": {
@@ -217,7 +239,7 @@
         "verified_on": "2026-09-27",
         "next_review_due": "2026-10-04",
         "existing_text": null,
-        "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history."
+        "review_note": "Verified narrowly against the cited source and its context. Full row and later legal changes are not certified. Inherited assertions remain in history. 2026-09-30 contributor correction: schedule date is old and no longer relevant. Historical observation retained; do not reuse as a current forecast. Fresh display check is recorded separately; planning relevance remains unresolved."
       },
       {
         "id": "adoption-europe-wad-citation",
@@ -526,7 +548,7 @@
         "verified_on": "2026-09-28",
         "next_review_due": "2026-10-05",
         "existing_text": null,
-        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-forecast-20260928"
+        "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-forecast-20260928 2026-09-30 contributor correction: schedule date is old and no longer relevant. Historical observation retained; do not reuse as a current forecast. Fresh display check is recorded separately; planning relevance remains unresolved."
       },
       {
         "id": "adoption-europe-public-sector-legal-current-20260928",
@@ -600,6 +622,29 @@
         "next_review_due": "2026-10-05",
         "existing_text": null,
         "review_note": "Research only. Article assessment and limits: .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json#adoption-europe-public-sector-communication-20260928"
+      },
+      {
+        "id": "adoption-eu-deque-oj-forecast-20260917",
+        "aspect": "citation",
+        "statement": "Deque anticipated OJ citation around 30 November 2026; this forecast is not a confirmed citation date.",
+        "scope": "EU-wide secondary forecast; directive-specific citation not established.",
+        "stage": "planned",
+        "status": "unverified_source",
+        "source_refs": [
+          "source-eef6431babaab9bc5c9365c3",
+          "source-00032455cbec3cceebf945f6"
+        ],
+        "event_dates": [
+          {
+            "kind": "target",
+            "value": "2026-11-30"
+          }
+        ],
+        "attempted_on": "2026-09-30",
+        "verified_on": null,
+        "next_review_due": "2026-10-07",
+        "existing_text": null,
+        "review_note": "Historical webinar/blog forecast only. Contributor flagged the ETSI schedule date as obsolete on 30 September. Although a fresh browser check still displays the same target and blank achieved field, its current planning relevance is disputed. Do not contrast forecasts as established current deadlines; require a dated authoritative clarification and directive-specific OJ evidence."
       }
     ],
     "questions": [
@@ -608,7 +653,9 @@
       "Public-sector handoff (public-sector-version-comparison-2026-09-28): use .github/agents/adoption/reviews/public-sector-version-comparison-2026-09-28.json and its canonical claim IDs before proposing a public-sector comparison page; first register the destination under evidence.md. No public row or Updated date was changed.",
       "Follow-up: check current WAD-specific OJ acts for V4.1.1:2026, restrictions and transition/withdrawal dates. Owner: next EU standards research pass. Resolve only with the relevant legal act; neither the article nor an ETSI target suffices.",
       "Follow-up: complete a clause-by-clause normative comparison including all chapter 6 communication changes, 12.4–12.5 EPG conditions, authoring-tool changes and every article table row. This round is not a full technical audit.",
-      "Follow-up: verify the article’s Swedish and Dutch legal examples against current national primary legislation, and seek evidence for its auditor-practice claim before repeating either as verified."
+      "Follow-up: verify the article’s Swedish and Dutch legal examples against current national primary legislation, and seek evidence for its auditor-practice claim before repeating either as verified.",
+      "deque-webinar-2026-09-17: resolve secondary November forecast against fresh ETSI and WAD/EAA-specific OJ records. Webinar technical summary cross-refers to public-sector-version-comparison-2026-09-28 claims, not a fresh full technical verification. Blog assertions about national-law adoption and automatic application require jurisdiction-specific legal verification.",
+      "Contributor correction 2026-09-30: treat the previous ETSI planning date as no longer relevant. Obtain a dated authoritative update explaining current citation expectations; use directive-specific OJ evidence for achieved legal citation, not the still-visible target field."
     ],
     "attempts": [
       {
@@ -720,6 +767,30 @@
         "outcome": "unreachable",
         "note": "PDF screenshot tool failed to render requested page; local PDF rendering succeeded. Initial sandbox download could not resolve host; authorised network download succeeded.",
         "run_id": "public-sector-version-comparison-2026-09-28"
+      },
+      {
+        "on": "2026-09-30",
+        "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Secondary blog read; legal assertions not promoted to verified.",
+        "run_id": "deque-webinar-2026-09-17"
+      },
+      {
+        "on": "2026-09-30",
+        "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Application shell only; no schedule data.",
+        "run_id": "deque-webinar-2026-09-17"
+      },
+      {
+        "on": "2026-09-30",
+        "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
+        "method": "ordinary browser",
+        "outcome": "reachable",
+        "note": "Target and achieved columns inspected. Visible date does not resolve contributor warning that schedule is obsolete.",
+        "run_id": "deque-webinar-2026-09-17"
       }
     ],
     "last_monthly_review": null,
@@ -869,6 +940,47 @@
           "disposition": "not_applicable",
           "reason": "This standards comparison establishes no new agency remit, sanction or enforcement event for this destination.",
           "next_action": "Reassess only if domain-specific evidence is found.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "deque-webinar-2026-09-17-eu",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/adoption/european-standard.json",
+          "disposition": "research_only",
+          "reason": "Secondary EU forecast retained with prior official observation.",
+          "next_action": "Check fresh ETSI and directive-specific OJ records.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No country-specific agency, power or action established.",
+          "next_action": "No change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No country-specific agency, power or action established.",
+          "next_action": "No change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No country-specific agency, power or action established.",
+          "next_action": "No change proposed.",
           "pr": null
         }
       ]
