@@ -22,6 +22,7 @@ class AlignmentTests(unittest.TestCase):
 
     def test_non_exempt_markup_preserved(self):
         for text in [
+            '<th align="left"foo="bad">Text</th>',
             '<div align="left">Text</div>',
             '<th align="right" valign="middle">Text</th>',
             '<th align="left" align="right">Text</th>',

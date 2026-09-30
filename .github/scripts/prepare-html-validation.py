@@ -32,7 +32,16 @@ class AlignmentException(HTMLParser):
         raw = self.get_starttag_text()
         line, column = self.getpos()
         offset = self.offsets[line - 1] + column
-        for match in ATTRIBUTE.finditer(raw):
+        # Refuse malformed spacing/syntax instead of accidentally repairing it.
+        position = re.match(r"<[^\s/>]+", raw).end()
+        tokens = []
+        while not re.fullmatch(r"\s*/?>", raw[position:]):
+            token = ATTRIBUTE.match(raw, position)
+            if token is None:
+                return
+            tokens.append(token)
+            position = token.end()
+        for match in tokens:
             name = match.group(1).lower()
             if name not in APPROVED or counts[name] != 1:
                 continue
