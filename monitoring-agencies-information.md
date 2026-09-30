@@ -381,18 +381,34 @@
       ✔️ <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz/FAQ-Dienstleistungen/faq-dienstleistungen_node.html" hreflang="de">Yes</a>
     </td>
     <td align="left" valign="top">
-      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services) and E-books:</strong></p>
       <ul>
         <li><a href="https://mlbf-barrierefrei.de/" lang="de" hreflang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> — nationwide BFSG market surveillance.</li>
       </ul>
+      <p><strong>Audiovisual access (services):</strong></p>
+      <ul>
+        <li>❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <ul>
+        <li>❓ Unknown.</li>
+      </ul>
     </td>
     <td align="left" valign="top">
-      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services) and E-books:</strong></p>
       <ul>
         <li>Public reports (consumers): barrier reports via <a href="https://www.mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Meldung-von-Barrieren/" hreflang="de">MLBF reporting form</a>.</li>
         <li>Public enforcement requests (consumers): <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Antrag-nach-Paragraf-32-Absatz-1-BFSG/" hreflang="de">MLBF § 32 BFSG form</a>.</li>
         <li>Company non-compliance: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/" hreflang="de">MLBF contact form for companies, organisations and institutions</a>.</li>
         <li>Company exemptions: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/" hreflang="de">MLBF contact form for companies, organisations and institutions</a>.</li>
+      </ul>
+      <p><strong>Audiovisual access (services):</strong></p>
+      <ul>
+        <li>Public and company reporting: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <ul>
+        <li>Public and company reporting: ❓ Unknown.</li>
       </ul>
     </td>
     <td align="left" valign="top">
@@ -701,7 +717,7 @@
         <li><strong>Company exemptions:</strong> ❓ Purpose-specific filing route unknown.</li>
       </ul>
       <p><strong>Audiovisual access (multimodal services):</strong></p>
-      <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podanie-podnetu-tykajuceho-sa-multimodalneho-pristupu">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
+      <ul><li><strong>Public reports:</strong> <a href="https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu" hreflang="sk">Council for Media Services multimodal-access form</a>.</li><li><strong>Company reporting:</strong> ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><strong>Public and company reporting:</strong> ❓ Unknown.</li></ul>
     </td>
@@ -762,7 +778,7 @@
     <td align="left" valign="top">Sweden</td>
     <td align="left" valign="top">✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
     <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and Electronic communications</strong></p><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/" hreflang="sv">PTS</a></li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">Konsumentverket</a> — passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services.</li><li><a href="https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/" hreflang="sv">Transportstyrelsen</a> — transport information and interactive terminal services.</li></ul><p><strong>Audiovisual access</strong></p><ul><li><a href="https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/" hreflang="sv">Mediemyndigheten</a></li></ul><p><strong>E-books</strong></p><ul><li><a href="https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/" hreflang="sv">Myndigheten för tillgängliga medier (MTM)</a> — e-books and related software.</li></ul></td>
-    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and Electronic communications — PTS</strong></p><ul><li>Public complaints: <a href="https://lptt.pts.se/" hreflang="sv">Klagomål bristfällig tillgänglighet tjänst eller produkt</a> (Swedish 🇸🇪).</li><li>Company non-compliance: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li><li>Company exemptions: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li></ul><p>Company reporting email: If you cannot use the e-service, PTS confirmed that you can report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. PTS has received reports in English without requesting supplementary information 🇬🇧.</p><p>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</p><p><strong>Transport — Konsumentverket</strong></p><ul><li>Company non-compliance (passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services): carriers can <a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">report accessibility defects</a> to <a href="mailto:konsumentverket@konsumentverket.se">konsumentverket@konsumentverket.se</a> or Konsumentverket, Box 48, 651 02 Karlstad.</li><li>Public complaints: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport — Transportstyrelsen (transport information and interactive terminal services)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Mediemyndigheten</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Myndigheten för tillgängliga medier (MTM)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and Electronic communications — PTS</strong></p><ul><li>Public complaints: <a href="https://lptt.pts.se/" hreflang="sv">Klagomål bristfällig tillgänglighet tjänst eller produkt</a> (Swedish 🇸🇪).</li><li>Company non-compliance: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li><li>Company exemptions: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li></ul><p>Company reporting email: If you cannot use the e-service, PTS confirmed that you can report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. PTS has received reports in English without requesting supplementary information 🇬🇧.</p><p>For E-commerce and Banking services, providers must report accessibility defects immediately. <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/" hreflang="sv">PTS considers reporting within 14 days after noticing the defect sufficient</a>.</p><p><strong>Transport — Konsumentverket</strong></p><ul><li>Company non-compliance (passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services): carriers can <a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">report accessibility defects</a> to <a href="mailto:konsumentverket@konsumentverket.se">konsumentverket@konsumentverket.se</a> or Konsumentverket, Box 48, 651 02 Karlstad.</li><li>Public complaints: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport — Transportstyrelsen (transport information and interactive terminal services)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Mediemyndigheten</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Myndigheten för tillgängliga medier (MTM)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
     <td align="left" valign="top"><p><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></p><p><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.</p><p>⚖️ EAA implementing law: <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/" hreflang="sv">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>
   </tr>
 </table>

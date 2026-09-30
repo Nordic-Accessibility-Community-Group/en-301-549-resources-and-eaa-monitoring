@@ -176,6 +176,12 @@
       "label": "Law 232/2022, Article 29",
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Law 232/2022, Article 29."
+    },
+    "source-7f8c5b7cf698748c88ea6c96": {
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/257778",
+      "label": "Law 232/2022, Article 27",
+      "source_type": "⚖️ Official law",
+      "review_note": "2026-09-30 focused official-law check: Article 27 contains the listed sanctions; Article 29 covers transitional arrangements. Supersedes the previous Article 29 citation. No change to the published amounts or unresolved sector mapping."
     }
   },
   "domains": {
@@ -415,8 +421,8 @@
     },
     "sanctions": {
       "record_type": "sanctions_review_notes",
-      "last_checked": "2026-09-25",
-      "review_note": "Official source checked; summary limited to the provisions cited.",
+      "last_checked": "2026-09-30",
+      "review_note": "Official source checked; summary limited to the provisions cited. Focused citation review 2026-09-30: Article 27 replaces Article 29 in all three public citations. Only the cited provision was rechecked; this date does not certify all scope or penalty conditions.",
       "public_page": "EAA sanctions.md#romania",
       "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/e617dc2866da2c73165ee2b632251ff8094cf914/EAA%20sanctions.md#romania",
       "editorial_reviews": [
@@ -438,12 +444,25 @@
               "reason": "Move research-process details and earlier wording into the research record; keep necessary legal limits and clear unknowns in the public table."
             }
           ]
+        },
+        {
+          "review_type": "citation_correction",
+          "source_snapshot": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/90f3cb621b8f719c053fa363ce90bdfb7befad94/EAA%20sanctions.md#romania",
+          "note": "2026-09-30: replace Article 29 with Article 27 in scope, conditions and source label. Earlier evidence object retained as provenance.",
+          "changes": [
+            {
+              "column": "Article references",
+              "previous_text": "Article 29",
+              "public_text": "Article 27",
+              "reason": "Official statute locates sanctions in Article 27."
+            }
+          ]
         }
       ],
-      "public_row_sha256": "75ac08bccdd5a365c721a9507de482c251074b15f86bc121d63f820bb17c2265",
+      "public_row_sha256": "1a3574d7fb27e2d3a1a0aaab1a240b93c919c8047ba1da641ccd21bc8fbc6446",
       "language_check": "language-check.json",
       "source_refs": [
-        "source-728ef7a802aef4b42cbec66b"
+        "source-7f8c5b7cf698748c88ea6c96"
       ]
     },
     "enforcement": {
@@ -481,5 +500,43 @@
       ]
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "ro-sanctions-citation-20260930",
+      "country": "Romania",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "Correct Article 29 to Article 27; amounts and scope Unknowns retained.",
+      "next_action": "Maintainer review of focused corrections.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "No public change follows from this focused correction.",
+          "next_action": "None for this correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "sanctions",
+          "disposition": "proposed",
+          "reason": "Correct Article 29 to Article 27; amounts and scope Unknowns retained.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "No public change follows from this focused correction.",
+          "next_action": "None for this correction.",
+          "pr": null
+        }
+      ]
+    }
+  ]
 }

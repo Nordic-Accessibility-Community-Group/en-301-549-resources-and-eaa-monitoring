@@ -4472,6 +4472,24 @@
       "language": "de",
       "reason": "Recorded German-source inspection and isolated review in .github/agents/enforcement/reviews/2026-09-27-germany-mlbf-strategy.md (merged PR72); ledger reconciliation on 2026-09-29, not a fresh retrieval.",
       "checked_on": "2026-09-27"
+    },
+    {
+      "url": "https://bitvtest.de/test-methodik/web/beschreibung-des-pruefverfahrens",
+      "language": "de",
+      "reason": "Source page retrieved and read during focused correction; primary prose is German.",
+      "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+      "language": "sv",
+      "reason": "Source page retrieved and read during focused correction; primary prose is Swedish.",
+      "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu",
+      "language": "sk",
+      "reason": "Replacement official page inspected; primary prose Slovak.",
+      "checked_on": "2026-09-30"
     }
   ]
 }

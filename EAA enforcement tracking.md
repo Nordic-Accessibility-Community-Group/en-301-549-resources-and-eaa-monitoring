@@ -155,18 +155,6 @@ Type can be:
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Germany</td>
-    <td align="left" valign="top">Civil action</td>
-    <td align="left" valign="top">Active</td>
-    <td align="left" valign="top">
-      <ul>
-        <li> "German BIK testing centers says that sites using Overlay tools cannot currently make a reliable statement regarding conformity according to EN/WCAG." Source: <a href="https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance" hreflang="en">German auditors reject accessibility overlays in EAA context, by Chris Yoong.</a></li>
-      </ul>
-    </td>
-    <td align="left" valign="top">2025-12-19</td>
-    <td align="left" valign="top">-</td>
-  </tr>
-  <tr>
     <td align="left" valign="top">Ireland</td>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active</td>
@@ -244,6 +232,18 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
 </table>
+
+## Testing organisation standpoints
+
+### Germany — BIK
+
+Published position on accessibility testing; not a legal case.
+
+"German BIK testing centers says that sites using Overlay tools cannot currently make a reliable statement regarding conformity according to EN/WCAG." Source: <a href="https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance" hreflang="en">German auditors reject accessibility overlays in EAA context, by Chris Yoong.</a>
+
+BIK’s own <a href="https://bitvtest.de/test-methodik/web/beschreibung-des-pruefverfahrens" hreflang="de">testing methodology, section 4.1.1</a>, describes its position on overlay tools.
+
+Added: 2025-12-19. Updated: 2026-09-30.
 
 ## Decisions from the EU commission
 <table>

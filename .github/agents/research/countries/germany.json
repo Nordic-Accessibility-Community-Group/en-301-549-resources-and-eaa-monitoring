@@ -193,6 +193,13 @@
       "retrieved_on": "2026-09-27",
       "access_result": "reachable",
       "provenance_note": "Official source text inspected. Service PDF downloaded (76201 bytes); pages 4–5 visually inspected. Research notes only; independent translation/publication review not performed."
+    },
+    "source-de825ebd27c7212d40763722": {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__1.html",
+      "accessed_on": "2026-09-30",
+      "source_type": "legislation",
+      "section": "§ 1(2)–(3)",
+      "evidence": "Audiovisual terminal equipment is a product under §1(2). The §1(3) service list covers telecommunications, specified passenger-transport elements, consumer banking, e-books/software and e-commerce. It does not establish audiovisual-access-service or 112-answering authority or routes."
     }
   },
   "domains": {
@@ -250,11 +257,12 @@
           "field": "authority",
           "assertion": "MLBF AöR performs nationwide BFSG market surveillance for covered products and services.",
           "status": "verified",
-          "review_note": "Existing official link reachable 2026-09-24. BFSG §1 and BFSGV §§14–19 establish the covered sector set. MLBF company guidance names MLBF as the competent authority to include in Annex 3 service information. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Correction applied: narrow banking to consumer banking services, transport to passenger transport services, audiovisual to access services, and 112 to answering emergency communications directed to 112. Final wording to be rechecked against these corrections. Corrected final wording rechecked: Supported after replacing '112 emergency calls' with '112 emergency communications (answering emergency communications directed to 112)'. Other corrected final passages Supported; Exemptions supported in the documented shared-label context.",
+          "review_note": "Existing official link reachable 2026-09-24. BFSG §1 and BFSGV §§14–19 establish the covered sector set. MLBF company guidance names MLBF as the competent authority to include in Annex 3 service information. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Correction applied: narrow banking to consumer banking services, transport to passenger transport services, audiovisual to access services, and 112 to answering emergency communications directed to 112. Final wording to be rechecked against these corrections. Corrected final wording rechecked: Supported after replacing '112 emergency calls' with '112 emergency communications (answering emergency communications directed to 112)'. Other corrected final passages Supported; Exemptions supported in the documented shared-label context. Correction 2026-09-30: supersedes previous sector scope Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications. BFSG §1 does not establish MLBF authority/routes for audiovisual-access services or answering 112. Earlier review history above is retained, not a current endorsement of the superseded scope. Existing route operation was not rechecked in this focused correction.",
           "directive_context": "EAA",
-          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
           "source_refs": [
-            "source-25ee240c084c0c772392e352"
+            "source-25ee240c084c0c772392e352",
+            "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-83918e197289f54359e94508"
         },
@@ -262,18 +270,19 @@
           "field": "public_reporting",
           "assertion": "MLBF barrier-reporting form accepts reports about covered non-compliant products or services.",
           "status": "verified",
-          "review_note": "Form reachable 2026-09-24; German interface. No submission made. Name and email are displayed as optional; product/service, target and barrier are required. Other accepted languages unknown. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Correction applied: 'Consumer barrier reports' rather than broader 'Public complaints'. Original 'Meldung'; literal: report.",
+          "review_note": "Form reachable 2026-09-24; German interface. No submission made. Name and email are displayed as optional; product/service, target and barrier are required. Other accepted languages unknown. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Correction applied: 'Consumer barrier reports' rather than broader 'Public complaints'. Original 'Meldung'; literal: report. Correction 2026-09-30: supersedes previous sector scope Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications. BFSG §1 does not establish MLBF authority/routes for audiovisual-access services or answering 112. Earlier review history above is retained, not a current endorsement of the superseded scope. Existing route operation was not rechecked in this focused correction.",
           "directive_context": "EAA",
-          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
           "reporting_route": {
             "authority": "MLBF AöR",
-            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
             "channel": "form",
             "destination": "https://www.mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Meldung-von-Barrieren/",
             "eaa_specific": true
           },
           "source_refs": [
-            "source-8d8c22b0f586f907891c3d38"
+            "source-8d8c22b0f586f907891c3d38",
+            "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-697f203972224b6ebc84079b"
         },
@@ -281,18 +290,19 @@
           "field": "public_reporting",
           "assertion": "MLBF §32 form opens a formal administrative procedure for consumers unable or only partly able to use a product or service because of an alleged BFSG breach.",
           "status": "verified",
-          "review_note": "Reachable 2026-09-24; German interface; identity/address/email required. No submission made.",
+          "review_note": "Reachable 2026-09-24; German interface; identity/address/email required. No submission made. Correction 2026-09-30: supersedes previous sector scope Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications. BFSG §1 does not establish MLBF authority/routes for audiovisual-access services or answering 112. Earlier review history above is retained, not a current endorsement of the superseded scope. Existing route operation was not rechecked in this focused correction.",
           "directive_context": "EAA",
-          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
           "reporting_route": {
             "authority": "MLBF AöR",
-            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
             "channel": "form",
             "destination": "https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Antrag-nach-Paragraf-32-Absatz-1-BFSG/",
             "eaa_specific": true
           },
           "source_refs": [
-            "source-243d61f90dda5d556a1dc66c"
+            "source-243d61f90dda5d556a1dc66c",
+            "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-e567dba6338e6f80c2be9078"
         },
@@ -300,19 +310,20 @@
           "field": "company_reporting",
           "assertion": "MLBF company contact form is the official route for company non-compliance notifications.",
           "status": "verified",
-          "review_note": "Reachable 2026-09-24; German interface; organisation, contact person, address, email and message required. No submission made. Product actors also have statutory notification duties; this general company form is the official current company channel. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Supported; precision adopted: 'Company non-compliance notifications' and a general contact form for companies, organisations and institutions.",
+          "review_note": "Reachable 2026-09-24; German interface; organisation, contact person, address, email and message required. No submission made. Product actors also have statutory notification duties; this general company form is the official current company channel. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Supported; precision adopted: 'Company non-compliance notifications' and a general contact form for companies, organisations and institutions. Correction 2026-09-30: supersedes previous sector scope Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications. BFSG §1 does not establish MLBF authority/routes for audiovisual-access services or answering 112. Earlier review history above is retained, not a current endorsement of the superseded scope. Existing route operation was not rechecked in this focused correction.",
           "directive_context": "EAA",
-          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
           "reporting_route": {
             "authority": "MLBF AöR",
-            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
             "channel": "form",
             "destination": "https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/",
             "eaa_specific": true
           },
           "source_refs": [
             "source-4dc3d159b65c1786fdaf463e",
-            "source-3c5706887bf7b472e19936e8"
+            "source-3c5706887bf7b472e19936e8",
+            "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-596206588c3c9caf470bd8e1"
         },
@@ -320,19 +331,20 @@
           "field": "company_reporting",
           "assertion": "MLBF company contact form is the usable official route for Exemptions notifications.",
           "status": "verified",
-          "review_note": "The form itself is general and does not name exemptions. It is published by the competent authority as its company contact route. §17(5) excludes microenterprises; §16(4) has a narrower product-microenterprise exception. Keep EAA Article 14 detail in research, not the table. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Reviewer preferred naming the two statutory grounds. The public label remains the repository-required exact 'Exemptions:'; this note records that it means fundamental-alteration or disproportionate-burden notifications and includes the immediate-notification duty and statutory exclusions.",
+          "review_note": "The form itself is general and does not name exemptions. It is published by the competent authority as its company contact route. §17(5) excludes microenterprises; §16(4) has a narrower product-microenterprise exception. Keep EAA Article 14 detail in research, not the table. Isolated German→English review by /root/german_language on 2026-09-24, fork_turns=none. Reviewer preferred naming the two statutory grounds. The public label remains the repository-required exact 'Exemptions:'; this note records that it means fundamental-alteration or disproportionate-burden notifications and includes the immediate-notification duty and statutory exclusions. Correction 2026-09-30: supersedes previous sector scope Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications. BFSG §1 does not establish MLBF authority/routes for audiovisual-access services or answering 112. Earlier review history above is retained, not a current endorsement of the superseded scope. Existing route operation was not rechecked in this focused correction.",
           "directive_context": "EAA",
-          "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+          "scope": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
           "reporting_route": {
             "authority": "MLBF AöR",
-            "sector": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency communications",
+            "sector": "Products, E-commerce, Banking, Electronic communications, Transport and E-books",
             "channel": "form",
             "destination": "https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/",
             "eaa_specific": true
           },
           "source_refs": [
             "source-3e58e825c0635c92cbbd8f18",
-            "source-f9c4953565b7287478d1055b"
+            "source-f9c4953565b7287478d1055b",
+            "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-84a6b3ba47205aeff6078096"
         },
@@ -358,6 +370,78 @@
             "source-1c94d2cc5f0870ae6b2d10ad"
           ],
           "id": "monitoring-7770ff09e2441bf266e579f2"
+        },
+        {
+          "field": "authority",
+          "assertion": "Audiovisual access: competent authority is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-d1d475f7f0f4cc3e3eea8969"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "Audiovisual access: reporting route is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-d487b4e1d05c3e54df14f8c6"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "Audiovisual access: reporting route is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "Audiovisual access",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-60450c7d2ddfa78e2d01377f"
+        },
+        {
+          "field": "authority",
+          "assertion": "112 emergency communications (answering emergency communications directed to 112): competent authority is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "112 emergency communications (answering emergency communications directed to 112)",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-f658e995fde5717d2a6b678e"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "112 emergency communications (answering emergency communications directed to 112): reporting route is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "112 emergency communications (answering emergency communications directed to 112)",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-7b0cddafd6ce4a1650edef43"
+        },
+        {
+          "field": "company_reporting",
+          "assertion": "112 emergency communications (answering emergency communications directed to 112): reporting route is not mapped in the checked evidence.",
+          "status": "unknown",
+          "review_note": "2026-09-30 focused correction. Unknown does not mean no authority, law or reporting obligation exists. Next step: establish separate sector-specific authority and routes.",
+          "directive_context": "EAA",
+          "scope": "112 emergency communications (answering emergency communications directed to 112)",
+          "source_refs": [
+            "source-de825ebd27c7212d40763722"
+          ],
+          "id": "monitoring-30b09c931e2751925f9ce0c3"
         }
       ],
       "questions": [
@@ -434,7 +518,6 @@
         "Publication preparation 27 September 2026: user authorised a new suggested PR. Four strategy claims now support the added paragraph. Independent German fidelity and B2 readability checks supported final wording; version-bound report accompanies the PR. Existing monitoring paragraph and unrelated inherited overlay row are unchanged and not newly verified."
       ],
       "public_entry_ids": [
-        "germany-1",
         "commission-croatia-germany-1",
         "germany-monitoring-2026"
       ],
@@ -498,7 +581,7 @@
           "verified_on": null,
           "status": "unverified_source",
           "statistics": null,
-          "uncertainty": "The policy is readable, but it is not evidence of a regulatory measure or civil case. No publication date is stated for this method section.",
+          "uncertainty": "The policy is readable, but it is not evidence of a regulatory measure or civil case. No publication date is stated for this method section. 2026-09-30: user requests retaining this as a standpoint. Moved unchanged attributed quotation out of the enforcement table to a labelled prose section; no legal-case or regulatory-activity claim. Historical unverified status retained; first-party testing policy is not a competent-regulator publication.",
           "next_check": "See country follow-up questions.",
           "source_refs": [
             "source-8371741c9593c7a81ce9f398"
@@ -877,6 +960,43 @@
           "disposition": "needs_evidence",
           "reason": "Other enforcement measures is Unknown; strategy provides a lead to statutory correction/restriction/prohibition conditions.",
           "next_action": "Check BFSG provisions and propose qualified wording; do not infer imposed penalties.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "de-scope-correction-20260930",
+      "country": "Germany",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "Remove unmapped audiovisual-access and 112-answering sectors from the MLBF grouping; publish separate Unknown authority/reporting labels.",
+      "next_action": "Maintainer review of focused corrections.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Remove unmapped audiovisual-access and 112-answering sectors from the MLBF grouping; publish separate Unknown authority/reporting labels.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "sanctions",
+          "disposition": "already_present",
+          "reason": "Sanctions already separates these sectors.",
+          "next_action": "None for this correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "enforcement",
+          "disposition": "proposed",
+          "reason": "User requests retaining BIK as a clearly labelled standpoint, not a civil action.",
+          "next_action": "Review separate Testing organisation standpoints section.",
           "pr": null
         }
       ]

@@ -1592,6 +1592,43 @@
       ]
     },
     {
+      "id": "de-scope-correction-20260930",
+      "country": "Germany",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "Remove unmapped audiovisual-access and 112-answering sectors from the MLBF grouping; publish separate Unknown authority/reporting labels.",
+      "next_action": "Maintainer review of focused corrections.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Remove unmapped audiovisual-access and 112-answering sectors from the MLBF grouping; publish separate Unknown authority/reporting labels.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "sanctions",
+          "disposition": "already_present",
+          "reason": "Sanctions already separates these sectors.",
+          "next_action": "None for this correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "enforcement",
+          "disposition": "proposed",
+          "reason": "User requests retaining BIK as a clearly labelled standpoint, not a civil action.",
+          "next_action": "Review separate Testing organisation standpoints section.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-ghana",
       "country": "Ghana",
       "destinations": [
@@ -3341,6 +3378,43 @@
       ]
     },
     {
+      "id": "ro-sanctions-citation-20260930",
+      "country": "Romania",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "Correct Article 29 to Article 27; amounts and scope Unknowns retained.",
+      "next_action": "Maintainer review of focused corrections.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "No public change follows from this focused correction.",
+          "next_action": "None for this correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "sanctions",
+          "disposition": "proposed",
+          "reason": "Correct Article 29 to Article 27; amounts and scope Unknowns retained.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/romania.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "No public change follows from this focused correction.",
+          "next_action": "None for this correction.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-682",
       "country": "Saudi Arabia",
       "destinations": [
@@ -3463,6 +3537,43 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "sk-multimodal-link-repair-20260930",
+      "country": "Slovakia",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "User-authorised replacement of broken official reporting link.",
+      "next_action": "Review PR77.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Official URL replacement only.",
+          "next_action": "Review PR77.",
+          "pr": 77
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Link repair does not establish new sanctions or enforcement facts.",
+          "next_action": "None.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Link repair does not establish new sanctions or enforcement facts.",
+          "next_action": "None.",
+          "pr": null
         }
       ]
     },
@@ -3818,6 +3929,43 @@
           "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
           "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "se-reporting-timing-20260930",
+      "country": "Sweden",
+      "recorded_on": "2026-09-30",
+      "status": "proposed",
+      "reason": "User requests e-commerce/banking reporting clarification; September statistics excluded.",
+      "next_action": "Review focused wording.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Clarify immediate reporting and PTS 14-day interpretation.",
+          "next_action": "Review draft.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "No change authorised to statistics or sanctions.",
+          "next_action": "None.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No change authorised to statistics or sanctions.",
+          "next_action": "None.",
+          "pr": null
         }
       ]
     },

@@ -82,17 +82,6 @@
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L111"
     },
     {
-      "id": "germany-1",
-      "countries": [
-        "Germany"
-      ],
-      "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "920628cb2a279ec40b91c316056cee15abdc895c3ac09db5b7ec2128a0ef8c53",
-      "state": "inherited_unreviewed",
-      "claim_ids": [],
-      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/a82f3d72a8e2aaf9b138e3714e65367d0388654e/EAA%20enforcement%20tracking.md#L128"
-    },
-    {
       "id": "ireland-1",
       "countries": [
         "Ireland"
