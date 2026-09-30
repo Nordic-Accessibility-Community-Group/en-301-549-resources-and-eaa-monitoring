@@ -14,6 +14,20 @@ CHECK = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(CHECK)
 
 
+class LinkLanguageMetadataChecks(unittest.TestCase):
+    def test_only_additive_destination_language_preserves_inherited_hash(self):
+        original = '<tr><td><a href="https://example.org/">Source</a></td></tr>'
+        annotated = original.replace('href=', 'hreflang="de" href=')
+        # The publication writer appends the attribute; the alternate position is also valid.
+        self.assertEqual(CHECK.publication_digest(annotated, {CHECK.digest(original)}), CHECK.digest(original))
+
+    def test_content_or_destination_changes_do_not_inherit_old_hash(self):
+        original = '<tr><td><a href="https://example.org/">Source</a></td></tr>'
+        annotated = original.replace('">', '" hreflang="de">')
+        for changed in [annotated.replace('Source', 'New claim'), annotated.replace('example.org', 'other.org'), annotated.replace('hreflang', 'lang')]:
+            self.assertNotEqual(CHECK.publication_digest(changed, {CHECK.digest(original)}), CHECK.digest(original))
+
+
 class RecordChecks(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()

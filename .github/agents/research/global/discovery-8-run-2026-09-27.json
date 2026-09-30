@@ -1,0 +1,1072 @@
+{
+  "id": "world-discovery-8-2026-09-27",
+  "started_at": "2026-09-27T16:43:23Z",
+  "research_closed_at": "2026-09-27T17:01:30Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "elapsed_research_minutes": 18.1167,
+  "scope": [
+    "Albania",
+    "Andorra",
+    "Austria",
+    "Belarus",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "Bulgaria",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Ireland",
+    "Italy",
+    "Kosovo",
+    "Latvia",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Monaco",
+    "Montenegro",
+    "Netherlands (Kingdom of the)",
+    "North Macedonia",
+    "Poland",
+    "Portugal",
+    "Republic of Moldova",
+    "Romania",
+    "Russian Federation",
+    "San Marino",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+    "Sweden",
+    "Ukraine",
+    "Holy See",
+    "Democratic People's Republic of Korea",
+    "Tuvalu",
+    "Vanuatu",
+    "Cook Islands",
+    "Niue",
+    "China, Hong Kong Special Administrative Region",
+    "China, Macao Special Administrative Region",
+    "Faroe Islands"
+  ],
+  "selection_reason": "50 pending European, Asian and Pacific countries/areas; existing13 adoption countries excluded.",
+  "country_windows": {
+    "Albania": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Andorra": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Austria": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Belarus": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Belgium": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Bosnia and Herzegovina": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Bulgaria": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Croatia": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Cyprus": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Czechia": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Denmark": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Estonia": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Finland": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "France": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Germany": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Greece": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Hungary": {
+      "started_at": "2026-09-27T16:43:23Z",
+      "completed_by": "2026-09-27T16:53:23Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Ireland": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Italy": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Kosovo": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Latvia": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Liechtenstein": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Lithuania": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Luxembourg": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Malta": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Monaco": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Montenegro": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Netherlands (Kingdom of the)": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "North Macedonia": {
+      "started_at": "2026-09-27T16:46:00Z",
+      "completed_by": "2026-09-27T16:56:00Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Poland": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Portugal": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Republic of Moldova": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Romania": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Russian Federation": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "San Marino": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Serbia": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Slovakia": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Slovenia": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Spain": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Sweden": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Ukraine": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Holy See": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Democratic People's Republic of Korea": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Tuvalu": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Vanuatu": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Cook Islands": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Niue": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "China, Hong Kong Special Administrative Region": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "China, Macao Special Administrative Region": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    },
+    "Faroe Islands": {
+      "started_at": "2026-09-27T16:52:00Z",
+      "completed_by": "2026-09-27T17:01:30Z",
+      "note": "Conservative overlapping research/fidelity-review window; preparation and validation occur afterwards."
+    }
+  },
+  "remaining_pending_entries": 48,
+  "source_access_ledger": {
+    "Albania": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Catalogue search lead SSH EN301549V3.2.1:2021; two failed retrievals, metadata not verified.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://dps.gov.al/en/project/show/dps%3Aproj%3A66087"
+      }
+    ],
+    "Andorra": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Read law27/2017; government catalogue also identifies Llei24/2025: https://www.govern.ad/es/tematiques/habitatge/normativa . Current consolidated requirements unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://portaljuridicandorra.ad/L2017027_0"
+      }
+    ],
+    "Austria": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader failed once; search metadata only.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.ris.bka.gv.at/geltendefassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004228"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Austrian Standards lists ÖVE/ÖNORM EN 301549 V3.2.1, issued on 1 May 2021, referring to EN 301 549 V3.2.1:2021 (source notation 2021-03).",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.austrian-standards.at/de/shop/ove-onorm-en-301549-v3-2-1-2021-05-01~p2575676"
+      }
+    ],
+    "Belarus": [],
+    "Belgium": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Agency accessibility statement is a lead to legislation, not consolidated legal text.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.workinginbelgium.fgov.be/en/accessibility-statement.html"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The NSSO accessibility statement for Working in Belgium refers to EN 301 549 when reporting partial website compliance. This is a website-specific reference, not a national standards-adoption finding.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.workinginbelgium.fgov.be/en/accessibility-statement.html"
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Ministry overview; retrieve consolidated instrument separately.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://mhrr.gov.ba/en/anti-discrimination"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "ISBIH’s 2022 bulletin lists BAS EN 301 549 V3.2.1:2022 and identifies EN 301 549 V3.2.1:2021 as identical (IDT).",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://isbih.gov.ba/uploads/dokumenti/Glasnik/sluzbene-objave-2-2022.pdf"
+      }
+    ],
+    "Bulgaria": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Legislation catalogue; provisions and current amendments not audited.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.mlsp.government.bg/zakoni"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The Bulgarian State Reserve’s accessibility declaration identifies BDS EN 301549:2021 and EN 301 549 V3.2.1:2021 as applicable standards for its website assessment. This is an agency website reference.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.statereserve.bg/bg/speczialni/deklaracziya-za-dostpnost.html"
+      }
+    ],
+    "China, Hong Kong Special Administrative Region": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Historical verified-legislation list search lead; retrieve current ordinance.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.elegislation.gov.hk/verifiedlist?_lang=en&dt=20200402102000000000"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Generic export-market testing-service marketing on Hong Kong locale page; no domestic adoption or procurement connection established.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.sgs.com/en-hk/services/european-accessibility-act-eaa-services"
+      }
+    ],
+    "China, Macao Special Administrative Region": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Reader failed; architectural-barrier law metadata only; current status unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://bo.io.gov.mo/bo/i/83/40/lei09.asp"
+      }
+    ],
+    "Cook Islands": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Official complaint guidance; obtain complete current Act.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://ombudsman.gov.ck/complaints/disability-act-2008/"
+      }
+    ],
+    "Croatia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Secondary source; obtain official Narodne novine text.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.zakon.hr/z/490/zakon-o-suzbijanju-diskriminacije"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "HZN’s repository lists HRN EN 301 549 V3.2.1:2021 for ICT accessibility requirements.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://repozitorij.hzn.hr/norm/HRN%2BEN%2B301%2B549%2BV3.2.1%3A2021"
+      }
+    ],
+    "Cyprus": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Search metadata only; current text not read.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://cylaw.org/nomoi/enop/non-ind/2000_1_127/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "EU representation website lead, not national standard adoption; one failed retrieval.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://cyprus.representation.ec.europa.eu/accessibility_en?prefLang=ga"
+      }
+    ],
+    "Czechia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Secondary text; reconcile against official collection.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.zakonyprolidi.cz/cs/2009-198"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://agenturacas.gov.cz/produkty-a-sluzby/reprodukce-csn/normy-spotrebitele/podpora-a-integrace-osob-se-zdravotnim-postizenim/"
+      }
+    ],
+    "Democratic People's Republic of Korea": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "International mission report; primary national law text and current status unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://seoul.ohchr.org/en/node/195"
+      }
+    ],
+    "Denmark": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Reader returned no substantive text; historical consolidation.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.retsinformation.dk/eli/lta/2017/1001"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Danish Standards makes DS/ETSI EN 301 549 V3.2.1:2021 available in Danish and English for public bodies under its agreement with the Agency for Digital Government.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.ds.dk/da/tilgaengelighed"
+      }
+    ],
+    "Estonia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.evs.ee/en/evs-en-301-549-v4-1-1-2026"
+      }
+    ],
+    "Faroe Islands": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Title/header dates differ; no exact date or legal-effect claim recorded.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://logir.fo/Logtingslog/63-fra-26-06-2011-fra-at-banna-mismuni-a-arbeidsmarknadinum-orsakad-av-breki"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Search snippet lists foreign regulatory examples; local relationship unresolved and no full read completed.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://gjaldstovan.fo/Gjaldstovan/media/2497/faa-mest-ud-af-microsoft-365-nilu-safar-technical-solution-specialist-microsoft.pdf"
+      }
+    ],
+    "Finland": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "English translation completed2015; later amendments unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://finlex.fi/en/legislation/translations/2014/eng/1325"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Traficom’s guidance on the Act on the Provision of Digital Services identifies EN 301 549 as the standard defining its technical accessibility requirements and links an SFS edition.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services-0"
+      }
+    ],
+    "France": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Original Gazette section; not a current consolidated audit.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000000896189"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The French government’s RGAA reference page links EN 301 549 V2.1.2:2018 in French and English. This establishes a reference in that guidance, not the latest applicable national edition.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://accessibilite.numerique.gouv.fr/ressources/references/"
+      }
+    ],
+    "Germany": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Source identified; no provision-level currentness claim.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.gesetze-im-internet.de/bgg/BJNR146800002.html"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "DIN Media lists DIN EN 301549:2022-06 with EN 301 549 V3.2.1:2021 (source notation 2021-03) as its English version.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.dinmedia.de/en/standard/din-en-301549/353869627?indexName=prod_dinmedia_products"
+      }
+    ],
+    "Greece": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader failed once; law remains search lead.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.amea.gov.gr/legislation/23/38"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "An ELOT telecommunications-standardization presentation lists ELOT EN 301 549 among example ETSI standards. The cited slide does not specify an edition.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://elot.gr/wp-content/uploads/2025/11/2.-%CE%95%CE%9B%CE%9F%CE%A4_%CE%A4%CE%97%CE%9B%CE%95%CE%A0%CE%99%CE%9A%CE%9F%CE%99%CE%9D%CE%A9%CE%9D%CE%99%CE%95%CE%A3_%CE%A8%CE%A5%CE%A1%CE%A1%CE%97%CE%A3.pdf"
+      }
+    ],
+    "Holy See": [],
+    "Hungary": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader failed once; law remains search lead.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://njt.hu/jogszabaly/1998-26-00-00.49"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "MSZT states that it published the Hungarian-language version of MSZ EN 301 549:2020 on 1 December 2020. The underlying EN version and subsequent national editions require separate checking.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.mszt.hu/hu-hu/szabvanyositas/hirek/2020/12/ikt-termekek-es-szolgaltatasok-akadalymentessegi-kovetelmenyei"
+      }
+    ],
+    "Ireland": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Reader failed once; original enacted version lead.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.irishstatutebook.ie/eli/2005/act/14/enacted/en/print"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Ireland’s National Disability Authority refers to EN 301 549 V3.2.1 in its guidance on public-body websites and mobile applications under the Web Accessibility Directive.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://nda.ie/monitoring/eu-web-accessibility-directive/what-are-the-eu-web-accessibility-requirements"
+      }
+    ],
+    "Italy": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Search metadata only; consolidation not read.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004G0015&atto.dataPubblicazioneGazzetta=2004-01-17&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=vigente&title=lbl.dettaglioAtto"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://store.uni.com/uni-cei-en-301549-2021"
+      }
+    ],
+    "Kosovo": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Search metadata only; consolidated law not checked.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=10924&langid=2"
+      }
+    ],
+    "Latvia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Source read for identity; legal applicability not audited.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://likumi.lv/ta/id/211494"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "LVS lists LVS EN 301549:2022 L in Latvian and identifies ETSI EN 301 549 V3.2.1:2021 (source notation 2021-03) among its source documents.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.lvs.lv/lv/products/154379"
+      }
+    ],
+    "Liechtenstein": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Version metadata only; amendments and current provisions unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.gesetze.li/konso/2006243000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=7"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The Liechtenstein administration’s accessibility statement refers to EN 301 549 V3.2.1:2021 (source notation 2021-03) when reporting partial website compliance. This is a website-specific reference.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.llv.li/de/navigation/footer-nav/barrierefreiheitserklaerung"
+      }
+    ],
+    "Lithuania": [
+      {
+        "on": "2026-09-27",
+        "method": "search metadata only",
+        "outcome": "unknown",
+        "note": "Official guidance search lead; underlying law not read.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://vdi.lrv.lt/en/equal-opportunities/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Search indicates EN reference; two failed PDF reads prevent passage verification.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.e-tar.lt/rs/actualedition/TAR.3FB3953EFFDC/RhXljJcduS/format/ISO_PDF/"
+      }
+    ],
+    "Luxembourg": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Agency statement links law; no legal interpretation recorded.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://portail-qualite.public.lu/fr/support/accessibilite.html"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "ILNAS’s website accessibility statement reports partial compliance with EN 301 549 and RGAA v4. This is a website-specific reference without an edition in the cited passage.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://portail-qualite.public.lu/fr/support/accessibilite.html"
+      }
+    ],
+    "Malta": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "PDF source; version and amendments require checking.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://legislation.mt/getpdf/607803f4df724c17c8861adb"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Website statement EN search lead; two failed reads.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://finance.gov.mt/accessibility/"
+      }
+    ],
+    "Monaco": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Reader failed once; title retained as discovery metadata.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://legimonaco.mc/tnc/loi/2014/12-02-1.410"
+      }
+    ],
+    "Montenegro": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Publication landing page; do not confuse newer draft search hit with enacted law.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.gov.me/dokumenta/a7cee929-28ed-4814-a2a4-07fd126b0311"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://isme.me/en/download/file/page-section/304"
+      }
+    ],
+    "Netherlands (Kingdom of the)": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Search metadata available; robots restriction prevents reader access.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://wetten.overheid.nl/BWBR0014915"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "NEN’s catalogue lists NEN-EN 301549:2021, published on 1 June 2021. The retrieved metadata does not identify the underlying EN version.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.nen.nl/en/nen-en-301549-2021-en-292903"
+      }
+    ],
+    "Niue": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Media lead on policy review; reader failed; not a verified enacted law.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://tvniue.com/2022/06/24/another-call-on-the-government-to-ratify-crpd-in-the-review-of-the-national-policy-on-disability/"
+      }
+    ],
+    "North Macedonia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "PDF retrieval failed once; consolidation date unresolved.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.mtsp.gov.mk/WBStorage/Files/diskriminacija_konsolidiran.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Bulletin contains MKS101550:2015 and EN in related-report title, but section and document status were not resolved; defer country connection.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://isrsm.gov.mk/sq/download/file/page-section/57"
+      }
+    ],
+    "Poland": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Human-verification page instead of law text.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20190001696/U/D20191696Lj.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "UKE’s standards page refers to EN 301 549 V3.2.1:2021 and links its Polish translation in PKN’s catalogue. This records the page’s reference, not a finding about the latest edition.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://bip.uke.gov.pl/normy/normy%2C1%2C1%2Cwersja.html"
+      }
+    ],
+    "Portugal": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Legal-source lead; current amendments and provisions not audited.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://diariodarepublica.pt/dr/detalhe/lei/46-2006-540797"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Two failed reads of agency guidance; observatory reader returned empty content; references remain unverified.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.acessibilidade.gov.pt/blogue/categoria-acessibilidade/3passos-declaracao/"
+      }
+    ],
+    "Republic of Moldova": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Amendment source only; retrieve complete Law60/2012 separately.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.legis.md/cautare/downloadpdf/146137"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "ISM’s catalogue lists SM CEN/CLC/ETSI TR 101550:2022, whose title refers to EN 301 549 V1.1.1. This is a related technical report, not adoption of EN 301 549 itself.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://shop.standard.md/ro/standart_print/648264"
+      }
+    ],
+    "Romania": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "Search indicates EN301549V3.2.1 in December2022norms; two failed reads.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://legislatie.just.ro/public/DetaliiDocument/263193"
+      }
+    ],
+    "Russian Federation": [],
+    "San Marino": [],
+    "Serbia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "2016 amendment only; retrieve consolidated statute.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.parlament.gov.rs/upload/archive/files/lat/pdf/zakoni/2016/3138-15%20lat.pdf"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "failed",
+        "note": "SRPS EN301549:2019 catalogue lead; two failed reads.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://iss.rs/sr_Cyrl/project/show/iss%3Aproj%3A69414"
+      }
+    ],
+    "Slovakia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Legal-source identity only; version-specific requirements not audited.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/365"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "The Slovak standards office hosts a preview of STN EN 301 549 V1.1.2:2015. Its cover states that it includes the English version of the European Standard; latest national status requires separate checking.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://normy.normoff.gov.sk/norma/121650/nahlad/"
+      }
+    ],
+    "Slovenia": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Unofficial consolidated text hosted by official portal; follow its disclaimer.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://pisrs.si/api/datoteke/integracije/430130525"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.gov.si/novice/2025-01-13-brezplacno-do-standarda-sist-en-301-549-v3-2-1/"
+      }
+    ],
+    "Spain": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Dated2023version; current consolidation requires separate check.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://boe.es/buscar/act.php?id=BOE-A-2013-12632&p=20230509&tn=6"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "UNE’s February 2022 magazine lists UNE-EN 301549 among new standards for ICT accessibility requirements. The cited article does not identify the underlying EN version.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://revista.une.org/44/requisitos-de-accesibilidad-para-productos-y-servicios-tic.html"
+      }
+    ],
+    "Sweden": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Source identity only; no current provision-level interpretation.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/diskrimineringslag-2008567_sfs-2008-567/"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Sweden’s National Procurement Services lists EN 301 549 among its guidance documents for accessibility in public procurement. The cited passage does not specify an edition.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.avropa.se/upphandlingar/vara-fokusomraden/tillganglighet/"
+      }
+    ],
+    "Tuvalu": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Policy catalogue only; distinguish2018policy and later unendorsed revision leads.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://gender.gov.tv/policies-strategies/"
+      }
+    ],
+    "Ukraine": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "unreachable",
+        "note": "Historical summary reader failed; obtain full current text.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://zakon.rada.gov.ua/laws/anot/875-12"
+      },
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://www.undp.org/ukraine/blog/new-standard-change-government-websites-and-applications"
+      }
+    ],
+    "Vanuatu": [
+      {
+        "on": "2026-09-27",
+        "method": "web reader",
+        "outcome": "reachable",
+        "note": "Policy period has ended; successor and legal effect not established.",
+        "run_id": "world-discovery-8-2026-09-27",
+        "url": "https://mjcs.gov.vu/images/policy/DID_Policy_2018-2025.pdf"
+      }
+    ]
+  },
+  "verification_scope": "27 independently reviewed EN source references;43 law/policy/source leads; seven entries without a captured law source. Unsuccessful searches are not negative adoption findings.",
+  "public_page_changes": false,
+  "coordination": "PR71 remains based on setup PR70; PR72 overlaps Germany and generated routing. Maintainer must combine domains and regenerate projection before merging.",
+  "validation": {
+    "country_records": "PASS:69countries,797claims,100deliveryevents",
+    "adoption": "PASS:62records and27regression tests",
+    "inventory": "PASS:250unique entries,48pending,13excluded; previous domains, evidence, deliveries and deferred tasks preserved",
+    "markdown": "PASS",
+    "whitespace": "PASS",
+    "verification_dates": "PASS: no last_verified markers",
+    "rendered_html": "Incomplete: installed legacy tidy stops on pre-existing enforcement-page warnings; no public page changed",
+    "links": "No exhaustive link checker; access outcomes retained",
+    "checked_at": "2026-09-27T17:09:40.526027+00:00"
+  },
+  "limits": [
+    "No exhaustive law audit, no latest-edition audit for all countries.",
+    "Catalogue publication dates are not legal commencement dates.",
+    "Ten unverified EN leads deferred; shared files retained where country connection remains unresolved.",
+    "National identifiers preserve source years; underlying EN version is not invented."
+  ]
+}

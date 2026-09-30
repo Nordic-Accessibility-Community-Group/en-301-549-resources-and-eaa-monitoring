@@ -1,0 +1,53 @@
+{
+  "id": "world-discovery-1-2026-09-27",
+  "started_at": "2026-09-27T14:21:25Z",
+  "research_closed_at": "2026-09-27T14:27:17Z",
+  "budget_minutes": 30,
+  "per_country_minutes": 10,
+  "scope": [
+    "United States",
+    "South Africa",
+    "Israel"
+  ],
+  "selection_reason": "Initial cross-regional pilot among pending entries, to exercise both explicit EN connection and shared law-only research storage. Not a complete regional or worldwide pass.",
+  "excluded_existing_adoption_countries": 13,
+  "remaining_pending_entries": 234,
+  "attempts_storage": {
+    "United States": ".github/agents/research/countries/united states.json",
+    "South Africa": ".github/agents/research/global/worldwide-index.json#m49-710",
+    "Israel": ".github/agents/research/global/worldwide-index.json#m49-376"
+  },
+  "verification_scope": "Exact cited passages checked and isolated wording review completed. No fresh full national legal applicability or legal-currentness audit.",
+  "process_dependency": "PR70 needs research-only canonical-record support; code/process remains in that separate prerequisite PR.",
+  "public_page_changes": false,
+  "validation": {
+    "shared_country_records": "PASS:45 countries,750 claims,53 delivery events",
+    "adoption_coverage": "PASS:15 research records,14 public rows",
+    "adoption_tests": "27 passed with separate setup prerequisite",
+    "markdown": "PASS:40 files",
+    "whitespace": "PASS",
+    "source_fidelity": "All five corrected research summaries Supported; legal limitations retained"
+  },
+  "notification_history": [
+    "Started separate research batch; reported US non-incorporation distinction and law-source findings for South Africa/Israel."
+  ],
+  "elapsed_research_minutes": 5.8667,
+  "remaining_research_minutes": 24.1333,
+  "country_windows": {
+    "United States": {
+      "started_at": "2026-09-27T14:21:25Z",
+      "completed_by": "2026-09-27T14:27:17Z",
+      "conservative_elapsed_minutes": 5.8667
+    },
+    "South Africa": {
+      "started_at": "2026-09-27T14:21:25Z",
+      "completed_by": "2026-09-27T14:27:17Z",
+      "conservative_elapsed_minutes": 5.8667
+    },
+    "Israel": {
+      "started_at": "2026-09-27T14:21:25Z",
+      "completed_by": "2026-09-27T14:27:17Z",
+      "conservative_elapsed_minutes": 5.8667
+    }
+  }
+}

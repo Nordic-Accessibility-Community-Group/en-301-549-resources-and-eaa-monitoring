@@ -60,6 +60,9 @@ def inherited_rows(root):
     require(hashlib.sha256(raw).hexdigest() == BASELINE_SHA256, 'Frozen adoption baseline changed')
     return json.loads(raw)['rows']
 
+from link_language import additive_language_digest
+
+
 def row_digest(row):
     return hashlib.sha256(row.encode()).hexdigest()
 
@@ -109,7 +112,15 @@ def check_domain(name, domain, pool, root, row, today):
         else:
             require(verified is None, 'Unverified claim has verification date')
     require(len(domain['public_claim_ids']) == len(set(domain['public_claim_ids'])) and all(i in claims for i in domain['public_claim_ids']), 'Public claim mapping')
-    require(row_digest(row) == domain['public_row_sha256'], name + ': public row changed without evidence mapping')
+    if row is None:
+        baseline_name = 'Europe' if name == 'European Union' else name
+        require(baseline_name not in inherited_rows(root), 'Inherited public row cannot become research-only')
+        require(domain['public_row_sha256'] is None and not domain['public_claim_ids']
+                and domain['public_cells'] == {} and domain['review_report'] is None,
+                'Research-only record must have empty publication mappings')
+        require(claims, 'Research-only record needs claims')
+        return claims
+    require(additive_language_digest(row, {domain['public_row_sha256']}) == domain['public_row_sha256'], name + ': public row changed without evidence mapping')
     require(domain['public_claim_ids'], 'Public row needs claim mappings')
     baseline = inherited_rows(root)
     old_name = 'Europe' if name == 'European Union' else name
@@ -199,12 +210,11 @@ def check(root, require_coverage=False, today=None):
                         country = json.loads(destination.read_text())
                         require(target['domain'] in country['domains'], 'Global handoff domain missing')
         domains['European Union' if 'European Union' in public else 'Europe'] = (g['adoption'],g['evidence'])
-    require(set(domains).issubset(public), 'Research row missing from page')
     if require_coverage:
-        require(set(domains) == set(public), 'Baseline missing adoption records')
+        require(set(public).issubset(domains), 'Baseline missing adoption records')
     ids = set()
     for name,(domain,pool) in domains.items():
-        claims = check_domain(name,domain,pool,root,public[name],today)
+        claims = check_domain(name,domain,pool,root,public.get(name),today)
         require(not ids.intersection(claims), 'Duplicate cross-country claim ID')
         ids.update(claims)
     return domains

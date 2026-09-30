@@ -1,5 +1,7 @@
 # Enforcement presentation conventions
 
+Follow the shared [link-language presentation rules](../presentation.md).
+
 ## Coverage and ordering
 
 Publish a country only when there is supported, relevant activity to report. Research records cover all EU countries; the public page does not. Never add placeholder country rows or empty sector lists. Preserve the current tables and inherited entries until their evidence is reviewed. These conventions govern future supported edits, not a wholesale reclassification during setup.

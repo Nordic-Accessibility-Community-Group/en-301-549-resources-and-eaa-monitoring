@@ -1,0 +1,163 @@
+{
+  "schema_version": 2,
+  "country": "Malaysia",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-46829e5fde75aee9b390e9a4": {
+      "issuer": "KO-NELAYAN, Sabah",
+      "url": "https://konelayan.sabah.gov.my/penyata-kebolehcapaian.html",
+      "source_type": "official_government",
+      "language": "ms",
+      "passage": "Sections 1–2: WCAG2.1 AA target, partial conformance and explicit EN301549 mention in explanation of publishing remaining gaps. Site interpretation of EN requirements is not independently endorsed. Statement updated 23 August2026; footer date is separate.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-27e0d3410d56f567b2663948": {
+      "issuer": "Ministry of Health Malaysia",
+      "url": "https://hq.moh.gov.my/bpkk/images/Kesihatan_Orang_Kurang_Upaya/PDF/Akta_dan_Dasar/1_Undang-Undang_Malaysia_-_Akta_Orang_Kurang_Upaya_2008_Akta_685.pdf",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "Persons with Disabilities Act2008, Act685: official PDF lead. Reader returned metadata only; statutory provisions were not readable. No legal scope or commencement verified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "unknown",
+      "method": "web reader metadata only; PDF screenshot rendering failed"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-malaysia-konelayan-reference",
+          "aspect": "reference",
+          "statement": "KO-NELAYAN’s website accessibility statement explicitly mentions EN 301 549 when explaining disclosure of remaining accessibility gaps. The statement targets WCAG 2.1 AA and describes partial conformance. This is an institutional reference, not evidence of Malaysian national adoption; no EN edition is specified.",
+          "scope": "KO-NELAYAN institutional website statement only.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-46829e5fde75aee9b390e9a4"
+          ],
+          "event_dates": [
+            {
+              "kind": "page_updated",
+              "value": "2026-08-23"
+            }
+          ],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Explicit institutional mention only; no national adoption, binding EN obligation, conformance or edition established. No public row proposed. See global/discovery-2-review-2026-09-27.json."
+        }
+      ],
+      "questions": [
+        "Legal mapping lead source-27e0d3410d56f567b2663948: Persons with Disabilities Act2008 (Act685), official Ministry of Health PDF. Metadata retrieved, statutory text unreadable; obtain readable official text before verifying provisions, scope or commencement.",
+        "EN follow-up: inspect national standards/procurement sources. Institutional reference alone does not establish national adoption. No EN version specified; do not infer V3.2.1:2021.",
+        "The statement’s interpretation of disclosure requirements is attributed to its issuer, not independently validated against EN301549.",
+        "Routing: no monitoring/sanctions/enforcement change established. Preserve incidental law source in this record for future global legal mapping."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "KO-NELAYAN statement located. Vendor cloud-compliance deck excluded as evidence of national policy.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "query": "site:gov.my \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Statement sections1–2 and updated date read.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "url": "https://konelayan.sabah.gov.my/penyata-kebolehcapaian.html"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "No usable law source.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "query": "site:jkm.gov.my \"Persons with Disabilities Act 2008\" 30"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "No usable law source.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "query": "site:standardsmalaysia.gov.my \"Persons with Disabilities Act\" 2008"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Ministry of Health PDF located.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "query": "\"Act 685\" site:gov.my filetype:pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "unknown",
+          "note": "Metadata only; body unavailable. Two local screenshot requests failed content-type resolution; no statutory text verified.",
+          "run_id": "world-discovery-2-2026-09-27",
+          "url": "https://hq.moh.gov.my/bpkk/images/Kesihatan_Orang_Kurang_Upaya/PDF/Akta_dan_Dasar/1_Undang-Undang_Malaysia_-_Akta_Orang_Kurang_Upaya_2008_Akta_685.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-2-2026-09-27-malaysia",
+      "country": "Malaysia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/malaysia.json",
+          "disposition": "research_only",
+          "reason": "Explicit institutional EN reference; no public row proposed.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
+          "next_action": "Retain evidence and questions for further national and legal research.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        }
+      ]
+    }
+  ]
+}

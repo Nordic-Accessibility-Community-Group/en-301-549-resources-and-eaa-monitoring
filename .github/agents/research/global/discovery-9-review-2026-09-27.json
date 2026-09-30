@@ -1,0 +1,98 @@
+{
+  "reviewed_on": "2026-09-27",
+  "isolation": "no_history",
+  "scope": "Seven exact source-reference statements; no public wording or substantive legal interpretation.",
+  "reviews": {
+    "Aruba": {
+      "reviewer": "batch9_fidelity_a",
+      "source_url": "https://www.toegankelijkheidsverklaring.nl/register/17794",
+      "source_language": "nl",
+      "section": "Onderbouwing / Onderzoeksresultaten",
+      "excerpt": "EN (Europese Norm) 301 549",
+      "literal_rendering": "EN (European Standard) 301 549",
+      "exact_reviewed_text": "The Governor of Aruba’s registered website accessibility statement refers to EN 301 549 in describing the coverage of its accessibility research. This is an institutional website reference, not a territory-wide adoption finding.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Bonaire, Sint Eustatius and Saba": {
+      "reviewer": "batch9_fidelity_a",
+      "source_url": "https://zoek.officielebekendmakingen.nl/stb-2025-406.html",
+      "source_language": "nl",
+      "section": "Nota van toelichting 2.4; articles IV and VI",
+      "excerpt": "wordt EN301549 bij algemene maatregel van bestuur verplicht",
+      "literal_rendering": "EN301549 is made mandatory by order in council",
+      "exact_reviewed_text": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Curaçao": {
+      "reviewer": "batch9_fidelity_a",
+      "source_url": "https://www.gouverneurcuracao.com/service/toegankelijkheid",
+      "source_language": "nl",
+      "section": "Wat is een toegankelijke website?",
+      "excerpt": "overheidssites moeten voldoen aan toegankelijkheidseisen",
+      "literal_rendering": "government websites must meet accessibility requirements",
+      "exact_reviewed_text": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Guadeloupe": {
+      "reviewer": "batch9_fidelity_b",
+      "source_url": "https://www.dsautomobiles.gp/outils/declaration-accessibilite.html",
+      "source_language": "fr",
+      "section": "Opening identification; ÉTAT DE CONFORMITÉ",
+      "excerpt": "En l’absence de ce contrôle, Le Site est considéré comme non conforme",
+      "literal_rendering": "In the absence of this check, the Site is considered non-conformant",
+      "exact_reviewed_text": "DS Automobiles–Auto Guadeloupe’s accessibility declaration for dsautomobiles.gp refers to EN 301 549 V3.2.1 and states that the site is considered non-conformant pending a complete audit. This is a corporate website reference, not a territorial adoption finding.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Jersey": {
+      "reviewer": "batch9_fidelity_b",
+      "source_url": "https://switch.je/accessibility-statement",
+      "source_language": "en",
+      "section": "Sections 1–3; Jersey; What does not apply to us",
+      "excerpt": "this website is published from Jersey",
+      "literal_rendering": "this website is published from Jersey",
+      "exact_reviewed_text": "Switch Digital’s accessibility statement says that its website is published from Jersey and discusses EN 301 549 when comparing its voluntary WCAG 2.2 target with the earlier WCAG version referenced by that standard. This is a corporate comparison, not adoption of EN 301 549 by Jersey.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Sint Maarten (Dutch part)": {
+      "reviewer": "batch9_fidelity_c_clean",
+      "source_url": "https://papiamentu.vnacs.nl/servisio/aksesibilidat",
+      "source_language": "pap",
+      "section": "Kiko ta un wèpsait aksesibel?",
+      "excerpt": "wèpsaitnan gubernamental mester kumpli ku e rekisitonan di aksesibilidat establesé den EN 301 549/WACAG 2.1",
+      "literal_rendering": "government websites must comply with the accessibility requirements established in EN 301 549/WACAG 2.1",
+      "exact_reviewed_text": "The Dutch Representation in Aruba, Curaçao and Sint Maarten refers to EN 301 549 in its Papiamentu website accessibility page. This is a reference by the Netherlands’ representation, not evidence of adoption by Sint Maarten’s government.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval."
+    },
+    "Åland Islands": {
+      "reviewer": "batch9_fidelity_c_clean",
+      "source_url": "https://varumarke.ax/en/accessibility/",
+      "source_language": "en",
+      "section": "Content that is not available; subsection 1",
+      "excerpt": "Downloads and documents (PDF/ZIP) - accessibility not fully verified (EN 301 549 / WCAG 2.1)",
+      "literal_rendering": "Downloads and documents (PDF/ZIP) - accessibility not fully verified (EN 301 549 / WCAG 2.1)",
+      "exact_reviewed_text": "The Åland place-brand website’s accessibility statement refers to EN 301 549/WCAG 2.1 when identifying downloads and documents whose accessibility has not been fully verified. This establishes a website-specific reference, not a finding about territorial legal requirements.",
+      "verdict": "Supported",
+      "reviewed_on": "2026-09-27",
+      "limits": "Language fidelity only; no legal applicability or public-row approval. English published statement retrieved directly. Swedish original direct retrieval failed; supplied indexed Swedish excerpt checked linguistically, not certified as a directly retrieved original."
+    }
+  },
+  "corrections": [],
+  "discarded_review": "Initial batch9_fidelity_c reviewer reported incidental exposure to unrelated repository snippets. Its verdict was discarded and both statements rechecked by batch9_fidelity_c_clean using only supplied passages and web sources.",
+  "limits": [
+    "Historical material and other domains not re-reviewed.",
+    "Law and policy metadata remains unverified lead material.",
+    "Supported language verdicts do not elevate corporate statements to legal evidence."
+  ]
+}

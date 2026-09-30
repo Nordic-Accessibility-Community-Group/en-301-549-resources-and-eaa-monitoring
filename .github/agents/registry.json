@@ -12,6 +12,16 @@
   ],
   "jurisdictions": [
     {
+      "name": "Angola",
+      "slug": "angola",
+      "group": "non-EU"
+    },
+    {
+      "name": "Aruba",
+      "slug": "aruba",
+      "group": "non-EU"
+    },
+    {
       "name": "Australia",
       "slug": "australia",
       "group": "non-EU"
@@ -22,9 +32,29 @@
       "group": "EU"
     },
     {
+      "name": "Azerbaijan",
+      "slug": "azerbaijan",
+      "group": "non-EU"
+    },
+    {
+      "name": "Bangladesh",
+      "slug": "bangladesh",
+      "group": "non-EU"
+    },
+    {
       "name": "Belgium",
       "slug": "belgium",
       "group": "EU"
+    },
+    {
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "slug": "bonaire-sint-eustatius-and-saba",
+      "group": "non-EU"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "group": "non-EU"
     },
     {
       "name": "Brazil",
@@ -37,14 +67,34 @@
       "group": "EU"
     },
     {
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "group": "non-EU"
+    },
+    {
       "name": "Canada",
       "slug": "canada",
+      "group": "non-EU"
+    },
+    {
+      "name": "Chad",
+      "slug": "chad",
+      "group": "non-EU"
+    },
+    {
+      "name": "Costa Rica",
+      "slug": "costa rica",
       "group": "non-EU"
     },
     {
       "name": "Croatia",
       "slug": "croatia",
       "group": "EU"
+    },
+    {
+      "name": "Curaçao",
+      "slug": "curacao",
+      "group": "non-EU"
     },
     {
       "name": "Cyprus",
@@ -60,6 +110,11 @@
       "name": "Denmark",
       "slug": "denmark",
       "group": "EU"
+    },
+    {
+      "name": "Egypt",
+      "slug": "egypt",
+      "group": "non-EU"
     },
     {
       "name": "Estonia",
@@ -87,6 +142,11 @@
       "group": "EU"
     },
     {
+      "name": "Ghana",
+      "slug": "ghana",
+      "group": "non-EU"
+    },
+    {
       "name": "Greece",
       "slug": "greece",
       "group": "EU"
@@ -94,6 +154,16 @@
     {
       "name": "Greenland",
       "slug": "greenland",
+      "group": "non-EU"
+    },
+    {
+      "name": "Guadeloupe",
+      "slug": "guadeloupe",
+      "group": "non-EU"
+    },
+    {
+      "name": "Honduras",
+      "slug": "honduras",
       "group": "non-EU"
     },
     {
@@ -127,8 +197,23 @@
       "group": "non-EU"
     },
     {
+      "name": "Jersey",
+      "slug": "jersey",
+      "group": "non-EU"
+    },
+    {
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "group": "non-EU"
+    },
+    {
       "name": "Kenya",
       "slug": "kenya",
+      "group": "non-EU"
+    },
+    {
+      "name": "Kuwait",
+      "slug": "kuwait",
       "group": "non-EU"
     },
     {
@@ -152,6 +237,11 @@
       "group": "EU"
     },
     {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "group": "non-EU"
+    },
+    {
       "name": "Malta",
       "slug": "malta",
       "group": "EU"
@@ -159,6 +249,11 @@
     {
       "name": "Mexico",
       "slug": "mexico",
+      "group": "non-EU"
+    },
+    {
+      "name": "Montenegro",
+      "slug": "montenegro",
       "group": "non-EU"
     },
     {
@@ -177,6 +272,11 @@
       "group": "non-EU"
     },
     {
+      "name": "Peru",
+      "slug": "peru",
+      "group": "non-EU"
+    },
+    {
       "name": "Poland",
       "slug": "poland",
       "group": "EU"
@@ -187,9 +287,34 @@
       "group": "EU"
     },
     {
+      "name": "Qatar",
+      "slug": "qatar",
+      "group": "non-EU"
+    },
+    {
+      "name": "Republic of Korea",
+      "slug": "republic of korea",
+      "group": "non-EU"
+    },
+    {
+      "name": "Republic of Moldova",
+      "slug": "republic-of-moldova",
+      "group": "non-EU"
+    },
+    {
       "name": "Romania",
       "slug": "romania",
       "group": "EU"
+    },
+    {
+      "name": "Saudi Arabia",
+      "slug": "saudi arabia",
+      "group": "non-EU"
+    },
+    {
+      "name": "Sint Maarten (Dutch part)",
+      "slug": "sint-maarten-dutch-part",
+      "group": "non-EU"
     },
     {
       "name": "Slovakia",
@@ -217,13 +342,43 @@
       "group": "non-EU"
     },
     {
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "group": "non-EU"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "slug": "trinidad and tobago",
+      "group": "non-EU"
+    },
+    {
       "name": "Turkey",
       "slug": "turkey",
       "group": "non-EU"
     },
     {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "group": "non-EU"
+    },
+    {
       "name": "United Kingdom",
       "slug": "united kingdom",
+      "group": "non-EU"
+    },
+    {
+      "name": "United States",
+      "slug": "united states",
+      "group": "non-EU"
+    },
+    {
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "group": "non-EU"
+    },
+    {
+      "name": "Zimbabwe",
+      "slug": "zimbabwe",
       "group": "non-EU"
     },
     {

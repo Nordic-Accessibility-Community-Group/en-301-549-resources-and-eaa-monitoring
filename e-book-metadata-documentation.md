@@ -2,9 +2,9 @@
 For the user it is very important that the metadata is available on each individual book and as filters to search for. The metadata needs to be in an easy to understand format, not only WCAG levels or technical labels.
 ## E-books in the EAA
 ### Definition of E-Books in the EAA
-> [(41) E-book files](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=consumer%20banking%20transactions.-,(41),E%2Dbook,-files%20are%20based) are based on a electronic computer coding that enables the circulation and consultation of a mostly textual and graphical intellectual work. The degree of precision of this coding determines the accessibility of e-book files, in particular regarding the qualification of the different constitutive elements of the work and the standardised description of its structure. The interoperability in terms of accessibility should optimise the compatibility of those files with the user agents and with current and future assistive technologies. Specific features of special volumes like comics, children’s books and art books should be considered in the light of all applicable accessibility requirements. Divergent accessibility requirements in Member States would make it difficult for publishers and other economic operators to benefit from the advantages of the internal market, could create interoperability problems with e-readers and would limit the access for consumers with disabilities. In the context of e-books, the concept of a service provider could include publishers and other economic operators involved in their distribution.
+> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=consumer%20banking%20transactions.-,(41),E%2Dbook,-files%20are%20based" hreflang="en">(41) E-book files</a> are based on a electronic computer coding that enables the circulation and consultation of a mostly textual and graphical intellectual work. The degree of precision of this coding determines the accessibility of e-book files, in particular regarding the qualification of the different constitutive elements of the work and the standardised description of its structure. The interoperability in terms of accessibility should optimise the compatibility of those files with the user agents and with current and future assistive technologies. Specific features of special volumes like comics, children’s books and art books should be considered in the light of all applicable accessibility requirements. Divergent accessibility requirements in Member States would make it difficult for publishers and other economic operators to benefit from the advantages of the internal market, could create interoperability problems with e-readers and would limit the access for consumers with disabilities. In the context of e-books, the concept of a service provider could include publishers and other economic operators involved in their distribution.
 ### Demands on E-books in the EAA
-[(f) E-books:](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=(f)-,E%2Dbooks%3A,-(i))
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=(f)-,E%2Dbooks%3A,-(i)" hreflang="en">(f) E-books:</a>
 
 > - (i) ensuring that, when an e-book contains audio in addition to text, it then provides synchronised text and audio;
 > - (ii) ensuring that e-book digital files do not prevent assistive technology from operating properly;
@@ -24,8 +24,8 @@ Some examples of different actors on the market.
       - [Rakuten kobo book store](https://www.kobo.com/gb/en/search?query=accessibility&fclanguages=en)
     - E-book readers
       - [Kobo](https://www.kobo.com/se/sv)
-      - [Pocketbook](https://pocketbook.se/se-se)
-      - [Amazon kindle](https://read.amazon.com/landing)
+      - <a href="https://pocketbook.se/se-se" hreflang="sv">Pocketbook</a>
+      - <a href="https://read.amazon.com/landing" hreflang="en">Amazon kindle</a>
 3. E-book Publishers
     - Private publishers
     - Libraries (such as [Celia](https://www.celia.fi/sv/bocker-och-material/elektroniska-bocker/), [Biblio](https://biblio.app/library))
@@ -44,12 +44,12 @@ In the directive it says you ensure that it works for everyone using accessibili
 
 ## Meta-data resources
 
-[ONIX codelists Issue 69](https://ns.editeur.org/onix/en/196) – list 196  ONIX-format
-[Book - Schema.org Type](https://schema.org/Book)  Schema.org-format (with [referenced vocabulary](https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/#accessibilityControl-vocabulary))
+<a href="https://ns.editeur.org/onix/en/196" hreflang="en">ONIX codelists Issue 69</a> – list 196  ONIX-format
+<a href="https://schema.org/Book" hreflang="en">Book - Schema.org Type</a>  Schema.org-format (with <a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/#accessibilityControl-vocabulary" hreflang="en">referenced vocabulary</a>)
 
-For guidance on presenting accessibility metadata, see the [Accessibility Metadata Display Guide for Digital Publications 2.1](https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/).
+For guidance on presenting accessibility metadata, see the <a href="https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/" hreflang="en">Accessibility Metadata Display Guide for Digital Publications 2.1</a>.
 
-Recommended metadata to send to publishers [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)
+Recommended metadata to send to publishers <a href="https://www.w3.org/TR/epub-a11y-11/" hreflang="en">EPUB Accessibility 1.1</a>
 
 ### Example of metadata
 

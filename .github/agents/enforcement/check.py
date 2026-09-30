@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
 import country_records
+from link_language import additive_language_digest as publication_digest
 from collections import Counter
 from datetime import date
 import hashlib
@@ -68,7 +69,8 @@ def check(root):
     require(hashlib.sha256((folder / 'baseline-map.json').read_bytes()).hexdigest() == BASELINE_SHA256, 'Frozen baseline-map changed; do not rehash inherited changes')
     require(current_map['schema_version'] == baseline['schema_version'] == 1, 'Map version')
     page = (root / PAGE).read_text()
-    actual = Counter((heading, digest(row)) for heading, row in public_rows(page))
+    inherited_hashes = {e['row_sha256'] for e in baseline['entries'] if e['state'] == 'inherited_unreviewed'}
+    actual = Counter((heading, publication_digest(row, inherited_hashes)) for heading, row in public_rows(page))
     mapped = Counter((entry['section'], entry['row_sha256']) for entry in current_map['entries'])
     require(actual == mapped, 'Public rows changed or missing from public-map.json; review and map each row')
     ids = [entry['id'] for entry in current_map['entries']]

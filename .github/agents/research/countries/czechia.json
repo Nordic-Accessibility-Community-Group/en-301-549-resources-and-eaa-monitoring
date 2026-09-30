@@ -139,6 +139,28 @@
       "retrieved_on": "2026-09-25",
       "access_result": "reachable",
       "provenance_note": "Read with web text reader on 2026-09-25; retrieval may use indexed content; no live-browser confirmation."
+    },
+    "source-5c98ef268e7603f097190ece": {
+      "issuer": "Zakony pro lidi (secondary legal publisher)",
+      "url": "https://www.zakonyprolidi.cz/cs/2009-198",
+      "source_type": "other_unverified",
+      "language": "cs",
+      "passage": "Secondary text; reconcile against official collection.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-ab2065b9aa774fe62478e687": {
+      "issuer": "Czech Standardization Agency",
+      "url": "https://agenturacas.gov.cz/produkty-a-sluzby/reprodukce-csn/normy-spotrebitele/podpora-a-integrace-osob-se-zdravotnim-postizenim/",
+      "source_type": "official_standard_body",
+      "language": "cs",
+      "passage": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
     }
   },
   "domains": {
@@ -418,7 +440,7 @@
           ]
         }
       ],
-      "public_row_sha256": "ddcd7103bf4ce5741ff3c25fce623131ccbc4bc1f7590b4b9179eab38d16bc69",
+      "public_row_sha256": "844e3abd7e786074b0d1a69c625a9f9e706d6cccf36b6ca203c279f14f0f1d57",
       "language_check": "language-check.json",
       "source_refs": [
         "source-228bb150f006416ec701b828",
@@ -552,7 +574,125 @@
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
         }
       ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-czechia-discovery-reference",
+          "aspect": "reference",
+          "statement": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1.",
+          "scope": "catalogue reference",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-ab2065b9aa774fe62478e687"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": "2026-09-27",
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        }
+      ],
+      "questions": [
+        "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
+        "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
+        "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-5c98ef268e7603f097190ece: Act 198/2009 (anti-discrimination). Secondary text; reconcile against official collection."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:agentura-cas.cz \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "\"ČSN EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery only; unsuccessful searches do not establish absence or non-adoption.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "query": "site:zakonyprolidi.cz 198 2009 antidiskriminační"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Secondary text; reconcile against official collection.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://www.zakonyprolidi.cz/cs/2009-198"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1.",
+          "run_id": "world-discovery-8-2026-09-27",
+          "url": "https://agenturacas.gov.cz/produkty-a-sluzby/reprodukce-csn/normy-spotrebitele/podpora-a-integrace-osob-se-zdravotnim-postizenim/"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "world-discovery-8-2026-09-27-203",
+      "country": "Czechia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "catalogue reference",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "Existing domain preserved; this discovery establishes no new public change.",
+          "next_action": "Continue scoped evidence and legal research.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
 }

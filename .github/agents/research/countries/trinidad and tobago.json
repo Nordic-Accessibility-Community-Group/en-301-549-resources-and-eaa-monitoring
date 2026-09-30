@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "country": "Trinidad and Tobago",
+  "jurisdiction_group": "non-EU",
+  "evidence": {
+    "source-67b9cfc8f8f95b0f735f1892": {
+      "issuer": "Trinidad and Tobago Equal Opportunity Commission",
+      "url": "https://equalopportunity.gov.tt/downloads/publications/equal_opportunity_act.pdf",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "34-page text retrieved; current consolidation and exceptions not audited.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-a9454999ca6908bd187480e0": {
+      "issuer": "Microsoft",
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/accex/documents/presentations/PO-Terms-and-Conditions_en-TT.pdf",
+      "source_type": "other_unverified",
+      "language": "en",
+      "passage": "Microsoft’s Trinidad and Tobago purchase-order terms reference EN 301 549 for purchases with a user interface. This is a private contractual reference and does not by itself establish national adoption. No EN edition is specified.",
+      "publication_date": null,
+      "accessed_on": "2026-09-27",
+      "access": "reachable",
+      "method": "web reader"
+    }
+  },
+  "domains": {
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-trinidad-and-tobago-discovery-reference",
+          "aspect": "reference",
+          "statement": "Microsoft’s Trinidad and Tobago purchase-order terms reference EN 301 549 for purchases with a user interface. This is a private contractual reference and does not by itself establish national adoption. No EN edition is specified.",
+          "scope": "private purchase-order terms",
+          "stage": "final",
+          "status": "unverified_source",
+          "source_refs": [
+            "source-a9454999ca6908bd187480e0"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-27",
+          "verified_on": null,
+          "next_review_due": "2026-10-27",
+          "existing_text": null,
+          "review_note": "Exact bounded wording reviewed in discovery-6-review-2026-09-27.json. Verification concerns the reference and its source context only, not national adoption, legal force or current applicability. No public row."
+        }
+      ],
+      "questions": [
+        "Continue local standards/procurement discovery; unsuccessful searches do not prove non-adoption.",
+        "Map discrimination and accessibility laws, amendments, commencement, exceptions and implementing rules in a later legal pass.",
+        "Routing: research only; no EAA monitoring, sanctions or enforcement change established.",
+        "Legal mapping lead source-67b9cfc8f8f95b0f735f1892: Equal Opportunity Act, 2000. 34-page text retrieved; current consolidation and exceptions not audited."
+      ],
+      "attempts": [
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "\"Trinidad and Tobago\" \"EN 301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Bounded discovery; search snippets identify leads only. No conclusion of national non-adoption.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.tt \"301 549\""
+        },
+        {
+          "on": "2026-09-27",
+          "method": "source discovery search",
+          "outcome": "search_lead",
+          "note": "Legal-source discovery only; no complete current-law audit.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "query": "site:gov.tt Equal Opportunity Act disability"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "34-page text retrieved; current consolidation and exceptions not audited.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://equalopportunity.gov.tt/downloads/publications/equal_opportunity_act.pdf"
+        },
+        {
+          "on": "2026-09-27",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Microsoft’s Trinidad and Tobago purchase-order terms reference EN 301 549 for purchases with a user interface. This is a private contractual reference and does not by itself establish national adoption. No EN edition is specified.",
+          "run_id": "world-discovery-6-2026-09-27",
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/accex/documents/presentations/PO-Terms-and-Conditions_en-TT.pdf"
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "world-discovery-6-2026-09-27-780",
+      "country": "Trinidad and Tobago",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/trinidad and tobago.json",
+          "disposition": "research_only",
+          "reason": "private purchase-order terms",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No supported EAA change from this discovery.",
+          "next_action": "Further national standards and legal research; retain qualifications.",
+          "pr": 71
+        }
+      ]
+    }
+  ]
+}
