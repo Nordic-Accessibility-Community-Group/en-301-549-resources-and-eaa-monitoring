@@ -2,11 +2,11 @@
 
 This proposal covers all resource tables: top-align column headers, row headers and data cells; use clear horizontal separators; retain alternating backgrounds as an additional reading aid.
 
-Open [the browser preview](preview.html) locally to review the design. It uses [the proposed shared stylesheet](tables.css) and illustrative entries of different lengths, not country or legal data.
+Open [the browser preview](preview.html) locally to review the design. It embeds a copy of [the proposed shared stylesheet](tables.css), so it also works when opened or downloaded on its own, and contains illustrative entries of different lengths, not country or legal data.
 
 ## Proposed appearance
 
-- Top-align every header and data cell, with consistent padding and no extra margin above the first paragraph or list.
+- Left-align and top-align every header and data cell, with consistent padding and no extra margin above the first paragraph or list.
 - Use solid 2 px horizontal separators in `#767676`.
 - Alternate white (`#FFFFFF`) and blue-grey (`#E8EEF3`) body rows.
 - Use `#1F2937` for text, including secondary text. Keep links underlined and check their contrast on both backgrounds.

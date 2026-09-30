@@ -4,8 +4,78 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Table readability proposal</title>
-  <link rel="stylesheet" href="tables.css">
   <style>
+    /* Embedded so this preview works without loading a separate file.
+       Keep the resource-table rules in sync with tables.css. */
+    /* Proposed shared light palette for resource tables. */
+    .resource-table {
+      border-collapse: collapse;
+      width: 100%;
+      color: #1f2937;
+      background: #ffffff;
+      line-height: 1.5;
+    }
+
+    .resource-table caption {
+      text-align: left;
+      font-weight: 700;
+      padding-block: 0.75rem;
+    }
+
+    .resource-table th,
+    .resource-table td {
+      vertical-align: top;
+      text-align: left;
+      padding: 0.875rem 1rem;
+      border-bottom: 2px solid #767676;
+    }
+
+    .resource-table thead,
+    .resource-table tbody tr:nth-child(even) {
+      background: #e8eef3;
+    }
+
+    .resource-table tbody tr:nth-child(odd) {
+      background: #ffffff;
+    }
+
+    .resource-table th > :first-child,
+    .resource-table td > :first-child {
+      margin-top: 0;
+    }
+
+    .resource-table th > :last-child,
+    .resource-table td > :last-child {
+      margin-bottom: 0;
+    }
+
+    .resource-table a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+
+    .resource-table-scroll {
+      overflow-x: auto;
+    }
+
+    .resource-table-scroll:focus-visible,
+    .resource-table a:focus-visible {
+      outline: 3px solid #1f2937;
+      outline-offset: 3px;
+    }
+
+    @media (forced-colors: active) {
+      .resource-table th,
+      .resource-table td {
+        border-color: CanvasText;
+      }
+
+      .resource-table-scroll:focus-visible,
+      .resource-table a:focus-visible {
+        outline-color: Highlight;
+      }
+    }
     :root { color-scheme: light; }
     body { margin: 0; padding: clamp(1rem, 4vw, 3rem); font: 1rem/1.5 system-ui, sans-serif; color: #1f2937; background: #fff; }
     main { max-width: 75rem; margin-inline: auto; }
