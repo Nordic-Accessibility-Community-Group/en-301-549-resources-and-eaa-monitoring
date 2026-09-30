@@ -1434,6 +1434,48 @@
       ]
     },
     {
+      "id": "deque-webinar-2026-09-17-france",
+      "country": "France",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        }
+      ]
+    },
+    {
       "id": "de-mlbf-nationwide-monitoring-2026",
       "country": "Germany",
       "recorded_on": "2026-09-25",
@@ -2879,6 +2921,48 @@
       ]
     },
     {
+      "id": "deque-webinar-2026-09-17-netherlands",
+      "country": "Netherlands",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "research_only",
+          "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
+          "next_action": "Seek dated follow-up outcomes in authority publications.",
+          "pr": 75
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-new-zealand-2026-09-27",
       "destinations": [
         {
@@ -3650,6 +3734,90 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "deque-webinar-2026-09-17-sweden",
+      "country": "Sweden",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "already_present",
+          "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
+          "next_action": "Seek dated follow-up outcomes in authority publications.",
+          "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "digg-public-sector-intake-2026-09-30",
+      "country": "Sweden",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
         }
       ]
     },

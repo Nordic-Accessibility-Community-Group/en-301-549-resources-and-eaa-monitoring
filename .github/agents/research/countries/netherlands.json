@@ -248,6 +248,28 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-496a670f422a49c44fb5027d": {
+      "issuer": "NOS",
+      "url": "https://nos.nl/artikel/2619726-webshops-beter-toegankelijk-voor-slechtzienden-maar-nog-veel-werk-nodig",
+      "source_type": "other_unverified",
+      "language": "nl",
+      "passage": "Reports ten visits and a retest planned three months later, with risk of fines; does not establish a completed retest or imposed penalty.",
+      "publication_date": "2026-06-22",
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
+    },
+    "source-3c5a146d8f2181c11f560c18": {
+      "issuer": "ACM",
+      "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+      "source_type": "official_government",
+      "language": "nl",
+      "passage": "Tests covered around 100 large webshops plus large telecom/energy providers; follow-up and risk of enforcement, not imposed fines.",
+      "publication_date": "2026-03-24",
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
     }
   },
   "domains": {
@@ -689,7 +711,8 @@
       "verified_on": "2026-09-25",
       "knowledge_notes": [
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
-        "All Monitoring agencies research, 25 September 2026: Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions."
+        "All Monitoring agencies research, 25 September 2026: Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions.",
+        "deque-webinar-2026-09-17, slide 7: re-read ACM source-3c5a146d8f2181c11f560c18; existing nl-acm-tests-20260324 and nl-acm-followup-20260324 already cover supported findings. Secondary NOS lead source-496a670f422a49c44fb5027d gives a June retest plan. Retest completion, individual outcomes and imposed fines remain unverified. Seek a later dated ACM publication; do not infer results from elapsed time."
       ],
       "public_entry_ids": [
         "netherlands-1"
@@ -899,6 +922,48 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "deque-webinar-2026-09-17-netherlands",
+      "country": "Netherlands",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This webinar item establishes no new fact for this destination.",
+          "next_action": "No page change proposed.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "research_only",
+          "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
+          "next_action": "Seek dated follow-up outcomes in authority publications.",
+          "pr": 75
         }
       ]
     }
