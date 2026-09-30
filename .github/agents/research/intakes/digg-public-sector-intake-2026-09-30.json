@@ -1,0 +1,45 @@
+{
+  "run_id": "digg-public-sector-intake-2026-09-30",
+  "country": "Sweden",
+  "canonical_record": ".github/agents/research/countries/sweden.json",
+  "attachment_source_refs": [
+    "source-393a7feb5049810afd54b7dc",
+    "source-d287e1119c7335f820d13e08",
+    "source-a1bc1798ea036d2fec7868ed"
+  ],
+  "framework": "WAD / DOS-lagen",
+  "purpose": "Retain supplied monitoring data for later use; no public page update.",
+  "sources_inspected_on": "2026-09-30",
+  "research_window": {
+    "started_at": "2026-09-30T08:02:26Z",
+    "ended_at": "2026-09-30T08:07:36Z",
+    "country_limit_minutes": 10,
+    "remaining_seconds": 290
+  },
+  "source_checks": [
+    "All 9 supplied PDF pages visually inspected; duplicated PDF glyphs deduplicated for extraction.",
+    "All five workbook sheets and populated cells extracted, with original sheet/cell locators.",
+    "Three supplied merger URLs and Digg monitoring/results/methodology pages read.",
+    "Supplied attachments unchanged; no raw files, personal filesystem paths or author metadata published.",
+    "DOS statutory sections 1–4 and Digg statutory guidance read for legislative identity/scope; no full-law audit."
+  ],
+  "data_checks": {
+    "pdf_rows_by_period": {
+      "2024": 10,
+      "2023": 10,
+      "2022": 10,
+      "2020-2021": 19,
+      "2025": 17
+    },
+    "workbook_records": 85,
+    "workbook_website_records": 57,
+    "workbook_app_records": 28
+  },
+  "limitations": [
+    "Not an exhaustive legal audit or an outcome/penalty investigation.",
+    "Workbook publisher attribution is contributor-provided; creator metadata alone is not authentication.",
+    "2026 workbook sheet is a partial-year snapshot with no established publication URL or precise cutoff.",
+    "No automatic joins or total across PDF and spreadsheet populations."
+  ],
+  "public_changes": false
+}

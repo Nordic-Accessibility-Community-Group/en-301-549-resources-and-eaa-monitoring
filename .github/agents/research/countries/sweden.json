@@ -383,6 +383,1429 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-393a7feb5049810afd54b7dc": {
+      "record_type": "attachment_dataset",
+      "issuer": "Digg (as supplied by contributor)",
+      "source_type": "contributor_supplied_document",
+      "filename": "Tidigare granskade webbplatser _ Digg.pdf",
+      "document_sha256": "6286317722cbfc6c3df451fcecb901034f4ee6f97d59d6339a1105c080c32419",
+      "received_on": "2026-09-30",
+      "inspected_on": "2026-09-30",
+      "language": "sv",
+      "legal_framework": "WAD / DOS-lagen",
+      "sector_scope": "Digital public services within DOS scope; not an ownership classification",
+      "authority_at_observation": "Digg",
+      "intended_use": "Research for later public-sector presentation; exclude from EAA/LPTT totals and public enforcement mappings",
+      "provenance_note": "Original supplied file inspected read-only. File identity retained by SHA-256; no claim of independent digital authentication.",
+      "publication_date": null,
+      "page_count": 5,
+      "source_url": "https://www.digg.se/analys-och-uppfoljning/lagen-om-tillganglighet-till-digital-offentlig-service-dos-lagen/ingaende-overvakning/resultat-av-ingaende-overvakning/tidigare-granskade-webbplatser",
+      "records": [
+        {
+          "period": "2024",
+          "subject": "E-tjänst Mina sidor för privatpersoner (Arbetsförmedlingen)",
+          "initial_score": 8,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "E-tjänster på skatteverket.se (Skatteverket)",
+          "initial_score": 118,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "tolkportalen.regionstockholm.se (Region Stockholm)",
+          "initial_score": 141,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "helsingborg.se med e-tjänster (Helsingborgs kommun)",
+          "initial_score": 50,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "val.se (Valmyndigheten)",
+          "initial_score": 144,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "sodexohjs.se/sthlm (Region Stockholm)",
+          "initial_score": 24,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "htsa.dexter-ist.com (Sollefteå kommun (Gymnasieantagningen Västernorrland))",
+          "initial_score": 64,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "lanstrafikennorrbotten.se (Länstrafiken Norrbotten)",
+          "initial_score": 120,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "e-tjänster på forsakringskassan.se (Försäkringskassan)",
+          "initial_score": 12,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2024",
+          "subject": "parkeringgoteborg.se (Göteborgs Stads Parkering AB)",
+          "initial_score": 147,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2023",
+          "subject": "Svara på platserbjudande (Göteborgs Stad)",
+          "initial_score": 75,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "esv.se (Ekonomistyrningsverket)",
+          "initial_score": 80,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "skanetrafiken.se (Skånetrafiken)",
+          "initial_score": 202,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "ltnbd.se (Länstrafiken Norrbotten)",
+          "initial_score": 132,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "Polisen boka pass (Polisen)",
+          "initial_score": 117,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "Skolplattformen Stockholm (Stockholms stad)",
+          "initial_score": 93,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "kulturradet.se (Kulturrådet)",
+          "initial_score": 116,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "malmo.se (Malmö stad)",
+          "initial_score": 69,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "folkhalsaochsjukvard.rjl.se (Region Jönköpings län)",
+          "initial_score": 89,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2023",
+          "subject": "uhr.se (Universitets- och högskolerådet)",
+          "initial_score": 114,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2022",
+          "subject": "av.se (Arbetsmiljöverket)",
+          "initial_score": 89,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2022",
+          "subject": "e-tjanster.1177.se (Inera AB, 1177 e-tjänster)",
+          "initial_score": 106,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2022",
+          "subject": "fra.se (Försvarets radioanstalt)",
+          "initial_score": 44,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2022",
+          "subject": "livsmedelsverket.se (Livsmedelsverket)",
+          "initial_score": 88,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2022",
+          "subject": "karlskoga.se (Karlskoga kommun)",
+          "initial_score": 106,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2022",
+          "subject": "mfof.se (Myndigheten för familjerätt och föräldraskapsstöd)",
+          "initial_score": 113,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2022",
+          "subject": "pensionsmyndigheten.se (Pensionsmyndigheten)",
+          "initial_score": 139,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2022",
+          "subject": "statenspersonadressregister.se (Statens personadressregister)",
+          "initial_score": 27,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2022",
+          "subject": "spv.se (Statens tjänstepensionsverk)",
+          "initial_score": 70,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2022",
+          "subject": "trafikverket.se (Trafikverket)",
+          "initial_score": 52,
+          "recheck_score": null,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "1177.se",
+          "initial_score": 75,
+          "recheck_score": 19,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "arbetsformedlingen.se",
+          "initial_score": 109,
+          "recheck_score": 10,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "csn.se",
+          "initial_score": 81,
+          "recheck_score": 35,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "folkhalsomyndigheten.se",
+          "initial_score": 84,
+          "recheck_score": 8,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "forsakringskassan.se",
+          "initial_score": 42,
+          "recheck_score": 27,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "krisinformation.se",
+          "initial_score": 41,
+          "recheck_score": 9,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "lansstyrelsen.se/gotland",
+          "initial_score": 129,
+          "recheck_score": 25,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "migrationsverket.se",
+          "initial_score": 87,
+          "recheck_score": 16,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "ockelbo.se",
+          "initial_score": 118,
+          "recheck_score": 38,
+          "page": 3
+        },
+        {
+          "period": "2020-2021",
+          "subject": "pajalabostader.se",
+          "initial_score": 146,
+          "recheck_score": 146,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "regionuppsala.se",
+          "initial_score": 59,
+          "recheck_score": 24,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "skanetrafiken.se",
+          "initial_score": 148,
+          "recheck_score": null,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "sl.se",
+          "initial_score": 74,
+          "recheck_score": 27,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "spsm.se",
+          "initial_score": 87,
+          "recheck_score": 32,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "stockholm",
+          "initial_score": 55,
+          "recheck_score": 16,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "svenskaspel.se",
+          "initial_score": 100,
+          "recheck_score": 43,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "studera.nu",
+          "initial_score": 45,
+          "recheck_score": 7,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "transportstyrelsen.se",
+          "initial_score": 126,
+          "recheck_score": 66,
+          "page": 4
+        },
+        {
+          "period": "2020-2021",
+          "subject": "vasttrafik.se",
+          "initial_score": 82,
+          "recheck_score": 10,
+          "page": 4
+        }
+      ],
+      "exported_on": "2026-09-30",
+      "export_date_note": "Browser PDF creation/print date, not the monitoring period or original publication date.",
+      "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
+      "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
+      "table_updated_on": {
+        "2020-2021": "2022-07-05",
+        "2022": "2023-02-02",
+        "2023": "2024-05-10",
+        "2024": "2025-10-23"
+      },
+      "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
+      "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred."
+    },
+    "source-d287e1119c7335f820d13e08": {
+      "record_type": "attachment_dataset",
+      "issuer": "Digg (as supplied by contributor)",
+      "source_type": "contributor_supplied_document",
+      "filename": "Resultat av ingående övervakning _ Digg.pdf",
+      "document_sha256": "8bf5953fdcb7797faed6b57da7444ebd2da381f7510ce53c8d702883c4801cc4",
+      "received_on": "2026-09-30",
+      "inspected_on": "2026-09-30",
+      "language": "sv",
+      "legal_framework": "WAD / DOS-lagen",
+      "sector_scope": "Digital public services within DOS scope; not an ownership classification",
+      "authority_at_observation": "Digg",
+      "intended_use": "Research for later public-sector presentation; exclude from EAA/LPTT totals and public enforcement mappings",
+      "provenance_note": "Original supplied file inspected read-only. File identity retained by SHA-256; no claim of independent digital authentication.",
+      "publication_date": null,
+      "page_count": 4,
+      "source_url": "https://www.digg.se/analys-och-uppfoljning/lagen-om-tillganglighet-till-digital-offentlig-service-dos-lagen/ingaende-overvakning/resultat-av-ingaende-overvakning",
+      "records": [
+        {
+          "period": "2025",
+          "subject": "sms.schoolsoft.se/nykoping (Nyköpings kommun)",
+          "initial_score": 160,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "mdu.se (Mälardalens Universitet)",
+          "initial_score": 64,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "scb.se (Statistiska centralbyrån)",
+          "initial_score": 69,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "polisen.se (Polismyndigheten)",
+          "initial_score": 47,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "konsumentverket.se (Konsumentverket)",
+          "initial_score": 29,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "E-tjänster på transportstyrelsen.se (Transportstyrelsen)",
+          "initial_score": 38,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "lakemedelsverket.se (Läkemedelsverket)",
+          "initial_score": 52,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "regeringen.se (Regeringskansliet)",
+          "initial_score": 137,
+          "recheck_score": null,
+          "page": 1
+        },
+        {
+          "period": "2025",
+          "subject": "pts.se (Post- och telestyrelsen)",
+          "initial_score": 53,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "timra.se (Timrå kommun)",
+          "initial_score": 75,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "rvn.se (Region Västernorrland)",
+          "initial_score": 89,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "jensengymnasium.se (Jensen education)",
+          "initial_score": 209,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "tolkportalen.regionstockholm.se/ (Region Stockholm)",
+          "initial_score": 120,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "orust.se (Orust kommun)",
+          "initial_score": 96,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "regionblekinge.se (Region Blekinge)",
+          "initial_score": 98,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "Stockholms stads e-tjänster (Stockholms stad)",
+          "initial_score": 64,
+          "recheck_score": null,
+          "page": 2
+        },
+        {
+          "period": "2025",
+          "subject": "E-tjänster på skatteverket.se (Skatteverket)",
+          "initial_score": 37,
+          "recheck_score": null,
+          "page": 2
+        }
+      ],
+      "exported_on": "2026-09-30",
+      "export_date_note": "Browser PDF creation/print date, not the monitoring period or original publication date.",
+      "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
+      "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
+      "table_updated_on": {
+        "2025": "2026-01-10"
+      },
+      "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
+      "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred.",
+      "reviewed_apps_2025": [
+        "Luleå lokaltrafik (Luleå Lokaltrafik AB)",
+        "8 sidor (Myndigheten för tillgängliga medier)",
+        "Kry (Kry International AB)",
+        "Alltid öppet (Region Stockholm)",
+        "Krisinformation.se (Myndigheten för civilt försvar)",
+        "InfoMentor Hub (Linköpings kommun)",
+        "X-trafik (Region Gävleborg)",
+        "Vklass (Göteborgs stad)",
+        "Migränappen (Västra Götalandsregionen)"
+      ],
+      "apps_observation": "PDF pages 2–3: Digg lists these nine apps, withholds numerical scores because no fair metric was established, and reports that none met DOS accessibility requirements at review. No sanction or present-day status inferred."
+    },
+    "source-a1bc1798ea036d2fec7868ed": {
+      "record_type": "attachment_dataset",
+      "issuer": "Digg (as supplied by contributor)",
+      "source_type": "contributor_supplied_document",
+      "filename": "slutförda-granskningar-2022-2026.xlsx",
+      "document_sha256": "12a816c14d55648d0596aa8004165ab4a27591d685f696c7e790d573c2bccb6d",
+      "received_on": "2026-09-30",
+      "inspected_on": "2026-09-30",
+      "language": "sv",
+      "legal_framework": "WAD / DOS-lagen",
+      "sector_scope": "Digital public services within DOS scope; not an ownership classification",
+      "authority_at_observation": "Digg",
+      "intended_use": "Research for later public-sector presentation; exclude from EAA/LPTT totals and public enforcement mappings",
+      "provenance_note": "Original supplied file inspected read-only. File identity retained by SHA-256; no claim of independent digital authentication.",
+      "publication_date": null,
+      "records": [
+        {
+          "period": 2026,
+          "kind": "app",
+          "subject_original": "SMHI",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "A3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Giftinformation.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "app",
+          "subject_original": "UL",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "A4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Magelungen",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "app",
+          "subject_original": "Nya VL",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "A5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Antagdalarna.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "app",
+          "subject_original": "Mälardalstrafik",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "A6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Capio med e-tjänster",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Informationsverige.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Mediemyndigheten.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Val.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "Riksdagen.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "CSN e-tjänster",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C11",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2026,
+          "kind": "website",
+          "subject_original": "DO - do.se",
+          "sheet": "2026 Slutförda granskningar",
+          "cell": "C12",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Schoolsoft Nyköping",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Luleå lokaltrafik",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Mälardalens Uni. - mdu.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "8 sidor",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "SCB.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Kry",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Polisen.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Alltid öppet",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Konsumentverket.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Krisinformation.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Transportstyrelsen.se - e-tjänster",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "InfoMentor Hub - Linköpings kommun",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Läkemedelsverket",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "X-trafik",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Regeringen.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Vklass - Göteborgs stad",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Pts.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "app",
+          "subject_original": "Migränappen",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "A11",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Timra.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C11",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Rvn.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C12",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Tolkportalen, Region Stockholm",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C13",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Jensengymnasium.se",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C14",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Stockholms stad e-tjänster",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C15",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Skatteverket + e-tjänster",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C16",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Region Blekinge",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C17",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2025,
+          "kind": "website",
+          "subject_original": "Orust kommun",
+          "sheet": "2025 Slutförda granskningar",
+          "cell": "C18",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "Din Tur",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Arbetsförmedlingen Mina Sidor",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "Unikum Familj",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Skatteverket e-tjänster",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "Serviceresor Skånetrafiken",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Tolkportalen Region Stockholm",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "UD Resklar",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Helsingborg.se e-tjänst",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "Brandrisk ute",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Valmyndigheten - Val.se",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "app",
+          "subject_original": "PostNord",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "A7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Sodexo hjälpmedel",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Dexter gymnasieantagning",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Länstrafiken Norrbotten",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Försäkringskassan Mina Sidor",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2024,
+          "kind": "website",
+          "subject_original": "Parkeringgoteborg.se",
+          "sheet": "2024 Slutförda granskningar",
+          "cell": "C11",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "JLT Nya",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Göteborg förskola e-tjänst",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Mina resor Uppsala",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Esv.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Min hälsa",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Skanetrafiken.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Brandrisk ute",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Ltnbd.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Mitt Karlstad",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Polisen boka pass",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Antistress",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Skolplattformen Stockholm",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "app",
+          "subject_original": "Mitt Kalmar",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "A8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Kulturradet.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Malmo.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "folkhalsaochsjukvard.rjl.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2023,
+          "kind": "website",
+          "subject_original": "Uhr.se",
+          "sheet": "2023 Slutförda granskningar",
+          "cell": "C11",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "app",
+          "subject_original": "SMHI Väder för Android",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "A2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "1177 e-tjänster",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C2",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "app",
+          "subject_original": "Legimus för iOS",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "A3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "av.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C3",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "fra.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C4",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "livsmedelsverket.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C5",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "mfof.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C6",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "pensionsmyndigheten.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C7",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "statenspersonadressregister.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C8",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "spv.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C9",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "trafikverket.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C10",
+          "listed_as": "completed_review",
+          "outcome": null
+        },
+        {
+          "period": 2022,
+          "kind": "website",
+          "subject_original": "karlskoga.se",
+          "sheet": "2022 Slutförda granskningar",
+          "cell": "C11",
+          "listed_as": "completed_review",
+          "outcome": null
+        }
+      ],
+      "counts_by_sheet_year": {
+        "2026": {
+          "app": 4,
+          "website": 10
+        },
+        "2025": {
+          "website": 17,
+          "app": 9
+        },
+        "2024": {
+          "app": 6,
+          "website": 10
+        },
+        "2023": {
+          "app": 7,
+          "website": 10
+        },
+        "2022": {
+          "app": 2,
+          "website": 10
+        }
+      },
+      "metadata_created": "2026-09-25T12:02:49",
+      "metadata_modified": "2026-09-25T12:56:04",
+      "metadata_date_note": "Workbook metadata only; not a verified dataset cutoff or publication date.",
+      "source_url": null,
+      "coverage_limit": "2026 is a partial-year supplied snapshot. Listed completion does not establish compliance, case closure, penalty or unique organisations. No automatic join to PDF results.",
+      "extraction": "All five sheets and non-empty cells inspected; header labels excluded. Cell C2 in 2025 and C2/A2 in 2022–2024 may contain data, not uniform headers."
+    },
+    "source-d9a1bad9407080f71ffe8c92": {
+      "url": "https://www.digg.se/analys-och-uppfoljning/lagen-om-tillganglighet-till-digital-offentlig-service-dos-lagen",
+      "accessed_on": "2026-09-30",
+      "evidence": "Digg distinguishes DOS supervision from LPTT supervision. DOS includes some privately operated publicly funded services; LPTT concerns covered consumer products/services irrespective of operator ownership.",
+      "source_type": "monitoring_body",
+      "section": "Olika lagar – olika tillsynsansvar"
+    },
+    "source-e2c9b136b04102a5a01d0fa8": {
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/05/digg-och-pts-blir-digitaliseringsmyndigheten/",
+      "accessed_on": "2026-09-30",
+      "evidence": "Published 18 May 2026: government intends the name Digitaliseringsmyndigheten when Digg and PTS merge on 1 January 2027.",
+      "source_type": "government",
+      "section": "Press release 18 May 2026"
+    },
+    "source-b33b3dc59edabb9dc79ba13d": {
+      "url": "https://www.digg.se/om-oss/nyheter/ovriga-nyheter-fran-digg/nyheter/2025-12-18-uppdrag-till-digg-och-pts-att-ga-samman",
+      "accessed_on": "2026-09-30",
+      "evidence": "Published 18 December 2025: preparation assignment transfers Digg tasks into PTS; Digg ceases as a separate agency; organisation to be in place 1 January 2027. Name not specified at that historical stage.",
+      "source_type": "monitoring_body",
+      "section": "Sammanslagningen ska vara genomförd 1 januari 2027"
+    },
+    "source-169df94a5ea1520cdfce4eaf": {
+      "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-och-digg-blir-digitaliseringsmyndigheten/",
+      "accessed_on": "2026-09-30",
+      "evidence": "Published 18 May 2026: PTS repeats the government’s intended name and 1 January 2027 merger date.",
+      "source_type": "monitoring_body",
+      "section": "Announcement"
+    },
+    "source-3c715e64898c7942ff44ccc7": {
+      "issuer": "Digg",
+      "url": "https://www.digg.se/analys-och-uppfoljning/lagen-om-tillganglighet-till-digital-offentlig-service-dos-lagen/ingaende-overvakning",
+      "source_type": "official_government",
+      "language": "sv",
+      "passage": "Manual monitoring tests selected pages/app views against EN 301 549 V3.2.1; a review is followed by the operator response and a decision. Completion of the review alone is not a compliance outcome.",
+      "publication_date": null,
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; methodology and post-review sections read"
+    },
+    "source-b9b6d5a4053cd44db14fb005": {
+      "record_type": "research_method_context",
+      "issuer": "Digg",
+      "source_type": "official_authority_publication",
+      "url": "https://www.digg.se/analys-och-uppfoljning/lagen-om-tillganglighet-till-digital-offentlig-service-dos-lagen/ingaende-overvakning/resultat-av-ingaende-overvakning",
+      "accessed_on": "2026-09-30",
+      "language": "sv",
+      "legal_framework": "WAD / DOS-lagen",
+      "section": "Result tables; app section; expanded FAQ",
+      "summary": "Website score accounts for number and severity of deficiencies and affected functional-use situations. Reviewed documents are excluded from the score. Numerical app results are withheld. These units cannot be combined with PTS EAA case counts.",
+      "score_bands": [
+        {
+          "min": 0,
+          "max": 9,
+          "label_original": "bra tillgänglighet"
+        },
+        {
+          "min": 10,
+          "max": 79,
+          "label_original": "svår att använda för många personer"
+        },
+        {
+          "min": 80,
+          "max": null,
+          "label_original": "mycket svår eller omöjlig att använda för många personer"
+        }
+      ],
+      "page_updated_on": "2026-03-16",
+      "table_updated_on": "2026-01-10",
+      "note": "Expanded live FAQ adds detail not present in the supplied collapsed-page printout. No formula coefficients or individual case decisions inspected."
+    },
+    "source-edc97e749f61e68539716f2d": {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20181937-om-tillganglighet-till-digital_sfs-2018-1937/",
+      "accessed_on": "2026-09-30",
+      "evidence": "DOS-lagen (2018:1937), sections 1–4: public digital services; section 2 references Directive (EU) 2016/2102, and section 4 includes defined private operators. Current and future section 4 versions are separately marked; no future amendment treated as current.",
+      "source_type": "legislation",
+      "section": "Sections 1–4, including temporal headings"
     }
   },
   "domains": {
@@ -851,6 +2274,33 @@
             "source-48ca42e4ef2f1810c000b723"
           ],
           "id": "monitoring-9f543a85b2a9220b7318d476"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Digg’s guidance separates DOS digital-public-service supervision from LPTT consumer-product/service supervision; ownership alone does not determine the applicable framework.",
+          "directive_context": "WAD",
+          "scope": "Research classification; read both regimes separately.",
+          "status": "verified",
+          "review_note": "Narrow verification against the dated announcements/guidance on 30 September 2026. Research-only; current public authority labels unchanged.",
+          "source_refs": [
+            "source-d9a1bad9407080f71ffe8c92",
+            "source-edc97e749f61e68539716f2d"
+          ],
+          "id": "monitoring-bff88a25f44782a568b29fc3"
+        },
+        {
+          "field": "authority",
+          "assertion": "Official announcements describe Digg’s tasks moving into PTS for a combined organisation on 1 January 2027, intended to be named Digitaliseringsmyndigheten.",
+          "directive_context": "other",
+          "scope": "Future institutional transition; not a completed merger or evidence that WAD/DOS and EAA/LPTT obligations merge.",
+          "status": "verified",
+          "review_note": "Narrow verification against the dated announcements/guidance on 30 September 2026. Research-only; current public authority labels unchanged.",
+          "source_refs": [
+            "source-e2c9b136b04102a5a01d0fa8",
+            "source-b33b3dc59edabb9dc79ba13d",
+            "source-169df94a5ea1520cdfce4eaf"
+          ],
+          "id": "monitoring-3baaacbaf26b403632adc56e"
         }
       ],
       "questions": [
@@ -863,7 +2313,8 @@
         "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
         "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven.",
-        "Cross-page handoff 2026-09-25 / seed-discovery-2-2026-09-25: PTS proposed allowing Swedish or English information in product market-surveillance cases, with entry into force planned for October 2026; this announcement does not establish final adoption. Find final adopted PTSFS text and effective date. Do not revise historical service-reporting language evidence based on a product proposal. Source lead: https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion."
+        "Cross-page handoff 2026-09-25 / seed-discovery-2-2026-09-25: PTS proposed allowing Swedish or English information in product market-surveillance cases, with entry into force planned for October 2026; this announcement does not establish final adoption. Find final adopted PTSFS text and effective date. Do not revise historical service-reporting language evidence based on a product proposal. Source lead: https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion.",
+        "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred."
       ]
     },
     "sanctions": {
@@ -906,6 +2357,14 @@
           "sections": "6.1.1–6.1.3, pp. 20–22",
           "assessment": "Research only for sanctions: activity statistics and 2026 plans do not establish a new statutory maximum or an imposed EAA penalty. General powers in section 1.2 cover multiple regimes; section 6.2.9 concerns LEK. No public sanctions change supported.",
           "enforcement_record": "../../enforcement/research/sweden.json"
+        },
+        {
+          "on": "2026-09-30",
+          "source_refs": [
+            "source-d9a1bad9407080f71ffe8c92",
+            "source-e2c9b136b04102a5a01d0fa8"
+          ],
+          "note": "WAD/DOS monitoring scores and completed-review lists are not imposed penalties. Organisational merger announcements establish no new sanction amount or merger of legislative regimes; no EAA sanctions claim changed."
         }
       ],
       "source_refs": [
@@ -930,7 +2389,9 @@
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
         "All Monitoring agencies research, 25 September 2026: 8 September banking announcement re-read; already included in merged page. Search also found a wider website study, deferred rather than conflated with enforcement statistics. Earlier correspondence-supported statistics retained with their existing qualifications. This pass did not audit every sector authority.",
         "Evidence event se-pts-supervision-2025-report: source read on 2026-09-25. Section 6.1 supports a dated enforcement baseline. Monitoring remit and reporting-service existence already present; no statutory sanctions update established. Section 6.2.9 concerns LEK and is not used as EAA evidence.",
-        "deque-webinar-2026-09-17, slide 6: re-read PTS banking announcement on 2026-09-30; existing claim se-pts-banking-launch remains supported. Later checks of websites/apps are possible, not a completed finding. The unnamed other EU country is an unverified webinar lead; identity and primary evidence required. No public change."
+        "deque-webinar-2026-09-17, slide 6: re-read PTS banking announcement on 2026-09-30; existing claim se-pts-banking-launch remains supported. Later checks of websites/apps are possible, not a completed finding. The unnamed other EU country is an unverified webinar lead; identity and primary evidence required. No public change.",
+        "digg-public-sector-intake-2026-09-30 — WAD/DOS PUBLIC-SECTOR RESEARCH ONLY: attachment datasets source-393a7feb5049810afd54b7dc, source-d287e1119c7335f820d13e08, source-a1bc1798ea036d2fec7868ed retain 66 website score rows for 2020–2025, nine separately described 2025 apps, and 85 workbook listings (57 website, 28 app) for 2022–2026. These source sets overlap; do not add them together or infer unique organisations, compliance, closed cases or fines. No EAA enforcement claim or public-entry mapping added.",
+        "digg-public-sector-intake-2026-09-30 — LEGAL SEPARATION: source source-d9a1bad9407080f71ffe8c92; classify by WAD/DOS versus EAA/LPTT and covered service, separately from public/private ownership. Historical authority remains Digg for supplied data; planned successor does not retroactively relabel it. Source source-b9b6d5a4053cd44db14fb005 defines score limitations. Workbook publication URL/cutoff and source-to-source identity joins remain unverified."
       ],
       "public_entry_ids": [
         "sweden-1"
@@ -1382,6 +2843,12 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "digg-public-sector-intake-2026-09-30: before later presentation, verify workbook provenance/cutoff, reconcile subject aliases between sources and obtain case-level outcomes where needed; keep WAD results separate from EAA totals.",
+          "owner": "Research maintainer",
+          "resolved_when": "Source-specific provenance, dated outcomes and deliberate joins documented without double-counting."
         }
       ]
     },
@@ -1409,7 +2876,8 @@
         "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
         "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
         "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
-        "Legal mapping lead source-9fd4dc7c26b5558948c1043e: Diskrimineringslag(2008:567). Source identity only; no current provision-level interpretation."
+        "Legal mapping lead source-9fd4dc7c26b5558948c1043e: Diskrimineringslag(2008:567). Source identity only; no current provision-level interpretation.",
+        "WAD/DOS methodology source source-3c715e64898c7942ff44ccc7: Digg refers to EN 301 549 V3.2.1 (repository edition notation V3.2.1:2021). Retain as public-sector monitoring reference, not a new national standard adoption or evidence that V4.1.1:2026 applies."
       ],
       "attempts": [
         {
@@ -1642,6 +3110,48 @@
           "disposition": "already_present",
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
+          "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "digg-public-sector-intake-2026-09-30",
+      "country": "Sweden",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
           "pr": 75
         }
       ]

@@ -3780,6 +3780,48 @@
       ]
     },
     {
+      "id": "digg-public-sector-intake-2026-09-30",
+      "country": "Sweden",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "WAD/DOS evidence and announced institutional transition retained separately from EAA/LPTT.",
+          "next_action": "Use only in a separately scoped public-sector presentation after source-specific follow-up; verify authority transition before public updates.",
+          "pr": 75
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-switzerland-2026-09-27",
       "destinations": [
         {
