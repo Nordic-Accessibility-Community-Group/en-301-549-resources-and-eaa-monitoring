@@ -19,18 +19,18 @@ Type can be:
 </ul>
 <table>
   <tr>
-    <th>Country</th>
-    <th>Type</th>
-    <th>Status</th>
-    <th>Additional information</th>
-    <th>Date added</th>
-    <th>Date updated</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Type</th>
+    <th align="left" valign="top">Status</th>
+    <th align="left" valign="top">Additional information</th>
+    <th align="left" valign="top">Date added</th>
+    <th align="left" valign="top">Date updated</th>
   </tr>
     <tr>
-    <td>Austria</td>
-    <td>Monitoring agency</td>
-    <td>Active</td>
-    <td>
+    <td align="left" valign="top">Austria</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active</td>
+    <td align="left" valign="top">
       <ul>
         <li>Actively testing.</li> 
         <li>Currently contacting companies to inform them that they need to be accessible and presenting the issues found. The time given to companies to conform varies, but quarterly progress reports are generally required.</li>
@@ -38,25 +38,25 @@ Type can be:
         <li>Monitoring will not close until conformity with the EAA is proven.</li>
       </ul>
     </td>
-    <td>2026-08-13</td>
-    <td></td>
+    <td align="left" valign="top">2026-08-13</td>
+    <td align="left" valign="top"></td>
   </tr>
   <tr>
-    <td>Czech Republic</td>
-    <td>Monitoring agency</td>
-    <td>List publication</td>
-    <td>
+    <td align="left" valign="top">Czech Republic</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">List publication</td>
+    <td align="left" valign="top">
       <p>ČOI’s accessibility guidance links to a list of the products and services it supervises. The list is published under sections 22 and 24 of Act No. 424/2023.</p>
       <p><strong>Official authority publication:</strong> <a href="https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/" hreflang="cs">ČOI accessibility guidance</a>.</p>
     </td>
-    <td>2025-12-19</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-12-19</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Denmark</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>
+    <td align="left" valign="top">Denmark</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">
       <ul>
         <li><strong>E-commerce:</strong> 179 online inspections (148 on e-commerce, 12 on e-books and 2 on bank service) (2026-09-16).</li>
         <li><strong>Products:</strong> 33 control of products. (2026-09-16)</li>
@@ -64,28 +64,28 @@ Type can be:
         <li>Authorities in Denmark began in mid-2025 to notify at least one major online retailer of accessibility issues on their website, framed as a warning rather than formal enforcement. No fines or other measures have been reported.</li>
       </ul>
       </td>
-    <td>2025-10-03</td>
-    <td>2026-09-16</td>
+    <td align="left" valign="top">2025-10-03</td>
+    <td align="left" valign="top">2026-09-16</td>
   </tr>
   <tr>
-    <td>Estonia</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>
+    <td align="left" valign="top">Estonia</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">
       <ul>
         <li>TTJA (CPTRA) reports active monitoring of e-commerce, services providing access to audiovisual media services, and financial services.</li>
         <li>It has contacted service providers about identified accessibility concerns. These service providers have submitted corrective-action plans.</li>
         <li>Source: official TTJA (CPTRA) correspondence, 25 September 2026 (<a href=".github/agents/research/countries/estonia.json" hreflang="en">research record</a>).</li>
       </ul>
     </td>
-    <td>2026-09-25</td>
-    <td>-</td>
+    <td align="left" valign="top">2026-09-25</td>
+    <td align="left" valign="top">-</td>
   </tr>
   <tr>
-    <td>Finland</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>
+    <td align="left" valign="top">Finland</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">
       <ul>
         <li>
           Services:
@@ -105,14 +105,14 @@ Type can be:
       <p>On 30 June 2026, Traficom reported that it had already received complaints and enquiries concerning consumer services newly covered by the Finnish Act on the Provision of Digital Services. The publication does not state how many complaints or enquiries it received or give any case outcomes.</p>
       <p><strong>Official authority publication:</strong> <a href="https://uutiskirje.traficom.fi/viestinta/saavutettavuus-sujuvoittaa-arjen-asiointia.html" hreflang="fi">Traficom newsletter, 30 June 2026</a>.</p>
     </td>
-    <td>2025-10-03</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-10-03</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>France</td>
-    <td>Monitoring agency</td>
-    <td>Active</td>
-    <td>
+    <td align="left" valign="top">France</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active</td>
+    <td align="left" valign="top">
       <ul>
         <li>DGCCRF states that controls started when the French EAA rules entered into force on 28 June 2025, especially following reports.</li>
         <li>Consumers can report accessibility failures through <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement" hreflang="fr">SignalConso</a>. Professionals can declare non-compliance or invoke an exemption through <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">Démarches Simplifiées</a>.</li>
@@ -122,14 +122,14 @@ Type can be:
       <p>E-commerce: On 4 September 2026, DGCCRF reported that it had checked more than 20 websites since the start of 2026. It planned action to correct or penalise breaches for half of the websites checked. Several platforms and retailers had committed to making their websites compliant by the end of 2026; final investigation results were expected in early 2027.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/cp-dgccrf-conference-nationale-handicap.pdf">DGCCRF interim report, 4 September 2026 (PDF, p. 2)</a>.</p>
     </td>
-    <td>2026-07-03</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2026-07-03</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>France</td>
-    <td>Civil action</td>
-    <td>Active: Court cases.</td>
-    <td>
+    <td align="left" valign="top">France</td>
+    <td align="left" valign="top">Civil action</td>
+    <td align="left" valign="top">Active: Court cases.</td>
+    <td align="left" valign="top">
       <ul>
         <li>In an interim order dated 4 June 2026, the Tribunal judiciaire de Caen ordered Carrefour France to provide e-commerce services complying with French accessibility requirements. A €500 daily penalty applies if non-compliance continues six months after the order.</li>
         <li>The court also ordered Carrefour to pay a total of €10,000 in provisional damages to apiDV and Droit Pluriel, the costs of the proceedings, and €3,000 under article 700 of the French Code of Civil Procedure.</li>
@@ -139,52 +139,52 @@ Type can be:
         <li>The court actions followed July 2025 formal notices to Auchan, Carrefour, E. Leclerc and Picard Surgelés about the accessibility of their online grocery services. Sources: <a href="https://droitpluriel.fr/mise-en-demeure-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles-de-se-conformer-a-leur-obligation-daccessibilite-numerique-pour-leurs-services-de-courses-en-ligne/" hreflang="fr">Droit Pluriel notice summary</a>, <a href="https://www.interetaagir.org/assignation-en-refere-des-entreprises-auchan-carrefour-e-leclerc-et-picard-surgeles/" hreflang="fr">Intérêt à Agir court action summary</a>, <a href="https://www.lefigaro.fr/conso/e-leclerc-carrefour-picard-et-auchan-mis-en-demeure-pour-la-non-accessibilite-de-leurs-sites-aux-malvoyants-20250711" hreflang="fr">Le Figaro coverage</a>.</li>
       </ul>
     </td>
-    <td>2025-07-18</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-07-18</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Germany</td>
-    <td>Monitoring agency</td>
-    <td>Monitoring reported</td>
-    <td>
+    <td align="left" valign="top">Germany</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Monitoring reported</td>
+    <td align="left" valign="top">
       <p>In a publication dated 1 June 2026, Germany’s joint market surveillance authority (MLBF) reported that it had begun nationwide work in September 2025. Since then, it had been monitoring compliance with the Barrierefreiheitsstärkungsgesetz (BFSG). The publication does not identify individual cases or sanctions.</p>
       <p>On 29 January 2026, MLBF adopted separate market surveillance strategies for products and services. The strategies combine planned checks based on risk with investigations started in response to reports and requests for action. For web-based services, the service strategy includes initial automated checks. These documents describe how MLBF plans and carries out market checks; they do not report individual penalties.</p>
       <p><strong>Official authority publication:</strong> <a href="https://mlbf-barrierefrei.de/index.php?FID=4290.663.1&amp;ModID=7&amp;object=tx%2C4290.5.1" hreflang="de">MLBF monitoring update, 1 June 2026</a>; <a href="https://www.mlbf-barrierefrei.de/Aktuelles/Markt%C3%BCberwachungsstrategien-beschlossen.php?FID=3.11.1" hreflang="de">strategy adoption announcement, 19 February 2026</a>; <a href="https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&amp;FID=4290.35.1" hreflang="de">product strategy (PDF, German)</a>; <a href="https://www.mlbf-barrierefrei.de/loadDocument.phtml?Ext=PDF&amp;FID=4290.33.1" hreflang="de">service strategy (PDF, German)</a>.</p>
     </td>
-    <td>2026-09-25</td>
-    <td>2026-09-27</td>
+    <td align="left" valign="top">2026-09-25</td>
+    <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td>Germany</td>
-    <td>Civil action</td>
-    <td>Active</td>
-    <td>
+    <td align="left" valign="top">Germany</td>
+    <td align="left" valign="top">Civil action</td>
+    <td align="left" valign="top">Active</td>
+    <td align="left" valign="top">
       <ul>
         <li> "German BIK testing centers says that sites using Overlay tools cannot currently make a reliable statement regarding conformity according to EN/WCAG." Source: <a href="https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance" hreflang="en">German auditors reject accessibility overlays in EAA context, by Chris Yoong.</a></li>
       </ul>
     </td>
-    <td>2025-12-19</td>
-    <td>-</td>
+    <td align="left" valign="top">2025-12-19</td>
+    <td align="left" valign="top">-</td>
   </tr>
   <tr>
-    <td>Ireland</td>
-    <td>Monitoring agency</td>
-    <td>Active</td>
-    <td>
+    <td align="left" valign="top">Ireland</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active</td>
+    <td align="left" valign="top">
       <ul>
         <li>"The Commission for Communications Regulation (ComReg) has started to process consumer complaints, including one against Ireland’s largest mobile telecommunications company, Three. It’s been reported that Three has been responsive and active in the wake of the formal processing of the complaint." Source: <a href="https://www.deque.com/blog/early-signs-of-eaa-enforcement-across-europe" hreflang="en">Early signs of EAA enforcement across Europe, by Matthew Luken.</a></li>
       </ul>
       <p>In its 2025 annual report, the Competition and Consumer Protection Commission (CCPC) reported receiving 53 complaints and 16 exemption claims under the EAA during 2025. The report said these were being addressed, with results expected in 2026. These figures count complaints and exemption claims; they do not establish confirmed violations or approved exemptions.</p>
       <p><strong>Official authority publication:</strong> <a href="https://assets.ccpc.ie/data/docs/default-source/about-us/corporate-information/annual-reports/ccpc-annual-report-2025.pdf" hreflang="en">CCPC Annual Report 2025 (PDF, p. 11)</a>.</p>
     </td>
-    <td>2025-12-19</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-12-19</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Netherlands</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>
+    <td align="left" valign="top">Netherlands</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">
       <ul>
         <li>On 24 March 2026, the Netherlands Authority for Consumers and Markets (ACM) reported tests of approximately 100 of the largest Dutch online stores, as well as websites operated by large telecom and energy providers.</li>
         <li>On 61% of the tested websites, users of assistive technology could not place an order. A further 33% had serious accessibility problems that made ordering considerably more difficult.</li>
@@ -192,33 +192,33 @@ Type can be:
         <li>Official authority publication: <a href="https://www.acm.nl/en/publications/acm-majority-large-online-stores-are-not-accessible-customers-disabilities">ACM: majority of large online stores are not accessible for customers with disabilities</a>.</li>
       </ul>
     </td>
-    <td>2025-11-20</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-11-20</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Slovenia</td>
-    <td>Monitoring agency</td>
-    <td>Inspection findings</td>
-    <td>
+    <td align="left" valign="top">Slovenia</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Inspection findings</td>
+    <td align="left" valign="top">
       <p>Audiovisual access: In its decision summary dated 16 April 2026 (06122-2/2026/2), AKOS reported that it had checked accessibility features on a computer in two catch-up news programmes on Radiotelevizija Slovenija’s web service. It found that the subtitles, spoken subtitles and sign-language interpretation it checked complied with ZDPSI and the relevant accessibility regulation. This finding concerns the tested features and programmes.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.akos-rs.si/nadzor-odlocbe/tv-radio-in-vod/odlocba/sklep-06122-2-2026-2" hreflang="sl">AKOS decision summary, 16 April 2026</a>.</p>
     </td>
-    <td>2026-09-25</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Slovenia</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>Non-compliance warnings have been issued. No fines so far.</td>
-    <td>2026-02-13</td>
-    <td>-</td>
+    <td align="left" valign="top">Slovenia</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">Non-compliance warnings have been issued. No fines so far.</td>
+    <td align="left" valign="top">2026-02-13</td>
+    <td align="left" valign="top">-</td>
   </tr>
   <tr>
-    <td>Sweden</td>
-    <td>Monitoring agency</td>
-    <td>Active monitoring</td>
-    <td>
+    <td align="left" valign="top">Sweden</td>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Active monitoring</td>
+    <td align="left" valign="top">
       <ul>
         <li><strong>Products:</strong> On 23 October 2025, Sweden’s Post and Telecom Authority (PTS) announced checks of laptops, smartphones and tablets, focusing on EU declarations of conformity and certain digital product information. <strong>Official authority publication:</strong> <a href="https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-marknadskontroll/">PTS product checks</a>.</li>
         <li><strong>E-commerce:</strong> On 15 October 2025, PTS announced that its first checks of e-commerce services had begun. This round covered the websites of larger operators established in Sweden that sell products online. The checks focused on the homepage, a product page and search; apps were excluded. <strong>Official authority publication:</strong> <a href="https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-en-tillsyn-av-e-handelstjanster/">PTS e-commerce supervision</a>.</li>
@@ -240,26 +240,26 @@ Type can be:
         </li>
     </ul>
     </td>
-    <td>2025-10-15</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-10-15</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
 </table>
 
 ## Decisions from the EU commission
 <table>
   <tr>
-    <th>Countries affected</th>
-    <th>Details</th>
-    <th>Resources</th>
-    <th>Date added</th>
-    <th>Date updated</th>
+    <th align="left" valign="top">Countries affected</th>
+    <th align="left" valign="top">Details</th>
+    <th align="left" valign="top">Resources</th>
+    <th align="left" valign="top">Date added</th>
+    <th align="left" valign="top">Date updated</th>
   </tr>
   <tr>
-    <td>Croatia 🇭🇷 and Germany 🇩🇪</td>
-    <td>On 11 March 2026, the European Commission decided to send additional reasoned opinions to Croatia (INFR(2022)0306) and Germany (INFR(2022)0295) for not fully incorporating the EAA into national law. The countries were given two months to respond and take the necessary measures.</td>
-    <td>European Commission publication: <a href="https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf" hreflang="en">March infringements package, 11 March 2026 (PDF, pp. 6–7)</a></td>
-    <td>2026-06-24</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">Croatia 🇭🇷 and Germany 🇩🇪</td>
+    <td align="left" valign="top">On 11 March 2026, the European Commission decided to send additional reasoned opinions to Croatia (INFR(2022)0306) and Germany (INFR(2022)0295) for not fully incorporating the EAA into national law. The countries were given two months to respond and take the necessary measures.</td>
+    <td align="left" valign="top">European Commission publication: <a href="https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf" hreflang="en">March infringements package, 11 March 2026 (PDF, pp. 6–7)</a></td>
+    <td align="left" valign="top">2026-06-24</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
 </table>
 
@@ -267,45 +267,45 @@ Type can be:
 Type can be Government agency, Monitoring agencies with authority to take action under the European Accessibility Act (EAA) or civil action.
 <table>
   <tr>
-    <th>Country</th>
-    <th>Type</th>
-    <th>Status</th>
-    <th>Additional information</th>
-    <th>Date added</th>
-    <th>Date updated</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Type</th>
+    <th align="left" valign="top">Status</th>
+    <th align="left" valign="top">Additional information</th>
+    <th align="left" valign="top">Date added</th>
+    <th align="left" valign="top">Date updated</th>
   </tr>
   <tr>
-    <td>Canada</td>
-    <td>Government agency — other accessibility law</td>
-    <td>Monitoring reported</td>
-    <td>
+    <td align="left" valign="top">Canada</td>
+    <td align="left" valign="top">Government agency — other accessibility law</td>
+    <td align="left" valign="top">Monitoring reported</td>
+    <td align="left" valign="top">
       <p>Canada’s Accessibility Commissioner reported inspections of federally regulated organisations during 2025–2026 under the Accessible Canada Act and its regulations. The inspections concerned accessibility plans, feedback process descriptions and progress reports. Findings included documents published in inaccessible formats. These findings concern Canadian law. They are not EAA enforcement findings or results from the new ICT requirements due to take effect in 2027.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.chrc-ccdp.gc.ca/resources/publications/accessibility-commissioner-canadas-2025-2026-annual-report" hreflang="en">Accessibility Commissioner’s 2025–2026 annual report</a>.</p>
     </td>
-    <td>2026-09-25</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>Norway</td>
-    <td>Government agency — other accessibility law</td>
-    <td>Closed</td>
-    <td>
+    <td align="left" valign="top">Norway</td>
+    <td align="left" valign="top">Government agency — other accessibility law</td>
+    <td align="left" valign="top">Closed</td>
+    <td align="left" valign="top">
       <p>Norway’s ICT accessibility authority (Uu-tilsynet) closed its case concerning Helseplattformen AS’s HelsaMi website on 23 December 2025 after the remaining identified errors were corrected. Daily penalties of NOK 50,000 began on 20 December; the authority reports that the penalties applied for two days.</p>
       <p>The case concerned Norway’s Equality and Anti-Discrimination Act and ICT accessibility regulation.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.uutilsynet.no/tilsyn/tilsyn-med-helseplattformen-vert-avslutta/3123" hreflang="nn">Uu-tilsynet’s closure notice</a>.</p>
     </td>
-    <td>2025-12-19</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2025-12-19</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td>United Kingdom</td>
-    <td>Government agency — other accessibility law</td>
-    <td>Monitoring reported</td>
-    <td>
+    <td align="left" valign="top">United Kingdom</td>
+    <td align="left" valign="top">Government agency — other accessibility law</td>
+    <td align="left" valign="top">Monitoring reported</td>
+    <td align="left" valign="top">
       <p>The Government Digital Service’s report published on 17 December 2024 covers monitoring from January 2022 to September 2024 under the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. It reports testing 1,203 websites and 21 mobile apps. Since January 2022, the Equality and Human Rights Commission (EHRC) had sent initial letters to 93 public bodies in England and Wales. The report says that 66 of these bodies became compliant without EHRC needing to take enforcement action. This is public-sector accessibility work under UK law, not EAA enforcement.</p>
       <p><strong>Official authority publication:</strong> <a href="https://www.gov.uk/government/publications/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-from-2022-to-2024" hreflang="en">GDS monitoring report, 2022–2024</a>.</p>
     </td>
-    <td>2026-09-25</td>
-    <td>2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
+    <td align="left" valign="top">2026-09-25</td>
   </tr>
 </table>
