@@ -34,6 +34,14 @@ class AlignmentTests(unittest.TestCase):
             with self.subTest(text=text):
                 self.assertEqual(alignment.prepare(text), (text, 0))
 
+    def test_unicode_separators_preserve_offsets(self):
+        for separator in ["\u2028", "\u2029", "\r", "\v", "\f"]:
+            text = '<p>one' + separator + 'two</p>\n<table><tr><td align="left">Cell</td></tr></table>'
+            with self.subTest(separator=separator):
+                result, count = alignment.prepare(text)
+                self.assertEqual(count, 1)
+                self.assertEqual(result, text.replace(' align="left"', ' ' * len(' align="left"')))
+
     def test_other_errors_remain(self):
         text = '<table>\n<tr><th align="left" bogus="bad"><unknown>text</table>'
         result, count = alignment.prepare(text)

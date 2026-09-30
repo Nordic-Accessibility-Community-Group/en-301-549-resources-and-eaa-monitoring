@@ -20,9 +20,8 @@ APPROVED = {"align": "left", "valign": "top"}
 class AlignmentException(HTMLParser):
     def __init__(self, source):
         super().__init__(convert_charrefs=False)
-        self.offsets = [0]
-        for line in source.splitlines(keepends=True):
-            self.offsets.append(self.offsets[-1] + len(line))
+        # HTMLParser advances line numbers on LF only.
+        self.offsets = [0] + [match.end() for match in re.finditer("\n", source)]
         self.edits = []
 
     def handle_starttag(self, tag, attrs):
