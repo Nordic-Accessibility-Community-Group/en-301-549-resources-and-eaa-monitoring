@@ -15,7 +15,7 @@ Open [the browser preview](preview.html) locally to review the design. It embeds
 Calculated sRGB contrast ratios, rounded here for reporting:
 
 | Foreground | Background | Contrast |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Separator `#767676` | White `#FFFFFF` | 4.54:1 |
 | Separator `#767676` | Blue-grey `#E8EEF3` | 3.88:1 |
 | Text `#1F2937` | White `#FFFFFF` | 14.68:1 |
@@ -37,7 +37,7 @@ The current repository publishes Markdown containing HTML tables and has no webs
 
 For a website or documentation renderer that permits author CSS, load `assets/css/tables.css` and wrap the page content in the `resource-content` class. The preview demonstrates this integration. Keep the document content, source links, captions and header relationships intact.
 
-The stylesheet targets every table inside `resource-content`, including tables generated from Markdown, without requiring a class on each table. The existing GitHub table rendering remains unchanged. Adopting the visual design throughout the published resources requires a renderer that supports the shared stylesheet.
+The stylesheet targets every table inside `resource-content`, including tables generated from Markdown, without requiring a class on each table. The four existing resource pages now set `align="left"` and `valign="top"` on every HTML header and data cell, so alignment works directly in GitHub’s file view. These legacy presentational attributes are used for GitHub compatibility because that view does not load author CSS. The approved border and background colours remain deferred. Adopting the visual design throughout the published resources requires a renderer that supports the shared stylesheet.
 
 ## Review checks
 

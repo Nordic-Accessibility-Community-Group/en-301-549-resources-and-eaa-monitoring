@@ -5,22 +5,22 @@
 ## EU countries
 <table>
   <tr>
-    <th>Country</th>
-    <th>Demands statement</th>
-    <th>Monitoring agencies</th>
-    <th>Reporting issues</th>
-    <th>Additional information</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Demands statement</th>
+    <th align="left" valign="top">Monitoring agencies</th>
+    <th align="left" valign="top">Reporting issues</th>
+    <th align="left" valign="top">Additional information</th>
   </tr>
   <tr>
-    <td>Austria</td>
-    <td>✔️ Yes</td>
-    <td>
+    <td align="left" valign="top">Austria</td>
+    <td align="left" valign="top">✔️ Yes</td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul><li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html" hreflang="de">Sozialministeriumservice</a> (BaFG-covered products and consumer services).</li></ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul>
         <li>Public complaints: <a href="https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&amp;pn=Bc6cc641ebd1347bcb13ee1ee08f4d520" hreflang="de">Sozialministeriumservice reporting form</a> or <a href="mailto:marktueberwachung-bafg@sozialministeriumservice.gv.at">marktueberwachung-bafg@sozialministeriumservice.gv.at</a>.</li>
@@ -31,7 +31,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <ul>
         <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Allgemeine_Informationen_zum_Barrierefreiheitsgesetz/Allgemeine-Informationen-zum-Barrierefreiheitsgesetz.de.html" hreflang="de">General information from Sozialministeriumservice</a></li>
         <li><a href="https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Verbraucherinnen/Kontakt-fuer-Hinweisgeberinnen-nach-Barrierefreiheitsgesetz/Kontakt-fuer-Hinweisgeber-innen-nach-Barrierefre.de.html" hreflang="de">Public reporting guidance, German 🇩🇪</a></li>
@@ -41,10 +41,10 @@
     </td>
   </tr>
   <tr>
-    <td>Belgium</td>
-    <td>✔️ <a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-the-transposition-into-belgian-legislation#:~:text=From%202025%20on%2C%20every%20relevant%20company%20under%20the%20new%20legislation%20will%20have%20to%20publish%20an%20accessibility%20statement">Yes</a>  
+    <td align="left" valign="top">Belgium</td>
+    <td align="left" valign="top">✔️ <a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-the-transposition-into-belgian-legislation#:~:text=From%202025%20on%2C%20every%20relevant%20company%20under%20the%20new%20legislation%20will%20have%20to%20publish%20an%20accessibility%20statement">Yes</a>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Banking and E-commerce:</strong></p>
       <ul>
         <li><a href="https://economie.fgov.be/nl/over-de-fod/structuur-fod-economie/organigrammen/de-algemene-directie" hreflang="nl">General Directorate of Economic Inspection</a> — services for consumers.</li>
@@ -73,7 +73,7 @@
         <li><a href="https://ibz.be/fr" hreflang="fr">SPF Intérieur (IBZ)</a> — receiving 112 emergency calls.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Banking and E-commerce:</strong></p>
       <p>Economic Inspection</p>
       <ul>
@@ -102,7 +102,7 @@
         <li>Public and company reporting: ❓ Unknown.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <ul>
         <li><a href="https://economie.fgov.be/nl/themas/ondernemingen/guidance/wettelijk-kader-over" hreflang="nl">Official authority roster</a></li>
         <li><a href="https://consumerconnect.be/nl/meld-ons-iets" hreflang="nl">ConsumerConnect information</a></li>
@@ -114,16 +114,16 @@
     </td>
   </tr>  
   <tr>
-    <td>Bulgaria</td>
-    <td>✔️ Yes (Source needed)</td>
-    <td><p><strong>Products</strong></p><ul><li><a href="https://www.damtn.government.bg/za-nas/struktura-i-dejnosti/spetsializirana-administratsiya/glavna-direktsiya-np/" hreflang="bg">State Agency for Metrological and Technical Surveillance (ДАМТН)</a> – market surveillance of covered products.</li></ul><p><strong>E-commerce</strong></p><ul><li><a href="https://kzp.bg/en/contacts" hreflang="en">Consumer Protection Commission</a> – e-commerce and covered consumer-credit agreements (Article 54(1)(10)). (Комисията за защита на потребителите)</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.fsc.bg/" hreflang="bg">The Financial Supervision Commission</a> and the Deputy Chairman of the Financial Supervision Commission, Head of the "Investment Activity Supervision" Department – covered investment-services subset of consumer banking (Article 54(1)(7)). (Комисията за финансов надзор)</li><li><a href="https://www.bnb.bg/" hreflang="bg">The Bulgarian National Bank</a> – payment services, payment-account services and electronic money (Article 54(1)(8)). (Българската народна банка)</li><li><a href="https://kzp.bg/en/contacts" hreflang="en">Consumer Protection Commission</a> – e-commerce and covered consumer-credit agreements (Article 54(1)(10)). (Комисията за защита на потребителите)</li></ul><p><strong>Electronic communications</strong></p><ul><li><a href="https://crc.bg/" hreflang="bg">The Communications Regulation Commission</a> – for electronic communications services, with the exception of transmission services used for the provision of machine-to-machine services; (Комисията за регулиране на съобщенията – за електронни съобщителни услуги с изключение на услуги за предаване, използвани за предоставянето на услуги машина-машина;)</li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.caa.bg/bg" hreflang="bg">Directorate General "Civil Aviation Administration"</a> – covered elements of air passenger transport services. (Главна дирекция "Гражданска въздухоплавателна администрация")</li><li><a href="https://rta.government.bg/" hreflang="bg">Executive Agency "Automobile Administration"</a> – covered bus passenger-transport elements, including urban, suburban and regional terminal services. (Изпълнителна агенция "Автомобилна администрация")</li><li>Executive Agency "Railway Administration" – covered rail passenger-transport elements, including urban, suburban and regional terminal services. (Изпълнителна агенция "Железопътна администрация")</li><li><a href="https://www.marad.bg/bg" hreflang="bg">Executive Agency "Maritime Administration"</a> – covered elements of water passenger transport services. (Изпълнителна агенция "Морска администрация")</li></ul><p><strong>Audiovisual access</strong></p><ul><li><a href="https://www.cem.bg/" hreflang="bg">The Electronic Media Council</a> – for services providing access to audio-visual media services; (Съвета за електронни медии – за услуги за предоставяне на достъп до аудио-визуални медийни услуги;)</li></ul><p><strong>E-books</strong></p><ul><li>The Ministry of Culture – e-books and related software, excluding e-reader software. (Министерството на културата)</li></ul></td>
-    <td><p><strong>Products — ДАМТН</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-commerce — Consumer Protection Commission (КЗП)</strong></p><ul><li>Public complaints: <a href="https://kzp.bg/en/signals" hreflang="en">general online complaint form</a> (login required) or <a href="https://kzp.bg/en/contacts" hreflang="en">submit in person at a КЗП counter</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Banking — Financial Supervision Commission, Bulgarian National Bank and КЗП (respective subsets)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Electronic communications — Communications Regulation Commission</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Electronic Media Council</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Ministry of Culture</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — Civil Aviation, Automobile, Railway and Maritime Administrations</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><p><strong>Accessibility information:</strong> <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf" hreflang="bg">Bulgarian accessibility law, Article 50(2) and Annex 5</a>: covered service providers make accessibility information publicly available in accessible written and oral forms and include it in general terms and conditions or an equivalent document. Article 53(1) separately requires conformity information to be supplied to the competent authority on a justified request. Neither provision specifies a dedicated public page.</p><p><strong>Reporting scope:</strong> The law assigns e-commerce service oversight to КЗП (Articles 2(2)(7), 54(1)(10)). The general complaint form’s EAA-specific intake has not been confirmed.</p><p>⚖️ EAA implementing law: <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf" hreflang="bg">Закон за изискванията за достъпност на продукти и услуги</a>.</p></td>
+    <td align="left" valign="top">Bulgaria</td>
+    <td align="left" valign="top">✔️ Yes (Source needed)</td>
+    <td align="left" valign="top"><p><strong>Products</strong></p><ul><li><a href="https://www.damtn.government.bg/za-nas/struktura-i-dejnosti/spetsializirana-administratsiya/glavna-direktsiya-np/" hreflang="bg">State Agency for Metrological and Technical Surveillance (ДАМТН)</a> – market surveillance of covered products.</li></ul><p><strong>E-commerce</strong></p><ul><li><a href="https://kzp.bg/en/contacts" hreflang="en">Consumer Protection Commission</a> – e-commerce and covered consumer-credit agreements (Article 54(1)(10)). (Комисията за защита на потребителите)</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.fsc.bg/" hreflang="bg">The Financial Supervision Commission</a> and the Deputy Chairman of the Financial Supervision Commission, Head of the "Investment Activity Supervision" Department – covered investment-services subset of consumer banking (Article 54(1)(7)). (Комисията за финансов надзор)</li><li><a href="https://www.bnb.bg/" hreflang="bg">The Bulgarian National Bank</a> – payment services, payment-account services and electronic money (Article 54(1)(8)). (Българската народна банка)</li><li><a href="https://kzp.bg/en/contacts" hreflang="en">Consumer Protection Commission</a> – e-commerce and covered consumer-credit agreements (Article 54(1)(10)). (Комисията за защита на потребителите)</li></ul><p><strong>Electronic communications</strong></p><ul><li><a href="https://crc.bg/" hreflang="bg">The Communications Regulation Commission</a> – for electronic communications services, with the exception of transmission services used for the provision of machine-to-machine services; (Комисията за регулиране на съобщенията – за електронни съобщителни услуги с изключение на услуги за предаване, използвани за предоставянето на услуги машина-машина;)</li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.caa.bg/bg" hreflang="bg">Directorate General "Civil Aviation Administration"</a> – covered elements of air passenger transport services. (Главна дирекция "Гражданска въздухоплавателна администрация")</li><li><a href="https://rta.government.bg/" hreflang="bg">Executive Agency "Automobile Administration"</a> – covered bus passenger-transport elements, including urban, suburban and regional terminal services. (Изпълнителна агенция "Автомобилна администрация")</li><li>Executive Agency "Railway Administration" – covered rail passenger-transport elements, including urban, suburban and regional terminal services. (Изпълнителна агенция "Железопътна администрация")</li><li><a href="https://www.marad.bg/bg" hreflang="bg">Executive Agency "Maritime Administration"</a> – covered elements of water passenger transport services. (Изпълнителна агенция "Морска администрация")</li></ul><p><strong>Audiovisual access</strong></p><ul><li><a href="https://www.cem.bg/" hreflang="bg">The Electronic Media Council</a> – for services providing access to audio-visual media services; (Съвета за електронни медии – за услуги за предоставяне на достъп до аудио-визуални медийни услуги;)</li></ul><p><strong>E-books</strong></p><ul><li>The Ministry of Culture – e-books and related software, excluding e-reader software. (Министерството на културата)</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products — ДАМТН</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-commerce — Consumer Protection Commission (КЗП)</strong></p><ul><li>Public complaints: <a href="https://kzp.bg/en/signals" hreflang="en">general online complaint form</a> (login required) or <a href="https://kzp.bg/en/contacts" hreflang="en">submit in person at a КЗП counter</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Banking — Financial Supervision Commission, Bulgarian National Bank and КЗП (respective subsets)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Electronic communications — Communications Regulation Commission</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Electronic Media Council</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Ministry of Culture</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — Civil Aviation, Automobile, Railway and Maritime Administrations</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Accessibility information:</strong> <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf" hreflang="bg">Bulgarian accessibility law, Article 50(2) and Annex 5</a>: covered service providers make accessibility information publicly available in accessible written and oral forms and include it in general terms and conditions or an equivalent document. Article 53(1) separately requires conformity information to be supplied to the competent authority on a justified request. Neither provision specifies a dedicated public page.</p><p><strong>Reporting scope:</strong> The law assigns e-commerce service oversight to КЗП (Articles 2(2)(7), 54(1)(10)). The general complaint form’s EAA-specific intake has not been confirmed.</p><p>⚖️ EAA implementing law: <a href="https://kzp.bg/upload/52521/ZAKON_za_iziskvaniqta_za_dostypnost_na_produkti_i_uslugi.pdf" hreflang="bg">Закон за изискванията за достъпност на продукти и услуги</a>.</p></td>
   </tr>
   <tr>
-    <td>Croatia</td>
-    <td>✖️ No (Source needed)</td>
-    <td>
+    <td align="left" valign="top">Croatia</td>
+    <td align="left" valign="top">✖️ No (Source needed)</td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p>
       <ul>
         <li><a href="https://www.hakom.hr/" hreflang="hr">HAKOM</a> — covered radio equipment.</li>
@@ -157,7 +157,7 @@
         <li>❓ Unknown.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p>
       <ul>
         <li>Public and company reporting: ❓ Unknown.</li>
@@ -187,22 +187,22 @@
         <li>Public and company reporting: ❓ Unknown.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>Accessibility information: public availability required for covered services; microenterprise service providers excluded (Articles 4(2), 15; Annex V).</p>
       <p>⚖️ EAA implementing law: <a href="https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1231.html" hreflang="hr">Zakon o zahtjevima za pristupačnost proizvoda i usluga (NN 89/2025)</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>Cyprus</td>
-    <td>❓ Unknown</td>
-    <td>
+    <td align="left" valign="top">Cyprus</td>
+    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p>
       <ul>
         <li><a href="https://www.gov.cy/dmsw/">Deputy Minister of Social Welfare</a> — competent authority under Law 57(I)/2024.</li>
         <li>Supporting market-surveillance departments and services: ❓ Unknown.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p>
       <ul>
         <li>Public complaints: ❓ Unknown.</li>
@@ -210,15 +210,15 @@
         <li>Company exemptions: ❓ Unknown.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>Accessibility information: covered service providers include the information in their general terms and conditions or an equivalent document and make it publicly available in accessible written and oral forms (Article 14; Annex III). This does not establish a dedicated public page.</p>
       <p>⚖️ EAA implementing law: <a href="https://cylaw.org/nomoi/enop/non-ind/2024_1_57/full.html" hreflang="el">Law 57(I)/2024 on accessibility of products and services</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>Czechia</td>
-    <td>✖️ <a href="https://mpo.gov.cz/cz/podnikani/pristupnost-vyrobku-a-sluzeb/vzor-prohlaseni-o-pristupnosti--291601/" hreflang="cs">No</a></td>
-    <td>
+    <td align="left" valign="top">Czechia</td>
+    <td align="left" valign="top">✖️ <a href="https://mpo.gov.cz/cz/podnikani/pristupnost-vyrobku-a-sluzeb/vzor-prohlaseni-o-pristupnosti--291601/" hreflang="cs">No</a></td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking and E-books:</strong></p>
       <ul><li><a href="https://coi.gov.cz/pro-spotrebitele/pristupnost-vyrobku-a-sluzeb-pro-spotrebitele/" hreflang="cs">Czech Trade Inspection Authority (ČOI)</a></li></ul>
       <p><strong>Electronic communications:</strong></p>
@@ -237,7 +237,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking and E-books — ČOI:</strong></p>
       <ul>
         <li>Public reports: inspection submissions via <a href="https://eportal.coi.gov.cz/" hreflang="cs">ČOI E-portal</a> (login not required).</li>
@@ -257,28 +257,28 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>Accessibility information: covered service providers publish the information in general terms and conditions or a similar document and provide it in audio form on request. The government statement template is voluntary.</p>
       <p>⚖️ EAA implementing law: <a href="https://e-sbirka.gov.cz/sb/2023/424" hreflang="cs">Zákon č. 424/2023 Sb.</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>Denmark</td>
-    <td>✔️ <a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf" hreflang="da">Yes</a></td>
-    <td><p><strong>Products, Audiovisual access and E-books</strong></p><ul><li><a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a> – Products; TV/streaming services; e-books; delegated banking/ATM, e-commerce and Smart-TV checks.</li></ul><p><strong>E-commerce</strong></p><ul><li><a href="https://kfst.dk/" hreflang="da">Konkurrence- og Forbrugerstyrelsen</a> – E-commerce; checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.finanstilsynet.dk/" hreflang="da">Finanstilsynet</a> – Banking and ATMs; checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Electronic communications</strong></p><ul><li><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/" hreflang="da">Digitaliseringsstyrelsen</a> – Electronic communications; Smart-TV checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven" hreflang="da">Trafikstyrelsen</a> – Digital passenger-transport services: air, bus, rail and land-side port elements.</li><li><a href="https://www.soefartsstyrelsen.dk/" hreflang="da">Søfartsstyrelsen</a> – Ship passenger services.</li></ul><p><strong>112 emergency calls</strong></p><ul><li><a href="https://politi.dk/" hreflang="da">Rigspolitiet</a></li></ul></td>
-    <td><p><strong>Products — Erhvervsstyrelsen | Markedsovervågning</strong></p><ul><li>Public complaints: <a href="https://produkter.dk" hreflang="da">Reporting tool for products</a> (Danish 🇩🇰).</li><li>Public reports (self-service terminals): <a href="https://www.sik.dk/tip" hreflang="da">public accessibility reporting form</a>; anonymous reporting offered.</li><li>Company non-compliance: <a href="mailto:mo@erst.dk">mo@erst.dk</a> or <a href="mailto:sik@sik.dk">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li><li>Company exemptions: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements</a> (English 🇬🇧 / Danish 🇩🇰; MitID Business required).</li></ul><p><strong>E-commerce, Banking, Audiovisual access and E-books — Erhvervsstyrelsen | Markedsovervågning</strong></p><p>E-commerce checks on behalf of Konkurrence- og Forbrugerstyrelsen; banking and ATM checks on behalf of Finanstilsynet.</p><ul><li>Public complaints: <a href="https://www.sik.dk/tip" hreflang="da">public accessibility reporting form</a> for e-commerce, banking, streaming and e-book services; anonymous reporting offered.</li><li>Company non-compliance: <a href="mailto:mo@erst.dk">mo@erst.dk</a> or <a href="mailto:sik@sik.dk">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li><li>Company exemptions: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements</a> (English 🇬🇧 / Danish 🇩🇰; MitID Business required).</li></ul><p><strong>Electronic communications — Digitaliseringsstyrelsen</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — Trafikstyrelsen and Søfartsstyrelsen</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>112 emergency calls — Rigspolitiet</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/" hreflang="da">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/" hreflang="da">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester" hreflang="da">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801" hreflang="da">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/" hreflang="da">DIGST: public accessibility information in general terms and conditions or an equivalent document.</a></p></td>
+    <td align="left" valign="top">Denmark</td>
+    <td align="left" valign="top">✔️ <a href="https://www.retsinformation.dk/eli/lta/2022/801/pdf" hreflang="da">Yes</a></td>
+    <td align="left" valign="top"><p><strong>Products, Audiovisual access and E-books</strong></p><ul><li><a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a> – Products; TV/streaming services; e-books; delegated banking/ATM, e-commerce and Smart-TV checks.</li></ul><p><strong>E-commerce</strong></p><ul><li><a href="https://kfst.dk/" hreflang="da">Konkurrence- og Forbrugerstyrelsen</a> – E-commerce; checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.finanstilsynet.dk/" hreflang="da">Finanstilsynet</a> – Banking and ATMs; checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Electronic communications</strong></p><ul><li><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/" hreflang="da">Digitaliseringsstyrelsen</a> – Electronic communications; Smart-TV checks carried out by <a href="https://www.sik.dk/" hreflang="da">Erhvervsstyrelsen | Markedsovervågning</a>.</li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.trafikstyrelsen.dk/publikationsliste/kollektiv-trafik-publikationer/2025/maj/vejledning-om-tilgaengelighedsloven" hreflang="da">Trafikstyrelsen</a> – Digital passenger-transport services: air, bus, rail and land-side port elements.</li><li><a href="https://www.soefartsstyrelsen.dk/" hreflang="da">Søfartsstyrelsen</a> – Ship passenger services.</li></ul><p><strong>112 emergency calls</strong></p><ul><li><a href="https://politi.dk/" hreflang="da">Rigspolitiet</a></li></ul></td>
+    <td align="left" valign="top"><p><strong>Products — Erhvervsstyrelsen | Markedsovervågning</strong></p><ul><li>Public complaints: <a href="https://produkter.dk" hreflang="da">Reporting tool for products</a> (Danish 🇩🇰).</li><li>Public reports (self-service terminals): <a href="https://www.sik.dk/tip" hreflang="da">public accessibility reporting form</a>; anonymous reporting offered.</li><li>Company non-compliance: <a href="mailto:mo@erst.dk">mo@erst.dk</a> or <a href="mailto:sik@sik.dk">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li><li>Company exemptions: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements</a> (English 🇬🇧 / Danish 🇩🇰; MitID Business required).</li></ul><p><strong>E-commerce, Banking, Audiovisual access and E-books — Erhvervsstyrelsen | Markedsovervågning</strong></p><p>E-commerce checks on behalf of Konkurrence- og Forbrugerstyrelsen; banking and ATM checks on behalf of Finanstilsynet.</p><ul><li>Public complaints: <a href="https://www.sik.dk/tip" hreflang="da">public accessibility reporting form</a> for e-commerce, banking, streaming and e-book services; anonymous reporting offered.</li><li>Company non-compliance: <a href="mailto:mo@erst.dk">mo@erst.dk</a> or <a href="mailto:sik@sik.dk">sik@sik.dk</a>. Danish 🇩🇰; companies outside Denmark can report in English 🇬🇧.</li><li>Company exemptions: <a href="https://virk.dk/myndigheder/stat/SIK/selvbetjening/declaration-of-exemption-from-accessibility-requirements">Declaration of Exemption from Accessibility Requirements</a> (English 🇬🇧 / Danish 🇩🇰; MitID Business required).</li></ul><p><strong>Electronic communications — Digitaliseringsstyrelsen</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — Trafikstyrelsen and Søfartsstyrelsen</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>112 emergency calls — Rigspolitiet</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><ul><li><a href="https://useit-consulting.dk/aktuelt/hvem-forer-kontrol-med-hvad-i-tilgaengelighedsloven/" hreflang="da">Hvem fører kontrol med hvad i tilgængelighedsloven?</a></li><li><a href="https://forlaens.com/digital-tilgaengelighed-i-danmark-en-praktisk-vejledning/" hreflang="da">Digital Tilgængelighed i Danmark: En Praktisk Vejledning til Lovgivningen (EAA)</a></li><li><a href="https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester" hreflang="da">Official overview of EAA oversight and complaint access</a></li></ul><p>⚖️ EAA implementing law: <a href="https://retsinformation.dk/eli/lta/2022/801" hreflang="da">Lov om tilgængelighedskrav for produkter og tjenester (nr. 801/2022)</a>.</p><p><a href="https://digst.dk/tele/telefoni-og-internet/information-til-udbyderne/tilgaengelighed-for-elektroniske-kommunikationstjenester/" hreflang="da">DIGST: public accessibility information in general terms and conditions or an equivalent document.</a></p></td>
   </tr>
   <tr>
-    <td>Estonia</td>
-    <td>✔️ Yes</td>
-    <td>
+    <td align="left" valign="top">Estonia</td>
+    <td align="left" valign="top">✔️ Yes</td>
+    <td align="left" valign="top">
       <p><strong>Products and services:</strong></p>
       <ul>
         <li><a href="https://www.ttja.ee/en" hreflang="en">Consumer Protection and Technical Regulatory Authority (TTJA)</a></li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products and services:</strong></p>
       <ul>
         <li>Public reports: <a href="mailto:info@ttja.ee">info@ttja.ee</a></li>
@@ -288,7 +288,7 @@
       </ul>
       <p>Company communication in English is possible, including from other EU Member States.</p>
     </td>
-    <td>
+    <td align="left" valign="top">
       <ul>
         <li><a href="https://www.ttja.ee/en/business-client/entrepreneurship/digital-accessibility/digital-accessibility-services" hreflang="en">TTJA guidance for companies, in English 🇬🇧</a></li>
       </ul>
@@ -296,15 +296,15 @@
     </td>
   </tr>
   <tr>
-    <td>Finland</td>
-    <td>✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet" hreflang="fi">Yes</a></td>
-    <td>
+    <td align="left" valign="top">Finland</td>
+    <td align="left" valign="top">✔️ <a href="https://www.saavutettavuusvaatimukset.fi/fi/palvelukohtaiset-vaatimukset-ja-velvoitteet" hreflang="fi">Yes</a></td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul><li><a href="https://www.traficom.fi/fi/esteettomyys-ja-saavutettavuus" hreflang="fi">Traficom</a> (covered products and services).</li></ul>
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><a href="https://intermin.fi/en/frontpage" hreflang="en">Ministry of the Interior</a> (answering and accessibility).</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul>
         <li>Public complaints (digital services): <a href="https://eservices.traficom.fi/ContactForms/form/tee-saavutettavuuskantelu-tai-pyyda-selvitysta?langid=en">Traficom complaint form</a> or <a href="mailto:saavutettavuus@traficom.fi">saavutettavuus@traficom.fi</a>.
@@ -322,15 +322,15 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><a href="https://www.saavutettavuusvaatimukset.fi/en/obligation-notify-deficiencies-and-grounds-derogation" hreflang="en">Company reporting instructions in English 🇬🇧</a></p>
       <p>⚖️ EAA implementing law: products: <a href="https://finlex.fi/fi/lainsaadanto/2023/102" hreflang="fi">Laki eräiden tuotteiden esteettömyysvaatimuksista (102/2023)</a>; digital services: <a href="https://finlex.fi/fi/lainsaadanto/2019/306" hreflang="fi">Laki digitaalisten palvelujen tarjoamisesta (306/2019, chapter 3a)</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>France</td>
-    <td>✔️ <a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/" hreflang="fr">Yes</a> </td>
-    <td>
+    <td align="left" valign="top">France</td>
+    <td align="left" valign="top">✔️ <a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/" hreflang="fr">Yes</a> </td>
+    <td align="left" valign="top">
       <p><strong>Products and E-commerce:</strong></p>
       <ul><li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF</a> — covered products and services</li></ul>
       <p><strong>Transport:</strong></p>
@@ -346,7 +346,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>DGCCRF company declarations: the platform is in French; companies based outside France can use it and attach reports in English.</p>
       <p><strong>Products and E-commerce:</strong></p>
       <ul><li>Public reports: DGCCRF — consumer problems, <a href="https://signal.conso.gouv.fr/fr/accessibilite/faire-un-signalement" hreflang="fr">SignalConso</a></li><li>Company non-compliance: DGCCRF — self-reporting, <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li><li>Company exemptions: DGCCRF — <a href="https://demarche.numerique.gouv.fr/commencer/exemption-accessibilite-num">declaration form</a></li></ul>
@@ -363,7 +363,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>Statement link: Article 47/RGAA framework, where applicable; EAA service information may be included in general terms and conditions or an equivalent document.</p>
       <ul>
         <li><a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/professionnels-vos-produits-et-services-doivent-etre-conformes-la-directive-accessibilite">DGCCRF professional guidance</a></li>
@@ -376,17 +376,17 @@
     </td>
   </tr>
   <tr>
-    <td>Germany</td>
-    <td>
+    <td align="left" valign="top">Germany</td>
+    <td align="left" valign="top">
       ✔️ <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz/FAQ-Dienstleistungen/faq-dienstleistungen_node.html" hreflang="de">Yes</a>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
       <ul>
         <li><a href="https://mlbf-barrierefrei.de/" lang="de" hreflang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> — nationwide BFSG market surveillance.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services), Audiovisual access, E-books and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
       <ul>
         <li>Public reports (consumers): barrier reports via <a href="https://www.mlbf-barrierefrei.de/Informationen-f%C3%BCr-Verbraucherinnen-und-Verbraucher/Meldung-von-Barrieren/" hreflang="de">MLBF reporting form</a>.</li>
@@ -395,15 +395,15 @@
         <li>Company exemptions: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/" hreflang="de">MLBF contact form for companies, organisations and institutions</a>.</li>
       </ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>BFSG accessibility information is distinct from the accessibility statement required under the BGG. It must be provided in an accessible form and be clearly perceptible and easy to find; official guidance recommends an “Accessibility” link in the website header or footer to the relevant information page as an alternative to placing the information in the general terms and conditions.</p>
       <p>⚖️ EAA implementing law: <a href="https://www.gesetze-im-internet.de/bfsg/" hreflang="de">Barrierefreiheitsstärkungsgesetz (BFSG)</a> and <a href="https://www.gesetze-im-internet.de/bfsgv/" hreflang="de">Verordnung zum Barrierefreiheitsstärkungsgesetz (BFSGV)</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>Greece</td>
-    <td>✖️ No</td>
-    <td>
+    <td align="left" valign="top">Greece</td>
+    <td align="left" valign="top">✖️ No</td>
+    <td align="left" valign="top">
       <p><strong>Products — computer hardware and operating systems, e-readers, payment terminals and ATMs:</strong></p>
       <ul><li><a href="https://www.mindev.gov.gr/" hreflang="el">Industrial Products Safety and Compliance Directorate, General Secretariat for Industry</a></li></ul>
       <p><strong>Products — electronic-communications terminal equipment:</strong></p>
@@ -421,7 +421,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
       <p><strong>Electronic communications — EETT:</strong></p>
@@ -437,22 +437,22 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>Accessibility information: covered service providers must make information explaining conformity publicly available in accessible written and oral forms. Law 4994/2022 does not expressly require a dedicated accessibility-statement page.</p>
       <p>⚖️ EAA implementing law: <a href="https://api.et.gr/apiLAW/1/2022/4994/pdf" hreflang="el">Law 4994/2022 (Government Gazette A 215/18.11.2022)</a>.</p>
     </td>
   </tr>
   <tr>
-    <td>Hungary</td>
-    <td>❓ Unknown </td>
-    <td><p>Authorities and statutory authority classes:</p><p><strong>Products</strong></p><ul><li><a href="https://nmhh.hu/" hreflang="hu">Office of NMHH</a> — specified products.</li><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">Magyar Nemzeti Bank (MNB)</a> — ATMs and payment terminals for payment-transaction acquiring services.</li><li>Consumer-protection authority — e-readers and payment terminals outside MNB's remit.</li><li>Civil aviation, bus, railway and maritime authority classes — related covered transport terminals.</li></ul><p><strong>E-commerce and E-books</strong></p><ul><li>Consumer-protection authority — e-commerce, e-books and dedicated software.</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">Magyar Nemzeti Bank (MNB)</a> — consumer banking.</li></ul><p><strong>Electronic communications and Audiovisual access</strong></p><ul><li><a href="https://nmhh.hu/" hreflang="hu">Office of NMHH</a></li></ul><p><strong>Transport</strong></p><ul><li>Civil aviation authority – covered air-passenger services and terminals.</li><li>Bus market-surveillance and passenger-rights authority – covered bus-passenger services and terminals.</li><li>Railway administrative body – covered rail services and terminals; integrated or linked public passenger services.</li><li>Maritime authority – covered water-passenger services and terminals.</li></ul><p><strong>112 emergency calls</strong></p><ul><li>Budapest Főváros Kormányhivatala – 112 emergency calls.</li></ul></td>
-    <td><p><strong>Products — Office of NMHH, MNB, consumer-protection and transport authorities (respective products)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-commerce and E-books — Consumer-protection authority</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Banking — Magyar Nemzeti Bank (MNB)</strong></p><ul><li>Public complaints: <a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">accessibility complaint instructions</a>. After first complaining to the financial provider, complaints meeting the linked eligibility conditions may be posted to Magyar Nemzeti Bank, 1534 Budapest BKKP Pf. 777, Hungary. Attach the provider's response, the record of an oral complaint, or proof of posting a postal complaint, as applicable.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Electronic communications and Audiovisual access — Office of NMHH</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — statutory aviation, bus, rail and maritime authority classes</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>112 emergency calls — Budapest Főváros Kormányhivatala</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><p><a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00" hreflang="hu">Act XVII of 2022, section 6(1) and Annex 3</a> require public accessibility documentation for covered services in accessible written and oral form, with compliance information in general terms and conditions or an equivalent document. Section 6(5) separately requires compliance information and documentation on the authority's request.</p><p>⚖️ EAA implementing law: <a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00" hreflang="hu">Act XVII of 2022</a>; <a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22" hreflang="hu">implementing decree 605/2022</a>.</p><p>Exact offices and websites for generic authority classes: Unknown. Urban, suburban and regional transport: covered terminal services only. Specified 112 requirements apply from 28 June 2027.</p></td>
+    <td align="left" valign="top">Hungary</td>
+    <td align="left" valign="top">❓ Unknown </td>
+    <td align="left" valign="top"><p>Authorities and statutory authority classes:</p><p><strong>Products</strong></p><ul><li><a href="https://nmhh.hu/" hreflang="hu">Office of NMHH</a> — specified products.</li><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">Magyar Nemzeti Bank (MNB)</a> — ATMs and payment terminals for payment-transaction acquiring services.</li><li>Consumer-protection authority — e-readers and payment terminals outside MNB's remit.</li><li>Civil aviation, bus, railway and maritime authority classes — related covered transport terminals.</li></ul><p><strong>E-commerce and E-books</strong></p><ul><li>Consumer-protection authority — e-commerce, e-books and dedicated software.</li></ul><p><strong>Banking</strong></p><ul><li><a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">Magyar Nemzeti Bank (MNB)</a> — consumer banking.</li></ul><p><strong>Electronic communications and Audiovisual access</strong></p><ul><li><a href="https://nmhh.hu/" hreflang="hu">Office of NMHH</a></li></ul><p><strong>Transport</strong></p><ul><li>Civil aviation authority – covered air-passenger services and terminals.</li><li>Bus market-surveillance and passenger-rights authority – covered bus-passenger services and terminals.</li><li>Railway administrative body – covered rail services and terminals; integrated or linked public passenger services.</li><li>Maritime authority – covered water-passenger services and terminals.</li></ul><p><strong>112 emergency calls</strong></p><ul><li>Budapest Főváros Kormányhivatala – 112 emergency calls.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products — Office of NMHH, MNB, consumer-protection and transport authorities (respective products)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-commerce and E-books — Consumer-protection authority</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Banking — Magyar Nemzeti Bank (MNB)</strong></p><ul><li>Public complaints: <a href="https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg" hreflang="hu">accessibility complaint instructions</a>. After first complaining to the financial provider, complaints meeting the linked eligibility conditions may be posted to Magyar Nemzeti Bank, 1534 Budapest BKKP Pf. 777, Hungary. Attach the provider's response, the record of an oral complaint, or proof of posting a postal complaint, as applicable.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Electronic communications and Audiovisual access — Office of NMHH</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Transport — statutory aviation, bus, rail and maritime authority classes</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>112 emergency calls — Budapest Főváros Kormányhivatala</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00" hreflang="hu">Act XVII of 2022, section 6(1) and Annex 3</a> require public accessibility documentation for covered services in accessible written and oral form, with compliance information in general terms and conditions or an equivalent document. Section 6(5) separately requires compliance information and documentation on the authority's request.</p><p>⚖️ EAA implementing law: <a href="https://njt.jog.gov.hu/jogszabaly/2022-17-00-00" hreflang="hu">Act XVII of 2022</a>; <a href="https://njt.jog.gov.hu/jogszabaly/2022-605-20-22" hreflang="hu">implementing decree 605/2022</a>.</p><p>Exact offices and websites for generic authority classes: Unknown. Urban, suburban and regional transport: covered terminal services only. Specified 112 requirements apply from 28 June 2027.</p></td>
   </tr>
   <tr>
-    <td>Ireland</td>
-    <td>❓ Unknown</td>
-    <td>
+    <td align="left" valign="top">Ireland</td>
+    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce and E-books:</strong></p>
       <ul><li><a href="https://www.ccpc.ie/" hreflang="en">Competition and Consumer Protection Commission (CCPC)</a> — covered products; e-commerce; e-books and dedicated software.</li></ul>
       <p><strong>Electronic communications and 112 emergency communications:</strong></p>
@@ -464,7 +464,7 @@
       <p><strong>Banking:</strong></p>
       <ul><li><a href="https://www.centralbank.ie/consumer-hub/european-accessibility-act" hreflang="en">Central Bank of Ireland</a> — consumer banking.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce and E-books:</strong></p>
       <ul><li>Public complaints: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/accessibility-act-complaint-form" hreflang="en">CCPC complaint form</a>.</li><li>Company non-compliance / exemptions: <a href="https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue" hreflang="en">CCPC form</a> (English).</li><li>Company reporting email: <a href="mailto:access@ccpc.ie">access@ccpc.ie</a> (English).</li></ul>
       <p><strong>Electronic communications and 112 emergency communications:</strong></p>
@@ -476,12 +476,12 @@
       <p><strong>Banking:</strong></p>
       <ul><li>Public complaints: <a href="mailto:enquiries@centralbank.ie">enquiries@centralbank.ie</a> (subject: “EAA alleged non-compliance”).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
     </td>
-    <td><p>Covered services must publish accessible compliance information.</p><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/" hreflang="en">TPGi overview</a> (secondary source).</li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law" hreflang="en">MHC overview</a> (secondary source).</li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print" hreflang="en">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
+    <td align="left" valign="top"><p>Covered services must publish accessible compliance information.</p><ul><li><a href="https://www.tpgi.com/ireland-digital-accessibility-laws-eaa-and-beyond/" hreflang="en">TPGi overview</a> (secondary source).</li><li><a href="https://www.mhc.ie/latest/insights/european-accessibility-act-implemented-into-irish-law" hreflang="en">MHC overview</a> (secondary source).</li></ul><p>⚖️ EAA implementing law: <a href="https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print" hreflang="en">European Union (Accessibility Requirements of Products and Services) Regulations 2023 (S.I. 636/2023)</a>.</p></td>
   </tr>
   <tr>
-    <td>Italy</td>
-    <td>✔️ <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati" hreflang="it">Yes</a></td>
-    <td>
+    <td align="left" valign="top">Italy</td>
+    <td align="left" valign="top">✔️ <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-privati" hreflang="it">Yes</a></td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p>
       <ul><li><a href="https://www.mimit.gov.it/it/" hreflang="it">Ministero delle Imprese e del Made in Italy (MIMIT)</a> — covered products.</li></ul>
       <p><strong>E-commerce, Banking, Electronic communications, Audiovisual access and E-books:</strong></p>
@@ -491,47 +491,47 @@
       <p><strong>112 emergency calls:</strong></p>
       <p>❓ Unknown.</p>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul>
       <p><strong>E-commerce, Banking, Electronic communications, Audiovisual access and E-books:</strong></p><ul><li>Public and company EAA reporting: ❓ Unknown.</li></ul>
       <p><strong>Transport:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul>
       <p><strong>112 emergency calls:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul>
       <p>Existing <a href="https://trustservices.agid.gov.it/SegnalazioneUtente" hreflang="it">AgID reporting portal</a>.</p>
     </td>
-    <td><p>Stanca Act statement requirements and EAA public-information duties differ.</p><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf" hreflang="it">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/" hreflang="en">TPGi overview of the Stanca Act (unverified secondary source)</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.gazzettaufficiale.it/eli/id/2022/07/01/22G00089/sg" hreflang="it">Decreto legislativo 27 maggio 2022, n. 82</a>.</p></td>
+    <td align="left" valign="top"><p>Stanca Act statement requirements and EAA public-information duties differ.</p><ul><li><a href="https://www.agid.gov.it/sites/agid/files/2024-05/VIGILANZA%20SULL%E2%80%99ACCESSIBILITA%E2%80%99%20DEI%20SITI%20WEB%20E%20DELLE%20APPLICAZIONI%20MOBILI%20DA%20PARTE%20DI%20SOGGETTI%20EROGATORI%20ART.%203%20COMMA%201-BIS%20%28Legge%20n.4%20%3A%202004%20e%20successive%20modifiche%29.pdf" hreflang="it">Monitoring the accessibility of websites and mobile applications. Law No. 4/2004 and subsequent amendments</a></li><li><a href="https://www.tpgi.com/understanding-the-stanca-act-italys-digital-accessibility-law/" hreflang="en">TPGi overview of the Stanca Act (unverified secondary source)</a></li></ul><p>⚖️ EAA implementing law: <a href="https://www.gazzettaufficiale.it/eli/id/2022/07/01/22G00089/sg" hreflang="it">Decreto legislativo 27 maggio 2022, n. 82</a>.</p></td>
   </tr>  
   <tr>
-    <td>Latvia</td>
-    <td> ✔️ <a href="https://likumi.lv/ta/id/340554" hreflang="lv">Yes</a></td>
-    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li><a href="https://www.ptac.gov.lv/en/contacts" hreflang="en">Consumer Rights Protection Centre (PTAC)</a> — covered products and financial services; e-books and their software; e-commerce.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href="https://www.sprk.gov.lv/en/contacts" hreflang="en">Public Utilities Commission (SPRK)</a> — electronic communications services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href="https://www.neplp.lv/en/contacts" hreflang="en">National Electronic Mass Media Council (NEPLP)</a> — services providing access to audiovisual media services.</li></ul><p><strong>Transport:</strong></p><ul><li><a href="https://www.ptac.gov.lv/en/contacts" hreflang="en">Consumer Rights Protection Centre (PTAC)</a> — water passenger services; air electronic tickets and electronic ticket sales services.</li><li><a href="https://www.caa.gov.lv/en/contacts-authority" hreflang="en">Civil Aviation Agency (CAA)</a> — other covered air-passenger service elements.</li><li><a href="https://www.atd.lv/en/road-transport-administration" hreflang="en">Road Transport Administration (ATD)</a> — bus and domestic rail passenger services.</li><li><a href="https://www.vda.gov.lv/en/contacts-authority" hreflang="en">State Railway Administration (VDA)</a> — qualifying international rail passenger services (law, section 22, point 5).</li><li><a href="https://likumi.lv/ta/id/340554" hreflang="lv">Municipalities</a> — interactive self-service terminals for city buses, trams and trolleybuses.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
-    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company non-compliance (including recalls): PTAC — <a href="mailto:pasts@ptac.gov.lv">pasts@ptac.gov.lv</a>. English or Latvian.</li><li>Company exemptions: PTAC — same email.</li><li>Public complaints: <a href="https://www.ptac.gov.lv/lv/sazinai-ar-ptac" hreflang="lv">PTAC instructions</a> (first submit a written claim to the seller/provider; if unresolved, contact PTAC. If the e-form is unavailable or not working, send a signed submission by post to Talejas iela 1, Rīga, LV-1026).</li></ul><p><strong>Electronic communications:</strong></p><ul><li>Public and company reporting (SPRK): ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>Public and company reporting (NEPLP): ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>Company non-compliance (water passenger services; air electronic tickets and electronic ticket sales services): PTAC — <a href="mailto:pasts@ptac.gov.lv">pasts@ptac.gov.lv</a>. English or Latvian. Company exemptions: same email.</li><li>Public and company reporting (CAA, ATD, VDA and municipality): ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><p>⚖️ EAA implementing law: <a href="https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums" hreflang="lv">Preču un pakalpojumu piekļūstamības likums</a>.</p><p><a href="https://likumi.lv/ta/id/350121-precu-un-pakalpojumu-pieklustamibas-prasibas" hreflang="lv">Accessibility requirements (Regulation No. 128)</a>.</p></td>
+    <td align="left" valign="top">Latvia</td>
+    <td align="left" valign="top"> ✔️ <a href="https://likumi.lv/ta/id/340554" hreflang="lv">Yes</a></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li><a href="https://www.ptac.gov.lv/en/contacts" hreflang="en">Consumer Rights Protection Centre (PTAC)</a> — covered products and financial services; e-books and their software; e-commerce.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href="https://www.sprk.gov.lv/en/contacts" hreflang="en">Public Utilities Commission (SPRK)</a> — electronic communications services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href="https://www.neplp.lv/en/contacts" hreflang="en">National Electronic Mass Media Council (NEPLP)</a> — services providing access to audiovisual media services.</li></ul><p><strong>Transport:</strong></p><ul><li><a href="https://www.ptac.gov.lv/en/contacts" hreflang="en">Consumer Rights Protection Centre (PTAC)</a> — water passenger services; air electronic tickets and electronic ticket sales services.</li><li><a href="https://www.caa.gov.lv/en/contacts-authority" hreflang="en">Civil Aviation Agency (CAA)</a> — other covered air-passenger service elements.</li><li><a href="https://www.atd.lv/en/road-transport-administration" hreflang="en">Road Transport Administration (ATD)</a> — bus and domestic rail passenger services.</li><li><a href="https://www.vda.gov.lv/en/contacts-authority" hreflang="en">State Railway Administration (VDA)</a> — qualifying international rail passenger services (law, section 22, point 5).</li><li><a href="https://likumi.lv/ta/id/340554" hreflang="lv">Municipalities</a> — interactive self-service terminals for city buses, trams and trolleybuses.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company non-compliance (including recalls): PTAC — <a href="mailto:pasts@ptac.gov.lv">pasts@ptac.gov.lv</a>. English or Latvian.</li><li>Company exemptions: PTAC — same email.</li><li>Public complaints: <a href="https://www.ptac.gov.lv/lv/sazinai-ar-ptac" hreflang="lv">PTAC instructions</a> (first submit a written claim to the seller/provider; if unresolved, contact PTAC. If the e-form is unavailable or not working, send a signed submission by post to Talejas iela 1, Rīga, LV-1026).</li></ul><p><strong>Electronic communications:</strong></p><ul><li>Public and company reporting (SPRK): ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>Public and company reporting (NEPLP): ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>Company non-compliance (water passenger services; air electronic tickets and electronic ticket sales services): PTAC — <a href="mailto:pasts@ptac.gov.lv">pasts@ptac.gov.lv</a>. English or Latvian. Company exemptions: same email.</li><li>Public and company reporting (CAA, ATD, VDA and municipality): ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://likumi.lv/ta/id/340554-precu-un-pakalpojumu-pieklustamibas-likums" hreflang="lv">Preču un pakalpojumu piekļūstamības likums</a>.</p><p><a href="https://likumi.lv/ta/id/350121-precu-un-pakalpojumu-pieklustamibas-prasibas" hreflang="lv">Accessibility requirements (Regulation No. 128)</a>.</p></td>
   </tr>
   <tr>
-    <td>Lithuania</td>
-    <td>✖️ No </td>
-    <td><p><strong>Products:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — consumer general-purpose computer hardware systems and their operating systems; interactive equipment for consumer access to audiovisual media services; self-service terminals; consumer terminal equipment with interactive computing capability used to provide electronic communications services; and e-readers.</li></ul><p><strong>E-commerce, Banking and E-books:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — e-commerce, consumer banking, e-books and dedicated software.</li></ul><p><strong>Transport:</strong></p><ul><li><a href="https://ltsa.lrv.lt/lt/">Lithuanian Transport Safety Administration (LTSA)</a> — covered air, bus, water and rail passenger-service elements, excluding urban and suburban transport where specified; and railway-system interoperability constituents.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href="https://rrt.lt/en/about-rrt/">Communications Regulatory Authority of the Republic of Lithuania (RRT)</a> — electronic communications services, except transmission services used to provide machine-to-machine services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href="https://www.rtk.lt/en/" hreflang="en">Radio and Television Commission of Lithuania (LRTK)</a> — services providing access to audiovisual media services.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
-    <td><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company reports: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT general request route</a> or <a href="mailto:tarnyba@vvtat.lt">tarnyba@vvtat.lt</a>. English or Lithuanian.</li><li>Public complaints: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT instructions</a> (first contact the seller/provider in writing).</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>Public and company reporting (LTSA): ❓ Unknown.</li></ul><p><strong>Electronic communications:</strong></p><ul><li>Public enquiries: <a href="https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos" hreflang="lt">RRT consultations</a> (unsigned enquiries; replies are not an official RRT position).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>Public complaints: <a href="mailto:lrtk@rtk.lt">lrtk@rtk.lt</a> (provider-first resolution encouraged).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><p>EAA service information: publicly available general description of service provision conditions, or equivalent document.</p><p>⚖️ EAA implementing law: <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e" hreflang="lt">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>.</p></td>
+    <td align="left" valign="top">Lithuania</td>
+    <td align="left" valign="top">✖️ No </td>
+    <td align="left" valign="top"><p><strong>Products:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — consumer general-purpose computer hardware systems and their operating systems; interactive equipment for consumer access to audiovisual media services; self-service terminals; consumer terminal equipment with interactive computing capability used to provide electronic communications services; and e-readers.</li></ul><p><strong>E-commerce, Banking and E-books:</strong></p><ul><li><a href="https://vvtat.lrv.lt/lt/">State Consumer Rights Protection Authority (VVTAT)</a> — e-commerce, consumer banking, e-books and dedicated software.</li></ul><p><strong>Transport:</strong></p><ul><li><a href="https://ltsa.lrv.lt/lt/">Lithuanian Transport Safety Administration (LTSA)</a> — covered air, bus, water and rail passenger-service elements, excluding urban and suburban transport where specified; and railway-system interoperability constituents.</li></ul><p><strong>Electronic communications:</strong></p><ul><li><a href="https://rrt.lt/en/about-rrt/">Communications Regulatory Authority of the Republic of Lithuania (RRT)</a> — electronic communications services, except transmission services used to provide machine-to-machine services.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li><a href="https://www.rtk.lt/en/" hreflang="en">Radio and Television Commission of Lithuania (LRTK)</a> — services providing access to audiovisual media services.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and E-books:</strong></p><ul><li>Company reports: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT general request route</a> or <a href="mailto:tarnyba@vvtat.lt">tarnyba@vvtat.lt</a>. English or Lithuanian.</li><li>Public complaints: <a href="https://vvtat.lrv.lt/en/how-to-submit-a-request/">VVTAT instructions</a> (first contact the seller/provider in writing).</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport:</strong></p><ul><li>Public and company reporting (LTSA): ❓ Unknown.</li></ul><p><strong>Electronic communications:</strong></p><ul><li>Public enquiries: <a href="https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos" hreflang="lt">RRT consultations</a> (unsigned enquiries; replies are not an official RRT position).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Audiovisual access:</strong></p><ul><li>Public complaints: <a href="mailto:lrtk@rtk.lt">lrtk@rtk.lt</a> (provider-first resolution encouraged).</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p>EAA service information: publicly available general description of service provision conditions, or equivalent document.</p><p>⚖️ EAA implementing law: <a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/41fe50327d1e11edbdcebd68a7a0df7e" hreflang="lt">Gaminių ir paslaugų prieinamumo reikalavimų įstatymas (XIV-1633)</a>.</p></td>
   </tr>
   <tr>
-    <td>Luxembourg</td>
-    <td>✖️ <a href="https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html" hreflang="en">No</a></td>
-    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li><a href="https://accessibilite-produits-services.public.lu/en/osaps.html" hreflang="en">Office for monitoring the accessibility of products and services (OSAPS)</a>.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
-    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public reports: <a href="https://guichet.public.lu/en/citoyens/citoyennete/accessibilite/accessibilite-produits-services/declaration-non-conformite-accessibilite-pp.html" hreflang="en">MyGuichet report</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Company non-compliance: <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html" hreflang="en">MyGuichet declaration</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Company exemptions: <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/derogation-exigences-accessibilite.html" hreflang="en">MyGuichet notification procedure</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li></ul></td>
-    <td><p>⚖️ EAA implementing law: <a href="https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo" hreflang="fr">Loi du 8 mars 2023 relative aux exigences en matière d’accessibilité applicables aux produits et services</a>.</p></td>
+    <td align="left" valign="top">Luxembourg</td>
+    <td align="left" valign="top">✖️ <a href="https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html" hreflang="en">No</a></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p><ul><li><a href="https://accessibilite-produits-services.public.lu/en/osaps.html" hreflang="en">Office for monitoring the accessibility of products and services (OSAPS)</a>.</li></ul><p><strong>112 emergency calls:</strong></p><ul><li>❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public reports: <a href="https://guichet.public.lu/en/citoyens/citoyennete/accessibilite/accessibilite-produits-services/declaration-non-conformite-accessibilite-pp.html" hreflang="en">MyGuichet report</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Company non-compliance: <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/declaration-non-conformite-accessibilite-pm.html" hreflang="en">MyGuichet declaration</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li><li>Company exemptions: <a href="https://guichet.public.lu/en/entreprises/commerce/accessibilite-produits-services/derogation-exigences-accessibilite.html" hreflang="en">MyGuichet notification procedure</a> (English 🇬🇧, French 🇫🇷 or German 🇩🇪; with or without authentication).</li></ul></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo" hreflang="fr">Loi du 8 mars 2023 relative aux exigences en matière d’accessibilité applicables aux produits et services</a>.</p></td>
   </tr>
   <tr>
-    <td>Malta</td>
-    <td>❓ Unknown</td>
-    <td><p><strong>Products (listed categories), E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger-transport elements), Audiovisual access (access to audiovisual media services), and E-books and dedicated software:</strong></p><ul><li><a href="https://www.crpd.org.mt/" hreflang="en">Commission for the Rights of Persons with Disability (CRPD)</a>.</li></ul><p><strong>Answering emergency communications to 112:</strong></p><ul><li><a href="https://www.crpd.org.mt/" hreflang="en">CRPD</a>. The obligations in regulation 4(8) apply from 28 June 2027.</li></ul></td>
-    <td><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public complaints: ❓ Unknown.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul></td>
-    <td><p>⚖️ EAA implementing law: <a href="https://legislation.mt/eli/sl/627.3/eng">Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)</a>.</p></td>
+    <td align="left" valign="top">Malta</td>
+    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top"><p><strong>Products (listed categories), E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger-transport elements), Audiovisual access (access to audiovisual media services), and E-books and dedicated software:</strong></p><ul><li><a href="https://www.crpd.org.mt/" hreflang="en">Commission for the Rights of Persons with Disability (CRPD)</a>.</li></ul><p><strong>Answering emergency communications to 112:</strong></p><ul><li><a href="https://www.crpd.org.mt/" hreflang="en">CRPD</a>. The obligations in regulation 4(8) apply from 28 June 2027.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p><ul><li>Public complaints: ❓ Unknown.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://legislation.mt/eli/sl/627.3/eng">Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)</a>.</p></td>
   </tr>
   <tr>
-    <td>Netherlands</td>
-    <td>✔️ <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Yes</a></td>
-    <td>
+    <td align="left" valign="top">Netherlands</td>
+    <td align="left" valign="top">✔️ <a href="https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten">Yes</a></td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong></p>
       <ul><li><a href="https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn" hreflang="nl">Rijksinspectie Digitale Infrastructuur (RDI)</a>.</li></ul>
       <p><strong>E-commerce:</strong></p>
@@ -550,7 +550,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><a href="https://www.inspectie-jenv.nl/service/contact/professional/contactformulier" hreflang="nl">Inspectie Justitie en Veiligheid</a> — accessibility of 112.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products — RDI:</strong></p>
       <ul><li>Public reports: <a href="https://www.rdi.nl/onderwerpen/draadloze-apparatuur/europese-toegankelijkheidsrichtlijn/meldpunt-voor-consumenten" hreflang="nl">product reporting form</a>.</li><li>Company reporting: ❓ Unknown.</li></ul>
       <p><strong>E-commerce and Electronic communications — ACM:</strong></p>
@@ -564,12 +564,12 @@
       <p><strong>112 emergency calls — Inspectie Justitie en Veiligheid:</strong></p>
       <ul><li>Public reports (accessibility of 112): <a href="https://www.inspectie-jenv.nl/service/contact/professional/contactformulier" hreflang="nl">contact form</a>.</li><li>Company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td><p>⚖️ EAA implementing law: <a href="https://wetten.overheid.nl/BWBR0049571/" hreflang="nl">Implementatiewet toegankelijkheidsvoorschriften producten en diensten</a>.</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://wetten.overheid.nl/BWBR0049571/" hreflang="nl">Implementatiewet toegankelijkheidsvoorschriften producten en diensten</a>.</p></td>
   </tr>
   <tr>
-    <td>Poland</td>
-    <td>❓ Unknown</td>
-    <td>
+    <td align="left" valign="top">Poland</td>
+    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top">
       <p><strong>Market surveillance system:</strong></p>
       <ul><li><a href="https://dostepnosc.pfron.org.pl/" hreflang="pl">PFRON Management Board President</a> — monitors its operation; receives public notifications.</li></ul>
       <p><strong>Products, Electronic communications, Audiovisual access and E-books:</strong></p>
@@ -591,7 +591,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books — PFRON intake:</strong></p>
       <ul><li>Public reports (consumer notifications): <a href="mailto:dostepnosc@pfron.org.pl">dostepnosc@pfron.org.pl</a>. PFRON considers or forwards the notice to the competent authority.</li></ul>
       <p><strong>Banking — Financial Ombudsman:</strong></p>
@@ -601,12 +601,12 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td><p>⚖️ EAA implementing law: <a href="https://eli.gov.pl/eli/DU/2024/731/ogl" hreflang="pl">Ustawa z dnia 26 kwietnia 2024 r. (Dz.U. 2024 poz. 731)</a>.</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://eli.gov.pl/eli/DU/2024/731/ogl" hreflang="pl">Ustawa z dnia 26 kwietnia 2024 r. (Dz.U. 2024 poz. 731)</a>.</p></td>
   </tr>
   <tr>
-    <td>Portugal</td>
-    <td>✔️ Yes (Source needed)</td>
-    <td>
+    <td align="left" valign="top">Portugal</td>
+    <td align="left" valign="top">✔️ Yes (Source needed)</td>
+    <td align="left" valign="top">
       <p><strong>Market coordination:</strong></p>
       <ul><li><a href="https://idipd.mtsss.gov.pt/acessibilidade-a-produtos-e-servicos">Instituto para os Direitos das Pessoas com Deficiência (IDiPD, formerly INR)</a> — monitors implementation and forwards complaints addressed directly to it; Article 28 bodies supervise compliance.</li></ul>
       <p><strong>Products:</strong></p>
@@ -634,7 +634,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><a href="https://www.anacom.pt/" hreflang="pt">ANACOM</a> — 112 answering and handling duties start 28 June 2027.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul>
         <li>Public complaints (IDiPD form): <a href="https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos" hreflang="pt">IDiPD form</a>; first complain to the provider; the issue must remain unresolved or lack a timely reasoned reply. Each complaint is forwarded to the competent authority.</li>
@@ -643,12 +643,12 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown (duties start 28 June 2027).</li></ul>
     </td>
-    <td><p>⚖️ EAA implementing law: <a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Decreto-Lei n.º 82/2022</a>.</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872">Decreto-Lei n.º 82/2022</a>.</p></td>
   </tr>
   <tr>
-    <td>Romania</td>
-    <td>✔️ Yes</td>
-    <td>
+    <td align="left" valign="top">Romania</td>
+    <td align="left" valign="top">✔️ Yes</td>
+    <td align="left" valign="top">
       <p><strong>Products:</strong> <a href="https://anpc.ro/">National Authority for Consumer Protection (ANPC)</a> — specified consumer computer systems and terminals, and e-readers; <a href="https://economie.gov.ro/">Ministry of Economy, Digitalisation, Entrepreneurship and Tourism</a> — payment and other covered self-service terminals.</p>
       <p><strong>Banking:</strong> <a href="https://anpc.ro/">ANPC</a>.</p>
       <p><strong>E-commerce and e-books:</strong> <a href="https://www.adr.gov.ro/" hreflang="ro">Authority for the Digitalisation of Romania (ADR)</a>.</p>
@@ -658,7 +658,7 @@
       <p><strong>112 emergency communications:</strong> ❓ Unknown; the accessibility duty applies from 28 June 2027.</p>
       <p><strong>Cross-sector operator information:</strong> <a href="https://www.consiliulconcurentei.ro/en/">Competition Council</a> — the Article 4(7) information role.</p>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products and consumer banking:</strong></p>
       <ul>
         <li><strong>Public complaints:</strong> ❓ Unknown (ANPC's general consumer portal is login-gated; EAA intake not verified).</li>
@@ -670,12 +670,12 @@
         <li><strong>Company non-compliance / exemptions:</strong> ❓ Unknown.</li>
       </ul>
     </td>
-    <td><p>⚖️ EAA implementing law: <a href="https://legislatie.just.ro/public/DetaliiDocument/257778" hreflang="ro">Legea nr. 232/2022</a>.</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://legislatie.just.ro/public/DetaliiDocument/257778" hreflang="ro">Legea nr. 232/2022</a>.</p></td>
   </tr>
   <tr>
-    <td>Slovakia</td>
-    <td>❓ Unknown</td>
-    <td>
+    <td align="left" valign="top">Slovakia</td>
+    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Transport and E-books:</strong></p>
       <ul><li><a href="https://www.soi.sk/soi/opravnenia-soi" hreflang="sk">Slovak Trade Inspection (Slovenská obchodná inšpekcia)</a> — specified products and consumer services under Act 351/2022.</li></ul>
       <p><strong>Electronic communications:</strong></p>
@@ -685,7 +685,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>❓ Unknown authority for answering and handling accessibility.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Transport and E-books (SOI remit):</strong></p>
       <ul>
         <li><strong>Public reports:</strong> <a href="https://www.soi.sk/nahlasit-podnet" hreflang="sk">SOI form to submit a public tip for possible inspection</a> (goods or services; EAA-specific purpose unconfirmed), or <a href="mailto:podnety@soi.sk">podnety@soi.sk</a> (general SOI reports).</li>
@@ -705,12 +705,12 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li><strong>Public and company reporting:</strong> ❓ Unknown.</li></ul>
     </td>
-    <td><p>⚖️ EAA implementing laws: <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html" hreflang="sk">Act No. 351/2022</a> (products and listed services); <a href="https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html" hreflang="sk">Act No. 452/2021</a> (electronic communications); <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html" hreflang="sk">Act No. 264/2022</a> (multimodal audiovisual access).</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing laws: <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.print.html" hreflang="sk">Act No. 351/2022</a> (products and listed services); <a href="https://static.slov-lex.sk/static/SK/ZZ/2021/452/20260530.print.html" hreflang="sk">Act No. 452/2021</a> (electronic communications); <a href="https://static.slov-lex.sk/static/SK/ZZ/2022/264/20251101.print.html" hreflang="sk">Act No. 264/2022</a> (multimodal audiovisual access).</p></td>
   </tr>
   <tr>
-    <td>Slovenia</td>
-    <td>✔️ Yes (EAA-specific source needed)</td>
-    <td>
+    <td align="left" valign="top">Slovenia</td>
+    <td align="left" valign="top">✔️ Yes (EAA-specific source needed)</td>
+    <td align="left" valign="top">
       <p><strong>Products and E-commerce:</strong></p>
       <ul><li><a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/trzni-inspektorat/">Market Inspectorate (TIRS)</a>.</li></ul>
       <p><strong>Electronic communications, Audiovisual access, E-books and emergency communication services:</strong></p>
@@ -721,7 +721,7 @@
       <ul><li>Water: <a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-pomorstvo/">Maritime Administration</a> and TIRS.</li><li>Air: <a href="https://www.caa.si/">Civil Aviation Agency</a>.</li><li>Bus: <a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/inspektorat-za-infrastrukturo-in-energetiko/">Infrastructure and Energy Inspectorate</a>.</li><li>Rail: inspectorates responsible for rail/road infrastructure, road transport and public passenger transport under amended ZDPSI.</li></ul>
       <p><strong>112 emergency calls:</strong> AKOS supervises the communication service; the authority for answering-centre accessibility is ❓ Unknown.</p>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products and E-commerce — TIRS:</strong></p>
       <ul><li>Public reports: <a href="https://e-uprava.gov.si/si/podrocja/drzava-druzba/inspekcijski-postopki/prijava-trzni-inspekciji?lang=si&amp;view_mode=2" hreflang="sl">General inspection report, without e-identity</a>.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>Electronic communications — AKOS:</strong></p>
@@ -730,12 +730,12 @@
       <ul><li>Public reports: ❓ Unknown.</li><li>Company non-compliance: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul>
       <p><strong>Banking and Transport:</strong> Public and company reporting: ❓ Unknown.</p>
     </td>
-    <td><p>⚖️ EAA implementing law: <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238" hreflang="sl">ZDPSI (2023)</a>, amended by <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563" hreflang="sl">ZDPSI-A (2026)</a>.</p></td>
+    <td align="left" valign="top"><p>⚖️ EAA implementing law: <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0238" hreflang="sl">ZDPSI (2023)</a>, amended by <a href="https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0563" hreflang="sl">ZDPSI-A (2026)</a>.</p></td>
   </tr>
   <tr>
-    <td>Spain</td>
-    <td>✔️ Yes (EAA-specific statement source needed)</td>
-    <td>
+    <td align="left" valign="top">Spain</td>
+    <td align="left" valign="top">✔️ Yes (EAA-specific statement source needed)</td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books:</strong></p>
       <ul>
         <li>Surveillance authorities determined by the autonomous communities and Ceuta and Melilla within their competences; <a href="https://www.rpdiscapacidad.gob.es/discriminacion/utac-accesibilidad.htm" hreflang="es">UTAC</a> coordinates and supports them. UTAC acts as surveillance authority where none has been designated.</li>
@@ -743,7 +743,7 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Answering-centre surveillance authority: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books — UTAC contact:</strong></p>
       <ul>
         <li>Public complaints and reports: <a href="mailto:utac@dsca.gob.es">utac@dsca.gob.es</a> (describe the Ley 11/2023 accessibility issue).</li>
@@ -754,16 +754,16 @@
       <p><strong>112 emergency calls:</strong></p>
       <ul><li>Public and company reporting: ❓ Unknown.</li></ul>
     </td>
-    <td>
+    <td align="left" valign="top">
       <p>⚖️ EAA implementing law: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022" hreflang="es">Ley 11/2023, Title I</a>; <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4520" hreflang="es">Real Decreto 143/2026</a> establishes UTAC's coordination and fallback role.</p>
     </td>
   </tr>
   <tr>
-    <td>Sweden</td>
-    <td>✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
-    <td><p><strong>Products, E-commerce, Banking and Electronic communications</strong></p><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/" hreflang="sv">PTS</a></li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">Konsumentverket</a> — passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services.</li><li><a href="https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/" hreflang="sv">Transportstyrelsen</a> — transport information and interactive terminal services.</li></ul><p><strong>Audiovisual access</strong></p><ul><li><a href="https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/" hreflang="sv">Mediemyndigheten</a></li></ul><p><strong>E-books</strong></p><ul><li><a href="https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/" hreflang="sv">Myndigheten för tillgängliga medier (MTM)</a> — e-books and related software.</li></ul></td>
-    <td><p><strong>Products, E-commerce, Banking and Electronic communications — PTS</strong></p><ul><li>Public complaints: <a href="https://lptt.pts.se/" hreflang="sv">Klagomål bristfällig tillgänglighet tjänst eller produkt</a> (Swedish 🇸🇪).</li><li>Company non-compliance: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li><li>Company exemptions: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li></ul><p>Company reporting email: If you cannot use the e-service, PTS confirmed that you can report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. PTS has received reports in English without requesting supplementary information 🇬🇧.</p><p>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</p><p><strong>Transport — Konsumentverket</strong></p><ul><li>Company non-compliance (passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services): carriers can <a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">report accessibility defects</a> to <a href="mailto:konsumentverket@konsumentverket.se">konsumentverket@konsumentverket.se</a> or Konsumentverket, Box 48, 651 02 Karlstad.</li><li>Public complaints: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport — Transportstyrelsen (transport information and interactive terminal services)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Mediemyndigheten</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Myndigheten för tillgängliga medier (MTM)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
-    <td><p><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></p><p><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.</p><p>⚖️ EAA implementing law: <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/" hreflang="sv">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>
+    <td align="left" valign="top">Sweden</td>
+    <td align="left" valign="top">✔️ <a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">Yes</a></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and Electronic communications</strong></p><ul><li><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/" hreflang="sv">PTS</a></li></ul><p><strong>Transport</strong></p><ul><li><a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">Konsumentverket</a> — passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services.</li><li><a href="https://www.transportstyrelsen.se/sv/om-oss/det-har-ar-transportstyrelsen/vart-uppdrag-och-arbetssatt/tillsyn/krav-pa-digital-tillganglighet-inom-persontransporter/" hreflang="sv">Transportstyrelsen</a> — transport information and interactive terminal services.</li></ul><p><strong>Audiovisual access</strong></p><ul><li><a href="https://mediemyndigheten.se/digital-inkludering---tillganglighet/nya-krav-pa-tillganglighet/" hreflang="sv">Mediemyndigheten</a></li></ul><p><strong>E-books</strong></p><ul><li><a href="https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/" hreflang="sv">Myndigheten för tillgängliga medier (MTM)</a> — e-books and related software.</li></ul></td>
+    <td align="left" valign="top"><p><strong>Products, E-commerce, Banking and Electronic communications — PTS</strong></p><ul><li>Public complaints: <a href="https://lptt.pts.se/" hreflang="sv">Klagomål bristfällig tillgänglighet tjänst eller produkt</a> (Swedish 🇸🇪).</li><li>Company non-compliance: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li><li>Company exemptions: <a href="https://lptt-rapportering.pts.se/" hreflang="sv">Rapportering av undantag eller tillgänglighetsbrister</a> (Swedish 🇸🇪).</li></ul><p>Company reporting email: If you cannot use the e-service, PTS confirmed that you can report via email <a href="mailto:tillganglighetslagen@pts.se">tillganglighetslagen@pts.se</a> or <a href="mailto:pts@pts.se">pts@pts.se</a>. PTS has received reports in English without requesting supplementary information 🇬🇧.</p><p>Companies must report issues within 2 weeks of discovery regardless if the issue has been fixed or not.</p><p><strong>Transport — Konsumentverket</strong></p><ul><li>Company non-compliance (passenger transport websites, mobile services including apps, and electronic tickets and ticket-sales services): carriers can <a href="https://www.konsumentverket.se/marknadsratt-foretag/resor-for-foretag/" hreflang="sv">report accessibility defects</a> to <a href="mailto:konsumentverket@konsumentverket.se">konsumentverket@konsumentverket.se</a> or Konsumentverket, Box 48, 651 02 Karlstad.</li><li>Public complaints: ❓ Unknown.</li><li>Company exemptions: ❓ Unknown.</li></ul><p><strong>Transport — Transportstyrelsen (transport information and interactive terminal services)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>Audiovisual access — Mediemyndigheten</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul><p><strong>E-books — Myndigheten för tillgängliga medier (MTM)</strong></p><ul><li>Public and company reporting: ❓ Unknown.</li></ul></td>
+    <td align="left" valign="top"><p><a href="https://pts.se/nyheter-och-pressmeddelanden/nytt-stod-tillganglighetslagen">Supportmaterial from PTS, in Swedish 🇸🇪</a></p><p><a href="https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/">PTS guidance on service accessibility information</a> compares its function to a WAD accessibility statement and recommends a visible website link; it distinguishes that recommendation from the law's wording.</p><p>⚖️ EAA implementing law: <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2023254-om-vissa-produkters-och-tjansters_sfs-2023-254/" hreflang="sv">Lag (2023:254) om vissa produkters och tjänsters tillgänglighet</a>.</p></td>
   </tr>
 </table>
 
@@ -771,95 +771,95 @@
 ## Autonomous states
 <table>
   <tr>
-    <th>Country</th>
-    <th>Demands statement</th>
-    <th>Monitoring agencies</th>
-    <th>Reporting issues</th>
-    <th>Additional information</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Demands statement</th>
+    <th align="left" valign="top">Monitoring agencies</th>
+    <th align="left" valign="top">Reporting issues</th>
+    <th align="left" valign="top">Additional information</th>
   </tr>
   <tr>
-    <td>Greenland</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ EAA implementation: outside the EU; <a href="https://international-partnerships.ec.europa.eu/countries/greenland_en" hreflang="en">territorial status</a>. No local implementing law verified.</p></td>
+    <td align="left" valign="top">Greenland</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ EAA implementation: outside the EU; <a href="https://international-partnerships.ec.europa.eu/countries/greenland_en" hreflang="en">territorial status</a>. No local implementing law verified.</p></td>
   </tr>
   <tr>
-    <td>Faroe Islands</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ EAA implementation: outside the EU and EEA; <a href="https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/faroe-islands_en" hreflang="en">territorial status</a>. No local implementing law verified.</p></td>
+    <td align="left" valign="top">Faroe Islands</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ EAA implementation: outside the EU and EEA; <a href="https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/faroe-islands_en" hreflang="en">territorial status</a>. No local implementing law verified.</p></td>
   </tr>
   <tr>
-    <td>Åland</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ EAA implementing law: <a href="https://www.lagtinget.ax/dokument/lagtingets-beslut-222023-53874" hreflang="sv">Åland decision 22/2023 (partial implementation)</a>; see also Finland’s <a href="https://finlex.fi/fi/lainsaadanto/2023/102" hreflang="fi">Act 102/2023</a>.</p></td>
+    <td align="left" valign="top">Åland</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ EAA implementing law: <a href="https://www.lagtinget.ax/dokument/lagtingets-beslut-222023-53874" hreflang="sv">Åland decision 22/2023 (partial implementation)</a>; see also Finland’s <a href="https://finlex.fi/fi/lainsaadanto/2023/102" hreflang="fi">Act 102/2023</a>.</p></td>
   </tr>
 </table>
 
 ## EEA EFTA (European Economic Area, The European Free Trade Association)
 <table>
   <tr>
-    <th>Country</th>
-    <th>Demands statement</th>
-    <th>Monitoring agencies</th>
-    <th>Reporting issues</th>
-    <th>Additional information</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Demands statement</th>
+    <th align="left" valign="top">Monitoring agencies</th>
+    <th align="left" valign="top">Reporting issues</th>
+    <th align="left" valign="top">Additional information</th>
   </tr>
   <tr>
-    <td>Iceland</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
+    <td align="left" valign="top">Iceland</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
   </tr>
   <tr>
-    <td>Liechtenstein</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
+    <td align="left" valign="top">Liechtenstein</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
   </tr>
   <tr>
-    <td>Norway</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>Has yet to implement the EAA in their law, status can be read at <a href="https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2016/mars/eus-tilgjengelighetsdirektiv/id2498097">Regjeringen.no - EUs Tilgjengelighetsdirektiv</a>. So there's no information so far about any reporting obligations. "It is still unclear when the EAA will be incorporated into Norwegian regulations", says the article <a href="https://www.bufdir.no/aktuelt/nyhetsbrev/uu/eus-tilgjengelighetsdirektiv-enna-ikke-vedtatt-i-norge/" hreflang="no">EU Accessibility Directive – not yet adopted in Norway</a><p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
+    <td align="left" valign="top">Norway</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">Has yet to implement the EAA in their law, status can be read at <a href="https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2016/mars/eus-tilgjengelighetsdirektiv/id2498097">Regjeringen.no - EUs Tilgjengelighetsdirektiv</a>. So there's no information so far about any reporting obligations. "It is still unclear when the EAA will be incorporated into Norwegian regulations", says the article <a href="https://www.bufdir.no/aktuelt/nyhetsbrev/uu/eus-tilgjengelighetsdirektiv-enna-ikke-vedtatt-i-norge/" hreflang="no">EU Accessibility Directive – not yet adopted in Norway</a><p>⚖️ EAA implementation: <a href="https://www.efta.int/eea-lex/32019l0882">under EEA scrutiny</a>. No local implementing law verified.</p></td>
   </tr>
 </table>
 
 ## Other non EU countries
 <table>
   <tr>
-    <th>Country</th>
-    <th>Demands statement</th>
-    <th>Monitoring agencies</th>
-    <th>Reporting issues</th>
-    <th>Additional information</th>
+    <th align="left" valign="top">Country</th>
+    <th align="left" valign="top">Demands statement</th>
+    <th align="left" valign="top">Monitoring agencies</th>
+    <th align="left" valign="top">Reporting issues</th>
+    <th align="left" valign="top">Additional information</th>
   </tr>
   <tr>
-    <td>Canada</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
+    <td align="left" valign="top">Canada</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
   </tr>
   <tr>
-    <td>Switzerland</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
+    <td align="left" valign="top">Switzerland</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
   </tr>
   <tr>
-    <td>United Kingdom</td>
-    <td>❓ Unknown  </td>
-    <td>❓ Unknown  </td>
-    <td><p>Public and company reporting: ❓ Unknown.</p></td>
-    <td>❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
+    <td align="left" valign="top">United Kingdom</td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top">❓ Unknown  </td>
+    <td align="left" valign="top"><p>Public and company reporting: ❓ Unknown.</p></td>
+    <td align="left" valign="top">❓ Unknown  <p>⚖️ Local EAA implementing law: outside the EU/EEA; no local transposition. See the <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en" hreflang="en">EU scope of the EAA</a>.</p></td>
   </tr>
 </table>
