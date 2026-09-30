@@ -1,0 +1,38 @@
+{
+  "reviewed_on": "2026-09-30",
+  "pr": 75,
+  "reviewed_head": "ea5ff640414b1884489e48de1628644bc28423b3",
+  "previous_reviewed_head": "b0b351695cfe41e838db47d2992f986a6745b402",
+  "reviewer": "/root/digg_pr75_review",
+  "isolation": "Independent agent with no conversation-history fork",
+  "scope": "Digg-only addition: actual published PR/head/diff, Sweden record, routing index and intake manifest.",
+  "findings": [],
+  "verdict": "No findings.",
+  "checks": [
+    "All three attachment SHA-256 fingerprints match originals.",
+    "All 66 PDF row subjects, scores and page locators match; wrapped Sollefteå row visually checked. Period totals and table update dates match.",
+    "Nine 2025 apps retained separately without invented scores.",
+    "All 85 workbook entries match original labels and cells; only headers excluded. Counts: 57 websites, 28 apps.",
+    "Null rechecks, score meaning, overlapping populations and uncertain workbook provenance/cutoff appropriately qualified.",
+    "WAD/DOS separated from EAA/LPTT; January 2027 institutional transition explicitly future.",
+    "Existing Swedish evidence and EAA enforcement claims unchanged.",
+    "Published Sweden blob matches reviewed local file.",
+    "Country/routing and enforcement validators and whitespace check pass.",
+    "Actual draft description accurately describes scope and limitations."
+  ],
+  "limits": [
+    "No fresh legal/source research or exhaustive inherited-record audit.",
+    "Independent reviewer did not repeat full nine-page visual inspection; parent performed that inspection.",
+    "No CI certification or human approval.",
+    "No public wording changed; presentation review gates not triggered."
+  ],
+  "parent_validation": {
+    "tests_passed": 62,
+    "country_records": 75,
+    "claims": 814,
+    "country_delivery_events": 112,
+    "adoption_records": 69,
+    "published_readback": "All three Digg addition files byte-identical to validated local files.",
+    "ci": "No check runs returned for reviewed head."
+  }
+}

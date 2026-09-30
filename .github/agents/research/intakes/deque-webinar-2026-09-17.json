@@ -1,0 +1,58 @@
+{
+  "run_id": "deque-webinar-2026-09-17",
+  "received_on": "2026-09-30",
+  "source": {
+    "issuer": "Deque",
+    "title": "Industry Exclusive: From Reactive Litigation to Proactive Digital Accessibility Compliance",
+    "event_date": "2026-09-17",
+    "url": "https://accessibility.deque.com/hubfs/Industry%20exclusive%20From%20reactive%20litigation%20to%20proactive%20digital%20accessibility%20compliance%20(PDF).pdf",
+    "sha256": "d6fbf2f1ebe4ff0e0af9d0fcd007ac9c91e350cbffca2e3f7b50ab99edeae85a",
+    "page_count": 11,
+    "source_type": "industry_webinar",
+    "inspection": "All page text and URI annotations extracted; slides 6–9 rendered and visually inspected. Four link annotations found. Raw PDF and tracking parameters not committed."
+  },
+  "links": [
+    {
+      "page": 6,
+      "url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
+      "record": ".github/agents/research/countries/sweden.json",
+      "domain": "enforcement"
+    },
+    {
+      "page": 7,
+      "url": "https://nos.nl/artikel/2619726-webshops-beter-toegankelijk-voor-slechtzienden-maar-nog-veel-werk-nodig",
+      "record": ".github/agents/research/countries/netherlands.json",
+      "domain": "enforcement"
+    },
+    {
+      "page": 8,
+      "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/",
+      "record": ".github/agents/adoption/european-standard.json",
+      "domain": "adoption"
+    },
+    {
+      "page": 9,
+      "url": "https://design.numerique.gouv.fr/articles/2026-03-02-rgaa5/",
+      "record": ".github/agents/research/countries/france.json",
+      "domain": "adoption"
+    }
+  ],
+  "research_window": {
+    "started_at": "2026-09-30T07:46:00Z",
+    "ended_at": "2026-09-30T07:54:00Z",
+    "elapsed_minutes": 8,
+    "overall_limit_minutes": 30,
+    "remaining_minutes": 22,
+    "country_limit_minutes": 10,
+    "note": "Source research completed in two intervals: 07:46–07:52 initial intake; 07:52–07:54 ETSI recheck prompted by contributor correction. France work under ten minutes; total under thirty minutes."
+  },
+  "access_limits": [
+    "PDF web reader failed; authorised direct download succeeded as second attempt.",
+    "ETSI reader returned application shell; browser displayed target/achieved columns. Contributor flags schedule date as obsolete; current planning relevance unresolved. No OJ legal-record or clause-by-clause standards audit.",
+    "No transcript supplied; no claims inferred from the fireside discussion."
+  ],
+  "publication": {
+    "public_pages_changed": false,
+    "reason": "Research intake and narrow verification only; no final RGAA 5 adoption/legal text or new enforcement outcome established."
+  }
+}

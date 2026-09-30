@@ -300,6 +300,39 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-fcb452c7d5c3bee2d4dbe6d4": {
+      "issuer": "DINUM / DesignGouv",
+      "url": "https://design.numerique.gouv.fr/articles/2026-03-02-rgaa5/",
+      "source_type": "official_government",
+      "language": "fr",
+      "passage": "RGAA 5 planned for late 2026: WCAG 2.2; mobile and office-document tests; simpler criteria; declaration service; Arcom reference. Announcement retains RGAA 4.1.2 work and describes transitional declaration validity.",
+      "publication_date": "2026-03-02",
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
+    },
+    "source-a5ee1b4ca734faf4cee57efe": {
+      "issuer": "DINUM",
+      "url": "https://accessibilite.numerique.gouv.fr/",
+      "source_type": "official_government",
+      "language": "fr",
+      "passage": "Official RGAA homepage identifies version 4.1.2 and says version 5 is being drafted for late 2026; accessibility work must continue.",
+      "publication_date": null,
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
+    },
+    "source-90ac64cea063ac23c4664690": {
+      "issuer": "French government / DINUM",
+      "url": "https://www.numerique.gouv.fr/uploads/CP_ACCESSIBILITE_NUMERIQUE_LE_GOUVERNEMENT_PASSE_A_LA_VITESSE.pdf",
+      "source_type": "official_government",
+      "language": "fr",
+      "passage": "The 6 September 2023 announcement describes Arcom powers to identify breaches and issue injunctions in the public-administration website accessibility framework. Historical context, not a consolidated current-law audit.",
+      "publication_date": "2023-09-06",
+      "accessed_on": "2026-09-30",
+      "access": "reachable",
+      "method": "web reader; relevant passage inspected"
     }
   },
   "domains": {
@@ -645,7 +678,8 @@
         "Contact status (contributor report, recorded 2026-09-24): The contributor has contacted the DGCCRF government contact again and reports no reply since 14 August 2026 (year confirmed by the contributor). The exact date of the renewed contact was not specified. This is an unanswered enquiry, not evidence of any substantive government position.",
         "Follow-up: PARTLY RESOLVED 2026-09-25 — DGCCRF answered the company-platform and language questions: French platform; companies outside France may use it and attach English reports. The contributor's later questions on dedicated website statements, monitoring start, warnings, information about companies under monitoring, WCAG 2.2, dark-mode testing and reporting deadlines are unanswered. Do not treat the outgoing questions or Swedish comparisons as evidence of French practice.",
         "Correspondence update 2026-09-25: the formerly unanswered DGCCRF enquiry received an official reply, recorded above. The earlier 2026-01-21 AccessibleEU-related message remains secondary provenance; it is not reclassified.",
-        "Follow-up: Post-login form fields, successful submission, precise foreign-user authentication and languages for fields/attachments other than reports remain untested. Public landing page reached 2026-09-25 but reader displayed an unsupported-browser warning. Official correspondence supports foreign-company use and English report attachments; do not require form submission as verification."
+        "Follow-up: Post-login form fields, successful submission, precise foreign-user authentication and languages for fields/attachments other than reports remain untested. Public landing page reached 2026-09-25 but reader displayed an unsupported-browser warning. Official correspondence supports foreign-company use and English report attachments; do not require form submission as verification.",
+        "RGAA 5 handoff: announcement source-fcb452c7d5c3bee2d4dbe6d4 lists Arcom and a declaration service. Historical source source-90ac64cea063ac23c4664690 already describes Arcom powers in 2023. Verify consolidated remit and whether the submission service has launched; do not describe powers as first arising with RGAA 5."
       ]
     },
     "sanctions": {
@@ -680,6 +714,16 @@
       "source_refs": [
         "source-bd296d120f024140606a2953",
         "source-89b57e7628a1451c1e0b34af"
+      ],
+      "additional_research": [
+        {
+          "on": "2026-09-30",
+          "source_refs": [
+            "source-90ac64cea063ac23c4664690",
+            "source-fcb452c7d5c3bee2d4dbe6d4"
+          ],
+          "note": "RGAA 5 webinar is not evidence of new EAA sanctions. The 2023 public-administration framework is separate historical context; no current sanction maximum amended."
+        }
       ]
     },
     "enforcement": {
@@ -693,7 +737,8 @@
       "knowledge_notes": [
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
         "All Monitoring agencies research, 25 September 2026: 4 September release retrieved as PDF text and linked from official press index. Local PDF download returned 403; web screenshot returned no viewable image. Plain-text figures used with exact page reference; visual PDF verification unavailable. Rail investigation covered several legal regimes; its 8% corrective/punitive figure is not labelled EAA-only. Did not re-open browser-denied Auchan court source.",
-        "Cross-page update 2026-09-25: official DGCCRF correspondence and the new declaration URL are recorded in ../../research/france.json (merged PR #51). Foreign companies may use the French platform and attach English reports; no English interface or completed submission is inferred. Enforcement page needs only the current destination link; language details remain in monitoring research."
+        "Cross-page update 2026-09-25: official DGCCRF correspondence and the new declaration URL are recorded in ../../research/france.json (merged PR #51). Foreign companies may use the French platform and attach English reports; no English interface or completed submission is inferred. Enforcement page needs only the current destination link; language details remain in monitoring research.",
+        "deque-webinar-2026-09-17: RGAA 5 planning source source-fcb452c7d5c3bee2d4dbe6d4 and historical powers source source-90ac64cea063ac23c4664690 establish no new investigation, decision or imposed penalty. Keep public-sector digital accessibility distinct from EAA enforcement."
       ],
       "public_entry_ids": [
         "france-1",
@@ -966,6 +1011,80 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "Verified only as a narrowly scoped source-reference statement; no latest-edition, nationwide legal adoption or applicability conclusion. Exact wording independently checked in discovery-8-review-2026-09-27.json; no public row."
+        },
+        {
+          "id": "adoption-france-rgaa5-plan",
+          "aspect": "publication",
+          "statement": "DINUM is drafting RGAA 5, with publication planned for late 2026; RGAA 4.1.2 work should continue.",
+          "scope": "Research only; national guidance planning, not an EN edition adoption or new legal duty.",
+          "stage": "planned",
+          "status": "verified",
+          "source_refs": [
+            "source-fcb452c7d5c3bee2d4dbe6d4",
+            "source-a5ee1b4ca734faf4cee57efe"
+          ],
+          "event_dates": [
+            {
+              "kind": "target",
+              "value": "2026"
+            }
+          ],
+          "attempted_on": "2026-09-30",
+          "verified_on": "2026-09-30",
+          "next_review_due": "2026-10-30",
+          "existing_text": null,
+          "review_note": "Source-to-claim comparison performed for this narrow statement. No public wording or current legal applicability conclusion."
+        },
+        {
+          "id": "adoption-france-rgaa5-technical-plan",
+          "aspect": "scope",
+          "statement": "Announced technical changes include WCAG 2.2, tests for mobile applications and office documents, and clearer criteria.",
+          "scope": "Research only; national guidance planning, not an EN edition adoption or new legal duty.",
+          "stage": "planned",
+          "status": "verified",
+          "source_refs": [
+            "source-fcb452c7d5c3bee2d4dbe6d4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-30",
+          "verified_on": "2026-09-30",
+          "next_review_due": "2026-10-30",
+          "existing_text": null,
+          "review_note": "Source-to-claim comparison performed for this narrow statement. No public wording or current legal applicability conclusion."
+        },
+        {
+          "id": "adoption-france-rgaa5-administration-plan",
+          "aspect": "scope",
+          "statement": "The announcement lists Arcom and an online accessibility-declaration submission/publication service among the legal-section changes.",
+          "scope": "Research only; national guidance planning, not an EN edition adoption or new legal duty.",
+          "stage": "planned",
+          "status": "verified",
+          "source_refs": [
+            "source-fcb452c7d5c3bee2d4dbe6d4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-30",
+          "verified_on": "2026-09-30",
+          "next_review_due": "2026-10-30",
+          "existing_text": null,
+          "review_note": "Source-to-claim comparison performed for this narrow statement. No public wording or current legal applicability conclusion."
+        },
+        {
+          "id": "adoption-france-rgaa5-declarations-announcement",
+          "aspect": "scope",
+          "statement": "DINUM says declarations made before RGAA 5 publication will remain valid for 18 months, within three years of their publication date.",
+          "scope": "Research only; national guidance planning, not an EN edition adoption or new legal duty.",
+          "stage": "planned",
+          "status": "verified",
+          "source_refs": [
+            "source-fcb452c7d5c3bee2d4dbe6d4"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-09-30",
+          "verified_on": "2026-09-30",
+          "next_review_due": "2026-10-30",
+          "existing_text": null,
+          "review_note": "Source-to-claim comparison performed for this narrow statement. No public wording or current legal applicability conclusion."
         }
       ],
       "questions": [
@@ -973,7 +1092,9 @@
         "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
         "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
         "Legal mapping lead source-24136f342ed82c383fe3574b: Loi2005-102. Original Gazette section; not a current consolidated audit.",
-        "Original source notation V2.1.2 (2018-08), normalized to V2.1.2:2018 in research wording."
+        "Original source notation V2.1.2 (2018-08), normalized to V2.1.2:2018 in research wording.",
+        "RGAA 5: check final publication, exact EN edition relationship and legal basis before proposing an adoption-table change. Late 2026 is a target, not an achieved date.",
+        "RGAA 5 transition: verify final transitional instrument and applicability before using the announced declaration period as legal advice; source source-fcb452c7d5c3bee2d4dbe6d4."
       ],
       "attempts": [
         {
@@ -1023,6 +1144,22 @@
           "note": "The French government’s RGAA reference page links EN 301 549 V2.1.2:2018 in French and English. This establishes a reference in that guidance, not the latest applicable national edition.",
           "run_id": "world-discovery-8-2026-09-27",
           "url": "https://accessibilite.numerique.gouv.fr/ressources/references/"
+        },
+        {
+          "on": "2026-09-30",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "RGAA planning announcement and current homepage read; no final RGAA 5 text established.",
+          "run_id": "deque-webinar-2026-09-17",
+          "url": "https://design.numerique.gouv.fr/articles/2026-03-02-rgaa5/"
+        },
+        {
+          "on": "2026-09-30",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "RGAA planning announcement and current homepage read; no final RGAA 5 text established.",
+          "run_id": "deque-webinar-2026-09-17",
+          "url": "https://accessibilite.numerique.gouv.fr/"
         }
       ],
       "last_monthly_review": null,
@@ -1147,6 +1284,48 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "deque-webinar-2026-09-17-france",
+      "country": "France",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "RGAA 5 planning and authority context retained in canonical domains.",
+          "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
+          "pr": 75
         }
       ]
     }

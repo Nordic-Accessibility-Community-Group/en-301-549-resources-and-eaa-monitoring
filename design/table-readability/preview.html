@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Table readability proposal</title>
+  <style>
+    /* Embedded so this preview works without loading a separate file.
+       Keep the table rules in sync with ../../assets/css/tables.css. */
+    /* Shared light palette for every table in published resource content. */
+    .resource-content table {
+      border-collapse: collapse;
+      width: 100%;
+      color: #1f2937;
+      background: #ffffff;
+      line-height: 1.5;
+    }
+
+    .resource-content table caption {
+      text-align: left;
+      font-weight: 700;
+      padding-block: 0.75rem;
+    }
+
+    .resource-content table th,
+    .resource-content table td {
+      vertical-align: top;
+      text-align: left;
+      padding: 0.875rem 1rem;
+      border-bottom: 2px solid #767676;
+    }
+
+    .resource-content table thead,
+    .resource-content table tbody tr:nth-child(even) {
+      background: #e8eef3;
+    }
+
+    .resource-content table tbody tr:nth-child(odd) {
+      background: #ffffff;
+    }
+
+    .resource-content table th > :first-child,
+    .resource-content table td > :first-child {
+      margin-top: 0;
+    }
+
+    .resource-content table th > :last-child,
+    .resource-content table td > :last-child {
+      margin-bottom: 0;
+    }
+
+    .resource-content table a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+
+    .resource-table-scroll {
+      overflow-x: auto;
+    }
+
+    .resource-table-scroll:focus-visible,
+    .resource-content table a:focus-visible {
+      outline: 3px solid #1f2937;
+      outline-offset: 3px;
+    }
+
+    @media (forced-colors: active) {
+      .resource-content table th,
+      .resource-content table td {
+        border-color: CanvasText;
+      }
+
+      .resource-table-scroll:focus-visible,
+      .resource-content table a:focus-visible {
+        outline-color: Highlight;
+      }
+    }
+    :root { color-scheme: light; }
+    body { margin: 0; padding: clamp(1rem, 4vw, 3rem); font: 1rem/1.5 system-ui, sans-serif; color: #1f2937; background: #fff; }
+    main { max-width: 75rem; margin-inline: auto; }
+    h1 { line-height: 1.2; }
+    .resource-table { min-width: 42rem; }
+    .resource-table th:first-child { width: 18%; }
+    .resource-table th:last-child { width: 20%; }
+  </style>
+</head>
+<body>
+  <main class="resource-content">
+    <h1>Table readability proposal</h1>
+    <p>Top-aligned entries, clear horizontal separators and alternating row backgrounds. The entries below are illustrative and contain no country or legal findings.</p>
+    <p id="scroll-help">On narrow screens, scroll horizontally to read all columns. Keyboard users can focus the table region and use the arrow keys.</p>
+    <div class="resource-table-scroll" role="region" aria-labelledby="table-caption" aria-describedby="scroll-help" tabindex="0">
+      <table class="resource-table">
+        <caption id="table-caption">Example resource table with varied entry lengths</caption>
+        <thead>
+          <tr><th scope="col">Entry</th><th scope="col">Details</th><th scope="col">Review status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Short entry</th>
+            <td><p>A brief description starts at the same height as the row heading and status.</p></td>
+            <td>Ready for review</td>
+          </tr>
+          <tr>
+            <th scope="row">Longer entry</th>
+            <td><p>This example contains multiple paragraphs to demonstrate the alignment of short and long cells in a single row.</p><p>Consistent spacing separates paragraphs while the darker horizontal line identifies the end of the row.</p></td>
+            <td>Further information needed</td>
+          </tr>
+          <tr>
+            <th scope="row">Entry with a list</th>
+            <td><ul><li>The first item aligns with the top of the row.</li><li>Additional details wrap naturally onto another line when the available space is reduced.</li><li>The separator remains visible against either background.</li></ul></td>
+            <td>Ready for review</td>
+          </tr>
+          <tr>
+            <th scope="row">Reference entry</th>
+            <td><p>Underlined links retain the same dark colour as the surrounding text: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html" hreflang="en">WCAG 2.2: Non-text Contrast</a>.</p></td>
+            <td>Reference available</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
