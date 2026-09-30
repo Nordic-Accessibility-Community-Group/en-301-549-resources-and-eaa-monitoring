@@ -1,0 +1,33 @@
+{
+  "reviewed_on": "2026-09-30",
+  "pr": 75,
+  "reviewed_head": "58af670fac81f7bfdd4188819167452fb329aa37",
+  "base": "90f3cb621b8f719c053fa363ce90bdfb7befad94",
+  "reviewer": "/root/deque_pr75_review",
+  "isolation": "Independent agent; no conversation-history fork",
+  "scope": "Actual GitHub six-file research-only diff and PR description; local narrow correction recheck.",
+  "findings": [
+    {
+      "issue": "Delivery PR numbers missing",
+      "resolution": "All applicable new destinations now reference PR75; country index regenerated.",
+      "status": "resolved"
+    },
+    {
+      "issue": "ETSI retrieval method recorded as web reader",
+      "resolution": "Ordinary-browser inspection recorded under source-c87928b328cdd8d6e8a43d35; claim references updated.",
+      "status": "resolved"
+    }
+  ],
+  "verdict": "No remaining findings after local correction recheck.",
+  "validation": {
+    "parent": "Country/routing and adoption coverage validators; enforcement validator; 62 adoption/enforcement/sanctions/link-language tests; link-language audit; verification-date script; whitespace check passed.",
+    "independent": "Enforcement and adoption coverage validation; whitespace check passed.",
+    "ci": "No check runs reported for initial head at time queried."
+  },
+  "limits": [
+    "No public wording changed; presentation source-fidelity/readability gates not triggered.",
+    "No fresh legal research, original-source language review or exhaustive inherited-record audit.",
+    "No human approval or merge.",
+    "Reviewer verdict binds initial head plus named local corrections; final publication read-back performed by parent."
+  ]
+}

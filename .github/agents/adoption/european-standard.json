@@ -133,7 +133,7 @@
       "access": "reachable",
       "method": "web reader; relevant passage inspected"
     },
-    "source-00032455cbec3cceebf945f6": {
+    "source-c87928b328cdd8d6e8a43d35": {
       "issuer": "ETSI",
       "url": "https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282",
       "source_type": "official_standard_body",
@@ -142,7 +142,7 @@
       "publication_date": null,
       "accessed_on": "2026-09-30",
       "access": "reachable",
-      "method": "web reader; relevant passage inspected"
+      "method": "ordinary browser; schedule target and achieved columns inspected"
     }
   },
   "adoption": {
@@ -632,7 +632,7 @@
         "status": "unverified_source",
         "source_refs": [
           "source-eef6431babaab9bc5c9365c3",
-          "source-00032455cbec3cceebf945f6"
+          "source-c87928b328cdd8d6e8a43d35"
         ],
         "event_dates": [
           {
@@ -954,7 +954,7 @@
           "disposition": "research_only",
           "reason": "Secondary EU forecast retained with prior official observation.",
           "next_action": "Check fresh ETSI and directive-specific OJ records.",
-          "pr": null
+          "pr": 75
         },
         {
           "page": "monitoring-agencies-information.md",

@@ -1444,7 +1444,7 @@
           "disposition": "research_only",
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
-          "pr": null
+          "pr": 75
         },
         {
           "page": "monitoring-agencies-information.md",
@@ -1453,7 +1453,7 @@
           "disposition": "research_only",
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
-          "pr": null
+          "pr": 75
         },
         {
           "page": "EAA sanctions.md",
@@ -1462,7 +1462,7 @@
           "disposition": "research_only",
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
-          "pr": null
+          "pr": 75
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -1471,7 +1471,7 @@
           "disposition": "research_only",
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
-          "pr": null
+          "pr": 75
         }
       ]
     },
@@ -2958,7 +2958,7 @@
           "disposition": "research_only",
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
-          "pr": null
+          "pr": 75
         }
       ]
     },
@@ -3775,7 +3775,7 @@
           "disposition": "already_present",
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
-          "pr": null
+          "pr": 75
         }
       ]
     },
