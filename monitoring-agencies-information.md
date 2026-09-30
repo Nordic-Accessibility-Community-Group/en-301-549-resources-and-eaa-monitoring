@@ -385,7 +385,11 @@
       <ul>
         <li><a href="https://mlbf-barrierefrei.de/" lang="de" hreflang="de">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF AöR)</a> — nationwide BFSG market surveillance.</li>
       </ul>
-      <p><strong>Audiovisual access (services) and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <p><strong>Audiovisual access (services):</strong></p>
+      <ul>
+        <li>❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency communications (answering emergency communications directed to 112):</strong></p>
       <ul>
         <li>❓ Unknown.</li>
       </ul>
@@ -398,7 +402,11 @@
         <li>Company non-compliance: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/" hreflang="de">MLBF contact form for companies, organisations and institutions</a>.</li>
         <li>Company exemptions: <a href="https://mlbf-barrierefrei.de/Informationen-f%C3%BCr-Unternehmen/Kontaktformular-f%C3%BCr-Unternehmen/" hreflang="de">MLBF contact form for companies, organisations and institutions</a>.</li>
       </ul>
-      <p><strong>Audiovisual access (services) and 112 emergency communications (answering emergency communications directed to 112):</strong></p>
+      <p><strong>Audiovisual access (services):</strong></p>
+      <ul>
+        <li>Public and company reporting: ❓ Unknown.</li>
+      </ul>
+      <p><strong>112 emergency communications (answering emergency communications directed to 112):</strong></p>
       <ul>
         <li>Public and company reporting: ❓ Unknown.</li>
       </ul>

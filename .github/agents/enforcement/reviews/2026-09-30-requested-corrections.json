@@ -18,11 +18,11 @@
     "verdict": "Romania text understandable; optional stylistic suggestions not adopted to preserve focused citation change.",
     "additional_review": "BIK labels understandable; optional stylistic suggestions not adopted. Short testing-policy classification retained; no new substantive account."
   },
-  "before_merge": "Maintainer/validation owner should resolve or explicitly accept existing table-format validator incompatibility; identical failures reproduced on main. Actual-PR review pending.",
+  "before_merge": "Maintainer/validation owner should resolve or explicitly accept existing table-format validator incompatibility; identical failures reproduced on main. Ordinary maintainer review remains required.",
   "nonblocking_followup": "Map German audiovisual-access and112-answering authorities/routes in a separate authorised research pass. No route submissions or private-source authentication.",
   "public_files": {
     "monitoring-agencies-information.md": {
-      "sha256": "c30ea3519065f6e37010531a558ff9dea0c3f4cddbb923c0a5bd1f0890a5cb61"
+      "sha256": "f9b52657236d8a0c3d859829471cba772ac415a3b47e9e0098c50fdb57339365"
     },
     "EAA sanctions.md": {
       "sha256": "19fbf40854c9cbbdb9740b6c7355f4ebce2d6c465357f24836486fd1b43f4f6a"
@@ -33,7 +33,10 @@
   },
   "exact_changes": {
     "germany_group": "Products, E-commerce, Banking (consumer banking services), Electronic communications, Transport (covered passenger transport services) and E-books:",
-    "germany_unknown": "Audiovisual access (services) and 112 emergency communications (answering emergency communications directed to 112): / ❓ Unknown. / Public and company reporting: ❓ Unknown.",
+    "germany_unknown": [
+      "Audiovisual access (services): / ❓ Unknown. / Public and company reporting: ❓ Unknown.",
+      "112 emergency communications (answering emergency communications directed to 112): / ❓ Unknown. / Public and company reporting: ❓ Unknown."
+    ],
     "romania": [
       "Products and services under Law 232/2022, Article 27.",
       "Article 27 sets the range for each offence. RON 15,000 is the highest amount in the listed ranges.",
@@ -55,7 +58,7 @@
       "git diff --check"
     ],
     "baseline_failures": "Raw sanctions and enforcement checks fail identically on origin/main and proposed head because published align/valign attributes are not handled. No validator changes included.",
-    "normalized_diagnostic": "Temporary copies stripping only align=left and valign=top pass country, sanctions and enforcement checks (75 countries,821 claims,115 deliveries;27 sanction rows;17 enforcement table entries). This is diagnostic and not a claim raw checks pass.",
+    "normalized_diagnostic": "Historical diagnostic before the Slovakia URL and Germany presentation follow-ups: Temporary copies stripping only align=left and valign=top pass country, sanctions and enforcement checks (75 countries,821 claims,115 deliveries;27 sanction rows;17 enforcement table entries). This is diagnostic and not a claim raw checks pass.",
     "sanctions_tests": "5 sanctions tests passed before rebasing onto the published formatting. On the current tree, raw tests fail from the same inherited header parser mismatch. Do not claim raw sanctions tests pass; temporary formatting-normalized checks are diagnostic only."
   },
   "source_comparisons": [
@@ -87,5 +90,13 @@
       "literal": "Description of the testing procedure (Web); BIK decides on the following determination",
       "comparison": "Supports standpoint classification. Retained attributed quotation not assessed."
     }
-  ]
+  ],
+  "presentation_followup": {
+    "date": "2026-09-30",
+    "request": "User requires audiovisual-access services and answering 112 to be presented as separate areas unless shared authority is evidenced.",
+    "previous_grouped_label": "Audiovisual access (services) and 112 emergency communications (answering emergency communications directed to 112): / ❓ Unknown. / Public and company reporting: ❓ Unknown.",
+    "change": "Separate headings and independent Unknown entries in both monitoring-authority and reporting columns. Existing canonical country claims already separate the two areas. No new authority, route or legal claim; no fresh research or translation.",
+    "review_scope": "Earlier source-fidelity verdict applies to unchanged sector terms; this follow-up changes grouping only. Earlier actual-PR review completed at 3c11fea21dcfcd6357762e63baae1ac31297e60e with both documentation findings resolved.",
+    "other_destinations": "No new evidence affecting sanctions, enforcement or adoption; no changes to those public pages."
+  }
 }
