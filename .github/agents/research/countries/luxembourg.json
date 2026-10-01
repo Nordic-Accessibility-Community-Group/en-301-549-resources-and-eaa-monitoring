@@ -141,6 +141,24 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-3cc093ad7e6114680d1233c1": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "Contributor-supplied OSAPS EML, subject Questions about reporting for the EAA; top-level reply dated 25 September 2026 05:14:44 UTC (07:14:44 Europe/Luxembourg).",
+      "passage": "At the moment, we are still in the testing phase and have therefore been able to resolve all issues. As such, there has been no need to issue any warnings or raise any issues as yet.",
+      "attempted_on": "2026-09-30",
+      "retrieved_on": "2026-09-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including Date and OSAPS sender headers and quoted question of 24 September 2026. Documentary review, not independent authentication. Raw email, signatures, personal contact details and local path are not committed. The quoted 2025 correspondence remains historical context.",
+      "correspondence_review": {
+        "authority": "Office de la surveillance de l’accessibilité des produits et services (OSAPS)",
+        "source_date": "2026-09-25",
+        "document_sha256": "4c9ad0d4701ca7d6e9a25ed6382e39cfda24aff0f59e8e31e80affa414cb5d88",
+        "reviewed_by": "Assistant original-document and wording review",
+        "reviewed_on": "2026-09-30",
+        "scope_limit": "Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions."
+      }
     }
   },
   "domains": {
@@ -314,7 +332,7 @@
           "field": "additional_information",
           "assertion": "OSAPS began monitoring on 28 June 2025; as of 17 November 2025 it had issued no warnings because initial checks were insufficient, did not disclose ongoing checks, and said decisions would be published.",
           "status": "verified",
-          "review_note": "Official OSAPS correspondence from info@osaps.etat.lu dated 17 November 2025, supplied by the contributor. It also states WCAG 2.2 forms part of broader full-standard checks and dark mode is not required because it is not in the standard. A contributor follow-up dated 24 September 2026 asks whether warnings or decisions have since been issued; no reply appears in the supplied thread. Keep this monitoring detail in research, not the public table.",
+          "review_note": "Official OSAPS correspondence from info@osaps.etat.lu dated 17 November 2025, supplied by the contributor. It also states WCAG 2.2 forms part of broader full-standard checks and dark mode is not required because it is not in the standard. A contributor follow-up dated 24 September 2026 asks whether warnings or decisions have since been issued; no reply appears in the supplied thread. Keep this monitoring detail in research, not the public table. Update 30 September 2026: the supplied EML now contains the 25 September reply; the earlier no-reply note describes the previous intake only. Its quoted 17 November 2025 thread was also inspected. That historical wording says decisions are published on the website, without identifying a decision; it does not establish an actual published decision. See source source-3cc093ad7e6114680d1233c1. Historical claim and dates retained.",
           "directive_context": "EAA",
           "source_refs": [],
           "id": "monitoring-0f3cd7b6f05ba4f873770289"
@@ -323,10 +341,11 @@
       "questions": [
         "Before PR: Existing No is supported by explicit OSAPS guidance and official correspondence; the separate public information-sheet duty is recorded without relabelling it as a WAD statement.",
         "Before PR: Public, company and Exemptions routes are separated and link their intended MyGuichet procedures; email is not promoted as a company filing route.",
-        "Follow-up: Record OSAPS’s response to the 24 September 2026 question about whether warnings or decisions have since been issued.",
+        "Resolved intake 30 September 2026: OSAPS reply of 25 September 2026 is recorded. Follow-up remains: establish whether any decisions have actually been published; reply does not explicitly answer that question.",
         "Follow-up: Confirm whether OSAPS provides a general public-on-request route for oral or alternative-format service information; Article 15(2) establishes public written/oral availability but not the mechanics.",
         "Follow-up: Identify the authority responsible for monitoring accessibility of reception of 112 and other national emergency communications; MyGuichet reporting to OSAPS is verified, but the legal authority clauses checked refer to Article 1(1)–(2), not the separate Article 1(3) scope.",
-        "Research completed 24 September 2026 within the ten-minute budget. No form submitted and no email sent."
+        "Research completed 24 September 2026 within the ten-minute budget. No form submitted and no email sent.",
+        "Research intake 30 September 2026: In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Canonical official-correspondence evidence: source-3cc093ad7e6114680d1233c1. Claim stored under enforcement because the monitoring source schema supports only public URLs. No authority, route or statement change established."
       ]
     },
     "sanctions": {
@@ -368,13 +387,14 @@
       "jurisdiction_group": "EU",
       "created_on": "2026-09-25",
       "research_state": "partially_researched",
-      "search_result": "not_assessed",
-      "attempted_on": "2026-09-25",
-      "verified_on": null,
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-09-30",
+      "verified_on": "2026-09-30",
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Read OSAPS homepage and declaration/exemption descriptions; no counts or dated enforcement activity identified. Public-sector website-monitoring data belongs to a different regime and was not used as EAA evidence.",
-        "Cross-page intake 2026-09-25: OSAPS correspondence dated 17 November 2025 reports monitoring from 28 June 2025, no warnings as of that reply, nondisclosure of ongoing checks and intended publication of decisions. The original message is not available in this audit; preserve historical date and retrieve it before new public wording. The 24 September 2026 request for later warnings/decisions is unanswered in the canonical record. Canonical source/provenance: ../../research/luxembourg.json. This repository-only handoff is not a new country source-verification pass."
+        "Cross-page intake 2026-09-25: OSAPS correspondence dated 17 November 2025 reports monitoring from 28 June 2025, no warnings as of that reply, nondisclosure of ongoing checks and intended publication of decisions. The original message is not available in this audit; preserve historical date and retrieve it before new public wording. The 24 September 2026 request for later warnings/decisions is unanswered in the canonical record. Canonical source/provenance: ../../research/luxembourg.json. This repository-only handoff is not a new country source-verification pass.",
+        "Intake 30 September 2026 supersedes the earlier unanswered/missing-original notes for this thread: original supplied EML inspected, including the 25 September 2026 reply and quoted November 2025 exchanges. In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -386,9 +406,40 @@
           ],
           "limitations": "Read OSAPS homepage and declaration/exemption descriptions; no counts or dated enforcement activity identified. Public-sector website-monitoring data belongs to a different regime and was not used as EAA evidence. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
           "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        },
+        {
+          "attempted_on": "2026-09-30",
+          "scope": "Contributor-supplied OSAPS email intake; header timestamp and substantive top-level reply checked against quoted follow-up. No new public-web research.",
+          "sources_checked": [],
+          "limitations": "Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions. Documentary review does not independently authenticate the sender.",
+          "next_check": "Consider the dated attributed enforcement-entry proposal; separately establish published decisions before making any claim about them."
         }
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "luxembourg-osaps-testing-phase-20260925",
+          "kind": "monitoring_activity",
+          "text": "In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet.",
+          "authority_or_court": "OSAPS",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Reply to the contributor’s EAA monitoring follow-up; no specific statutory provision assessed in this intake.",
+          "action_type": "Authority-reported testing activity and resolution of issues",
+          "procedural_stage": "unknown",
+          "stage_detail": "OSAPS describes a testing phase, not a specified legal procedural stage. No formal warnings reported as necessary by the authority as of this reply.",
+          "event_on": "2026-09-25",
+          "published_on": null,
+          "verified_on": "2026-09-30",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions.",
+          "next_check": "Publication proposal: add a dated attributed Luxembourg monitoring-activity entry using this exact claim text; complete source-fidelity/readability and publication review before a public edit. Published decisions remain a separate unresolved question.",
+          "source_refs": [
+            "source-3cc093ad7e6114680d1233c1"
+          ]
+        }
+      ],
       "questions": [
         {
           "priority": "Follow-up",
@@ -398,9 +449,9 @@
         },
         {
           "priority": "Follow-up",
-          "question": "OSAPS correspondence dated 17 November 2025 reports monitoring from 28 June 2025, no warnings as of that reply, nondisclosure of ongoing checks and intended publication of decisions. The original message is not available in this audit; preserve historical date and retrieve it before new public wording. The 24 September 2026 request for later warnings/decisions is unanswered in the canonical record.",
+          "question": "The reply and quoted historical thread have now been inspected. Has OSAPS actually published any decisions? The 25 September 2026 reply does not explicitly answer this.",
           "owner": "Enforcement researcher",
-          "resolved_when": "Canonical evidence is inspected and a supported, dated public-entry proposal or reasoned research-only disposition is recorded."
+          "resolved_when": "A dated decision or explicit authority statement establishes publication status; do not infer it from the absence of warnings."
         }
       ]
     },
@@ -477,9 +528,9 @@
       "id": "luxembourg-osaps-20251117",
       "country": "Luxembourg",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
-      "next_action": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
+      "status": "research_only",
+      "reason": "Historical handoff retained. Supplied EML inspected 30 September 2026; its quoted November 2025 thread resolves source retrieval. New dated reply tracked in luxembourg-osaps-20260925.",
+      "next_action": "Use the new intake for current attributed wording; no retrospective public verification implied.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
@@ -493,9 +544,9 @@
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/luxembourg.json",
-          "disposition": "needs_evidence",
-          "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
-          "next_action": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
+          "disposition": "research_only",
+          "reason": "Historical handoff retained. Supplied EML inspected 30 September 2026; its quoted November 2025 thread resolves source retrieval. New dated reply tracked in luxembourg-osaps-20260925.",
+          "next_action": "Use the new intake for current attributed wording; no retrospective public verification implied.",
           "pr": 57,
           "domain": "enforcement"
         },
@@ -549,6 +600,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "luxembourg-osaps-20260925",
+      "country": "Luxembourg",
+      "recorded_on": "2026-09-30",
+      "status": "research_only",
+      "reason": "Original official reply inspected and retained as dated documentary evidence. Public pages unchanged in this intake.",
+      "next_action": "Propose a dated attributed Luxembourg enforcement entry; published-decision status requires separate evidence.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "Dated authority reply retained in research; it establishes no new authority remit, reporting channel or statement requirement.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "Supports a dated attributed monitoring-activity entry; no public edit in this research intake.",
+          "next_action": "Propose: In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction rules or standards-adoption evidence in the top-level reply.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction rules or standards-adoption evidence in the top-level reply.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
         }
       ]
     }
