@@ -2672,9 +2672,9 @@
       "id": "luxembourg-osaps-20251117",
       "country": "Luxembourg",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
-      "next_action": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
+      "status": "research_only",
+      "reason": "Historical handoff retained. Supplied EML inspected 30 September 2026; its quoted November 2025 thread resolves source retrieval. New dated reply tracked in luxembourg-osaps-20260925.",
+      "next_action": "Use the new intake for current attributed wording; no retrospective public verification implied.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
@@ -2688,9 +2688,9 @@
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/luxembourg.json",
-          "disposition": "needs_evidence",
-          "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
-          "next_action": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
+          "disposition": "research_only",
+          "reason": "Historical handoff retained. Supplied EML inspected 30 September 2026; its quoted November 2025 thread resolves source retrieval. New dated reply tracked in luxembourg-osaps-20260925.",
+          "next_action": "Use the new intake for current attributed wording; no retrospective public verification implied.",
           "pr": 57,
           "domain": "enforcement"
         },
@@ -2744,6 +2744,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "luxembourg-osaps-20260925",
+      "country": "Luxembourg",
+      "recorded_on": "2026-09-30",
+      "status": "research_only",
+      "reason": "Original official reply inspected and retained as dated documentary evidence. Public pages unchanged in this intake.",
+      "next_action": "Propose a dated attributed Luxembourg enforcement entry; published-decision status requires separate evidence.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "Dated authority reply retained in research; it establishes no new authority remit, reporting channel or statement requirement.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "Supports a dated attributed monitoring-activity entry; no public edit in this research intake.",
+          "next_action": "Propose: In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction rules or standards-adoption evidence in the top-level reply.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory sanction rules or standards-adoption evidence in the top-level reply.",
+          "next_action": "None for public page from this reply.",
+          "pr": null
         }
       ]
     },
