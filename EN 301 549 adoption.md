@@ -16,16 +16,16 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">Adopted (identical)</td>
     <td align="left" valign="top">Published: 2024-11-01</td>
     <td align="left" valign="top">V3.2.1:2021</td>
-    <td align="left" valign="top"><a href="https://store.standards.org.au/product/as-en-301-549-2024">AS EN 301 549:2024</a>. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.</td>
-    <td align="left" valign="top">2026-09-27</td>
+    <td align="left" valign="top"><a href="https://store.standards.org.au/product/as-en-301-549-2024" hreflang="en">AS EN 301 549:2024</a>. Identical adoption of EN 301 549:2021; supersedes AS EN 301 549:2020.<br><br>The registered <a href="https://www.legislation.gov.au/F2026L01002/asmade/2026-07-30/text/original/pdf" hreflang="en">Disability Standards for Accessible Public Transport Amendment 2026 (PDF)</a> references AS EN 301 549:2020 for fare systems. Commencement depends on the parliamentary disallowance period; application rules distinguish new and existing assets.</td>
+    <td align="left" valign="top">2026-10-02</td>
   </tr>
   <tr>
     <td align="left" valign="top">Canada</td>
     <td align="left" valign="top">National standard adopted</td>
     <td align="left" valign="top">Adoption announced: 2024-05-31</td>
     <td align="left" valign="top">V3.2.1:2021</td>
-    <td align="left" valign="top"><a href="https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products" hreflang="en">CAN/ASC – EN 301 549:2024</a>. The 2024 announcement describes voluntary use.</td>
-    <td align="left" valign="top">2026-09-27</td>
+    <td align="left" valign="top"><a href="https://accessible.canada.ca/news/accessibility-standards-canada-adopts-globally-recognized-accessibility-standard-ict-products" hreflang="en">CAN/ASC – EN 301 549:2024</a>. The 2024 announcement describes voluntary use.<br><br>Later <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html" hreflang="en">Accessible Canada Regulations amendments</a> introduce digital requirements from 2027-12-05 and 2028-12-05 for covered federal public and private entities, with scope and exceptions varying by requirement. They reference the Canadian standard as amended. Once applicable, new section 19.9 permits ETSI editions published more recently than the current Canadian ICT standard as an alternative.<br><br><a href="https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-5212026-accessible-service-delivery/12-digital-service-delivery?wbdisable=true" hreflang="en">CAN-ASC-5.2.1:2026</a> is a voluntary accessible service delivery standard that references CAN/ASC-EN 301 549:2024 for digital platforms.</td>
+    <td align="left" valign="top">2026-10-02</td>
   </tr>
   <tr>
     <td align="left" valign="top">Brazil</td>
@@ -120,8 +120,8 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">Adopted</td>
     <td align="left" valign="top">Published: 2021-06-30</td>
     <td align="left" valign="top">V3.2.1:2021</td>
-    <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2" hreflang="en">BS EN 301 549:2021</a>. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.</td>
-    <td align="left" valign="top">2026-09-27</td>
+    <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2" hreflang="en">BS EN 301 549:2021</a>. UK implementation of EN 301 549:2021; supersedes the withdrawn 2019 edition.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00429" hreflang="en">BSI’s revision project</a> is at approval stage, and its project page lists a publication start date of 2026-12-09. The project page does not specify the ETSI version.</td>
+    <td align="left" valign="top">2026-10-02</td>
   </tr>
 </table>
 

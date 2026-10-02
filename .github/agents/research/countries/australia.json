@@ -35,6 +35,50 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web PDF reader, cover"
+    },
+    "source-5d709b7fab7e56b06d918098": {
+      "issuer": "Standards Australia",
+      "url": "https://store.standards.org.au/product/as-en-301-549-2024",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "Catalogue shows Current, published 01/11/2024; identical adoption of EN 301 549:2021; history marks 2020 superseded. No V4.1.1 timetable appears on this product page.",
+      "publication_date": "2024-11-01",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "ordinary browser, product and content history"
+    },
+    "source-1d6d95bc603d0691ad7503a7": {
+      "issuer": "Australian Human Rights Commission",
+      "url": "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "About document and executive summary: guidance assists organisations meeting Disability Discrimination Act 1992 duties for digital goods and services. Issued under s67(1)(k); non-binding and to be read with the Act.",
+      "publication_date": "2025-04",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-0c399c7f6a6851867abf90cf": {
+      "issuer": "Australian Human Rights Commission",
+      "url": "https://humanrights.gov.au/?a=68429",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Chapter 3 recommends at least WCAG 2.2 AA. AS ISO/IEC 30071.1:2022 section describes accessibility strategy/policy at organisational and system-development levels. The chapter is guidance, not a separate statutory WCAG mandate.",
+      "publication_date": null,
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web reader, WCAG and AS ISO/IEC 30071.1 sections"
+    },
+    "source-4c7d812a644ad96e161da084": {
+      "issuer": "Australian Government, Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2026L01002/asmade/2026-07-30/text/original/pdf",
+      "source_type": "official_law",
+      "language": "en",
+      "passage": "Registered 2026-07-30. Section 2 commencement: day after final parliamentary disallowance day; no calendar date specified in the instrument. Schedule 25 inserts s25.2 requiring fare systems to comply with selected AS EN 301 549:2020 clauses, including hardware section 8 and software section 11 for public use. Schedule 34 s35.22 applies those changes to new conveyances/premises/infrastructure and fare-system elements installed from commencement. Other Part 35 provisions distinguish existing assets. This check does not establish the actual commencement date.",
+      "publication_date": "2026-07-30",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web PDF text, printed pp1,75-76,103; screenshot attempts failed"
     }
   },
   "domains": {
@@ -198,11 +242,66 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-australia-round2-cell-3."
+        },
+        {
+          "id": "adoption-australia-guidance-20261002",
+          "aspect": "reference",
+          "statement": "The Disability Discrimination Act 1992 covers digital goods and services. AHRC’s non-binding 2025 guidelines recommend WCAG 2.2 AA and identify AS ISO/IEC 30071.1:2022 for accessibility in organisational policy and ICT development.",
+          "scope": "Selected digital/ICT accessibility laws, related standards and revision work. National adoption and legal requirements remain separate. See source passages for jurisdiction, scope and dates.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-1d6d95bc603d0691ad7503a7",
+            "source-0c399c7f6a6851867abf90cf"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": "2026-10-02",
+          "next_review_due": "2026-11-01",
+          "existing_text": null,
+          "review_note": "Compared to retrieved primary material and isolated English wording review. Existing facts/source history retained. Future commencement dates are not treated as requirements already in force."
+        },
+        {
+          "id": "adoption-australia-transport-20261002",
+          "aspect": "reference",
+          "statement": "The registered Disability Standards for Accessible Public Transport Amendment 2026 (PDF) references AS EN 301 549:2020 for fare systems. Commencement depends on the parliamentary disallowance period; application rules distinguish new and existing assets.",
+          "scope": "Selected digital/ICT accessibility laws, related standards and revision work. National adoption and legal requirements remain separate. See source passages for jurisdiction, scope and dates.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-4c7d812a644ad96e161da084"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": "2026-10-02",
+          "next_review_due": "2026-11-01",
+          "existing_text": null,
+          "review_note": "Compared to retrieved primary material and isolated English wording review. Existing facts/source history retained. Future commencement dates are not treated as requirements already in force."
+        },
+        {
+          "id": "adoption-australia-v411-national-timetable-20261002",
+          "aspect": "adoption",
+          "statement": "National adoption of EN 301 549 V4.1.1 and its timetable remain unconfirmed in this check.",
+          "scope": "Australia/Canada: no explicit public timetable located in sources checked. UK: active revision established separately, but project does not specify ETSI version.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-5d709b7fab7e56b06d918098"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": null,
+          "next_review_due": "2026-10-09",
+          "existing_text": null,
+          "review_note": "Research-only uncertainty. Not included in public_claim_ids. Do not infer absence of work, automatic national adoption or legal effect."
         }
       ],
       "questions": [
         "Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained.",
-        "Round 2 (2026-09-27): Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed."
+        "Round 2 (2026-09-27): Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
+        "2026-10-02: No public national timetable for adopting EN 301 549 V4.1.1 was identified in the checked Standards Australia catalogue and targeted official-source searches. This is unknown, not evidence of no work. Next: inspect an IT-040 project announcement or national draft when available; do not infer Australian adoption from ETSI publication.",
+        "2026-10-02: Transport amendment commencement calendar date remains unconfirmed. Check the register commencement and parliamentary disallowance record before describing these amended requirements as currently in force. Scope here is selected digital/ICT law and standards, not an exhaustive state/territory or built-environment survey.",
+        "2026-10-02 scope correction: the Adoption page is limited to EN 301 549 adoption, references and revision work. Broader accessibility laws, WCAG and unrelated standards remain research-only; removed public claim IDs: adoption-australia-guidance-20261002. All evidence, claims and prior reviews retained."
       ],
       "attempts": [
         {
@@ -265,16 +364,97 @@
           "outcome": "reachable",
           "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
           "run_id": "adoption-version-labels-2026-09-27"
+        },
+        {
+          "url": "https://store.standards.org.au/product/as-en-301-549-2024",
+          "on": "2026-10-02",
+          "method": "ordinary browser, product and content history",
+          "outcome": "reachable",
+          "note": "Catalogue shows Current, published 01/11/2024; identical adoption of EN 301 549:2021; history marks 2020 superseded. No V4.1.1 timetable appears on this product page.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+          "on": "2026-10-02",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "About document and executive summary: guidance assists organisations meeting Disability Discrimination Act 1992 duties for digital goods and services. Issued under s67(1)(k); non-binding and to be read with the Act.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://humanrights.gov.au/?a=68429",
+          "on": "2026-10-02",
+          "method": "web reader, WCAG and AS ISO/IEC 30071.1 sections",
+          "outcome": "reachable",
+          "note": "Chapter 3 recommends at least WCAG 2.2 AA. AS ISO/IEC 30071.1:2022 section describes accessibility strategy/policy at organisational and system-development levels. The chapter is guidance, not a separate statutory WCAG mandate.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.legislation.gov.au/F2026L01002/asmade/2026-07-30/text/original/pdf",
+          "on": "2026-10-02",
+          "method": "web PDF text, printed pp1,75-76,103; screenshot attempts failed",
+          "outcome": "reachable",
+          "note": "Registered 2026-07-30. Section 2 commencement: day after final parliamentary disallowance day; no calendar date specified in the instrument. Schedule 25 inserts s25.2 requiring fare systems to comply with selected AS EN 301 549:2020 clauses, including hardware section 8 and software section 11 for public use. Schedule 34 s35.22 applies those changes to new conveyances/premises/infrastructure and fare-system elements installed from commencement. Other Part 35 provisions distinguish existing assets. This check does not establish the actual commencement date.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "site.standards.org.au \"301 549\" \"2026\"",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "\"301 549\" \"4.1.1\" Australia site:standards.org.au site:dta.gov.au",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "\"AS EN 301 549\" revision \"2026\"",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "site.standards.org.au \"IT-040\" \"301\"",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://store.standards.org.au/product/as-en-301-549-2024",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader returned no text; ordinary browser succeeded",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.legislation.gov.au/F2026L01002/asmade/2026-07-30/text/original/pdf",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "PDF screenshots failed for pages 4,78,79; relevant text extraction succeeded",
+          "run_id": "accessibility-laws-2026-10-02"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "70bc2c823f9fd58ca1f6301a040dcbb431e2557de2c0d152ce9dd7558b317850",
+      "public_row_sha256": "0ad0b014aed13a5d0971a3c045ceeee30a2ad0cf54d6832d695ad51a3e6f8bcd",
       "public_claim_ids": [
         "adoption-australia-round2-cell-1",
         "adoption-australia-round2-cell-2",
         "adoption-australia-version-label",
-        "adoption-australia-round2-cell-4"
+        "adoption-australia-round2-cell-4",
+        "adoption-australia-transport-20261002"
       ],
       "public_cells": {
         "0": [],
@@ -289,10 +469,11 @@
           "adoption-australia-version-label"
         ],
         "4": [
-          "adoption-australia-round2-cell-4"
+          "adoption-australia-round2-cell-4",
+          "adoption-australia-transport-20261002"
         ]
       },
-      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
     }
   },
   "deliveries": [
@@ -421,6 +602,48 @@
         }
       ],
       "country": "Australia"
+    },
+    {
+      "id": "accessibility-laws-2026-10-02-australia",
+      "country": "Australia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
+          "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/82"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "run_id": "en-only-scope-2026-10-02",
+  "reviewed_on": "2026-10-02",
+  "scope": "Editorial removal of paragraphs without a direct EN 301 549 connection at user request. Retained factual paragraphs are verbatim from the previously isolated-reviewed version. No new factual wording or research. Broader research, sources and historical review remain preserved.",
+  "prior_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json",
+  "rows": {
+    "Australia": {
+      "row_sha256": "0ad0b014aed13a5d0971a3c045ceeee30a2ad0cf54d6832d695ad51a3e6f8bcd",
+      "claim_ids": [
+        "adoption-australia-round2-cell-1",
+        "adoption-australia-round2-cell-2",
+        "adoption-australia-version-label",
+        "adoption-australia-round2-cell-4",
+        "adoption-australia-transport-20261002"
+      ],
+      "reviewed_text": [
+        "The registered Disability Standards for Accessible Public Transport Amendment 2026 (PDF) references AS EN 301 549:2020 for fare systems. Commencement depends on the parliamentary disallowance period; application rules distinguish new and existing assets."
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json",
+      "reviewer": "/root/adoption_wording_review; prior linked reviewers for unchanged national-adoption wording",
+      "isolation": "Retained wording inherits prior no-history review; this report records deletion-only scope correction, not a new source review.",
+      "removed_public_claim_ids": [
+        "adoption-australia-guidance-20261002"
+      ],
+      "limits": "Retained paragraphs and essential qualifications unchanged. Unrelated research retained in canonical records."
+    },
+    "Canada": {
+      "row_sha256": "4c3f5e95dc017d5bff20a27f228c81264e7181d1fa74b4f5ea4c3df187c184d8",
+      "claim_ids": [
+        "adoption-canada-canada-adoption",
+        "adoption-canada-inherited-3",
+        "adoption-canada-regulations-20261002",
+        "adoption-canada-services-20261002"
+      ],
+      "reviewed_text": [
+        "Later Accessible Canada Regulations amendments introduce digital requirements from 2027-12-05 and 2028-12-05 for covered federal public and private entities, with scope and exceptions varying by requirement. They reference the Canadian standard as amended. Once applicable, new section 19.9 permits ETSI editions published more recently than the current Canadian ICT standard as an alternative.",
+        "CAN-ASC-5.2.1:2026 is a voluntary accessible service delivery standard that references CAN/ASC-EN 301 549:2024 for digital platforms."
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json",
+      "reviewer": "/root/adoption_wording_review; prior linked reviewers for unchanged national-adoption wording",
+      "isolation": "Retained wording inherits prior no-history review; this report records deletion-only scope correction, not a new source review.",
+      "removed_public_claim_ids": [
+        "adoption-canada-provincial-20261002"
+      ],
+      "limits": "Retained paragraphs and essential qualifications unchanged. Unrelated research retained in canonical records."
+    },
+    "United Kingdom": {
+      "row_sha256": "1ec2e3dae2e05ca1ffe6277b798a4f9c08b9d1b8cd439afac5e8c39eb14ffb49",
+      "claim_ids": [
+        "adoption-united-kingdom-round2-cell-1",
+        "adoption-united-kingdom-round2-cell-2",
+        "adoption-united-kingdom-version-label",
+        "adoption-united-kingdom-round2-cell-4",
+        "adoption-united-kingdom-revision-20261002"
+      ],
+      "reviewed_text": [
+        "BSI’s revision project is at approval stage, and its project page lists a publication start date of 2026-12-09. The project page does not specify the ETSI version."
+      ],
+      "verdict": "Supported",
+      "prior_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json",
+      "reviewer": "/root/adoption_wording_review; prior linked reviewers for unchanged national-adoption wording",
+      "isolation": "Retained wording inherits prior no-history review; this report records deletion-only scope correction, not a new source review.",
+      "removed_public_claim_ids": [
+        "adoption-united-kingdom-laws-20261002",
+        "adoption-united-kingdom-iso-20261002"
+      ],
+      "limits": "Retained paragraphs and essential qualifications unchanged. Unrelated research retained in canonical records."
+    }
+  },
+  "isolation": "no_history",
+  "reviewer": "/root/adoption_wording_review (prior review of verbatim retained wording)",
+  "live_port": {
+    "source_repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+    "source_pr": 82,
+    "source_main": "156b7c974e32839d6f2a4bae81d690991700f416",
+    "live_base": "71a2216289a3c8208cbf1f6ce4b947a60a04810c",
+    "scope": "Only three Additional information cells and Updated dates transferred. Live table markup preserved. Public prose and links match the reviewed testing version. Broader research preserved; unrelated testing changes excluded."
+  }
+}
