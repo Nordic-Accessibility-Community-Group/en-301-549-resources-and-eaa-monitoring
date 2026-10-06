@@ -212,6 +212,48 @@
       "country": "Australia"
     },
     {
+      "id": "accessibility-laws-2026-10-02-australia",
+      "country": "Australia",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/australia.json",
+          "disposition": "proposed",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
+          "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/82"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-8-2026-09-27-040",
       "country": "Austria",
       "destinations": [
@@ -922,6 +964,48 @@
         }
       ],
       "country": "Canada"
+    },
+    {
+      "id": "accessibility-laws-2026-10-02-canada",
+      "country": "Canada",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "proposed",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
+          "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/82"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
     },
     {
       "id": "world-discovery-7-2026-09-27-148",
@@ -5007,6 +5091,48 @@
         }
       ],
       "country": "United Kingdom"
+    },
+    {
+      "id": "accessibility-laws-2026-10-02-united-kingdom",
+      "country": "United Kingdom",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "proposed",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
+          "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/82"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
     },
     {
       "id": "world-discovery-1-2026-09-27-united-states",

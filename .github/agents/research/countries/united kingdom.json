@@ -56,6 +56,50 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web PDF reader, cover"
+    },
+    "source-cf25b51936a54a879ec14646": {
+      "issuer": "British Standards Institution",
+      "url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "BS EN301549:2021 marked Current, published 30Jun2021, supersedes withdrawn2019 edition. Catalogue establishes national standard status, not legal effect.",
+      "publication_date": "2021-06-30",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-fa116343bed4a266922ab89f": {
+      "issuer": "Government Digital Service / Central Digital and Data Office",
+      "url": "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+      "source_type": "official_government",
+      "language": "en",
+      "passage": "Meeting requirements and scope: Public Sector Bodies (Websites and Mobile Applications)(No.2) Accessibility Regulations2018 build on EqualityAct2010 / DDA1995 in Northern Ireland. Guidance specifies WCAG2.2AA plus accessibility statement, with legal exemptions/disproportionate burden. All UK service providers have reasonable-adjustment duties under the respective disability laws.",
+      "publication_date": "2024-09-30",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-7b02d61b7511089480fde8b9": {
+      "issuer": "British Standards Institution",
+      "url": "https://knowledge.bsigroup.com/products/information-technology-development-of-user-interface-accessibility-code-of-practice-for-creating-accessible-ict-products-and-services",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "BS ISO/IEC30071-1:2019 marked Current; published30Jun2019. Guidance on organisational accessibility policies and system-development activities for accessible ICT products/services.",
+      "publication_date": "2019-06-30",
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "web reader"
+    },
+    "source-ac45fd8a730a2876db5bde81": {
+      "issuer": "British Standards Institution",
+      "url": "https://standardsdevelopment.bsigroup.com/projects/2026-00429",
+      "source_type": "official_standard_body",
+      "language": "en",
+      "passage": "BS EN301549 revision, source CEN, committee ICT/2. BSI search result labels Approval; project shows proposal/draft/comments/resolution complete, approval not complete. Expanded publication panel: Publication start date 09/12/2026 (British day/month). No ETSI version number shown. This supports revision work and a scheduled publication-stage date, not confirmed publication or explicit V4.1.1 identification.",
+      "publication_date": null,
+      "accessed_on": "2026-10-02",
+      "access": "reachable",
+      "method": "ordinary browser, project search then expanded publication panel"
     }
   },
   "domains": {
@@ -269,11 +313,88 @@
           "next_review_due": "2026-10-27",
           "existing_text": null,
           "review_note": "User-requested Version-column normalization. Previous year-only designation retained in historical claim adoption-united-kingdom-round2-cell-3."
+        },
+        {
+          "id": "adoption-united-kingdom-laws-20261002",
+          "aspect": "reference",
+          "statement": "Public-sector website and app regulations apply alongside reasonable-adjustment duties under the Equality Act 2010, or the Disability Discrimination Act 1995 in Northern Ireland. Government guidance specifies WCAG 2.2 AA and an accessibility statement, subject to exemptions.",
+          "scope": "Selected digital/ICT accessibility laws, related standards and revision work. National adoption and legal requirements remain separate. See source passages for jurisdiction, scope and dates.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-fa116343bed4a266922ab89f"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": "2026-10-02",
+          "next_review_due": "2026-11-01",
+          "existing_text": null,
+          "review_note": "Compared to retrieved primary material and isolated English wording review. Existing facts/source history retained. Future commencement dates are not treated as requirements already in force."
+        },
+        {
+          "id": "adoption-united-kingdom-iso-20261002",
+          "aspect": "reference",
+          "statement": "BS ISO/IEC 30071-1:2019 provides guidance on organisational policies and ICT development.",
+          "scope": "Selected digital/ICT accessibility laws, related standards and revision work. National adoption and legal requirements remain separate. See source passages for jurisdiction, scope and dates.",
+          "stage": "final",
+          "status": "verified",
+          "source_refs": [
+            "source-7b02d61b7511089480fde8b9"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": "2026-10-02",
+          "next_review_due": "2026-11-01",
+          "existing_text": null,
+          "review_note": "Compared to retrieved primary material and isolated English wording review. Existing facts/source history retained. Future commencement dates are not treated as requirements already in force."
+        },
+        {
+          "id": "adoption-united-kingdom-revision-20261002",
+          "aspect": "publication",
+          "statement": "BSI’s revision project is at approval stage, and its project page lists a publication start date of 2026-12-09. The project page does not specify the ETSI version.",
+          "scope": "Selected digital/ICT accessibility laws, related standards and revision work. National adoption and legal requirements remain separate. See source passages for jurisdiction, scope and dates.",
+          "stage": "planned",
+          "status": "verified",
+          "source_refs": [
+            "source-ac45fd8a730a2876db5bde81"
+          ],
+          "event_dates": [
+            {
+              "kind": "target",
+              "value": "2026-12-09"
+            }
+          ],
+          "attempted_on": "2026-10-02",
+          "verified_on": "2026-10-02",
+          "next_review_due": "2026-10-09",
+          "existing_text": null,
+          "review_note": "Compared to retrieved primary material and isolated English wording review. Existing facts/source history retained. Future commencement dates are not treated as requirements already in force."
+        },
+        {
+          "id": "adoption-united-kingdom-v411-national-timetable-20261002",
+          "aspect": "adoption",
+          "statement": "National adoption of EN 301 549 V4.1.1 and its timetable remain unconfirmed in this check.",
+          "scope": "Australia/Canada: no explicit public timetable located in sources checked. UK: active revision established separately, but project does not specify ETSI version.",
+          "stage": "unknown",
+          "status": "unknown",
+          "source_refs": [
+            "source-cf25b51936a54a879ec14646",
+            "source-ac45fd8a730a2876db5bde81"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-10-02",
+          "verified_on": null,
+          "next_review_due": "2026-10-09",
+          "existing_text": null,
+          "review_note": "Research-only uncertainty. Not included in public_claim_ids. Do not infer absence of work, automatic national adoption or legal effect."
         }
       ],
       "questions": [
         "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title.",
-        "Round 2 (2026-09-27): Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks."
+        "Round 2 (2026-09-27): Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
+        "2026-10-02: Confirm the ETSI edition associated with BSI project2026-00429 and eventual BS publication. Active revision work and planned publication-stage start are established; explicit V4.1.1 national designation remains unconfirmed. National publication does not automatically change UK legal requirements.",
+        "2026-10-02: GOV.UK scope/guidance used for legal overview. Direct legislation.gov.uk retrieval failed (reg6 rate limit, reg7/EqualityAct s20 unsupported reader type; reg7 browser blocked). Do not claim a full consolidated statutory audit or a new legal EN designation.",
+        "2026-10-02 scope correction: the Adoption page is limited to EN 301 549 adoption, references and revision work. Broader accessibility laws, WCAG and unrelated standards remain research-only; removed public claim IDs: adoption-united-kingdom-laws-20261002, adoption-united-kingdom-iso-20261002. All evidence, claims and prior reviews retained."
       ],
       "attempts": [
         {
@@ -337,16 +458,129 @@
           "outcome": "reachable",
           "note": "EN version/year mapping for user-requested label change; no fresh national audit.",
           "run_id": "adoption-version-labels-2026-09-27"
+        },
+        {
+          "url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
+          "on": "2026-10-02",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "BS EN301549:2021 marked Current, published 30Jun2021, supersedes withdrawn2019 edition. Catalogue establishes national standard status, not legal effect.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+          "on": "2026-10-02",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "Meeting requirements and scope: Public Sector Bodies (Websites and Mobile Applications)(No.2) Accessibility Regulations2018 build on EqualityAct2010 / DDA1995 in Northern Ireland. Guidance specifies WCAG2.2AA plus accessibility statement, with legal exemptions/disproportionate burden. All UK service providers have reasonable-adjustment duties under the respective disability laws.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://knowledge.bsigroup.com/products/information-technology-development-of-user-interface-accessibility-code-of-practice-for-creating-accessible-ict-products-and-services",
+          "on": "2026-10-02",
+          "method": "web reader",
+          "outcome": "reachable",
+          "note": "BS ISO/IEC30071-1:2019 marked Current; published30Jun2019. Guidance on organisational accessibility policies and system-development activities for accessible ICT products/services.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://standardsdevelopment.bsigroup.com/projects/2026-00429",
+          "on": "2026-10-02",
+          "method": "ordinary browser, project search then expanded publication panel",
+          "outcome": "reachable",
+          "note": "BS EN301549 revision, source CEN, committee ICT/2. BSI search result labels Approval; project shows proposal/draft/comments/resolution complete, approval not complete. Expanded publication panel: Publication start date 09/12/2026 (British day/month). No ETSI version number shown. This supports revision work and a scheduled publication-stage date, not confirmed publication or explicit V4.1.1 identification.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "site:bsigroup.com \"301 549\" \"2026\"",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "\"301 549\" revision site:standardsdevelopment.bsigroup.com site:knowledge.bsigroup.com",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "\"301549\" site:standardsdevelopment.bsigroup.com/projects",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "https://standardsdevelopment.bsigroup.com/search?Term=301549",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "query": "site:knowledge.bsigroup.com \"BS ISO/IEC 30071-1:2019\"",
+          "on": "2026-10-02",
+          "method": "official-source discovery search or BSI public project search",
+          "outcome": "search_lead",
+          "note": "Discovery only; actual retrieved sources recorded separately. Absence of a result is not proof of no adoption work.",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://standardsdevelopment.bsigroup.com/projects/2020-03439",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader failed; ordinary browser succeeded",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://standardsdevelopment.bsigroup.com/projects/2026-00429",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader failed; ordinary browser succeeded",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.legislation.gov.uk/uksi/2018/952/regulation/6",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader 429",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.legislation.gov.uk/uksi/2018/952/regulation/7",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader unsupported XHTML; browser blocked by client",
+          "run_id": "accessibility-laws-2026-10-02"
+        },
+        {
+          "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+          "on": "2026-10-02",
+          "method": "web reader / browser as specified",
+          "outcome": "unreachable",
+          "note": "web reader unsupported XHTML",
+          "run_id": "accessibility-laws-2026-10-02"
         }
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "d165124afb1c5c3b416cbd3a8bb9d2c2cb9a5b958e6893a183cd4f4218dd2bcb",
+      "public_row_sha256": "1ec2e3dae2e05ca1ffe6277b798a4f9c08b9d1b8cd439afac5e8c39eb14ffb49",
       "public_claim_ids": [
         "adoption-united-kingdom-round2-cell-1",
         "adoption-united-kingdom-round2-cell-2",
         "adoption-united-kingdom-version-label",
-        "adoption-united-kingdom-round2-cell-4"
+        "adoption-united-kingdom-round2-cell-4",
+        "adoption-united-kingdom-revision-20261002"
       ],
       "public_cells": {
         "0": [],
@@ -361,10 +595,11 @@
           "adoption-united-kingdom-version-label"
         ],
         "4": [
-          "adoption-united-kingdom-round2-cell-4"
+          "adoption-united-kingdom-round2-cell-4",
+          "adoption-united-kingdom-revision-20261002"
         ]
       },
-      "review_report": ".github/agents/adoption/reviews/version-labels-2026-09-27.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
     }
   },
   "deliveries": [
@@ -530,6 +765,48 @@
         }
       ],
       "country": "United Kingdom"
+    },
+    {
+      "id": "accessibility-laws-2026-10-02-united-kingdom",
+      "country": "United Kingdom",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "proposed",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
+          "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/82"
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
+          "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
     }
   ]
 }

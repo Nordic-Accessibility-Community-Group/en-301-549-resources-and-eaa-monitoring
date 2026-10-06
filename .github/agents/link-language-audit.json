@@ -1180,13 +1180,8 @@
     {
       "url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
       "language": "en",
-      "reason": "Retrieved destination HTML language declaration, checked against its page title; language hint only, not content/legal verification.",
-      "checked_on": "2026-09-27",
-      "final_url": "https://knowledge.bsigroup.com/products/accessibility-requirements-for-ict-products-and-services-2",
-      "outcome": "html_retrieved",
-      "html_lang": "en",
-      "content_language": "",
-      "title": "BS EN 301549:2021 | 30 Jun 2021 | BSI Knowledge"
+      "reason": "English substantive content inspected using web reader. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
     },
     {
       "url": "https://kzp.bg/en/contacts",
@@ -2026,14 +2021,9 @@
     },
     {
       "url": "https://store.standards.org.au/product/as-en-301-549-2024",
-      "language": null,
-      "reason": "Language unresolved: html_retrieved; no reliable document-language evidence in this pass.",
-      "checked_on": "2026-09-27",
-      "final_url": "https://store.standards.org.au/product/as-en-301-549-2024",
-      "outcome": "html_retrieved",
-      "html_lang": "en",
-      "content_language": "",
-      "title": ""
+      "language": "en",
+      "reason": "English substantive content inspected using ordinary browser, product and content history. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
     },
     {
       "url": "https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/",
@@ -4490,6 +4480,66 @@
       "language": "sk",
       "reason": "Replacement official page inspected; primary prose Slovak.",
       "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://accessibilitymb.ca/accessibility/act-standards/the-accessibility-standard-for-information-and-communication.html",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-5212026-accessible-service-delivery/12-digital-service-delivery?wbdisable=true",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader, publication metadata, preface and clause12.1. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader, amending sections6-18 and RIAS. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://humanrights.gov.au/?a=68429",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader, WCAG and AS ISO/IEC 30071.1 sections. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/information-technology-development-of-user-interface-accessibility-code-of-practice-for-creating-accessible-ict-products-and-services",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://standardsdevelopment.bsigroup.com/projects/2026-00429",
+      "language": "en",
+      "reason": "English substantive content inspected using ordinary browser, project search then expanded publication panel. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+      "language": "en",
+      "reason": "English substantive content inspected using web reader. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.legislation.gov.au/F2026L01002/asmade/2026-07-30/text/original/pdf",
+      "language": "en",
+      "reason": "English substantive content inspected using web PDF text, printed pp1,75-76,103; screenshot attempts failed. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.ontario.ca/page/how-make-websites-accessible",
+      "language": "en",
+      "reason": "English substantive content inspected using ordinary browser after web reader failure. This records language only, not verification of every source assertion.",
+      "checked_on": "2026-10-02"
     },
     {
       "url": "https://m.likumi.lv/ta/id/371278-grozijumi-precu-un-pakalpojumu-pieklustamibas-likuma",
