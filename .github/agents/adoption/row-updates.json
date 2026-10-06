@@ -1,7 +1,7 @@
 {
   "Canada": {
-    "updated_on": "2026-09-27",
-    "reason": "Adoption announcement date and description clarified."
+    "updated_on": "2026-10-02",
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Brazil": {
     "updated_on": "2026-09-27",
@@ -24,16 +24,16 @@
     "reason": "Round 2: Resolved technical relationship in the BIS foreword."
   },
   "Australia": {
-    "updated_on": "2026-09-27",
-    "reason": "Round 2: Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Version column normalized to V3.2.1:2021 from the ETSI cover."
+    "updated_on": "2026-10-02",
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Japan": {
     "updated_on": "2026-09-27",
     "reason": "Round 2: Resolved cited-document type: CPR-6201 is a technical report with a translation annex. This correction concerns the cited document, not a claim that no Japanese adoption exists elsewhere."
   },
   "United Kingdom": {
-    "updated_on": "2026-09-27",
-    "reason": "Round 2: Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Version column normalized to V3.2.1:2021 from the ETSI cover."
+    "updated_on": "2026-10-02",
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Norway": {
     "updated_on": "2026-09-27",
