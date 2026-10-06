@@ -210,6 +210,13 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-3bfed82d8ac6d050850da7d7": {
+      "url": "https://m.likumi.lv/ta/id/371278-grozijumi-precu-un-pakalpojumu-pieklustamibas-likuma",
+      "accessed_on": "2026-10-06",
+      "evidence": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
+      "section": "Amending act adopted 17 September 2026, promulgated 1 October 2026; section 22 amendment and transitional provision 6.",
+      "source_type": "legislation"
     }
   },
   "domains": {
@@ -507,6 +514,17 @@
           "directive_context": "EAA",
           "source_refs": [],
           "id": "monitoring-589263d0eb6158950aef0b5b"
+        },
+        {
+          "field": "authority",
+          "assertion": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
+          "status": "verified",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Add a dated banking-authority transition note; retain PTAC as current authority and do not invent future reporting channels. Independent source-language review has not been performed; required before publication. Final source-to-wording review by /root/source_fidelity, fork_turns=none, 2026-10-06: Supported after corrections; exact wording and review limits in ../intakes/gerling-public-review-2026-10-06.json. Earlier unreviewed note records the initial comparison stage.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-3bfed82d8ac6d050850da7d7"
+          ],
+          "id": "monitoring-41d723f6d295b33b4356f776"
         }
       ],
       "questions": [
@@ -517,7 +535,8 @@
         "Follow-up: Confirm company-email signature requirements and reconcile any current operational timing guidance with immediate statutory notification; July answer only rules out a specified numeric window.",
         "Follow-up: Verify whether official English translations now exist; May correspondence is historical.",
         "Follow-up: Monitoring methods and JACOP2027 are dated correspondence, not independently updated September findings.",
-        "Follow-up: Shared ten-minute research/verification budget reached; remaining channel, translation and complete112 checks not completed. Preparation proceeds with narrowed claims."
+        "Follow-up: Shared ten-minute research/verification budget reached; remaining channel, translation and complete112 checks not completed. Preparation proceeds with narrowed claims.",
+        "2026-10-06 source comparison: Add a dated banking-authority transition note; retain PTAC as current authority and do not invent future reporting channels."
       ]
     },
     "sanctions": {
@@ -706,6 +725,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-latvia",
+      "country": "Latvia",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

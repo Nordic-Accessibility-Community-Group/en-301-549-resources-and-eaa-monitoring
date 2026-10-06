@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-06",
+  "reviewer": "/root/source_fidelity",
+  "isolation": "fork_turns=none; original passages, URLs and exact proposed text only",
+  "public_file": "monitoring-agencies-information.md",
+  "public_file_sha256": "fea91188a0bfaa5d4b97e530c35be3b806c0234c76008fa348317520c1032ab8",
+  "languages": [
+    "Latvian to English",
+    "German to English",
+    "English to English"
+  ],
+  "initial_findings": [
+    "Latvia needed unfinished-case condition and current section 22(6); both supplied in final check.",
+    "Germany needed final word services and narrower citation §§99a–99d,109(6)."
+  ],
+  "final_verdict": "Supported for all corrected wording",
+  "exact_reviewed_text": {
+    "latvia": "Banking (covered financial services): PTAC supervises these services until 31 December 2026. Latvijas Banka takes over on 1 January 2027. PTAC completes financial-service compliance cases begun under this law and still unfinished on 31 December 2026, using the rules applicable when each case began.",
+    "germany": "Competent Landesmedienanstalt (state media authority), for services providing access to audiovisual media services.",
+    "germany_law": "Medienstaatsvertrag (MStV), §§ 99a–99d and 109(6)",
+    "ireland": "Public complaints and enquiries (air): IAA airline accessibility form (performance cookies required to display the form). Company non-compliance / exemptions (air): ❓ Unknown."
+  },
+  "limits": "Language review does not certify legal applicability, route usability or human approval. Only added wording reviewed; inherited entries not re-audited.",
+  "source_comparisons": [
+    {
+      "language": "lv",
+      "source": "https://m.likumi.lv/ta/id/371278-grozijumi-precu-un-pakalpojumu-pieklustamibas-likuma",
+      "excerpt": "8) Latvijas Banka - attiecībā uz finanšu pakalpojumiem.",
+      "literal": "Latvijas Banka, in respect of financial services.",
+      "context": "Current section 22(6) names PTAC for financial services. Amendment takes effect 1 January 2027. Transitional provision covers cases initiated under this law and unfinished by 31 December 2026, applying rules from case initiation."
+    },
+    {
+      "language": "de",
+      "source": "https://www.die-medienanstalten.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Medienstaatsvertrag_MStV.pdf",
+      "excerpt": "Dienste, die den Zugang zu audiovisuellen Mediendiensten ermöglichen",
+      "literal": "Services providing access to audiovisual media services.",
+      "context": "Section 109(6) requires state media authorities to establish and update compliance/complaint procedures; section 99d names the competent state media authority."
+    },
+    {
+      "language": "en",
+      "source": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
+      "excerpt": "Airline Accessibility Query & Complaint Form",
+      "literal": "Same English wording.",
+      "context": "Official landing page invites EAA airline concerns. Form became visible after Performance Cookies enabled; no submission."
+    }
+  ],
+  "validation": {
+    "targeted": "PASS eight country envelopes, new claim schema, evidence fingerprints, generated routing, three-row scope, five columns, existing row headers and statement answers preserved.",
+    "full_country_check": "Blocked by inherited Italy fingerprint mismatches source-3e7e8e58c3f9cf1b5ba72311 and source-8b42d4f53f785e5644085bde. Italy file unchanged.",
+    "link_language_check": "New links recorded/tagged; full audit flags inherited AgID login/news URLs and renamed README standards link.",
+    "html": "Rendered with bundled marked; system Tidy reports legacy HTML5 meta/table-summary warnings. No changed-row structural issue detected.",
+    "not_run": "No CI or human approval claimed."
+  },
+  "published_review": {
+    "pr": 83,
+    "reviewed_head": "1d3a7af6ff8def6f19b94b00256dfe5b1b4acae2",
+    "exact_remote_files": "All 13 files re-fetched and match prepared contents.",
+    "github_preview": "Rendered Preview inspected: Germany, Ireland and Latvia additions appear in table cells, not escaped/code blocks.",
+    "post_draft_route_check": "No unresolved browser blocker remains for the newly published Irish route; controls verified during this publication pass. No form submitted. Remaining company/112 routes stay Unknown and are not promoted."
+  }
+}

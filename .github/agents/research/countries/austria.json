@@ -176,6 +176,13 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-a385c2ab84bc324390de06fa": {
+      "url": "https://ninagerling.de/en/eaa-national-laws-in-eu-countries.html",
+      "accessed_on": "2026-10-06",
+      "evidence": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
+      "section": "Austria law row; https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011678",
+      "source_type": "other_unverified"
     }
   },
   "domains": {
@@ -456,6 +463,17 @@
           "review_note": "Primary evidence: user-supplied correspondence from Sozialministeriumservice / Marktüberwachung-BaFG, replies dated 17 November 2025 and 10 November 2025, reviewed 24 September 2026. The contributor authorized publication of this summary, reply dates and authority name. The original email and personal contact details are not published. Correspondence is distinguished from the public URLs; no public source URL is invented. Dated confirmation, not a freshly checked universal language policy. A separate no-history English paraphrase review clarified the distinction between permission and reports already received; corrected wording rechecked Supported.",
           "source_refs": [],
           "id": "monitoring-25187cf0cb67431c3b8e2822"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
+          "status": "unverified_source",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link. Independent source-language review has not been performed; required before publication.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-a385c2ab84bc324390de06fa"
+          ],
+          "id": "monitoring-33cd177e1a2e96b5362f5abe"
         }
       ],
       "questions": [
@@ -465,7 +483,8 @@
         "Follow-up: The 10 November 2025 correspondence confirms prior exemption reports by email. Verify current exemption-specific submission instructions before updating that table channel.",
         "Follow-up: Establish current 112 emergency-answering accessibility supervisory authority and reporting route; do not infer them from operational emergency-service information.",
         "Follow-up: Revisit unavailable RIS pages for current consolidated law, full exceptions/transitions and any regulator-specific page-versus-terms/on-request practice.",
-        "Follow-up: Inspect public form login and full input requirements without submission; extraction confirms purpose, not end-to-end operation."
+        "Follow-up: Inspect public form login and full input requirements without submission; extraction confirms purpose, not end-to-end operation.",
+        "2026-10-06 source comparison: Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link."
       ]
     },
     "sanctions": {
@@ -774,6 +793,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-austria",
+      "country": "Austria",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
+      "next_action": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+          "next_action": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

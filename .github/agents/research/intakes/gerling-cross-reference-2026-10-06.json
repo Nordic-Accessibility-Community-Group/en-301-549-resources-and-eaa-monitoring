@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-06",
+  "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+  "main": "156b7c974e32839d6f2a4bae81d690991700f416",
+  "open_prs": [],
+  "source_urls": [
+    "https://ninagerling.de/en/eaa-market-surveillance-authorities-of-eu-countries.html",
+    "https://ninagerling.de/en/eaa-national-laws-in-eu-countries.html"
+  ],
+  "scope": "Compared all 27 country authority and principal-law entries with public monitoring rows and canonical research. Official verification targeted discrepancies only; not a fresh verification of every existing claim. Initial comparison was research only; user subsequently authorized a draft PR for verified Germany, Latvia and Ireland changes.",
+  "findings": [
+    {
+      "country": "Austria",
+      "result": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
+      "status": "unverified_source"
+    },
+    {
+      "country": "Belgium",
+      "result": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
+      "status": "unverified_source"
+    },
+    {
+      "country": "Bulgaria",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Croatia",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Cyprus",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Czechia",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Denmark",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Estonia",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Finland",
+      "result": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
+      "status": "unverified_source"
+    },
+    {
+      "country": "France",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Germany",
+      "result": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
+      "status": "verified"
+    },
+    {
+      "country": "Greece",
+      "result": "Nina Gerling identifies Law 5218/2025 as an amendment of Law 4994/2022; this amendment is not explicitly recorded in the reviewed country research.",
+      "status": "unverified_source"
+    },
+    {
+      "country": "Hungary",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Ireland",
+      "result": "IAA publishes an EAA-specific airline accessibility complaint/query page. The page invites concerns about airlines not meeting EAA obligations. Embedded form usability was not verified.",
+      "status": "verified"
+    },
+    {
+      "country": "Italy",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Latvia",
+      "result": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
+      "status": "verified"
+    },
+    {
+      "country": "Lithuania",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Luxembourg",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Malta",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Netherlands",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Poland",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Portugal",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Romania",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Slovakia",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Slovenia",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Spain",
+      "result": "Principal law and listed authority allocations already covered; no new gap identified from these two lists.",
+      "status": "already_present"
+    },
+    {
+      "country": "Sweden",
+      "result": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
+      "status": "unverified_source"
+    }
+  ],
+  "limits": [
+    "Germany TKG/112 authority claim remains a secondary lead; does not justify replacing the answering-centre Unknown.",
+    "Belgium non-radio-product discrepancy unresolved.",
+    "Ireland official complaint invitation verified; form controls remain blocked by cookie interface and submission untested.",
+    "Finland source list omits product Act 102/2023 that repository already includes.",
+    "Denmark source list simplifies delegated checking; preserve repository distinction between statutory authority and Erhvervsstyrelsen checks.",
+    "Italy source list simplifies transport; retain repository distinction for interactive transport terminals.",
+    "No new sanction amounts, imposed penalties, enforcement decisions or EN adoption established."
+  ],
+  "validation": {
+    "targeted": "PASS: eight country envelopes, new monitoring claims, evidence fingerprints; generated routing index refreshed.",
+    "full_repository": "Blocked by two pre-existing Italy evidence fingerprint mismatches on current main: source-3e7e8e58c3f9cf1b5ba72311 and source-8b42d4f53f785e5644085bde. Italy not modified.",
+    "publication_review": "Not performed; no public edits."
+  },
+  "publication_followup": {
+    "requested": "2026-10-06",
+    "scope": "User requested one PR with verified public changes for Germany, Latvia and Ireland and remaining findings as research. This expressly scopes the multi-country public edit.",
+    "ireland": "Embedded form controls now observed after required performance-cookie consent; no submission.",
+    "review": "Supported after isolated review; see gerling-public-review-2026-10-06.json."
+  }
+}

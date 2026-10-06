@@ -4490,6 +4490,24 @@
       "language": "sk",
       "reason": "Replacement official page inspected; primary prose Slovak.",
       "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://m.likumi.lv/ta/id/371278-grozijumi-precu-un-pakalpojumu-pieklustamibas-likuma",
+      "language": "lv",
+      "reason": "Official Latvian amendment text read.",
+      "checked_on": "2026-10-06"
+    },
+    {
+      "url": "https://www.die-medienanstalten.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Medienstaatsvertrag_MStV.pdf",
+      "language": "de",
+      "reason": "German authority-hosted MStV text read.",
+      "checked_on": "2026-10-06"
+    },
+    {
+      "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
+      "language": "en",
+      "reason": "Official English landing page and form body read; embedded Microsoft interface localized to browser language.",
+      "checked_on": "2026-10-06"
     }
   ]
 }

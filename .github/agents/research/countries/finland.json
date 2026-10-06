@@ -188,6 +188,13 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-cc5e0b57ebdf5ac049bfcdc9": {
+      "url": "https://ninagerling.de/en/eaa-national-laws-in-eu-countries.html",
+      "accessed_on": "2026-10-06",
+      "evidence": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
+      "section": "Finland law row; Finlex 2023/104 and 2023/179.",
+      "source_type": "other_unverified"
     }
   },
   "domains": {
@@ -382,6 +389,17 @@
             "source-4a480a3a1aaa050131a0323d"
           ],
           "id": "monitoring-50ae788f0c0b7713560f0ea9"
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
+          "status": "unverified_source",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing. Independent source-language review has not been performed; required before publication.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-cc5e0b57ebdf5ac049bfcdc9"
+          ],
+          "id": "monitoring-96b93fe30caa159f9f788282"
         }
       ],
       "questions": [
@@ -390,7 +408,8 @@
         "Follow-up: Finland / forms — inspect login requirements and form controls without submission; current retrieval returned empty shells. Official instructions verify purpose, not end-to-end operation.",
         "Follow-up: Finland / law and information modes — retrieve full consolidated texts; check sector implementing instruments, authority-on-request provisions and any permitted terms/public-on-request alternatives. Current extraction incomplete.",
         "Before PR: Resolved by wording correction and isolated recheck: 112 (answering and accessibility); Exemptions (invoking derogation grounds). No unresolved new assertion retained. Subsequent user instruction standardizes the final label as Exemptions:; explanation retained only in research.",
-        "Before merge: None identified beyond ordinary maintainer evidence/diff review."
+        "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
+        "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing."
       ]
     },
     "sanctions": {
@@ -774,6 +793,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-finland",
+      "country": "Finland",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
+      "next_action": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+          "next_action": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }
