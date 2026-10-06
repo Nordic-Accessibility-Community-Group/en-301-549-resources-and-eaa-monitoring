@@ -264,6 +264,20 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-3185f3815ee892e6e5d8ca6b": {
+      "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
+      "accessed_on": "2026-10-06",
+      "evidence": "IAA publishes an EAA-specific airline accessibility complaint/query page. The page invites concerns about airlines not meeting EAA obligations. Embedded form usability was not verified.",
+      "section": "How to submit a concern about airlines’ accessibility? Browser showed performance-cookie requirement; selecting its cookie switch timed out. No submission attempted.",
+      "source_type": "monitoring_body"
+    },
+    "source-2b46b79bc4596a42835de2f8": {
+      "url": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
+      "accessed_on": "2026-10-06",
+      "source_type": "monitoring_body",
+      "section": "Embedded Airline Accessibility Query & Complaint Form",
+      "evidence": "Fresh browser check for requested publication: enabling Performance Cookies displayed the embedded form with Full Name, Email Address, Phone Number, nature of request and Next controls. No login required to view. No personal data entered or form submitted; later steps not tested. Outer official page expressly invites EAA airline concerns. Form body English; Microsoft interface controls localized to Swedish in this browser."
     }
   },
   "domains": {
@@ -669,6 +683,25 @@
             "source-f28687f55f2a33efa343cf17"
           ],
           "id": "monitoring-406fab448c9b6810f0c9274d"
+        },
+        {
+          "field": "public_reporting",
+          "assertion": "IAA provides a public airline accessibility complaint and query form for EAA concerns. Performance cookies are required to display it; company non-compliance and exemption routes remain unknown.",
+          "status": "verified",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Consider linking the official complaint instructions for air transport with the cookie/access limitation; retain company non-compliance and exemption channels as Unknown. Independent source-language review has not been performed; required before publication. Publication follow-up on 6 October 2026 resolved the embedded-control visibility blocker; form was observed without submitting. Final source-to-wording review by /root/source_fidelity, fork_turns=none, 2026-10-06: Supported after corrections; exact wording and review limits in ../intakes/gerling-public-review-2026-10-06.json. Earlier unreviewed note records the initial comparison stage.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-3185f3815ee892e6e5d8ca6b",
+            "source-2b46b79bc4596a42835de2f8"
+          ],
+          "id": "monitoring-4e9509f71ff573bfe7d8f786",
+          "reporting_route": {
+            "authority": "Irish Aviation Authority",
+            "sector": "Air passenger digital accessibility",
+            "channel": "form",
+            "destination": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
+            "eaa_specific": true
+          }
         }
       ],
       "questions": [
@@ -681,7 +714,8 @@
         "Follow-up: NTA public complaint and exemption routes remain unverified after rereading its EAA page.",
         "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
         "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown.",
-        "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete."
+        "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete.",
+        "IAA route visible on 6 October 2026 after performance-cookie consent; submission and later steps untested. Company reporting remains unknown."
       ]
     },
     "sanctions": {
@@ -1129,6 +1163,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-ireland",
+      "country": "Ireland",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "IAA publishes an EAA-specific airline accessibility complaint/query page. The page invites concerns about airlines not meeting EAA obligations. Embedded form usability was not verified.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

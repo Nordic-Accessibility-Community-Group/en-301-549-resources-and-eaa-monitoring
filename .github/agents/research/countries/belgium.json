@@ -106,6 +106,13 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-3c7cadd65a0aef39df72f633": {
+      "url": "https://ninagerling.de/en/eaa-market-surveillance-authorities-of-eu-countries.html",
+      "accessed_on": "2026-10-06",
+      "evidence": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
+      "section": "Belgium note; decree reader access failed once. Existing repo cites federal authority roster.",
+      "source_type": "other_unverified"
     }
   },
   "domains": {
@@ -474,6 +481,17 @@
           "review_note": "Contributor attachment EAA enforcement in Belgium.eml, Inter reply 16 February 2026, inspected 2026-09-24. Describes limited knowledge/current experience and suggests Unia as further contact. Its broad reference to most other covered services must not expand Economic Inspection remit: primary reply expressly restricts answers to banking/e-commerce. Not evidence of exhaustive absence of statistics or that Unia is the EAA monitoring authority. Raw emails and personal contact details not published.",
           "source_refs": [],
           "id": "monitoring-9c9c8c67178175f534e4b482"
+        },
+        {
+          "field": "authority",
+          "assertion": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
+          "status": "unverified_source",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry. Independent source-language review has not been performed; required before publication.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-3c7cadd65a0aef39df72f633"
+          ],
+          "id": "monitoring-b44d48c841a6127608229259"
         }
       ],
       "questions": [
@@ -486,7 +504,8 @@
         "Before merge: Ordinary maintainer evidence/diff review; no additional manual accuracy gate identified for narrowed additions.",
         "Run scope: merged main a288041bbd7665d61056d447bcd929110fff3add includes merged Austria PR17 via PR16. One-country rollout; no workflows/events date script changed. Research/verification limited to ten minutes; unsuccessful access/search attempts not extended.",
         "Research cutoff: substantive research and two-pass evidence review stopped at approximately seven minutes; required isolated language recheck completed within the ten-minute shared budget. Publication/validation continue without further country research. Unknown does not mean absent. No full-country-verification claim.",
-        "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered."
+        "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered.",
+        "2026-10-06 source comparison: Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry."
       ]
     },
     "sanctions": {
@@ -723,6 +742,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-belgium",
+      "country": "Belgium",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
+      "next_action": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+          "next_action": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

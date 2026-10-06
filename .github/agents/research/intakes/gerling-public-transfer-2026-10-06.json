@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-06",
+  "source_pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/83",
+  "source_main": "f5fe9a3010e4e3eb5142a5fb0d861a52831ae4f5",
+  "public_base": "71a2216289a3c8208cbf1f6ce4b947a60a04810c",
+  "scope": "Transfer merged testing PR83 only; three monitoring rows and eight country research records. Keep public markup and unrelated content. No overlap with Australia/Canada/UK public PR77 content. Shared routing and language audit merged from live baseline.",
+  "wording_review": "Public additions exactly preserve the isolated source-fidelity-reviewed wording from testing. No new legal research or translation. Historical testing review preserved.",
+  "public_file_sha256": "0b0cfc3d3c4095aac26687a0c2f8246d2d4ee838066c3a4c9c4383f20bcf8c91",
+  "limits": [
+    "Latvian transfer is future-dated; PTAC keeps specified unfinished cases.",
+    "German company/public reporting routes and 112 remain Unknown.",
+    "Irish form observed after performance-cookie consent; no submission; company routes remain Unknown.",
+    "Research-only findings remain unpublished as facts."
+  ],
+  "validation": {
+    "link_languages": "PASS full live-page audit (576 links).",
+    "country_records": "Country schema/evidence/routing stage passed; downstream enforcement public-map mismatch fails identically on untouched live main.",
+    "public_scope": "PASS only Germany, Ireland, Latvia rows changed; five live table cells preserved.",
+    "review": "Testing wording preserved verbatim; no new source-fidelity review needed for unchanged wording."
+  }
+}

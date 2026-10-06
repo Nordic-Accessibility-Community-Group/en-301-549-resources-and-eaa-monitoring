@@ -200,6 +200,13 @@
       "source_type": "legislation",
       "section": "§ 1(2)–(3)",
       "evidence": "Audiovisual terminal equipment is a product under §1(2). The §1(3) service list covers telecommunications, specified passenger-transport elements, consumer banking, e-books/software and e-commerce. It does not establish audiovisual-access-service or 112-answering authority or routes."
+    },
+    "source-cbf563e148a884dae7db3b0c": {
+      "url": "https://www.die-medienanstalten.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Medienstaatsvertrag_MStV.pdf",
+      "accessed_on": "2026-10-06",
+      "evidence": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
+      "section": "Sections 99a–99e and 109(6), PDF pages 89–91 and 101; authority-hosted consolidated text.",
+      "source_type": "legislation"
     }
   },
   "domains": {
@@ -442,6 +449,17 @@
             "source-de825ebd27c7212d40763722"
           ],
           "id": "monitoring-30b09c931e2751925f9ce0c3"
+        },
+        {
+          "field": "authority",
+          "assertion": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
+          "status": "verified",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Replace audiovisual-access authority Unknown with competent state media authority and add MStV legal basis. Specific reporting forms and the separate TKG/112 allocation still need verification. Independent source-language review has not been performed; required before publication. Final source-to-wording review by /root/source_fidelity, fork_turns=none, 2026-10-06: Supported after corrections; exact wording and review limits in ../intakes/gerling-public-review-2026-10-06.json. Earlier unreviewed note records the initial comparison stage.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-cbf563e148a884dae7db3b0c"
+          ],
+          "id": "monitoring-11bd62592d41162333f51e8e"
         }
       ],
       "questions": [
@@ -454,7 +472,8 @@
         "Coverage: MLBF is the single current nationwide BFSG market-surveillance body presented by official sources across covered products and services; no additional sector authority established in this bounded run.",
         "Baseline: France PR #23 verified merged directly into main at 85a430fea9698ceadc8f47dd1359b2af2d65d4ce. No open PR, Germany record or pending Germany branch existed at start.",
         "Budget: bounded research and verification run on 2026-09-24; no forms submitted, accounts created or messages sent.",
-        "27 September 2026 strategy intake: official MLBF product/service strategies added to shared evidence pool; see enforcement knowledge_notes. Existing authority and reporting routes remain supported; no new route or authority designation established. Retain strategy as research context, with public activity detail routed to enforcement tracking."
+        "27 September 2026 strategy intake: official MLBF product/service strategies added to shared evidence pool; see enforcement knowledge_notes. Existing authority and reporting routes remain supported; no new route or authority designation established. Retain strategy as research context, with public activity detail routed to enforcement tracking.",
+        "2026-10-06 source comparison: Replace audiovisual-access authority Unknown with competent state media authority and add MStV legal basis. Specific reporting forms and the separate TKG/112 allocation still need verification."
       ]
     },
     "sanctions": {
@@ -998,6 +1017,52 @@
           "reason": "User requests retaining BIK as a clearly labelled standpoint, not a civil action.",
           "next_action": "Review separate Testing organisation standpoints section.",
           "pr": null
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-germany",
+      "country": "Germany",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "MStV supplies a separate audiovisual legal framework; review its sanction provisions in a further scoped pass. No amounts verified here.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

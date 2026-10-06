@@ -1813,6 +1813,13 @@
       "accessed_on": "2026-09-30",
       "section": "När ska ni rapportera; Var regleras detta?",
       "evidence": "Service providers report immediately under section24 of Act2023:254. PTS considers reporting within14days after noticing a defect sufficient. This is PTS guidance, not a universal product-reporting deadline."
+    },
+    "source-713a4adbf42eead5ab023f30": {
+      "url": "https://ninagerling.de/en/eaa-national-laws-in-eu-countries.html",
+      "accessed_on": "2026-10-06",
+      "evidence": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
+      "section": "Sweden law row; https://svenskforfattningssamling.se/sites/default/files/sfs/2023-11/SFS2023-676.pdf",
+      "source_type": "other_unverified"
     }
   },
   "domains": {
@@ -2320,6 +2327,17 @@
           "source_refs": [
             "source-999bdb29e91dfb38c89b36fd"
           ]
+        },
+        {
+          "field": "additional_information",
+          "assertion": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
+          "status": "unverified_source",
+          "review_note": "Cross-reference of both Nina Gerling October 2026 lists against testing main 156b7c974e32839d6f2a4bae81d690991700f416; no open PRs returned on 6 October. Research only; public wording and prior claims preserved. Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified. Independent source-language review has not been performed; required before publication.",
+          "directive_context": "EAA",
+          "source_refs": [
+            "source-713a4adbf42eead5ab023f30"
+          ],
+          "id": "monitoring-ca55ebbcb9c62d4e571a7855"
         }
       ],
       "questions": [
@@ -2333,7 +2351,8 @@
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
         "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven.",
         "Cross-page handoff 2026-09-25 / seed-discovery-2-2026-09-25: PTS proposed allowing Swedish or English information in product market-surveillance cases, with entry into force planned for October 2026; this announcement does not establish final adoption. Find final adopted PTSFS text and effective date. Do not revise historical service-reporting language evidence based on a product proposal. Source lead: https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion.",
-        "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred."
+        "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred.",
+        "2026-10-06 source comparison: Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified."
       ]
     },
     "sanctions": {
@@ -3209,6 +3228,52 @@
           "reason": "No change authorised to statistics or sanctions.",
           "next_action": "None.",
           "pr": null
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-sweden",
+      "country": "Sweden",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
+      "next_action": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+          "next_action": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     }

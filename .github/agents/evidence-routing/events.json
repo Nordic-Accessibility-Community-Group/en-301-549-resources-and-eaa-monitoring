@@ -296,6 +296,52 @@
       ]
     },
     {
+      "id": "gerling-comparison-20261006-austria",
+      "country": "Austria",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
+      "next_action": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+          "next_action": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/austria.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-031",
       "country": "Azerbaijan",
       "destinations": [
@@ -455,6 +501,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-belgium",
+      "country": "Belgium",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
+      "next_action": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+          "next_action": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     },
@@ -1402,6 +1494,52 @@
       ]
     },
     {
+      "id": "gerling-comparison-20261006-finland",
+      "country": "Finland",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
+      "next_action": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+          "next_action": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/finland.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        }
+      ]
+    },
+    {
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
@@ -1713,6 +1851,52 @@
       ]
     },
     {
+      "id": "gerling-comparison-20261006-germany",
+      "country": "Germany",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "MStV supplies a separate audiovisual legal framework; review its sanction provisions in a further scoped pass. No amounts verified here.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/germany.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-ghana",
       "country": "Ghana",
       "destinations": [
@@ -1793,6 +1977,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-greece",
+      "country": "Greece",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling identifies Law 5218/2025 as an amendment of Law 4994/2022; this amendment is not explicitly recorded in the reviewed country research.",
+      "next_action": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/greece.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
+          "next_action": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/greece.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/greece.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/greece.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     },
@@ -2254,6 +2484,52 @@
       ]
     },
     {
+      "id": "gerling-comparison-20261006-ireland",
+      "country": "Ireland",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "IAA publishes an EAA-specific airline accessibility complaint/query page. The page invites concerns about airlines not meeting EAA obligations. Embedded form usability was not verified.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        }
+      ]
+    },
+    {
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
@@ -2707,6 +2983,52 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-latvia",
+      "country": "Latvia",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
+      "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
+          "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/latvia.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     },
@@ -4096,6 +4418,52 @@
           "reason": "No change authorised to statistics or sanctions.",
           "next_action": "None.",
           "pr": null
+        }
+      ]
+    },
+    {
+      "id": "gerling-comparison-20261006-sweden",
+      "country": "Sweden",
+      "recorded_on": "2026-10-06",
+      "status": "needs_evidence",
+      "reason": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
+      "next_action": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+      "destinations": [
+        {
+          "page": "monitoring-agencies-information.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+          "next_action": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
+          "pr": 83
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
+          "next_action": "Retain existing public entry; follow up only within separately scoped research.",
+          "pr": 83
         }
       ]
     },
