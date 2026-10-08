@@ -4558,6 +4558,1707 @@
       "language": "en",
       "reason": "Official English landing page and form body read; embedded Microsoft interface localized to browser language.",
       "checked_on": "2026-10-06"
+    },
+    {
+      "url": "https://www.2uassistans.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.2uassistans.se/",
+      "outcome": "html_retrieved",
+      "title": "2U Assistans AB"
+    },
+    {
+      "url": "https://www.aa.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.aa.se/",
+      "outcome": "html_retrieved",
+      "title": "Har du problem med alkohol? Här hittar du information och hjälp - AA | Anonyma Alkoholister"
+    },
+    {
+      "url": "https://www.alebyggen.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.alebyggen.se/",
+      "outcome": "html_retrieved",
+      "title": "Start | Alebyggen - Vi skapar hemlängtan"
+    },
+    {
+      "url": "https://aleel.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://aleel.se/",
+      "outcome": "html_retrieved",
+      "title": "Ale El"
+    },
+    {
+      "url": "https://www.alingsasenergi.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.alingsasenergi.se/",
+      "outcome": "html_retrieved",
+      "title": "Startsida - Alingsås energi"
+    },
+    {
+      "url": "https://www.arenadannero.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.arenadannero.se/",
+      "outcome": "unresolved",
+      "title": "Dannero"
+    },
+    {
+      "url": "https://arendalsfysikalske.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://arendalsfysikalske.no/",
+      "outcome": "html_retrieved",
+      "title": "Forsiden | Arendals Fysikalske Institutt"
+    },
+    {
+      "url": "https://www.arjangstravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.arjangstravet.se/",
+      "outcome": "unresolved",
+      "title": "Årjängstravet"
+    },
+    {
+      "url": "https://www.arvikatravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.arvikatravet.se/",
+      "outcome": "unresolved",
+      "title": "Arvika"
+    },
+    {
+      "url": "https://www.assistansexperten.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.assistansexperten.se/",
+      "outcome": "unresolved",
+      "title": "The website is currently not available"
+    },
+    {
+      "url": "https://www.axevalla.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.axevalla.se/",
+      "outcome": "unresolved",
+      "title": "Axevalla"
+    },
+    {
+      "url": "https://ballbreaker.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ballbreaker.se/",
+      "outcome": "html_retrieved",
+      "title": "Ballbreaker - Stockholms bästa och roligaste aktivitetsrestaurang!"
+    },
+    {
+      "url": "https://www.ballingslov.dk/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.ballingslov.dk/",
+      "outcome": "unresolved",
+      "title": "Ballingslöv - køkken, badeværelse og opbevaring"
+    },
+    {
+      "url": "https://www.ballingslov.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.ballingslov.se/",
+      "outcome": "unresolved",
+      "title": "Ballingslöv - kök, badrum och förvaring"
+    },
+    {
+      "url": "https://barnrattsbyran.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://barnrattsbyran.se/",
+      "outcome": "html_retrieved",
+      "title": "Barnrättsbyran - Vi står på din sida!"
+    },
+    {
+      "url": "https://www.beijerbygg.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.beijerbygg.se/privat",
+      "outcome": "html_retrieved",
+      "title": "Välkommen till Beijer | Beijer Byggmaterial"
+    },
+    {
+      "url": "https://www.bergsaker.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bergsaker.com/",
+      "outcome": "unresolved",
+      "title": "Bergsåker"
+    },
+    {
+      "url": "https://bermudashuffle.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://bermudashuffle.se/",
+      "outcome": "html_retrieved",
+      "title": "Bermuda"
+    },
+    {
+      "url": "https://www.bestdrive.no/",
+      "language": "no-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bestdrive.no/",
+      "outcome": "html_retrieved",
+      "title": "BestDrive by Continental"
+    },
+    {
+      "url": "https://www.bestel.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bestel.se/",
+      "outcome": "html_retrieved",
+      "title": "BestEl – Din personliga elleverantör!"
+    },
+    {
+      "url": "https://www.bga.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bga.se/",
+      "outcome": "html_retrieved",
+      "title": "Stilsäker inredning i Skandinavisk design - BGA.SE"
+    },
+    {
+      "url": "https://www.bjerke-energi.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bjerke-energi.se/",
+      "outcome": "html_retrieved",
+      "title": "Bjärke Energi – Medlemsägd infrastruktur!"
+    },
+    {
+      "url": "https://www.bollnasbostader.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bollnasbostader.se/",
+      "outcome": "html_retrieved",
+      "title": "Bollnäs Bostäder"
+    },
+    {
+      "url": "https://www.bollnastravet.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bollnastravet.com/",
+      "outcome": "unresolved",
+      "title": "Bollnästravet"
+    },
+    {
+      "url": "https://boras-ink.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://boras-ink.se/",
+      "outcome": "html_retrieved",
+      "title": "Affärsutveckling för entreprenörer med innovativa idéer - Borås INK"
+    },
+    {
+      "url": "https://brackediakoni.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://brackediakoni.se/",
+      "outcome": "html_retrieved",
+      "title": "Bräcke diakoni | Idéburen vård, stöd och omsorg"
+    },
+    {
+      "url": "https://www.bravissimo.se/",
+      "language": "sv-se",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.bravissimo.se/",
+      "outcome": "html_retrieved",
+      "title": "Bravissimo Agency - Vi hjälper er att växa digitalt"
+    },
+    {
+      "url": "https://brorhjorthshus.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://brorhjorthshus.se/",
+      "outcome": "html_retrieved",
+      "title": "Bror Hjorths Hus"
+    },
+    {
+      "url": "https://bygghandel.npn.se/",
+      "language": "sv",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://bygghandel.npn.se/",
+      "outcome": "html_retrieved",
+      "title": "Ditt kompletta val av byggmaterial, verktyg och service. | NP Nilsson"
+    },
+    {
+      "url": "https://cado.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://cado.se/",
+      "outcome": "unresolved",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://chalmersventures.com/",
+      "language": "en",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://chalmersventures.com/",
+      "outcome": "html_retrieved",
+      "title": "- Chalmers Ventures | Tech Investor and Venture Builder"
+    },
+    {
+      "url": "https://delete-it.no/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 0; curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above..",
+      "checked_on": "2026-10-07",
+      "final_url": "https://delete-it.no/",
+      "outcome": "unresolved",
+      "title": ""
+    },
+    {
+      "url": "https://designtorget.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://designtorget.se/",
+      "outcome": "html_retrieved",
+      "title": "Designtorget.se | Handla inredning, presenter & utvald design online"
+    },
+    {
+      "url": "https://drm-lnd.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://drm-lnd.com/se",
+      "outcome": "html_retrieved",
+      "title": "DRM-LND | Designa unika accessoarer som speglar din stil"
+    },
+    {
+      "url": "https://dvtassistans.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://dvtassistans.se/",
+      "outcome": "unresolved",
+      "title": "The website is currently not available"
+    },
+    {
+      "url": "https://www.efvaattling.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.efvaattling.com/",
+      "outcome": "unresolved",
+      "title": "Efva Attling’s Exclusive Jewellery Store | Official Online Shop"
+    },
+    {
+      "url": "https://eksta.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://eksta.se/",
+      "outcome": "html_retrieved",
+      "title": "Eksta"
+    },
+    {
+      "url": "https://www.elitloppet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.elitloppet.se/",
+      "outcome": "unresolved",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.epictravelgear.com/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.epictravelgear.com/",
+      "outcome": "html_retrieved",
+      "title": "Epic Travel Gear - EPIC Travelgear"
+    },
+    {
+      "url": "https://www.ergo.dk/",
+      "language": "da",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.ergo.dk/",
+      "outcome": "html_retrieved",
+      "title": "ERGO DK"
+    },
+    {
+      "url": "https://www.erv.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.erv.se/privat/",
+      "outcome": "html_retrieved",
+      "title": "Reseförsäkring för privatpersoner | Europeiska ERV"
+    },
+    {
+      "url": "https://www.faxeholmen.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 466; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.faxeholmen.se/",
+      "outcome": "unresolved",
+      "title": "Access Forbidden"
+    },
+    {
+      "url": "https://www.flottsbro.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 455; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.flottsbro.se/",
+      "outcome": "unresolved",
+      "title": "455 Security Incident Detected"
+    },
+    {
+      "url": "https://www.fmfassistans.se/",
+      "language": "sv",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.fmfassistans.se/",
+      "outcome": "html_retrieved",
+      "title": "HEM - FMF Assistans - Vi tar ansvar hela vägen"
+    },
+    {
+      "url": "https://www.foie.no/",
+      "language": "no",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.foie.no/",
+      "outcome": "html_retrieved",
+      "title": "Føie"
+    },
+    {
+      "url": "https://freequent.dk/",
+      "language": "da",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://freequent.dk/",
+      "outcome": "html_retrieved",
+      "title": "Officiel FREEQUENT shop → Se sæsonens nyeste trends her!"
+    },
+    {
+      "url": "https://www.freyshotels.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.freyshotels.com/",
+      "outcome": "html_retrieved",
+      "title": "Freys Hotels | Hotell & Konferens Stockholm | Boka här"
+    },
+    {
+      "url": "https://www.ftrav.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.ftrav.se/",
+      "outcome": "unresolved",
+      "title": "Färjestad"
+    },
+    {
+      "url": "https://furubodaassistans.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://furubodaassistans.se/",
+      "outcome": "html_retrieved",
+      "title": "Furuboda Assistans | Hos oss får du vara den du är"
+    },
+    {
+      "url": "https://www.gardsservice.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.gardsservice.se/",
+      "outcome": "html_retrieved",
+      "title": "Lantbruksprodukter f�r hela lantbruket | G�rdsservice"
+    },
+    {
+      "url": "https://www.gavletravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.gavletravet.se/",
+      "outcome": "unresolved",
+      "title": "Gävle"
+    },
+    {
+      "url": "https://getonnet.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://getonnet.no/",
+      "outcome": "html_retrieved",
+      "title": "GetOnNet - Et utviklingsselskap som bidrar til resultater"
+    },
+    {
+      "url": "https://www.gotain.com/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.gotain.com/",
+      "outcome": "html_retrieved",
+      "title": "Måttbeställda gardiner för alla rum  | Gotain"
+    },
+    {
+      "url": "https://gotenehus.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://gotenehus.se/",
+      "outcome": "html_retrieved",
+      "title": "Götenehus - Hem för hela livet med inbyggd omtanke"
+    },
+    {
+      "url": "https://graningeshoes.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://graningeshoes.com/",
+      "outcome": "html_retrieved",
+      "title": "Graninge - stövlar, skor och kängor för alla friluftsäventyr"
+    },
+    {
+      "url": "https://www.hagmyren.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.hagmyren.se/",
+      "outcome": "unresolved",
+      "title": "Arena Hagmyren"
+    },
+    {
+      "url": "https://hallandskonstmuseum.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://hallandskonstmuseum.se/",
+      "outcome": "html_retrieved",
+      "title": "Hallands Konstmuseum - konstupplevelser i centrala Halmstad"
+    },
+    {
+      "url": "https://www.halmstadtravet.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.halmstadtravet.com/",
+      "outcome": "unresolved",
+      "title": "Halmstadtravet"
+    },
+    {
+      "url": "https://hastahome.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://hastahome.se/",
+      "outcome": "html_retrieved",
+      "title": "hastahome"
+    },
+    {
+      "url": "https://www.hebafast.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.hebafast.se/",
+      "outcome": "html_retrieved",
+      "title": "Välkommen till Heba Fastighets AB (publ) - Heba Fastighets AB"
+    },
+    {
+      "url": "https://hedemarken.steinerskolen.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://hedemarken.steinerskolen.no/",
+      "outcome": "html_retrieved",
+      "title": "Steinerskolen på Hedemarken"
+    },
+    {
+      "url": "https://www.helsinkimint.fi/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.helsinkimint.fi/",
+      "outcome": "unresolved",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.helsinkimint.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.helsinkimint.se/",
+      "outcome": "unresolved",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.herjedalen.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.herjedalen.se/",
+      "outcome": "html_retrieved",
+      "title": "Härjedalens kommun - Härjedalens kommun"
+    },
+    {
+      "url": "http://hia.dk/",
+      "language": "en-US",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.hia.dk/",
+      "outcome": "html_retrieved",
+      "title": "Health Innovation Aarhus"
+    },
+    {
+      "url": "https://www.holebrook.com/",
+      "language": "en",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.holebrook.com/",
+      "outcome": "html_retrieved",
+      "title": "locale - Holebrook"
+    },
+    {
+      "url": "https://www.gladahudikhem.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.gladahudikhem.se/",
+      "outcome": "html_retrieved",
+      "title": "Välkommen till Glada Hudikhem - Glada Hudikhem AB"
+    },
+    {
+      "url": "https://www.humantouch.nu/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 0; curl: (7) Failed to connect to www.humantouch.nu port 443 after 56 ms: Couldn't connect to server.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.humantouch.nu/",
+      "outcome": "unresolved",
+      "title": ""
+    },
+    {
+      "url": "https://humblegroup.com/",
+      "language": "en-US",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://humblegroup.com/",
+      "outcome": "html_retrieved",
+      "title": "Home - Humble Group"
+    },
+    {
+      "url": "https://www.husf.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.husf.se/",
+      "outcome": "html_retrieved",
+      "title": "| Huddinge Samhällsfastigheter"
+    },
+    {
+      "url": "https://hydroscand.dk/",
+      "language": "da",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://hydroscand.dk/",
+      "outcome": "html_retrieved",
+      "title": "Home | Hydroscand Danmark"
+    },
+    {
+      "url": "https://hydroscand.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://hydroscand.se/sv-se/",
+      "outcome": "html_retrieved",
+      "title": "Slangar och kopplingar för hydraulik och industri"
+    },
+    {
+      "url": "https://ideon.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 455; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ideon.se/",
+      "outcome": "unresolved",
+      "title": "455 Security Incident Detected"
+    },
+    {
+      "url": "https://ilvesshoes.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ilvesshoes.com/",
+      "outcome": "html_retrieved",
+      "title": "Ilves kängor med utfällbara broddar ger ett bra grepp på hala vägar"
+    },
+    {
+      "url": "https://www.innebandy.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.innebandy.se/",
+      "outcome": "html_retrieved",
+      "title": "Svenska IBF"
+    },
+    {
+      "url": "https://www.irishjalpmedel.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.irishjalpmedel.se/",
+      "outcome": "html_retrieved",
+      "title": "Iris Hjälpmedel – din webbshop för synhjälpmedel"
+    },
+    {
+      "url": "https://www.italfarmaco.no/",
+      "language": "nb",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.italfarmaco.no/",
+      "outcome": "html_retrieved",
+      "title": "Italfarmaco SpA | For en bedre medisin"
+    },
+    {
+      "url": "https://ivakonferens.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ivakonferens.se/",
+      "outcome": "html_retrieved",
+      "title": "Möte & konferens mitt i Stockholm | IVA Konferenscenter"
+    },
+    {
+      "url": "https://www.jabo.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.jabo.se/",
+      "outcome": "html_retrieved",
+      "title": "JABO"
+    },
+    {
+      "url": "https://jag.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://jag.se/",
+      "outcome": "html_retrieved",
+      "title": "Organisationen JAG"
+    },
+    {
+      "url": "https://jagareforbundet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://jagareforbundet.se/",
+      "outcome": "unresolved",
+      "title": "Svenska Jägareförbundets webbplats"
+    },
+    {
+      "url": "https://www.jagersro.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.jagersro.se/",
+      "outcome": "unresolved",
+      "title": "Jägersro"
+    },
+    {
+      "url": "https://www.kalix.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.kalix.se/",
+      "outcome": "html_retrieved",
+      "title": "Startsidan för kalix.se"
+    },
+    {
+      "url": "https://www.kalixfolketshus.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.kalixfolketshus.se/",
+      "outcome": "html_retrieved",
+      "title": "Folkets Hus | Kalix | Kultur, Konferens, Evenemang"
+    },
+    {
+      "url": "https://karlskronahem.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://karlskronahem.se/",
+      "outcome": "html_retrieved",
+      "title": "Karlskronahem"
+    },
+    {
+      "url": "https://www.kinnarps.dk/",
+      "language": "da",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.kinnarps.dk/",
+      "outcome": "html_retrieved",
+      "title": "Kinnarps | Kontorindretning der opfylder dine behov"
+    },
+    {
+      "url": "https://www.kinnarps.no/",
+      "language": "no",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.kinnarps.no/",
+      "outcome": "html_retrieved",
+      "title": "Kinnarps: Svenskproduserte kontormøbler i over 80 år"
+    },
+    {
+      "url": "https://www.kinnarps.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.kinnarps.se/",
+      "outcome": "html_retrieved",
+      "title": "Kinnarps: Svensktillverkade kontorsmöbler sedan 1942"
+    },
+    {
+      "url": "https://kinnekulleenergi.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://kinnekulleenergi.se/",
+      "outcome": "unresolved",
+      "title": "Kinnekulle Energi - Säker, effektiv och hållbar energi för vår framtids skull!"
+    },
+    {
+      "url": "https://lappica.fi/en/accessibility-statement/",
+      "language": "en-GB",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://lappica.fi/en/accessibility-statement/",
+      "outcome": "html_retrieved",
+      "title": "Accessibility Statement - Lappica"
+    },
+    {
+      "url": "https://www.lindetrav.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.lindetrav.se/",
+      "outcome": "unresolved",
+      "title": "Fornaboda"
+    },
+    {
+      "url": "https://livelo.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://livelo.com/",
+      "outcome": "html_retrieved",
+      "title": "Livelo Bikes | Upptäck din cykel idag"
+    },
+    {
+      "url": "https://www.lrf.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.lrf.se/",
+      "outcome": "html_retrieved",
+      "title": "LRF - Lantbrukarnas Riksförbund"
+    },
+    {
+      "url": "https://www.lyckseletravet.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.lyckseletravet.com/",
+      "outcome": "unresolved",
+      "title": "Lyckseletravet"
+    },
+    {
+      "url": "https://www.mambaby.com/",
+      "language": "en",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.mambaby.com/",
+      "outcome": "html_retrieved",
+      "title": "MAM Baby: pacifiers, baby bottles, sippy cups & more"
+    },
+    {
+      "url": "https://www.mantorphastsportarena.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.mantorphastsportarena.se/",
+      "outcome": "unresolved",
+      "title": "Mantorp Hästsportarena"
+    },
+    {
+      "url": "https://www.mazda.dk/",
+      "language": "da-DK",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.mazda.dk/",
+      "outcome": "html_retrieved",
+      "title": "Udforsk vores stilfulde og prisbelønnede biler | Mazda Danmark"
+    },
+    {
+      "url": "https://www.mazda.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.mazda.no/",
+      "outcome": "html_retrieved",
+      "title": "Mazda Norge | Opplev våre ulike biler. Kjøreglede for enhver."
+    },
+    {
+      "url": "https://www.mazda.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.mazda.se/",
+      "outcome": "html_retrieved",
+      "title": "Mazda Sverige | Utforska våra snygga, avancerade, prisbelönta bilar."
+    },
+    {
+      "url": "https://minprilla.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://minprilla.se/",
+      "outcome": "html_retrieved",
+      "title": "Billigt Snus - Handla Snus Online - Snabb Leverans - 1200 produkter"
+    },
+    {
+      "url": "https://www.molnetassistans.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.molnetassistans.se/",
+      "outcome": "unresolved",
+      "title": "The website is currently not available"
+    },
+    {
+      "url": "https://njudung.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://njudung.se/",
+      "outcome": "html_retrieved",
+      "title": "Njudung Energi – Tillsammans skapar vi en hållbar framtid!"
+    },
+    {
+      "url": "https://nomestiftelsen.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://nomestiftelsen.no/",
+      "outcome": "html_retrieved",
+      "title": "Sparebankstiftelsen Nome - Sammen bygger vi et sterkere lokalsamfunn"
+    },
+    {
+      "url": "https://www.novasis.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.novasis.se/",
+      "outcome": "html_retrieved",
+      "title": "Novasis | Personlig assistans av högsta kvalitet"
+    },
+    {
+      "url": "https://ockerofast.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ockerofast.se/",
+      "outcome": "html_retrieved",
+      "title": "Öckerö Fastigheter - Öckerö Fastighets AB"
+    },
+    {
+      "url": "https://olovlindgren.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://olovlindgren.se/",
+      "outcome": "html_retrieved",
+      "title": "Start | Olov Lindgren"
+    },
+    {
+      "url": "https://www.orebrotravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.orebrotravet.se/",
+      "outcome": "unresolved",
+      "title": "Örebro"
+    },
+    {
+      "url": "https://originalmindsapparel.com/",
+      "language": "en",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://originalmindsapparel.com/password",
+      "outcome": "html_retrieved",
+      "title": "Original Minds"
+    },
+    {
+      "url": "https://www.osterlenskraft.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.osterlenskraft.se/",
+      "outcome": "html_retrieved",
+      "title": "Hem - Österlens Kraft"
+    },
+    {
+      "url": "https://www.ostersundstravet.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.ostersundstravet.com/",
+      "outcome": "unresolved",
+      "title": "Östersund"
+    },
+    {
+      "url": "https://www.overkalixbostader.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.overkalixbostader.se/",
+      "outcome": "html_retrieved",
+      "title": "Hem - Överkalixbostäder"
+    },
+    {
+      "url": "https://www.parfym.se/",
+      "language": "sv-se",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.parfym.se/",
+      "outcome": "html_retrieved",
+      "title": "Parfym.se - Parfym Online sedan 2005"
+    },
+    {
+      "url": "https://parkeringboras.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://parkeringboras.se/",
+      "outcome": "html_retrieved",
+      "title": "Parkera i Borås – Besök, Elbil & P-hus - Borås Parkering"
+    },
+    {
+      "url": "https://pellevavare.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://pellevavare.se/",
+      "outcome": "html_retrieved",
+      "title": "Pellevävare - morgonrockar, handdukar & sängkläder sedan 1964"
+    },
+    {
+      "url": "https://personalpartner.no/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://personalpartner.no/",
+      "outcome": "unresolved",
+      "title": ""
+    },
+    {
+      "url": "https://www.pingst.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.pingst.se/",
+      "outcome": "html_retrieved",
+      "title": "Pingst Sverige"
+    },
+    {
+      "url": "https://www.pitebo.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.pitebo.se/",
+      "outcome": "html_retrieved",
+      "title": "Lediga lägenheter, lokaler och parkering i Piteå - PiteBo"
+    },
+    {
+      "url": "https://www.pixbo.se/",
+      "language": "sv",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.pixbo.se/",
+      "outcome": "html_retrieved",
+      "title": "Startsida - Pixbo | Pixbo Wallenstam"
+    },
+    {
+      "url": "https://www.radissonhotels.com/sv-se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.radissonhotels.com/sv-se/",
+      "outcome": "unresolved",
+      "title": "Access Restricted | Radisson Hotel Group"
+    },
+    {
+      "url": "https://www.rappfastigheter.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.rappfastigheter.se/",
+      "outcome": "html_retrieved",
+      "title": "Rapp Fastigheter"
+    },
+    {
+      "url": "https://www.rattvikstravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.rattvikstravet.se/",
+      "outcome": "unresolved",
+      "title": "Rättvik"
+    },
+    {
+      "url": "https://rehabgrossisten.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://rehabgrossisten.com/",
+      "outcome": "html_retrieved",
+      "title": "Rehabprodukter - Produkter för rehab & träning online"
+    },
+    {
+      "url": "https://ressel.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ressel.se/",
+      "outcome": "html_retrieved",
+      "title": "Ressel Rederi - Jobbpendel, nöjesresor & godstransporter"
+    },
+    {
+      "url": "https://www.riedel.com/en-se",
+      "language": "en-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.riedel.com/en-se",
+      "outcome": "html_retrieved",
+      "title": "RIEDEL Home | RIEDEL"
+    },
+    {
+      "url": "https://www.rommetravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.rommetravet.se/",
+      "outcome": "unresolved",
+      "title": "Romme"
+    },
+    {
+      "url": "https://www.sarnmark.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sarnmark.se/",
+      "outcome": "html_retrieved",
+      "title": "Assistansbolag — Personlig assistans | Särnmark.se"
+    },
+    {
+      "url": "https://scandinaviansafe.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://scandinaviansafe.se/",
+      "outcome": "html_retrieved",
+      "title": "Säkerhetsskåp - certifierade och godkända | Scandinavian Safe"
+    },
+    {
+      "url": "https://www.sibahuset.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sibahuset.se/",
+      "outcome": "html_retrieved",
+      "title": "Köpcentrum i Överby Trollhättan | SibaHuset shoppingcenter"
+    },
+    {
+      "url": "https://www.skellefteatravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.skellefteatravet.se/",
+      "outcome": "unresolved",
+      "title": "Skellefteåtravet"
+    },
+    {
+      "url": "https://sliceandserve.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://sliceandserve.se/",
+      "outcome": "html_retrieved",
+      "title": "Pingis och pizza i Malmö - Välkommen till SLiCE"
+    },
+    {
+      "url": "https://www.smeg.com/se",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.smeg.com/se",
+      "outcome": "html_retrieved",
+      "title": "Smeg | Italienska vitvaror och köksapparater i ikonisk design"
+    },
+    {
+      "url": "https://www.snuset.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.snuset.se/",
+      "outcome": "html_retrieved",
+      "title": "Snus online från 14,90 kr. Billigt och Fri frakt"
+    },
+    {
+      "url": "https://www.solangettrav.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.solangettrav.se/",
+      "outcome": "unresolved",
+      "title": "Solänget"
+    },
+    {
+      "url": "https://www.solvalla.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.solvalla.se/",
+      "outcome": "unresolved",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.sommarkalaset.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sommarkalaset.se/",
+      "outcome": "unresolved",
+      "title": "The website is currently not available"
+    },
+    {
+      "url": "https://sos-barnbyar.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://sos-barnbyar.se/",
+      "outcome": "html_retrieved",
+      "title": "Vi skapar en värld för barn | Bli SOS Supporter | SOS Barnbyar"
+    },
+    {
+      "url": "https://spes.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://spes.se/",
+      "outcome": "html_retrieved",
+      "title": "| Riksförbundet för Suicidprevention och Efterlevandestöd"
+    },
+    {
+      "url": "https://www.sportfiskarna.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sportfiskarna.se/",
+      "outcome": "html_retrieved",
+      "title": "Sveriges Sportfiske- och Fiskevårdsförbund - Sportfiskarna"
+    },
+    {
+      "url": "https://ssel.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://ssel.se/",
+      "outcome": "html_retrieved",
+      "title": "Elnätsleverantör | Sandhult-Sandareds Elektriska"
+    },
+    {
+      "url": "https://www.sssb.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sssb.se/",
+      "outcome": "html_retrieved",
+      "title": "Stockholms studentbostäder – Av, för, med studenter"
+    },
+    {
+      "url": "https://starbowling.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://starbowling.se/",
+      "outcome": "html_retrieved",
+      "title": "Star Bowling"
+    },
+    {
+      "url": "https://stenungsundsenergi.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://stenungsundsenergi.se/",
+      "outcome": "html_retrieved",
+      "title": "Stenungsunds Energi & Miljö - Fjärrvärme Stenungsund"
+    },
+    {
+      "url": "https://www.strangnasbostadsab.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 466; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.strangnasbostadsab.se/",
+      "outcome": "unresolved",
+      "title": "Access Forbidden"
+    },
+    {
+      "url": "https://www.sundbyholm.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.sundbyholm.com/",
+      "outcome": "unresolved",
+      "title": "Sundbyholm"
+    },
+    {
+      "url": "https://www.superlaering.no/",
+      "language": "nb",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.superlaering.no/",
+      "outcome": "html_retrieved",
+      "title": "Home"
+    },
+    {
+      "url": "https://superpark.fi/en/",
+      "language": "en-US",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://superpark.fi/en/",
+      "outcome": "html_retrieved",
+      "title": "SuperPark Finland - An exciting indoor activity park"
+    },
+    {
+      "url": "https://svancare.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://svancare.se/",
+      "outcome": "html_retrieved",
+      "title": "Startsida - Svancare"
+    },
+    {
+      "url": "https://svearedskap.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://svearedskap.se/",
+      "outcome": "html_retrieved",
+      "title": "Lucko"
+    },
+    {
+      "url": "https://www.svenskafonster.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.svenskafonster.se/",
+      "outcome": "html_retrieved",
+      "title": "Få ett hållbart hem med Svenska Fönsters högkvalitativa fönster"
+    },
+    {
+      "url": "https://www.svenskamoten.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.svenskamoten.se/",
+      "outcome": "html_retrieved",
+      "title": "Boka möten och konferenser i hela Sverige - Svenska Möten"
+    },
+    {
+      "url": "https://svenskbandy.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://svenskbandy.se/",
+      "outcome": "html_retrieved",
+      "title": "Svenska Bandyförbundet"
+    },
+    {
+      "url": "https://www.svenskdagligvaruhandel.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.svenskdagligvaruhandel.se/",
+      "outcome": "html_retrieved",
+      "title": "Start - Svensk Dagligvaruhandel"
+    },
+    {
+      "url": "https://sverigesskateboardforbund.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://sverigesskateboardforbund.se/",
+      "outcome": "html_retrieved",
+      "title": "SVERIGES SKATEBOARDFÖRBUND – Vi utvecklar svensk skateboard varje dag!"
+    },
+    {
+      "url": "https://sweedbeauty.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://sweedbeauty.se/",
+      "outcome": "html_retrieved",
+      "title": "Sweed Beauty® | Makeup like skincare\n– Sweed Beauty"
+    },
+    {
+      "url": "https://www.swehockey.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.swehockey.se/",
+      "outcome": "html_retrieved",
+      "title": "Svenska Ishockeyförbundet"
+    },
+    {
+      "url": "https://www.tabyenskilda.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.tabyenskilda.se/",
+      "outcome": "html_retrieved",
+      "title": "Täby Enskilda Gymnasium < Täby Enskilda Gymnasium"
+    },
+    {
+      "url": "https://www.tandvardenhabo.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.tandvardenhabo.se/",
+      "outcome": "html_retrieved",
+      "title": "Tandvård tandläkare Jönköping, Habo, Mullsjö, Bankeryd - Tandvård tandläkare Jönköping, Habo, Mullsjö, Bankeryd"
+    },
+    {
+      "url": "https://tankbar.com/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://tankbar.com/",
+      "outcome": "html_retrieved",
+      "title": "Digitalbyrå i Stockholm och Nyköping - Tankbar"
+    },
+    {
+      "url": "https://www.tekniskaverkenikiruna.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.tekniskaverkenikiruna.se/",
+      "outcome": "html_retrieved",
+      "title": "Tekniska Verken i Kiruna AB - Tekniska Verken i Kiruna AB"
+    },
+    {
+      "url": "https://tillganglighetskartan.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://tillganglighetskartan.se/",
+      "outcome": "html_retrieved",
+      "title": "Tillgänglighetsguiden"
+    },
+    {
+      "url": "https://www.timrabo.se/",
+      "language": "sv",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.timrabo.se/nyheter/1079/HEM",
+      "outcome": "html_retrieved",
+      "title": "Timråbo Mer än en bostad"
+    },
+    {
+      "url": "https://www.tingsrydtravet.com/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.tingsrydtravet.com/",
+      "outcome": "unresolved",
+      "title": "TingsrydTravet"
+    },
+    {
+      "url": "https://www.topbostader.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.topbostader.se/",
+      "outcome": "html_retrieved",
+      "title": "Topbostäder – Vi erbjuder boende i Gällivare"
+    },
+    {
+      "url": "https://transitio.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://transitio.se/",
+      "outcome": "html_retrieved",
+      "title": "AB Transitio – Kunskapspartner inom spårfordon"
+    },
+    {
+      "url": "https://www.travskola.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.travskola.se/",
+      "outcome": "unresolved",
+      "title": "Välkommen till travskola.se"
+    },
+    {
+      "url": "https://www.tressutemiljo.no/",
+      "language": "nb",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.tressutemiljo.no/",
+      "outcome": "html_retrieved",
+      "title": "TRESS Utemiljø | Alt til Lekeplass, Sport og Parkmiljø | tressutemiljø.no"
+    },
+    {
+      "url": "https://trivectormobility.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://trivectormobility.se/",
+      "outcome": "html_retrieved",
+      "title": "Startsida - Trivector Mobility"
+    },
+    {
+      "url": "https://www.uddevallaenergi.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.uddevallaenergi.se/",
+      "outcome": "html_retrieved",
+      "title": "Start \n | Uddevalla Energi"
+    },
+    {
+      "url": "https://www.umaker.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.umaker.se/",
+      "outcome": "unresolved",
+      "title": "Välkommen till Umåkers travbana!"
+    },
+    {
+      "url": "https://umeastadsmission.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://umeastadsmission.se/",
+      "outcome": "html_retrieved",
+      "title": "Umeå stadsmission - för ett mänskligare Umeå, för alla!"
+    },
+    {
+      "url": "https://www.vaggerydstravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vaggerydstravet.se/",
+      "outcome": "unresolved",
+      "title": "Vaggerydstravet"
+    },
+    {
+      "url": "https://vansbrosimningen.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vansbrosimningen.se/",
+      "outcome": "html_retrieved",
+      "title": "Vansbrosimningen"
+    },
+    {
+      "url": "https://www.varaenergi.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.varaenergi.se/",
+      "outcome": "html_retrieved",
+      "title": "Vara Energi"
+    },
+    {
+      "url": "https://www.vargard.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vargard.se/",
+      "outcome": "html_retrieved",
+      "title": "Konferens, hotell och restaurang nära Stockholm | Vår Gård"
+    },
+    {
+      "url": "https://vasaloppet.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vasaloppet.se/",
+      "outcome": "html_retrieved",
+      "title": "Vasaloppet"
+    },
+    {
+      "url": "https://vasaloppetshop.se/sv/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vasaloppetshop.se/sv/",
+      "outcome": "html_retrieved",
+      "title": "Vasaloppet shop"
+    },
+    {
+      "url": "https://vendre.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vendre.se/",
+      "outcome": "html_retrieved",
+      "title": "Standardiserad B2B E-handelsplattform | Vendre"
+    },
+    {
+      "url": "https://www.vfab.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vfab.se/",
+      "outcome": "html_retrieved",
+      "title": "VFAB – Hyresbostäder & lokaler i Vadstena"
+    },
+    {
+      "url": "https://www.vfo.dk/",
+      "language": "da",
+      "reason": "Retrieved page title and main content inspected. Corrected misleading HTML language metadata or removed an unnecessary region subtag; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vfo.dk/",
+      "outcome": "html_retrieved",
+      "title": "Vingåkers Factory Outlet | Mode & kendte mærker til outletpriser"
+    },
+    {
+      "url": "https://www.vfo.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vfo.se/",
+      "outcome": "html_retrieved",
+      "title": "Vingåkers Factory Outlet - Sveriges största varumärkesoutlet"
+    },
+    {
+      "url": "https://www.vileda.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: HTTP 403; page unavailable or blocked.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vileda.se/",
+      "outcome": "unresolved",
+      "title": "Access Denied"
+    },
+    {
+      "url": "https://vimarhem.se/",
+      "language": "sv",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vimarhem.se/",
+      "outcome": "html_retrieved",
+      "title": "Vimarhem - Det självklara valet"
+    },
+    {
+      "url": "https://www.visbytravet.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.visbytravet.se/",
+      "outcome": "unresolved",
+      "title": "Välkommen till Visbytravet!"
+    },
+    {
+      "url": "https://visittrelleborg.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://visittrelleborg.se/",
+      "outcome": "html_retrieved",
+      "title": "Visit Trelleborg | Sveriges sydligaste stad"
+    },
+    {
+      "url": "https://vitargo.se/",
+      "language": "en",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://vitargo.se/",
+      "outcome": "html_retrieved",
+      "title": "Vitargo - The best kept secret in sports"
+    },
+    {
+      "url": "https://www.vnmuseum.se/",
+      "language": null,
+      "reason": "Destination language unresolved in the overlay-list import: no reliable language declaration in the retrieved page.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://www.vnmuseum.se/",
+      "outcome": "unresolved",
+      "title": "Startsida\n          - Västernorrlands museum"
+    },
+    {
+      "url": "https://voe.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://voe.se/",
+      "outcome": "html_retrieved",
+      "title": "Västra Orusts Energitjänst – Vi har levererat el i 100 år"
+    },
+    {
+      "url": "https://wallmans.no/",
+      "language": "nb-NO",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://wallmans.no/",
+      "outcome": "html_retrieved",
+      "title": "Norges råeste Dinnerparty midt i Oslo - Wallmans Oslo"
+    },
+    {
+      "url": "https://wallmans.se/",
+      "language": "sv-SE",
+      "reason": "Retrieved destination HTML language declaration, checked against page title; language hint only, not overlay verification.",
+      "checked_on": "2026-10-07",
+      "final_url": "https://wallmans.se/",
+      "outcome": "html_retrieved",
+      "title": "Wallmans Stockholm - Dinnershow & Fest"
     }
   ]
 }

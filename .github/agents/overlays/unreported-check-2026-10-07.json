@@ -1,0 +1,446 @@
+{
+  "scope": "Every Reported overlay cell that was Not reported on draft PR 84, starting with all eight Denmark entries. Separate overlay research only.",
+  "date": "2026-10-07",
+  "base_pr_head": "0a4f86f51a2fdd11d3733f35b418f446c531d539",
+  "summary": {
+    "attempted": 25,
+    "identified": 25,
+    "automated_identified": 24,
+    "user_confirmed": 1,
+    "automated_unverified": 1,
+    "provider_counts": {
+      "Readabler": 1,
+      "Selma (accessiBe)": 6,
+      "AccessiWay (accessiBe)": 2,
+      "UserWay": 12,
+      "accessiBe": 4
+    }
+  },
+  "method": "Ordinary browser inspection of rendered script elements and widget markers; certificate-validating HTTP HTML retrieval for all 25 URLs. Followed displayed accessibility links for supplier attribution. Engine-only evidence is labeled accessiBe unless additional evidence identifies Selma or AccessiWay. No consent changes, form submissions or security-warning bypasses. Detection confirms installation code, not remediation effectiveness or site-wide coverage.",
+  "results": [
+    {
+      "country": "Norway",
+      "domain": "arendalsfysikalske.no",
+      "url": "https://arendalsfysikalske.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Readabler",
+      "evidence_url": "https://arendalsfysikalske.no/wp-content/plugins/readabler/js/readabler.min.js?ver=2.0.2",
+      "evidence": "Rendered Readabler script, mdpReadablerOptions and mdp-readabler-popup elements.",
+      "http_status_and_final_url": "200 https://arendalsfysikalske.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "<link rel='stylesheet' id='mdp-readabler-css' href='https://arendalsfysikalske.no/wp-content/plugins/readabler/css/readabler.min.css?ver=2.0.2' media='all' />",
+        "<style id=\"mdp-readabler-inline-css\">",
+        "\t\t\t--readabler-overlay: #0253ee;--readabler-bg: #ffffff;--readabler-bg-dark: #16191b;--readabler-text: #333;--readabler-text-dark: #deeffd;--readabler-color: rgba(33, 111, 243, 1);--readabler-color-dark: rgba(33, 111, 243, 1);-",
+        "-readabler-color-transparent: rgba(33,111,243,.2);--readabler-color-transparent-dark: rgba(33,111,243,.2);--readabler-color-transparent-15: rgba(33,111,243,.15);--readabler-color-transparent-15-dark: rgba(33,111,243,.15);",
+        "--readabler-color-transparent-25: rgba(33,111,243,.25);--readabler-color-transparent-25-dark: rgba(33,111,243,.25);--readabler-color-transparent-50: rgba(33,111,243,.5);--readabler-color-transparent-50-dark: rgba(33,111,243,.5",
+        ");--readabler-border-radius: 20px;--readabler-animate: 600ms;--readabler-reading-mask-color: rgba(0, 0, 0, 0.7);--readabler-text-magnifier-bg-color: rgba(0, 0, 0, 1);--readabler-text-magnifier-color: rgba(89, 89, 89, 1);--readabler-",
+        "text-magnifier-font-size: 36px;--readabler-highlight-titles-style: solid;--readabler-highlight-titles-color: rgba(99, 154, 249, 1);--readabler-highlight-titles-width: 2px;--readabler-highlight-titles-of",
+        "fset: 2px;--readabler-highlight-links-style: solid;--readabler-highlight-links-color: rgba(99, 154, 249, 1);--readabler-highlight-links-width: 2px;--readabler-highlight-links-offset: 2px;--readabler-reading-guide-width: 50"
+      ]
+    },
+    {
+      "country": "Denmark",
+      "domain": "ballingslov.dk",
+      "url": "https://www.ballingslov.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://cdn.selma.se/a11y/widget/embed.js",
+      "evidence": "Browser shows Selma embed and proxy/app.js scripts, acsb-trigger/acsb-widget elements and a Selma screen-reader-guide link.",
+      "http_status_and_final_url": "200 https://www.ballingslov.dk/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "                <div class=\"footer__bottom-copyright-links\"><a href=\"#selma-accessibility-link\">Tillgänglighetsanpassning</a> | <a href=\"https://www.ballingslov.dk/privatliv/privatlivspolitik\">Integritetspolicy</a> | <a href=\"https://w",
+        "<!-- Selma -->",
+        "<script src=\"https://cdn.selma.se/a11y/widget/embed.js\" async></script>",
+        "<!-- End Selma -->"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "bestdrive.no",
+      "url": "https://www.bestdrive.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "AccessiWay (accessiBe)",
+      "evidence_url": "https://eu.acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "HTTP 200 HTML has executable loader calling acsbJS.init with footerHtml explicitly naming AccessiWay and linking https://www.accessiway.com/it/home. Browser DOM did not expose the loader.",
+      "http_status_and_final_url": "200 https://www.bestdrive.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "    s.src = \"https://eu.acsbapp.com/apps/app/dist/js/app.js\";",
+        "          '<a href=\"https://www.accessiway.com/it/home\">AccessiWay. The Web Accessibility Solution</a>',"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "delete-it.no",
+      "url": "https://delete-it.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "User-confirmed",
+      "provider": "UserWay",
+      "evidence_url": null,
+      "evidence": "Both ordinary browser navigation and certificate-validating HTTP retrieval failed because the certificate is expired. No security warning was bypassed; this is not a negative overlay detection.",
+      "http_status_and_final_url": "000 https://delete-it.no/",
+      "http_error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "http_marker_excerpts": [],
+      "confirmation": {
+        "source": "User",
+        "date": "2026-10-07",
+        "statement": "Delete-it is using Userway"
+      },
+      "automated_status": "Unable to verify"
+    },
+    {
+      "country": "Denmark",
+      "domain": "ergo.dk",
+      "url": "https://www.ergo.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered browser script elements include UserWay widget.js and widget_app_base.",
+      "http_status_and_final_url": "200 https://www.ergo.dk/",
+      "http_error": "",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Norway",
+      "domain": "foie.no",
+      "url": "https://www.foie.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widgetapp/2026-09-29-10-33-22/widget_app_base_1790678002737.js",
+      "evidence": "Rendered UserWay widget/remediation scripts and userwayAccessibilityIcon/widget iframe.",
+      "http_status_and_final_url": "200 https://www.foie.no/",
+      "http_error": "",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Denmark",
+      "domain": "freequent.dk",
+      "url": "https://freequent.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "HTTP 200 HTML contains a UserWay loader and Shopify userway-website-accessibility app block. Browser load was incomplete.",
+      "http_status_and_final_url": "200 https://freequent.dk/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "      s.setAttribute(\"src\", \"https://cdn.userway.org/widget.js\");",
+        ">Please ensure Javascript is enabled for purposes of <a href=\"https://userway.org\">website accessibility</a></noscript>",
+        "<!-- END app block --><!-- BEGIN app block: shopify://apps/userway-website-accessibility/blocks/uw-widget-extension/bc2d8a34-1a37-451b-ab1a-271bc4e9daa7 -->",
+        "<script type=\"text/javascript\" async=\"\" src=\"https://cdn.userway.org/widget.js?account=srW3Jklf5i&amp;platfAppInstalledSiteId=3735761&amp;shop=freequent.dk\"></script>"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "getonnet.no",
+      "url": "https://getonnet.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js and widget_app_base scripts, also supported by HTML loader.",
+      "http_status_and_final_url": "200 https://getonnet.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "<link data-rocket-prefetch href=\"https://cdn.userway.org\" rel=\"dns-prefetch\">",
+        "<script src=\"https://cdn.userway.org/widget.js\" data-account=\"NZV4IiDohD\"></script>"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "hedemarken.steinerskolen.no",
+      "url": "https://hedemarken.steinerskolen.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js and widget_app_base scripts and HTML loader.",
+      "http_status_and_final_url": "200 https://hedemarken.steinerskolen.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');"
+      ]
+    },
+    {
+      "country": "Finland",
+      "domain": "helsinkimint.fi",
+      "url": "https://www.helsinkimint.fi/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "accessiBe",
+      "evidence_url": "https://acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "HTTP request returned 403. A second browser navigation loaded the actual page and exposed accessiBe script and inline initialization. Reseller not established.",
+      "http_status_and_final_url": "403 https://www.helsinkimint.fi/",
+      "http_error": "",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Denmark",
+      "domain": "hia.dk",
+      "url": "http://hia.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Redirects to https://www.hia.dk/. Rendered scripts and userwayAccessibilityIcon/widget iframe confirm the provider.",
+      "http_status_and_final_url": "200 https://www.hia.dk/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');"
+      ]
+    },
+    {
+      "country": "Denmark",
+      "domain": "hydroscand.dk",
+      "url": "https://hydroscand.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://cdn.selma.se/a11y/widget/embed.js",
+      "evidence": "Rendered browser script element includes the Selma widget loader; also present in server-rendered configuration.",
+      "http_status_and_final_url": "200 https://hydroscand.dk/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "/ce/latest\\\"\\u003E\\u003C/script\\u003E\\n\\u003Cscript src=\\\"https://cdn.selma.se/a11y/widget/embed.js\\\" async\\u003E\\u003C/script\\u003E\\n\\u003Cscript src=/content/files/kod/butikssidor_DK.js\\u003E\\u003C/script\\u003E\"},\"url\":{\"idEncodings\""
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "italfarmaco.no",
+      "url": "https://www.italfarmaco.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "AccessiWay (accessiBe)",
+      "evidence_url": "https://embeds.acswapp.com/accessibility/app.js",
+      "evidence": "Rendered script element and HTML include AccessiWay loader.",
+      "http_status_and_final_url": "200 https://www.italfarmaco.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "<script async type=\"text/javascript\" src=\"https://embeds.acswapp.com/accessibility/app.js\"></script><link rel=\"preload\" href=\"https://www.italfarmaco.no/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.wof"
+      ]
+    },
+    {
+      "country": "Denmark",
+      "domain": "kinnarps.dk",
+      "url": "https://www.kinnarps.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "Rendered accessiBe loader and inline Selma configuration, selmaReady event and selma-accessibility-link code.",
+      "http_status_and_final_url": "200 https://www.kinnarps.dk/",
+      "http_error": "",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Norway",
+      "domain": "kinnarps.no",
+      "url": "https://www.kinnarps.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "First browser result was incomplete. Second navigation exposed accessiBe loader with inline Selma configuration, selmaReady event and selma-accessibility-link code.",
+      "http_status_and_final_url": "200 https://www.kinnarps.no/",
+      "http_error": "",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Finland",
+      "domain": "lappica.fi",
+      "url": "https://lappica.fi/en/accessibility-statement/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered UserWay loader and widget_app_base scripts. Accessibility statement also explicitly names UserWay.",
+      "http_status_and_final_url": "200 https://lappica.fi/en/accessibility-statement/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "\" src=\"https://lappica.fi/wp-content/themes/lappica/src/assets/images/Userway-widget-icon.svg\"></span>",
+        "<p class=\"wp-block-paragraph\">The problem has been addressed with a Userway widget installed on the website. This widget allows users to enhance content contrast based on their needs. The widget is recognized by screen readers and can "
+      ]
+    },
+    {
+      "country": "Denmark",
+      "domain": "mazda.dk",
+      "url": "https://www.mazda.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "accessiBe",
+      "evidence_url": "https://eu.acsbapp.com/app.js",
+      "evidence": "Rendered browser script element and inline loader. Reseller not established.",
+      "http_status_and_final_url": "000 https://www.mazda.dk/",
+      "http_error": "curl: (35) Recv failure: Connection reset by peer\n",
+      "http_marker_excerpts": []
+    },
+    {
+      "country": "Norway",
+      "domain": "mazda.no",
+      "url": "https://www.mazda.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "accessiBe",
+      "evidence_url": "https://eu.acsbapp.com/app.js",
+      "evidence": "Rendered script element and inline initialization, also in page HTML. Reseller not established.",
+      "http_status_and_final_url": "200 https://www.mazda.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "                    s.src = 'https://eu.acsbapp.com/app.js';"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "nomestiftelsen.no",
+      "url": "https://nomestiftelsen.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js and widget_app_base scripts; HTML confirms UserWay loader.",
+      "http_status_and_final_url": "200 https://nomestiftelsen.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "\t<!-- Userway start -->",
+        "\t<script src=\"https://cdn.userway.org/widget.js\" data-account=\"NZV4IiDohD\"></script>",
+        "\t<!-- Userway end -->",
+        "\t\tbody .uwy.userway_p5 .userway_buttons_wrapper{",
+        "\t\t.uwy.uts .uai img:not(.userway_check_on), .uwy.uts .ulsti img:not(.userway_check_on), .uwy.uts .ups img:not(.userway_check_on), body .uwy.uts .uai img:not(.userway_check_on), body .uwy.uts .ulsti img:not(.userway_check_on), body .uwy.",
+        "uts .ups img:not(.userway_check_on){",
+        "\t\t.body .uwy.userway_p1 .userway_buttons_wrapper{",
+        "\t\t\t.uwy.uts .uai img:not(.userway_check_on), .uwy.uts .ulsti img:not(.userway_check_on), .uwy.uts .ups img:not(.userway_check_on), body .uwy.uts .uai img:not(.userway_check_on), body .uwy.uts .ulsti img:not(.userway_check_on), body .uwy."
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "personalpartner.no",
+      "url": "https://personalpartner.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js and widget_app_base scripts; HTML confirms UserWay loader.",
+      "http_status_and_final_url": "200 https://personalpartner.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "alignleft\" src=\"https://personalpartner.no/wp-content/uploads/2012/04/userway--150x150.png\" alt=\"userway\" width=\"50\" height=\"50\" /></a><br />",
+        "                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "superlaering.no",
+      "url": "https://www.superlaering.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js and widget_app_base scripts; executable HTML loader excludes the /web page, not the tested homepage.",
+      "http_status_and_final_url": "200 https://www.superlaering.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "\t\t<!-- Original user way <script src=\"https://cdn.userway.org/widget.js\" data-account=\"uxgaNyIn2i\"></script> -->",
+        "<!--Start of modified UserWay script code to exclude the page https://www.superlaering.no/web-->",
+        "            script.src = \"https://cdn.userway.org/widget.js\";",
+        "<!--End of modified UserWay script code-->"
+      ]
+    },
+    {
+      "country": "Finland",
+      "domain": "superpark.fi",
+      "url": "https://superpark.fi/en/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "UserWay",
+      "evidence_url": "https://cdn.userway.org/widget.js",
+      "evidence": "Rendered widget.js script and matching HTML loader.",
+      "http_status_and_final_url": "200 https://superpark.fi/en/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "\t.userway_buttons_wrapper {",
+        "<script src=\"https://cdn.userway.org/widget.js\" data-account=\"ZkmqoBLkoa\"></script>",
+        "    $('.userway_buttons_wrapper').toggleClass('icon-dodge');"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "tressutemiljo.no",
+      "url": "https://www.tressutemiljo.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "Rendered accessiBe loader on homepage. Linked accessibility statement identifies supplier www.selma.se.",
+      "http_status_and_final_url": "200 https://www.tressutemiljo.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init(); }; h.appendChild(s); })(); </script>"
+      ],
+      "additional_page": "https://www.tressutemiljo.no/om-tress/tilgjengelighetserklaring"
+    },
+    {
+      "country": "Denmark",
+      "domain": "vfo.dk",
+      "url": "https://www.vfo.dk/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "Selma (accessiBe)",
+      "evidence_url": "https://cdn.selma.se/a11y/widget/embed.js",
+      "evidence": "Rendered Selma embed and proxy/app.js scripts; accessibility link targets #selma-accessibility-link.",
+      "http_status_and_final_url": "200 https://www.vfo.dk/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        " nonce=\"3N2LwEqnJVbz5n8g6S-kdTsOc9L8EXbZbWGhjIeS_fI\" src=\"https://cdn.selma.se/a11y/widget/embed.js\" async></script>",
+        "se\" title=\"Postnord\"></a><br /></strong><br /><br /><strong><a href=\"#selma-accessibility-link\">TILG&AElig;NGELIGHEDSV&AElig;RKT&Oslash;J</a></strong>"
+      ]
+    },
+    {
+      "country": "Norway",
+      "domain": "wallmans.no",
+      "url": "https://wallmans.no/",
+      "checked_on": "2026-10-07",
+      "previous_value": "Not reported",
+      "status": "Overlay code detected",
+      "provider": "accessiBe",
+      "evidence_url": "https://acsbapp.com/apps/app/dist/js/app.js",
+      "evidence": "Homepage HTTP 200 HTML contains executable accessiBe loader. Browser also exposed the script on the linked accessibility-statement page. Reseller not established.",
+      "http_status_and_final_url": "200 https://wallmans.no/",
+      "http_error": "",
+      "http_marker_excerpts": [
+        "');var h=document.querySelector('head')||document.body;s.src='https://acsbapp.com/apps/app/dist/js/app.js';s.async=!0;s.onload=function(){acsbJS.init()};h.appendChild(s)})()</script>\t\t</div>"
+      ],
+      "additional_page": "https://wallmans.no/tilgjengelighetserklaering/"
+    }
+  ]
+}
