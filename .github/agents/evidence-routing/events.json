@@ -2533,25 +2533,25 @@
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "proposed",
+      "reason": "AgID's live EAA publication and reporting login now verify a public route for AgID-supervised private digital services; company intake remains future/planned.",
+      "next_action": "Maintainer review of the focused Italy draft; independently confirm the Italian-to-English scope wording before merge.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/italy.json",
-          "disposition": "needs_evidence",
-          "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-          "pr": null,
+          "disposition": "proposed",
+          "reason": "The current page still labels all Italy EAA public-reporting routes Unknown and points to a legacy portal.",
+          "next_action": "Review the focused draft adding the verified AgID public route while preserving product, terminal, company and 112 unknowns.",
+          "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/81",
           "domain": "monitoring"
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "not_applicable",
-          "reason": "This lead concerns reporting/guidance rather than actual enforcement.",
-          "next_action": "None for this evidence",
+          "reason": "This evidence verifies a reporting channel and guidance, not an enforcement action.",
+          "next_action": "None for this evidence.",
           "pr": null,
           "domain": "enforcement"
         },
@@ -2559,10 +2559,19 @@
           "page": "EAA sanctions.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "not_applicable",
-          "reason": "No new statutory sanctions evidence established by this item.",
-          "next_action": "None for this evidence",
+          "reason": "This evidence establishes no new statutory sanction or imposed fine.",
+          "next_action": "None for this evidence.",
           "pr": null,
           "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "This evidence concerns EAA service reporting and does not establish a standards-adoption change.",
+          "next_action": "None for this evidence.",
+          "pr": null,
+          "domain": "adoption"
         }
       ]
     },
