@@ -5,6 +5,7 @@
 4. Here's a list of countries <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">monitoring agencies and accessibility requirements</a>.
 5. <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/Sites%20using%20accessibility%20overlays.md" hreflang="en"> Sites using overlays</a>.
 6. <a href="EAA%20sanctions.md" hreflang="en">EAA sanctions by country</a>.
+7. <a href="EAA%20and%20WAD%20standards.md" hreflang="en">Standards supporting the EAA and WAD</a>, with publication status, OJ citations, drafts and development schedules.
 
 ## What it is for
 1. How to understand the EN-standard and how monitoring works in different countries.

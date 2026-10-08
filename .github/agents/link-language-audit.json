@@ -6271,6 +6271,12 @@
       "final_url": "https://wallmans.se/",
       "outcome": "html_retrieved",
       "title": "Wallmans Stockholm - Dinnershow & Fest"
+    },
+    {
+      "url": "EAA%20and%20WAD%20standards.md",
+      "language": "en",
+      "reason": "Local standards page inspected; prose and table are English. Transfer of merged testing page.",
+      "checked_on": "2026-10-08"
     }
   ]
 }
