@@ -55,5 +55,7 @@
     "monitoring-agencies-information.md": "d269839a54a19b3219df6b83b3c30722659e6e033c8e1f59fde2ab52f2134463",
     "EAA enforcement tracking.md": "e5c8b598e6a66e48180ee0b4031452efc1a3bf5eee456fb2e26edf609330a0ab",
     "EN 301 549 adoption.md": "764ba872c44660b9fd00c823d8c13e3949fa5d08adb7f435b8d1bfa24bcc300f"
-  }
+  },
+  "testing_pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/81",
+  "live_pr": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/81"
 }
