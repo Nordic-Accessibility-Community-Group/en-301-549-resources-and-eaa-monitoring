@@ -2,6 +2,10 @@
 
 These rules apply to every public page, including monitoring agencies, sanctions, enforcement tracking and standards adoption. Follow [workflow](workflow.md), [evidence](evidence.md), [review](review.md) and the relevant page specification. Historical task prompts that refer here remain supported.
 
+## Punctuation
+
+Do not use em dashes in public-facing text, including headings, table cells and link labels. Use commas, colons, parentheses or separate sentences as appropriate. For separators in standard titles, use a colon or a hyphen. Preserve the wording and meaning, and do not change URLs or identifiers.
+
 ## Link language
 
 Add `hreflang` to links when the language of the linked resource is established. Use a valid BCP 47 tag, such as `en`, `de`, `fr` or `pt-BR`. The value describes the destination, not the country, authority, link label, available translation menu or languages accepted by a reporting channel. Check the exact linked language version, including redirects and PDF content. Preserve the original URL unless a destination change is independently justified.

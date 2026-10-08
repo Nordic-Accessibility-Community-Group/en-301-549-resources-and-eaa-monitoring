@@ -209,6 +209,20 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-73b042966e469ca6e6aa54a8": {
+      "url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+      "accessed_on": "2026-10-02",
+      "evidence": "AgID says its EAA service-accessibility guidelines were adopted and that a platform is available for users to report possible non-conformities under D.Lgs. 82/2022. The page describes a direct company-to-AgID contact point as a future evolution, not a current company route.",
+      "source_type": "monitoring_body",
+      "section": "Piattaforma per le segnalazioni; published 11 March 2026"
+    },
+    "source-c504b055f33dedef9d01f38d": {
+      "url": "https://segnalazioni.agid.gov.it/auth/login",
+      "accessed_on": "2026-10-02",
+      "evidence": "The live login page identifies management of reports about private entities' digital services that do not conform with accessibility obligations and offers SPID, CIE and eIDAS authentication. No authenticated submission was attempted.",
+      "source_type": "monitoring_body",
+      "section": "Login page"
     }
   },
   "domains": {
@@ -414,12 +428,12 @@
         },
         {
           "field": "public_reporting",
-          "assertion": "Existing AgID reporting portal retained; current EAA intake and usability not verified.",
+          "assertion": "The legacy AgID trust-services portal is not relied on as the current EAA intake route.",
           "status": "unknown",
-          "review_note": "https://trustservices.agid.gov.it/SegnalazioneUtente loaded an empty application shell twice. Original entry preserved as existing portal, not newly certified for each EAA sector. Login, accepted languages, intended statutory regime and submission behaviour unknown; no submission.",
+          "review_note": "Superseded for this page by the verified AgID EAA reporting platform discovered 2 October 2026. The legacy application shell was not reclassified as an EAA route.",
           "directive_context": "EAA",
           "existing_text": "Reporting to AGID",
-          "scope": "Existing AgID portal",
+          "scope": "Legacy AgID portal",
           "source_refs": [],
           "id": "monitoring-69127de1df626ff6809d95a0"
         },
@@ -445,19 +459,29 @@
         },
         {
           "field": "public_reporting",
-          "assertion": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books: usable EAA public-reporting route not established.",
-          "status": "unknown",
-          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "assertion": "AgID provides a public platform for reports of possible non-conformities in the private digital services it supervises.",
+          "status": "verified",
+          "review_note": "Live official page and login checked 2 October 2026. SPID, CIE or an eIDAS identity is required. No authenticated submission was attempted; accepted reporting languages were not established. The official news page presents a direct company-to-AgID contact point as a future evolution, so this claim is limited to public reports. Transfer check 2026-10-08: official notice and canonical login reached in ordinary browser after reader failures. Login displays SPID, CIE and eIDAS as public sign-in options. No sign-in or submission; Italian source fidelity review recorded separately. Correction 2026-10-08: the historical required-identity wording above is superseded by the observed public sign-in options; no exclusive authentication requirement is asserted.",
           "directive_context": "EAA",
           "scope": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books",
-          "source_refs": [],
-          "id": "monitoring-b85eb190e20473adb2720b29"
+          "source_refs": [
+            "source-73b042966e469ca6e6aa54a8",
+            "source-c504b055f33dedef9d01f38d"
+          ],
+          "id": "monitoring-b85eb190e20473adb2720b29",
+          "reporting_route": {
+            "authority": "Agenzia per l’Italia Digitale (AgID)",
+            "sector": "AgID-supervised private digital services",
+            "channel": "form",
+            "destination": "https://segnalazioni.agid.gov.it/auth/login",
+            "eaa_specific": true
+          }
         },
         {
           "field": "company_reporting",
           "assertion": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books: company noncompliance and exemption reporting routes not established.",
           "status": "unknown",
-          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "review_note": "AgID's 11 March 2026 publication says the platform is designed to evolve into a direct company-to-AgID contact point. That future wording does not establish a current company non-compliance or exemption intake route. Languages, authentication and deadlines remain unverified.",
           "directive_context": "EAA",
           "scope": "E-commerce, Banking, Electronic communications, Audiovisual access and E-books",
           "source_refs": [],
@@ -465,21 +489,31 @@
         },
         {
           "field": "public_reporting",
-          "assertion": "Transport: usable EAA public-reporting route not established.",
-          "status": "unknown",
-          "review_note": "Search and official guidance reviewed; legal complaint entitlement alone is insufficient to publish a new channel.",
+          "assertion": "AgID provides a public platform for reports about possible non-conformities in AgID-supervised transport digital service elements.",
+          "status": "verified",
+          "review_note": "Scope follows the already verified AgID transport remit and the official platform's coverage of private digital services. This does not establish reporting for interactive transport terminals. SPID, CIE or an eIDAS identity is required; no authenticated submission was attempted and accepted reporting languages were not established. Transfer check 2026-10-08: official notice and canonical login reached in ordinary browser after reader failures. Login displays SPID, CIE and eIDAS as public sign-in options. No sign-in or submission; Italian source fidelity review recorded separately. Correction 2026-10-08: the historical required-identity wording above is superseded by the observed public sign-in options; no exclusive authentication requirement is asserted.",
           "directive_context": "EAA",
-          "scope": "Transport",
-          "source_refs": [],
-          "id": "monitoring-c595cb7946187d258d85bd73"
+          "scope": "Transport: websites, mobile services/apps, electronic tickets/ticketing and transport information",
+          "source_refs": [
+            "source-73b042966e469ca6e6aa54a8",
+            "source-c504b055f33dedef9d01f38d"
+          ],
+          "id": "monitoring-c595cb7946187d258d85bd73",
+          "reporting_route": {
+            "authority": "Agenzia per l’Italia Digitale (AgID)",
+            "sector": "AgID-supervised transport digital service elements",
+            "channel": "form",
+            "destination": "https://segnalazioni.agid.gov.it/auth/login",
+            "eaa_specific": true
+          }
         },
         {
           "field": "company_reporting",
-          "assertion": "Transport: company noncompliance and exemption reporting routes not established.",
+          "assertion": "Transport terminals and company non-compliance/exemption reporting routes are not established.",
           "status": "unknown",
-          "review_note": "Do not repurpose general enquiry or PEC contacts without purpose-specific evidence. Languages, authentication and deadlines for an actual intake remain unverified.",
+          "review_note": "The verified public platform is limited here to AgID-supervised digital service elements. The 11 March 2026 publication describes direct company reporting as a future evolution; do not extend it to current company intake or terminal oversight.",
           "directive_context": "EAA",
-          "scope": "Transport",
+          "scope": "Transport: interactive self-service terminals and company reporting",
           "source_refs": [],
           "id": "monitoring-cc6193c2ae035ce875f9f202"
         },
@@ -578,7 +612,8 @@
         "Research task: follow up on unanswered AgID correspondence to direzione.generale@agid.gov.it; latest reminder15 April2026, no answer reported as of24 September2026. Confirm the responsible team for the outstanding Italy questions and record any reply. Published information mailbox accessibilita@agid.gov.it is an alternative enquiry contact, not a verified statutory reporting route. Owner: contributor/researcher; resolved when a substantive official response or confirmed responsible contact is documented. Do not send correspondence without authorization.",
         "Follow-up: establish whether a regulator requires an EAA public page comparable to a statement beyond terms/equivalent document; current sources establish public information and removal of old declaration for specified private EAA providers.",
         "Follow-up: review consolidated legislation and June2026 vigilance regulation when institutional access succeeds. No full completeness claim; ten-minute shared research/verification limit observed.",
-        "Cross-page handoff 2026-09-25 / seed-discovery-3-2026-09-25: Official search result points to EAA service guidance and a reporting platform; opening the page returned HTTP 403. Unverified lead. One failed reader attempt; later authorized browser check or an accessible official copy must establish content and intake. Source lead: https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion."
+        "Cross-page handoff 2026-09-25 / seed-discovery-3-2026-09-25: resolved for public reports on 2 October 2026. A live browser check verified AgID's EAA reporting-platform notice and the canonical login page. Public reports for AgID-supervised private digital services are supported; SPID, CIE or eIDAS authentication is required. No authenticated submission was attempted, accepted reporting languages were not established, and the official source describes direct company reporting only as a future evolution. Products, transport terminals, company routes and 112 remain unresolved where separately recorded. Correction 2026-10-08: the required-authentication wording in this historical note is superseded by observed public sign-in options; no exclusive requirement is asserted.",
+        "2026-10-08 transfer: two imported evidence identifiers corrected to match their unchanged source-content fingerprints; prior IDs and replacements recorded in the live transfer report. Reporting notice and login checked again; no wider Italian-law audit or authenticated submission performed."
       ]
     },
     "sanctions": {
@@ -722,25 +757,25 @@
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "proposed",
+      "reason": "AgID's live EAA publication and reporting login now verify a public route for AgID-supervised private digital services; company intake remains future/planned.",
+      "next_action": "Maintainer review of live PR81; independent source-fidelity review completed 2026-10-08, with historical authentication wording explicitly superseded.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/italy.json",
-          "disposition": "needs_evidence",
-          "reason": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "AgID publication/platform lead recorded; reader blocked, verify exact purpose before monitoring PR; enforcement/sanctions not_applicable.",
-          "pr": null,
+          "disposition": "proposed",
+          "reason": "The current page still labels all Italy EAA public-reporting routes Unknown and points to a legacy portal.",
+          "next_action": "Review live PR81, transferred from testing PR81, while preserving product, terminal, company and 112 unknowns.",
+          "pr": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/81",
           "domain": "monitoring"
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "not_applicable",
-          "reason": "This lead concerns reporting/guidance rather than actual enforcement.",
-          "next_action": "None for this evidence",
+          "reason": "This evidence verifies a reporting channel and guidance, not an enforcement action.",
+          "next_action": "None for this evidence.",
           "pr": null,
           "domain": "enforcement"
         },
@@ -748,10 +783,19 @@
           "page": "EAA sanctions.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "not_applicable",
-          "reason": "No new statutory sanctions evidence established by this item.",
-          "next_action": "None for this evidence",
+          "reason": "This evidence establishes no new statutory sanction or imposed fine.",
+          "next_action": "None for this evidence.",
           "pr": null,
           "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "This evidence concerns EAA service reporting and does not establish a standards-adoption change.",
+          "next_action": "None for this evidence.",
+          "pr": null,
+          "domain": "adoption"
         }
       ]
     },

@@ -16,6 +16,18 @@
   ],
   "resources": [
     {
+      "url": "https://segnalazioni.agid.gov.it/auth/login",
+      "language": "it",
+      "reason": "Official Italian notice or public reporting login inspected in ordinary browser. No authenticated submission.",
+      "checked_on": "2026-10-08"
+    },
+    {
+      "url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+      "language": "it",
+      "reason": "Official Italian notice or public reporting login inspected in ordinary browser. No authenticated submission.",
+      "checked_on": "2026-10-08"
+    },
+    {
       "url": "#fixes",
       "language": "en",
       "reason": "Local repository document inspected; primary prose/record language is English.",

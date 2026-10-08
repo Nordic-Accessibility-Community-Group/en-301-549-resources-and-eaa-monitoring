@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-08",
+  "live_base": "c025397bf1a00c4e14eaa90851a90e0fae2fb657",
+  "testing_source": "30c4bf5e397129ba6c58f62076db2809a24e9561",
+  "scope": "Italy reporting update; row and column header semantics on monitoring, enforcement and adoption; no-em-dash presentation rule. Standards page excluded because live PR80 covers it. Live-only transfer notes and unrelated records preserved.",
+  "fingerprint_repairs": {
+    "source-3e7e8e58c3f9cf1b5ba72311": "source-73b042966e469ca6e6aa54a8",
+    "source-8b42d4f53f785e5644085bde": "source-c504b055f33dedef9d01f38d"
+  },
+  "access_checks": {
+    "notice": "Reader 403; one ordinary-browser fallback succeeded. Italian article dated11March2026, source section Piattaforma per le segnalazioni.",
+    "login": "Reader inaccessible; one ordinary-browser fallback succeeded and redirected to AgID login. External options SPID, CIE, eIDAS; separate AgID staff-only option. No sign-in or submission."
+  },
+  "language_review": {
+    "reviewer": "italy_transfer_wording",
+    "date": "2026-10-08",
+    "isolation": "No conversation history; original Italian passages and exact proposed English only. Statutory cross-references supplied for transport scope.",
+    "verdict": "Supported after correction and recheck",
+    "correction": "Replaced authentication requirement with observed public sign-in options.",
+    "exact_wording": [
+      "Public reports: AgID EAA reporting platform (public sign-in options: SPID, CIE or eIDAS).",
+      "Public reports for AgID-supervised digital service elements: AgID EAA reporting platform (public sign-in options: SPID, CIE or eIDAS).",
+      "Company non-compliance and exemptions: ❓ Unknown.",
+      "Interactive transport terminals and company reporting: ❓ Unknown.",
+      "AgID EAA service guidelines and reporting-platform notice (11 March 2026)"
+    ],
+    "source_excerpt": "per consentire agli utenti di segnalare eventuali non conformità ai requisiti di accessibilità previsti dal decreto legislativo n. 82/2022. La piattaforma è stata progettata per evolvere, nel tempo, in un punto di contatto diretto tra le aziende e l’Agenzia",
+    "literal_rendering": "To enable users to report possible non-compliance with accessibility requirements under Legislative Decree 82/2022. The platform was designed to evolve over time into a direct contact point between companies and the Agency.",
+    "transport_context": "Article 21(1) assigns AgID Article 1(3)(c) items 1–4: websites, mobile services/apps, electronic tickets/ticketing and transport information. Article 21(6) assigns item 5 terminals to the bodies that entrusted or authorised the transport service.",
+    "sources": [
+      "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+      "https://segnalazioni.agid.gov.it/auth/login",
+      "Gazzetta Ufficiale: 22G00089, Articles 1 and 21, published 2022-07-01"
+    ],
+    "limits": "Unknown refers to reporting-route availability, not supervisory responsibility. No certification of later statutory amendments or complete authority roster."
+  },
+  "validation": {
+    "EAA enforcement tracking.md": {
+      "row_headers": 17,
+      "column_headers": 17,
+      "text_and_links_unchanged": true
+    },
+    "EN 301 549 adoption.md": {
+      "row_headers": 14,
+      "column_headers": 6,
+      "text_and_links_unchanged": true
+    },
+    "monitoring": "Only Italy row has text/link changes; all other differences are table header semantics.",
+    "limits": "Existing adoption validator reads td only and rejects th row headers. Enforcement public-map validation also has baseline mismatch. Validators unchanged; semantic table changes verified separately.",
+    "markdownlint": "Pass",
+    "unit_tests": "27 adoption and 28 enforcement tests pass",
+    "link_languages": "Pass, 770 links checked"
+  },
+  "public_sha256": {
+    "monitoring-agencies-information.md": "d269839a54a19b3219df6b83b3c30722659e6e033c8e1f59fde2ab52f2134463",
+    "EAA enforcement tracking.md": "e5c8b598e6a66e48180ee0b4031452efc1a3bf5eee456fb2e26edf609330a0ab",
+    "EN 301 549 adoption.md": "764ba872c44660b9fd00c823d8c13e3949fa5d08adb7f435b8d1bfa24bcc300f"
+  },
+  "testing_pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/81",
+  "live_pr": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/81"
+}

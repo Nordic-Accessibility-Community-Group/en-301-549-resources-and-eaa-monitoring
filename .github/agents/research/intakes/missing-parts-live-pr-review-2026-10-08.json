@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "reviewer": "missing_pr_review",
+  "isolation": "Separate reviewer with no conversation-history fork; distinct from source-fidelity reviewer italy_transfer_wording. Supplied actual PR/head/base, evidence report and neutral integration brief. No new legal research.",
+  "pr": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/81",
+  "head": "eedb70df9ee3624278adb4e6be97ed77b242bd5b",
+  "base": "c025397bf1a00c4e14eaa90851a90e0fae2fb657",
+  "actual_github_metadata": "Read through GitHub connector; draft/open, exact matching head and base, eight changed files. Description read in full.",
+  "scope": "Italy monitoring reporting and related evidence, three public-page scoped headers, shared no-em-dash rule. Standards page excluded; PR80 separate.",
+  "verdict": "No public-content blocker identified. Research-record correction R1 resolved in the reviewed follow-up files; documented validation disposition remains required before merge.",
+  "findings": [
+    {
+      "id": "R1",
+      "priority": "P2",
+      "type": "research-record consistency",
+      "locations": [
+        ".github/agents/research/countries/italy.json:464",
+        ".github/agents/research/countries/italy.json:494",
+        ".github/agents/research/countries/italy.json:615"
+      ],
+      "finding": "Transferred review_note/open_questions still assert that SPID, CIE or eIDAS authentication is required, although the source-fidelity report says that absolute assertion was corrected to observed public sign-in options. The appended transfer notes do not expressly supersede the original assertion.",
+      "action": "Preserve historical checks but explicitly mark the authentication-requirement assertion superseded by the 2026-10-08 observed-options wording.",
+      "disposition": "Resolved in follow-up files reviewed 2026-10-08: all three historical required-authentication assertions now explicitly superseded by observed public sign-in options. History preserved; public files unchanged."
+    }
+  ],
+  "merge_checks": [
+    {
+      "owner": "Maintainer",
+      "check": "Disposition enforcement public-map mismatch and adoption td-only parser failure before merge.",
+      "evidence": "Enforcement check fails identically on baseline and head. Adoption coverage check raises Duplicate adoption row after scoped row headers. Enforcement/adoption public content is byte-identical after reversing only changed header markup.",
+      "resolution": "Document accepted validation disposition or separately repair validators and recheck; do not change frozen baselines merely to silence checks."
+    }
+  ],
+  "confirmed": [
+    "All three public SHA256 values match the source-fidelity/intake report.",
+    "Enforcement: 17 row and 17 column scopes; normalization exactly matches baseline content and links.",
+    "Adoption: 14 row and 6 column scopes; normalization exactly matches baseline content and links.",
+    "Monitoring: 36 row and 20 column scopes; normalization leaves only Italy reporting text/destination and source-notice addition.",
+    "Italy public wording matches exact strings in completed source-fidelity report, including observed sign-in options and limited AgID-supervised transport digital elements. Company, terminal, product and 112 route unknowns remain explicit.",
+    "Existing Italy enforcement/sanctions content and unrelated public entries are preserved. No standards-page or watcher-runtime modifications.",
+    "Italy source fingerprints and cross-page routing are recorded; the adoption routing key adoptation is inherited schema vocabulary explicitly recognized by check-country-records.py, not an introduced typo to fix in isolation.",
+    "PR description accurately identifies scope, Italian source and English wording, isolation, correction/recheck, source dates, limitations, before-PR resolutions and non-blocking follow-up. It does not claim human approval or green CI."
+  ],
+  "checks_run": {
+    "enforcement_unit_tests": "28 pass",
+    "adoption_unit_tests": "27 pass",
+    "enforcement_head": "FAIL public-map mismatch",
+    "enforcement_baseline": "Same FAIL public-map mismatch",
+    "adoption_coverage": "FAIL Duplicate adoption row, consistent with td-only parser limitation",
+    "public_hashes": "All match",
+    "normalized_public_comparison": "Pass"
+  },
+  "reported_not_rerun": {
+    "markdownlint": "Pass per intake report",
+    "link_language": "Pass, 770 links per intake report",
+    "unified_country_records": "Reported enforcement public-map failure; independent enforcement failure reproduced"
+  },
+  "limits": [
+    "No new legal research, live-source authentication/submission, independent freshness audit of inherited law, visual browser or assistive-technology rendering check, or human maintainer approval.",
+    "Source-fidelity review relied on stored distinct reviewer report. No new enforcement prose, so separate B2 wording review is not applicable to header-only enforcement changes.",
+    "No wholesale em-dash cleanup requested or performed; new shared rule governs presentation while inherited prose is preserved.",
+    "No comments, PR metadata changes, approval or merge performed."
+  ],
+  "public_sha256": {
+    "monitoring-agencies-information.md": "d269839a54a19b3219df6b83b3c30722659e6e033c8e1f59fde2ab52f2134463",
+    "EAA enforcement tracking.md": "e5c8b598e6a66e48180ee0b4031452efc1a3bf5eee456fb2e26edf609330a0ab",
+    "EN 301 549 adoption.md": "764ba872c44660b9fd00c823d8c13e3949fa5d08adb7f435b8d1bfa24bcc300f"
+  },
+  "followup_review": {
+    "status": "Reviewed local proposed follow-up; publication/head binding to be completed by coordinator after push. Original published head remains the head field above.",
+    "files_sha256": {
+      ".github/agents/research/countries/italy.json": "17979d9e7d1456398f0e8fa7bc7ff0409e78a8d8b684dfb4f1a731f73a18fd78",
+      ".github/agents/evidence-routing/events.json": "7dc63491a71d250ebb53bf0b48796e31f7736b91afa5fce33f2b07ed8dc5a283",
+      ".github/agents/research/intakes/missing-parts-live-transfer-2026-10-08.json": "2add6797697c59a6a79fd006b3c05fdef208d7280c09303396fa19f0ce33e459"
+    },
+    "findings": "Authentication history explicitly superseded; current routing updated to live PR81 with testing PR81 provenance retained in intake. All original reviewed public-file hashes unchanged."
+  }
+}

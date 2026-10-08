@@ -4,15 +4,15 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
 
 <table>
   <tr>
-    <th align="left" valign="top">Country or jurisdiction</th>
-    <th align="left" valign="top">Adoption or reference status</th>
-    <th align="left" valign="top">Date and event</th>
-    <th align="left" valign="top">Version</th>
-    <th align="left" valign="top">Additional information</th>
-    <th align="left" valign="top">Updated date</th>
+    <th scope="col" align="left" valign="top">Country or jurisdiction</th>
+    <th scope="col" align="left" valign="top">Adoption or reference status</th>
+    <th scope="col" align="left" valign="top">Date and event</th>
+    <th scope="col" align="left" valign="top">Version</th>
+    <th scope="col" align="left" valign="top">Additional information</th>
+    <th scope="col" align="left" valign="top">Updated date</th>
   </tr>
   <tr>
-    <td align="left" valign="top">Australia</td>
+    <th scope="row" align="left" valign="top">Australia</th>
     <td align="left" valign="top">Adopted (identical)</td>
     <td align="left" valign="top">Published: 2024-11-01</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -20,7 +20,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-10-02</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Canada</td>
+    <th scope="row" align="left" valign="top">Canada</th>
     <td align="left" valign="top">National standard adopted</td>
     <td align="left" valign="top">Adoption announced: 2024-05-31</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -28,7 +28,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-10-02</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Brazil</td>
+    <th scope="row" align="left" valign="top">Brazil</th>
     <td align="left" valign="top">Referenced</td>
     <td align="left" valign="top">ABNT first edition: 2025-03-11</td>
     <td align="left" valign="top">V3.2.1 (supporting material); V2.1.2 (bibliography)</td>
@@ -36,7 +36,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">European Union</td>
+    <th scope="row" align="left" valign="top">European Union</th>
     <td align="left" valign="top">Published standard; WAD reference</td>
     <td align="left" valign="top">V3.2.1 WAD citation: 2021-08-12<br>V4.1.1 published: 2026-09-02<br>OJ citation target: 2026-12-16</td>
     <td align="left" valign="top">V3.2.1:2021 (WAD citation)<br>V4.1.1:2026 (published)</td>
@@ -44,7 +44,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Iceland</td>
+    <th scope="row" align="left" valign="top">Iceland</th>
     <td align="left" valign="top">Adopted</td>
     <td align="left" valign="top">Standard effective: 2021-07-15</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -52,7 +52,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">India</td>
+    <th scope="row" align="left" valign="top">India</th>
     <td align="left" valign="top">Adopted with national adaptations</td>
     <td align="left" valign="top">Published: 2021-12</td>
     <td align="left" valign="top">V3.2.1</td>
@@ -60,7 +60,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Japan</td>
+    <th scope="row" align="left" valign="top">Japan</th>
     <td align="left" valign="top">Technical report / translation</td>
     <td align="left" valign="top">Report established: 2019-03</td>
     <td align="left" valign="top">V1.1.2</td>
@@ -68,7 +68,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Kenya</td>
+    <th scope="row" align="left" valign="top">Kenya</th>
     <td align="left" valign="top">Referenced</td>
     <td align="left" valign="top">First editions: 2022</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -76,7 +76,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Mexico</td>
+    <th scope="row" align="left" valign="top">Mexico</th>
     <td align="left" valign="top">Modified adoption</td>
     <td align="left" valign="top">DOF publication: 2018-11-23<br>Entry into force: 2019-01-22</td>
     <td align="left" valign="top">V1.1.2:2015</td>
@@ -84,7 +84,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">New Zealand</td>
+    <th scope="row" align="left" valign="top">New Zealand</th>
     <td align="left" valign="top">Draft reference</td>
     <td align="left" valign="top">Consultation: 2026-07-13 to 2026-08-07</td>
     <td align="left" valign="top">V4.1.1 (proposed; reference unconfirmed)</td>
@@ -92,7 +92,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Norway</td>
+    <th scope="row" align="left" valign="top">Norway</th>
     <td align="left" valign="top">Referenced in public-sector web rules</td>
     <td align="left" valign="top">Additional WAD requirements: 2023-02-01</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -100,7 +100,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Switzerland</td>
+    <th scope="row" align="left" valign="top">Switzerland</th>
     <td align="left" valign="top">Adopted</td>
     <td align="left" valign="top">Published: 2021-08-01</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -108,7 +108,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Turkey</td>
+    <th scope="row" align="left" valign="top">Turkey</th>
     <td align="left" valign="top">Adopted</td>
     <td align="left" valign="top">Adopted: 2021-09-30</td>
     <td align="left" valign="top">V3.2.1:2021</td>
@@ -116,7 +116,7 @@ This table tracks adoption, references and proposals involving EN 301 549. Stand
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">United Kingdom</td>
+    <th scope="row" align="left" valign="top">United Kingdom</th>
     <td align="left" valign="top">Adopted</td>
     <td align="left" valign="top">Published: 2021-06-30</td>
     <td align="left" valign="top">V3.2.1:2021</td>

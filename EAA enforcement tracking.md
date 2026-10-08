@@ -19,15 +19,15 @@ Type can be:
 </ul>
 <table>
   <tr>
-    <th align="left" valign="top">Country</th>
-    <th align="left" valign="top">Type</th>
-    <th align="left" valign="top">Status</th>
-    <th align="left" valign="top">Additional information</th>
-    <th align="left" valign="top">Date added</th>
-    <th align="left" valign="top">Date updated</th>
+    <th scope="col" align="left" valign="top">Country</th>
+    <th scope="col" align="left" valign="top">Type</th>
+    <th scope="col" align="left" valign="top">Status</th>
+    <th scope="col" align="left" valign="top">Additional information</th>
+    <th scope="col" align="left" valign="top">Date added</th>
+    <th scope="col" align="left" valign="top">Date updated</th>
   </tr>
     <tr>
-    <td align="left" valign="top">Austria</td>
+    <th scope="row" align="left" valign="top">Austria</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active</td>
     <td align="left" valign="top">
@@ -42,7 +42,7 @@ Type can be:
     <td align="left" valign="top"></td>
   </tr>
   <tr>
-    <td align="left" valign="top">Czech Republic</td>
+    <th scope="row" align="left" valign="top">Czech Republic</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">List publication</td>
     <td align="left" valign="top">
@@ -53,7 +53,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Denmark</td>
+    <th scope="row" align="left" valign="top">Denmark</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">
@@ -68,7 +68,7 @@ Type can be:
     <td align="left" valign="top">2026-09-16</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Estonia</td>
+    <th scope="row" align="left" valign="top">Estonia</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">
@@ -82,7 +82,7 @@ Type can be:
     <td align="left" valign="top">-</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Finland</td>
+    <th scope="row" align="left" valign="top">Finland</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">
@@ -109,7 +109,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">France</td>
+    <th scope="row" align="left" valign="top">France</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active</td>
     <td align="left" valign="top">
@@ -126,7 +126,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">France</td>
+    <th scope="row" align="left" valign="top">France</th>
     <td align="left" valign="top">Civil action</td>
     <td align="left" valign="top">Active: Court cases.</td>
     <td align="left" valign="top">
@@ -143,7 +143,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Germany</td>
+    <th scope="row" align="left" valign="top">Germany</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Monitoring reported</td>
     <td align="left" valign="top">
@@ -155,7 +155,7 @@ Type can be:
     <td align="left" valign="top">2026-09-27</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Ireland</td>
+    <th scope="row" align="left" valign="top">Ireland</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active</td>
     <td align="left" valign="top">
@@ -169,7 +169,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Netherlands</td>
+    <th scope="row" align="left" valign="top">Netherlands</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">
@@ -184,7 +184,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Slovenia</td>
+    <th scope="row" align="left" valign="top">Slovenia</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Inspection findings</td>
     <td align="left" valign="top">
@@ -195,7 +195,7 @@ Type can be:
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Slovenia</td>
+    <th scope="row" align="left" valign="top">Slovenia</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">Non-compliance warnings have been issued. No fines so far.</td>
@@ -203,7 +203,7 @@ Type can be:
     <td align="left" valign="top">-</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Sweden</td>
+    <th scope="row" align="left" valign="top">Sweden</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">Active monitoring</td>
     <td align="left" valign="top">
@@ -248,14 +248,14 @@ Added: 2025-12-19. Updated: 2026-09-30.
 ## Decisions from the EU commission
 <table>
   <tr>
-    <th align="left" valign="top">Countries affected</th>
-    <th align="left" valign="top">Details</th>
-    <th align="left" valign="top">Resources</th>
-    <th align="left" valign="top">Date added</th>
-    <th align="left" valign="top">Date updated</th>
+    <th scope="col" align="left" valign="top">Countries affected</th>
+    <th scope="col" align="left" valign="top">Details</th>
+    <th scope="col" align="left" valign="top">Resources</th>
+    <th scope="col" align="left" valign="top">Date added</th>
+    <th scope="col" align="left" valign="top">Date updated</th>
   </tr>
   <tr>
-    <td align="left" valign="top">Croatia 🇭🇷 and Germany 🇩🇪</td>
+    <th scope="row" align="left" valign="top">Croatia 🇭🇷 and Germany 🇩🇪</th>
     <td align="left" valign="top">On 11 March 2026, the European Commission decided to send additional reasoned opinions to Croatia (INFR(2022)0306) and Germany (INFR(2022)0295) for not fully incorporating the EAA into national law. The countries were given two months to respond and take the necessary measures.</td>
     <td align="left" valign="top">European Commission publication: <a href="https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_431/INF_26_431_EN.pdf" hreflang="en">March infringements package, 11 March 2026 (PDF, pp. 6–7)</a></td>
     <td align="left" valign="top">2026-06-24</td>
@@ -267,15 +267,15 @@ Added: 2025-12-19. Updated: 2026-09-30.
 Type can be Government agency, Monitoring agencies with authority to take action under the European Accessibility Act (EAA) or civil action.
 <table>
   <tr>
-    <th align="left" valign="top">Country</th>
-    <th align="left" valign="top">Type</th>
-    <th align="left" valign="top">Status</th>
-    <th align="left" valign="top">Additional information</th>
-    <th align="left" valign="top">Date added</th>
-    <th align="left" valign="top">Date updated</th>
+    <th scope="col" align="left" valign="top">Country</th>
+    <th scope="col" align="left" valign="top">Type</th>
+    <th scope="col" align="left" valign="top">Status</th>
+    <th scope="col" align="left" valign="top">Additional information</th>
+    <th scope="col" align="left" valign="top">Date added</th>
+    <th scope="col" align="left" valign="top">Date updated</th>
   </tr>
   <tr>
-    <td align="left" valign="top">Canada</td>
+    <th scope="row" align="left" valign="top">Canada</th>
     <td align="left" valign="top">Government agency — other accessibility law</td>
     <td align="left" valign="top">Monitoring reported</td>
     <td align="left" valign="top">
@@ -286,7 +286,7 @@ Type can be Government agency, Monitoring agencies with authority to take action
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">Norway</td>
+    <th scope="row" align="left" valign="top">Norway</th>
     <td align="left" valign="top">Government agency — other accessibility law</td>
     <td align="left" valign="top">Closed</td>
     <td align="left" valign="top">
@@ -298,7 +298,7 @@ Type can be Government agency, Monitoring agencies with authority to take action
     <td align="left" valign="top">2026-09-25</td>
   </tr>
   <tr>
-    <td align="left" valign="top">United Kingdom</td>
+    <th scope="row" align="left" valign="top">United Kingdom</th>
     <td align="left" valign="top">Government agency — other accessibility law</td>
     <td align="left" valign="top">Monitoring reported</td>
     <td align="left" valign="top">
