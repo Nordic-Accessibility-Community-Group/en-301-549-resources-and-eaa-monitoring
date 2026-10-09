@@ -8,11 +8,12 @@
 
 ## About the template
 This accessibility statement template for the is based on the demands from the EU-directive for the public sector.
-The focus is on assisting the user rather than merely outlining legal requirements and shortcomings/failures. THe monitoring agencies are for the EAA referred to as market surveillance.
+The focus is on assisting the user rather than merely outlining legal requirements and shortcomings/failures. The monitoring agencies are for the EAA referred to as market surveillance.
 
 ### What does the law say?
 It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">Table of countries under the EAA</a>. What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
-You need to report any known accessibility issues to the appropriate government agency for each country you're active in.
+
+You need to report any known accessibility issues to the appropriate government agency for each country you're active in. In the legal documents sent by Swedish authorities to a company after an audit, they point to the obligation to immediately notify monitoring agencies in all the countries where you provide the service.
 
 You also need to describe the accessibility or inaccessibility of products in your online store.
 
@@ -45,11 +46,20 @@ For the public sector the government agencies have been very strict in what they
 <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI" hreflang="en">Criteria for assessment of disproportionate burden</a>
 The directive says that an assessment needs to be made and documented to be able to claim disproportionate burden.
 
+### Countries with stated demands
+#### Sweden
+In Sweden you need to have at least a summary of how you comply with the EAA in the General terms and conditions. It is OK to link to more information in the Accessibility statement which is easier administration. For complying with *oral format* it is enough to be accessible for usage with users assistive technology as reading tools or screen readers.
+
+Sweden requires information about a service’s accessibility to describe the service, how it works, which accessibility requirements apply and how those requirements are met. The information must also explain how compliance is ensured and identify any requirements covered by exemptions invoked by the service provider.
+
+### Denmark
+In Denmark you need to record an audio file or video file as they interpret the *oral format* in a very strange way. It needs to be published in the website Accessibility statement.
+
 <!-- markdownlint-disable-next-line MD025 -->
 # Accessibility at [NAME of Company]
 > Before publishing, replace the sample content and all `example.com` links with your organisation's own information.
 
-> Here you need to add a general description of the service and how it functions. Explain the parts needed to understand how to use the service.
+> Here you need to add a general description of the service and how it functions. Explain the parts needed to understand how to use the service. Remember to add a summary in General terms and conditions and link to the Accessibility statement..
 ## We will help you
 Have you encountered something that didn't work? We'd be grateful for your feedback on how we can improve.
 Contact us and we'll get back to you in a way that suits you, and make sure you get the help you need as soon as possible.
