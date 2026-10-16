@@ -1820,6 +1820,27 @@
       "evidence": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
       "section": "Sweden law row; https://svenskforfattningssamling.se/sites/default/files/sfs/2023-11/SFS2023-676.pdf",
       "source_type": "other_unverified"
+    },
+    "source-5c44d90ca940fa0c41494ab0": {
+      "url": "https://www.pts.se/contentassets/1537cfeb7c0940b2aebe438ef16f81b7/ptsfs-2026-6.pdf",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "8 §; 15 §; entry-into-force clause",
+      "evidence": "PTSFS 2026:6 was decided 16 September 2026 and published 24 September 2026. It permits the EU declaration of conformity and information supplied to PTS under section 22 LPTT to be in Swedish or English, effective 1 November 2026."
+    },
+    "source-d284bc525b9a64b2766a8bae": {
+      "url": "https://lptt.pts.se/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "Landing page and step 1 of 4",
+      "evidence": "Ordinary-browser check: the public EAA complaint portal rendered, stated that complaints may be anonymous, and exposed the first form step without sign-in. The interface was Swedish and no language selector was observed. No form was submitted."
+    },
+    "source-ad23c72aec2bae2a921d3e50": {
+      "url": "https://lptt-rapportering.pts.se/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "Landing page; product route; steps 1–2 of 4",
+      "evidence": "Ordinary-browser check: the company portal rendered without sign-in through step 2 for a product defect report under sections 21 or 24 LPTT. The interface was Swedish, no language selector was observed, and a required file-upload control was displayed. No data or file was supplied and no form was submitted."
     }
   },
   "domains": {
@@ -2338,19 +2359,43 @@
             "source-713a4adbf42eead5ab023f30"
           ],
           "id": "monitoring-ca55ebbcb9c62d4e571a7855"
+        },
+        {
+          "id": "monitoring-f0214e42a1bf629ca4c715af",
+          "field": "additional_information",
+          "assertion": "PTSFS 2026:6 permits the EU declaration of conformity and information supplied to PTS under section 22 LPTT to be in Swedish or English from 1 November 2026.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Product market surveillance only",
+          "review_note": "Adopted amendment, not a proposal. It changes sections 8 and 15 of PTSFS 2024:5. It does not establish accepted languages for service-defect reports, public complaints, or other authorities.",
+          "source_refs": [
+            "source-5c44d90ca940fa0c41494ab0"
+          ]
+        },
+        {
+          "id": "monitoring-55a3db8c0ec8a64a5ac7f874",
+          "field": "additional_information",
+          "assertion": "On 9 October 2026 both PTS EAA portals rendered in an ordinary browser through their initial actionable steps.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Portal visibility and observed interface only",
+          "review_note": "Public complaints reached step 1 and the landing page stated anonymous complaints are possible. Company product-defect reporting reached step 2 without sign-in. Both interfaces were Swedish and no language selector was observed. This does not establish accepted submission languages, successful end-to-end submission, or the scope of PTSFS 2026:6 beyond product information under sections 8 and 15 of PTSFS 2024:5. No form was submitted and no file or personal data was supplied.",
+          "source_refs": [
+            "source-d284bc525b9a64b2766a8bae",
+            "source-ad23c72aec2bae2a921d3e50"
+          ]
         }
       ],
       "questions": [
         "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
         "Before PR: Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified.",
-        "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
+        "Follow-up after ordinary-browser check on 2026-10-09: both PTS portals rendered through initial actionable steps without sign-in; the interfaces were Swedish and no language selector was observed. Accepted submission languages and end-to-end operation remain unknown because no data, file or form was submitted. MTM/Mediemyndigheten destination checks remain separate.",
         "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
         "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
         "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
         "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
         "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven.",
-        "Cross-page handoff 2026-09-25 / seed-discovery-2-2026-09-25: PTS proposed allowing Swedish or English information in product market-surveillance cases, with entry into force planned for October 2026; this announcement does not establish final adoption. Find final adopted PTSFS text and effective date. Do not revise historical service-reporting language evidence based on a product proposal. Source lead: https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion.",
         "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred.",
         "2026-10-06 source comparison: Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified."
       ]
@@ -2964,17 +3009,17 @@
       "id": "seed-discovery-2-2026-09-25",
       "country": "Sweden",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "draft_pr",
+      "reason": "PTSFS 2026:6 verifies adoption of the product-language amendment, effective 1 November 2026.",
+      "next_action": "Review draft PR #85; preserve product-only scope and the distinction from service/public reporting languages.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "needs_evidence",
-          "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "pr": null,
+          "disposition": "draft_pr",
+          "reason": "Add the adopted Swedish-or-English rule for specified product market-surveillance documents, with the 1 November 2026 effective date and explicit product-only limitation.",
+          "next_action": "Review draft PR #85.",
+          "pr": 85,
           "domain": "monitoring"
         },
         {

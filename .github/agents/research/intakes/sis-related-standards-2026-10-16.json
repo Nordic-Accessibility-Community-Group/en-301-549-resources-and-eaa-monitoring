@@ -1,0 +1,76 @@
+{
+  "id": "sis-related-standards-2026-10-16",
+  "checked_on": "2026-10-16",
+  "event_date": "2026-10-12",
+  "source_url": "https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/",
+  "source_language": "sv",
+  "source_type": "standards_body_event_agenda",
+  "source_summary": "Preliminary seminar agenda names EN 301 549, EN 17161, EN 18339, EN 18340, ISO 21801-1, ISO 24495-1 and ISO/IEC 23859.",
+  "standards": [
+    {
+      "number": "ISO 21801-1:2020",
+      "title": "Cognitive accessibility: Part 1: General guidelines",
+      "url": "https://www.iso.org/standard/71711.html",
+      "description": "Guidelines for designing and developing cognitively accessible products, services and built environments.",
+      "status": "Published January 2020; confirmed in 2025.",
+      "eaa": "Supporting guidance for cognitive accessibility of covered products and services.",
+      "wad": "Supporting guidance for cognitive accessibility of websites and mobile apps.",
+      "verification": "ISO catalogue abstract and life-cycle retrieved; full paid standard not inspected."
+    },
+    {
+      "number": "ISO 24495-1:2023",
+      "title": "Plain language: Part 1: Governing principles and guidelines",
+      "url": "https://www.iso.org/standard/78907.html",
+      "description": "Principles and guidelines for creating primarily text-based plain language documents in print and digital formats.",
+      "status": "Published June 2023.",
+      "eaa": "Supporting guidance for understandable written information about covered products and services.",
+      "wad": "Supporting guidance for understandable text on websites and mobile apps.",
+      "verification": "ISO catalogue abstract and life-cycle retrieved; full paid standard not inspected."
+    },
+    {
+      "number": "ISO/IEC 23859:2023",
+      "title": "Information technology: User interfaces: Requirements and recommendations on making written text easy to read and understand",
+      "url": "https://www.iso.org/standard/77178.html",
+      "description": "Requirements and recommendations for creating, adapting and evaluating written text that is easy to read and understand in user interfaces.",
+      "status": "Published July 2023.",
+      "eaa": "Supporting guidance for understandable written text in covered user interfaces.",
+      "wad": "Supporting guidance for understandable written text on websites and mobile apps.",
+      "verification": "ISO catalogue abstract and life-cycle retrieved; full paid standard not inspected."
+    }
+  ],
+  "oj_check": "No EAA/WAD citation identified in targeted EUR-Lex searches for each identifier on 2026-10-16; No follows the page definition, not a universal claim about every OJ document.",
+  "scope": "Applicability cells are editorial supporting-use mappings, not legal obligations or presumption of conformity.",
+  "dispositions": {
+    "EAA and WAD standards.md": "Add three absent ISO standards to Related standards; four EN identifiers already present in main table.",
+    "EN 301 549 adoption.md": "not_applicable: no new national EN 301 549 adoption fact.",
+    "monitoring-agencies-information.md": "not_applicable: no new authority or reporting route.",
+    "EAA enforcement tracking.md": "not_applicable: no enforcement action.",
+    "EAA sanctions.md": "not_applicable: no sanction provision."
+  },
+  "review": {
+    "reviewer": "/root/sis_source_review",
+    "isolation": "fork_turns=none; sources and exact wording only",
+    "date": "2026-10-16",
+    "verdict": "Supported after corrections",
+    "corrections": [
+      [
+        "Principles and guidelines for creating plain language documents in print and digital formats.",
+        "Principles and guidelines for creating primarily text-based plain language documents in print and digital formats."
+      ],
+      [
+        "Supporting guidance for understandable information about covered products and services.",
+        "Supporting guidance for understandable written information about covered products and services."
+      ],
+      [
+        "Requirements and recommendations for creating, adapting and evaluating easy-to-understand written text in user interfaces.",
+        "Requirements and recommendations for creating, adapting and evaluating written text that is easy to read and understand in user interfaces."
+      ],
+      [
+        "The <a href=\"https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/\" hreflang=\"sv\">SIS accessibility seminar on 12 October 2026</a> highlights ISO 21801-1, ISO 24495-1 and ISO/IEC 23859, alongside European standards listed above.",
+        "The agenda for the <a href=\"https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/\" hreflang=\"sv\">SIS accessibility seminar on 12 October 2026</a> lists ISO 21801-1, ISO 24495-1 and ISO/IEC 23859 alongside the European standards listed above."
+      ]
+    ],
+    "scope_limit": "Linguistic fidelity only; supporting applicability is an inference.",
+    "exact_public_additions": "The agenda for the <a href=\"https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/\" hreflang=\"sv\">SIS accessibility seminar on 12 October 2026</a> lists ISO 21801-1, ISO 24495-1 and ISO/IEC 23859 alongside the European standards listed above.\n\n    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://www.iso.org/standard/71711.html\" hreflang=\"en\">ISO 21801-1:2020: Cognitive accessibility: Part 1: General guidelines</a><br><br>Guidelines for designing and developing cognitively accessible products, services and built environments.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Published January 2020; confirmed in 2025.<br><br><a href=\"https://www.iso.org/standard/71711.html\" hreflang=\"en\">ISO publication and development history</a>.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for cognitive accessibility of covered products and services.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for cognitive accessibility of websites and mobile apps.</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://www.iso.org/standard/78907.html\" hreflang=\"en\">ISO 24495-1:2023: Plain language: Part 1: Governing principles and guidelines</a><br><br>Principles and guidelines for creating primarily text-based plain language documents in print and digital formats.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Published June 2023.<br><br><a href=\"https://www.iso.org/standard/78907.html\" hreflang=\"en\">ISO publication and development history</a>.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for understandable written information about covered products and services.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for understandable text on websites and mobile apps.</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://www.iso.org/standard/77178.html\" hreflang=\"en\">ISO/IEC 23859:2023: Information technology: User interfaces: Requirements and recommendations on making written text easy to read and understand</a><br><br>Requirements and recommendations for creating, adapting and evaluating written text that is easy to read and understand in user interfaces.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Published July 2023.<br><br><a href=\"https://www.iso.org/standard/77178.html\" hreflang=\"en\">ISO publication and development history</a>.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for understandable written text in covered user interfaces.</td>\n      <td align=\"left\" valign=\"top\">Supporting guidance for understandable written text on websites and mobile apps.</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n"
+  }
+}

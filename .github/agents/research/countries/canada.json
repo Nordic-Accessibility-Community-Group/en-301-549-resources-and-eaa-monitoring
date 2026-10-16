@@ -122,6 +122,51 @@
       "accessed_on": "2026-10-02",
       "access": "reachable",
       "method": "web reader, publication metadata, preface and clause12.1"
+    },
+    "source-4266e11c257d6668ae569d74": {
+      "issuer": "CSA Group and Accessibility Standards Canada",
+      "url": "https://www.csagroup.org/wp-content/uploads/2431490.pdf",
+      "language": "en",
+      "source_type": "official_standard_body",
+      "publication_date": "2025-01",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Cover; clauses 1.1-1.4, 4.2.5 and 10.7.1; Annex C",
+      "passage": "Summary: The standard covers self-service machines, including bank, retail checkout, check-in and ticket devices, across design and installation. It excludes drive-up physical environments and provider-uncontrolled web content. Clause 4.2.5 requires tactile input; 10.7.1 requires Annex C. Table C.1 permits applicable virtual keyboards only as redundant input. A full alphanumeric keyboard is not universally required.",
+      "method": "Official PDF text inspected; no complete conformance audit."
+    },
+    "source-4346438cd0c790793daa76d5": {
+      "issuer": "Accessibility Standards Canada",
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines",
+      "language": "en",
+      "source_type": "official_standard_body",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Standard overview",
+      "passage": "B651.2 combines and revises CAN/CSA-B651.1:09 (R2020) and CAN/CSA-B651.2-07 (R2017). Scope includes banking machines, their sites and other public self-service interactive devices. The publisher provides a free full PDF.",
+      "method": "Official HTML retrieved and read."
+    },
+    "source-d9e991287f997fdbd6ceb86f": {
+      "issuer": "Canadian Transportation Agency",
+      "url": "https://otc-cta.gc.ca/eng/csa-group-accessibility-standards-cta?wbdisable=true",
+      "language": "en",
+      "source_type": "official_government",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Context and Related content",
+      "passage": "CTA guidance says transport providers must continue meeting CAN/CSA-B651.2-07 (R2017) for kiosk technical specifications. Its related-content link labels R2022. Preserve this distinction; do not infer that the 2025 publication automatically changes the required edition.",
+      "method": "Official HTML retrieved and read."
+    },
+    "source-8dc0603f8422105b35186ce4": {
+      "issuer": "Department of Justice Canada",
+      "url": "https://laws.justice.gc.ca/eng/regulations/SOR-2019-244/FullText.html",
+      "language": "en",
+      "source_type": "official_legislation",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Accessible Transportation for Persons with Disabilities Regulations, sections 11-14",
+      "passage": "Section 11 names CAN/CSA-B651.2-07 (R2017), clauses 1.4 and 3-7 and Annexes B/C excluding notes, as amended from time to time, for kiosk hardware/software controlled by covered transport providers. Sections 13-14 require assistance and maintenance. Publication of B651.2:25 alone does not prove replacement of the legal reference.",
+      "method": "Official consolidated legislation retrieved and read."
     }
   },
   "domains": {
@@ -548,7 +593,42 @@
         ],
         "5": []
       },
-      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json",
+      "related_standards": [
+        {
+          "id": "canada-b651-2-2025-2026-10-16",
+          "checked_on": "2026-10-16",
+          "source_refs": [
+            "source-4266e11c257d6668ae569d74",
+            "source-4346438cd0c790793daa76d5",
+            "source-d9e991287f997fdbd6ceb86f",
+            "source-8dc0603f8422105b35186ce4"
+          ],
+          "public_page": "EAA and WAD standards.md",
+          "scope": "Related national terminal standard; not an EN 301 549 adoption claim. Keep the adoption public page EN-only.",
+          "technical_notes": [
+            "Tactile input is required by clause 4.2.5; a full alphanumeric keyboard is not universally required.",
+            "Annex C is normative. Applicable virtual keyboards in Table C.1 provide redundant input, subject to its task-specific entries.",
+            "Requirements for conformity with this standard are distinct from obligations under particular Canadian laws."
+          ],
+          "legal_notes": [
+            "ATPDR section 11 expressly names the 2007 standard reaffirmed 2017, as amended from time to time. CTA context repeats R2017; its related-content link uses R2022. No inference that the 2025 replacement is automatically mandated.",
+            "No nationwide application, legal update to the 2025 edition, or current enforcement outcome established by this check."
+          ],
+          "follow_up": [
+            "Verify the legally required edition for a particular installation and any later CTA clarification.",
+            "CSA/ASC B651:23 is a related built-environment reference in the standard; retain as a research candidate, not a new public row in this pass."
+          ],
+          "review": {
+            "reviewer": "/root/canada_related_review",
+            "isolation": "fork_turns=none; original source passages and exact proposed wording only",
+            "verdict": "Supported",
+            "date": "2026-10-16",
+            "limit": "Linguistic fidelity, not certification of legal applicability.",
+            "exact_public_row": "    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://www.csagroup.org/wp-content/uploads/2431490.pdf\" hreflang=\"en\">CSA/ASC B651.2:25: Accessible design for self-service interactive devices including automated banking machines</a> (Free PDF)<br><br>Accessibility requirements for the design and installation of self-service devices, including banking machines, retail self-checkouts, check-in devices and ticket kiosks.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Published January 2025.<br><br><a href=\"https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines\" hreflang=\"en\">Accessibility Standards Canada publication record</a>.</td>\n      <td align=\"left\" valign=\"top\">Comparative technical reference for self-service terminals. Does not establish EAA conformity.</td>\n      <td align=\"left\" valign=\"top\">Not applicable</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n"
+          }
+        }
+      ]
     }
   },
   "deliveries": [
@@ -711,6 +791,51 @@
           "disposition": "not_applicable",
           "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
           "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "canada-b651-2-2025-2026-10-16",
+      "country": "Canada",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "research_only",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
           "pr": null
         }
       ]

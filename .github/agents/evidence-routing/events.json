@@ -1008,6 +1008,51 @@
       ]
     },
     {
+      "id": "canada-b651-2-2025-2026-10-16",
+      "country": "Canada",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "research_only",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-7-2026-09-27-148",
       "country": "Chad",
       "destinations": [
@@ -4163,17 +4208,17 @@
       "id": "seed-discovery-2-2026-09-25",
       "country": "Sweden",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "draft_pr",
+      "reason": "PTSFS 2026:6 verifies adoption of the product-language amendment, effective 1 November 2026.",
+      "next_action": "Review draft PR #85; preserve product-only scope and the distinction from service/public reporting languages.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "needs_evidence",
-          "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "pr": null,
+          "disposition": "draft_pr",
+          "reason": "Add the adopted Swedish-or-English rule for specified product market-surveillance documents, with the 1 November 2026 effective date and explicit product-only limitation.",
+          "next_action": "Review draft PR #85.",
+          "pr": 85,
           "domain": "monitoring"
         },
         {
@@ -5139,6 +5184,52 @@
           "disposition": "not_applicable",
           "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
           "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "uk-bs8300-guidance-2026-10-16",
+      "country": "United Kingdom",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "pr": 88,
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "research_only",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": 88
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
           "pr": null
         }
       ]
