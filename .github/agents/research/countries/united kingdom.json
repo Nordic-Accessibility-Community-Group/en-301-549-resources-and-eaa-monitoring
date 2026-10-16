@@ -100,6 +100,30 @@
       "accessed_on": "2026-10-02",
       "access": "reachable",
       "method": "ordinary browser, project search then expanded publication panel"
+    },
+    "source-65ac6ce28377b5d4b25efd69": {
+      "issuer": "BSI",
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice",
+      "language": "en",
+      "source_type": "official_standard_body",
+      "publication_date": "2018-01-31",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Catalogue title, current status and scope",
+      "passage": "BS 8300-1:2018 is listed as Current, published 31 January 2018. Guidance on accessible outdoor environments, including routes, parking and approaches to buildings. Recommendations primarily concern new developments but may support assessment and improvement of existing environments.",
+      "method": "Official catalogue read; full paid text and terminal-specific clauses not inspected."
+    },
+    "source-b1448aa34ecdd7ff9b5e8066": {
+      "issuer": "BSI",
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice",
+      "language": "en",
+      "source_type": "official_standard_body",
+      "publication_date": "2018-01-31",
+      "accessed_on": "2026-10-16",
+      "access": "reachable",
+      "reference": "Catalogue title, current status and scope",
+      "passage": "BS 8300-2:2018 is listed as Current, published 31 January 2018. Guidance on accessible buildings, including entrances, reception areas, circulation and facilities. Recommendations primarily concern new developments but may support assessment and improvement of existing environments.",
+      "method": "Official catalogue read; full paid text and terminal-specific clauses not inspected."
     }
   },
   "domains": {
@@ -584,7 +608,6 @@
       ],
       "public_cells": {
         "0": [],
-        "5": [],
         "1": [
           "adoption-united-kingdom-round2-cell-1"
         ],
@@ -597,9 +620,34 @@
         "4": [
           "adoption-united-kingdom-round2-cell-4",
           "adoption-united-kingdom-revision-20261002"
-        ]
+        ],
+        "5": []
       },
-      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json",
+      "related_standards": [
+        {
+          "id": "uk-bs8300-guidance-2026-10-16",
+          "checked_on": "2026-10-16",
+          "source_refs": [
+            "source-65ac6ce28377b5d4b25efd69",
+            "source-b1448aa34ecdd7ff9b5e8066"
+          ],
+          "public_page": "EAA and WAD standards.md",
+          "scope": "Supporting built-environment guidance, not EN 301 549 adoption or mandatory EAA/WAD standards. The EN-only adoption public page is unchanged.",
+          "limitations": [
+            "Paid texts not inspected; no terminal-specific clause claims.",
+            "Part 1 excludes management and maintenance recommendations apart from an issues list. Part 2 excludes individual dwellings and residential buildings specifically designed for complex or multiple impairments.",
+            "Publication and national-standard status do not establish EAA conformity or an OJ citation."
+          ],
+          "review": {
+            "reviewer": "/root/bs8300_review",
+            "isolation": "fork_turns=none; source passages and exact wording only",
+            "date": "2026-10-16",
+            "exact_public_rows": "    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice\" hreflang=\"en\">BS 8300-1:2018: Design of an accessible and inclusive built environment: External environment. Code of practice</a><br><br>Guidance on accessible outdoor environments, including routes, parking and approaches to buildings.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Current. Published January 2018.<br><br><a href=\"https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice\" hreflang=\"en\">BSI publication and history</a>.</td>\n      <td align=\"left\" valign=\"top\">Supporting design guidance for outdoor access to covered services and terminals; national built-environment rules apply.</td>\n      <td align=\"left\" valign=\"top\">Not applicable</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n    <!-- last_verified: 2026-10-16 -->\n    <tr>\n      <td align=\"left\" valign=\"top\"><a href=\"https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice\" hreflang=\"en\">BS 8300-2:2018: Design of an accessible and inclusive built environment: Buildings. Code of practice</a><br><br>Guidance on accessible buildings, including entrances, reception areas, circulation and facilities.</td>\n      <td align=\"left\" valign=\"top\">No</td>\n      <td align=\"left\" valign=\"top\">Current. Published January 2018.<br><br><a href=\"https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice\" hreflang=\"en\">BSI publication and history</a>.</td>\n      <td align=\"left\" valign=\"top\">Supporting design guidance for buildings housing covered services and terminals; national built-environment rules apply.</td>\n      <td align=\"left\" valign=\"top\">Not applicable</td>\n      <td align=\"left\" valign=\"top\">2026-10-16</td>\n    </tr>\n",
+            "verdict": "Supported; EAA/WAD cells are editorial supporting-use classifications, not a legal applicability finding."
+          }
+        }
+      ]
     }
   },
   "deliveries": [
@@ -804,6 +852,52 @@
           "disposition": "not_applicable",
           "reason": "This pass establishes non-EAA legal/standards context, not a new enforcement event or EAA monitoring/sanctions change. Evidence retained in adoption domain; no unsupported cross-page claim.",
           "next_action": "No public change from this evidence event.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "uk-bs8300-guidance-2026-10-16",
+      "country": "United Kingdom",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "pr": 88,
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "research_only",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": 88
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
           "pr": null
         }
       ]

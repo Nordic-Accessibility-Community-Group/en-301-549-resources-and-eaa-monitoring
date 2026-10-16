@@ -82,6 +82,87 @@ Applicability includes the beneficial use of a standard to improve accessibility
   </tbody>
 </table>
 
+## Related standards
+
+<table>
+  <caption>Related accessibility standards</caption>
+  <thead>
+    <tr>
+      <th scope="col" align="left" valign="top">Standard</th>
+      <th scope="col" align="left" valign="top">Official journal citation</th>
+      <th scope="col" align="left" valign="top">Status and draft schedule</th>
+      <th scope="col" align="left" valign="top">EAA applicability</th>
+      <th scope="col" align="left" valign="top">WAD applicability</th>
+      <th scope="col" align="left" valign="top">Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/86525.html" hreflang="en">ISO/IEC 20071-31:2026: Information technology: User interface component accessibility: Part 31: Accessibility of kiosks</a><br><br>Requirements and guidance for accessible kiosk hardware, software, content and installation environments.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Edition 1 published on 2026-08-18.<br><br><a href="https://www.iso.org/standard/86525.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for covered self-service terminals.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/71711.html" hreflang="en">ISO 21801-1:2020: Cognitive accessibility: Part 1: General guidelines</a><br><br>Guidelines for designing and developing cognitively accessible products, services and built environments.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published January 2020; confirmed in 2025.<br><br><a href="https://www.iso.org/standard/71711.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for cognitive accessibility of covered products and services.</td>
+      <td align="left" valign="top">Supporting guidance for cognitive accessibility of websites and mobile apps.</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/78907.html" hreflang="en">ISO 24495-1:2023: Plain language: Part 1: Governing principles and guidelines</a><br><br>Principles and guidelines for creating primarily text-based plain language documents in print and digital formats.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published June 2023.<br><br><a href="https://www.iso.org/standard/78907.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written information about covered products and services.</td>
+      <td align="left" valign="top">Supporting guidance for understandable text on websites and mobile apps.</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/77178.html" hreflang="en">ISO/IEC 23859:2023: Information technology: User interfaces: Requirements and recommendations on making written text easy to read and understand</a><br><br>Requirements and recommendations for creating, adapting and evaluating written text that is easy to read and understand in user interfaces.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published July 2023.<br><br><a href="https://www.iso.org/standard/77178.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written text in covered user interfaces.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written text on websites and mobile apps.</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.csagroup.org/wp-content/uploads/2431490.pdf" hreflang="en">CSA/ASC B651.2:25: Accessible design for self-service interactive devices including automated banking machines</a> (Free PDF)<br><br>Accessibility requirements for the design and installation of self-service devices, including banking machines, retail self-checkouts, check-in devices and ticket kiosks.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published January 2025.<br><br><a href="https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines" hreflang="en">Accessibility Standards Canada publication record</a>.</td>
+      <td align="left" valign="top">Comparative technical reference for self-service terminals. Does not establish EAA conformity.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice" hreflang="en">BS 8300-1:2018: Design of an accessible and inclusive built environment: External environment. Code of practice</a><br><br>Guidance on accessible outdoor environments, including routes, parking and approaches to buildings.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Current. Published January 2018.<br><br><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice" hreflang="en">BSI publication and history</a>.</td>
+      <td align="left" valign="top">Supporting design guidance for outdoor access to covered services and terminals; national built-environment rules apply.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice" hreflang="en">BS 8300-2:2018: Design of an accessible and inclusive built environment: Buildings. Code of practice</a><br><br>Guidance on accessible buildings, including entrances, reception areas, circulation and facilities.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Current. Published January 2018.<br><br><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice" hreflang="en">BSI publication and history</a>.</td>
+      <td align="left" valign="top">Supporting design guidance for buildings housing covered services and terminals; national built-environment rules apply.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Reading the status and schedule columns
 
 - **Official journal citation:** **Yes** applies only to the edition and directive named in the cell; **No** means no citation was identified in the sources checked on the entry date. The cited edition can differ from the latest published version; see Status and draft schedule. A **No** does not postpone accessibility obligations.

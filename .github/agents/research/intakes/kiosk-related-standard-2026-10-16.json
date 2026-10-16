@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-16",
+  "scope": "Add one separate Related standards table; existing six European standards unchanged.",
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/86525.html",
+      "issuer": "ISO",
+      "publication_date": "2026-08-18",
+      "accessed_on": "2026-10-16",
+      "language": "en",
+      "summary": "Edition1 published; scope covers kiosk hardware, software, content, installation environment, design and operation."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng",
+      "section": "Article 2(1)(b)",
+      "summary": "Specified self-service terminals within EAA scope."
+    }
+  ],
+  "citation_check": "Targeted EUR-Lex and European Commission searches for 20071-31 found no citation. No means no citation identified, as defined on page.",
+  "review": {
+    "reviewer": "kiosk_source_review",
+    "isolation": "No conversation history; original English passages and proposed wording only.",
+    "verdict": "Supported; title initially omitted from supplied evidence, then supplied and confirmed.",
+    "reviewed_description": "Requirements and guidance for accessible kiosk hardware, software, content and installation environments.",
+    "reviewed_status": "Edition 1 published on 2026-08-18.",
+    "reviewed_relevance": "Supporting guidance for covered self-service terminals."
+  },
+  "limits": "Catalogue scope reviewed, not purchased full standard. No clause-by-clause compliance mapping; no new national adoption, monitoring, enforcement or sanctions evidence. WAD concerns websites and mobile applications, not kiosk-specific requirements. Existing entries not rechecked.",
+  "routing": {
+    "standards": "proposed",
+    "adoption": "not_applicable: no EN301549 adoption evidence",
+    "monitoring": "not_applicable",
+    "enforcement": "not_applicable",
+    "sanctions": "not_applicable"
+  }
+}

@@ -6277,6 +6277,66 @@
       "language": "en",
       "reason": "Local standards page inspected; prose and table are English. Transfer of merged testing page.",
       "checked_on": "2026-10-08"
+    },
+    {
+      "url": "https://www.iso.org/standard/86525.html",
+      "language": "en",
+      "reason": "Official English ISO catalogue and lifecycle read on 2026-10-16.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/71711.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/78907.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/77178.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/",
+      "language": "sv",
+      "reason": "SIS Swedish seminar agenda retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.csagroup.org/wp-content/uploads/2431490.pdf",
+      "language": "en",
+      "reason": "Official English publisher PDF or standard catalogue read on 2026-10-16.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines",
+      "language": "en",
+      "reason": "Official English publisher PDF or standard catalogue read on 2026-10-16.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice",
+      "language": "en",
+      "checked_on": "2026-10-16",
+      "reason": "BSI English catalogue scope and current publication status retrieved and read."
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice",
+      "language": "en",
+      "checked_on": "2026-10-16",
+      "reason": "BSI English catalogue scope and current publication status retrieved and read."
+    },
+    {
+      "url": "https://www.pts.se/contentassets/1537cfeb7c0940b2aebe438ef16f81b7/ptsfs-2026-6.pdf",
+      "language": "sv",
+      "reason": "Swedish PTS regulation; source language retained from the merged Sweden research record.",
+      "checked_on": "2026-10-16"
     }
   ]
 }
