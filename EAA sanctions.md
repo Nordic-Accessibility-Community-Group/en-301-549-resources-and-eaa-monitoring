@@ -1,6 +1,6 @@
 # EAA sanctions by country
 
-The European Accessibility Act (EAA) is implemented through national law. The possible sanctions therefore differ between countries. For authorities and reporting routes, see <a href="monitoring-agencies-information.md" hreflang="en">monitoring agencies information</a>.
+The European Accessibility Act (EAA) is implemented through national law. The possible sanctions therefore differ between countries. For authorities and reporting routes, see <a href="EAA%20authorities%20and%20reporting%20by%20country.md" hreflang="en">EAA authorities and reporting by country</a>.
 
 This page describes sanctions available under national legislation. It does not mean that these sanctions have been imposed. See <a href="EAA%20enforcement%20tracking.md" hreflang="en">EAA enforcement tracking</a> for reported enforcement activity.
 

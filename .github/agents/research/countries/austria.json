@@ -768,7 +768,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/austria.json",
           "disposition": "research_only",
@@ -805,7 +805,7 @@
       "next_action": "Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/austria.json",
           "domain": "monitoring",
           "disposition": "needs_evidence",

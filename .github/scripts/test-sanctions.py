@@ -16,7 +16,7 @@ class SanctionsChecks(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
-        for name in ['EAA sanctions.md', 'EAA enforcement tracking.md', 'monitoring-agencies-information.md']:
+        for name in ['EAA sanctions.md', 'EAA enforcement tracking.md', 'EAA authorities and reporting by country.md']:
             shutil.copy(ROOT / name, self.root / name)
         shutil.copytree(ROOT / '.github/agents/research/sanctions', self.root / '.github/agents/research/sanctions')
         shutil.copytree(ROOT / '.github/agents/research/countries', self.root / '.github/agents/research/countries')

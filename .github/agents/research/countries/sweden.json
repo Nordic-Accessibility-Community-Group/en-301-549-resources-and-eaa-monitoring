@@ -3014,7 +3014,7 @@
       "next_action": "Review draft PR #85; preserve product-only scope and the distinction from service/public reporting languages.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "draft_pr",
           "reason": "Add the adopted Swedish-or-English rule for specified product market-surveillance documents, with the 1 November 2026 effective date and explicit product-only limitation.",
@@ -3048,7 +3048,7 @@
       "recorded_on": "2026-09-25",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "not_applicable",
           "reason": "No additional relevant finding from this reviewed item.",
@@ -3085,7 +3085,7 @@
       "next_action": "Review PR #61.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "already_present",
           "reason": "Authority remit and reporting-service existence already listed; supporting research added.",
@@ -3127,7 +3127,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "research_only",
@@ -3169,7 +3169,7 @@
           "pr": null
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "not_applicable",
@@ -3202,7 +3202,7 @@
       "country": "Sweden",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "research_only",
@@ -3248,7 +3248,7 @@
       "next_action": "Review focused wording.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "domain": "monitoring",
           "disposition": "proposed",
@@ -3285,7 +3285,7 @@
       "next_action": "Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "domain": "monitoring",
           "disposition": "needs_evidence",

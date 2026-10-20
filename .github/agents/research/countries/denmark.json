@@ -967,7 +967,7 @@
       "recorded_on": "2026-09-25",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/denmark.json",
           "disposition": "already_present",
           "reason": "Mailbox ambiguity and provenance are already recorded; watcher evidence adds no supported assertion.",
@@ -1009,7 +1009,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/denmark.json",
           "disposition": "research_only",

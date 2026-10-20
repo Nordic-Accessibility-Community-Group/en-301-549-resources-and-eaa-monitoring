@@ -541,7 +541,7 @@
       "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/estonia.json",
           "disposition": "already_present",
           "reason": "Delivered in merged PR #55; evidence qualifications remain unchanged.",
@@ -583,7 +583,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/estonia.json",
           "disposition": "research_only",

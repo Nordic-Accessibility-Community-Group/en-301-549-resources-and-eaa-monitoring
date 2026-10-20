@@ -187,7 +187,7 @@ def check(root, require_coverage=False, today=None):
         require(set(g) == {'subject','evidence','adoption','deliveries'}, 'Global record keys')
         require(isinstance(g['deliveries'],list), 'Global deliveries')
         event_ids = set(country_event_ids)
-        pages = {PAGE:'adoption','monitoring-agencies-information.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement'}
+        pages = {PAGE:'adoption','EAA authorities and reporting by country.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement'}
         for event in g['deliveries']:
             require(isinstance(event,dict), 'Global event must be an object')
             require(bool(event.get('id')) and event['id'] not in event_ids, 'Global event ID missing/duplicate')

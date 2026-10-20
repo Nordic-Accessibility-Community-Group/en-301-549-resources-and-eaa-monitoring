@@ -96,7 +96,7 @@ class AdoptionChecks(unittest.TestCase):
         path=folder/'european-standard.json'
         path.write_text(json.dumps(record))
         with self.assertRaisesRegex(ValueError,'all destinations'): a.check(self.root,True,self.today)
-        targets=[{'page':p,'domain':domain,'record':'.github/agents/adoption/european-standard.json' if domain=='adoption' else None,'reason':'No relevant finding','disposition':'research_only' if domain=='adoption' else 'not_applicable'} for p,domain in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
+        targets=[{'page':p,'domain':domain,'record':'.github/agents/adoption/european-standard.json' if domain=='adoption' else None,'reason':'No relevant finding','disposition':'research_only' if domain=='adoption' else 'not_applicable'} for p,domain in [(a.PAGE,'adoption'),('EAA authorities and reporting by country.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
         record['deliveries']=[{'id':'one','destinations':targets}]*2; path.write_text(json.dumps(record))
         with self.assertRaisesRegex(ValueError,'ID missing/duplicate'): a.check(self.root,True,self.today)
         record['deliveries']=['garbage']; path.write_text(json.dumps(record))
@@ -111,7 +111,7 @@ class AdoptionChecks(unittest.TestCase):
         (self.root/a.PAGE).write_text('<table>'+self.row.replace('Example','Europe')+'</table>')
         folder=self.root/'.github/agents/adoption'; folder.mkdir(parents=True)
         (self.root/'unrelated.txt').write_text('not a country record')
-        targets=[{'page':p,'domain':d,'record':'.github/agents/adoption/european-standard.json' if d=='adoption' else 'unrelated.txt' if d=='monitoring' else None,'reason':'Fixture','disposition':'research_only' if d in ('adoption','monitoring') else 'not_applicable'} for p,d in [(a.PAGE,'adoption'),('monitoring-agencies-information.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
+        targets=[{'page':p,'domain':d,'record':'.github/agents/adoption/european-standard.json' if d=='adoption' else 'unrelated.txt' if d=='monitoring' else None,'reason':'Fixture','disposition':'research_only' if d in ('adoption','monitoring') else 'not_applicable'} for p,d in [(a.PAGE,'adoption'),('EAA authorities and reporting by country.md','monitoring'),('EAA sanctions.md','sanctions'),('EAA enforcement tracking.md','enforcement')]]
         (folder/'european-standard.json').write_text(json.dumps({'subject':'European Union','evidence':{},'adoption':self.domain,'deliveries':[{'id':'one','destinations':targets}]}))
         with self.assertRaisesRegex(ValueError,'canonical country record'): a.check(self.root,True,self.today)
     def sixth(self, text, mapped):

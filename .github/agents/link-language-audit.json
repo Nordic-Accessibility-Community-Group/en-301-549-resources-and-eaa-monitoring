@@ -3,10 +3,10 @@
   "scope": "Public Markdown pages on main; linked resource languages only, not legal/content verification. Includes explicit unresolved destinations and excludes mail/tel actions. Existing foreign-language link-text lang is retained.",
   "pages": [
     "EAA enforcement tracking.md",
-    "monitoring-agencies-information.md",
+    "EAA authorities and reporting by country.md",
     "README.md",
     "EAA sanctions.md",
-    "e-book-metadata-documentation.md",
+    "E-book accessibility metadata.md",
     "Accessibility Statement Template.md",
     "EN 301 549 adoption.md",
     "Sites using accessibility overlays.md",
@@ -6337,6 +6337,18 @@
       "language": "sv",
       "reason": "Swedish PTS regulation; source language retained from the merged Sweden research record.",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "EAA%20authorities%20and%20reporting%20by%20country.md",
+      "language": "en",
+      "reason": "Renamed local repository document inspected; primary prose is English. Filename and language check only, not legal verification.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "url": "E-book%20accessibility%20metadata.md",
+      "language": "en",
+      "reason": "Renamed local repository document inspected; primary prose is English. Filename and language check only, not legal verification.",
+      "checked_on": "2026-10-20"
     }
   ]
 }
