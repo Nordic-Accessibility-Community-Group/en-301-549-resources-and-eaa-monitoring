@@ -700,7 +700,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/latvia.json",
           "disposition": "research_only",
@@ -737,7 +737,7 @@
       "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/latvia.json",
           "domain": "monitoring",
           "disposition": "proposed",

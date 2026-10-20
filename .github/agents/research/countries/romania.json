@@ -510,7 +510,7 @@
       "next_action": "Maintainer review of focused corrections.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/romania.json",
           "domain": "monitoring",
           "disposition": "not_applicable",

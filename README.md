@@ -2,10 +2,11 @@
 1. Use <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/discussions" hreflang="en">discussions</a> for asking questions and for discussing topics.
 2. Use <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/issues" hreflang="en">issues</a> only for repository changes (not for questions in general).
 3. Please use the <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/Accessibility%20Statement%20Template.md" hreflang="en">Accessibility statement template</a> for documentation needs.
-4. Here's a list of countries <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">monitoring agencies and accessibility requirements</a>.
+4. <a href="EAA%20authorities%20and%20reporting%20by%20country.md" hreflang="en">EAA authorities and reporting by country</a>.
 5. <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/Sites%20using%20accessibility%20overlays.md" hreflang="en"> Sites using overlays</a>.
 6. <a href="EAA%20sanctions.md" hreflang="en">EAA sanctions by country</a>.
 7. <a href="EAA%20and%20WAD%20standards.md" hreflang="en">Standards supporting the EAA and WAD</a>, with publication status, OJ citations, drafts and development schedules.
+8. <a href="E-book%20accessibility%20metadata.md" hreflang="en">E-book accessibility metadata</a>, with guidance, standards and examples.
 
 ## What it is for
 1. How to understand the EN-standard and how monitoring works in different countries.

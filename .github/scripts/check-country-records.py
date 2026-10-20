@@ -65,7 +65,7 @@ def check(root, migration=False):
             assert event['id'] not in events and event['country'] == name, 'Duplicate/misfiled delivery event'
             events.add(event['id'])
             for target in event['destinations']:
-                domain = {'monitoring-agencies-information.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement','EN 301 549 adoptation.md':'adoption'}[target['page']]
+                domain = {'EAA authorities and reporting by country.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement','EN 301 549 adoptation.md':'adoption'}[target['page']]
                 assert target['domain'] == domain, 'Destination/domain mismatch'
                 if target['record'] is None:
                     assert target['disposition'] == 'not_applicable' and domain not in country['domains'], 'Missing applicable destination'

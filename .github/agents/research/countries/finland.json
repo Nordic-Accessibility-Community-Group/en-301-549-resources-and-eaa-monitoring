@@ -735,7 +735,7 @@
           "domain": "enforcement"
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/finland.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
@@ -768,7 +768,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/finland.json",
           "disposition": "research_only",
@@ -805,7 +805,7 @@
       "next_action": "Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/finland.json",
           "domain": "monitoring",
           "disposition": "needs_evidence",

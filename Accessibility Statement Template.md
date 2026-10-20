@@ -1,7 +1,7 @@
 # Accessibility statement template
 - ⚠️ Always use HTML when possible. <a href="https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/" hreflang="en">PDF: Still Unfit for Human Consumption, 20 Years Later</a>.
 - 💡 There is an in-depth article <a href="https://axesslab.com/accessibility-statement-for-the-eaa" hreflang="en">The accessibility statement at Axess Lab</a>.
-- 💡 Information about monitoring agencies across the EU <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">Table of countries under the EAA</a>
+- 💡 Information about monitoring agencies across the EU <a href="EAA%20authorities%20and%20reporting%20by%20country.md" hreflang="en">EAA authorities and reporting by country</a>
 - 💡 An implemented live version can be found at <a href="https://www.accessibilitycloud.com/" hreflang="en">Accessibility Cloud</a>.
 - 💡 Tetra logical has a great article about the EAA <a href="https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/" hreflang="en">Understanding the European Accessibility Act (EAA), by Léonie Watson</a>
 - <a href="https://codeberg.org/yatil/accessibility-statements" hreflang="en">List of sites with accessibility statements</a>
@@ -11,7 +11,7 @@ This accessibility statement template for the is based on the demands from the E
 The focus is on assisting the user rather than merely outlining legal requirements and shortcomings/failures. The monitoring agencies are for the EAA referred to as market surveillance.
 
 ### What does the law say?
-It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list <a href="https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/blob/main/monitoring-agencies-information.md" hreflang="en">Table of countries under the EAA</a>. What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
+It isn't currently very clear what an accessibility statement is expected to look like, many require one which you can see in the list <a href="EAA%20authorities%20and%20reporting%20by%20country.md" hreflang="en">EAA authorities and reporting by country</a>. What is clear is that you must document your accessibility compliance status and make this documentation available to your users.
 
 You need to report any known accessibility issues to the appropriate government agency for each country you're active in. In the legal documents sent by Swedish authorities to a company after an audit, they point to the obligation to immediately notify monitoring agencies in all the countries where you provide the service.
 

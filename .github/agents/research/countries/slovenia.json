@@ -801,7 +801,7 @@
           "domain": "enforcement"
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/slovenia.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
@@ -834,7 +834,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/slovenia.json",
           "disposition": "research_only",

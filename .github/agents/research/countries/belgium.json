@@ -675,7 +675,7 @@
       "next_action": "Secondary enforcement context backfilled, no official finding; monitoring already_present; sanctions not_applicable.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/belgium.json",
           "disposition": "already_present",
           "reason": "Secondary enforcement context backfilled, no official finding; monitoring already_present; sanctions not_applicable.",
@@ -717,7 +717,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/belgium.json",
           "disposition": "research_only",
@@ -754,7 +754,7 @@
       "next_action": "Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "monitoring",
           "disposition": "needs_evidence",

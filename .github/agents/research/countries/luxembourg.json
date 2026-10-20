@@ -533,7 +533,7 @@
       "next_action": "Use the new intake for current attributed wording; no retrospective public verification implied.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/luxembourg.json",
           "disposition": "already_present",
           "reason": "Enforcement lead recorded; inspect original dated reply before public addition; monitoring already_present; sanctions not_applicable.",
@@ -575,7 +575,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/luxembourg.json",
           "disposition": "research_only",
@@ -612,7 +612,7 @@
       "next_action": "Propose a dated attributed Luxembourg enforcement entry; published-decision status requires separate evidence.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/luxembourg.json",
           "disposition": "research_only",

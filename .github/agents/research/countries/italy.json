@@ -762,7 +762,7 @@
       "next_action": "Maintainer review of live PR81; independent source-fidelity review completed 2026-10-08, with historical authentication wording explicitly superseded.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "proposed",
           "reason": "The current page still labels all Italy EAA public-reporting routes Unknown and points to a legacy portal.",
@@ -813,7 +813,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "research_only",

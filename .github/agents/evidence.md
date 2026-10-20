@@ -15,7 +15,7 @@ This workflow applies to all supplied correspondence, attachments, research disc
 
 | Page | Research destination | Relevant information |
 | --- | --- | --- |
-| [Monitoring agencies](../../monitoring-agencies-information.md) | research/countries/<country>.json — domains.monitoring | Authorities and remits, public/company routes, languages, statement/public-information duties |
+| [Monitoring agencies](../../EAA%20authorities%20and%20reporting%20by%20country.md) | research/countries/<country>.json — domains.monitoring | Authorities and remits, public/company routes, languages, statement/public-information duties |
 | [Enforcement tracking](../../EAA%20enforcement%20tracking.md) | research/countries/<country>.json — domains.enforcement | Monitoring activity, actual proceedings, warnings/orders/penalties, statistics and outcomes |
 | [Sanctions](../../EAA%20sanctions.md) | research/countries/<country>.json — domains.sanctions | Statutory sanctions, maxima, conditions and competent powers; actual cases alone do not amend statutory maxima |
 | [EN 301 549 adoption](../../EN%20301%20549%20adoption.md) | research/countries/<country>.json — domains.adoption; adoption/european-standard.json for EU-wide history. Check: `python3 .github/scripts/check_adoption.py --require-coverage` | National adoption/reference, edition, draft/final status, legal scope and dated milestones; see [specification](adoption/README.md) |

@@ -1,6 +1,12 @@
-# Table of countries under the EAA
-> Please help keep this list up to date with pull requests (PR).
-> Note that the tools for reporting to the monitoring agencies in different countries could be just for one specific area (such as E-books). If you do find incorrect or missing information please add a PR, message through <a href="http://web-a11y.slack.com/" hreflang="en">Slack</a>, <a href="http://a11y.se/" hreflang="en">LinkedIn</a> or send an email to [erik@axesslab.com](mailto:erik@axesslab.com).
+# EAA authorities and reporting by country
+
+Find the authorities responsible for overseeing the European Accessibility Act (EAA) and the available channels for reporting accessibility issues. The tables distinguish between complaints from the public, businesses reporting non-compliance, and notifications of exemptions. They also include information about accessibility statements or equivalent accessibility information, with links to national legislation and guidance.
+
+Responsibilities and reporting channels can differ by country and by the type of product or service. Check the scope listed for each authority or reporting channel. Missing or unconfirmed information is marked in the tables.
+
+For possible penalties and other enforcement measures, see <a href="EAA%20sanctions.md" hreflang="en">EAA sanctions by country</a>.
+
+> Please help keep this list up to date. If you find incorrect or missing information, submit a pull request (PR), message through <a href="http://web-a11y.slack.com/" hreflang="en">Slack</a> or <a href="http://a11y.se/" hreflang="en">LinkedIn</a>, or send an email to [erik@axesslab.com](mailto:erik@axesslab.com).
 
 ## EU countries
 <table>

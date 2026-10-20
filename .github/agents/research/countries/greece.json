@@ -401,7 +401,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/greece.json",
           "disposition": "research_only",
@@ -438,7 +438,7 @@
       "next_action": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/greece.json",
           "domain": "monitoring",
           "disposition": "needs_evidence",

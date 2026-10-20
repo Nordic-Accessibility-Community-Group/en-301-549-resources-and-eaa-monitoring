@@ -1,5 +1,9 @@
-# E-book metadata
-For the user it is very important that the metadata is available on each individual book and as filters to search for. The metadata needs to be in an easy to understand format, not only WCAG levels or technical labels.
+# E-book accessibility metadata
+
+This page brings together the European Accessibility Act (EAA) provisions for e-books, guidance on documenting and presenting accessibility metadata, and links to metadata standards and examples.
+
+Accessibility metadata helps readers understand whether an e-book meets their needs. Make it available for individual books and through search filters, using clear descriptions rather than relying only on WCAG levels or technical labels.
+
 ## E-books in the EAA
 ### Definition of E-Books in the EAA
 > <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=consumer%20banking%20transactions.-,(41),E%2Dbook,-files%20are%20based" hreflang="en">(41) E-book files</a> are based on a electronic computer coding that enables the circulation and consultation of a mostly textual and graphical intellectual work. The degree of precision of this coding determines the accessibility of e-book files, in particular regarding the qualification of the different constitutive elements of the work and the standardised description of its structure. The interoperability in terms of accessibility should optimise the compatibility of those files with the user agents and with current and future assistive technologies. Specific features of special volumes like comics, children’s books and art books should be considered in the light of all applicable accessibility requirements. Divergent accessibility requirements in Member States would make it difficult for publishers and other economic operators to benefit from the advantages of the internal market, could create interoperability problems with e-readers and would limit the access for consumers with disabilities. In the context of e-books, the concept of a service provider could include publishers and other economic operators involved in their distribution.

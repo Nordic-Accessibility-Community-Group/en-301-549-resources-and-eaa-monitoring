@@ -1180,7 +1180,7 @@
       "next_action": "None for this delivered change; retain separately recorded evidence follow-ups.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/france.json",
           "disposition": "already_present",
           "reason": "Monitoring correspondence was already recorded; the enforcement declaration URL and research handoff merged in PR #57.",
@@ -1226,7 +1226,7 @@
           "domain": "enforcement"
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/france.json",
           "disposition": "not_applicable",
           "reason": "This claim adds activity or results, not a changed authority designation, remit, reporting route, language or information duty.",
@@ -1259,7 +1259,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/france.json",
           "disposition": "research_only",
@@ -1301,7 +1301,7 @@
           "pr": 75
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/france.json",
           "disposition": "research_only",
