@@ -1,0 +1,107 @@
+{
+  "recorded_on": "2026-10-30",
+  "country": "Cyprus",
+  "private_attachment_sha256": "33e61c72b62a2dd49a0d19342d62a6fd15cf34e6d5dab124cca7bc9a1ddb46a3",
+  "source_dates": [
+    "2026-05-14",
+    "2026-10-16"
+  ],
+  "contact_change_effective_on": "2026-05-01",
+  "authority": "Deputy Ministry of Social Welfare, Cyprus",
+  "source_refs": [
+    "source-facf110034d8db72c44214ae",
+    "source-21ce6703c840f1933b483728"
+  ],
+  "source_language": "English",
+  "verification": "Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+  "superseded_claims": [
+    {
+      "field": "company_reporting",
+      "assertion": "A service provider must immediately inform the competent authority of non-compliance; the submission channel is unknown.",
+      "status": "unknown",
+      "review_note": "No email, postal address or EAA-purpose form verified, so the table does not imply that a generic contact route is accepted. Isolated review found the duty summary and final Exemptions label supported; route remains Unknown.",
+      "directive_context": "EAA",
+      "scope": "Covered services",
+      "source_refs": [
+        "source-0ac7d4465a21b292c5712ccb"
+      ],
+      "id": "monitoring-ab51157b46681f6a498f5ac3"
+    },
+    {
+      "field": "public_reporting",
+      "assertion": "Public complaint routes for all covered sectors: Unknown.",
+      "status": "unknown",
+      "review_note": "No EAA-purpose form, email or postal route was verified. Generic government contact points were not promoted.",
+      "directive_context": "EAA",
+      "scope": "Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls",
+      "source_refs": [],
+      "id": "monitoring-6d4869d71155bac25f5171aa"
+    }
+  ],
+  "historical_notes": "The earlier awaiting-reply note is retained as history; the original now supplies both the May reply and the later October response. No current portal absence is inferred.",
+  "contact_handling": "Contact succession recorded in research. Individual mailbox retained only in the private source; public repository uses the institutional mailbox.",
+  "public_wording": "        <li>Public contact and company issue reports: <a href=\"mailto:deputyministry@dmsw.gov.cy\">deputyministry@dmsw.gov.cy</a> (general Deputy Ministry mailbox, confirmed in official correspondence on 16 October 2026).</li>\n        <li>English documents accepted, according to official correspondence of 14 May 2026. That reply also confirmed email exchange of reports and information, with rare exceptions not specified.</li>\n        <li>Formal public-complaint procedure: ❓ Unknown.</li>\n        <li>Company non-compliance (purpose-specific statutory notification): ❓ Unknown.</li>\n        <li>Company exemptions: ❓ Unknown.</li>",
+  "review": {
+    "source_document_review": "Completed against original English reply and quoted May reply.",
+    "isolated_source_fidelity": "Not performed: no isolated reviewer used in this session. Required before publication under repository review instructions.",
+    "scope": "Local repository edits only; no draft PR, push, merge or current open-PR comparison performed."
+  },
+  "destinations": [
+    {
+      "page": "monitoring-agencies-information.md",
+      "record": ".github/agents/research/countries/cyprus.json",
+      "domain": "monitoring",
+      "disposition": "proposed",
+      "reason": "General reporting mailbox and dated English acceptance missing from the Cyprus public row.",
+      "next_action": "Local wording prepared; complete isolated source-fidelity review and current main/open-PR comparison before publishing a focused draft.",
+      "pr": null
+    },
+    {
+      "page": "EAA enforcement tracking.md",
+      "record": ".github/agents/research/countries/cyprus.json",
+      "domain": "enforcement",
+      "disposition": "research_only",
+      "reason": "Completed training/briefings are outreach, not evidence of actual enforcement cases.",
+      "next_action": "Retain outreach in knowledge notes; no public enforcement row added.",
+      "pr": null
+    },
+    {
+      "page": "EAA sanctions.md",
+      "record": ".github/agents/research/countries/cyprus.json",
+      "domain": "sanctions",
+      "disposition": "not_applicable",
+      "reason": "No statutory sanctions, powers or imposed penalties supplied.",
+      "next_action": "No public or legal-claim change.",
+      "pr": null
+    },
+    {
+      "page": "EN 301 549 adoptation.md",
+      "record": null,
+      "domain": "adoption",
+      "disposition": "not_applicable",
+      "reason": "No national standard adoption, edition or reference supplied.",
+      "next_action": "No adoption domain or public change; historical routing key retained.",
+      "pr": null
+    }
+  ],
+  "validation": {
+    "targeted": "PASS: Cyprus storage and monitoring schemas, evidence fingerprints, routing projection, preservation of prior evidence, sanctions and other public rows.",
+    "verification_dates": "PASS: 37 markers checked.",
+    "repository_wide_country_check": "Blocked by existing enforcement public-map mismatch; no enforcement public row edited in this task.",
+    "repository_wide_link_languages": "Blocked by existing README link needing language audit: EAA%20and%20WAD%20standards.md. Only new public link is mailto and needs no hreflang.",
+    "routing_generation": "Preserved all existing events; also materialized the pre-existing United Kingdom delivery uk-bs8300-guidance-2026-10-16 from its canonical record. No United Kingdom research was edited.",
+    "publication": "Local changes only; isolated source-fidelity review and current main/open-PR comparison remain before publication."
+  },
+  "publication_preparation_2026_10_30": {
+    "status": "Prepared and published as draft testing PR #93; not merged. Historical local-only entries retained as history.",
+    "review_record": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
+    "baseline": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+    "scope": "Only Belgium, Cyprus and Poland. Public PR #86 has separate Sweden/e-book changes; leave unchanged. Research-only Hub intake is draft #92.",
+    "validation": "Targeted checks and 28 enforcement tests pass; documented global failures reproduced on untouched baseline.",
+    "public_page": "EAA authorities and reporting by country.md",
+    "pr": 93,
+    "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718",
+    "privacy_revision": "Independent PR review prompted replacement of individual names with role descriptions in new correspondence evidence and succession claim; source fingerprints and references regenerated. Existing main evidence preserved."
+  }
+}

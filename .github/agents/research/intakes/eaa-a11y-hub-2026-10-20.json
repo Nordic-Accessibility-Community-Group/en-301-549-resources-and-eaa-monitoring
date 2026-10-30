@@ -1,0 +1,87 @@
+{
+  "id": "eaa-a11y-hub-2026-10-20",
+  "checked_on": "2026-10-20",
+  "source_url": "https://eaaa11yhub.eu/",
+  "title": "EAA A11y Hub",
+  "publisher": "Inclusive Interface, as identified in the site footer",
+  "source_language": "en",
+  "source_type": "secondary_reference_and_news_hub",
+  "source_last_updated_displayed": "2026-10-13",
+  "event_date": null,
+  "scope": "User supplied this as a general research resource for EAA and EN 301 549, not specifically for the e-book research. This intake records the resource and its intended use; it is not a new country research round or a verification of the site's individual claims.",
+  "source_summary": "The homepage brings together EN 301 549 reference material, WCAG mappings and news about standards, regulatory guidance, enforcement and monitoring. It links to external sources and a timeline. Its footer identifies it as an Inclusive Interface site and says it is not affiliated with ETSI, CEN, CENELEC or the European Commission.",
+  "access": [
+    {
+      "url": "https://eaaa11yhub.eu/",
+      "outcome": "Retrieved and inspected homepage text, news categories, source links and publisher notice."
+    },
+    {
+      "url": "https://eaaa11yhub.eu/timeline",
+      "outcome": "Retrieved and inspected the introductory milestones and qualifications around standards publication and Official Journal citation."
+    },
+    {
+      "url": "https://eaaa11yhub.eu/overview",
+      "outcome": "One reader retrieval failed with a cache miss; overview content was not assessed. This does not establish that the page is unavailable to ordinary visitors."
+    }
+  ],
+  "verification_status": "unverified_source",
+  "verification_scope": "Site identity, broad coverage and visible source links inspected. Individual legal, standards-status and country claims have not been verified for reuse.",
+  "research_use": [
+    "Use as a general discovery source when an authorised research pass concerns EAA, EN 301 549, monitoring, sanctions or enforcement.",
+    "Follow the linked primary material before proposing factual changes. Record that primary source with the relevant claim.",
+    "Keep EAA, WAD and other national-law developments distinct.",
+    "Check standards publication, national adoption and Official Journal citation separately. The homepage and timeline use different qualifications around harmonisation; the site's summaries alone do not establish legal status.",
+    "Treat estimated dates and secondary reports as leads until independently corroborated."
+  ],
+  "repository_context": {
+    "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+    "main": "111337ac607fb1ff52b9586b61980d7d7e269249",
+    "open_prs_checked": [
+      {
+        "number": 90,
+        "head": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+        "title": "Research and clarify e-book accessibility metadata guidance",
+        "assessment": "Separate e-book work; this general resource intake does not change that PR."
+      }
+    ],
+    "pending_branches_checked": true
+  },
+  "dispositions": {
+    "EAA authorities and reporting by country.md": {
+      "status": "research_only",
+      "reason": "Potential discovery source; no new authority or reporting-route claim verified in this intake.",
+      "next_action": "Use relevant leads during an authorised country pass, then record primary evidence in domains.monitoring."
+    },
+    "EAA enforcement tracking.md": {
+      "status": "research_only",
+      "reason": "The news feed may help locate enforcement and monitoring material; individual reports have not been assessed.",
+      "next_action": "Verify relevant official decisions or reports and distinguish legal regimes before recording country claims."
+    },
+    "EAA sanctions.md": {
+      "status": "research_only",
+      "reason": "Potential leads only; no statutory sanction or imposed-penalty claim verified.",
+      "next_action": "Consult the relevant legislation or decision before proposing changes."
+    },
+    "EN 301 549 adoption.md": {
+      "status": "research_only",
+      "reason": "The timeline may help locate standards developments; no new national adoption fact established.",
+      "next_action": "Verify edition and dated status with the issuing standards body; record relevant EU-wide evidence in adoption/european-standard.json."
+    },
+    "EAA and WAD standards.md": {
+      "status": "research_only",
+      "reason": "General standards discovery resource; no publication or Official Journal status change established.",
+      "next_action": "Check issuing-body material and the applicable Official Journal decision before changing status or dates."
+    },
+    "E-book accessibility metadata.md": {
+      "status": "not_applicable",
+      "reason": "User clarified that this is a general resource; no e-book-specific addition proposed.",
+      "next_action": null
+    }
+  },
+  "delivery": {
+    "record_path": ".github/agents/research/intakes/eaa-a11y-hub-2026-10-20.json",
+    "public_changes": false,
+    "publication": "Prepared as a separate research-only draft PR on 2026-10-30; historical source checks remain dated 20 October.",
+    "scope_limit": "No country claims were introduced, no canonical country evidence status was changed, and no recurring monitoring was scheduled."
+  }
+}

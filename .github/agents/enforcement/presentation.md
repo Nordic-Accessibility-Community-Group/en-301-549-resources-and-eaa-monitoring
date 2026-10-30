@@ -23,7 +23,7 @@ Keep narrower product/service boundaries beneath these labels. An empty `sectors
 | `external_legal_analysis` | External — legal analysis |
 | `external_party_statement` | External — party statement |
 | `external_news_report` | External — news report |
-| `official_authority_correspondence` | Official authority correspondence (date and research link; no private details) |
+| `official_authority_correspondence` | Brief authority/date attribution; supporting correspondence remains in research data, without a public research link |
 | `contributor_correspondence` | Contributor correspondence (only a shareable attribution) |
 | `other_unverified` | External — unverified source |
 
@@ -35,7 +35,7 @@ For statistics show the as-of date, units, sector and counting basis. Do not add
 
 ## Keep public entries concise
 
-Include the relevant authority/court, supported activity or outcome, essential limits, event date and descriptive source links. Put excerpts, retrieval failures, detailed provenance, research history and unresolved questions in research records. Keep event/publication dates separate from Date added/Date updated; editorial maintenance is not evidence verification.
+Include the relevant authority/court, supported activity or outcome, essential limits, event date and useful public-source links. Do not add links to internal research records for correspondence; avoid repeated provenance text. Put excerpts, retrieval failures, detailed provenance, research history and unresolved questions in research records. Keep event/publication dates separate from Date added/Date updated; editorial maintenance is not evidence verification.
 
 Use relative links for repository navigation so links continue to work upstream. Historical snapshot links stay pinned to the original commit. Use accessible text labels; any emoji supplements rather than replaces text. Do not publish private correspondence or personal details.
 

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "request": "Remove public links to internal correspondence research resources and keep entries short; retain research data.",
+  "parent_head": "2699a4b380e73889ab0c21527c2e5bf88f39cfae",
+  "changes": {
+    "EAA authorities and reporting by country.md": {
+      "before_sha256": "a5ab56ae5488da985bc31d72a64a118c83b971524a1ef4982e0a207bf41408ef",
+      "after_sha256": "3b0d24881ddb0647e07463794eedaf6511dae1eabe7478fe4fbd92de35eaca2e"
+    },
+    "EAA enforcement tracking.md": {
+      "before_sha256": "0c2d8caf4cf094976b64a11890f3b4949b038b8fd9a342cc8823b0f7d0d0aa81",
+      "after_sha256": "39c7f38c9601c0655fca60c6aa9080e097e0ec6ad91bc702652cf0ed7f47575f"
+    }
+  },
+  "scope": "Remove six public research links. Drop duplicate source-only paragraphs for new Belgium/Cyprus/Poland entries; retain Belgium statement source date inline and dates already in enforcement narrative. Shorten the existing Estonia source label. No substantive duty, activity, limitation, evidence, research claim or source verification date changed.",
+  "historical_review": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
+  "validation": "PASS no public research links in the two pages, updated row hashes, 28 enforcement tests, 14 verification-date markers, whitespace. No new links; previously documented global baseline issues remain.",
+  "publication_maps": "Refresh only Estonia, Belgium and Poland row hashes for editorial changes; frozen baseline and evidence unchanged.",
+  "review_scope": "Editorial provenance presentation only. Previous source-fidelity findings apply to unchanged factual wording; this does not claim a fresh country/legal review."
+}

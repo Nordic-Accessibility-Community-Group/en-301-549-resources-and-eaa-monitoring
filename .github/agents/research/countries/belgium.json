@@ -113,6 +113,78 @@
       "evidence": "Nina Gerling flags a possible inconsistency: the federal guidance assigns products to IBPT, while the 1 October 2023 decree reportedly assigns non-radio products to DG Energy. The discrepancy is not resolved. ",
       "section": "Belgium note; decree reader access failed once. Existing repo cites federal authority roster.",
       "source_type": "other_unverified"
+    },
+    "source-c83188b06396f3dae25e8dbf": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium EAA correspondence, reply 2026-10-06; latest reply; Article 13(2) and Annex V explanation; private attachment SHA-256 bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+      "passage": "Publication of information assessing service compliance is mandatory in terms and conditions or an equivalent document. Information must be public in written and oral formats accessible to persons with disabilities.",
+      "attempted_on": "2026-10-06",
+      "retrieved_on": "2026-10-06",
+      "access_result": "reachable",
+      "provenance_note": "Original user-supplied EML inspected. Functional sender belongs to SPF Economie; documentary review only, not independent sender authentication. Raw email, signatures, personal names and contact details excluded. Quoted outgoing user questions are not authority findings.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2026-10-06",
+        "document_sha256": "bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+        "reviewed_by": "Assistant original-document review; isolated /root/belgium_reply_fidelity (fork_turns=none)",
+        "reviewed_on": "2026-10-06",
+        "scope_limit": "Consumer banking and e-commerce remit. Historical activity only where stated; no dedicated webpage, recording format, sanctions, outcomes or present-day activity inferred."
+      }
+    },
+    "source-04ef15a05fadfe32ad462905": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium EAA correspondence, reply 2026-09-28; quoted reply on public service information; private attachment SHA-256 bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+      "passage": "The authority requires the Annex V service-compliance information; it may be a standalone document or part of the terms and conditions.",
+      "attempted_on": "2026-10-06",
+      "retrieved_on": "2026-10-06",
+      "access_result": "reachable",
+      "provenance_note": "Original user-supplied EML inspected. Functional sender belongs to SPF Economie; documentary review only, not independent sender authentication. Raw email, signatures, personal names and contact details excluded. Quoted outgoing user questions are not authority findings.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2026-09-28",
+        "document_sha256": "bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+        "reviewed_by": "Assistant original-document review; isolated /root/belgium_reply_fidelity (fork_turns=none)",
+        "reviewed_on": "2026-10-06",
+        "scope_limit": "Consumer banking and e-commerce remit. Historical activity only where stated; no dedicated webpage, recording format, sanctions, outcomes or present-day activity inferred."
+      }
+    },
+    "source-0907bbc5c6ae1e8dfbca7bfe": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium EAA correspondence, reply 2025-12-19; quoted reply, scope paragraph and questions 5–6; private attachment SHA-256 bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+      "passage": "The authority limits its answers to consumer banking and e-commerce. It reports receiving consumer complaints and launching investigations since 28 June 2025. It describes warnings/reports as possible action, not confirmed issued measures.",
+      "attempted_on": "2026-10-06",
+      "retrieved_on": "2026-10-06",
+      "access_result": "reachable",
+      "provenance_note": "Original user-supplied EML inspected. Functional sender belongs to SPF Economie; documentary review only, not independent sender authentication. Raw email, signatures, personal names and contact details excluded. Quoted outgoing user questions are not authority findings.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2025-12-19",
+        "document_sha256": "bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+        "reviewed_by": "Assistant original-document review; isolated /root/belgium_reply_fidelity (fork_turns=none)",
+        "reviewed_on": "2026-10-06",
+        "scope_limit": "Consumer banking and e-commerce remit. Historical activity only where stated; no dedicated webpage, recording format, sanctions, outcomes or present-day activity inferred."
+      }
+    },
+    "source-371984850c405a313e6925c6": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium EAA correspondence, reply 2026-01-05; quoted reply to follow-up questions; private attachment SHA-256 bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+      "passage": "The authority says it cannot disclose testing methods or further details about investigation/complaint counts. Checks target EAA requirements, indirectly overlapping WCAG and EN 301 549; this is not a formal edition-adoption statement.",
+      "attempted_on": "2026-10-06",
+      "retrieved_on": "2026-10-06",
+      "access_result": "reachable",
+      "provenance_note": "Original user-supplied EML inspected. Functional sender belongs to SPF Economie; documentary review only, not independent sender authentication. Raw email, signatures, personal names and contact details excluded. Quoted outgoing user questions are not authority findings.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2026-01-05",
+        "document_sha256": "bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+        "reviewed_by": "Assistant original-document review; isolated /root/belgium_reply_fidelity (fork_turns=none)",
+        "reviewed_on": "2026-10-06",
+        "scope_limit": "Consumer banking and e-commerce remit. Historical activity only where stated; no dedicated webpage, recording format, sanctions, outcomes or present-day activity inferred."
+      }
     }
   },
   "domains": {
@@ -492,6 +564,17 @@
             "source-3c7cadd65a0aef39df72f633"
           ],
           "id": "monitoring-b44d48c841a6127608229259"
+        },
+        {
+          "field": "service_information",
+          "assertion": "For consumer banking and e-commerce, Economic Inspection confirms that information assessing how the service meets the accessibility requirements must be published in the terms and conditions or an equivalent document, and made publicly available in written and oral formats accessible to persons with disabilities.",
+          "status": "verified",
+          "review_note": "Direct official replies of 28 September and 6 October 2026 reviewed on 6 October. Private-safe attachment SHA-256 bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c. Canonical correspondence evidence: source-c83188b06396f3dae25e8dbf, source-04ef15a05fadfe32ad462905; references are in this note because the legacy monitoring source schema does not accept official-correspondence objects (existing correspondence convention retained). Isolated English-to-English wording check /root/belgium_reply_fidelity, fork_turns=none: Supported with precision improvement incorporated. Documentary verification, not independent authentication. Supersedes the prior public-terms/equivalent Unknown and resolves whether publication is required rather than on-request-only availability. Does not establish a mandatory separate webpage, audio/video recording, or national scope beyond the stated remit.",
+          "directive_context": "EAA",
+          "scope": "Consumer banking and e-commerce",
+          "information_mode": "public_terms_or_equivalent",
+          "source_refs": [],
+          "id": "monitoring-f0162653cc9c7f80ab1dbb9d"
         }
       ],
       "questions": [
@@ -505,7 +588,9 @@
         "Run scope: merged main a288041bbd7665d61056d447bcd929110fff3add includes merged Austria PR17 via PR16. One-country rollout; no workflows/events date script changed. Research/verification limited to ten minutes; unsuccessful access/search attempts not extended.",
         "Research cutoff: substantive research and two-pass evidence review stopped at approximately seven minutes; required isolated language recheck completed within the ten-minute shared budget. Publication/validation continue without further country research. Unknown does not mean absent. No full-country-verification claim.",
         "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered.",
-        "2026-10-06 source comparison: Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry."
+        "2026-10-06 source comparison: Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
+        "2026-10-06 update: September 28 and October 6 replies resolve mandatory public availability in terms/equivalent; earlier unanswered-question notes are historical. Dedicated webpage and exact oral delivery method remain unestablished. Product-authority conflict remains unrelated and unresolved.",
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
       ]
     },
     "sanctions": {
@@ -553,15 +638,19 @@
       "jurisdiction_group": "EU",
       "created_on": "2026-09-25",
       "research_state": "partially_researched",
-      "search_result": "not_assessed",
-      "attempted_on": "2026-09-25",
-      "verified_on": null,
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-10-06",
+      "verified_on": "2026-10-06",
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Read 2 July 2025 FOD announcement. Its general statement that Economic Inspection checks e-commerce and banking does not identify a completed or specifically announced inspection campaign. No public entry added from powers/guidance alone.",
-        "Cross-page intake 2026-09-25: The monitoring record contains Inter's contextual observations on early enforcement and unavailable statistics. This is not competent monitoring-body verification; retain as a secondary lead, not a finding that enforcement exists or does not exist. Canonical source/provenance: ../../research/belgium.json. This repository-only handoff is not a new country source-verification pass."
+        "Cross-page intake 2026-09-25: The monitoring record contains Inter's contextual observations on early enforcement and unavailable statistics. This is not competent monitoring-body verification; retain as a secondary lead, not a finding that enforcement exists or does not exist. Canonical source/provenance: ../../research/belgium.json. This repository-only handoff is not a new country source-verification pass.",
+        "2026-10-06 intake: direct Economic Inspection correspondence replaces reliance on the Inter lead for the narrow historical finding below. Previously recorded unknowns remain historical; no counts, issued warnings, fines or outcomes established. Source date differs from observation date.",
+        "On 5 January 2026 Economic Inspection said it could not provide further details about the number of ongoing investigations or complaints received. This is not evidence of zero cases. Source source-371984850c405a313e6925c6."
       ],
-      "public_entry_ids": [],
+      "public_entry_ids": [
+        "belgium-official-reply-20261030"
+      ],
       "attempts": [
         {
           "attempted_on": "2026-09-25",
@@ -571,9 +660,44 @@
           ],
           "limitations": "Read 2 July 2025 FOD announcement. Its general statement that Economic Inspection checks e-commerce and banking does not identify a completed or specifically announced inspection campaign. No public entry added from powers/guidance alone. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
           "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        },
+        {
+          "attempted_on": "2026-10-06",
+          "scope": "Read supplied original EML: new October/September replies plus historical December/January thread.",
+          "sources_checked": [],
+          "limitations": "Private-safe fingerprint and correspondence evidence retained; no raw email publication. Documentary scope only; no new country-wide search or outcome inference.",
+          "next_check": "Review dated attributed public enforcement proposal if authorized."
         }
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "be-economic-inspection-investigations-20251219",
+          "kind": "monitoring_activity",
+          "text": "Economic Inspection’s reply of 19 December 2025 covered only its responsibilities for consumer banking and e-commerce. It reported that it had received consumer complaints and launched investigations since 28 June 2025. The supplied replies did not confirm the number of complaints or investigations, whether any warnings or penalties had been issued, or any outcomes.",
+          "authority_or_court": "Belgian Economic Inspection, SPF Economie",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce",
+            "Banking"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "EAA and Belgian transposition, as identified by the responding competent authority; no independent interpretation of sanctions.",
+          "action_type": "Authority-reported complaints and investigations",
+          "procedural_stage": "investigation",
+          "stage_detail": "Historical position reported on 19 December 2025. Sector labels describe remit, not proof that cases arose in both sectors. Exact start date and individual case identifiers unavailable.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-10-06",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "No investigation counts, issued warnings, penalties, outcomes or current enforcement status established. Official reply is supplied correspondence, not public publication or independently authenticated email.",
+          "next_check": "Maintainer review of dated public wording; new case outcomes require separate evidence.",
+          "source_refs": [
+            "source-0907bbc5c6ae1e8dfbca7bfe",
+            "source-371984850c405a313e6925c6"
+          ]
+        }
+      ],
       "questions": [
         {
           "priority": "Follow-up",
@@ -613,7 +737,8 @@
         "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
         "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
         "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
-        "Legal mapping lead source-b5d10d7e708150734bb3333f: Act of 19 July 2018 (website-accessibility lead). Agency accessibility statement is a lead to legislation, not consolidated legal text."
+        "Legal mapping lead source-b5d10d7e708150734bb3333f: Act of 19 July 2018 (website-accessibility lead). Agency accessibility statement is a lead to legislation, not consolidated legal text.",
+        "2026-10-06 correspondence intake: 5 January 2026 reply describes checking EAA requirements with indirect WCAG/EN overlap. Preserve as research context (source-371984850c405a313e6925c6); no national adoption, mandatory EN edition or harmonisation inferred."
       ],
       "attempts": [
         {
@@ -788,6 +913,52 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "be-official-reply-20261006",
+      "country": "Belgium",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
+      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "enforcement",
+          "disposition": "proposed",
+          "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new statutory amount or imposed penalty; conditional warning/report powers do not establish action.",
+          "next_action": "Retain current public entry.",
+          "pr": 93
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
+          "next_action": "Retain current public entry; preserve January reply as research context.",
+          "pr": 93
         }
       ]
     }

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-06",
+  "country": "Belgium",
+  "private_attachment_sha256": "bab617ff652a0906525ef9db0609e471cdd05d519de50d120ab395a2e665ba5c",
+  "authority": "Belgian Economic Inspection, SPF Economie",
+  "source_dates": [
+    "2026-10-06",
+    "2026-09-28",
+    "2026-01-05",
+    "2025-12-19"
+  ],
+  "compared_testing_main": "f5fe9a3010e4e3eb5142a5fb0d861a52831ae4f5",
+  "compared_public_main": "71a2216289a3c8208cbf1f6ce4b947a60a04810c",
+  "open_public_pr78": "Belgium research inspected; new publication reply absent. Three other-country public changes do not address this finding. Shared-file overlap recorded; PR not changed.",
+  "review": {
+    "reviewer": "/root/belgium_reply_fidelity",
+    "isolation": "fork_turns=none",
+    "result": "Supported monitoring wording with precision improvement; enforcement correction incorporated to avoid implying cases in both sectors.",
+    "monitoring_proposal": "For consumer banking and e-commerce, Economic Inspection confirms that information assessing how the service meets the accessibility requirements must be published in the terms and conditions or an equivalent document, and made publicly available in written and oral formats accessible to persons with disabilities.",
+    "enforcement_proposal": "In its reply of 19 December 2025, limited to its remit for consumer banking and e-commerce, Economic Inspection reported that it had received consumer complaints and launched investigations since 28 June 2025.",
+    "limits": "No mandated standalone webpage or specific recording, no issued warning/fine/outcome/current activity. Public wording not edited."
+  },
+  "source_retrieval_limit": "EUR-Lex reader returned JavaScript/robot challenge; no independent legal-text verification claimed. Findings attributed to the inspected authority reply.",
+  "validation": "PASS targeted Belgium record schema, new monitoring claim, evidence fingerprints, enforcement source/claim structure and generated routing. Public files unchanged.",
+  "publication_preparation_2026_10_30": {
+    "status": "Prepared and published as draft testing PR #93; not merged. Historical local-only entries retained as history.",
+    "review_record": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
+    "baseline": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+    "scope": "Only Belgium, Cyprus and Poland. Public PR #86 has separate Sweden/e-book changes; leave unchanged. Research-only Hub intake is draft #92.",
+    "validation": "Targeted checks and 28 enforcement tests pass; documented global failures reproduced on untouched baseline.",
+    "public_page": "EAA authorities and reporting by country.md",
+    "pr": 93,
+    "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718"
+  }
+}

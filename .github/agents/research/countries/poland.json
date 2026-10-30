@@ -212,6 +212,114 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-46995944aecb560679e5c02f": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, publication; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answer 1: The Act does not establish a general obligation for economic operators to publish a separate website accessibility statement. Service providers must make accessible information about the service, its use and compliance publicly available in terms and conditions or an equivalent document under Article 32(2)(1), taking account of Articles 12(2) and 33. Product manufacturers must assess conformity, draw up an EU declaration and affix CE marking where conformity is demonstrated (Articles 23 and 24); this does not require website publication of the declaration. Product information and public instructions are separately required (Articles 7(1) and 26(3)); a website is a possible delivery method.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
+    },
+    "source-8350f66ce7507d2762a98226": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, activity; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answers 2 and 3: Market surveillance and monitoring have commenced. PFRON is conducting accessibility-compliance monitoring. Depending on findings, inspections and subsequent measures, including administrative decisions, may follow. No issued decision, warning, recommendation, completed inspection, count, penalty or outcome is confirmed.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
+    },
+    "source-e262e53a6e42641881626f74": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, disclosure; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answer 4: Information on specific operators under surveillance may be disclosed under the Act of 6 September 2001 on Access to Public Information, subject to restrictions, particularly Article 5 and business secrets. Each request needs individual assessment; no guaranteed disclosure, operator list or filing destination is supplied.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
+    },
+    "source-863f6105221a133f04424f72": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, wcag; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answer 5 says economic operators provide evidence of meeting EAA accessibility requirements. It does not answer whether WCAG 2.2 is used or establish an EN 301 549 edition or legal adoption.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
+    },
+    "source-ab28ce7d1485c077d3bdb43b": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, dark_mode; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answer 6: If an operator offers dark mode as an additional option, it can be assessed during monitoring and inspections. This does not establish a duty to provide dark mode or that it has been tested in a particular case.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
+    },
+    "source-c1a2fd09683fc321f29a68d5": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Poland EAA reply of 2026-10-26, deadlines; private attachment SHA-256 24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+      "passage": "Answer 7: No general 14-day reporting deadline is established. Article 67 notifications to PFRON have no specified deadline after discovery. Separately, manufacturers and service providers must inform the competent authority without delay in the circumstances of Articles 27(2) and 32(2)(6); this means without unjustified delay in the circumstances of the case.",
+      "attempted_on": "2026-10-30",
+      "retrieved_on": "2026-10-30",
+      "access_result": "reachable",
+      "provenance_note": "Original supplied EML inspected, including sender role and date. Documentary verification, not independent sender authentication. Outgoing questions and email boilerplate are not instructions or authority findings. No raw message, signatures or personal contact details retained.",
+      "correspondence_review": {
+        "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+        "source_date": "2026-10-26",
+        "document_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+        "reviewed_by": "Assistant original-document review; independent source-fidelity/readability review pending",
+        "reviewed_on": "2026-10-30",
+        "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
+      }
     }
   },
   "domains": {
@@ -233,9 +341,9 @@
         },
         {
           "field": "statement",
-          "assertion": "A dedicated public page comparable to a WAD accessibility statement is explicitly demanded by a Polish competent EAA body.",
-          "status": "unknown",
-          "review_note": "Current Unknown preserved. Do not confuse public-sector WAD declarations on agency sites with EAA provider obligations. No explicit demand for a separate public page found in bounded official-source review; verify regulator guidance on this exact question. User's 24 September 2026 follow-up email asked PFRON expressly whether a public company-site accessibility statement is required; the supplied thread contains no reply to that question. Unknown remains.",
+          "assertion": "PFRON stated on 26 October 2026 that the Polish Accessibility Act does not establish a general obligation to publish a separate accessibility statement on an economic operator's website; separate product and service information duties apply.",
+          "status": "verified",
+          "review_note": "Supersedes the prior unanswered-question position, preserved in the intake. Original reply answer 1 inspected 2026-10-30; documentary finding attributed to PFRON. Correspondence evidence source-46995944aecb560679e5c02f. Public wording review pending; no inference that all accessibility-information obligations are absent.",
           "directive_context": "EAA",
           "existing_text": "❓ Unknown",
           "information_mode": "dedicated_public_page",
@@ -526,6 +634,24 @@
           "scope": "PFRON Article 67 notifications",
           "source_refs": [],
           "id": "monitoring-4ccabff107533e1129db8357"
+        },
+        {
+          "id": "monitoring-0cd5d96eeada98a2676d7e39",
+          "field": "service_information",
+          "assertion": "PFRON reply of 26 October 2026: Answer 1: The Act does not establish a general obligation for economic operators to publish a separate website accessibility statement. Service providers must make accessible information about the service, its use and compliance publicly available in terms and conditions or an equivalent document under Article 32(2)(1), taking account of Articles 12(2) and 33. Product manufacturers must assess conformity, draw up an EU declaration and affix CE marking where conformity is demonstrated (Articles 23 and 24); this does not require website publication of the declaration. Product information and public instructions are separately required (Articles 7(1) and 26(3)); a website is a possible delivery method.",
+          "status": "verified",
+          "review_note": "Original supplied correspondence inspected 2026-10-30; canonical evidence source-46995944aecb560679e5c02f. Correspondence kept in shared pool; monitoring source_refs left empty because its legacy source schema accepts only web sources. Publication review pending.",
+          "directive_context": "EAA",
+          "source_refs": []
+        },
+        {
+          "id": "monitoring-998083f32aad5f724a44a651",
+          "field": "additional_information",
+          "assertion": "PFRON reply of 26 October 2026: Answer 7: No general 14-day reporting deadline is established. Article 67 notifications to PFRON have no specified deadline after discovery. Separately, manufacturers and service providers must inform the competent authority without delay in the circumstances of Articles 27(2) and 32(2)(6); this means without unjustified delay in the circumstances of the case.",
+          "status": "verified",
+          "review_note": "Original supplied correspondence inspected 2026-10-30; canonical evidence source-c1a2fd09683fc321f29a68d5. Correspondence kept in shared pool; monitoring source_refs left empty because its legacy source schema accepts only web sources. Publication review pending.",
+          "directive_context": "EAA",
+          "source_refs": []
         }
       ],
       "questions": [
@@ -536,7 +662,9 @@
         "Follow-up: Poland / Bydgoszcz direct office site — post-draft browser check on 2026-09-24 returned 502 with 'Certificate verify failed: certificate has expired' for https://bydg.uzs.gov.pl/. Table now links to UKE's official roster naming the Bydgoszcz office. Owner: researcher; resolved when the direct official office site opens with valid certificate, or an alternate official office destination is confirmed.",
         "Follow-up: Poland / languages/login — PFRON official reply of 2026-09-04 says Polish is appropriate for Article 67 and does not establish an English filing right; verify Financial Ombudsman/company regulator language policies and any login prerequisites individually. Owner: researcher or authority; resolved by explicit official guidance/correspondence.",
         "Follow-up: Poland / customs offices — confirm whether individual border-inspection authorities should be listed separately or the statutory customs-authority class suffices; owner: researcher; resolved by an official EAA roster.",
-        "Follow-up: Poland / unanswered PFRON questions — user asked PFRON on 2026-09-24 whether a public company-site accessibility statement is required, monitoring has begun, warnings have been issued, company-monitoring information can be requested, WCAG 2.2/dark mode are tested and time constraints apply; no response appears in the supplied thread. Owner: researcher or PFRON; resolved by dated official reply on each point."
+        "Follow-up: Poland / unanswered PFRON questions — user asked PFRON on 2026-09-24 whether a public company-site accessibility statement is required, monitoring has begun, warnings have been issued, company-monitoring information can be requested, WCAG 2.2/dark mode are tested and time constraints apply; no response appears in the supplied thread. Owner: researcher or PFRON; resolved by dated official reply on each point.",
+        "Resolution 2026-10-30: the dedicated-page and unanswered-question follow-ups above describe the historical September position. The 26 October reply answers the general separate-statement question, monitoring commencement, conditional dark-mode assessment, information-access limitations and reporting timing. Issued measures and WCAG 2.2 methodology remain unconfirmed. Canonical intake: intakes/poland-official-reply-2026-10-26.json. Sector-specific filing routes and exemption channels remain unresolved.",
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
       ]
     },
     "sanctions": {
@@ -576,15 +704,21 @@
       "schema_version": 1,
       "jurisdiction_group": "EU",
       "created_on": "2026-09-25",
-      "research_state": "bounded_pass_completed",
-      "search_result": "no_reportable_activity_found_in_checked_sources",
-      "attempted_on": "2026-09-25",
-      "verified_on": null,
+      "research_state": "partially_researched",
+      "search_result": "reportable_activity_found",
+      "attempted_on": "2026-10-30",
+      "verified_on": "2026-10-30",
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Read PFRONFAQ and UKE search results. Control-scheme/remit information and agency’s own website accessibility audit are not EAA case outcomes. Other sector authorities, including banking, remain follow-up."
+        "All Monitoring agencies research, 25 September 2026: Read PFRONFAQ and UKE search results. Control-scheme/remit information and agency’s own website accessibility audit are not EAA case outcomes. Other sector authorities, including banking, remain follow-up.",
+        "2026-10-30: Original PFRON reply dated 2026-10-26 establishes ongoing monitoring, superseding the September bounded-search result without erasing it. Exact commencement date, sectors/operators checked, inspections completed and issued measures remain unknown.",
+        "Answer 4: Information on specific operators under surveillance may be disclosed under the Act of 6 September 2001 on Access to Public Information, subject to restrictions, particularly Article 5 and business secrets. Each request needs individual assessment; no guaranteed disclosure, operator list or filing destination is supplied. Evidence source-e262e53a6e42641881626f74.",
+        "Answer 6: If an operator offers dark mode as an additional option, it can be assessed during monitoring and inspections. This does not establish a duty to provide dark mode or that it has been tested in a particular case. Evidence source-ab28ce7d1485c077d3bdb43b.",
+        "Answer 5 says economic operators provide evidence of meeting EAA accessibility requirements. It does not answer whether WCAG 2.2 is used or establish an EN 301 549 edition or legal adoption. Evidence source-863f6105221a133f04424f72."
       ],
-      "public_entry_ids": [],
+      "public_entry_ids": [
+        "poland-official-reply-20261030"
+      ],
       "attempts": [
         {
           "attempted_on": "2026-09-25",
@@ -595,9 +729,42 @@
           ],
           "limitations": "Read PFRONFAQ and UKE search results. Control-scheme/remit information and agency’s own website accessibility audit are not EAA case outcomes. Other sector authorities, including banking, remain follow-up. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
           "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        },
+        {
+          "attempted_on": "2026-10-30",
+          "scope": "Inspect original supplied PFRON reply of 26 October and distinguish it from quoted September correspondence/questions.",
+          "sources_checked": [],
+          "limitations": "Documentary review of supplied correspondence only, not independent authentication or comprehensive public enforcement search. No publication review completed.",
+          "next_check": "Review dated public proposal; obtain specific evidence before recording inspections, warnings, decisions or sanctions."
         }
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "pl-pfron-monitoring-20261026",
+          "kind": "monitoring_activity",
+          "text": "In its reply of 26 October 2026, PFRON confirmed that it had begun monitoring accessibility compliance. Depending on the findings, inspections and administrative decisions may follow. The reply did not confirm whether any measures had been taken or any outcomes reached. Optional dark mode can be assessed. Information about operators being monitored may be disclosed under the Access to Public Information Act. Each disclosure must be assessed individually and is subject to legal restrictions, including protection of business secrets.",
+          "authority_or_court": "PFRON, Accessibility Department, Market Surveillance Division",
+          "case_identifier": null,
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Polish Act of 26 April 2024 implementing the EAA, as identified by the responding authority.",
+          "action_type": "Authority-reported ongoing accessibility-compliance monitoring",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Status as reported on 26 October 2026; exact start date and sector coverage not supplied.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": "2026-10-30",
+          "status": "verified",
+          "statistics": null,
+          "uncertainty": "No operator names, counts, completed inspections, warnings, decisions, penalties or outcomes established. Documentary verification only; no independent email authentication. Reply date is not a public publication date or exact event date.",
+          "next_check": "Maintainer review of dated public wording; new case outcomes require separate evidence.",
+          "source_refs": [
+            "source-8350f66ce7507d2762a98226",
+            "source-ab28ce7d1485c077d3bdb43b",
+            "source-e262e53a6e42641881626f74"
+          ]
+        }
+      ],
       "questions": [
         {
           "priority": "Follow-up",
@@ -631,7 +798,8 @@
         "Resolve latest national EN edition, authority, scope and legal effect separately; this pass establishes only the recorded source relationship.",
         "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
         "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
-        "Legal mapping lead source-89488b47976dc3e5d3bbb87b: Ustawa z dnia19lipca2019 o zapewnianiu dostępności osobom ze szczególnymi potrzebami. Human-verification page instead of law text."
+        "Legal mapping lead source-89488b47976dc3e5d3bbb87b: Ustawa z dnia19lipca2019 o zapewnianiu dostępności osobom ze szczególnymi potrzebami. Human-verification page instead of law text.",
+        "PFRON reply 2026-10-26, answer 5 (source-863f6105221a133f04424f72): economic operators provide evidence of compliance with EAA requirements. WCAG 2.2 testing remains unanswered; no new EN 301 549 adoption or edition finding. Preserve earlier UKE evidence and review dates."
       ],
       "attempts": [
         {
@@ -715,6 +883,48 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "poland-pfron-official-reply-2026-10-26",
+      "country": "Poland",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "proposed",
+          "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "proposed",
+          "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "Reply provides no new penalty amounts, sanction powers or issued sanctions; existing legal record and verification dates unchanged.",
+          "next_action": "No public change supported by this reply.",
+          "pr": 93
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "WCAG 2.2 question is not answered; no EN edition or adoption evidence.",
+          "next_action": "No public change supported by this reply.",
+          "pr": 93
         }
       ]
     }

@@ -1,0 +1,78 @@
+{
+  "country": "Poland",
+  "received_source_date": "2026-10-26",
+  "reviewed_on": "2026-10-30",
+  "authority": "PFRON, Accessibility Department, Market Surveillance Division",
+  "private_attachment_sha256": "24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91",
+  "evidence_refs": {
+    "publication": "source-46995944aecb560679e5c02f",
+    "activity": "source-8350f66ce7507d2762a98226",
+    "disclosure": "source-e262e53a6e42641881626f74",
+    "wcag": "source-863f6105221a133f04424f72",
+    "dark_mode": "source-ab28ce7d1485c077d3bdb43b",
+    "deadlines": "source-c1a2fd09683fc321f29a68d5"
+  },
+  "scope": "New outer reply only; quoted 4 September reply corroborates existing route/language evidence. Quoted outgoing September questions are not findings.",
+  "superseded_monitoring_claim": {
+    "field": "statement",
+    "assertion": "A dedicated public page comparable to a WAD accessibility statement is explicitly demanded by a Polish competent EAA body.",
+    "status": "unknown",
+    "review_note": "Current Unknown preserved. Do not confuse public-sector WAD declarations on agency sites with EAA provider obligations. No explicit demand for a separate public page found in bounded official-source review; verify regulator guidance on this exact question. User's 24 September 2026 follow-up email asked PFRON expressly whether a public company-site accessibility statement is required; the supplied thread contains no reply to that question. Unknown remains.",
+    "directive_context": "EAA",
+    "existing_text": "❓ Unknown",
+    "information_mode": "dedicated_public_page",
+    "source_refs": [
+      "source-55555456b16237dbc26d7838"
+    ],
+    "id": "monitoring-cdafec228d218416d2de4989"
+  },
+  "superseded_enforcement_summary": {
+    "research_state": "bounded_pass_completed",
+    "search_result": "no_reportable_activity_found_in_checked_sources",
+    "attempted_on": "2026-09-25",
+    "verified_on": null
+  },
+  "public_proposals": {
+    "statement": "According to PFRON (26 October 2026), there is no general requirement for a separate website accessibility statement. Covered service providers must publish accessible information about their service, its use and how it meets accessibility requirements in terms and conditions or an equivalent document.",
+    "reporting": "PFRON states that Article 67 notifications have no specified deadline after discovery. Separate duties require manufacturers and service providers to notify the competent authority without delay in the circumstances of Articles 27(2) and 32(2)(6).",
+    "enforcement": "In its reply of 26 October 2026, PFRON confirmed that accessibility market surveillance and monitoring had begun and that it was conducting compliance-monitoring activities. Inspections and administrative decisions were described as possible subsequent steps; no issued measures or outcomes were confirmed.",
+    "enforcement_detail": "PFRON says optional dark mode can be assessed. Information about operators under surveillance may be requested under the Access to Public Information Act, subject to individual assessment and statutory restrictions, including business secrets."
+  },
+  "comparison": {
+    "checked_on": "2026-10-30",
+    "testing_and_live_main": "Both research records lack the October reply; authorities pages retain Unknown and enforcement pages have no Poland entry.",
+    "open_pr": "Only open PR found: live #86, head 646cfb9f321ee566279e34418df762fdf23f4427. Its authorities and enforcement pages also lack these findings; leave its Sweden/e-book changes untouched.",
+    "live_page_name": "EAA authorities and reporting by country.md",
+    "local_page_name": "monitoring-agencies-information.md"
+  },
+  "review": {
+    "original_inspected": true,
+    "independent_source_fidelity_readability": "pending",
+    "public_pages_edited": false,
+    "reason": "Shared evidence workflow requires isolated source-fidelity/readability and applicable validation before public wording. Exact proposals are saved for review; no independent review claimed."
+  },
+  "public_legal_source_check": {
+    "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+    "attempted_on": "2026-10-30",
+    "result": "Official enacted text reachable; not a fresh full statutory or amendment audit. New interpretations remain attributed to PFRON."
+  },
+  "limitations": [
+    "No WCAG 2.2 methodology confirmed.",
+    "No mandatory dark-mode feature established.",
+    "No issued warnings, decisions, sanctions or completed inspections established.",
+    "No guarantee of disclosure about individual operators.",
+    "No change to statutory sanctions or historical EN evidence."
+  ],
+  "validation": "PASS unified country schema, all country evidence fingerprints/monitoring contracts/routing via full validator before its known enforcement public-map failure; targeted new enforcement claim/source structure and date checks; preservation of prior evidence, attempts, questions, frozen language claim and sanctions; whitespace check. Full validator remains blocked by pre-existing enforcement public-map mismatch. Isolated publication wording review remains pending.",
+  "publication_preparation_2026_10_30": {
+    "status": "Prepared and published as draft testing PR #93; not merged. Historical local-only entries retained as history.",
+    "review_record": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
+    "baseline": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+    "scope": "Only Belgium, Cyprus and Poland. Public PR #86 has separate Sweden/e-book changes; leave unchanged. Research-only Hub intake is draft #92.",
+    "validation": "Targeted checks and 28 enforcement tests pass; documented global failures reproduced on untouched baseline.",
+    "public_page": "EAA authorities and reporting by country.md",
+    "pr": 93,
+    "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718"
+  }
+}

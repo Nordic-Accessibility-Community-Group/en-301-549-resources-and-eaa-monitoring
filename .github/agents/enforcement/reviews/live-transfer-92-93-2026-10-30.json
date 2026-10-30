@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "public_base": "07ddd0b7c26ab1e568a86f51bd3386214a5703c0",
+  "testing_heads": {
+    "92": "a98af0e8c588e2d75462f0ad0c968e4a374fa946",
+    "93": "8c8c44d7ea85573ed541d162fa577762814138a4"
+  },
+  "scope": "Transfer merged testing #92 and #93 onto public main after #86. Preserve e-book and Sweden updates and existing live link-language entries. Regenerate routing from combined records. No new legal research.",
+  "public_wording": {
+    "Belgium_statement": "✔️ Yes",
+    "Poland_statement": "✖️ No",
+    "editorial_basis": "User explicitly requested short Yes/No cells and removal of public links to correspondence research; evidence remains in country records.",
+    "sha256": {
+      "EAA authorities and reporting by country.md": "448a359d4f1d66c06a575b0b3c446ca0cc94d62d65ffc630f076f2f692184dd0",
+      "EAA enforcement tracking.md": "39c7f38c9601c0655fca60c6aa9080e097e0ec6ad91bc702652cf0ed7f47575f"
+    }
+  },
+  "reviews": "Historical isolated English source-fidelity, B2 enforcement readability and actual testing PR review are retained in authority-replies-2026-10-30.json; not represented as new live-head reviews. No new substantive wording in transfer.",
+  "validation": {
+    "passed": [
+      "28 enforcement unit tests",
+      "link-language coverage",
+      "14 verification date markers",
+      "three changed country schemas and evidence fingerprints",
+      "existing evidence and sanctions preservation",
+      "routing projection",
+      "unchanged out-of-scope public rows",
+      "whitespace check"
+    ],
+    "baseline_limit": "Full country-record and enforcement checks fail on existing public-map row mismatch on both public base and transfer. Unmapped actual/expected rows decrease from 17 to 16 after Estonia editorial map update; no new mismatch. An in-memory diagnostic bypass of only that assertion passes remaining enforcement checks; repository checkers remain unchanged.",
+    "not_run": [
+      "Markdown lint",
+      "rendered HTML validation"
+    ]
+  },
+  "inherited_scope": "Other authority rosters, legal links and reporting routes within changed country rows are inherited, not freshly verified. Hub intake is a secondary discovery resource only. Raw emails, signatures and private contact data are excluded."
+}
