@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-30",
+  "reviewer": "/root/public_87_review",
+  "isolation": "Independent no-history PR reviewer; task brief, actual GitHub PR/head/diff, domain specifications, evidence and historical completed reports. Distinct from source-fidelity and readability reviewers.",
+  "pr_url": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/87",
+  "reviewed_head": "643815a1d7fb6624ebc8fa867a838700f072ca55",
+  "reviewed_base": "07ddd0b7c26ab1e568a86f51bd3386214a5703c0",
+  "scope": "Actual 17-file public PR transfer of testing #92/#93: Belgium/Cyprus/Poland authority replies, Belgium/Poland enforcement, Estonia source-label edit, correspondence presentation instructions, evidence/intakes/reports/maps/routing/link-language records and research-only Hub intake.",
+  "result": "No new actionable blocking findings identified. Human maintainer review remains required; this is not approval or merge authorization.",
+  "findings": [],
+  "checks": [
+    "Actual GitHub PR metadata, complete diff and changed-file inventory retrieved through connector; head/base reread unchanged after review; PR remains draft.",
+    "Claim-to-evidence mapping inspected: Belgium historical investigations and bounded service-information duty; Cyprus general contact and English-document acceptance remain distinct from unknown formal/statutory procedures; Poland monitoring, conditional subsequent measures, optional dark mode, disclosure limits and notification timing match recorded correspondence.",
+    "User-directed Belgium Yes / Poland No and removal of public research links treated as authorized editorial decisions; supporting distinctions retained in evidence. No fresh fidelity verdict asserted for these short cells.",
+    "Historical isolated English source-fidelity and separate B2 readability records inspected, including exact wording, corrections, actual testing-PR findings and dispositions. They remain historical and are not relabeled live-head verdicts.",
+    "Prior evidence objects and sanctions domains for all three changed countries independently compared with public base and preserved exactly. Frozen enforcement baseline/checker unchanged. Scope excludes fresh verification of inherited authority rosters, existing reporting routes, legal links and remaining public rows.",
+    "Privacy inspected: no new raw messages, signatures or private individual contacts; functional public Cyprus mailbox and privacy-safe attachment fingerprints retained.",
+    "Independent execution: all 28 enforcement tests pass. Full enforcement checker reproduces identical public-map failure on reviewed content and untouched public base.",
+    "Public page hashes match transfer report. PR description distinguishes inherited material, source/publication dates and languages, historical reviews, omitted validations and baseline failure. It accurately leaves this independent review pending until report handoff."
+  ],
+  "public_sha256": {
+    "EAA authorities and reporting by country.md": "448a359d4f1d66c06a575b0b3c446ca0cc94d62d65ffc630f076f2f692184dd0",
+    "EAA enforcement tracking.md": "39c7f38c9601c0655fca60c6aa9080e097e0ec6ad91bc702652cf0ed7f47575f"
+  },
+  "non_blocking_follow_up": [
+    {
+      "item": "Inherited enforcement public-map mismatch",
+      "disposition": "Already disclosed in PR and transfer report; reproduced on base and head. Preparing-agent diagnostic reports no new mismatches, decrease from 17 to 16, and remaining checks pass with only that assertion bypassed. Resolve separately without rewriting frozen evidence."
+    },
+    {
+      "item": "Complete report handoff",
+      "disposition": "Store this version-bound report and update PR pending-review description to the actual outcome; report-only follow-up does not newly verify unchanged substantive wording."
+    }
+  ],
+  "limits": [
+    "No new legal research or independent authentication of private correspondence.",
+    "Original private EML files were not reopened; this PR review uses recorded passages and completed isolated reports.",
+    "Link/date/schema/routing and exhaustive row-scope checks are reported by preparing agent/transfer report; not all independently rerun here.",
+    "No rendered HTML, Markdown lint or human approval claimed."
+  ]
+}
