@@ -1,0 +1,86 @@
+{
+  "reviewed_on": "2026-10-30",
+  "reviewer": "Assistant",
+  "comment_author": "MiiaKirsi",
+  "comment_date": "2026-10-22",
+  "comments": [
+    "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/90#issuecomment-6341467604",
+    "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/90#issuecomment-6341690022"
+  ],
+  "target_pr": 86,
+  "target_head": "646cfb9f321ee566279e34418df762fdf23f4427",
+  "target_page": "E-book accessibility metadata.md",
+  "status": "Revisions implemented for public draft PR #86; review/validation recorded below.",
+  "items": [
+    {
+      "topic": "Finland statement amendment",
+      "decision": "Research lead only; retain current attributed Traficom guidance.",
+      "reason": "Comment says an amendment is being sought and predicts its scope/timing. This is not evidence of enactment. Traficom guidance retrieved today still includes e-books.",
+      "next_action": "Check official Finnish legislative and regulator sources before any change; do not assume one statement per title or a removal deadline."
+    },
+    {
+      "topic": "Authoring versus display resources",
+      "decision": "Accept resource distinction.",
+      "next_action": "Add EDItEUR Providing Accessibility metadata in ONIX as authoring guidance; retain ONIX display techniques with an accurate label and add the matching EPUB display techniques.",
+      "evidence": "W3C Display Guide 2.1 sections 1.2–1.3 distinguishes encoding guidance and format-specific display processing; links the EDItEUR note and both techniques.",
+      "limit": "EDItEUR PDF returned no readable content; direct document/link verification still needed."
+    },
+    {
+      "topic": "EPUB metadata in the supply chain",
+      "decision": "Accept.",
+      "proposed_text": "Intermediaries and retailers can use accessibility metadata embedded in the EPUB package document, external ONIX records, or both. ONIX also supports exchange before publication. Keep the information consistent across formats.",
+      "evidence": "W3C Display Guide 2.1 section 1.2 explicitly describes internal and external metadata and vendor choice."
+    },
+    {
+      "topic": "Conformance paragraph",
+      "decision": "Accept simplification, preserve conditional scope.",
+      "proposed_text": "For a publication that claims conformance to EPUB Accessibility 1.1, include the specified dcterms:conformsTo statement and identify the evaluator with a11y:certifiedBy, in addition to the required discovery metadata above. The evaluator may be the publisher; this field does not by itself mean independent certification.",
+      "reason": "Remove the distracting ONIX opening. Avoid implying all EPUBs with discovery metadata can or must claim accessibility conformance. W3C EPUB Accessibility 1.1 distinguishes discovery and accessible-publication conformance."
+    },
+    {
+      "topic": "EAA versus format conformance",
+      "decision": "Clarify distinction; do not adopt a blanket either-format-is-legally-sufficient claim.",
+      "proposed_text": "EPUB Accessibility conformance and compliance with applicable accessibility law are separate questions. Metadata format choice alone does not establish that the publication and service meet all applicable requirements.",
+      "next_action": "Verify exact legal wording before publication, including national rules and actual delivery/discoverability of metadata. EUR-Lex returned a robot challenge in this pass."
+    },
+    {
+      "topic": "Celia link",
+      "decision": "Replace obsolete link after destination verification.",
+      "proposed_url": "https://kansallisarkisto.fi/en/accessibility-library-celia/books-and-collections",
+      "alternative_url": "https://kansallisarkisto.fi/sv/tillganglighetsbiblioteket-celia/bocker-och-material/e-bocker",
+      "limit": "English replacement returned HTTP 403 to web reader; ordinary-browser check pending."
+    },
+    {
+      "topic": "Ellibs",
+      "decision": "Add as an ecosystem service example.",
+      "proposed_url": "https://store.ellibs.com/",
+      "limit": "English storefront retrieved. Comment reports metadata display and transfer to libraries; these operational claims need direct examples or primary documentation before asserting them. Inclusion is not an accessibility audit."
+    }
+  ],
+  "primary_sources_checked": [
+    {
+      "url": "https://www.w3.org/TR/epub-a11y-11/",
+      "result": "Retrieved; conformance and evaluator requirements and self-evaluation examples checked."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/",
+      "result": "Retrieved; sections 1.2–1.3 support internal/external metadata and authoring/display distinction."
+    },
+    {
+      "url": "https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations",
+      "result": "Retrieved; includes e-books and additional statement duties. Page says last updated 14 August 2025; not a comprehensive amendment search."
+    }
+  ],
+  "before_public_pr_final": [
+    "Maintainer: verify Celia replacement and EDItEUR PDF in an ordinary browser; automated checks could not read them.",
+    "Review GitHub checks and previously recorded Sweden wording/enforcement-map limitations."
+  ],
+  "validation": "JSON parsed successfully; no public files or remote PR modified.",
+  "implementation": {
+    "public_sha256": "4842ebae31827680baf4671321d25fbac8bb2a8ebf23767e25437076263f48c7",
+    "scope": "E-book page only; Sweden public content unchanged. Finland amendment remains a lead; no enacted change claimed.",
+    "link_limits": "Celia security challenge; EDItEUR no readable PDF in available tools. Contributor destinations included with unresolved language evidence, not certified as retrieved. W3C source supports EDItEUR resource purpose.",
+    "review": "Independent no-history /root/ebook_wording source-fidelity check; corrected display scope and accessibility-conformance condition rechecked Supported. See version-bound review file.",
+    "validation": "PASS link-language coverage (788 links), 14 verification-date markers, whitespace, unified schemas/monitoring/evidence/routing before known pre-existing enforcement public-map failure. Full Markdown/rendered HTML checks unavailable locally because npx absent."
+  }
+}

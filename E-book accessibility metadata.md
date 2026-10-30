@@ -15,7 +15,7 @@ Annex I, Section IV(f) requires:
 - Metadata about accessibility features to make e-books discoverable.
 - Digital rights management (DRM) that does not block accessibility features.
 
-These e-book requirements supplement the general service requirements in Annex I, Section III. Metadata alone does not establish that the book or service meets all applicable requirements.
+These e-book requirements supplement the general service requirements in Annex I, Section III. EPUB Accessibility conformance and compliance with applicable accessibility law are separate questions. Metadata format choice alone does not establish that the publication and service meet all applicable requirements.
 
 ## Service information and book metadata
 
@@ -27,8 +27,10 @@ Book metadata serves a different purpose: it describes the particular publicatio
 
 ## EPUB and ONIX: where the information goes
 
-- **Inside the EPUB:** package metadata travels with the publication. <a href="https://www.w3.org/TR/epub-a11y-11/" hreflang="en">EPUB Accessibility 1.1</a> specifies accessibility metadata for EPUB publications, including those that do not meet its content-accessibility requirements.
-- **Through the supply chain:** ONIX records convey information from publishers to sales, subscription and lending platforms, including before publication. They complement the metadata inside the book. See the <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/" hreflang="en">ONIX techniques for the display guide</a>.
+When displaying accessibility information to readers, intermediaries and retailers can draw on metadata embedded in the EPUB package document, external ONIX records, or both. Keep internal and external accessibility information consistent.
+
+- **Inside the EPUB:** package metadata travels with the publication. <a href="https://www.w3.org/TR/epub-a11y-11/" hreflang="en">EPUB Accessibility 1.1</a> specifies accessibility metadata for EPUB publications, including those that do not meet its content-accessibility requirements. The <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-epub-techniques-20251222/" hreflang="en">EPUB display techniques</a> explain how to extract this information for readers.
+- **Through the supply chain:** ONIX records convey information from publishers to sales, subscription and lending platforms, including before publication. For authoring guidance, see EDItEUR’s <a href="https://www.editeur.org/files/ONIX%203/APPNOTE%20Accessibility%20metadata%20in%20ONIX.pdf">Providing Accessibility metadata in ONIX (PDF)</a>. For extracting information to display to readers, see the <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/" hreflang="en">ONIX techniques for the display guide</a>.
 - **On the book's page and in search:** turn metadata into understandable descriptions and useful filters. The <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/" hreflang="en">Accessibility Metadata Display Guide 2.1</a> gives practical guidance.
 
 The <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-crosswalk-20260128/" hreflang="en">Accessibility Metadata Crosswalk</a> helps map between vocabularies. Mappings are not always reversible: converting between formats can lose detail.
@@ -45,7 +47,7 @@ Under EPUB Accessibility 1.1, the following package metadata is required or reco
 | `schema:accessModeSufficient` | Recommended | A mode, or combination of modes, sufficient to consume the content without significant loss of information. |
 | `schema:accessibilitySummary` | Recommended | Human-readable information that complements the other metadata, including known limitations. |
 
-A linked ONIX record alone does not satisfy EPUB Accessibility 1.1's package-metadata requirements. If a publication claims conformance to EPUB Accessibility 1.1, use the specified `dcterms:conformsTo` expression and identify the evaluator with `a11y:certifiedBy`. The evaluator may be the publisher; this field does not by itself mean independent certification.
+For a publication that claims conformance to the accessibility requirements of EPUB Accessibility 1.1, include the specified `dcterms:conformsTo` statement and identify the evaluator with `a11y:certifiedBy`, in addition to the required discovery metadata above. The evaluator may be the publisher; this field does not by itself mean independent certification.
 
 For syntax and examples, use <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-package-metadata-authoring-guide-20260827/" hreflang="en">Expressing Accessibility Metadata in the EPUB Package Document 1.0</a>, published on 27 August 2026.
 
@@ -65,7 +67,7 @@ The display guide recommends:
 4. Offer search filters for specific capabilities. The guide's minimum recommendation is positive filters for visual adjustments and nonvisual reading.
 5. Refresh the displayed information when updated metadata arrives.
 
-These are implementation recommendations from a W3C Community Group report. The display guide, ONIX techniques, crosswalk and package-metadata authoring guide are not W3C Recommendations.
+These are implementation recommendations from a W3C Community Group report. The display guide, EPUB and ONIX display techniques, crosswalk and package-metadata authoring guide are not W3C Recommendations.
 
 For a retailer example, <a href="https://www.kobo.com/blog/kobos-spring-2025-update-on-new-features-and-fixes" hreflang="en">Kobo announced storefront accessibility information and search filtering in April 2025</a>. The previously contributed <a href="https://www.kobo.com/gb/en/ebook/the-death-of-shame" hreflang="en">The Death of Shame listing</a> is retained as a retailer reference, not an independently assessed accessible-book example.
 
@@ -75,7 +77,7 @@ Use <a href="https://kb.daisy.org/publishing/docs/epub/validation/overview.html"
 
 ## Other organisations and services
 
-These previously contributed links provide examples of organisations and services in the e-book ecosystem. Inclusion is not an accessibility assessment.
+These links provide examples of organisations and services in the e-book ecosystem. Inclusion is not an accessibility assessment.
 
 - [BookBeat](https://bookbeat.com/)
 - [Storytel](https://www.storytel.com/)
@@ -84,5 +86,6 @@ These previously contributed links provide examples of organisations and service
 - [Kobo Sweden](https://www.kobo.com/se/sv)
 - <a href="https://pocketbook.se/se-se" hreflang="sv">PocketBook</a>
 - <a href="https://read.amazon.com/landing" hreflang="en">Amazon Kindle</a>
-- [Celia](https://www.celia.fi/sv/bocker-och-material/elektroniska-bocker/)
+- [Celia — books and collections](https://kansallisarkisto.fi/en/accessibility-library-celia/books-and-collections)
+- <a href="https://store.ellibs.com/" hreflang="en">Ellibs Ebookstore</a>
 - [Biblio](https://biblio.app/library)

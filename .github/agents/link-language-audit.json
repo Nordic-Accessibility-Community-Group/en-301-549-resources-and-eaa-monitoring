@@ -6448,6 +6448,30 @@
       "language": "sv",
       "checked_on": "2026-10-30",
       "reason": "Current directory and replacement consumer form inspected in ordinary browser. Swedish introduction and fields visible; no submission."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-epub-techniques-20251222/",
+      "language": "en",
+      "reason": "English final Community Group report retrieved 30 October 2026; abstract and display-processing scope inspected.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://www.editeur.org/files/ONIX%203/APPNOTE%20Accessibility%20metadata%20in%20ONIX.pdf",
+      "language": null,
+      "reason": "EDItEUR application note linked by W3C Display Guide section 1.2 and contributor. Web reader returned no readable text; browser PDF surface blank. Destination language not independently verified.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://kansallisarkisto.fi/en/accessibility-library-celia/books-and-collections",
+      "language": null,
+      "reason": "Replacement supplied by MiiaKirsi. Web reader HTTP 403 and ordinary browser automated security check prevented reading; destination language remains unverified.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://store.ellibs.com/",
+      "language": "en",
+      "reason": "English storefront retrieved; added as service example only, not an accessibility assessment.",
+      "checked_on": "2026-10-30"
     }
   ]
 }

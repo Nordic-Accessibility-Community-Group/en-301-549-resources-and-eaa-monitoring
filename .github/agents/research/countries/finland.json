@@ -429,7 +429,8 @@
         "Follow-up: Finland / law and information modes — retrieve full consolidated texts; check sector implementing instruments, authority-on-request provisions and any permitted terms/public-on-request alternatives. Current extraction incomplete.",
         "Before PR: Resolved by wording correction and isolated recheck: 112 (answering and accessibility); Exemptions (invoking derogation grounds). No unresolved new assertion retained. Subsequent user instruction standardizes the final label as Exemptions:; explanation retained only in research.",
         "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
-        "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing."
+        "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+        "2026-10-30: MiiaKirsi reports in testing PR #90 comment 6341467604 that an amendment to the e-book statement requirement is being sought. This is not enactment or a confirmed effective date/scope. Retain current attributed Traficom guidance; check official sources before changing it. See research/intakes/ebook-miia-review-2026-10-30.json for the assessment and public PR #86 revisions."
       ]
     },
     "sanctions": {
