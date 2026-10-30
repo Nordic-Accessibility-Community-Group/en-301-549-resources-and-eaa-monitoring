@@ -1,0 +1,285 @@
+{
+  "id": "ebook-metadata-2026-10-20",
+  "checked_on": "2026-10-20",
+  "scope": "Focused research and revision of E-book accessibility metadata.md. No EPUB file audit, market-wide vendor assessment, 27-country compliance comparison or new sanctions/enforcement/adoption conclusions.",
+  "baseline": {
+    "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+    "commit": "111337ac607fb1ff52b9586b61980d7d7e269249",
+    "open_testing_prs_at_start": [],
+    "live_pr_overlap": "Live PR #84 contains the already-merged testing page rename and introduction. This research is a separate testing draft."
+  },
+  "budget": {
+    "started_at_utc": "2026-10-20T07:51:17Z",
+    "deadline_utc": "2026-10-20T08:21:17Z",
+    "minutes": 30,
+    "includes": "Research, verification and source-fidelity retrieval; excludes rendering and PR preparation.",
+    "research_and_verification_completed_at_utc": "2026-10-20T08:06:30Z",
+    "elapsed_minutes_rounded_up": 16
+  },
+  "sources": [
+    {
+      "id": "eaa",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882",
+      "section": "Articles 2, 3(41)-(42), 4(3)/(5), 13(2); Annex I III/IV(f); Annex V",
+      "finding": "Distinguishes e-book services from dedicated e-reader products, requires feature metadata, and separately requires accessible public information about covered services. Recital 41 is not the Article 3 definition.",
+      "publication_date": "2019-04-17",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "legislation",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "finland",
+      "url": "https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations",
+      "section": "Additional requirement for e-books; Additional obligations related to the accessibility statement",
+      "finding": "Finnish guidance identifies additional statement content for listed consumer services, including e-books. It supports a Finland example, not a cross-country compliance guarantee.",
+      "publication_date": "2025-08-14",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "monitoring_body",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "epub11",
+      "url": "https://www.w3.org/TR/epub-a11y-11/",
+      "section": "Status; 2.2 Package metadata; 2.3 Linked metadata records; 3.5 Conformance reporting",
+      "finding": "Recommendation. Requires accessMode, accessibilityFeature and accessibilityHazard; recommends accessModeSufficient and accessibilitySummary. Linked metadata alone is insufficient. Conformance reporting identifies an evaluator, which may be the publisher.",
+      "publication_date": "2024-10-17",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "epub12",
+      "url": "https://www.w3.org/TR/epub-a11y-12/",
+      "section": "Status; 2.2 Package metadata",
+      "finding": "Candidate Recommendation Draft dated 12 September 2026; accessModeSufficient required and accessMode recommended in this draft. Not silently substituted for the published 1.1 Recommendation.",
+      "publication_date": "2026-09-12",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "display",
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/",
+      "section": "Status; 1.2, 1.3; 2.1; 4 Implementing search filters",
+      "finding": "Community guidance supports capability-oriented display/filtering, neutral treatment of absent metadata, attribution of publisher declarations, and refreshed displays when metadata changes.",
+      "publication_date": "2025-12-22",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "onix-techniques",
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/",
+      "section": "Status; 1.1 ONIX metadata",
+      "finding": "ONIX supplies book information to sales, lending and subscription platforms, including before publication; it complements embedded metadata and can generate reader-facing descriptions.",
+      "publication_date": "2025-12-22",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "onix196",
+      "url": "https://ns.editeur.org/onix/en/196",
+      "section": "Heading; codes 00, 04, 08, 09 and feature codes",
+      "finding": "Official list currently labels itself Issue 75. Use the list title rather than preserve the stale Issue 69 label. Unknown and inaccessible/limited are distinct; a summary complements structured detail.",
+      "publication_date": null,
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "authoring",
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-package-metadata-authoring-guide-20260827/",
+      "section": "Title, status, introduction, property guidance and Appendix A examples",
+      "finding": "Published Community Group guide provides EPUB package metadata syntax and examples; replaces the old moved example URL.",
+      "publication_date": "2026-08-27",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "crosswalk",
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-crosswalk-20260128/",
+      "section": "Status; 2.2 Bidirectional mapping and round-tripping",
+      "finding": "Mappings between EPUB/schema.org, ONIX and other vocabularies are not always reversible; formats can preserve different detail.",
+      "publication_date": "2026-01-28",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "validation",
+      "url": "https://kb.daisy.org/publishing/docs/epub/validation/overview.html",
+      "section": "Validation process",
+      "finding": "EPUBCheck checks EPUB structure, Ace automates some accessibility checks, and manual evaluation remains necessary.",
+      "publication_date": null,
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "kobo-announcement",
+      "url": "https://www.kobo.com/blog/kobos-spring-2025-update-on-new-features-and-fixes",
+      "section": "Book accessibility information",
+      "finding": "Dated announcement reports storefront accessibility information and filtering. Does not support the inherited future expansion promise or independently verify a particular book.",
+      "publication_date": "2025-04-21",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "provider_announcement",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "schema",
+      "url": "https://schema.org/Book",
+      "section": "Book and inherited CreativeWork properties",
+      "finding": "English vocabulary reference retained; not treated as an ebook format or legal compliance certificate.",
+      "publication_date": null,
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    },
+    {
+      "id": "vocabulary",
+      "url": "https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/",
+      "section": "Title and accessibility discovery vocabulary",
+      "finding": "Published English vocabulary reference retained with a page-level link rather than an unrelated property fragment.",
+      "publication_date": "2024-12-09",
+      "accessed_on": "2026-10-20",
+      "language": "en",
+      "source_type": "primary_technical",
+      "access_result": "readable",
+      "support": "supports_scoped_finding"
+    }
+  ],
+  "changes": [
+    {
+      "existing": "Recital (41) presented as the definition; long text fragments anchored to Annex VI.",
+      "action": "Use Article 3 definition and source sections; concise Annex I summary.",
+      "sources": [
+        "eaa"
+      ],
+      "status": "verified"
+    },
+    {
+      "existing": "Following Finland can be assumed to cover all countries; Finland alone is clear and strict.",
+      "action": "Omit the unsupported comparative guarantee. Keep Finland as a scoped national example.",
+      "sources": [
+        "finland",
+        "eaa"
+      ],
+      "status": "unsupported_original"
+    },
+    {
+      "existing": "A metadata table should be enough; an ONIX-based statement does not make sense.",
+      "action": "Separate service information from publication metadata; explain the role of ONIX in supply and display.",
+      "sources": [
+        "eaa",
+        "onix-techniques",
+        "display"
+      ],
+      "status": "unsupported_original"
+    },
+    {
+      "existing": "Unqualified requirements for embedded data, search filters and visual display.",
+      "action": "Attribute EPUB package rules to EPUB 1.1 and display/filter recommendations to the Community Group guide.",
+      "sources": [
+        "epub11",
+        "display"
+      ],
+      "status": "verified"
+    },
+    {
+      "existing": "ONIX Issue 69 label; EPUB described as metadata to send to publishers; moved examples.",
+      "action": "Correct source roles, use EDItEUR list title and published authoring guide; retain schema.org and vocabulary references.",
+      "sources": [
+        "onix196",
+        "onix-techniques",
+        "authoring",
+        "schema",
+        "vocabulary"
+      ],
+      "status": "verified"
+    },
+    {
+      "existing": "No version distinction or validation guidance.",
+      "action": "Add 1.1 metadata table, clearly labelled 1.2 draft change, crosswalk and automated/manual validation guidance.",
+      "sources": [
+        "epub11",
+        "epub12",
+        "crosswalk",
+        "validation"
+      ],
+      "status": "verified"
+    },
+    {
+      "existing": "Accessible-book endorsement and Kobo future filter expansion promise.",
+      "action": "Retain contributor listing as retailer reference; replace unsupported current/future claim with dated primary announcement.",
+      "sources": [
+        "kobo-announcement"
+      ],
+      "status": "narrowed"
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882",
+      "attempts": "Two search-reader attempts returned only a placeholder; ordinary browser retrieved the full English law.",
+      "support_limit": "Summarised provisions only; not an exhaustive legal applicability assessment."
+    },
+    {
+      "url": "https://w3c.github.io/publ-a11y/package-metadata-authoring-guide/#examples",
+      "attempts": "Moved stub; second request without fragment also yielded the stub. Located the published W3C replacement.",
+      "support_limit": "Do not treat the stub as evidence about metadata."
+    },
+    {
+      "url": "https://www.kobo.com/gb/en/ebook/the-death-of-shame",
+      "attempts": "Search reader failed; ordinary browser loaded English book listing with location notice. No accessibility section established from the inspected view.",
+      "support_limit": "No EPUB downloaded or evaluated; neither positive nor negative accessibility finding."
+    },
+    {
+      "url": "https://w3c-cg.github.io/a11y-discov-vocab/latest/",
+      "attempts": "Latest redirect destination unavailable in search reader. Published December 2024 vocabulary retained without a latest-version claim.",
+      "support_limit": "No inference that the latest vocabulary is unavailable to ordinary users."
+    }
+  ],
+  "inherited_material": "BookBeat, Storytel, Bokus, Kobo search/Sweden, PocketBook, Kindle, Celia and Biblio links retained as examples. Their services, current languages and accessibility were not re-audited; pre-existing unresolved language records remain unresolved.",
+  "dispositions": {
+    "E-book accessibility metadata.md": "Revise with the scoped findings and citations in this intake.",
+    "EAA authorities and reporting by country.md": "research_only: Finland statement detail appended to canonical country record; existing public Yes entry remains sufficient. No new authority or reporting route.",
+    "EAA sanctions.md": "not_applicable: no new sanction provision or amount investigated.",
+    "EAA enforcement tracking.md": "not_applicable: no enforcement case or outcome investigated.",
+    "EN 301 549 adoption.md": "not_applicable: no new national EN 301 549 adoption evidence.",
+    "EAA and WAD standards.md": "research_only: EPUB specification status and Community Group guidance captured here; no harmonisation or legal presumption of conformity established.",
+    "future_pages": "Reuse these scoped sources, not the removed cross-country guarantee; review current versions before reuse."
+  },
+  "review_report": ".github/agents/research/intakes/ebook-metadata-2026-10-20-review.json",
+  "follow_up": [
+    "If a verified accessible-book example is wanted, obtain and evaluate the exact edition and inspect its current storefront metadata; a retailer announcement alone is insufficient.",
+    "Revisit EPUB Accessibility 1.2 when its publication status changes; this draft is explicitly dated.",
+    "Any country comparison requires a separately scoped check of national implementation and service circumstances."
+  ],
+  "review_result": "Supported after six wording corrections/precisions and isolated recheck; see version-bound report."
+}

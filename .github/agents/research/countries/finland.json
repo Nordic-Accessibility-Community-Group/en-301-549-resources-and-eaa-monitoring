@@ -195,6 +195,13 @@
       "evidence": "Nina Gerling lists amending Act 104/2023 and Decree 179/2023 alongside 306/2019. The repo already links consolidated 306/2019 chapter 3a and product Act 102/2023; these supplementary instruments are not separately captured.",
       "section": "Finland law row; Finlex 2023/104 and 2023/179.",
       "source_type": "other_unverified"
+    },
+    "source-4322f7a870e549b58608711f": {
+      "url": "https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations",
+      "accessed_on": "2026-10-20",
+      "evidence": "For listed consumer digital services including e-books, Traficom describes additional statement content: service description, information about products required to use the service, and how service-specific requirements are addressed.",
+      "section": "Additional obligations related to the accessibility statement",
+      "source_type": "monitoring_body"
     }
   },
   "domains": {
@@ -400,6 +407,19 @@
             "source-cc5e0b57ebdf5ac049bfcdc9"
           ],
           "id": "monitoring-96b93fe30caa159f9f788282"
+        },
+        {
+          "field": "service_information",
+          "assertion": "Traficom requires additional accessibility-statement information for covered consumer digital services, including e-books: a service description, relevant information about products required to use the service, and how service-specific requirements are addressed.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Finnish covered consumer digital services, including e-books; not evidence of compliance in other jurisdictions.",
+          "information_mode": "public_other",
+          "review_note": "English regulator guidance checked 2026-10-20, page updated 2025-08-14. Supplements rather than supersedes the existing statement claim. Exact public wording and source-fidelity review: .github/agents/research/intakes/ebook-metadata-2026-10-20-review.json. Existing monitoring table needs no change; used in the e-book page.",
+          "source_refs": [
+            "source-4322f7a870e549b58608711f"
+          ],
+          "id": "monitoring-759a16ca161f3147b0439f58"
         }
       ],
       "questions": [
@@ -839,6 +859,52 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "ebook-metadata-2026-10-20-finland",
+      "country": "Finland",
+      "recorded_on": "2026-10-20",
+      "status": "research_only",
+      "reason": "Scoped Finland example for the e-book metadata page; see .github/agents/research/intakes/ebook-metadata-2026-10-20.json",
+      "next_action": "Review the e-book draft; no public country-table change proposed.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland statement detail retained for the e-book page; existing public monitoring entry requires no change.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
         }
       ]
     }

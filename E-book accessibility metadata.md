@@ -1,65 +1,88 @@
 # E-book accessibility metadata
 
-This page brings together the European Accessibility Act (EAA) provisions for e-books, guidance on documenting and presenting accessibility metadata, and links to metadata standards and examples.
-
-Accessibility metadata helps readers understand whether an e-book meets their needs. Make it available for individual books and through search filters, using clear descriptions rather than relying only on WCAG levels or technical labels.
+Accessibility metadata describes an e-book's features and limitations so readers can decide whether it meets their needs. This page connects the European Accessibility Act (EAA) requirements with practical guidance for publishers, distributors, booksellers and libraries.
 
 ## E-books in the EAA
-### Definition of E-Books in the EAA
-> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=consumer%20banking%20transactions.-,(41),E%2Dbook,-files%20are%20based" hreflang="en">(41) E-book files</a> are based on a electronic computer coding that enables the circulation and consultation of a mostly textual and graphical intellectual work. The degree of precision of this coding determines the accessibility of e-book files, in particular regarding the qualification of the different constitutive elements of the work and the standardised description of its structure. The interoperability in terms of accessibility should optimise the compatibility of those files with the user agents and with current and future assistive technologies. Specific features of special volumes like comics, children’s books and art books should be considered in the light of all applicable accessibility requirements. Divergent accessibility requirements in Member States would make it difficult for publishers and other economic operators to benefit from the advantages of the internal market, could create interoperability problems with e-readers and would limit the access for consumers with disabilities. In the context of e-books, the concept of a service provider could include publishers and other economic operators involved in their distribution.
-### Demands on E-books in the EAA
-<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#anx_VI:~:text=(f)-,E%2Dbooks%3A,-(i)" hreflang="en">(f) E-books:</a>
 
-> - (i) ensuring that, when an e-book contains audio in addition to text, it then provides synchronised text and audio;
-> - (ii) ensuring that e-book digital files do not prevent assistive technology from operating properly;
-> - (iii) ensuring access to the content, the navigation of the file content and layout including dynamic layout, the provision of the structure, flexibility and choice in the presentation of the content;
-> - (iv) allowing alternative renditions of the content and its interoperability with a variety of assistive technologies, in such a way that it is perceivable, understandable, operable and robust;
-> - (v) making them discoverable by providing information through metadata about their accessibility features;
-> - (vi) ensuring that digital rights management measures do not block accessibility features.
-  
-## Actors on the market
-Some examples of different actors on the market.
-1. E-book providers
-    - Services
-      - [Bookbeat](https://bookbeat.com/)
-      - [Storytel](https://www.storytel.com/) 
-    - E-commerce actors
-      - [Bokus.com](https://www.bokus.com/e-bocker)
-      - [Rakuten kobo book store](https://www.kobo.com/gb/en/search?query=accessibility&fclanguages=en)
-    - E-book readers
-      - [Kobo](https://www.kobo.com/se/sv)
-      - <a href="https://pocketbook.se/se-se" hreflang="sv">Pocketbook</a>
-      - <a href="https://read.amazon.com/landing" hreflang="en">Amazon kindle</a>
-3. E-book Publishers
-    - Private publishers
-    - Libraries (such as [Celia](https://www.celia.fi/sv/bocker-och-material/elektroniska-bocker/), [Biblio](https://biblio.app/library))
-  
-## How to document
-If you use statement and data as Finland proposes, you could assume to be covered for all other countries - even if they differ a bit. Seems so far that Finland is the only country being both clear and strict.
+The <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882" hreflang="en">EAA, Articles 2 and 3</a> covers consumer e-book services, including dedicated software, from 28 June 2025. Article 3(41) defines that service; dedicated e-reader devices have a separate product definition. Scope, exemptions and transitional provisions matter, including the exemption for microenterprises providing services in Article 4(5).
 
-If you construct a table of metadata it should be enough. Who would use a statement based on ONIX data? That does not make sense..
+Annex I, Section IV(f) requires:
 
-In the directive it says you ensure that it works for everyone using accessibility tools and that it is flexible in use, and more.
+- Synchronised text and audio when both are present.
+- Files that do not prevent assistive technology from operating properly.
+- Access to content, navigation, layout (including dynamic layout) and structure, with flexibility and choice in presentation.
+- Allowing alternative renditions and interoperability with varied assistive technologies, so that content is perceivable, understandable, operable and robust.
+- Metadata about accessibility features to make e-books discoverable.
+- Digital rights management (DRM) that does not block accessibility features.
 
-1. On site level and app level you need to present an accessibility statement for the service accessibility.
-2. On a product (book) level you need to have the metadata for the book embedded.
-3. In search and filters you need to be able to use the metadata.
-4. On the presentation page for the book, display metadata visually.
+These e-book requirements supplement the general service requirements in Annex I, Section III. Metadata alone does not establish that the book or service meets all applicable requirements.
 
-## Meta-data resources
+## Service information and book metadata
 
-<a href="https://ns.editeur.org/onix/en/196" hreflang="en">ONIX codelists Issue 69</a> – list 196  ONIX-format
-<a href="https://schema.org/Book" hreflang="en">Book - Schema.org Type</a>  Schema.org-format (with <a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/#accessibilityControl-vocabulary" hreflang="en">referenced vocabulary</a>)
+Article 13(2) and Annex V require providers of covered services to explain how the service meets the applicable requirements. Information must be public in accessible written and oral formats. Annex V places it in the general terms and conditions or an equivalent document.
 
-For guidance on presenting accessibility metadata, see the <a href="https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/" hreflang="en">Accessibility Metadata Display Guide for Digital Publications 2.1</a>.
+For a national example, <a href="https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations" hreflang="en">Traficom's Finnish guidance</a> explains additional accessibility-statement content for covered consumer digital services, including e-books: a service description, relevant information about products needed to use it, and an explanation of how the service-specific requirements are met. This guidance describes Finland's requirements; it does not establish compliance in other countries.
 
-Recommended metadata to send to publishers <a href="https://www.w3.org/TR/epub-a11y-11/" hreflang="en">EPUB Accessibility 1.1</a>
+Book metadata serves a different purpose: it describes the particular publication. Keep service information and book information consistent, and check the national requirements that apply to the service.
 
-### Example of metadata
+## EPUB and ONIX: where the information goes
 
-See the [W3C example of accessibility metadata in an EPUB package document](https://w3c.github.io/publ-a11y/package-metadata-authoring-guide/#examples).
+- **Inside the EPUB:** package metadata travels with the publication. <a href="https://www.w3.org/TR/epub-a11y-11/" hreflang="en">EPUB Accessibility 1.1</a> specifies accessibility metadata for EPUB publications, including those that do not meet its content-accessibility requirements.
+- **Through the supply chain:** ONIX records convey information from publishers to sales, subscription and lending platforms, including before publication. They complement the metadata inside the book. See the <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/" hreflang="en">ONIX techniques for the display guide</a>.
+- **On the book's page and in search:** turn metadata into understandable descriptions and useful filters. The <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/" hreflang="en">Accessibility Metadata Display Guide 2.1</a> gives practical guidance.
 
-### Accessible E-book example
-[The Death of Shame ebook by Ambrose Parry - Rakuten Kobo](https://www.kobo.com/gb/en/ebook/the-death-of-shame) where they present the metadata in clear language.
+The <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-crosswalk-20260128/" hreflang="en">Accessibility Metadata Crosswalk</a> helps map between vocabularies. Mappings are not always reversible: converting between formats can lose detail.
 
-Kobo currently has a "Yes/ No" filter for accessibility with a plan to expand the filters soon.
+## Recording metadata in EPUB
+
+Under EPUB Accessibility 1.1, the following package metadata is required or recommended:
+
+| Property | Status in EPUB Accessibility 1.1 | What it describes |
+| --- | --- | --- |
+| `schema:accessMode` | Required | Perceptual or cognitive modes needed to process the content, such as textual, visual, auditory or tactile. |
+| `schema:accessibilityFeature` | Required | Accessibility features provided by the publication. |
+| `schema:accessibilityHazard` | Required | Potential hazards, such as flashing, motion simulation or sound. |
+| `schema:accessModeSufficient` | Recommended | A mode, or combination of modes, sufficient to consume the content without significant loss of information. |
+| `schema:accessibilitySummary` | Recommended | Human-readable information that complements the other metadata, including known limitations. |
+
+A linked ONIX record alone does not satisfy EPUB Accessibility 1.1's package-metadata requirements. If a publication claims conformance to EPUB Accessibility 1.1, use the specified `dcterms:conformsTo` expression and identify the evaluator with `a11y:certifiedBy`. The evaluator may be the publisher; this field does not by itself mean independent certification.
+
+For syntax and examples, use <a href="https://www.w3.org/community/reports/publishingcg/CG-FINAL-package-metadata-authoring-guide-20260827/" hreflang="en">Expressing Accessibility Metadata in the EPUB Package Document 1.0</a>, published on 27 August 2026.
+
+**Version note, checked 20 October 2026:** EPUB Accessibility 1.1 is a W3C Recommendation. <a href="https://www.w3.org/TR/2026/CRD-epub-a11y-12-20260912/" hreflang="en">EPUB Accessibility 1.2, dated 12 September 2026</a>, is a Candidate Recommendation Draft. Among its proposed changes, `accessModeSufficient` becomes required and `accessMode` becomes recommended. Keep implementation guidance tied to the version being used.
+
+For ONIX records, use EDItEUR's <a href="https://ns.editeur.org/onix/en/196" hreflang="en">List 196: E-publication Accessibility Details</a>. Its structured codes distinguish accessibility features, conformance claims, summaries and unknown information. A free-text summary complements the structured data.
+
+For vocabulary reference, see <a href="https://schema.org/Book" hreflang="en">schema.org's Book type</a> and the <a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/" hreflang="en">Accessibility Discovery Vocabulary</a>.
+
+## Helping readers choose
+
+The display guide recommends:
+
+1. Make clear that the information describes the publisher's declarations.
+2. Explain useful capabilities, such as visual adjustments and nonvisual reading, in clear language.
+3. Treat missing metadata as unavailable information, rather than a negative accessibility claim.
+4. Offer search filters for specific capabilities. The guide's minimum recommendation is positive filters for visual adjustments and nonvisual reading.
+5. Refresh the displayed information when updated metadata arrives.
+
+These are implementation recommendations from a W3C Community Group report. The display guide, ONIX techniques, crosswalk and package-metadata authoring guide are not W3C Recommendations.
+
+For a retailer example, <a href="https://www.kobo.com/blog/kobos-spring-2025-update-on-new-features-and-fixes" hreflang="en">Kobo announced storefront accessibility information and search filtering in April 2025</a>. The previously contributed <a href="https://www.kobo.com/gb/en/ebook/the-death-of-shame" hreflang="en">The Death of Shame listing</a> is retained as a retailer reference, not an independently assessed accessible-book example.
+
+## Checking the book and its metadata
+
+Use <a href="https://kb.daisy.org/publishing/docs/epub/validation/overview.html" hreflang="en">DAISY's EPUB validation guidance</a> to combine structural checks with EPUBCheck, automated accessibility checks with Ace, and manual evaluation. Automated tools cannot establish every accessibility requirement, including whether alternative text is appropriate. Record metadata that reflects the evaluated publication.
+
+## Other organisations and services
+
+These previously contributed links provide examples of organisations and services in the e-book ecosystem. Inclusion is not an accessibility assessment.
+
+- [BookBeat](https://bookbeat.com/)
+- [Storytel](https://www.storytel.com/)
+- [Bokus](https://www.bokus.com/e-bocker)
+- [Kobo book search](https://www.kobo.com/gb/en/search?query=accessibility&fclanguages=en)
+- [Kobo Sweden](https://www.kobo.com/se/sv)
+- <a href="https://pocketbook.se/se-se" hreflang="sv">PocketBook</a>
+- <a href="https://read.amazon.com/landing" hreflang="en">Amazon Kindle</a>
+- [Celia](https://www.celia.fi/sv/bocker-och-material/elektroniska-bocker/)
+- [Biblio](https://biblio.app/library)

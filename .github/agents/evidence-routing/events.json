@@ -1585,6 +1585,52 @@
       ]
     },
     {
+      "id": "ebook-metadata-2026-10-20-finland",
+      "country": "Finland",
+      "recorded_on": "2026-10-20",
+      "status": "research_only",
+      "reason": "Scoped Finland example for the e-book metadata page; see .github/agents/research/intakes/ebook-metadata-2026-10-20.json",
+      "next_action": "Review the e-book draft; no public country-table change proposed.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland statement detail retained for the e-book page; existing public monitoring entry requires no change.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
@@ -4518,6 +4564,98 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "sweden-mtm-reporting-routes-2026-10-16",
+      "country": "Sweden",
+      "recorded_on": "2026-10-23",
+      "status": "draft_pr",
+      "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
+      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "draft_pr",
+          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
+          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "These are reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change from this evidence.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No sanction maximum, condition or imposed fine is established by these routes.",
+          "next_action": "No public sanctions change from this evidence.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Reporting routes do not establish a standards-adoption change.",
+          "next_action": "No public adoption change from this evidence.",
+          "pr": null,
+          "domain": "adoption"
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
+      "next_action": "Testing PR91 merged; review live transfer including current replacement Mediemyndigheten consumer URL and preserved company/MTM routes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "proposed",
+          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
+          "next_action": "Testing PR91 merged; review live transfer including current replacement Mediemyndigheten consumer URL and preserved company/MTM routes.",
+          "pr": null,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence establishes reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a sanction or imposed fine.",
+          "next_action": "No public sanctions change.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a standards-adoption change.",
+          "next_action": "No public adoption change.",
+          "pr": null,
+          "domain": "adoption"
         }
       ]
     },

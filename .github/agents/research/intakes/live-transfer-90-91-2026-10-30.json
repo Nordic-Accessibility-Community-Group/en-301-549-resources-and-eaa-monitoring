@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "live_base": "edf5a7d0b52378fa9d9920ff2a97ffb6eb7c944d",
+  "testing_prs": [
+    90,
+    91
+  ],
+  "source_heads": {
+    "90": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+    "91": "d0b6139efa831d51471745a43bc932ce5bdf2377"
+  },
+  "scope": "Transfer merged e-book guidance and Sweden MTM/Mediemyndigheten reporting updates onto live main. Local Cyprus work and other local changes excluded.",
+  "evidence_fingerprint_repairs": {
+    "source-d2adb1f030370254f2a91893": "source-31adcccd0d0284b8dfff5f3b",
+    "source-0b81089d5bfdefba0b9e7a62": "source-b5478ff57da8a893c3ea07ea",
+    "source-7a0aee08071d4adb14125b7c": "source-66b6f5e3f8e6a0777111fa63",
+    "source-664b65cc6f3ae74045d632cc": "source-44b016c056dacb919f8c3511",
+    "source-e5a1086df248e577f40c725d": "source-819ffa324217d3e6a2d4b153"
+  },
+  "preservation": "Previous live source objects retained; new evidence given new fingerprint IDs and monitoring references updated. Three verified MTM claims gain their required reporting_route fields. Live-only records retained.",
+  "availability_check": {
+    "date": "2026-10-30",
+    "mtm": "All three direct initial forms opened in ordinary browser; Swedish text, anonymous complaint option and authorised representative requirements confirmed. Web reader could not access these URLs. No fields filled or submission attempted.",
+    "mediemyndigheten_company": "Web reader shows six-step Swedish company introduction and section 24 deficiencies/section 8 exemptions. No submission tested.",
+    "mediemyndigheten_consumer": "Old e-service URL returned unavailable in web reader and browser. User supplied https://mediemyndigheten.se/e-tjanster/?category=7317; current browser directory links to https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/. Opened the new form; Swedish purpose statement and fields confirmed. No submission. Web reader served an older directory listing, so current browser evidence controls. New URL replaces the obsolete destination."
+  },
+  "source_fidelity": {
+    "ebook": "Public wording transferred byte-for-byte from testing PR90; existing isolated English review preserved unchanged. No fresh substantive legal review claimed.",
+    "sweden": "Merged concise English labels retained; consumer destination updated to current browser-verified form, linked by the user-supplied official directory. No fresh isolated Swedish-to-English review performed; maintainer label review remains a before-merge check."
+  },
+  "public_sha256": {
+    "E-book accessibility metadata.md": "e64072d76cd003e22b27633c1935aef79c06a8c8761445f06491e94e669d9e43",
+    "EAA authorities and reporting by country.md": "9ad01c805a7af07a92259af1890ed177bf490d46701bf5ee169ea8207ed42b4f"
+  },
+  "validation": {
+    "baseline": "Untouched live main country validator reaches existing enforcement public-map mismatch; baseline link-language check passes.",
+    "final": "PASS: targeted Finland/Sweden schemas, evidence fingerprints, preserved prior evidence and other domains, routing projection, e-book equality with PR90, Sweden-only monitoring change, table cell structure, link-language audit (785 links), verification dates (14 markers) and whitespace. Full country validator retains baseline enforcement public-map failure. Local Markdown lint/rendered HTML tools unavailable (npx absent); GitHub CI pending."
+  }
+}
