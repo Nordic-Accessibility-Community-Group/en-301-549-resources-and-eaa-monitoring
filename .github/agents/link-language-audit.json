@@ -1533,8 +1533,8 @@
     {
       "url": "https://ns.editeur.org/onix/en/196",
       "language": "en",
-      "reason": "Retrieved destination HTML language declaration, checked against its page title; language hint only, not content/legal verification.",
-      "checked_on": "2026-09-27",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits.",
+      "checked_on": "2026-10-20",
       "final_url": "https://ns.editeur.org/onix/en/196",
       "outcome": "html_retrieved",
       "html_lang": "en",
@@ -1939,8 +1939,8 @@
     {
       "url": "https://schema.org/Book",
       "language": "en",
-      "reason": "Retrieved destination HTML language declaration, checked against its page title; language hint only, not content/legal verification.",
-      "checked_on": "2026-09-27",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits.",
+      "checked_on": "2026-10-20",
       "final_url": "https://schema.org/Book",
       "outcome": "html_retrieved",
       "html_lang": "en",
@@ -3493,11 +3493,19 @@
     },
     {
       "url": "https://www.kobo.com/gb/en/ebook/the-death-of-shame",
-      "language": null,
-      "reason": "Language unresolved: unavailable; no reliable document-language evidence in this pass.",
-      "checked_on": "2026-09-27",
-      "outcome": "unavailable",
-      "error": "HTTP Error 403: Forbidden"
+      "language": "en",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits.",
+      "checked_on": "2026-10-20",
+      "outcome": "browser_content_retrieved",
+      "previous_checks": [
+        {
+          "checked_on": "2026-09-27",
+          "language": null,
+          "outcome": "unavailable",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "method": "Ordinary browser; visible English book listing inspected."
     },
     {
       "url": "https://www.kobo.com/gb/en/search?query=accessibility&fclanguages=en",
@@ -4364,8 +4372,8 @@
     {
       "url": "https://www.w3.org/TR/epub-a11y-11/",
       "language": "en",
-      "reason": "Retrieved destination HTML language declaration, checked against its page title; language hint only, not content/legal verification.",
-      "checked_on": "2026-09-27",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits.",
+      "checked_on": "2026-10-20",
       "final_url": "https://www.w3.org/TR/epub-a11y-11/",
       "outcome": "html_retrieved",
       "html_lang": "en-US",
@@ -6350,6 +6358,120 @@
       "language": "en",
       "reason": "Renamed local repository document inspected; primary prose is English. Filename and language check only, not legal verification.",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-crosswalk-20260128/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-package-metadata-authoring-guide-20260827/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/TR/2026/CRD-epub-a11y-12-20260912/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://www.kobo.com/blog/kobos-spring-2025-update-on-new-features-and-fixes",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://kb.daisy.org/publishing/docs/epub/validation/overview.html",
+      "language": "en",
+      "checked_on": "2026-10-20",
+      "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+      "language": "sv",
+      "checked_on": "2026-10-30",
+      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim."
+    },
+    {
+      "url": "https://mtmportal.ondemand.formpipe.com/anmalan-av-klagomal",
+      "language": "sv",
+      "checked_on": "2026-10-30",
+      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim."
+    },
+    {
+      "url": "https://mtmportal.ondemand.formpipe.com/rapportering-av-brister",
+      "language": "sv",
+      "checked_on": "2026-10-30",
+      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim."
+    },
+    {
+      "url": "https://mtmportal.ondemand.formpipe.com/aberopande-av-undantag",
+      "language": "sv",
+      "checked_on": "2026-10-30",
+      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim."
+    },
+    {
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "language": "sv",
+      "checked_on": "2026-10-30",
+      "reason": "Current directory and replacement consumer form inspected in ordinary browser. Swedish introduction and fields visible; no submission."
+    },
+    {
+      "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-epub-techniques-20251222/",
+      "language": "en",
+      "reason": "English final Community Group report retrieved 30 October 2026; abstract and display-processing scope inspected.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://www.editeur.org/files/ONIX%203/APPNOTE%20Accessibility%20metadata%20in%20ONIX.pdf",
+      "language": null,
+      "reason": "EDItEUR application note linked by W3C Display Guide section 1.2 and contributor. Web reader returned no readable text; browser PDF surface blank. Destination language not independently verified.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://kansallisarkisto.fi/en/accessibility-library-celia/books-and-collections",
+      "language": null,
+      "reason": "Replacement supplied by MiiaKirsi. Web reader HTTP 403 and ordinary browser automated security check prevented reading; destination language remains unverified.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://store.ellibs.com/",
+      "language": "en",
+      "reason": "English storefront retrieved; added as service example only, not an accessibility assessment.",
+      "checked_on": "2026-10-30"
     }
   ]
 }

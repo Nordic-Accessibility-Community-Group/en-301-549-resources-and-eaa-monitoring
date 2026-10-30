@@ -1,0 +1,199 @@
+{
+  "id": "ebook-metadata-2026-10-20-source-fidelity",
+  "date": "2026-10-20",
+  "reviewer": "/root/ebook_source_fidelity",
+  "isolation": "Separate reviewer with fork_turns=none. Given neutral language brief, original English source passages/URLs/sections and exact proposed wording only. No research records, workflow conclusions or desired verdict.",
+  "source_language": "en",
+  "publication_language": "en",
+  "literal_rendering": "Original excerpts are already English; literal English renderings are identical to the recorded excerpts.",
+  "public_file": "E-book accessibility metadata.md",
+  "public_sha256": "e64072d76cd003e22b27633c1935aef79c06a8c8761445f06491e94e669d9e43",
+  "exact_final_wording": "# E-book accessibility metadata\n\nAccessibility metadata describes an e-book's features and limitations so readers can decide whether it meets their needs. This page connects the European Accessibility Act (EAA) requirements with practical guidance for publishers, distributors, booksellers and libraries.\n\n## E-books in the EAA\n\nThe <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882\" hreflang=\"en\">EAA, Articles 2 and 3</a> covers consumer e-book services, including dedicated software, from 28 June 2025. Article 3(41) defines that service; dedicated e-reader devices have a separate product definition. Scope, exemptions and transitional provisions matter, including the exemption for microenterprises providing services in Article 4(5).\n\nAnnex I, Section IV(f) requires:\n\n- Synchronised text and audio when both are present.\n- Files that do not prevent assistive technology from operating properly.\n- Access to content, navigation, layout (including dynamic layout) and structure, with flexibility and choice in presentation.\n- Allowing alternative renditions and interoperability with varied assistive technologies, so that content is perceivable, understandable, operable and robust.\n- Metadata about accessibility features to make e-books discoverable.\n- Digital rights management (DRM) that does not block accessibility features.\n\nThese e-book requirements supplement the general service requirements in Annex I, Section III. Metadata alone does not establish that the book or service meets all applicable requirements.\n\n## Service information and book metadata\n\nArticle 13(2) and Annex V require providers of covered services to explain how the service meets the applicable requirements. Information must be public in accessible written and oral formats. Annex V places it in the general terms and conditions or an equivalent document.\n\nFor a national example, <a href=\"https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations\" hreflang=\"en\">Traficom's Finnish guidance</a> explains additional accessibility-statement content for covered consumer digital services, including e-books: a service description, relevant information about products needed to use it, and an explanation of how the service-specific requirements are met. This guidance describes Finland's requirements; it does not establish compliance in other countries.\n\nBook metadata serves a different purpose: it describes the particular publication. Keep service information and book information consistent, and check the national requirements that apply to the service.\n\n## EPUB and ONIX: where the information goes\n\n- **Inside the EPUB:** package metadata travels with the publication. <a href=\"https://www.w3.org/TR/epub-a11y-11/\" hreflang=\"en\">EPUB Accessibility 1.1</a> specifies accessibility metadata for EPUB publications, including those that do not meet its content-accessibility requirements.\n- **Through the supply chain:** ONIX records convey information from publishers to sales, subscription and lending platforms, including before publication. They complement the metadata inside the book. See the <a href=\"https://www.w3.org/community/reports/publishingcg/CG-FINAL-onix-techniques-20251222/\" hreflang=\"en\">ONIX techniques for the display guide</a>.\n- **On the book's page and in search:** turn metadata into understandable descriptions and useful filters. The <a href=\"https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/\" hreflang=\"en\">Accessibility Metadata Display Guide 2.1</a> gives practical guidance.\n\nThe <a href=\"https://www.w3.org/community/reports/publishingcg/CG-FINAL-crosswalk-20260128/\" hreflang=\"en\">Accessibility Metadata Crosswalk</a> helps map between vocabularies. Mappings are not always reversible: converting between formats can lose detail.\n\n## Recording metadata in EPUB\n\nUnder EPUB Accessibility 1.1, the following package metadata is required or recommended:\n\n| Property | Status in EPUB Accessibility 1.1 | What it describes |\n| --- | --- | --- |\n| `schema:accessMode` | Required | Perceptual or cognitive modes needed to process the content, such as textual, visual, auditory or tactile. |\n| `schema:accessibilityFeature` | Required | Accessibility features provided by the publication. |\n| `schema:accessibilityHazard` | Required | Potential hazards, such as flashing, motion simulation or sound. |\n| `schema:accessModeSufficient` | Recommended | A mode, or combination of modes, sufficient to consume the content without significant loss of information. |\n| `schema:accessibilitySummary` | Recommended | Human-readable information that complements the other metadata, including known limitations. |\n\nA linked ONIX record alone does not satisfy EPUB Accessibility 1.1's package-metadata requirements. If a publication claims conformance to EPUB Accessibility 1.1, use the specified `dcterms:conformsTo` expression and identify the evaluator with `a11y:certifiedBy`. The evaluator may be the publisher; this field does not by itself mean independent certification.\n\nFor syntax and examples, use <a href=\"https://www.w3.org/community/reports/publishingcg/CG-FINAL-package-metadata-authoring-guide-20260827/\" hreflang=\"en\">Expressing Accessibility Metadata in the EPUB Package Document 1.0</a>, published on 27 August 2026.\n\n**Version note, checked 20 October 2026:** EPUB Accessibility 1.1 is a W3C Recommendation. <a href=\"https://www.w3.org/TR/2026/CRD-epub-a11y-12-20260912/\" hreflang=\"en\">EPUB Accessibility 1.2, dated 12 September 2026</a>, is a Candidate Recommendation Draft. Among its proposed changes, `accessModeSufficient` becomes required and `accessMode` becomes recommended. Keep implementation guidance tied to the version being used.\n\nFor ONIX records, use EDItEUR's <a href=\"https://ns.editeur.org/onix/en/196\" hreflang=\"en\">List 196: E-publication Accessibility Details</a>. Its structured codes distinguish accessibility features, conformance claims, summaries and unknown information. A free-text summary complements the structured data.\n\nFor vocabulary reference, see <a href=\"https://schema.org/Book\" hreflang=\"en\">schema.org's Book type</a> and the <a href=\"https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/\" hreflang=\"en\">Accessibility Discovery Vocabulary</a>.\n\n## Helping readers choose\n\nThe display guide recommends:\n\n1. Make clear that the information describes the publisher's declarations.\n2. Explain useful capabilities, such as visual adjustments and nonvisual reading, in clear language.\n3. Treat missing metadata as unavailable information, rather than a negative accessibility claim.\n4. Offer search filters for specific capabilities. The guide's minimum recommendation is positive filters for visual adjustments and nonvisual reading.\n5. Refresh the displayed information when updated metadata arrives.\n\nThese are implementation recommendations from a W3C Community Group report. The display guide, ONIX techniques, crosswalk and package-metadata authoring guide are not W3C Recommendations.\n\nFor a retailer example, <a href=\"https://www.kobo.com/blog/kobos-spring-2025-update-on-new-features-and-fixes\" hreflang=\"en\">Kobo announced storefront accessibility information and search filtering in April 2025</a>. The previously contributed <a href=\"https://www.kobo.com/gb/en/ebook/the-death-of-shame\" hreflang=\"en\">The Death of Shame listing</a> is retained as a retailer reference, not an independently assessed accessible-book example.\n\n## Checking the book and its metadata\n\nUse <a href=\"https://kb.daisy.org/publishing/docs/epub/validation/overview.html\" hreflang=\"en\">DAISY's EPUB validation guidance</a> to combine structural checks with EPUBCheck, automated accessibility checks with Ace, and manual evaluation. Automated tools cannot establish every accessibility requirement, including whether alternative text is appropriate. Record metadata that reflects the evaluated publication.\n\n## Other organisations and services\n\nThese previously contributed links provide examples of organisations and services in the e-book ecosystem. Inclusion is not an accessibility assessment.\n\n- [BookBeat](https://bookbeat.com/)\n- [Storytel](https://www.storytel.com/)\n- [Bokus](https://www.bokus.com/e-bocker)\n- [Kobo book search](https://www.kobo.com/gb/en/search?query=accessibility&fclanguages=en)\n- [Kobo Sweden](https://www.kobo.com/se/sv)\n- <a href=\"https://pocketbook.se/se-se\" hreflang=\"sv\">PocketBook</a>\n- <a href=\"https://read.amazon.com/landing\" hreflang=\"en\">Amazon Kindle</a>\n- [Celia](https://www.celia.fi/sv/bocker-och-material/elektroniska-bocker/)\n- [Biblio](https://biblio.app/library)\n",
+  "source_intake": ".github/agents/research/intakes/ebook-metadata-2026-10-20.json",
+  "first_review": "Correction needed: layout/choice omitted from one EAA bullet; alternative-rendition phrasing lost allowing and the four accessibility characteristics; accessMode omitted cognitive faculties; accessModeSufficient omitted the significant-information qualification. Other substantive passages supported in context.",
+  "corrections_and_rechecks": [
+    {
+      "source": "eaa",
+      "section": "Annex I IV(f)(ii)",
+      "original_excerpt": "do not prevent",
+      "before": "Files that allow assistive technology to work properly.",
+      "final": "Files that do not prevent assistive technology from operating properly.",
+      "reason": "Optional precision adopted to retain non-interference wording.",
+      "recheck": "Supported"
+    },
+    {
+      "source": "eaa",
+      "section": "Annex I IV(f)(iii)",
+      "original_excerpt": "layout including dynamic layout",
+      "before": "Access to content, navigation and structure, with flexibility in presentation.",
+      "final": "Access to content, navigation, layout (including dynamic layout) and structure, with flexibility and choice in presentation.",
+      "reason": "Restores explicit layout and choice elements.",
+      "recheck": "Supported"
+    },
+    {
+      "source": "eaa",
+      "section": "Annex I IV(f)(iv)",
+      "original_excerpt": "allowing alternative renditions",
+      "before": "Alternative renditions and interoperability with assistive technologies.",
+      "final": "Allowing alternative renditions and interoperability with varied assistive technologies, so that content is perceivable, understandable, operable and robust.",
+      "reason": "Restores allowing and the accessibility qualification.",
+      "recheck": "Supported"
+    },
+    {
+      "source": "epub11",
+      "section": "2.2; Discovery Vocabulary 7.1",
+      "original_excerpt": "cognitive faculty",
+      "before": "The senses needed to perceive the content as originally authored.",
+      "final": "Perceptual or cognitive modes needed to process the content, such as textual, visual, auditory or tactile.",
+      "reason": "Includes cognitive and perceptual modes.",
+      "recheck": "Supported"
+    },
+    {
+      "source": "epub11",
+      "section": "2.2",
+      "original_excerpt": "without significant loss of information",
+      "before": "A mode, or combination of modes, sufficient to consume the content.",
+      "final": "A mode, or combination of modes, sufficient to consume the content without significant loss of information.",
+      "reason": "Restores the sufficiency qualification.",
+      "recheck": "Supported"
+    },
+    {
+      "source": "epub11",
+      "section": "3.5.2 and 3.5.3.1",
+      "original_excerpt": "exactly matches",
+      "before": "If a publication claims conformance, use the specified `dcterms:conformsTo` expression and identify the evaluator with `a11y:certifiedBy`.",
+      "final": "If a publication claims conformance to EPUB Accessibility 1.1, use the specified `dcterms:conformsTo` expression and identify the evaluator with `a11y:certifiedBy`.",
+      "reason": "Optional precision adopted to identify the relevant conformance specification.",
+      "recheck": "Supported"
+    }
+  ],
+  "other_comparisons": [
+    {
+      "sources": [
+        "eaa"
+      ],
+      "sections": "Articles 2, 3, 4, 13 and 31; Annex I III/IV(f); Annex V",
+      "original_excerpt": "written and oral format",
+      "reviewed_scope": "Consumer-service scope, date, dedicated-device distinction, microenterprise service exemption, remaining Annex I bullets, general-service requirements and public service information.",
+      "verdict": "Supported",
+      "note": "From 28 June is supported by Article 31(2), while Article 2 uses after. Scope and transition qualification preserved. Service-information summary does not deny the omitted retention obligation."
+    },
+    {
+      "sources": [
+        "finland"
+      ],
+      "sections": "Additional obligations related to the accessibility statement",
+      "original_excerpt": "A general description of the service",
+      "reviewed_scope": "Finland paragraph and conditional product information.",
+      "verdict": "Supported",
+      "note": "National scope retained. Product information applies when a product is needed; relevant information condenses the related accessibility/assistive-device details."
+    },
+    {
+      "sources": [
+        "epub11"
+      ],
+      "sections": "1.1, 2.1-2.3, 3.5",
+      "original_excerpt": "MUST include; SHOULD include; An EPUB publication evaluated by the publisher",
+      "reviewed_scope": "Introductory metadata purpose, package metadata, required/recommended table, linked records and publisher evaluation.",
+      "verdict": "Supported",
+      "note": "Metadata applies regardless of content conformance. Publisher evaluation is supported within the specification; no jurisdiction-wide permission claim."
+    },
+    {
+      "sources": [
+        "epub12"
+      ],
+      "sections": "Status; 2.2",
+      "original_excerpt": "W3C Candidate Recommendation Draft",
+      "reviewed_scope": "Dated draft status and proposed required/recommended swap.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "onix-techniques"
+      ],
+      "sections": "1.1",
+      "original_excerpt": "sale, lending or subscription; in advance of publication; as a complement",
+      "reviewed_scope": "Supply-chain roles and relationship with embedded metadata.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "crosswalk"
+      ],
+      "sections": "2.2 Bidirectional mapping and round-tripping",
+      "original_excerpt": "not always mathematically symmetrical",
+      "reviewed_scope": "Qualified statement that conversion can lose detail.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "onix196"
+      ],
+      "sections": "Codes 00, 04, 08 and feature codes",
+      "original_excerpt": "Accessibility summary; Unknown accessibility",
+      "reviewed_scope": "List label and structured data/summary relationship.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "display"
+      ],
+      "sections": "1.3, 2.1.1, 2.1.2, 2.1.5, 4.1",
+      "original_excerpt": "No information is available; only the positive values",
+      "reviewed_scope": "Publisher attribution, clear capabilities, missing data, positive search filters and refresh recommendation.",
+      "verdict": "Supported",
+      "note": "Missing data is not a negative claim; no mandate to display a section when hiding it is possible."
+    },
+    {
+      "sources": [
+        "authoring",
+        "display",
+        "onix-techniques",
+        "crosswalk"
+      ],
+      "sections": "Titles and status sections",
+      "original_excerpt": "Final Community Group Report",
+      "reviewed_scope": "Authoring guide title/date and distinction from W3C Recommendations.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "schema",
+        "vocabulary"
+      ],
+      "sections": "Reference titles; vocabulary abstract and Book example",
+      "original_excerpt": "recommended vocabularies",
+      "reviewed_scope": "Reference link labels.",
+      "verdict": "Supported"
+    },
+    {
+      "sources": [
+        "kobo-announcement"
+      ],
+      "sections": "April 2025 article, accessibility information",
+      "original_excerpt": "April 21, 2025; accessibility info; filter searches",
+      "reviewed_scope": "Dated attribution of the announcement.",
+      "verdict": "Supported",
+      "note": "No present feature or book-specific accessibility certification inferred."
+    },
+    {
+      "sources": [
+        "validation"
+      ],
+      "sections": "Validation process",
+      "original_excerpt": "only be reliably carried out by a human; sufficiently meaningful",
+      "reviewed_scope": "EPUBCheck/Ace/manual checking and alternative-text evaluation.",
+      "verdict": "Supported"
+    }
+  ],
+  "final_recheck": "All six replacements Supported. Unchanged substantive wording retains Supported verdicts. No substantive phrase remains requiring correction for linguistic fidelity.",
+  "limits": "Language fidelity only, not legal applicability, authority coverage, source authenticity, human maintainer approval or an EPUB audit. Retained commercial/directory links were not assessed. Editorial consistency advice is identified as advice.",
+  "validation": {
+    "markdown": "Pinned markdownlint-cli2 0.23.2: 44 files, 0 issues.",
+    "link_languages": "Changed e-book page: 23 links, 16 verified language tags and 7 retained documented unresolved destinations. Whole-repository checker has the same 5 pre-existing errors as baseline.",
+    "country_records": "Finland schema, new claim schema, preserved pre-existing evidence/domains/claims and generated routing index pass. Whole-repository validator stops on evidence fingerprints; all 5 mismatches are unchanged from baseline.",
+    "dates": "Verification-date check passes (14 existing markers).",
+    "diff": "git diff --check passes.",
+    "rendering": "Rendered with marked 18.0.9. Local Apple HTML Tidy 2006 emitted legacy table-summary and inherited raw-ampersand warnings; this is not a completed HTML5 validation. Repository CI performs the configured content checks."
+  }
+}
