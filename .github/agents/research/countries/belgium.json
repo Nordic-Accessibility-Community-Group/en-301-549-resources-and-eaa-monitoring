@@ -920,26 +920,26 @@
       "id": "be-official-reply-20261006",
       "country": "Belgium",
       "recorded_on": "2026-10-06",
-      "status": "proposed",
+      "status": "already_present",
       "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
-      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "monitoring",
-          "disposition": "proposed",
-          "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "enforcement",
-          "disposition": "proposed",
-          "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
@@ -952,7 +952,7 @@
           "pr": 93
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "adoption",
           "disposition": "research_only",

@@ -14,6 +14,23 @@ spec = importlib.util.spec_from_file_location('country_check', Path(__file__).wi
 checker = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(checker)
 
+class DestinationDomains(unittest.TestCase):
+    def test_current_and_historical_adoption_paths(self):
+        for page in ('EN 301 549 adoption.md', 'EN 301 549 adoptation.md'):
+            with self.subTest(page=page):
+                self.assertEqual(checker.check_destination_domain(
+                    {'page': page, 'domain': 'adoption'}), 'adoption')
+
+    def test_adoption_aliases_do_not_allow_wrong_domain(self):
+        for page in ('EN 301 549 adoption.md', 'EN 301 549 adoptation.md'):
+            with self.subTest(page=page):
+                with self.assertRaisesRegex(AssertionError, 'Destination/domain mismatch'):
+                    checker.check_destination_domain({'page': page, 'domain': 'monitoring'})
+
+    def test_unknown_page_rejected(self):
+        with self.assertRaises(KeyError):
+            checker.check_destination_domain({'page': 'Unregistered.md', 'domain': 'adoption'})
+
 class UnifiedRecords(unittest.TestCase):
     def setUp(self):
         tmp = tempfile.TemporaryDirectory()

@@ -894,18 +894,18 @@
           "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/poland.json",
-          "disposition": "proposed",
-          "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
           "domain": "enforcement",
           "record": ".github/agents/research/countries/poland.json",
-          "disposition": "proposed",
-          "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
@@ -918,7 +918,7 @@
           "pr": 93
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "domain": "adoption",
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "research_only",
@@ -926,7 +926,11 @@
           "next_action": "No public change supported by this reply.",
           "pr": 93
         }
-      ]
+      ],
+      "status": "already_present",
+      "recorded_on": "2026-10-30",
+      "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
     }
   ]
 }

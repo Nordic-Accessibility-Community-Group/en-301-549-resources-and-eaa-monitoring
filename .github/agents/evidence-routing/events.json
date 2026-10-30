@@ -554,26 +554,26 @@
       "id": "be-official-reply-20261006",
       "country": "Belgium",
       "recorded_on": "2026-10-06",
-      "status": "proposed",
+      "status": "already_present",
       "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
-      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "monitoring",
-          "disposition": "proposed",
-          "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "enforcement",
-          "disposition": "proposed",
-          "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
@@ -586,7 +586,7 @@
           "pr": 93
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "record": ".github/agents/research/countries/belgium.json",
           "domain": "adoption",
           "disposition": "research_only",
@@ -1270,17 +1270,17 @@
       "id": "cy-official-reply-20261016",
       "country": "Cyprus",
       "recorded_on": "2026-10-30",
-      "status": "proposed",
+      "status": "already_present",
       "reason": "Official reply supplies general reporting contact, English acceptance, contact succession and outreach evidence.",
-      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/cyprus.json",
           "domain": "monitoring",
-          "disposition": "proposed",
-          "reason": "General reporting mailbox and dated English acceptance missing from the Cyprus public row.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
@@ -1302,7 +1302,7 @@
           "pr": 93
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "record": null,
           "domain": "adoption",
           "disposition": "not_applicable",
@@ -3903,18 +3903,18 @@
           "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/poland.json",
-          "disposition": "proposed",
-          "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
           "domain": "enforcement",
           "record": ".github/agents/research/countries/poland.json",
-          "disposition": "proposed",
-          "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
-          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 93
         },
         {
@@ -3927,7 +3927,7 @@
           "pr": 93
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "domain": "adoption",
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "research_only",
@@ -3935,7 +3935,11 @@
           "next_action": "No public change supported by this reply.",
           "pr": 93
         }
-      ]
+      ],
+      "status": "already_present",
+      "recorded_on": "2026-10-30",
+      "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
     },
     {
       "id": "world-discovery-6-2026-09-27-634",
@@ -4705,16 +4709,16 @@
       "id": "sweden-mtm-reporting-routes-2026-10-16",
       "country": "Sweden",
       "recorded_on": "2026-10-23",
-      "status": "draft_pr",
+      "status": "already_present",
       "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
-      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "next_action": "Public changes delivered by merged PR #91; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "draft_pr",
-          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
-          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #91; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 91,
           "domain": "monitoring"
         },
@@ -4737,7 +4741,7 @@
           "domain": "sanctions"
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "not_applicable",
           "reason": "Reporting routes do not establish a standards-adoption change.",
