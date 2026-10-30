@@ -226,13 +226,39 @@
         "Estonia"
       ],
       "section": "Table of legal enforcement status in the EU",
-      "row_sha256": "ba4b0bd3652857561a1bf5d1f919cbae786c206d184c67c01cc4686fbacff78d",
+      "row_sha256": "53b173203b5757331cd3944df031ac0619c0585ccd6d7a1305bc5763eab6f525",
       "state": "reviewed",
       "claim_ids": [
         "ee-ttja-monitoring-20260925",
         "ee-ttja-corrective-plans-20260925"
       ],
-      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/estonia-enforcement-handoff/EAA%20enforcement%20tracking.md"
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "belgium-official-reply-20261030",
+      "countries": [
+        "Belgium"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "3b59d3d9907ef7c394768291e8a9b1b3df66d5ae1627d746ab038288de2b6777",
+      "state": "reviewed",
+      "claim_ids": [
+        "be-economic-inspection-investigations-20251219"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "poland-official-reply-20261030",
+      "countries": [
+        "Poland"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "a3d3582056b17afa03788a5936e6f785bbc24d0c98dd383712f069d2d91021a9",
+      "state": "reviewed",
+      "claim_ids": [
+        "pl-pfron-monitoring-20261026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
     }
   ]
 }

@@ -551,6 +551,52 @@
       ]
     },
     {
+      "id": "be-official-reply-20261006",
+      "country": "Belgium",
+      "recorded_on": "2026-10-06",
+      "status": "already_present",
+      "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "monitoring",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
+          "pr": 93
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "enforcement",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
+          "pr": 93
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new statutory amount or imposed penalty; conditional warning/report powers do not establish action.",
+          "next_action": "Retain current public entry.",
+          "pr": 93
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
+          "next_action": "Retain current public entry; preserve January reply as research context.",
+          "pr": 93
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-535",
       "country": "Bonaire, Sint Eustatius and Saba",
       "destinations": [
@@ -1217,6 +1263,52 @@
           "reason": "No supported EAA change from discovery.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "cy-official-reply-20261016",
+      "country": "Cyprus",
+      "recorded_on": "2026-10-30",
+      "status": "already_present",
+      "reason": "Official reply supplies general reporting contact, English acceptance, contact succession and outreach evidence.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "monitoring",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
+          "pr": 93
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "Completed training/briefings are outreach, not evidence of actual enforcement cases.",
+          "next_action": "Retain outreach in knowledge notes; no public enforcement row added.",
+          "pr": 93
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No statutory sanctions, powers or imposed penalties supplied.",
+          "next_action": "No public or legal-claim change.",
+          "pr": 93
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": null,
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No national standard adoption, edition or reference supplied.",
+          "next_action": "No adoption domain or public change; historical routing key retained.",
+          "pr": 93
         }
       ]
     },
@@ -3804,6 +3896,52 @@
       ]
     },
     {
+      "id": "poland-pfron-official-reply-2026-10-26",
+      "country": "Poland",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
+          "pr": 93
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "already_present",
+          "reason": "The scoped enforcement content is present on main after PR #93; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
+          "pr": 93
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "Reply provides no new penalty amounts, sanction powers or issued sanctions; existing legal record and verification dates unchanged.",
+          "next_action": "No public change supported by this reply.",
+          "pr": 93
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "WCAG 2.2 question is not answered; no EN edition or adoption evidence.",
+          "next_action": "No public change supported by this reply.",
+          "pr": 93
+        }
+      ],
+      "status": "already_present",
+      "recorded_on": "2026-10-30",
+      "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
+      "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
+    },
+    {
       "id": "world-discovery-6-2026-09-27-634",
       "country": "Qatar",
       "destinations": [
@@ -4571,16 +4709,16 @@
       "id": "sweden-mtm-reporting-routes-2026-10-16",
       "country": "Sweden",
       "recorded_on": "2026-10-23",
-      "status": "draft_pr",
+      "status": "already_present",
       "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
-      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "next_action": "Public changes delivered by merged PR #91; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "draft_pr",
-          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
-          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
+          "disposition": "already_present",
+          "reason": "The scoped monitoring content is present on main after PR #91; supporting evidence and limitations remain in the canonical country record.",
+          "next_action": "No further public edit for this delivery; new findings require separate evidence and review.",
           "pr": 91,
           "domain": "monitoring"
         },
@@ -4603,7 +4741,7 @@
           "domain": "sanctions"
         },
         {
-          "page": "EN 301 549 adoptation.md",
+          "page": "EN 301 549 adoption.md",
           "record": ".github/agents/research/countries/sweden.json",
           "disposition": "not_applicable",
           "reason": "Reporting routes do not establish a standards-adoption change.",

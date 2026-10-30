@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "repository": "Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring",
+  "pull_request": 87,
+  "reviewed_head": "d5dd0ffc8b8386f02ce6559a6a54f7a9d909ea67",
+  "incremental_base": "e72bab8d8a0819a8d1af0aceef5069a58162bd93",
+  "source_testing_pr": 94,
+  "reviewer": "/root/live87_metadata_review",
+  "isolation": "fork_turns=none; independent actual-PR metadata/infrastructure review",
+  "verdict": "No new actionable code/data findings in the eight-file metadata follow-up.",
+  "verified": [
+    "Actual GitHub PR head and all eight incremental patches match reviewed local added/deleted lines.",
+    "Exactly four deliveries changed; canonical evidence/domains, public Markdown, intakes/review history and Finland record preserved.",
+    "Generated routing index equals canonical projection.",
+    "Current and historical adoption filenames accepted; wrong domain and unknown page rejected.",
+    "E-book exception preserves evidence requirements, cross-page handoffs and separate standards review."
+  ],
+  "validation": {
+    "destination_tests": "3/3 passed",
+    "enforcement_regression": "28/28 passed",
+    "whitespace": "passed",
+    "link_languages": "passed",
+    "full_country_tests": "11 passed; one inherited public-map error",
+    "country_validator": "Same inherited enforcement public-map error on incremental base and reviewed head"
+  },
+  "limitations": [
+    "PR description update denied by GitHub integration (403); its old review-head and unchanged-checker wording remain stale and need maintainer correction.",
+    "PR 91/93 references in delivery prose identify testing-repository provenance, not a completed live PR 87 merge.",
+    "Metadata-only review; no new legal research, source revalidation, hosted CI certification or human approval.",
+    "Mediemyndigheten consumer-route availability remains unresolved and unchanged.",
+    "This report is a report-only follow-up; prior review reports remain unchanged."
+  ]
+}

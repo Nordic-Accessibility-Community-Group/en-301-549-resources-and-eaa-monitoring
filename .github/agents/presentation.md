@@ -2,6 +2,10 @@
 
 These rules apply to every public page, including monitoring agencies, sanctions, enforcement tracking and standards adoption. Follow [workflow](workflow.md), [evidence](evidence.md), [review](review.md) and the relevant page specification. Historical task prompts that refer here remain supported.
 
+## Concise public entries
+
+Keep public entries short. Do not link to internal research records or intake files as provenance for correspondence or similar evidence. Keep supporting evidence and detailed provenance in research data; use only a brief authority/date attribution when needed in the public entry. Avoid duplicate source paragraphs when the entry already gives that attribution.
+
 ## Punctuation
 
 Do not use em dashes in public-facing text, including headings, table cells and link labels. Use commas, colons, parentheses or separate sentences as appropriate. For separators in standard titles, use a colon or a hyphen. Preserve the wording and meaning, and do not change URLs or identifiers.

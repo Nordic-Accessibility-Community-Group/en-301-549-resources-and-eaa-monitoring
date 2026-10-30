@@ -6472,6 +6472,24 @@
       "language": "en",
       "reason": "English storefront retrieved; added as service example only, not an accessibility assessment.",
       "checked_on": "2026-10-30"
+    },
+    {
+      "url": ".github/agents/research/countries/belgium.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": ".github/agents/research/countries/cyprus.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": ".github/agents/research/countries/poland.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
     }
   ]
 }

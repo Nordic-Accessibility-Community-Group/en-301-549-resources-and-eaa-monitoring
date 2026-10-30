@@ -21,6 +21,10 @@ This workflow applies to all supplied correspondence, attachments, research disc
 | [EN 301 549 adoption](../../EN%20301%20549%20adoption.md) | research/countries/<country>.json — domains.adoption; adoption/european-standard.json for EU-wide history. Check: `python3 .github/scripts/check_adoption.py --require-coverage` | National adoption/reference, edition, draft/final status, legal scope and dated milestones; see [specification](adoption/README.md) |
 | Future page | Register its path, record format and check command here at project setup | Record evidence first; maintain a specific handoff until a destination exists |
 
+### E-book page exception
+
+User decision, 30 October 2026: `E-book accessibility metadata.md` does not require a separate canonical/global research record or reference page. Do not propose that infrastructure solely to satisfy the future-page registration rule. Preserve the existing public page, intake evidence and Finland country record. This exception does not remove source-support requirements or handoffs for evidence relevant to other registered pages, and does not exempt `EAA and WAD standards.md` from its separate review.
+
 Keep a canonical source reference and cross-links when the same evidence is relevant to multiple records; copy only the facts needed by the destination, retaining provenance and status. Do not make an unsupported record satisfy a publication checker by changing its status. Existing schemas remain distinct; add research notes/questions where no suitable claim field exists.
 
 ## Official correspondence

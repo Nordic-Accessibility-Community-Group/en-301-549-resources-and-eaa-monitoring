@@ -8,6 +8,20 @@ import sys
 from jsonschema import Draft202012Validator, FormatChecker
 import country_records as cr
 
+DESTINATION_DOMAINS = {
+    'EAA authorities and reporting by country.md': 'monitoring',
+    'EAA sanctions.md': 'sanctions',
+    'EAA enforcement tracking.md': 'enforcement',
+    'EN 301 549 adoption.md': 'adoption',
+    # Retain compatibility with deliveries predating the public-page rename.
+    'EN 301 549 adoptation.md': 'adoption',
+}
+
+def check_destination_domain(target):
+    domain = DESTINATION_DOMAINS[target['page']]
+    assert target['domain'] == domain, 'Destination/domain mismatch'
+    return domain
+
 def module(path, name):
     spec = importlib.util.spec_from_file_location(name, path)
     mod = importlib.util.module_from_spec(spec)
@@ -65,8 +79,7 @@ def check(root, migration=False):
             assert event['id'] not in events and event['country'] == name, 'Duplicate/misfiled delivery event'
             events.add(event['id'])
             for target in event['destinations']:
-                domain = {'EAA authorities and reporting by country.md':'monitoring','EAA sanctions.md':'sanctions','EAA enforcement tracking.md':'enforcement','EN 301 549 adoptation.md':'adoption'}[target['page']]
-                assert target['domain'] == domain, 'Destination/domain mismatch'
+                domain = check_destination_domain(target)
                 if target['record'] is None:
                     assert target['disposition'] == 'not_applicable' and domain not in country['domains'], 'Missing applicable destination'
                 else:

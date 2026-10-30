@@ -48,8 +48,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Belgium</th>
-    <td align="left" valign="top">✔️ <a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-the-transposition-into-belgian-legislation#:~:text=From%202025%20on%2C%20every%20relevant%20company%20under%20the%20new%20legislation%20will%20have%20to%20publish%20an%20accessibility%20statement">Yes</a>
-    </td>
+    <td align="left" valign="top">✔️ Yes</td>
     <td align="left" valign="top">
       <p><strong>Banking and E-commerce:</strong></p>
       <ul>
@@ -115,7 +114,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
         <li><a href="https://consumerconnect.be/nl/themas/aankoop-product-of-dienst/wettelijk/wettelijk/toegankelijkheid" hreflang="nl">Accessibility information (Dutch 🇳🇱 and French 🇫🇷)</a></li>
         <li><a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-in-belgium-compliance-complaints-penalties">Craftzing overview</a> — unverified source.</li>
       </ul>
-      <p>Statement source: Unverified.</p>
+      <p>For consumer banking and e-commerce, Economic Inspection (6 October 2026) confirms that information assessing how the service meets the accessibility requirements must be published in the terms and conditions or an equivalent document, and made publicly available in written and oral formats accessible to persons with disabilities.</p>
       <p>⚖️ EAA implementing law: <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882" hreflang="en">Belgian national transposition measures (multiple acts, EUR-Lex)</a>.</p>
     </td>
   </tr>  
@@ -211,8 +210,10 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
     <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access, E-books and 112 emergency calls:</strong></p>
       <ul>
-        <li>Public complaints: ❓ Unknown.</li>
-        <li>Company non-compliance: ❓ Unknown.</li>
+        <li>Public contact and company issue reports: <a href="mailto:deputyministry@dmsw.gov.cy">deputyministry@dmsw.gov.cy</a> (general Deputy Ministry mailbox, confirmed in official correspondence on 16 October 2026).</li>
+        <li>English documents accepted, according to official correspondence of 14 May 2026. That reply also confirmed email exchange of reports and information, with rare exceptions not specified.</li>
+        <li>Formal public-complaint procedure: ❓ Unknown.</li>
+        <li>Company non-compliance (purpose-specific statutory notification): ❓ Unknown.</li>
         <li>Company exemptions: ❓ Unknown.</li>
       </ul>
     </td>
@@ -589,7 +590,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Poland</th>
-    <td align="left" valign="top">❓ Unknown</td>
+    <td align="left" valign="top">✖️ No</td>
     <td align="left" valign="top">
       <p><strong>Market surveillance system:</strong></p>
       <ul><li><a href="https://dostepnosc.pfron.org.pl/" hreflang="pl">PFRON Management Board President</a> — monitors its operation; receives public notifications.</li></ul>
@@ -614,6 +615,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
     </td>
     <td align="left" valign="top">
       <p><strong>Products, E-commerce, Banking, Electronic communications, Transport, Audiovisual access and E-books — PFRON intake:</strong></p>
+      <p>PFRON states that Article 67 notifications have no specified deadline after discovery. Separate duties require manufacturers and service providers to notify the competent authority without delay in the circumstances of Articles 27(2) and 32(2)(6).</p>
       <ul><li>Public reports (consumer notifications): <a href="mailto:dostepnosc@pfron.org.pl">dostepnosc@pfron.org.pl</a>. PFRON considers or forwards the notice to the competent authority.</li></ul>
       <p><strong>Banking — Financial Ombudsman:</strong></p>
       <ul><li>Company reports (inaccessible retail banking services): <a href="https://rf.gov.pl/dostepnosc/dla-uslugodawcow/ankieta-zgloszenia-do-rf-niedostepnosci-swiadczonych-uslug-bankowosci/">complete form</a>, sign the generated PDF and email it to <a href="mailto:dostepnosc@rf.gov.pl">dostepnosc@rf.gov.pl</a>.</li><li>Company exemptions: ❓ Unknown.</li></ul>
