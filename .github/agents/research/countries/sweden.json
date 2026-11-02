@@ -1890,6 +1890,34 @@
       "source_type": "monitoring_body",
       "section": "Här anmäler du brister enligt tillgänglighetslagen",
       "evidence": "Reached from the current official accessibility e-service directory in an ordinary browser. Introduction: I det här formuläret kan du anmäla brister i tillgänglighet i tjänster som ger åtkomst till audiovisuella medietjänster. The Swedish form displays service and problem fields, optional name/email, and a submit button. No fields completed or submission tested. The web reader had returned an older directory link; browser shows this replacement."
+    },
+    "source-8d45f9633f034716d98fd63f": {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
+      "accessed_on": "2026-10-30",
+      "section": "E-service availability notice",
+      "source_type": "monitoring_body",
+      "evidence": "E-tjänst ej tillgänglig. Denna e-tjänst är för närvarande inte aktiv eller otillgänglig. method: Direct live HTTP retrieval and one ordinary-browser check; no data entered or submitted. limitations: Only current unavailability is established. Temporary outage versus withdrawal, replacement intake and accepted submission languages remain unknown. Historical introduction evidence is retained."
+    },
+    "source-04a04ada14f7ce711ef53334": {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
+      "accessed_on": "2026-11-02",
+      "section": "One-time post-draft availability check",
+      "evidence": "On 2 November 2026, the reader returned the inactive/unavailable notice and one fresh ordinary Chrome visit independently displayed E-tjänst ej tillgänglig and Denna e-tjänst är för närvarande inte aktiv eller otillgänglig. No consumer intake appeared. No login, form submission or account creation. This supports current unavailability only; duration, withdrawal and replacement remain unknown. The separate company introduction was readable in the web reader.",
+      "source_type": "monitoring_body"
+    },
+    "source-98124269cb7277bfce98d1f5": {
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-11-02",
+      "section": "Accessibility-law reporting form, introduction and visible fields",
+      "evidence": "User supplied this new destination on 2 November 2026. Read in the web reader and a fresh ordinary Chrome visit: the form reports accessibility shortcomings in services providing access to audiovisual media. Reports inform supervision planning; the authority says it will contact the reporter only if it has questions. Name and email are optional. The visible form asks about the service, shortcomings and barriers and provides a submit control. Swedish interface; no sign-in gate observed. No data entered or submitted. Accepted submission languages and end-to-end delivery remain unknown. This is a verified current alternative to the old inactive URL, not evidence that the old URL recovered, or of when the new form was published."
+    },
+    "source-8ecd6d13688288c079e80101": {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-11-02",
+      "section": "Company introduction and first Område step",
+      "evidence": "User supplied the already-published company URL on 2 November 2026. Reader and ordinary Chrome show the company service for section 24 accessibility-deficiency notifications and section 8 exemption claims concerning audiovisual-access services. Starta e-tjänst opens the first reporting step with both purpose choices and no sign-in gate. No fields changed, no personal data entered and no report submitted; later-step login conditions and accepted submission languages were not established. Existing company public link and wording retained."
     }
   },
   "domains": {
@@ -2262,21 +2290,23 @@
         },
         {
           "field": "public_reporting",
-          "assertion": "Mediemyndigheten publishes a dedicated consumer complaint form for services providing access to audiovisual media services at a replacement URL linked from its current e-service directory.",
-          "status": "verified",
-          "review_note": "Official e-service introduction rechecked 2026-10-30. It identifies consumers, audiovisual-access services and a six-step complaint process. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested. Superseded availability assessment during live transfer: web reader and ordinary browser both displayed the inactive/unavailable message. Prior evidence retained; proposed consumer link omitted. No form submitted. Resolved during transfer on 2026-10-30: user supplied the current directory, https://mediemyndigheten.se/e-tjanster/?category=7317. Its consumer link leads to the new on-site form. Browser inspection confirms introduction and fields; no submission. The previous Unknown assessment in this note concerns the old URL only. Public label retained from PR91 with replacement destination.",
+          "assertion": "Mediemyndigheten publishes a dedicated consumer complaint e-service for audiovisual-access services.",
+          "status": "unknown",
+          "review_note": "Live history through 2026-10-30, retained verbatim: Official e-service introduction rechecked 2026-10-30. It identifies consumers, audiovisual-access services and a six-step complaint process. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested. Superseded availability assessment during live transfer: web reader and ordinary browser both displayed the inactive/unavailable message. Prior evidence retained; proposed consumer link omitted. No form submitted. Resolved during transfer on 2026-10-30: user supplied the current directory, https://mediemyndigheten.se/e-tjanster/?category=7317. Its consumer link leads to the new on-site form. Browser inspection confirms introduction and fields; no submission. The previous Unknown assessment in this note concerns the old URL only. Public label retained from PR91 with replacement destination. Testing PR #95 history through 2026-11-02, retained verbatim: Historical observation retained: Official e-service introduction rechecked 2026-10-30. It identifies consumers, audiovisual-access services and a six-step complaint process. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested. Later check on 2026-10-30: the same destination shows an inactive/unavailable notice in both direct retrieval and an ordinary browser. A currently usable consumer intake is not established; no permanent withdrawal or replacement is inferred. See the separate verified availability observation. Post-draft check completed 2026-11-02: one fresh ordinary-browser observation confirms the same notice. The exact public wording and its 2026-10-30 language review are unchanged; current usable intake remains unknown. This completes the one-time check and does not authorise automatic repetition. Later user-supplied destination on 2026-11-02 establishes a separate current public reporting form, recorded as monitoring-7950e549ce8bdc9a4e22bc45. This historical claim concerns the old URL, whose recovery was not established. Live transfer reconciliation 2026-11-02: this stable claim ID is retained for the historical old e-service URL. The former live assessment of the replacement URL remains in the preceding history and evidence. Current replacement-form support and the reviewed Public reports wording are now recorded separately under monitoring-7950e549ce8bdc9a4e22bc45; unknown here concerns only usability of the old URL, not availability of public reporting.",
           "directive_context": "EAA",
           "reporting_route": {
             "authority": "Mediemyndigheten",
             "sector": "Services providing access to audiovisual media",
             "channel": "form",
-            "destination": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+            "destination": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
             "eaa_specific": true
           },
           "source_refs": [
             "source-44b016c056dacb919f8c3511",
             "source-36c5100b2750a6ea47734b7b",
-            "source-760603d975ccf37a3a655cc0"
+            "source-760603d975ccf37a3a655cc0",
+            "source-8d45f9633f034716d98fd63f",
+            "source-04a04ada14f7ce711ef53334"
           ],
           "id": "monitoring-d8d8d59313bf94494d513f27"
         },
@@ -2284,7 +2314,7 @@
           "field": "company_reporting",
           "assertion": "Mediemyndigheten publishes a dedicated company e-service for accessibility-deficiency reports and exemption claims concerning audiovisual-access services.",
           "status": "verified",
-          "review_note": "Official e-service introduction rechecked 2026-10-30. It identifies companies, section 24 accessibility-deficiency reports and section 8 exemption claims. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested.",
+          "review_note": "Official e-service introduction rechecked 2026-10-30. It identifies companies, section 24 accessibility-deficiency reports and section 8 exemption claims. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested. Recheck 2026-11-02: reader, ordinary-browser introduction and first reporting step confirm both stated company purposes. No sign-in gate observed up to that step; later steps not tested. Existing public URL and wording remain unchanged.",
           "directive_context": "EAA",
           "reporting_route": {
             "authority": "Mediemyndigheten",
@@ -2294,7 +2324,8 @@
             "eaa_specific": true
           },
           "source_refs": [
-            "source-819ffa324217d3e6a2d4b153"
+            "source-819ffa324217d3e6a2d4b153",
+            "source-8ecd6d13688288c079e80101"
           ],
           "id": "monitoring-e56de3198d6fef172ad386f2"
         },
@@ -2456,6 +2487,37 @@
             "source-d284bc525b9a64b2766a8bae",
             "source-ad23c72aec2bae2a921d3e50"
           ]
+        },
+        {
+          "id": "monitoring-6a3e369d3c558be8190f4976",
+          "field": "additional_information",
+          "assertion": "The previously linked Mediemyndigheten consumer complaint e-service currently displays an inactive/unavailable notice.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Observed availability of the existing audiovisual-access consumer URL, not permanent withdrawal or legal applicability.",
+          "review_note": "Public wording: Public complaints: the previously linked e-service is currently unavailable. Independent no-history Swedish source-fidelity review by /root/swedish_route_fidelity on 2026-10-30: Supported after narrowing an initial Unknown proposal. Original heading: E-tjänst ej tillgänglig; body: Denna e-tjänst är för närvarande inte aktiv eller otillgänglig. Literal rendering: E-service unavailable; This e-service is currently inactive or unavailable. Exact final wording above was rechecked. This is a language comparison, not a legal or end-to-end usability certification. The separate company introduction remains readable; no submission was made. Post-draft check completed 2026-11-02: one fresh ordinary-browser observation confirms the same notice. The exact public wording and its 2026-10-30 language review are unchanged; current usable intake remains unknown. This completes the one-time check and does not authorise automatic repetition. Later user-supplied source on 2026-11-02: public unavailability wording is superseded by the verified new form monitoring-7950e549ce8bdc9a4e22bc45. The old-URL availability observations and their reviewed sentence remain historical; they do not establish absence of another current route.",
+          "source_refs": [
+            "source-8d45f9633f034716d98fd63f",
+            "source-04a04ada14f7ce711ef53334"
+          ]
+        },
+        {
+          "id": "monitoring-7950e549ce8bdc9a4e22bc45",
+          "field": "public_reporting",
+          "assertion": "Mediemyndigheten provides a public form for reporting accessibility shortcomings in services providing access to audiovisual media.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "reporting_route": {
+            "authority": "Mediemyndigheten",
+            "sector": "Services providing access to audiovisual media",
+            "channel": "form",
+            "destination": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+            "eaa_specific": true
+          },
+          "review_note": "User-triggered new-source follow-up, 2026-11-02, after the completed one-time old-route check. A live form was observed without submission. Reports inform supervision; individual complaint adjudication or routine feedback is not promised. Exact public text under the existing Audiovisual access / Mediemyndigheten heading: Public reports: Mediemyndigheten accessibility reporting form (Swedish interface). Independent Swedish source-fidelity review by /root/swedish_new_form_fidelity (fork_turns=none, source passages and exact wording only): Supported. The reviewer found Public reports faithful in the reporting-link context; no accepted-language or end-to-end claim. See .github/agents/research/intakes/sweden-mediemyndigheten-public-form-2026-11-02.json for version-bound wording, excerpts, literal renderings and limits. No publication date inferred.",
+          "source_refs": [
+            "source-98124269cb7277bfce98d1f5"
+          ]
         }
       ],
       "questions": [
@@ -2471,7 +2533,10 @@
         "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred.",
         "2026-10-06 source comparison: Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
         "Follow-up 2026-10-30: recheck Mediemyndigheten consumer e-service or find a replacement; preserve Unknown until a usable route is established. Transfer review .github/agents/research/intakes/live-transfer-90-91-2026-10-30.json records the observation.",
-        "Resolved 2026-10-30: replacement consumer form found via the user-supplied current directory and checked in ordinary browser. Earlier follow-up about finding a usable route is resolved; successful submission and accepted languages remain untested."
+        "Resolved 2026-10-30: replacement consumer form found via the user-supplied current directory and checked in ordinary browser. Earlier follow-up about finding a usable route is resolved; successful submission and accepted languages remain untested.",
+        "Follow-up 2026-10-30: Earlier same-day notes about the Mediemyndigheten consumer introduction are historical, not current availability. Before republishing a usable consumer route, inspect the exact existing URL once in the separate authorised post-draft pass or obtain an official replacement; verify audiovisual-access scope, audience and purpose. Temporary outage versus withdrawal remains unknown. Company form evidence is separate and unchanged; owner: researcher. Resolved by observing the relevant consumer intake, not a generic contact page. Resolution of the scheduled check, 2026-11-02: completed once; notice persists, so retain the narrow unavailable wording in PR #95. The separate question of restoration or replacement remains open for a future authorised pass; no additional before-merge route check is queued. Later resolution 2026-11-02: the user supplied a different official form; its scope, public-reporting purpose and live fields were verified and exact replacement wording independently reviewed. Use https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/; old-URL recovery and replacement launch date remain unknown. The one-time check is not repeated.",
+        "2026-11-02 user-supplied reporting links: the new public form is verified and proposed in PR #95; the separate company route was already present and was rechecked through its first step. Accepted submission languages and end-to-end delivery remain unknown for both. No additional one-time post-draft check is queued.",
+        "Live transfer 2026-11-02: testing PR #95 merged at 902755c432540ded5e74147766fd36fc202f9da4. Live main already contains the replacement public form and company route from live PR #86. This transfer changes only the public-report label and preserves the reviewed 2 November wording, both route checks, and earlier live evidence. Testing PR references in historical notes are not live PR numbers. No new source verification or automatic post-draft repeat is claimed."
       ]
     },
     "sanctions": {
@@ -3446,17 +3511,17 @@
       "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
       "country": "Sweden",
       "recorded_on": "2026-10-30",
-      "status": "proposed",
-      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
-      "next_action": "Testing PR91 merged; review live transfer including current replacement Mediemyndigheten consumer URL and preserved company/MTM routes.",
+      "status": "already_present",
+      "reason": "Testing PR #91 and live PR #86 merged the reporting routes, including the replacement public URL on live. Testing PR #95 supplies a more precise Public reports label and later observations; earlier source and transfer history is retained.",
+      "next_action": "Preserve existing company/MTM routes and review the separate public-label update from testing PR #95.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "proposed",
-          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
-          "next_action": "Testing PR91 merged; review live transfer including current replacement Mediemyndigheten consumer URL and preserved company/MTM routes.",
-          "pr": null,
+          "disposition": "already_present",
+          "reason": "Testing PR #91 and live PR #86 merged the reporting routes, including the replacement public URL on live. Testing PR #95 supplies a more precise Public reports label and later observations; earlier source and transfer history is retained.",
+          "next_action": "Preserve existing company/MTM routes and review the separate public-label update from testing PR #95.",
+          "pr": 86,
           "domain": "monitoring"
         },
         {
@@ -3485,6 +3550,106 @@
           "next_action": "No public adoption change.",
           "pr": null,
           "domain": "adoption"
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-consumer-unavailable-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "research_only",
+      "source_refs": [
+        "source-8d45f9633f034716d98fd63f",
+        "source-04a04ada14f7ce711ef53334"
+      ],
+      "reason": "Historical old-URL unavailability observations preserved. Later on 2026-11-02 the user supplied a verified different public reporting form; it supersedes the proposed unavailable public wording without disproving the earlier observations.",
+      "next_action": "Retain historical old-URL observations from testing PR #95; replacement public form is already on live and its label update is tracked separately.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "research_only",
+          "reason": "Historical old-URL unavailability observations preserved. Later on 2026-11-02 the user supplied a verified different public reporting form; it supersedes the proposed unavailable public wording without disproving the earlier observations.",
+          "next_action": "Retain historical old-URL observations from testing PR #95; replacement public form is already on live and its label update is tracked separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "An availability notice is not an enforcement action.",
+          "next_action": "No public enforcement edit.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No sanction is established.",
+          "next_action": "No public sanctions edit.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards adoption change.",
+          "next_action": "No public adoption edit.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-new-public-form-20261102",
+      "country": "Sweden",
+      "recorded_on": "2026-11-02",
+      "status": "proposed",
+      "source_refs": [
+        "source-98124269cb7277bfce98d1f5",
+        "source-8ecd6d13688288c079e80101"
+      ],
+      "reason": "Merged testing PR #95 verifies the current public form and rechecks the separate company route. Live already has both URLs; transfer only the reviewed Public reports label and supporting research.",
+      "next_action": "Review live promotion of testing PR #95; preserve the company item and audiovisual-access scope.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Merged testing PR #95 verifies the current public form and rechecks the separate company route. Live already has both URLs; transfer only the reviewed Public reports label and supporting research.",
+          "next_action": "Review live promotion of testing PR #95; preserve the company item and audiovisual-access scope.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
+          "pr": null
         }
       ]
     }

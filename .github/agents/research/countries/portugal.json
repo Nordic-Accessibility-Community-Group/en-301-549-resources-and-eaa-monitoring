@@ -232,6 +232,112 @@
       "label": "Decreto-Lei n.º 82/2022",
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Decreto-Lei n.º 82/2022. Article 29."
+    },
+    "source-ef3e0dfdb058a27ae4f30771": {
+      "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+      "accessed_on": "2026-10-30",
+      "section": "Guias Práticos; Relatório Anual",
+      "evidence": "Official EAA hub displays Atualizado: 16-10-2026 and links four practical guides and the 2025 annual implementation report. limitations: Hub update date does not establish first publication dates of linked documents.",
+      "source_type": "monitoring_body"
+    },
+    "source-1acf7d4b13244b1b1b4f272e": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94",
+      "accessed_on": "2026-10-30",
+      "section": "Printed pp. 2, 7-8, 15-23, 28-29 (PDF physical pages are one higher)",
+      "evidence": "IDiPD annual report for 28 June–31 December 2025, prepared 31 March 2026, first version. Forty-six responding authorities (38 of 308 municipalities and 8 national/regional bodies) report 190 inspected operators, 15 municipal non-compliance cases and 13 complaints. No administrative-offence proceedings, fines or accessory sanctions were reported for this period. Banco de Portugal reports two disproportionate-burden invocations still under analysis. document_sha256: 576bd5772d7628bfaf9f18fa76128b6b75ce3aa48f92fb02e88822ef50e126a6 method: Official PDF downloaded; relevant methodology, results and conclusion text read; summary and statistics pages rendered and visually inspected. limitations: Attributed respondent statistics, not exhaustive national totals or evidence of no enforcement. Municipal response rate 12.3%; examples include physical spaces and municipal platforms, so do not classify all inspections as digital EAA cases. Complaint-status subtotals do not reconcile: aggregate 3 pending + 7 closed + 1 other = 11 versus 13 received; municipal 2 + 4 + 1 = 7 versus 6 received. Do not infer missing outcomes or alter figures. Two exemption invocations are not granted exemptions. Exact public publication date unknown; hub updated 16 October 2026. Portuguese public source-fidelity, B2 readability and independent enforcement PR review not yet performed.",
+      "source_type": "monitoring_body"
+    },
+    "source-02d42e73dce7370f49e236b9": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF+ANEXO+2+-+Guia+Pr%C3%A1tico+para+Implementa%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82_2022.docx/4493beff-39e0-4d62-bd80-f294f7eafda7",
+      "accessed_on": "2026-10-30",
+      "section": "Banco de Portugal; practical implementation guidance",
+      "evidence": "The IDiPD practical guide lists Serviços associados às contas de pagamento under Banco de Portugal. document_sha256: af23ec84f614b7029a6216da0bf1b921062c1295e0e54a44a4aa64cfddb2f4d7 method: Official DOCX downloaded and paragraph/table text extracted with python-docx. Rendering attempted but converter could not load source. limitations: Undated guidance lead only. The guide does not resolve the recorded statutory Article 28 omission without comparison to consolidated law or competent-bank guidance. No public remit change, reporting-language rule or dedicated-statement requirement inferred. Visual document review incomplete.",
+      "source_type": "monitoring_body"
+    },
+    "source-4635f751bbd1ff1197123b0a": {
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2022-206867079",
+      "accessed_on": "2026-11-02",
+      "section": "Article 2(3)(e)(i)-(v); Article 28(1)(e)-(f)",
+      "evidence": "The official consolidated text, marked in force and last amended 2 February 2023, assigns Banco de Portugal subparagraphs i), iii), iv) and v): specified consumer credit, payment services, payment-account-associated services and electronic money. CMVM receives subparagraph ii), specified consumer investment and ancillary services. Article 28 begins without prejudice to powers assigned by law to other entities. This corrects the recorded omission/overlap; it does not establish reporting routes or exclusive powers under all laws.",
+      "source_type": "legislation"
+    },
+    "source-7b47fc49963313aaa1e4fc99": {
+      "url": "https://diariodarepublica.pt/dr/detalhe/declaracao-retificacao/5-2023-206846995",
+      "accessed_on": "2026-11-02",
+      "section": "Declaração de Retificação n.º 5/2023, item 3; published 2023-02-02",
+      "evidence": "Item 3 explicitly corrects Article 28(1)(e) of Decree-Law 82/2022: the original Banco de Portugal list i), ii), iii), v) is replaced by i), iii), iv), v). This is a 2023 rectification newly checked in this pass, not a newly enacted 2026 rule. The original uncorrected 2022 text explains the prior research discrepancy.",
+      "source_type": "legislation"
+    },
+    "source-4ac4015f174590d38a628808": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF+ANEXO+2+-+Guia+Pr%C3%A1tico+para+Implementa%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82_2022.docx/4493beff-39e0-4d62-bd80-f294f7eafda7",
+      "accessed_on": "2026-11-02",
+      "section": "Banco de Portugal and CMVM; rendered page 8",
+      "evidence": "Official DOCX downloaded again on 2026-11-02; SHA-256 af23ec84f614b7029a6216da0bf1b921062c1295e0e54a44a4aa64cfddb2f4d7 matches the 30 October file. Packaged LibreOffice successfully rendered 16 pages; page 8 was visually inspected and confirms payment-account-associated services under Banco de Portugal, with a separate CMVM investment list. The earlier rendering failure is resolved for this relevant page. Original publication date remains unknown; current statutory assignment is supported independently by the official 2023 rectification and consolidated law.",
+      "source_type": "monitoring_body"
+    },
+    "source-eee17752e779ce4856dd5dbc": {
+      "url": "https://www.bportugal.pt/",
+      "accessed_on": "2026-11-02",
+      "section": "Homepage reachability only",
+      "evidence": "The official homepage was readable in the web reader on 2026-11-02. Earlier 403/challenge observations remain historical. This does not verify a purpose-specific EAA reporting channel.",
+      "source_type": "monitoring_body"
+    },
+    "source-e9a992edf3d23cb7cee7ea85": {
+      "url": "https://www.cmvm.pt/",
+      "accessed_on": "2026-11-02",
+      "section": "Homepage reachability only",
+      "evidence": "On 2026-11-02 the reader required JavaScript. One ordinary-browser navigation initially timed out, but the same tab subsequently rendered the official Portuguese homepage, including current 2 November items. Homepage access is confirmed in that browser; a purpose-specific EAA reporting route was not checked.",
+      "source_type": "monitoring_body"
+    },
+    "source-a1ea9291824548dd4697dffc": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94",
+      "accessed_on": "2026-11-02",
+      "section": "Table 3, printed page 20 (PDF physical page 21)",
+      "evidence": "Downloaded again on 2026-11-02. SHA-256 576bd5772d7628bfaf9f18fa76128b6b75ce3aa48f92fb02e88822ef50e126a6 matches the 30 October file. Extracted table text and rendered page were checked: 13 complaints received versus status totals 3+7+1=11; municipalities show 6 received versus 2+4+1=7. The discrepancy remains in the source, not just extraction. No correction or missing outcome is inferred. The earlier respondent/period/scope limitations and pending enforcement publication reviews remain.",
+      "source_type": "monitoring_body"
+    },
+    "source-d685118a364640dcdf69f8a2": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Acessibilidade+no+Atendimento+Presencial.docx/8fe3e929-a89d-4984-96f2-7a01fefc58d0",
+      "accessed_on": "2026-11-02",
+      "section": "In-person accessibility guidance",
+      "evidence": "Practical communication and service-access advice; no new concrete EAA reporting route or authority assignment established. Downloaded and paragraph/table text read 2026-11-02; layout/images not comprehensively reviewed; publication date unknown. SHA-256: 55893a8282c6c4483eb439e114a8411c9c785a12dc66218455ee737e1d9618f4",
+      "source_type": "monitoring_body"
+    },
+    "source-13de72b2c2e40deb29afcca4": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761",
+      "accessed_on": "2026-11-02",
+      "section": "Accessible printed materials guidance",
+      "evidence": "Includes EN 301 549 V3.2.1 (2021) among international best-practice references. This does not establish national adoption or legal incorporation. Downloaded and paragraph/table text read 2026-11-02; layout/images not comprehensively reviewed; publication date unknown. SHA-256: d0bb8c9ab309ca56072cbcdcc00db9a733ef16a7e0d19d5cc98826e87c298b96",
+      "source_type": "monitoring_body"
+    },
+    "source-d919c65aca77a1b26699045f": {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04",
+      "accessed_on": "2026-11-02",
+      "section": "Mobile application accessibility testing guidance",
+      "evidence": "References EN 301 549 chapters 11 and 9 in testing advice. The application example is headed Simulação de teste; do not count it as an identified enforcement case or completed remediation. Legal force and current edition were not verified. Downloaded and paragraph/table text read 2026-11-02; layout/images not comprehensively reviewed; publication date unknown. SHA-256: 69b325c4617b695b5a75804c7f554ccbd25248e0c7bd7ecab6c64513fec26367",
+      "source_type": "monitoring_body"
+    },
+    "source-6d54111be071ca7d69ecaa97": {
+      "issuer": "Instituto para os Direitos das Pessoas com Deficiência (IDiPD)",
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761",
+      "source_type": "official_government",
+      "language": "pt",
+      "passage": "Includes EN 301 549 V3.2.1 (2021) among international best-practice references. This does not establish national adoption or legal incorporation.",
+      "publication_date": null,
+      "accessed_on": "2026-11-02",
+      "access": "reachable",
+      "method": "Official DOCX downloaded; paragraph/table text extracted and read. Visual review incomplete. d0bb8c9ab309ca56072cbcdcc00db9a733ef16a7e0d19d5cc98826e87c298b96"
+    },
+    "source-8f40dcd1934c454ff5476edf": {
+      "issuer": "Instituto para os Direitos das Pessoas com Deficiência (IDiPD)",
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04",
+      "source_type": "official_government",
+      "language": "pt",
+      "passage": "References EN 301 549 chapters 11 and 9 in testing advice. The application example is headed Simulação de teste; do not count it as an identified enforcement case or completed remediation. Legal force and current edition were not verified.",
+      "publication_date": null,
+      "accessed_on": "2026-11-02",
+      "access": "reachable",
+      "method": "Official DOCX downloaded; paragraph/table text extracted and read. Visual review incomplete. 69b325c4617b695b5a75804c7f554ccbd25248e0c7bd7ecab6c64513fec26367"
     }
   },
   "domains": {
@@ -242,7 +348,7 @@
           "field": "additional_information",
           "assertion": "Decreto-Lei n.º 82/2022 implements Directive (EU) 2019/882; principal product/service duties apply from 28 June 2025 and 112 emergency-call answering and handling duties from 28 June 2027.",
           "status": "verified",
-          "review_note": "Enacted act; Annex II service information and Art. 28 sector remits. Existing additional information retained in existing_text for provenance. Built-environment and autonomous-region notes in old row are separate from the EAA sector roster; Art. 28(5) assigns regional bodies ASAE-equivalent duties. June 2 contributor quotation about implementation was accurate as contemporaneous correspondence but superseded for public complaints by current IDiPD form. Isolated no-history Portuguese-English review of Art. 28(1), 39, Art. 13 and form text on 2026-09-24 identified scope corrections (AND/OR products; banking investment overlap; audiovisual access; 112 limited to answering/handling); corrected row rechecked by isolated no-history language reviewer: supported after narrow ASAE, Banco de Portugal and IDiPD refinements.",
+          "review_note": "Enacted act; Annex II service information and Art. 28 sector remits. Existing additional information retained in existing_text for provenance. Built-environment and autonomous-region notes in old row are separate from the EAA sector roster; Art. 28(5) assigns regional bodies ASAE-equivalent duties. June 2 contributor quotation about implementation was accurate as contemporaneous correspondence but superseded for public complaints by current IDiPD form. Isolated no-history Portuguese-English review of Art. 28(1), 39, Art. 13 and form text on 2026-09-24 identified scope corrections (AND/OR products; banking investment overlap; audiovisual access; 112 limited to answering/handling); corrected row rechecked by isolated no-history language reviewer: supported after narrow ASAE, Banco de Portugal and IDiPD refinements. Recheck 2026-11-02: the historical review used the original Article 28 banking list. That overlap finding is superseded by the explicit 2023 rectification recorded in the Banco de Portugal and CMVM claims; the old review does not approve corrected public wording.",
           "directive_context": "EAA",
           "existing_text": "<tr>\n    <td>Portugal</td>\n    <td>✔️ Yes (Source needed)</td>\n    <td><ul><li><a href=\"http://www.anacom.pt/\">ANACOM (Autoridade Nacional de Comunicações)</a><ul><li>Supervises products such as computer equipment and electronic communications equipment that operate via radio.</li><li>Supervises electronic communications services and services related to emergency communications. </li></ul></li><li><a href=\"https://www.erc.pt/\">ERC (Entidade Reguladora para a Comunicação Social)</a> - audiovisual media services.</li><li><a href=\"http://www.amt-autoridade.pt/\">Autoridade da Mobilidade e dos Transportes (AMT)</a> - air transport services.</li><li><a href=\"http://www.imt-ip.pt/\">Instituto da Mobilidade e dos Transportes, I. P. (IMT)</a> - Supervises interactive self-service terminals of urban and suburban transport services, and regional transport services. </li><li><a href=\"http://www.bportugal.pt/\">Banco de Portugal</a> - Supervises banking services, including payment services.</li><li><a href=\"http://www.cmvm.pt/\">Comissão do Mercado de Valores Mobiliários (CMVM)</a> - Supervises financial investment services. </li><li><a href=\"https://www.asae.gov.pt/\">Autoridade de Segurança Alimentar e Económica (ASAE)</a> - Supervises the certification of products and services, including with the CE marking, and computer systems, except for those related to communications or covered by other entities. This authority also supervises the compliance of the free market access and goods and services access.</li><li><a href=\"http://www.igac.gov.pt/\">Inspeção-Geral das Atividades Culturais (IGAC)</a> - Supervises the implementation in cultural services and products, including monuments and museums.</li></ul> </td>\n    <td>As of 2026-06-02 Portugal does not have any reporting procedures.</td>\n    <td><ul><li>2026-06-02: \"The practical implementation of monitoring and reporting mechanisms is still being developed at national level.\"</li><li>All the responsibilities regarding the built environment are under the supervision of the municipalities.</li> <li>The autonomous regions of Açores and Madeira delegates part of the responsibilities on their regional authorities, if existent. </li> <li>The Instituto Nacional para a Reabilitação (INR, I.P.) (National Institute for Rehabilitation) is in charge of collecting data and supervising the compliance of these authorities.</li> </ul><p>⚖️ EAA implementing law: <a href=\"https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872\">Decreto-Lei n.º 82/2022</a>.</p></td>\n  </tr>",
           "source_refs": [
@@ -404,27 +510,33 @@
         },
         {
           "field": "authority",
-          "assertion": "Banco de Portugal supervises specified consumer credit, investment and ancillary services, payment services and electronic money; investment scope overlaps CMVM.",
+          "assertion": "Banco de Portugal supervises the specified consumer credit, payment, payment-account-associated and electronic-money services under Article 2(3)(e)(i), (iii), (iv) and (v), as assigned by corrected Article 28(1)(e).",
           "status": "verified",
-          "review_note": "Direct homepage open 403 in reader 2026-09-24; statutory remit verified, site identity independently shown by official Banco de Portugal consumer portal. Art. 28 does not expressly reference payment-account services in Art. 2(3)(e)(iv); flag gap. Final row includes statutory ancillary services and electronic money; payment-account-associated services under Art. 2(3)(e)(iv) absent from Art. 28(1)(e) list and need regulator clarification. Post-draft 2026-09-24: cloud browser remained at its security-connection verification page; contributor independently confirms https://www.bportugal.pt/ opened for them. No challenge bypass attempted.",
+          "review_note": "Historical assertion, superseded on 2026-11-02: Banco de Portugal supervises specified consumer credit, investment and ancillary services, payment services and electronic money; investment scope overlaps CMVM. Historical review: Direct homepage open 403 in reader 2026-09-24; statutory remit verified, site identity independently shown by official Banco de Portugal consumer portal. Art. 28 does not expressly reference payment-account services in Art. 2(3)(e)(iv); flag gap. Final row includes statutory ancillary services and electronic money; payment-account-associated services under Art. 2(3)(e)(iv) absent from Art. 28(1)(e) list and need regulator clarification. Post-draft 2026-09-24: cloud browser remained at its security-connection verification page; contributor independently confirms https://www.bportugal.pt/ opened for them. No challenge bypass attempted. Recheck 2026-11-02: item 3 of official Rectification 5/2023 and the consolidated Article 28 resolve the omission/overlap. Preserve the introductory reservation of other legally assigned powers. Research correction only; exact public Portuguese-to-English wording has not received isolated review in this pass. Public Portugal row correction is handed off separately; no reporting route is inferred.",
           "directive_context": "EAA",
           "scope": "Banking (specified services)",
           "source_refs": [
             "source-85fb2d33230f86e7eaab2fac",
-            "source-fdf3b140740a42ea7276adf7"
+            "source-fdf3b140740a42ea7276adf7",
+            "source-4635f751bbd1ff1197123b0a",
+            "source-7b47fc49963313aaa1e4fc99",
+            "source-eee17752e779ce4856dd5dbc"
           ],
           "id": "monitoring-9843dbc61682962e9e413624"
         },
         {
           "field": "authority",
-          "assertion": "CMVM supervises specified consumer investment and ancillary services under Art. 2(3)(e)(ii), overlapping Banco de Portugal wording.",
+          "assertion": "CMVM supervises the specified consumer investment and ancillary services in Article 2(3)(e)(ii), under Article 28(1)(f); the corrected Banco de Portugal list does not include subparagraph (ii).",
           "status": "verified",
-          "review_note": "Official domain reachable 2026-09-24 but JavaScript required.",
+          "review_note": "Historical assertion, superseded on 2026-11-02: CMVM supervises specified consumer investment and ancillary services under Art. 2(3)(e)(ii), overlapping Banco de Portugal wording. Historical review: Official domain reachable 2026-09-24 but JavaScript required. Recheck 2026-11-02: item 3 of official Rectification 5/2023 and the consolidated Article 28 resolve the omission/overlap. Preserve the introductory reservation of other legally assigned powers. Research correction only; exact public Portuguese-to-English wording has not received isolated review in this pass. Public Portugal row correction is handed off separately; no reporting route is inferred.",
           "directive_context": "EAA",
           "scope": "Banking (investment services)",
           "source_refs": [
             "source-ecec8e132b6e409fa0db9e41",
-            "source-18455924e52e28d19185a246"
+            "source-18455924e52e28d19185a246",
+            "source-4635f751bbd1ff1197123b0a",
+            "source-7b47fc49963313aaa1e4fc99",
+            "source-e9a992edf3d23cb7cee7ea85"
           ],
           "id": "monitoring-9d310be6b3572239f2e60d31"
         },
@@ -515,16 +627,36 @@
             "source-130b2f79dc1ed97d7a4b5b04"
           ],
           "id": "monitoring-92ccd726e1124c6c38aae83e"
+        },
+        {
+          "id": "monitoring-850d1160a93d453ef12cfe09",
+          "field": "authority",
+          "assertion": "IDiPD practical guidance lists payment-account-associated services under Banco de Portugal; the apparent statutory discrepancy is resolved by Rectification 5/2023 and consolidated Article 28(1)(e).",
+          "status": "verified",
+          "directive_context": "EAA",
+          "review_note": "Historical assertion, superseded on 2026-11-02: IDiPD practical guidance lists account-associated payment services under Banco de Portugal; the statutory assignment discrepancy remains unresolved. Historical review: Research-only lead for the existing Article 28(1)(e) / Article 2(3)(e)(iv) question. No Portugal public row change. Compare current consolidated law and explicit competent-bank guidance before resolving; independent Portuguese review required for any proposed public wording. Recheck 2026-11-02: item 3 of official Rectification 5/2023 and the consolidated Article 28 resolve the omission/overlap. Preserve the introductory reservation of other legally assigned powers. Research correction only; exact public Portuguese-to-English wording has not received isolated review in this pass. Public Portugal row correction is handed off separately; no reporting route is inferred.",
+          "source_refs": [
+            "source-ef3e0dfdb058a27ae4f30771",
+            "source-02d42e73dce7370f49e236b9",
+            "source-4635f751bbd1ff1197123b0a",
+            "source-7b47fc49963313aaa1e4fc99",
+            "source-4ac4015f174590d38a628808"
+          ]
         }
       ],
       "questions": [
         "Follow-up: Portugal / accessibility-statement Yes — awaiting an official email answer. Preserve contributor's existing Yes (Source needed); once the Portuguese competent monitoring body or government responds, verify whether it explicitly requires a dedicated public page comparable to a WAD accessibility declaration, rather than only public terms or an equivalent document under Art. 13/Annex II. Owner: researcher; nonblocking for this PR; resolved by dated official reply or direct government guidance recorded with provenance.",
         "Follow-up: Portugal / company non-compliance and exemptions — obtain purpose-specific form, email or postal routes from ANACOM, ASAE, Banco de Portugal, CMVM, ERC, AMT, ANAC, IMT and IGAC; IDiPD email confirms forwarding but supplies no designated intake; owner: researcher; resolved with direct destination and audience/purpose.",
         "Follow-up: Portugal / reporting languages — IDiPD 27 May 2026 email states no formal English rule; confirm each agency's accepted language, plus any login requirement or deadline. Owner: researcher; resolved by official guidance/correspondence.",
-        "Follow-up: Portugal / Banco de Portugal payment-account service — Art. 28(1)(e) omits the Art. 2(3)(e)(iv) account-associated service subparagraph. Confirm supervisor assignment from competent authority before saying complete coverage. Owner: researcher; resolved by explicit statutory or agency source.",
+        "Resolved 2026-11-02 — historical question retained: Follow-up: Portugal / Banco de Portugal payment-account service — Art. 28(1)(e) omits the Art. 2(3)(e)(iv) account-associated service subparagraph. Confirm supervisor assignment from competent authority before saying complete coverage. Owner: researcher; resolved by explicit statutory or agency source. The original 2022 text was corrected by Rectification 5/2023 item 3, published 2 February 2023: Banco de Portugal includes (iv) and excludes (ii). The consolidated text agrees. Separate public correction needed; no competent-authority reply is necessary to establish this express statutory assignment.",
         "Follow-up: Portugal / 112 — ANACOM is assigned a legal remit, but accessibility obligations begin 28 June 2027; verify eventual consumer and company channels closer to commencement. Owner: researcher; resolved by current official instructions.",
         "Follow-up: Portugal / Art. 28 regional ASAE substitutes — check official regional service names and links for Azores and Madeira, which Art. 28(5) assigns ASAE-equivalent functions. Owner: researcher; resolved by regional official designation and relevant scope.",
-        "Follow-up: Portugal / IDiPD complaint form prerequisite — verify whether the prior provider complaint prerequisite applies also when reporting product inaccessibility with no direct customer relationship; form expressly requires it. Owner: agency; resolved by official clarification."
+        "Follow-up: Portugal / IDiPD complaint form prerequisite — verify whether the prior provider complaint prerequisite applies also when reporting product inaccessibility with no direct customer relationship; form expressly requires it. Owner: agency; resolved by official clarification.",
+        "Historical follow-up: Follow-up 2026-10-30: Compare the newly located IDiPD practical guide (account-associated payment services under Banco de Portugal) with current consolidated law and competent-bank guidance. Guide publication date unknown and rendering failed; text read only. Three other practical guides linked from the hub remain unread; do not treat their titles as verified content. No new dedicated-statement or reporting-language claim follows. Owner: researcher; resolve with precise authority/sector/purpose evidence and Portuguese source-fidelity review before publication. Recheck 2026-11-02: law comparison completed and relevant guide page 8 visually checked after successful rendering. All three linked guides downloaded and text-read; their original publication dates remain unknown. No new public reporting/statement/language requirement established. Standards references from two guides retained in the new research-only adoption domain.",
+        "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Acessibilidade+no+Atendimento+Presencial.docx/8fe3e929-a89d-4984-96f2-7a01fefc58d0 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
+        "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
+        "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
+        "Follow-up 2026-11-02: Correct the existing public Portugal banking remit in a separate country draft: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, and cite the consolidated law/2023 rectification. This is a pre-existing public error, not a new 2026 law. Owner: next authorised Portugal researcher; resolution requires exact-wording isolated Portuguese source-fidelity review and targeted checks. No Portugal public edit is included in PR #95."
       ]
     },
     "sanctions": {
@@ -564,19 +696,32 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-d49e36ed746748cd379b08fd"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-10-30",
+          "source_refs": [
+            "source-1acf7d4b13244b1b1b4f272e"
+          ],
+          "status": "research_only",
+          "note": "The annual report says responding authorities reported no proceedings, fines or accessory sanctions for the specified 2025 period. This is enforcement-activity evidence, not proof of nationwide absence, a statutory-maximum change or an imposed sanction. Retain sanctions public row unchanged; route a bounded statistics proposal to enforcement."
+        }
       ]
     },
     "enforcement": {
       "schema_version": 1,
       "jurisdiction_group": "EU",
       "created_on": "2026-09-25",
-      "research_state": "bounded_pass_completed",
-      "search_result": "no_reportable_activity_found_in_checked_sources",
-      "attempted_on": "2026-09-25",
+      "research_state": "partially_researched",
+      "search_result": "not_assessed",
+      "attempted_on": "2026-11-02",
       "verified_on": null,
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Read IDiPD implementation/complaint context. ANACOM search surfaced legislation and general rules rather than actual accessibility measures. No new entry justified within this narrow source set; other sector publications not exhausted."
+        "All Monitoring agencies research, 25 September 2026: Read IDiPD implementation/complaint context. ANACOM search surfaced legislation and general rules rather than actual accessibility measures. No new entry justified within this narrow source set; other sector publications not exhausted.",
+        "2026-10-30 handoff: Newly located official IDiPD 2025 annual report supersedes any inference that the September bounded no-findings result is current. Relevant pages were read and key statistics pages visually inspected. Research-only pending public claim modelling and required reviews: 46 respondent authorities (38/308 municipalities plus 8 national/regional), 190 inspected operators, 15 municipal non-compliance cases, 13 complaints; no fines/proceedings/accessory sanctions reported by respondents for 28 June–31 December 2025. Two Banco de Portugal disproportionate-burden invocations remain under analysis. Preserve response-coverage, mixed municipal scope and unreconciled complaint-subtotal limitations recorded in shared evidence source-1acf7d4b13244b1b1b4f272e. Prepared 31 March 2026; public publication date unknown. No enforcement public entry is added in this monitoring draft.",
+        "2026-11-02 PR #95 recheck: the annual PDF is byte-identical to the 30 October download; Table 3 was visually rechecked and inconsistent complaint totals persist. See source-a1ea9291824548dd4697dffc. No nationwide absence, granted exemption or new statutory maximum inferred. No public enforcement claim or review date advanced.",
+        "2026-11-02: the mobile-testing guide source-d919c65aca77a1b26699045f labels its banking-app example a simulation; it is not evidence of an identified real enforcement case or completed remediation."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -588,6 +733,25 @@
           ],
           "limitations": "Read IDiPD implementation/complaint context. ANACOM search surfaced legislation and general rules rather than actual accessibility measures. No new entry justified within this narrow source set; other sector publications not exhausted. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
           "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        },
+        {
+          "attempted_on": "2026-10-30",
+          "scope": "Bounded watcher handoff from official EAA hub to the 2025 annual implementation report; not a full enforcement-country audit.",
+          "sources_checked": [
+            "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+            "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94"
+          ],
+          "limitations": "Respondent-only statistics with incomplete municipal coverage and inconsistent complaint-status subtotals; publication date unknown. Portuguese source-fidelity, B2 readability and enforcement PR review still required before public publication. Existing September attempt retained; no absence claim.",
+          "next_check": "Prepare a separate Portugal enforcement PR with dated/attributed statistics and exact limits. Model verified claims from the report, resolve or explicitly omit incompatible status breakdowns, and complete the independent reviews."
+        },
+        {
+          "attempted_on": "2026-11-02",
+          "scope": "Recheck annual-report complaint-table discrepancy only.",
+          "sources_checked": [
+            "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94"
+          ],
+          "limitations": "Same document bytes; source totals remain inconsistent. Other original scope limits retained. No new enforcement public wording or isolated review.",
+          "next_check": "Keep incompatible status breakdowns out of a future public entry unless official clarification resolves them."
         }
       ],
       "claims": [],
@@ -597,9 +761,222 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Before PR",
+          "question": "Before a Portugal enforcement publication, model report statistics with period/respondent coverage and reconcile or omit inconsistent complaint-status subtotals; independently review Portuguese fidelity, B2 readability and final PR.",
+          "owner": "Future authorised enforcement researcher and independent reviewers",
+          "resolved_when": "Precise source-to-claim records and required isolated reviews support narrowed public wording without national-absence or granted-exemption inferences."
+        }
+      ]
+    },
+    "adoption": {
+      "claims": [
+        {
+          "id": "adoption-portugal-idipd-guidance-reference-20261102",
+          "aspect": "reference",
+          "statement": "IDiPD printed-material guidance references EN 301 549 V3.2.1 (2021); its mobile-testing guide references EN 301 549 chapters 11 and 9. These are guidance references, not verification of national standards adoption or mandatory incorporation.",
+          "scope": "Undated official practical guides linked from the IDiPD EAA hub; narrow source-reference finding only.",
+          "stage": "unknown",
+          "status": "verified",
+          "source_refs": [
+            "source-6d54111be071ca7d69ecaa97",
+            "source-8f40dcd1934c454ff5476edf"
+          ],
+          "event_dates": [],
+          "attempted_on": "2026-11-02",
+          "verified_on": "2026-11-02",
+          "next_review_due": "2026-12-02",
+          "existing_text": null,
+          "review_note": "Research-only. The reference text was read directly; current edition, national identifier, publication date and claimed legal linkage remain unverified. The mobile guide mixes EAA and broader website/mobile guidance and contains a simulated test. Isolated public-wording review not performed; no public row proposed."
+        }
+      ],
+      "questions": [
+        "Verify national standard identifier, edition, publication stage and legal applicability from the proper standards/legal sources before any adoption claim.",
+        "Do not treat the mobile guide statement about EAA and EN chapters as verified legal incorporation. Distinguish WAD/AMA guidance and EAA applicability.",
+        "Printed-material standards references have not been comprehensively fact-checked. Preserve as attributed guidance references only."
+      ],
+      "attempts": [
+        {
+          "on": "2026-11-02",
+          "method": "Official DOCX download and paragraph/table text review",
+          "outcome": "reachable",
+          "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761",
+          "note": "Publication date and legal effect unknown; no visual review of the whole document."
+        },
+        {
+          "on": "2026-11-02",
+          "method": "Official DOCX download and paragraph/table text review",
+          "outcome": "reachable",
+          "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04",
+          "note": "Publication date and legal effect unknown; no visual review of the whole document."
+        }
+      ],
+      "last_monthly_review": null,
+      "last_full_review": null,
+      "public_row_sha256": null,
+      "public_claim_ids": [],
+      "public_cells": {},
+      "review_report": null
+    }
+  },
+  "deliveries": [
+    {
+      "id": "portugal-idipd-annual-report-2025-discovered-20261030",
+      "country": "Portugal",
+      "recorded_on": "2026-10-30",
+      "status": "research_only",
+      "source_refs": [
+        "source-ef3e0dfdb058a27ae4f30771",
+        "source-1acf7d4b13244b1b1b4f272e",
+        "source-a1ea9291824548dd4697dffc"
+      ],
+      "reason": "Official annual activity statistics newly located and compared with the current country record; no matching enforcement entry or open PR found. Evidence and limitations retained for separate publication review.",
+      "next_action": "Suggest a separate Portugal enforcement statistics PR; no enforcement/sanctions public edit in this monitoring draft.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "monitoring",
+          "disposition": "research_only",
+          "reason": "Report does not establish a new usable reporting route or statement/language rule.",
+          "next_action": "Keep monitoring public row; retain related guide lead separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "First annual report supports a possible bounded activity entry; prior narrow no-findings record is outdated as a research conclusion.",
+          "next_action": "Create a separately authorised Portugal enforcement PR after claim modelling, Portuguese fidelity, B2 readability and PR review.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "Respondent non-imposition is period-specific activity, not a legal-maximum amendment or national absence proof.",
+          "next_action": "Preserve public sanctions entry; cross-reference enforcement research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption finding verified in this pass.",
+          "next_action": "No adoption record or public edit.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "portugal-idipd-guide-payment-accounts-lead-20261030",
+      "country": "Portugal",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "source_refs": [
+        "source-ef3e0dfdb058a27ae4f30771",
+        "source-02d42e73dce7370f49e236b9",
+        "source-4635f751bbd1ff1197123b0a",
+        "source-7b47fc49963313aaa1e4fc99",
+        "source-4ac4015f174590d38a628808"
+      ],
+      "reason": "On 2026-11-02, official Rectification 5/2023 and the consolidated law resolved the historical guide/statute discrepancy: payment-account services belong to Banco de Portugal; the alleged investment overlap arose from uncorrected original wording. Original evidence preserved.",
+      "next_action": "Follow-up 2026-11-02: Correct the existing public Portugal banking remit in a separate country draft: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, and cite the consolidated law/2023 rectification. This is a pre-existing public error, not a new 2026 law. Owner: next authorised Portugal researcher; resolution requires exact-wording isolated Portuguese source-fidelity review and targeted checks. No Portugal public edit is included in PR #95.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "On 2026-11-02, official Rectification 5/2023 and the consolidated law resolved the historical guide/statute discrepancy: payment-account services belong to Banco de Portugal; the alleged investment overlap arose from uncorrected original wording. Original evidence preserved.",
+          "next_action": "Follow-up 2026-11-02: Correct the existing public Portugal banking remit in a separate country draft: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, and cite the consolidated law/2023 rectification. This is a pre-existing public error, not a new 2026 law. Owner: next authorised Portugal researcher; resolution requires exact-wording isolated Portuguese source-fidelity review and targeted checks. No Portugal public edit is included in PR #95.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "Guide itself is not evidence of an enforcement action.",
+          "next_action": "Use annual-report handoff separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No verified legal penalty amendment from this bounded guide reading.",
+          "next_action": "No public sanctions change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption finding verified.",
+          "next_action": "No public adoption change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "portugal-idipd-practical-guides-recheck-20261102",
+      "country": "Portugal",
+      "recorded_on": "2026-11-02",
+      "status": "research_only",
+      "source_refs": [
+        "source-d685118a364640dcdf69f8a2",
+        "source-13de72b2c2e40deb29afcca4",
+        "source-d919c65aca77a1b26699045f",
+        "source-6d54111be071ca7d69ecaa97",
+        "source-8f40dcd1934c454ff5476edf"
+      ],
+      "reason": "Three previously unvisited guides were downloaded and text-read; record standards references and simulated-example limit without public expansion.",
+      "next_action": "Retain narrow research findings; verify legal/standards applicability before publication.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "monitoring",
+          "disposition": "research_only",
+          "reason": "No new concrete intake, dedicated-statement or accepted-language rule established.",
+          "next_action": "No public edit from these three guides.",
+          "pr": 95
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "Mobile testing example is explicitly simulated; it does not identify an actual enforcement action.",
+          "next_action": "Do not promote the simulation as an enforcement/remediation event.",
+          "pr": 95
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "Practical advice establishes no new statutory maximum or imposed penalty.",
+          "next_action": "No public sanctions edit.",
+          "pr": 95
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "Explicit guidance references recorded; national adoption and legal effect remain unknown.",
+          "next_action": "Verify exact applicability and edition before any public adoption proposal.",
+          "pr": 95
         }
       ]
     }
-  },
-  "deliveries": []
+  ]
 }

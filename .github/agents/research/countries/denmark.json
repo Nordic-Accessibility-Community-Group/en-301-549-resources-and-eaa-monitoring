@@ -683,7 +683,8 @@
         "Follow-up: Identify usable complaint, company-defect and exemption channels for other sectors before proposing new routes.",
         "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
         "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
-        "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains."
+        "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
+        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update."
       ]
     },
     "sanctions": {

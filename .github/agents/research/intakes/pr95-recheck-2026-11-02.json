@@ -1,0 +1,220 @@
+{
+  "id": "pr95-recheck-2026-11-02",
+  "request": "Re-check the issues noted in PR #95; update the same draft with findings.",
+  "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+  "pr": 95,
+  "checked_pr_head": "8da9e071c65d6d8215edd85be6a233c3faafb30e",
+  "compared_main": "71b1c37a342e202838fdea28ef4fd0478a3cff77",
+  "research_started_at": "2026-11-02T07:43:55Z",
+  "source_checks_completed_by": "2026-11-02T07:53:04Z",
+  "budget_note": "At most 9 minutes 9 seconds from the recorded run start through all source checks, below the ten-minute country ceiling even if charged wholly to one country; more than twenty minutes of the multi-country ceiling remained. Research stopped here. Later work is records, validation and PR preparation. This pass does not reset prior attempt history or advance monthly discovery coverage.",
+  "scope": "Concrete issues recorded in the PR body. There were no PR review/comments to resolve when inspected. Sweden one-time post-draft check plus named Denmark, Italy and Portugal source/document limitations; no Ireland or full-country audit.",
+  "public_change": "No further public wording change in this recheck. The existing Sweden-only availability sentence remains supported and unchanged.",
+  "findings": [
+    {
+      "country": "Sweden",
+      "issue": "One-time post-draft consumer intake check",
+      "outcome": "completed_notice_persists",
+      "source_ref": "source-04a04ada14f7ce711ef53334",
+      "method": "Web reader plus one fresh ordinary Chrome visit to the exact consumer URL.",
+      "result": "Inactive/unavailable notice still displayed. Current usable intake remains unknown; do not infer permanent withdrawal. Company introduction separately readable in reader.",
+      "disposition": "Keep exact existing public sentence and its 30 October isolated language review. Ordinary maintainer review remains; do not repeat this one-time check automatically."
+    },
+    {
+      "country": "Portugal",
+      "issue": "Banco de Portugal payment-account gap / CMVM overlap",
+      "outcome": "resolved_research_correction",
+      "source_refs": [
+        "source-4635f751bbd1ff1197123b0a",
+        "source-7b47fc49963313aaa1e4fc99",
+        "source-4ac4015f174590d38a628808"
+      ],
+      "result": "Official rectification published 2 February 2023 replaces ii) with iv) in Article 28(1)(e). Consolidated law and guide agree: Banco de Portugal i), iii), iv), v); CMVM ii). Prior research and existing public Banco de Portugal wording used the uncorrected list.",
+      "disposition": "Correct canonical assertions and preserve history. Separate public Portugal proposal: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, cite consolidated law/rectification, and retain the reservation of other legally assigned powers. Exact public wording still needs isolated Portuguese review. No Portugal public row edit in this Sweden draft."
+    },
+    {
+      "country": "Portugal",
+      "issue": "DRep / Banco de Portugal / CMVM access",
+      "outcome": "access_restored_for_checked_pages",
+      "urls": [
+        "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
+        "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2022-206867079",
+        "https://www.bportugal.pt/",
+        "https://www.cmvm.pt/"
+      ],
+      "result": "DRep and Banco de Portugal readable in web reader. CMVM still needs JavaScript in the reader; after one ordinary-browser navigation timeout the same tab rendered its official homepage.",
+      "limits": "Homepage reachability is not verification of a concrete EAA reporting route; old failed attempts retained."
+    },
+    {
+      "country": "Portugal",
+      "issue": "Practical implementation guide render failure",
+      "outcome": "resolved_for_relevant_page",
+      "source_ref": "source-4ac4015f174590d38a628808",
+      "result": "Same DOCX bytes as 30 October. Packaged LibreOffice rendered 16 pages; page 8 visually checked for Banco de Portugal/CMVM lists.",
+      "limits": "Only the relevant rendered page is claimed as visually reviewed; original publication date remains unknown."
+    },
+    {
+      "country": "Portugal",
+      "issue": "Three unvisited practical guides",
+      "outcome": "downloaded_and_text_read",
+      "source_refs": [
+        "source-d685118a364640dcdf69f8a2",
+        "source-13de72b2c2e40deb29afcca4",
+        "source-d919c65aca77a1b26699045f"
+      ],
+      "result": "All three downloaded and paragraph/table text read. Two contain EN 301 549 references, now preserved in an unpublished adoption domain. The mobile guide labels its app example a simulation.",
+      "limits": "No national legal-incorporation finding, new concrete reporting route, dedicated-statement rule, accepted language, identified real enforcement event or completed remediation established. Layout/images not comprehensively reviewed; publication dates unknown."
+    },
+    {
+      "country": "Portugal",
+      "issue": "Annual-report inconsistent complaint totals",
+      "outcome": "unchanged_source_limitation",
+      "source_ref": "source-a1ea9291824548dd4697dffc",
+      "result": "Byte-identical PDF. Visually checked Table 3 on physical page 21 / printed page 20: totals 13 received vs 3+7+1=11 statuses; municipalities 6 received vs 2+4+1=7.",
+      "disposition": "Keep the inconsistency explicit or omit status breakdowns in any later publication. Respondent, period and mixed-scope limits remain. No Portuguese fidelity, B2 readability or independent enforcement publication review performed in this recheck."
+    },
+    {
+      "country": "Denmark",
+      "issue": "Reporting mailbox ambiguity",
+      "outcome": "still_unresolved",
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "method": "Reader and one ordinary-browser check; inspect visible text and link destinations.",
+      "result": "Visible address composes mo@erst.dk, but the first linked letter m targets mailto:sik@sik.dk while o@erst.dk targets mailto:mo@erst.dk.",
+      "disposition": "No email sent and no public route correction. Resolve through a corrected official page or separately authorised clarification."
+    },
+    {
+      "country": "Italy",
+      "issue": "MIMIT access",
+      "outcome": "still_unavailable_in_this_environment",
+      "url": "https://www.mimit.gov.it/",
+      "method": "One reader timeout and one ordinary-browser navigation timeout; resulting tab remained blank.",
+      "limits": "The earlier 503 is historical; no current HTTP status or general site outage is inferred."
+    },
+    {
+      "country": "Italy",
+      "issue": "AgID company intake future evolution",
+      "outcome": "not_newly_verified",
+      "url": "https://accessibilita.agid.gov.it/domande-frequenti/",
+      "result": "FAQ index readable; it does not establish that the company platform is live. One targeted search yielded no useful support. A follow-up private-subject FAQ URL could not be retrieved.",
+      "disposition": "Retain the prior dated company-intake limitation. Do not claim the future-evolution statement was freshly reverified or that no live platform exists."
+    }
+  ],
+  "download_fingerprints": [
+    {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94",
+      "sha256": "576bd5772d7628bfaf9f18fa76128b6b75ce3aa48f92fb02e88822ef50e126a6",
+      "bytes": 818092
+    },
+    {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF+ANEXO+2+-+Guia+Pr%C3%A1tico+para+Implementa%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82_2022.docx/4493beff-39e0-4d62-bd80-f294f7eafda7",
+      "sha256": "af23ec84f614b7029a6216da0bf1b921062c1295e0e54a44a4aa64cfddb2f4d7",
+      "bytes": 592152
+    },
+    {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Acessibilidade+no+Atendimento+Presencial.docx/8fe3e929-a89d-4984-96f2-7a01fefc58d0",
+      "sha256": "55893a8282c6c4483eb439e114a8411c9c785a12dc66218455ee737e1d9618f4",
+      "bytes": 32842
+    },
+    {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761",
+      "sha256": "d0bb8c9ab309ca56072cbcdcc00db9a733ef16a7e0d19d5cc98826e87c298b96",
+      "bytes": 487047
+    },
+    {
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04",
+      "sha256": "69b325c4617b695b5a75804c7f554ccbd25248e0c7bd7ecab6c64513fec26367",
+      "bytes": 917437
+    }
+  ],
+  "targeted_validation": {
+    "sweden": {
+      "new_evidence_objects": 1,
+      "old_evidence_preserved": true,
+      "same_storage_schema_diagnostics": true,
+      "same_monitoring_schema_diagnostics": true
+    },
+    "portugal": {
+      "new_evidence_objects": 11,
+      "old_evidence_preserved": true,
+      "same_storage_schema_diagnostics": true,
+      "same_monitoring_schema_diagnostics": true
+    },
+    "inherited_fingerprint_mismatches": [
+      [
+        "italy.json",
+        "source-3e7e8e58c3f9cf1b5ba72311"
+      ],
+      [
+        "italy.json",
+        "source-8b42d4f53f785e5644085bde"
+      ],
+      [
+        "sweden.json",
+        "source-d2adb1f030370254f2a91893"
+      ],
+      [
+        "sweden.json",
+        "source-0b81089d5bfdefba0b9e7a62"
+      ],
+      [
+        "sweden.json",
+        "source-7a0aee08071d4adb14125b7c"
+      ],
+      [
+        "sweden.json",
+        "source-664b65cc6f3ae74045d632cc"
+      ],
+      [
+        "sweden.json",
+        "source-e5a1086df248e577f40c725d"
+      ],
+      [
+        "sweden.json",
+        "source-ptsfs-2026-6"
+      ],
+      [
+        "sweden.json",
+        "source-pts-public-form-20261009"
+      ],
+      [
+        "sweden.json",
+        "source-pts-company-form-20261009"
+      ]
+    ],
+    "routing_projection_and_destinations": "passed",
+    "portugal_unpublished_adoption_contract": "passed",
+    "duplicate_claim_and_delivery_ids": "none"
+  },
+  "global_checks": [
+    {
+      "command": "python3 .github/scripts/check-country-records.py",
+      "result": "fails on PR head and unchanged main: Evidence fingerprint mismatch",
+      "detail": "Ten inherited mismatched source IDs, listed in targeted_validation. Existing storage-name diagnostics also unchanged; new evidence fingerprints and references pass."
+    },
+    {
+      "command": "python3 .github/scripts/check-link-languages.py",
+      "result": "same failure on PR head and unchanged main",
+      "detail": "Ten occurrences / nine unique URLs absent from the language audit, including two occurrences of AgID login, AgID news, five MTM/Mediemyndigheten form URLs, PTSFS 2026:6 and README local standards link."
+    },
+    {
+      "command": "python3 .github/agents/enforcement/check.py",
+      "result": "same failure on PR head and unchanged main: Public rows changed or missing from public-map.json"
+    },
+    {
+      "command": "python3 .github/scripts/check-sanctions.py",
+      "result": "same failure on PR head and unchanged main: Expected seven column headers"
+    },
+    {
+      "command": "python3 .github/scripts/check_adoption.py --require-coverage",
+      "result": "same additional inherited failure on updated draft and unchanged main: Duplicate adoption row",
+      "detail": "The new unpublished Portugal domain passes the validator check_domain contract directly. The whole-page failure is not repaired or bypassed."
+    },
+    {
+      "command": "python3 -m unittest discover -s .github/agents/watcher -p 'test_*.py'",
+      "result": "9 passed on initial PR head, unchanged main and updated research snapshot"
+    }
+  ],
+  "review_limits": "No new public text, no retranslating unchanged Swedish sentence, no independent review claimed for new Portuguese research. No GitHub CI result inferred from local checks. Existing global validation failures require separate maintenance; no infrastructure edits made.",
+  "deferred": "Ordinary maintainer review; separate Portugal public remit correction and qualified enforcement-statistics proposal; unresolved Danish mailbox and Italy source/intake evidence. Monthly discovery remains partial in all five pilot countries; no operational state or discovery anchor changed.",
+  "delivery": "Update existing draft PR #95 only; notify Watcher tasks on completion. No new PR, main write, merge, correspondence, login or form submission."
+}

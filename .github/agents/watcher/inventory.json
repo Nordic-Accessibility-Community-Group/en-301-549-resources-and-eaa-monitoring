@@ -1240,6 +1240,53 @@
       "claim_indices": [],
       "baseline_origin": "discovery",
       "claim_ids": []
+    },
+    {
+      "id": "discovery-pt-idipd-hub-20261030",
+      "country": "Portugal",
+      "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-pt-annual-2025",
+      "country": "Portugal",
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-pt-practical-guide-20261030",
+      "country": "Portugal",
+      "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF+ANEXO+2+-+Guia+Pr%C3%A1tico+para+Implementa%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82_2022.docx/4493beff-39e0-4d62-bd80-f294f7eafda7",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-se-pts-language-news-20261020",
+      "country": "Sweden",
+      "url": "https://pts.se/nyheter-och-pressmeddelanden/fran-1-november-2026-far-foretag-lamna-viss-information-till-pts-pa-svenska-eller-engelska/",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-se-mediemyndigheten-public-form-20261102",
+      "country": "Sweden",
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [
+        "monitoring-7950e549ce8bdc9a4e22bc45"
+      ],
+      "baseline_origin": "discovery"
     }
   ]
 }

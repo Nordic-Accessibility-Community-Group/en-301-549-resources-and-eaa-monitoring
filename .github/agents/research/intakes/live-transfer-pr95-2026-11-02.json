@@ -1,0 +1,94 @@
+{
+  "id": "live-transfer-pr95-2026-11-02",
+  "date": "2026-11-02",
+  "source_pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/95",
+  "source_head": "6ac87e354bd9b1950d1892d7b23927f18b3aa857",
+  "source_merge": "902755c432540ded5e74147766fd36fc202f9da4",
+  "live_repository": "Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring",
+  "live_base": "383189b93194d35c6fc9449eaed87d18bdf9c424",
+  "scope": "Promote merged testing PR #95. Only the Swedish public reporting label changes on the public pages; the destination URL and company entry are already on live. Denmark and Portugal changes remain research and explicit publication handoffs. No schedules, runtime state, instructions or checkers changed.",
+  "reconciliation": [
+    "Preserved all live evidence objects, stable claim IDs, MTM reporting-route metadata and content-fingerprint repairs. Imported only changed/new testing claims; unrelated testing differences were excluded.",
+    "Historical Swedish old-URL claim retains its stable ID, old destination and unknown usability status. Its live replacement-route assessment remains verbatim in review history and evidence; current replacement-form support is separately recorded by monitoring-7950e549ce8bdc9a4e22bc45.",
+    "Earlier live replacement URL and company route are already present from live PR #86. Testing PR references in the two copied historical intakes describe testing versions, not current live status. The current Swedish delivery is adapted to the label-only live change.",
+    "Portugal and Denmark records match merged testing PR #95 exactly; their previous live versions matched the testing base. Retained the Portugal correction handoff, annual-report limitations, unpublished standards-reference research and the contributor-reported Denmark contact update without public expansion.",
+    "Merged two later Swedish language observations into the existing live audit and appended five inventory URLs without changing prior IDs or metadata. Routing is regenerated from canonical country deliveries."
+  ],
+  "review": {
+    "public_text": "Public reports: Mediemyndigheten accessibility reporting form (Swedish interface).",
+    "context": "Existing Audiovisual access / Mediemyndigheten heading.",
+    "source_language": "Swedish",
+    "publication_language": "English",
+    "report": ".github/agents/research/intakes/sweden-mediemyndigheten-public-form-2026-11-02.json",
+    "status": "Exact wording and hash match the 2 November isolated Supported source-fidelity review in testing. Both historical intakes are copied byte-for-byte. No new independent live-head or human review is claimed.",
+    "limits": "No new source pass, form submission, accepted-language finding or end-to-end test. The completed one-time testing post-draft check is not repeated. Unchanged public rows and unrelated inherited wording were not freshly verified.",
+    "manual_checks_before_merge": "None identified beyond ordinary maintainer review."
+  },
+  "validation": {
+    "denmark": {
+      "new_evidence_objects": 0,
+      "prior_evidence_and_claim_ids_preserved": true,
+      "storage_schema": "passed",
+      "monitoring_schema_diagnostics": "unchanged"
+    },
+    "portugal": {
+      "new_evidence_objects": 14,
+      "prior_evidence_and_claim_ids_preserved": true,
+      "storage_schema": "passed",
+      "monitoring_schema_diagnostics": "unchanged"
+    },
+    "sweden": {
+      "new_evidence_objects": 4,
+      "prior_evidence_and_claim_ids_preserved": true,
+      "storage_schema": "passed",
+      "monitoring_schema_diagnostics": "unchanged"
+    },
+    "enforcement_diagnostic_only": {
+      "remaining_checks": "passed",
+      "records_and_entries": [
+        36,
+        19
+      ],
+      "one_inherited_assertion_skipped_in_memory": "Public rows changed or missing from public-map.json; review and map each row",
+      "repository_checker_unchanged": true
+    },
+    "all_evidence_fingerprints_and_references": "passed",
+    "routing": "passed",
+    "duplicate_ids": "none",
+    "portugal_unpublished_adoption_contract": "passed",
+    "public_change": "Only reviewed Swedish public-report label; same URL, company item and four other cells unchanged",
+    "historical_intakes": "byte-identical to merged testing PR #95",
+    "inventory": "5 additions; existing URLs, IDs and metadata preserved",
+    "page_sha256": {
+      "EAA authorities and reporting by country.md": "20f1831167beada6f905ba5717b934297b789929c8afe2e372a4869198f32c36"
+    },
+    "changed_files": [
+      ".github/agents/evidence-routing/events.json",
+      ".github/agents/link-language-audit.json",
+      ".github/agents/research/countries/denmark.json",
+      ".github/agents/research/countries/portugal.json",
+      ".github/agents/research/countries/sweden.json",
+      ".github/agents/research/intakes/pr95-recheck-2026-11-02.json",
+      ".github/agents/research/intakes/sweden-mediemyndigheten-public-form-2026-11-02.json",
+      ".github/agents/watcher/inventory.json",
+      "EAA authorities and reporting by country.md"
+    ]
+  },
+  "checks": {
+    "passed": [
+      "Link-language coverage: 787 links",
+      "Verification-date content check: 14 markers",
+      "28 enforcement tests",
+      "27 adoption tests",
+      "9 watcher tests"
+    ],
+    "inherited_failures_reproduced_on_unchanged_live_base": [
+      "Full country-record and enforcement checks: public-map row mismatch",
+      "Sanctions checker and all 5 sanctions tests: expected seven column headers",
+      "Adoption whole-page checker: duplicate adoption row",
+      "Country-record tests: 11 pass; migration/losslessness test stops at inherited enforcement map assertion"
+    ],
+    "limitations": "Scoped checks and an explicitly labelled in-memory enforcement diagnostic pass; the full checks remain failed. No repository checker was changed. No CI, Markdown lint or rendered GitHub preview result is inferred."
+  },
+  "follow_up": "Portugal public banking-remit correction and qualified enforcement-statistics proposal require their separate publication reviews. Danish conflicting mailbox links await a corrected official page or authority reply. Prior Italy access/intake limits and monthly discovery coverage remain unchanged."
+}
