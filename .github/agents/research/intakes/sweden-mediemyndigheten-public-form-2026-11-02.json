@@ -1,0 +1,96 @@
+{
+  "id": "sweden-mediemyndigheten-new-public-form-20261102",
+  "recorded_on": "2026-11-02",
+  "pr": 95,
+  "checked_parent_head": "97fbdc253eaf9ee710930bb5ca3c0f54fc51c437",
+  "request": "User supplied new public reporting link, then supplied company link if absent.",
+  "source_refs": [
+    "source-98124269cb7277bfce98d1f5",
+    "source-8ecd6d13688288c079e80101"
+  ],
+  "claim_id": "monitoring-7950e549ce8bdc9a4e22bc45",
+  "public_url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+  "company_url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+  "public_text": "Public reports: Mediemyndigheten accessibility reporting form (Swedish interface).",
+  "public_text_sha256": "76f099b715adcb1606710fd515da30bb6ed5bcc526b7de69dc775e5f05d6108e",
+  "context": "Existing Audiovisual access / Mediemyndigheten heading; only the public list item changes. Company item is byte-identical.",
+  "source_fidelity": {
+    "reviewer": "/root/swedish_new_form_fidelity",
+    "isolation": "fork_turns=none; supplied source passages, exact wording and neutral brief only; user explicitly authorised this reviewer.",
+    "reviewed_on": "2026-11-02",
+    "verdict": "Supported",
+    "comparisons": [
+      {
+        "excerpt": "kan du anmäla brister i tillgänglighet",
+        "literal": "you can report shortcomings in accessibility",
+        "finding": "Supports the public reporting-form label; no stated audience restriction."
+      },
+      {
+        "excerpt": "i tjänster som ger åtkomst till audiovisuella medietjänster",
+        "literal": "in services that provide access to audiovisual media services",
+        "finding": "Existing audiovisual-access heading preserves the sector boundary."
+      },
+      {
+        "excerpt": "Namn och e-postadress är frivilligt",
+        "literal": "Name and email address are optional",
+        "finding": "Omitting this detail from the concise link label does not change meaning."
+      }
+    ],
+    "other_findings": "Reports support supervision planning and the authority promises contact only for questions. The proposed label does not promise individual adjudication, publication of reports, routine feedback, accepted submission languages or successful delivery. Swedish interface matches source headings and fields.",
+    "minor_note": "Reviewer suggested Reports from the public as an optional clarity alternative, but found no necessary correction in this reporting-link context. Retained the repository standard Public reports label.",
+    "limits": "Source-to-wording comparison from supplied passages; no legal certification or end-to-end test."
+  },
+  "access_checks": [
+    {
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "methods": [
+        "web reader",
+        "one fresh ordinary Chrome visit"
+      ],
+      "outcome": "Live public form with required service/shortcoming fields and submit control; no sign-in gate observed. No data entered or submitted."
+    },
+    {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+      "methods": [
+        "web reader",
+        "ordinary Chrome introduction",
+        "Starta e-tjänst link to first Område step"
+      ],
+      "outcome": "Company deficiency-notification and exemption choices visible; no sign-in gate at first step. Later steps and successful submission untested."
+    }
+  ],
+  "research_started_at": "2026-11-02T08:18:51Z",
+  "timing_note": "Source inspection and isolated wording review completed within the ten-minute Sweden budget; later record editing, validation and PR preparation do not broaden the source pass.",
+  "limits": [
+    "Publication date of the new form unknown; supplied URL is newly located, not proven newly launched.",
+    "Old URL not revisited in this follow-up; earlier unavailable observations preserved.",
+    "No form submission, login or authority correspondence.",
+    "This is a user-triggered new-source follow-up, not an automatic repeat of the completed post-draft check.",
+    "Portugal research and earlier recheck report retained unchanged."
+  ],
+  "page_assessment": {
+    "monitoring": "Replace public link; company link already present.",
+    "enforcement": "No actual enforcement event established.",
+    "sanctions": "No statutory or imposed sanction change.",
+    "adoption": "No standards-adoption change."
+  },
+  "validation": {
+    "new_evidence_fingerprints": "2 valid",
+    "old_evidence": "all preserved",
+    "schema_diagnostics": "unchanged",
+    "routing": "matches",
+    "public_diff": "one Sweden reporting cell; four other cells unchanged; company item unchanged",
+    "inventory": "one URL added; old entries and metadata preserved",
+    "link_audit": "two verified Swedish interfaces added; inherited omissions reduce from 10 to 8 occurrences",
+    "watcher_tests": "9 passed",
+    "whitespace": "passed",
+    "files": [
+      ".github/agents/evidence-routing/events.json",
+      ".github/agents/link-language-audit.json",
+      ".github/agents/research/countries/sweden.json",
+      ".github/agents/research/intakes/sweden-mediemyndigheten-public-form-2026-11-02.json",
+      ".github/agents/watcher/inventory.json",
+      "EAA authorities and reporting by country.md"
+    ]
+  }
+}

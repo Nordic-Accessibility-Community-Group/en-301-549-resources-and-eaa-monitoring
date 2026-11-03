@@ -6422,8 +6422,8 @@
     {
       "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
       "language": "sv",
-      "checked_on": "2026-10-30",
-      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim."
+      "checked_on": "2026-11-02",
+      "reason": "Swedish page content observed during live transfer: MTM in ordinary browser, Mediemyndigheten company introduction in web reader. No submission or accepted-language claim. Rechecked in testing PR #95 on 2026-11-02: Company introduction and first reporting step observed in Swedish in an ordinary browser; this records interface language only, not accepted submission languages."
     },
     {
       "url": "https://mtmportal.ondemand.formpipe.com/anmalan-av-klagomal",
@@ -6446,8 +6446,8 @@
     {
       "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
       "language": "sv",
-      "checked_on": "2026-10-30",
-      "reason": "Current directory and replacement consumer form inspected in ordinary browser. Swedish introduction and fields visible; no submission."
+      "checked_on": "2026-11-02",
+      "reason": "Current directory and replacement consumer form inspected in ordinary browser. Swedish introduction and fields visible; no submission. Rechecked in testing PR #95 on 2026-11-02: Official public form observed in Swedish in reader and ordinary browser; this records interface language only."
     },
     {
       "url": "https://www.w3.org/community/reports/publishingcg/CG-FINAL-epub-techniques-20251222/",
