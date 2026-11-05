@@ -6490,6 +6490,12 @@
       "language": "en",
       "reason": "Local English research record inspected; no raw private correspondence published.",
       "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://www.lirumlarumleg.dk/pages/webtilgaengelighed",
+      "language": "da",
+      "reason": "The linked accessibility statement is in Danish and declares html lang=\"da\".",
+      "checked_on": "2026-11-05"
     }
   ]
 }

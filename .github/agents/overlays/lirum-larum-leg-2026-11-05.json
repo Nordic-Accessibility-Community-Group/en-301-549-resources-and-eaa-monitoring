@@ -1,0 +1,9 @@
+{
+  "site": "Lirum Larum Leg",
+  "country": "Denmark",
+  "url": "https://www.lirumlarumleg.dk/pages/webtilgaengelighed",
+  "provider": "Accessibly",
+  "checked_on": "2026-11-05",
+  "evidence": "The Danish accessibility statement names Accessibly App. The same page includes the Accessibly acc-main.js script and a button labelled Open Accessibly App widget.",
+  "script": "https://cdn.shopify.com/extensions/019d43d1-bbad-7de5-bd49-ea6de5e8ca58/accessibly-app-30/assets/acc-main.js"
+}

@@ -24,6 +24,7 @@
 | <a href="http://hia.dk/" hreflang="en-US">hia.dk</a> | UserWay | 2026-10-07 |
 | <a href="https://hydroscand.dk/" hreflang="da">hydroscand.dk</a> | Selma (accessiBe) | 2026-10-07 |
 | <a href="https://www.kinnarps.dk/" hreflang="da">kinnarps.dk</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://www.lirumlarumleg.dk/pages/webtilgaengelighed" hreflang="da">Lirum Larum Leg</a> | Accessibly | 2026-11-05 |
 | <a href="https://www.mazda.dk/" hreflang="da-DK">mazda.dk</a> | accessiBe | 2026-10-07 |
 | <a href="https://www.vfo.dk/" hreflang="da">vfo.dk</a> | Selma (accessiBe) | 2026-10-07 |
 
