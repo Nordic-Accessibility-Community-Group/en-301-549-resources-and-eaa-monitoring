@@ -44,6 +44,10 @@
 | --- | --- | --- |
 | <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Regiogate (Eye-able) | 2026-05-08 |
 | <a href="https://www.wvv.de" hreflang="de">wvv.de</a> | Eye-Able | 2026-05-09 |
+| <a href="https://www.lotto-bayern.de" hreflang="de">lotto-bayern.de</a> | Eye-Able | 2026-11-13 |
+| <a href="https://www.motorola.com/de/" hreflang="de">motorola.com/de/</a> | Equalweb | 2026-11-13 |
+| <a href="https://www.lenovo.com/de/" hreflang="de">lenovo.com/de/</a> | Equalweb | 2026-11-13 |
+| <a href="https://www.hamburg.de/" hreflang="de">hamburg.de</a> | Eye-Able | 2026-11-13 |
 
 ### Norway
 
