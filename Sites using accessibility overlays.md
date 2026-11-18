@@ -12,6 +12,67 @@
 - <a href="https://overlays.dnikub.dev/" hreflang="en">The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments</a>, master's thesis by Daniela Kubesch, MSc MSc.
 - [We intercepted every request from five accessibility tools. Here’s what they actually do to your site.](https://aiopsgroup.com/we-intercepted-every-request-from-five-accessibility-tools-heres-what-they-actually-do-to-your-site/)
 
+## Known overlays
+
+For white-label versions of known plugins, the underlying plugin is noted in parentheses.
+
+- Access Ease
+- AccessAngel
+- accessiBe
+- Accessibility Adapter
+- Accessibility Enabler
+- Accessiblelink
+- Accessibly
+- Accessiplus
+- AccessiWay (accessiBe)
+- AccessiYes
+- Accesstive Assistant
+- Acrowd (Equal Web)
+- Adally
+- Adapte Mon Web / Adapt my Web
+- AdaptifY
+- Alchemy — no longer developed or marketed
+- All in One Accessibility — Skynet
+- Ally — Web Accessibility & Usability; formerly Pojo
+- Allyable
+- Amaze
+- ARTY / Artymus Intelligentis III
+- AudioEye
+- Bakh Fix
+- Consentmo
+- Corpowid
+- DIGIaccess
+- EaseAccess24
+- Elementor
+- EnableAll
+- Equally.ai
+- EqualWeb
+- Eye-Able
+- FACIL'iti
+- HandTalk
+- MaxAccess
+- Onetap accessibility
+- Poloda AI
+- Purple Lens — rebranded as Pluro
+- Readabler
+- ReciteME
+- Regiogate (Eye-able)
+- RentCafe
+- Selma (accessiBe)
+- Sentinel — no longer developed or marketed
+- Sienna Accessibility
+- SkyNet Technologies
+- Streamline
+- TruAbilities
+- True Accessibility
+- UsableNet Assistive
+- UserWay
+- Wawsome
+- WCAG-Ready (EaseAccess24)
+- WebAbility
+- WelcomingWeb
+- WideAccess
+
 ## Countries
 
 ### Denmark
@@ -42,12 +103,13 @@
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
-| <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Regiogate (Eye-able) | 2026-05-08 |
-| <a href="https://www.wvv.de" hreflang="de">wvv.de</a> | Eye-Able | 2026-05-09 |
+| <a href="https://www.hamburg.de/" hreflang="de">hamburg.de</a> | Eye-Able | 2026-11-13 |
+| <a href="https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/" hreflang="de">Landessportbund Bremen</a> | Eye-Able | 2026-11-18 |
+| <a href="https://www.lenovo.com/de/" hreflang="de">lenovo.com/de/</a> | Equalweb | 2026-11-13 |
 | <a href="https://www.lotto-bayern.de" hreflang="de">lotto-bayern.de</a> | Eye-Able | 2026-11-13 |
 | <a href="https://www.motorola.com/de/" hreflang="de">motorola.com/de/</a> | Equalweb | 2026-11-13 |
-| <a href="https://www.lenovo.com/de/" hreflang="de">lenovo.com/de/</a> | Equalweb | 2026-11-13 |
-| <a href="https://www.hamburg.de/" hreflang="de">hamburg.de</a> | Eye-Able | 2026-11-13 |
+| <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Regiogate (Eye-able) | 2026-05-08 |
+| <a href="https://www.wvv.de" hreflang="de">wvv.de</a> | Eye-Able | 2026-05-09 |
 
 ### Norway
 
@@ -231,7 +293,7 @@
 | <a href="https://tillganglighetskartan.se/" hreflang="sv">Tillgänglighetskartan</a> | UserWay | 2026-10-07 |
 | <a href="https://www.timrabo.se/" hreflang="sv">Timråbo</a> | Selma (accessiBe) | 2026-10-07 |
 | <a href="https://www.tingsrydtravet.com/">Tingsrydtravet</a> | Selma (accessiBe) | 2026-10-07 |
-| <a href="https://www.tmeeting.se/" hreflang="sv">Tmeeting</a> | WCAGready / EaseAccess24 | 2025-08-27 |
+| <a href="https://www.tmeeting.se/" hreflang="sv">Tmeeting</a> | EaseAccess24 | 2025-08-27 |
 | <a href="https://www.topbostader.se/" hreflang="sv-SE">Topbostäder</a> | Accessibility Enabler | 2026-10-07 |
 | <a href="https://transitio.se/" hreflang="sv-SE">Transitio</a> | UserWay | 2026-10-07 |
 | <a href="https://www.travskola.se/">Travskola</a> | Selma (accessiBe) | 2026-10-07 |
