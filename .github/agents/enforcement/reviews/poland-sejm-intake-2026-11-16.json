@@ -1,0 +1,38 @@
+{
+  "reviewed_on": "2026-11-16",
+  "reviewer": "Independent agent poland_sejm_pr_review",
+  "isolation": "No inherited conversation history",
+  "pr": 97,
+  "reviewed_head": "a66b62f6e7299947194097cca475e9b5affcdec3",
+  "base": "902755c432540ded5e74147766fd36fc202f9da4",
+  "verdict": "No blocking issues identified for research-only intake",
+  "scope": "Actual PR metadata/body and exact commit diff; shared evidence/review instructions and enforcement record specification. Only Poland canonical record, intake and generated routing changed.",
+  "confirmed": [
+    "11 new claims attributed to supplied browser report, unverified_source, no invented retrieval/verification dates.",
+    "Distinct July cutoffs, unknown PFRON signature date, RF timing/categories/overlap preserved.",
+    "Actual activities distinct from future controls and commitments; fund balance excluded from fines.",
+    "Prior evidence/claims/dates/public mappings/deliveries preserved.",
+    "All four registered destinations assessed; monitoring/sanctions handoffs recorded.",
+    "PR description accurately states evidence scope and inherited validation failures."
+  ],
+  "checks": [
+    "Exact-commit preservation assertions",
+    "Source-reference resolution",
+    "11 unverified additions",
+    "Canonical/generated event equality",
+    "Four-domain disposition coverage",
+    "git diff --check"
+  ],
+  "non_blocking_findings": [
+    {
+      "finding": "RF45 and RF853 use monitoring_activity with statistics:null because the current statistics contract requires an exact as_of date.",
+      "disposition": "Structured counts and unknown cutoffs retained in intake. No invented date. Statistics-only canonical consumers will miss these two counts; explicit limitation retained. Any schema improvement is separate infrastructure work."
+    }
+  ],
+  "limits": [
+    "Original Polish PDFs not inspected by reviewer; no source-fidelity/readability review or authentication of contributor account.",
+    "Full suites not independently rerun by reviewer; intake author's baseline comparisons documented separately.",
+    "No public wording reviewed or changed; no human approval or merge authorisation."
+  ],
+  "report_only_followup": "This report and intake review pointer add review metadata after the reviewed content head; no evidence or wording changes."
+}

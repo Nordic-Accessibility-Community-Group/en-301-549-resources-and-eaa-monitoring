@@ -320,6 +320,36 @@
         "reviewed_on": "2026-10-30",
         "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
       }
+    },
+    "source-93772c30bdf07d2b1f5a038f": {
+      "url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWMHV3/%24FILE/i18677-o1.pdf",
+      "source_type": "contributor_correspondence",
+      "reference": "User-supplied local Chrome report, 16 November 2026; original reply 18677, BM.WP.057.137.2026, PDF page 1; intake .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json",
+      "passage": "User reports: reply dated 3 August 2026. The Minister of Digital Affairs had issued no financial-penalty decision under the Act from 28 June 2025 through the reply. UKE had issued no Article 73 financial-penalty decision and was carrying out inspection activities and following up operators' remedies. If remedies were absent or insufficient, administrative proceedings potentially leading to a penalty would follow. No inspection counts, completed-inspection totals or amounts given.",
+      "attempted_on": null,
+      "retrieved_on": null,
+      "access_result": "not_attempted",
+      "provenance_note": "User-supplied local Chrome verification report dated 2026-11-16 in this conversation: all five PDF pages reportedly read after security checks. This intake agent read the supplied report, not the original PDFs; no PDF bytes, hashes or original Polish excerpts supplied. Retained as attributed research, not independently verified or publication-reviewed here. Official original locator retained in url; source_type classifies the supplied account available here, not the institution hosting the linked original."
+    },
+    "source-9ce8e9e7b54356c47cb7b2ad": {
+      "url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWTJ4J/%24FILE/i18678-o1.pdf",
+      "source_type": "contributor_correspondence",
+      "reference": "User-supplied local Chrome report, 16 November 2026; original reply 18678, BM-II.059.1.445.2026, PDF page 1; intake .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json",
+      "passage": "User reports: 139 notifications about inaccessible products or services received by the President of PFRON through 27 July 2026, handled by PFRON or the competent market-surveillance authority. PFRON had imposed no penalties under the Act through 28 July 2026. The case page records receipt on 10 August 2026; the PDF header only refers to an electronic timestamp, so signature date is not established. The described sequence of correction/withdrawal/cessation, then possible administrative proceedings/penalty, is a procedure description, not evidence of issued measures in particular cases. PLN 11,752,211.66 at 30 June 2026 is an accessibility-fund balance, not EAA penalties imposed or collected.",
+      "attempted_on": null,
+      "retrieved_on": null,
+      "access_result": "not_attempted",
+      "provenance_note": "User-supplied local Chrome verification report dated 2026-11-16 in this conversation: all five PDF pages reportedly read after security checks. This intake agent read the supplied report, not the original PDFs; no PDF bytes, hashes or original Polish excerpts supplied. Retained as attributed research, not independently verified or publication-reviewed here. Official original locator retained in url; source_type classifies the supplied account available here, not the institution hosting the linked original."
+    },
+    "source-47449935cf98e3b72dec6baa": {
+      "url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWNFCE/%24FILE/i18679-o1.pdf",
+      "source_type": "contributor_correspondence",
+      "reference": "User-supplied local Chrome report, 16 November 2026; original reply 18679, FN1.054.8.2026, PDF pages 1-3; intake .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json",
+      "passage": "User reports: no penalties at the time of the Ombudsman's opinion (page 1). 45 notifications from 28 June 2025 until preparation of that opinion (page 2). 853 notifications by supervised entities at preparation of the response, in the context of Article 27 self-reporting of non-compliance and remedial measures (page 3); no separate exact statistics cutoff is stated. The Ombudsman assessed notifications, corresponded and preliminarily examined public websites, apps and documents. In most formally relevant notifications, correspondence achieved removal of barriers OR commitments to future remedies without formal inspection. Further inspections and other measures in some cases were planned for Q3/Q4 2026 (pages 2-3), not demonstrated completed.",
+      "attempted_on": null,
+      "retrieved_on": null,
+      "access_result": "not_attempted",
+      "provenance_note": "User-supplied local Chrome verification report dated 2026-11-16 in this conversation: all five PDF pages reportedly read after security checks. This intake agent read the supplied report, not the original PDFs; no PDF bytes, hashes or original Polish excerpts supplied. Retained as attributed research, not independently verified or publication-reviewed here. Official original locator retained in url; source_type classifies the supplied account available here, not the institution hosting the linked original."
     }
   },
   "domains": {
@@ -664,7 +694,8 @@
         "Follow-up: Poland / customs offices — confirm whether individual border-inspection authorities should be listed separately or the statutory customs-authority class suffices; owner: researcher; resolved by an official EAA roster.",
         "Follow-up: Poland / unanswered PFRON questions — user asked PFRON on 2026-09-24 whether a public company-site accessibility statement is required, monitoring has begun, warnings have been issued, company-monitoring information can be requested, WCAG 2.2/dark mode are tested and time constraints apply; no response appears in the supplied thread. Owner: researcher or PFRON; resolved by dated official reply on each point.",
         "Resolution 2026-10-30: the dedicated-page and unanswered-question follow-ups above describe the historical September position. The 26 October reply answers the general separate-statement question, monitoring commencement, conditional dark-mode assessment, information-access limitations and reporting timing. Issued measures and WCAG 2.2 methodology remain unconfirmed. Canonical intake: intakes/poland-official-reply-2026-10-26.json. Sector-specific filing routes and exemption channels remain unresolved.",
-        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits.",
+        "Research handoff 2026-11-16: .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json and enforcement claims pl-sejm-18677-*, pl-sejm-18678-* and pl-sejm-18679-* retain the supplied Chrome report. PFRON referrals and Financial Ombudsman supervised-entity self-reports are distinct audiences/purposes. The 853 count does not establish a new usable filing route, language policy, dedicated statement, unique-entity total or broad remit; no existing Yes/No, correspondence fact, channel or verification date changed. Independently inspect purpose-specific official guidance before any route change."
       ]
     },
     "sanctions": {
@@ -698,6 +729,20 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-5a1da8649a4b7e905cc2ed88"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-16",
+          "status": "research_only",
+          "intake": ".github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json",
+          "source_refs": [
+            "source-93772c30bdf07d2b1f5a038f",
+            "source-9ce8e9e7b54356c47cb7b2ad",
+            "source-47449935cf98e3b72dec6baa"
+          ],
+          "summary": "Supplied local-browser report of Sejm replies 18677-18679: historical no-penalty statements for named authorities and a conditional enforcement-process description. These do not alter statutory maxima or establish national/current absence of fines. The PFRON accessibility-fund balance of PLN 11,752,211.66 at 30 June 2026 is not penalties imposed or collected.",
+          "next_action": "Keep actual cases/counts in enforcement. Before any statutory change, independently verify exact law, conditions, powers and scope; preserve sanctions last_checked/public row."
+        }
       ]
     },
     "enforcement": {
@@ -706,7 +751,7 @@
       "created_on": "2026-09-25",
       "research_state": "partially_researched",
       "search_result": "reportable_activity_found",
-      "attempted_on": "2026-10-30",
+      "attempted_on": "2026-11-16",
       "verified_on": "2026-10-30",
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
@@ -714,7 +759,10 @@
         "2026-10-30: Original PFRON reply dated 2026-10-26 establishes ongoing monitoring, superseding the September bounded-search result without erasing it. Exact commencement date, sectors/operators checked, inspections completed and issued measures remain unknown.",
         "Answer 4: Information on specific operators under surveillance may be disclosed under the Act of 6 September 2001 on Access to Public Information, subject to restrictions, particularly Article 5 and business secrets. Each request needs individual assessment; no guaranteed disclosure, operator list or filing destination is supplied. Evidence source-e262e53a6e42641881626f74.",
         "Answer 6: If an operator offers dark mode as an additional option, it can be assessed during monitoring and inspections. This does not establish a duty to provide dark mode or that it has been tested in a particular case. Evidence source-ab28ce7d1485c077d3bdb43b.",
-        "Answer 5 says economic operators provide evidence of meeting EAA accessibility requirements. It does not answer whether WCAG 2.2 is used or establish an EN 301 549 edition or legal adoption. Evidence source-863f6105221a133f04424f72."
+        "Answer 5 says economic operators provide evidence of meeting EAA accessibility requirements. It does not answer whether WCAG 2.2 is used or establish an EN 301 549 edition or legal adoption. Evidence source-863f6105221a133f04424f72.",
+        "2026-11-16 supplied local-browser report: three Sejm originals reportedly read, all five pages. New attributed research claims preserve counts, authority-specific historical no-penalty statements, UKE activity, Financial Ombudsman correspondence/remedies and future plans. See .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json. Existing PR #93 correspondence claim, verification dates and public mapping are unchanged. New claims are not independently verified in this intake.",
+        "Do not sum 139, 45 and 853: categories/time windows differ and PFRON referrals may overlap with sector records. The 853 figure is not consumer complaints, unique entities or confirmed breaches. No nationwide/current absence of penalties established.",
+        "Reply 18678: received by Sejm 10 August 2026; electronic-timestamp header gives no readable calendar signature date in the supplied report. Retain signature date unknown. PLN 11,752,211.66 at 30 June 2026 is an accessibility-fund balance, excluded from EAA sanctions statistics."
       ],
       "public_entry_ids": [
         "poland-official-reply-20261030"
@@ -736,6 +784,13 @@
           "sources_checked": [],
           "limitations": "Documentary review of supplied correspondence only, not independent authentication or comprehensive public enforcement search. No publication review completed.",
           "next_check": "Review dated public proposal; obtain specific evidence before recording inspections, warnings, decisions or sanctions."
+        },
+        {
+          "attempted_on": "2026-11-16",
+          "scope": "Intake of user-supplied local Chrome verification report for Sejm replies 18677, 18678 and 18679; 1+1+3 pages reportedly read. Compared current main and pending EU27 Poland additions; no new official-source research.",
+          "sources_checked": [],
+          "limitations": "This agent checked the supplied report and repository, not the original PDFs. URLs are locators in the evidence pool/intake, not a claim of fresh retrieval. Local reader verification is attributed to the contributor; publication gates remain pending.",
+          "next_check": "Use exact primary PDF locators and page references for a future publication review; retain all dates/categories. No broad Poland or EU rollout."
         }
       ],
       "claims": [
@@ -763,6 +818,265 @@
             "source-ab28ce7d1485c077d3bdb43b",
             "source-e262e53a6e42641881626f74"
           ]
+        },
+        {
+          "id": "pl-sejm-18677-minister-no-penalties",
+          "kind": "monitoring_activity",
+          "text": "The supplied browser report attributes to the Minister of Digital Affairs a statement that no financial-penalty decision under the Act had been issued from 28 June 2025 through the reply of 3 August 2026.",
+          "authority_or_court": "Minister of Digital Affairs / President of UKE",
+          "case_identifier": "BM.WP.057.137.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical authority-reported absence of penalty decisions",
+          "procedural_stage": "unknown",
+          "stage_detail": "Only the Minister's dated response, not all Polish authorities, no inspection count.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-93772c30bdf07d2b1f5a038f"
+          ]
+        },
+        {
+          "id": "pl-sejm-18677-uke-no-penalties",
+          "kind": "monitoring_activity",
+          "text": "The supplied browser report attributes to UKE a statement that no financial-penalty decision under Article 73 had been issued by the reply of 3 August 2026.",
+          "authority_or_court": "Minister of Digital Affairs / President of UKE",
+          "case_identifier": "BM.WP.057.137.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical authority-reported absence of Article 73 penalty decisions",
+          "procedural_stage": "unknown",
+          "stage_detail": "No penalty amount or later outcome established.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-93772c30bdf07d2b1f5a038f"
+          ]
+        },
+        {
+          "id": "pl-sejm-18677-uke-ongoing-controls",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, UKE stated on 3 August 2026 that inspection activities and monitoring of operators' remedial action were ongoing. Administrative proceedings potentially leading to a penalty would follow absent or insufficient remedies.",
+          "authority_or_court": "Minister of Digital Affairs / President of UKE",
+          "case_identifier": "BM.WP.057.137.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Ongoing controls and follow-up; conditional future proceedings",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Actual ongoing work is distinct from completed inspections, issued administrative decisions and imposed penalties; no counts given.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-93772c30bdf07d2b1f5a038f"
+          ]
+        },
+        {
+          "id": "pl-sejm-18678-pfron-139-notifications",
+          "kind": "statistics",
+          "text": "According to the supplied browser report, 139 notifications of inaccessible products or services had reached the President of PFRON through 27 July 2026 and were being handled by PFRON or the competent market-surveillance authority.",
+          "authority_or_court": "Ministry of Family, Labour and Social Policy / President of the Management Board of PFRON",
+          "case_identifier": "BM-II.059.1.445.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical notification count",
+          "procedural_stage": "unknown",
+          "stage_detail": "Product/service aggregate; no e-commerce-only count or finding of confirmed breaches.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": {
+            "as_of": "2026-07-27",
+            "period": "Through 27 July 2026; starting date not established in the supplied summary.",
+            "units": "139 notifications concerning lack of accessibility of products or services",
+            "counting_basis": "Notifications received by the President of PFRON, not unique operators, inspections or confirmed infringements.",
+            "overlap_note": "PFRON may forward notifications to sector authorities. Do not add this total to the Ombudsman's 45 notifications or 853 supervised-entity reports."
+          },
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-9ce8e9e7b54356c47cb7b2ad"
+          ]
+        },
+        {
+          "id": "pl-sejm-18678-pfron-no-penalties",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, PFRON had imposed no penalties under the Act through 28 July 2026.",
+          "authority_or_court": "Ministry of Family, Labour and Social Policy / President of the Management Board of PFRON",
+          "case_identifier": "BM-II.059.1.445.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical authority-reported absence of imposed penalties",
+          "procedural_stage": "unknown",
+          "stage_detail": "Penalty cutoff 28 July differs from notification cutoff 27 July. Case page receipt 10 August is neither cutoff nor verified signature/publication date.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-9ce8e9e7b54356c47cb7b2ad"
+          ]
+        },
+        {
+          "id": "pl-sejm-18678-pfron-procedure",
+          "kind": "monitoring_activity",
+          "text": "The supplied browser report describes PFRON's explanation that operators are first called on to remedy shortcomings, withdraw products or cease a service; continued failure and an administrative proceeding may lead to a penalty.",
+          "authority_or_court": "Ministry of Family, Labour and Social Policy / President of the Management Board of PFRON",
+          "case_identifier": "BM-II.059.1.445.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Description of procedure, not an issued measure",
+          "procedural_stage": "unknown",
+          "stage_detail": "No evidence in this passage of completed controls or specific correction/withdrawal/cessation orders. Do not map to order_issued or penalty_imposed.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-9ce8e9e7b54356c47cb7b2ad"
+          ]
+        },
+        {
+          "id": "pl-sejm-18679-rf-45-notifications",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, the Financial Ombudsman had received 45 notifications from 28 June 2025 until preparation of its opinion (reply dated 4 August 2026, page 2).",
+          "authority_or_court": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+          "case_identifier": "FN1.054.8.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical notification count with unspecified exact cutoff",
+          "procedural_stage": "unknown",
+          "stage_detail": "Banking context. Exact opinion-preparation/statistics day is not separately stated. Count retained here and in intake structured statistics; no invented statistics.as_of date.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-47449935cf98e3b72dec6baa"
+          ]
+        },
+        {
+          "id": "pl-sejm-18679-rf-853-self-reports",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, the Financial Ombudsman had received 853 notifications from supervised entities at preparation of the response (page 3), in the context of Article 27 self-reporting of non-compliance and remedial measures.",
+          "authority_or_court": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+          "case_identifier": "FN1.054.8.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical supervised-entity reporting count with unspecified exact cutoff",
+          "procedural_stage": "unknown",
+          "stage_detail": "Not 853 consumer complaints, unique businesses or confirmed infringements. Reply date 4 August 2026 is not a verified separate statistics cutoff. Do not infer a filing channel or reporting language.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-47449935cf98e3b72dec6baa"
+          ]
+        },
+        {
+          "id": "pl-sejm-18679-rf-no-penalties",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, the Financial Ombudsman had not imposed penalties at the time of its opinion (page 1 of the reply dated 4 August 2026).",
+          "authority_or_court": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+          "case_identifier": "FN1.054.8.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Historical authority-reported absence of imposed penalties",
+          "procedural_stage": "unknown",
+          "stage_detail": "Opinion's precise separate preparation date not provided; no current national zero-penalty claim.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-47449935cf98e3b72dec6baa"
+          ]
+        },
+        {
+          "id": "pl-sejm-18679-rf-informal-remedies",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, the Financial Ombudsman had assessed notifications, corresponded and preliminarily examined public websites, apps and documents. For most formally relevant notifications, correspondence achieved either removal of barriers or commitments to future remedies without opening formal inspection.",
+          "authority_or_court": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+          "case_identifier": "FN1.054.8.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Preliminary assessment and correspondence with mixed completed/planned remedies",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Keep actual removal separate from undertakings. Neither all barriers remedied nor a numerical completed-remediation total is established.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-47449935cf98e3b72dec6baa"
+          ]
+        },
+        {
+          "id": "pl-sejm-18679-rf-planned-controls",
+          "kind": "monitoring_activity",
+          "text": "According to the supplied browser report, further inspections and other measures in some Financial Ombudsman cases were planned for quarters 3 and 4 of 2026 (pages 2-3).",
+          "authority_or_court": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+          "case_identifier": "FN1.054.8.2026",
+          "sectors": [],
+          "applicability": "EAA",
+          "legal_basis": "Act of 26 April 2024 implementing the EAA, as identified in the supplied account of the official reply; article references below are attributed, not independently interpreted.",
+          "action_type": "Announced future controls and measures",
+          "procedural_stage": "announced_monitoring",
+          "stage_detail": "Plan reported in the 4 August reply; no evidence here of subsequent implementation. Later calendar date alone does not convert plans into completed work.",
+          "event_on": null,
+          "published_on": null,
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Based on the contributor's 16 November 2026 report of reading the original PDF in local Chrome. Original PDF not independently inspected in this intake; no original-language excerpts or document hash supplied. Historical authority-specific report, not the position on 16 November or a finding for all Polish authorities.",
+          "next_check": "Before public use: inspect the cited original passages, preserve issuer/sector/date/category scope, obtain isolated Polish source-fidelity and enforcement readability review, and compare current main/open PR heads. No new source retrieval is claimed by this research intake.",
+          "source_refs": [
+            "source-47449935cf98e3b72dec6baa"
+          ]
         }
       ],
       "questions": [
@@ -771,6 +1085,18 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Before any public enforcement update based on Sejm replies 18677-18679, compare original Polish PDF passages and exact proposed wording; retain the locally reported five-page review and its provenance rather than claiming this intake independently read them.",
+          "owner": "Authorised enforcement publication reviewer",
+          "resolved_when": "Original passages inspected and version-bound source-fidelity/readability reviews support dated authority-specific wording; unknown signature/statistics dates stay unknown unless separately established."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Did the Financial Ombudsman's planned Q3/Q4 2026 controls occur, and are there later authority-specific outcomes? The summer replies do not establish the November position.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "Later dated competent-authority evidence establishes actual measures/outcomes; plans and commitments are not counted as completed."
         }
       ]
     },
@@ -799,7 +1125,8 @@
         "Continue full discrimination/accessibility legal mapping, including amendments, commencement, exceptions and implementing rules.",
         "Research-only routing: no public adoption, EAA monitoring, sanctions or enforcement change established.",
         "Legal mapping lead source-89488b47976dc3e5d3bbb87b: Ustawa z dnia19lipca2019 o zapewnianiu dostępności osobom ze szczególnymi potrzebami. Human-verification page instead of law text.",
-        "PFRON reply 2026-10-26, answer 5 (source-863f6105221a133f04424f72): economic operators provide evidence of compliance with EAA requirements. WCAG 2.2 testing remains unanswered; no new EN 301 549 adoption or edition finding. Preserve earlier UKE evidence and review dates."
+        "PFRON reply 2026-10-26, answer 5 (source-863f6105221a133f04424f72): economic operators provide evidence of compliance with EAA requirements. WCAG 2.2 testing remains unanswered; no new EN 301 549 adoption or edition finding. Preserve earlier UKE evidence and review dates.",
+        "Intake assessed 2026-11-16: .github/agents/research/intakes/poland-sejm-browser-report-2026-11-16.json supplies historical activity/statistics, no new EN 301 549 edition, adoption or legal-reference evidence. No adoption claim or review date changed."
       ],
       "attempts": [
         {
@@ -931,6 +1258,58 @@
       "recorded_on": "2026-10-30",
       "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
+    },
+    {
+      "id": "poland-sejm-browser-report-2026-11-16",
+      "country": "Poland",
+      "recorded_on": "2026-11-16",
+      "status": "research_only",
+      "source_refs": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "reason": "Persist user-supplied local Chrome findings with exact distinctions and provenance; not a new independent original-document verification or public edit.",
+      "next_action": "Research-only draft; later public enforcement wording needs original-passage and isolated review gates. Preserve unrelated pending EU27 additions on integration.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical statistics and activity newly captured in 11 attributed claims; existing PR #93 lacks these quantitative details.",
+          "next_action": "After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "pr": 97
+        },
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Audience/purpose handoff recorded; no new concrete route, language or statement claim.",
+          "next_action": "Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "pr": 97
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical no-penalty replies/process and fund-balance exclusion stored; no new statutory cap.",
+          "next_action": "No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "pr": 97
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption/edition evidence in supplied report.",
+          "next_action": "Preserve existing adoption record and dates.",
+          "pr": 97
+        }
+      ],
+      "pr": 97
     }
   ]
 }

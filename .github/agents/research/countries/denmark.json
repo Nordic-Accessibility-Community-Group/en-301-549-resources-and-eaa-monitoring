@@ -317,6 +317,13 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-43ab017af6049b2955a772f9": {
+      "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+      "accessed_on": "2026-11-06",
+      "source_type": "monitoring_body",
+      "section": "Hvor sender du orienteringen hen?",
+      "evidence": "In the company non-compliance instructions, the browser rendered one link labelled mo@erst.dk pointing to mailto:mo@erst.dk. No message was sent; this does not test delivery or forwarding."
     }
   },
   "domains": {
@@ -556,7 +563,7 @@
           "field": "company_reporting",
           "assertion": "The current non-compliance reporting instructions identify mo@erst.dk.",
           "status": "verified",
-          "review_note": "Email delivery not tested. Page extraction contains stale sik@sik.dk markup; preserve the contributor's existing address pending confirmation. Language acceptance unknown.",
+          "review_note": "Email delivery not tested. Page extraction contains stale sik@sik.dk markup; preserve the contributor's existing address pending confirmation. Language acceptance unknown. Update, 6 November 2026: the visible address and its single mailto target now agree. The previous split-link observation is historical; no authority reply, delivery test, forwarding or change of accepted languages is established.",
           "directive_context": "EAA",
           "reporting_route": {
             "authority": "Erhvervsstyrelsen | Markedsovervågning",
@@ -567,7 +574,8 @@
           },
           "existing_text": "sik@sik.dk; English and Danish accepted",
           "source_refs": [
-            "source-e01d898a328764aff913ff9a"
+            "source-e01d898a328764aff913ff9a",
+            "source-43ab017af6049b2955a772f9"
           ],
           "id": "monitoring-cb6b9160114246c5cd58690f"
         },
@@ -684,7 +692,7 @@
         "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
         "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
-        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update."
+        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update. Resolved for the published link only on 6 November 2026: the ordinary browser showed a single matching label and target (mo@erst.dk). Keep the earlier outreach and reported replies as historical evidence; no public-row change is needed."
       ]
     },
     "sanctions": {
@@ -1035,6 +1043,45 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "denmark-company-mailto-2026-11-06",
+      "country": "Denmark",
+      "recorded_on": "2026-11-06",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "research_only",
+          "reason": "Published label and target now agree. The row already preserves the published address and established contributor address.",
+          "next_action": "Retain the historical correspondence; no public edit."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "Correction to a company notification link; no enforcement action.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No penalty, fine or sanctions evidence.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption evidence.",
+          "next_action": "None for this evidence."
         }
       ]
     }

@@ -1,0 +1,198 @@
+{
+  "id": "poland-sejm-browser-report-2026-11-16",
+  "country": "Poland",
+  "recorded_on": "2026-11-16",
+  "record_path": ".github/agents/research/countries/poland.json",
+  "authorisation": "User requested that all necessary material be added to research records at minimum. Testing repository only; no public page edits, main writes, merges, submissions or new schedules.",
+  "provenance": {
+    "received_via": "User message in this conversation",
+    "reported_review_date": "2026-11-16",
+    "reported_review_method": "Ordinary local Chrome, already-open tabs; PDF security checks eventually allowed access.",
+    "reported_pages_read": 5,
+    "reported_review_result": "User reports all five original PDF pages read and the three counts corroborated with the recorded limitations.",
+    "intake_agent_original_pdf_inspection": false,
+    "original_pdf_bytes_supplied": false,
+    "document_sha256": null,
+    "original_polish_excerpts_supplied": false,
+    "local_access": "browser_accessible (reported by contributor)",
+    "cloud_access": "Not established by the local-browser result; no fresh cloud retrieval attempted in this intake.",
+    "publication_review": "Not performed; new canonical claims remain unverified_source in the repository's publication-verification sense, while preserving the contributor-reported successful original-document check.",
+    "actions_reported_by_contributor": "No repository edits, pull requests or authority-form submissions during their browser pass."
+  },
+  "documents": [
+    {
+      "interpellation": 18677,
+      "authority": "Minister of Digital Affairs / President of UKE",
+      "pdf_url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWMHV3/%24FILE/i18677-o1.pdf",
+      "case_page_url": "https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?nr=18677&typ=int",
+      "case_identifier": "BM.WP.057.137.2026",
+      "letter_date": "2026-08-03",
+      "sejm_received_on": "2026-08-03",
+      "publication_date": null,
+      "pages_read_reported": 1,
+      "evidence_ref": "source-93772c30bdf07d2b1f5a038f",
+      "summary": "User reports: reply dated 3 August 2026. The Minister of Digital Affairs had issued no financial-penalty decision under the Act from 28 June 2025 through the reply. UKE had issued no Article 73 financial-penalty decision and was carrying out inspection activities and following up operators' remedies. If remedies were absent or insufficient, administrative proceedings potentially leading to a penalty would follow. No inspection counts, completed-inspection totals or amounts given.",
+      "date_limits": "Letter date and case-page receipt reported equal; do not invent a separate statistics/opinion cutoff or web publication date."
+    },
+    {
+      "interpellation": 18678,
+      "authority": "Ministry of Family, Labour and Social Policy / President of the Management Board of PFRON",
+      "pdf_url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWTJ4J/%24FILE/i18678-o1.pdf",
+      "case_page_url": "https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?nr=18678&typ=int",
+      "case_identifier": "BM-II.059.1.445.2026",
+      "letter_date": null,
+      "sejm_received_on": "2026-08-10",
+      "publication_date": null,
+      "pages_read_reported": 1,
+      "evidence_ref": "source-9ce8e9e7b54356c47cb7b2ad",
+      "summary": "User reports: 139 notifications about inaccessible products or services received by the President of PFRON through 27 July 2026, handled by PFRON or the competent market-surveillance authority. PFRON had imposed no penalties under the Act through 28 July 2026. The case page records receipt on 10 August 2026; the PDF header only refers to an electronic timestamp, so signature date is not established. The described sequence of correction/withdrawal/cessation, then possible administrative proceedings/penalty, is a procedure description, not evidence of issued measures in particular cases. PLN 11,752,211.66 at 30 June 2026 is an accessibility-fund balance, not EAA penalties imposed or collected.",
+      "date_limits": "No readable calendar signature date in PDF header; electronic timestamp only. Receipt on 10 August is not signature date."
+    },
+    {
+      "interpellation": 18679,
+      "authority": "Ministry of Finance and Economy / Financial Ombudsman (Rzecznik Finansowy)",
+      "pdf_url": "https://sejm.gov.pl/INT10.nsf/klucz/ATTDWNFCE/%24FILE/i18679-o1.pdf",
+      "case_page_url": "https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?nr=18679&typ=int",
+      "case_identifier": "FN1.054.8.2026",
+      "letter_date": "2026-08-04",
+      "sejm_received_on": "2026-08-04",
+      "publication_date": null,
+      "pages_read_reported": 3,
+      "evidence_ref": "source-47449935cf98e3b72dec6baa",
+      "summary": "User reports: no penalties at the time of the Ombudsman's opinion (page 1). 45 notifications from 28 June 2025 until preparation of that opinion (page 2). 853 notifications by supervised entities at preparation of the response, in the context of Article 27 self-reporting of non-compliance and remedial measures (page 3); no separate exact statistics cutoff is stated. The Ombudsman assessed notifications, corresponded and preliminarily examined public websites, apps and documents. In most formally relevant notifications, correspondence achieved removal of barriers OR commitments to future remedies without formal inspection. Further inspections and other measures in some cases were planned for Q3/Q4 2026 (pages 2-3), not demonstrated completed.",
+      "date_limits": "Letter date and case-page receipt reported equal; do not invent a separate statistics/opinion cutoff or web publication date."
+    }
+  ],
+  "statistics": [
+    {
+      "authority": "President of the Management Board of PFRON",
+      "value": 139,
+      "unit": "notifications of lack of accessibility of products or services",
+      "as_of": "2026-07-27",
+      "period_start": null,
+      "period_end": "2026-07-27",
+      "page": 1,
+      "evidence_ref": "source-9ce8e9e7b54356c47cb7b2ad",
+      "counting_basis": "Received notifications handled by PFRON or the competent market-surveillance authority.",
+      "limits": "No sector split, unique-business count or confirmed-breach count; no sum with RF totals."
+    },
+    {
+      "authority": "Financial Ombudsman",
+      "value": 45,
+      "unit": "notifications",
+      "as_of": null,
+      "period_start": "2025-06-28",
+      "period_end": null,
+      "period_end_description": "Preparation of the Ombudsman's opinion; reply dated 4 August 2026 but exact separate statistical day not stated.",
+      "page": 2,
+      "evidence_ref": "source-47449935cf98e3b72dec6baa",
+      "limits": "No independent confirmation of overlap with PFRON referrals; not a confirmed infringement count."
+    },
+    {
+      "authority": "Financial Ombudsman",
+      "value": 853,
+      "unit": "notifications from supervised entities",
+      "as_of": null,
+      "period_start": null,
+      "period_end": null,
+      "period_end_description": "At preparation of response dated 4 August 2026; no separate exact statistical cutoff.",
+      "page": 3,
+      "evidence_ref": "source-47449935cf98e3b72dec6baa",
+      "counting_basis": "Company self-reporting of non-compliance and remedial action in the Article 27 context, as described in the supplied report.",
+      "limits": "Not consumer complaints, unique companies or confirmed breaches. No new filing destination or accepted language established."
+    }
+  ],
+  "no_penalty_reports": [
+    {
+      "authority": "Minister of Digital Affairs",
+      "from": "2025-06-28",
+      "through": "2026-08-03",
+      "scope": "No financial-penalty decision under the Act",
+      "evidence_ref": "source-93772c30bdf07d2b1f5a038f"
+    },
+    {
+      "authority": "UKE",
+      "through": "2026-08-03",
+      "scope": "No Article 73 financial-penalty decisions",
+      "evidence_ref": "source-93772c30bdf07d2b1f5a038f"
+    },
+    {
+      "authority": "PFRON",
+      "through": "2026-07-28",
+      "scope": "No penalties under the Act; cutoff differs from notification count",
+      "evidence_ref": "source-9ce8e9e7b54356c47cb7b2ad"
+    },
+    {
+      "authority": "Financial Ombudsman",
+      "through": null,
+      "scope": "At the time of the Ombudsman's opinion; letter dated 4 August 2026, precise opinion-preparation day unstated",
+      "evidence_ref": "source-47449935cf98e3b72dec6baa"
+    }
+  ],
+  "excluded_from_penalty_statistics": {
+    "value": "11752211.66",
+    "currency": "PLN",
+    "as_of": "2026-06-30",
+    "meaning": "Balance of accessibility fund",
+    "not": "EAA penalties imposed or collected",
+    "evidence_ref": "source-9ce8e9e7b54356c47cb7b2ad"
+  },
+  "guardrails": [
+    "Do not sum 139 + 45 + 853: differing categories/time windows and possible referral overlap.",
+    "No national/current no-enforcement or zero-penalty conclusion; only named authorities and historical reference times.",
+    "UKE controls and remedial follow-up were ongoing; no completed-control counts or later decisions established.",
+    "PFRON procedure description is not evidence of specific issued correction, withdrawal or cessation orders.",
+    "Financial Ombudsman had assessed notifications, corresponded and preliminarily examined public websites, apps and documents.",
+    "Most formally relevant RF notifications led to either barrier removal OR commitments to future remedies without formal inspection; not all barriers already removed.",
+    "RF Q3/Q4 2026 controls and other measures were planned in some cases; later completion not established.",
+    "Do not infer generic-law reporting languages, dedicated statements, filing channels or expanded authority remits.",
+    "Keep prior PR93 correspondence, existing claims/unknowns and verification dates; new intake does not supersede the dated October source."
+  ],
+  "discovery_context": {
+    "secondary_article": "https://www.digitalvantage.pl/en/posts/ecommerce/operations/polish-accessibility-act",
+    "role": "Lead supplied by user before local primary-document report; not the verification source for this intake.",
+    "unassessed": "Transport-authority replies and other article-only claims are outside the supplied three-PDF review; no promotion to verified facts.",
+    "prior_reader_results": [
+      {
+        "destination": "Sejm case pages 18677, 18678, 18679",
+        "observed_result": "Human Verification",
+        "interpretation": "Reader access failure, not confirmed website outage."
+      },
+      {
+        "destination": "https://api.sejm.gov.pl/sejm/term10/interpellations/18678",
+        "observed_result": "Internal Error; URL not accessible via this tool",
+        "interpretation": "Reader failure, not proof of unavailable official record."
+      }
+    ],
+    "local_followup": "User reports successful ordinary-browser reading on 16 November 2026; do not request the identical browser-access check again merely because earlier reader access failed."
+  },
+  "repository_comparison": {
+    "main": "902755c432540ded5e74147766fd36fc202f9da4",
+    "existing_delivery": "Merged PR93, historical PFRON 26 October correspondence; does not include the three Sejm replies/counts.",
+    "open_prs": "Only open PR found at pre-edit check: #96 Denmark; no covering Poland PR.",
+    "pending_branch": "research/eu27-link-discovery-2026-11-15",
+    "pending_head": "858eb9de3b5c9d401abd7c3c86b3ac15cb7f9e81",
+    "pending_overlap": "Contains an additive Poland UKE reporting-route observation and generated ledger changes, not Sejm numbers. Left untouched. When either branch merges, preserve both Poland additions and regenerate the routing index; do not replace entire files with a stale snapshot."
+  },
+  "review": {
+    "public_pages_changed": false,
+    "new_source_checks": false,
+    "isolated_source_language_review": "Not performed: original Polish passages unavailable in supplied report; no public wording proposed.",
+    "independent_pr_review": "Completed without inherited history at a66b62f6e7299947194097cca475e9b5affcdec3; no blocking research-intake findings. See .github/agents/enforcement/reviews/poland-sejm-intake-2026-11-16.json",
+    "maintainer_approval": "Not claimed.",
+    "canonical_statistics_limit": "RF45/RF853 have no exact as_of in the report; kept as monitoring_activity claims plus structured intake statistics, not date-inventing statistics claims. Statistics-only canonical consumers will miss those counts."
+  },
+  "next_steps": [
+    "Retain all new evidence in canonical Poland domains and generated delivery ledger.",
+    "For later public enforcement publication, inspect original passages and obtain isolated Polish source-fidelity/B2 reviews; no new full-country audit required to store this intake.",
+    "Investigate later outcomes only in a separately authorised research pass; do not infer them from Q3/Q4 plans."
+  ],
+  "validation": {
+    "checked_on": "2026-11-16",
+    "baseline": "902755c432540ded5e74147766fd36fc202f9da4",
+    "targeted": "PASS: Poland canonical schema, evidence content fingerprints, prior evidence/claims/verification dates preserved, monitoring-schema errors identical to baseline, 11 new enforcement claim/source field shapes and unverified provenance, generated routing projection and git diff --check.",
+    "regressions": "28 enforcement tests and 9 watcher tests passed.",
+    "full_checks": "check-country-records.py fails Evidence fingerprint mismatch; enforcement/check.py fails Public rows changed or missing from public-map.json. test-country-records.py: 10/12 pass, 2 fail at inherited evidence fingerprint mismatch. All failures reproduced on detached unmodified main at the recorded baseline.",
+    "limits": "No full-suite pass, CI result, fresh original-document verification, public-wording review or maintainer approval claimed. No validator, frozen map or inherited evidence modified to hide failures."
+  }
+}
