@@ -1,0 +1,27 @@
+{
+  "id": "ccpc-accessibility-contact-2026-11-18",
+  "recorded_on": "2026-11-18",
+  "country": "Ireland",
+  "source_refs": [
+    "source-e292b8f2b7baa874337b795b",
+    "source-aac490b70e8c625845c47c0b",
+    "source-6de8cbc8b0a79af83407247e"
+  ],
+  "public_item": "<li>Company enquiries: <a href=\"mailto:accessibility@ccpc.ie\">accessibility@ccpc.ie</a>.</li>",
+  "authorisation": "User requested a combined live PR after testing PRs merged, then explicitly requested restoring accessibility@ccpc.ie without a public condition. The published item identifies an enquiry contact; conditional reporting evidence is retained only in research.",
+  "scope": "Documentary original-message inspection plus a bounded reader check of the existing business form. No message sent, form submitted or current delivery tested. No new authority-remit or reporting-language assertion.",
+  "source_review": {
+    "reviewer": "/root/ccpc_replacement_fidelity",
+    "date": "2026-11-18",
+    "isolation": "No inherited conversation history",
+    "original_excerpt": "For accessibility related queries please contact accessibility@ccpc.ie.",
+    "literal_rendering": "Direct accessibility-related enquiries to accessibility@ccpc.ie.",
+    "reference": "CCPC-accessibility-contact-reply-2026-08-14",
+    "exact_final_wording": "<li>Company enquiries: <a href=\"mailto:accessibility@ccpc.ie\">accessibility@ccpc.ie</a>.</li>",
+    "verdict": "Supported",
+    "correction": "Removed the draft's English-language and conditional email-reporting assertions from the public item. Reviewer rechecked the exact final item.",
+    "limits": "No current delivery/monitoring test, legal-remit review or independent authentication. The November inactive-mailbox notice concerns Access@ccpc.ie."
+  },
+  "preservation": "The April reply, August enquiry referral and November inactive-mailbox evidence are distinct. Historical claims/events are retained, with a separate new contact claim and delivery event.",
+  "public_scope": "Both existing CCPC forms remain. Other countries and all other public content are unchanged by this correction."
+}

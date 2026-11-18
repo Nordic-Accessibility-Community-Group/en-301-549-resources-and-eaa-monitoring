@@ -278,6 +278,34 @@
       "source_type": "monitoring_body",
       "section": "Embedded Airline Accessibility Query & Complaint Form",
       "evidence": "Fresh browser check for requested publication: enabling Performance Cookies displayed the embedded form with Full Name, Email Address, Phone Number, nature of request and Next controls. No login required to view. No personal data entered or form submitted; later steps not tested. Outer official page expressly invites EAA airline concerns. Form body English; Microsoft interface controls localized to Swedish in this browser."
+    },
+    "source-e1443bbcff6b32dbdd565971": {
+      "url": "https://www.ccpc.ie/",
+      "accessed_on": "2026-11-18",
+      "evidence": "Private source CCPC-inactive-access-mailbox-2026-11-18: an automated reply from the CCPC Access mailbox states that the mailbox is no longer active, messages are not monitored or actioned, and people wishing to report an EAA accessibility issue should complete the Accessibility Act Complaint Form. Original message inspected in the contributor mailbox on 18 November 2026. The URL identifies the issuing authority; it is not an online publication of the email.",
+      "source_type": "monitoring_body",
+      "section": "Official automated correspondence in English, issued 18 November 2026 at 13:40:10 UTC; documentary review only, not independent authentication."
+    },
+    "source-e292b8f2b7baa874337b795b": {
+      "url": "https://www.ccpc.ie/",
+      "accessed_on": "2026-11-18",
+      "source_type": "monitoring_body",
+      "section": "Private source CCPC-accessibility-contact-reply-2026-08-14; official automated reply dated 14 August 2026 13:28:24 UTC, read in original on 18 November 2026.",
+      "evidence": "The departing Head of Accessibility Unit's official CCPC automated reply directs accessibility-related queries to accessibility@ccpc.ie. The original was inspected in the contributor mailbox. This supports an enquiry contact, not an unconditional route for statutory notifications. Documentary review only, not independent authentication or proof of current delivery. The URL identifies the authority, not an online copy of the reply."
+    },
+    "source-aac490b70e8c625845c47c0b": {
+      "url": "https://www.ccpc.ie/",
+      "accessed_on": "2026-11-18",
+      "source_type": "monitoring_body",
+      "section": "Private source CCPC-accessibility-reply-2026-04-24; Accessibility Unit reply from accessibility@ccpc.ie dated 24 April 2026 16:15:34 UTC, read with the original questions on 18 November 2026.",
+      "evidence": "Q1 directs company non-compliance and exemption notifications to the form, while describing the former access@ccpc.ie address for queries. Q2 says businesses can email reports when requested. Q3 answers yes to whether companies outside Ireland can report in English. Retain these as dated documentary evidence; the reply does not identify accessibility@ccpc.ie as an unconditional statutory filing channel. No raw email, signatures or private message identifiers are published."
+    },
+    "source-6de8cbc8b0a79af83407247e": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "accessed_on": "2026-11-18",
+      "source_type": "monitoring_body",
+      "section": "Business notification page, introductory paragraph and visible form controls.",
+      "evidence": "The page distinguishes the form for notifying a non-compliant product/service or claiming an EAA exemption from queries, for which it links a separate webform. Business, product/service and contact fields were visible in the web reader. No form submitted; no delivery tested. No accessibility@ccpc.ie email-filing instruction appears in this retrieved page."
     }
   },
   "domains": {
@@ -470,13 +498,14 @@
         {
           "field": "company_reporting",
           "assertion": "Existing company email access@ccpc.ie and English retained.",
-          "status": "unverified_source",
-          "review_note": "Existing contributor entry says company reporting by email in English. Public evidence confirms address for queries, but does not independently confirm email substitution for statutory reports. Preserve contributor information; seek correspondence, do not infer it was wrong.",
+          "status": "disputed",
+          "review_note": "Existing contributor entry says company reporting by email in English. Public evidence confirms address for queries, but does not independently confirm email substitution for statutory reports. Preserve contributor information; seek correspondence, do not infer it was wrong. Superseded on 18 November 2026: the original CCPC automated reply confirms that this mailbox is inactive and messages will not be actioned. Remove the email list item from the public Ireland row. Preserve the previous evidence and existing_text as history. This does not establish that the public complaint form replaces company non-compliance or exemption notifications, nor that accessibility@ccpc.ie accepts statutory notifications. Independent no-history English source-fidelity review by ccpc_removal_fidelity on 18 November 2026: Supported for deletion of the exact Company reporting email list item; the source closes the mailbox for all audiences. Unchanged forms were outside that review. Private substantive-message text SHA-256 (UTF-8, LF, no trailing whitespace): 90d96e440bfa95f3d78328109e07ac320ddb47102ba9f9d83234b92538e6af5d.",
           "directive_context": "EAA",
           "existing_text": "Report through email for companies: access@ccpc.ie, in English 🇬🇧",
           "scope": "Products, E-commerce and E-books",
           "source_refs": [
-            "source-6fac3c56bc34abde227b2662"
+            "source-6fac3c56bc34abde227b2662",
+            "source-e1443bbcff6b32dbdd565971"
           ],
           "id": "monitoring-21a7eb8c2d4a7b1e972262d3"
         },
@@ -702,11 +731,42 @@
             "destination": "https://www.iaa.ie/consumer-protection/airline-digital-accessibility/accessibility-query-form",
             "eaa_specific": true
           }
+        },
+        {
+          "id": "monitoring-fa0ad259b7e15a13453a1203",
+          "field": "company_reporting",
+          "assertion": "CCPC directs accessibility enquiries, including company enquiries, to accessibility@ccpc.ie.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "CCPC accessibility enquiries; existing Products, E-commerce and E-books grouping retained.",
+          "source_refs": [
+            "source-e292b8f2b7baa874337b795b"
+          ],
+          "reporting_route": {
+            "authority": "Competition and Consumer Protection Commission (CCPC)",
+            "sector": "Accessibility enquiries in the existing CCPC Products, E-commerce and E-books grouping",
+            "channel": "email",
+            "destination": "accessibility@ccpc.ie",
+            "eaa_specific": true
+          },
+          "review_note": "Documentary verification of the original official August reply on 18 November 2026, not current delivery testing or independent authentication. Enquiry contact only; the source does not establish this mailbox as an unconditional statutory reporting route. Independent no-history English review /root/ccpc_replacement_fidelity: Supported for the exact final Company enquiries list item; no accepted-language or email-filing claim. Prior broader draft was narrowed before publication. Full version-bound wording/source record: .github/agents/research/intakes/ccpc-accessibility-contact-2026-11-18.json"
+        },
+        {
+          "id": "monitoring-140b87616abec7df077679a8",
+          "field": "additional_information",
+          "assertion": "In its reply of 24 April 2026, CCPC said businesses could email reports when requested and that companies outside Ireland could report in English.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Dated CCPC correspondence; company reporting under CCPC remit.",
+          "source_refs": [
+            "source-aac490b70e8c625845c47c0b"
+          ],
+          "review_note": "Research-only dated documentary finding, read with the original Q2 and Q3. No specific replacement statutory-reporting mailbox is established. The conditional statement is preserved in research; the user requested no condition text in the public email item, which is limited to enquiries. No current language or filing-method guarantee is inferred."
         }
       ],
       "questions": [
         "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
-        "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; published CCPC page establishes queries only. Existing entry retained.",
+        "Resolved 18 November 2026: the former Access mailbox is inactive according to the original official automated reply. The prior company-email follow-up is superseded; do not restore the public email entry from historical records. Separate public-complaint and company-notification forms remain unchanged. No replacement statutory-reporting email is established.",
         "Follow-up: banking public route resolved in rerun; company/exemption intake remains unknown. Identify explicit official instructions; do not reuse consumer email without support.",
         "Follow-up: IAA query page still lacks retrievable form controls. Reviewer can inspect in a browser and record destination, intended public/company audience and login requirements; air reporting remains Unknown until verified.",
         "Follow-up: establish a ComReg route specifically for112 answering complaints/company reports; ECAS operator form is not a regulator route.",
@@ -715,7 +775,8 @@
         "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
         "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown.",
         "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete.",
-        "IAA route visible on 6 October 2026 after performance-cookie consent; submission and later steps untested. Company reporting remains unknown."
+        "IAA route visible on 6 October 2026 after performance-cookie consent; submission and later steps untested. Company reporting remains unknown.",
+        "Resolved 18 November 2026: original CCPC Accessibility Unit replies establish accessibility@ccpc.ie as an accessibility enquiry contact. This supersedes the earlier research-contact gap. The inactive access@ccpc.ie history remains preserved. No unconditional statutory reporting-email replacement or present delivery outcome established."
       ]
     },
     "sanctions": {
@@ -1209,6 +1270,96 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "ccpc-inactive-access-mailbox-20261118",
+      "country": "Ireland",
+      "recorded_on": "2026-11-18",
+      "status": "proposed",
+      "reason": "Original official automated reply supersedes the historical company email reporting entry.",
+      "next_action": "Maintainer review of the focused deletion; preserve historical evidence and unchanged form routes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Remove the inactive company reporting email; preserve existing forms.",
+          "next_action": "Review the focused draft.",
+          "pr": 98
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        }
+      ]
+    },
+    {
+      "id": "ccpc-accessibility-enquiry-contact-20261118",
+      "country": "Ireland",
+      "recorded_on": "2026-11-18",
+      "status": "proposed",
+      "source_refs": [
+        "source-e292b8f2b7baa874337b795b",
+        "source-aac490b70e8c625845c47c0b",
+        "source-6de8cbc8b0a79af83407247e"
+      ],
+      "reason": "User requested restoration of the CCPC email entry with accessibility@ccpc.ie and no public condition text; original correspondence supports an enquiry contact.",
+      "next_action": "Review the combined live-transfer PR, preserving inactive-mailbox history and existing forms.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Restore the requested accessibility@ccpc.ie contact with the supported Company enquiries label; retain both forms.",
+          "next_action": "Review the combined live-transfer PR."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
         }
       ]
     }
