@@ -6496,6 +6496,12 @@
       "language": "da",
       "reason": "The linked accessibility statement is in Danish and declares html lang=\"da\".",
       "checked_on": "2026-11-05"
+    },
+    {
+      "url": "https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/",
+      "language": "de",
+      "checked_on": "2026-11-18",
+      "reason": "German-language LSB Bremen article explicitly states use of Eye-Able; inspected on this date."
     }
   ]
 }

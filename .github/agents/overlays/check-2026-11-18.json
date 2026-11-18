@@ -1,0 +1,3455 @@
+{
+  "checked_on": "2026-11-18",
+  "scope": "All 230 existing country entries (227 sites), plus the requested LSB Bremen article. Overlay research only.",
+  "method": "Certificate-validating HTTP requests to each listed URL, up to 18 seconds per page; inspect script elements for provider-specific domains or paths. Three same-site loader scripts inspected as follow-up. No browser JavaScript execution, consent changes or widget interaction. Script references are evidence of integration, not proof of successful runtime execution.",
+  "limits": "No matching script or failed access is inconclusive and does not prove overlay removal. Provider engine matches do not establish the reseller. Existing provider labels are retained. This is not a compliance assessment.",
+  "summary_existing_entries": {
+    "Overlay script reference detected": 161,
+    "No matching script in retrieved HTML": 43,
+    "Unable to verify": 26
+  },
+  "previously_unchecked_snapshot": "Local combined-list.json from 2026-10-07; matches 163 present entries by hostname, including the consolidated Hudikhem entry.",
+  "summary_previously_unchecked_entries": {
+    "Overlay script reference detected": 120,
+    "No matching script in retrieved HTML": 28,
+    "Unable to verify": 15
+  },
+  "lsb_bremen_article": {
+    "published_on": "2026-11-04",
+    "url": "https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/",
+    "finding": "The article states that LSB Bremen uses Eye-Able. Current HTML also loads its site configuration and eyeAble.js. Security-incident claims are not added to the overlay page."
+  },
+  "results": [
+    {
+      "country": "Denmark",
+      "url": "https://www.ballingslov.dk/",
+      "name": "ballingslov.dk",
+      "reported": "Selma (accessiBe)",
+      "id": 0,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.ballingslov.dk/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "url": "https://www.ergo.dk/",
+      "name": "ergo.dk",
+      "reported": "UserWay",
+      "id": 1,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.ergo.dk/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Denmark",
+      "url": "https://freequent.dk/",
+      "name": "freequent.dk",
+      "reported": "UserWay",
+      "id": 2,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://freequent.dk/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js",
+          "cdn.userway.org/widget.js?account=srW3Jklf5i&amp;platfAppInstalledSiteId=3735761&amp;shop=freequent.dk"
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "url": "http://hia.dk/",
+      "name": "hia.dk",
+      "reported": "UserWay",
+      "id": 3,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.hia.dk/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "url": "https://hydroscand.dk/",
+      "name": "hydroscand.dk",
+      "reported": "Selma (accessiBe)",
+      "id": 4,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hydroscand.dk/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js\\"
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "url": "https://www.kinnarps.dk/",
+      "name": "kinnarps.dk",
+      "reported": "Selma (accessiBe)",
+      "id": 5,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.kinnarps.dk/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Denmark",
+      "url": "https://www.mazda.dk/",
+      "name": "mazda.dk",
+      "reported": "accessiBe",
+      "id": 6,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.mazda.dk/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "eu.acsbapp.com/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "url": "https://www.vfo.dk/",
+      "name": "vfo.dk",
+      "reported": "Selma (accessiBe)",
+      "id": 7,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vfo.dk/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Finland",
+      "url": "https://www.fjallraven.com/fi/fi-fi/",
+      "name": "Fjällräven",
+      "reported": "UserWay",
+      "id": 8,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.fjallraven.com/fi/fi-fi/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Finland",
+      "url": "https://www.helsinkimint.fi/",
+      "name": "helsinkimint.fi",
+      "reported": "accessiBe",
+      "id": 9,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.helsinkimint.fi/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Finland",
+      "url": "https://ivakonferens.se/fi/saavutettavuus/",
+      "name": "IVA Konferenscenter",
+      "reported": "Selma (accessiBe)",
+      "id": 10,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ivakonferens.se/fi/saavutettavuus/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Finland",
+      "url": "https://lappica.fi/en/accessibility-statement/",
+      "name": "lappica.fi",
+      "reported": "UserWay",
+      "id": 11,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://lappica.fi/en/accessibility-statement/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Finland",
+      "url": "https://superpark.fi/en/",
+      "name": "superpark.fi",
+      "reported": "UserWay",
+      "id": 12,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://superpark.fi/en/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Germany",
+      "url": "https://www.wuerzburg.de",
+      "name": "wuerzburg.de",
+      "reported": "Regiogate (Eye-able)",
+      "id": 13,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.wuerzburg.de/",
+      "error": "",
+      "script_matches": {
+        "Eye-Able": [
+          "cdn.eye-able.com/eye-able-translate.js"
+        ]
+      }
+    },
+    {
+      "country": "Germany",
+      "url": "https://www.wvv.de",
+      "name": "wvv.de",
+      "reported": "Eye-Able",
+      "id": 14,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.wvv.de/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Norway",
+      "url": "https://arendalsfysikalske.no/",
+      "name": "arendalsfysikalske.no",
+      "reported": "Readabler",
+      "id": 15,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://arendalsfysikalske.no/",
+      "error": "",
+      "script_matches": {
+        "Readabler": [
+          "https://arendalsfysikalske.no/wp-content/plugins/readabler/js/hotkeys.min.js?ver=2.0.2",
+          "https://arendalsfysikalske.no/wp-content/plugins/readabler/js/simple-keyboard.min.js?ver=2.0.2",
+          "https://arendalsfysikalske.no/wp-content/plugins/readabler/js/readabler.min.js?ver=2.0.2"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.bestdrive.no/",
+      "name": "bestdrive.no",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 16,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bestdrive.no/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "eu.acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://delete-it.no/",
+      "name": "delete-it.no",
+      "reported": "UserWay",
+      "id": 17,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://delete-it.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.fjallraven.com/se/sv-se/",
+      "name": "Fjällräven",
+      "reported": "UserWay",
+      "id": 18,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.fjallraven.com/se/sv-se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.foie.no/",
+      "name": "foie.no",
+      "reported": "UserWay",
+      "id": 19,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.foie.no/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Norway",
+      "url": "https://getonnet.no/",
+      "name": "getonnet.no",
+      "reported": "UserWay",
+      "id": 20,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://getonnet.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://hedemarken.steinerskolen.no/",
+      "name": "hedemarken.steinerskolen.no",
+      "reported": "UserWay",
+      "id": 21,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hedemarken.steinerskolen.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.italfarmaco.no/",
+      "name": "italfarmaco.no",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 22,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.italfarmaco.no/",
+      "error": "",
+      "script_matches": {
+        "AccessiWay (accessiBe)": [
+          "embeds.acswapp.com/accessibility/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.kinnarps.no/",
+      "name": "kinnarps.no",
+      "reported": "Selma (accessiBe)",
+      "id": 23,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.kinnarps.no/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.mazda.no/",
+      "name": "mazda.no",
+      "reported": "accessiBe",
+      "id": 24,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.mazda.no/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "eu.acsbapp.com/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://nomestiftelsen.no/",
+      "name": "nomestiftelsen.no",
+      "reported": "UserWay",
+      "id": 25,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://nomestiftelsen.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://personalpartner.no/",
+      "name": "personalpartner.no",
+      "reported": "UserWay",
+      "id": 26,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://personalpartner.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.superlaering.no/",
+      "name": "superlaering.no",
+      "reported": "UserWay",
+      "id": 27,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.superlaering.no/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://www.tressutemiljo.no/",
+      "name": "tressutemiljo.no",
+      "reported": "Selma (accessiBe)",
+      "id": 28,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tressutemiljo.no/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "url": "https://wallmans.no/",
+      "name": "wallmans.no",
+      "reported": "accessiBe",
+      "id": 29,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://wallmans.no/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.2uassistans.se/",
+      "name": "2u Assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 30,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.2uassistans.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.agb-pharma.com/tillganglighet/",
+      "name": "AGB-Pharma",
+      "reported": "Selma (accessiBe)",
+      "id": 31,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.agb-pharma.com/tillganglighet/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.aktivitus.se/tillganglighetsutlatande/",
+      "name": "Aktivius",
+      "reported": "Selma (accessiBe)",
+      "id": 32,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.aktivitus.se/tillganglighetsutlatande/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://aleel.se/",
+      "name": "Ale el",
+      "reported": "AccessiYes",
+      "id": 33,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://aleel.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.alebyggen.se/",
+      "name": "Alebyggen",
+      "reported": "Selma (accessiBe)",
+      "id": 34,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.alebyggen.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.alingsasenergi.se/",
+      "name": "Alingsås energi",
+      "reported": "Selma (accessiBe)",
+      "id": 35,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.alingsasenergi.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.aa.se/",
+      "name": "Anonyma Alkolister",
+      "reported": "Selma (accessiBe)",
+      "id": 36,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.aa.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.arenadannero.se/",
+      "name": "Arena Dannero",
+      "reported": "Selma (accessiBe)",
+      "id": 37,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.arenadannero.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.hagmyren.se/",
+      "name": "Arena Hagmyren",
+      "reported": "Selma (accessiBe)",
+      "id": 38,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.hagmyren.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://arvidsjaur.se",
+      "name": "arvidsjaur.se",
+      "reported": "Selma (accessiBe)",
+      "id": 39,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://arvidsjaur.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.arvikatravet.se/",
+      "name": "Arvikatravet",
+      "reported": "Selma (accessiBe)",
+      "id": 40,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.arvikatravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.assistansexperten.se/",
+      "name": "AssistansExperten i Norden",
+      "reported": "Selma (accessiBe)",
+      "id": 41,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.assistansexperten.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.axevalla.se/",
+      "name": "Axelvalla",
+      "reported": "Selma (accessiBe)",
+      "id": 42,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.axevalla.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ballbreaker.se/",
+      "name": "Ballbreaker",
+      "reported": "Selma (accessiBe)",
+      "id": 43,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ballbreaker.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.ballingslov.se/",
+      "name": "Ballinglöv",
+      "reported": "Selma (accessiBe)",
+      "id": 44,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.ballingslov.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.barilla.com/sv-se",
+      "name": "Barilla",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 45,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.barilla.com/sv-se",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://barnrattsbyran.se/",
+      "name": "Barnrättsbyrån",
+      "reported": "Selma (accessiBe)",
+      "id": 46,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://barnrattsbyran.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.beijerbygg.se/",
+      "name": "Beijer Byggmaterial AB",
+      "reported": "Selma (accessiBe)",
+      "id": 47,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.beijerbygg.se/privat",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bergsaker.com/",
+      "name": "Bergåker",
+      "reported": "Selma (accessiBe)",
+      "id": 48,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bergsaker.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://bermudashuffle.se/",
+      "name": "Bermuda Shuffle",
+      "reported": "Selma (accessiBe)",
+      "id": 49,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://bermudashuffle.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bestel.se/",
+      "name": "Bestel",
+      "reported": "Selma (accessiBe)",
+      "id": 50,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bestel.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bga.se/",
+      "name": "BGA",
+      "reported": "Selma (accessiBe)",
+      "id": 51,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bga.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://bizmaker.se",
+      "name": "bizmaker.se",
+      "reported": "Selma (accessiBe)",
+      "id": 52,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://bizmaker.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bjerke-energi.se/",
+      "name": "Bjerke Energi",
+      "reported": "Selma (accessiBe)",
+      "id": 53,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bjerke-energi.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bollnasbostader.se/",
+      "name": "Bollnäs Bostäder",
+      "reported": "Selma (accessiBe)",
+      "id": 54,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bollnasbostader.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bollnastravet.com/",
+      "name": "Bollnäs Travet",
+      "reported": "Selma (accessiBe)",
+      "id": 55,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bollnastravet.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bonlivacare.se",
+      "name": "Bonliva Care",
+      "reported": "Selma (accessiBe)",
+      "id": 56,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bonlivacare.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://boras-ink.se/",
+      "name": "Borås INK",
+      "reported": "Selma (accessiBe)",
+      "id": 57,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://boras-ink.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ],
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.bravissimo.se/",
+      "name": "Bravissimo Agency",
+      "reported": "Selma (accessiBe)",
+      "id": 58,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.bravissimo.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://brorhjorthshus.se/",
+      "name": "Bror Hjorts Hus",
+      "reported": "Selma (accessiBe)",
+      "id": 59,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://brorhjorthshus.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://brackediakoni.se/",
+      "name": "Bräcke diakoni",
+      "reported": "Selma (accessiBe)",
+      "id": 60,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://brackediakoni.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://cado.se/",
+      "name": "CADO i Sverige AB",
+      "reported": "Selma (accessiBe)",
+      "id": 61,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://cado.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://carson.nu",
+      "name": "carson.nu",
+      "reported": "Selma (accessiBe)",
+      "id": 62,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "466 https://carson.nu/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://chalmersventures.com/",
+      "name": "Chalmers Ventures",
+      "reported": "Selma (accessiBe)",
+      "id": 63,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://chalmersventures.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.rattvikstravet.se/",
+      "name": "Dalatravet",
+      "reported": "Selma (accessiBe)",
+      "id": 64,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.rattvikstravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.rommetravet.se/",
+      "name": "Dalatravet Romme",
+      "reported": "Selma (accessiBe)",
+      "id": 65,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.rommetravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://designtorget.se/",
+      "name": "Designtorget",
+      "reported": "Selma (accessiBe)",
+      "id": 66,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://designtorget.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.dios.se/om-dios/tillganglighetsredogorelse/",
+      "name": "Diös fastighetsbolag",
+      "reported": "Selma (accessiBe)",
+      "id": 67,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.dios.se/om-dios/tillganglighetsredogorelse/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://drm-lnd.com/",
+      "name": "DRMLND AB",
+      "reported": "Selma (accessiBe)",
+      "id": 68,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://drm-lnd.com/se",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://dvtassistans.se/",
+      "name": "DVT Assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 69,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://dvtassistans.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.efvaattling.com/",
+      "name": "Efva Attling",
+      "reported": "Selma (accessiBe)",
+      "id": 70,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.efvaattling.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://eksta.se/",
+      "name": "Eksta Kungsbacka",
+      "reported": "Selma (accessiBe)",
+      "id": 71,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://eksta.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.elitloppet.se/",
+      "name": "Elitloppet",
+      "reported": "Selma (accessiBe)",
+      "id": 72,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.elitloppet.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.epictravelgear.com/",
+      "name": "Epic",
+      "reported": "Selma (accessiBe)",
+      "id": 73,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.epictravelgear.com/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.erv.se/",
+      "name": "Ergo",
+      "reported": "UserWay",
+      "id": 74,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.erv.se/privat/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.faxeholmen.se/",
+      "name": "Faxeholmen",
+      "reported": "Selma (accessiBe)",
+      "id": 75,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "466 https://www.faxeholmen.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.fjallraven.com/se/sv-se/",
+      "name": "Fjällräven",
+      "reported": "UserWay",
+      "id": 76,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.fjallraven.com/se/sv-se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.floattech.se",
+      "name": "floattech.se",
+      "reported": "Selma (accessiBe)",
+      "id": 77,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.floattech.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.flottsbro.se/",
+      "name": "Flottsbro",
+      "reported": "Selma (accessiBe)",
+      "id": 78,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.flottsbro.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.fmfassistans.se/",
+      "name": "Fmf assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 79,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.fmfassistans.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.lindetrav.se/",
+      "name": "Fornaboda",
+      "reported": "Selma (accessiBe)",
+      "id": 80,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.lindetrav.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.freyshotels.com/",
+      "name": "Freys Hotel",
+      "reported": "Selma (accessiBe)",
+      "id": 81,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.freyshotels.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://furubodaassistans.se/",
+      "name": "Furuboda Assistans AB",
+      "reported": "Selma (accessiBe)",
+      "id": 82,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://furubodaassistans.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.ftrav.se/",
+      "name": "Färjestad",
+      "reported": "Selma (accessiBe)",
+      "id": 83,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.ftrav.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.gladahudikhem.se/",
+      "name": "Glada Hudikshem",
+      "reported": "Selma (accessiBe)",
+      "id": 84,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.gladahudikhem.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      },
+      "linked_script": "https://www.gladahudikhem.se/Hudiksvallsbostader/js/acsbapp.min.js?v=780882791"
+    },
+    {
+      "country": "Sweden",
+      "url": "https://goldenhits.se/tillganglighetsredogorelse/",
+      "name": "goldenhits.se",
+      "reported": "Selma (accessiBe)",
+      "id": 85,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://goldenhits.se/tillganglighetsredogorelse/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.gotain.com/",
+      "name": "Gotain",
+      "reported": "Selma (accessiBe)",
+      "id": 86,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.gotain.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://gotlandsboenden.se/accessibility-statement/",
+      "name": "gotlandsboenden.se",
+      "reported": "Elementor",
+      "id": 87,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://gotlandsboenden.se/accessibility-statement/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://graningeshoes.com/",
+      "name": "Graninge",
+      "reported": "Selma (accessiBe)",
+      "id": 88,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://graningeshoes.com/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.gardsservice.se/",
+      "name": "Gårdsservice",
+      "reported": "Selma (accessiBe)",
+      "id": 89,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.gardsservice.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.gavletravet.se/",
+      "name": "Gävletravet",
+      "reported": "Selma (accessiBe)",
+      "id": 90,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.gavletravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://gotenehus.se/",
+      "name": "Götenehus",
+      "reported": "Selma (accessiBe)",
+      "id": 91,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://gotenehus.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://hags.com",
+      "name": "Hags",
+      "reported": "Selma (accessiBe)",
+      "id": 92,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://hags.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://hallandskonstmuseum.se/",
+      "name": "Hallands Konstmuseum",
+      "reported": "Selma (accessiBe)",
+      "id": 93,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hallandskonstmuseum.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.halmstadtravet.com/",
+      "name": "Halmstad travet",
+      "reported": "Selma (accessiBe)",
+      "id": 94,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.halmstadtravet.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://hastahome.se/",
+      "name": "Hasta home",
+      "reported": "Selma (accessiBe)",
+      "id": 95,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hastahome.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.hebafast.se/",
+      "name": "Heba Fastighets AB",
+      "reported": "Selma (accessiBe)",
+      "id": 96,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.hebafast.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.hederaassistans.se",
+      "name": "Hedera assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 97,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.hederaassistans.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.helsinkimint.se/",
+      "name": "Helsinki mint",
+      "reported": "accessiBe",
+      "id": 98,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.helsinkimint.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.herjedalen.se/",
+      "name": "Herjedalen kommun",
+      "reported": "Selma (accessiBe)",
+      "id": 99,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.herjedalen.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://hlr-instruktorerna.se",
+      "name": "HLR-instruktörerna",
+      "reported": "Selma (accessiBe)",
+      "id": 100,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hlr-instruktorerna.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.holebrook.com/",
+      "name": "Holebrook",
+      "reported": "Selma (accessiBe)",
+      "id": 101,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.holebrook.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.husf.se/",
+      "name": "Huddinge Samhällsfastigheter",
+      "reported": "Selma (accessiBe)",
+      "id": 102,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.husf.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.humantouch.nu/",
+      "name": "Human Touch",
+      "reported": "Selma (accessiBe)",
+      "id": 103,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.humantouch.nu/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://humblegroup.com/",
+      "name": "Humble Group",
+      "reported": "Selma (accessiBe)",
+      "id": 104,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://humblegroup.com/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://hydroscand.se/",
+      "name": "Hydroscand",
+      "reported": "Selma (accessiBe)",
+      "id": 105,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://hydroscand.se/sv-se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js\\"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ideon.se/",
+      "name": "Ideon Science Park",
+      "reported": "Selma (accessiBe)",
+      "id": 106,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ideon.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ilvesshoes.com/",
+      "name": "Ilves",
+      "reported": "Selma (accessiBe)",
+      "id": 107,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ilvesshoes.com/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.ingelas.se/",
+      "name": "Ingelas för Körkort",
+      "reported": "accessiBe",
+      "id": 108,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ingelas.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.irishjalpmedel.se/",
+      "name": "Iris Hjälpmedel AB",
+      "reported": "Selma (accessiBe)",
+      "id": 109,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.irishjalpmedel.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ivakonferens.se/",
+      "name": "IVA Konferenscenter",
+      "reported": "Selma (accessiBe)",
+      "id": 110,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ivakonferens.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.jabo.se/",
+      "name": "Jabo",
+      "reported": "Selma (accessiBe)",
+      "id": 111,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.jabo.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://jag.se/",
+      "name": "Jag Personlig Assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 112,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://jag.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.jlindeberg.com/sv-se",
+      "name": "jlindeberg.com",
+      "reported": "Accessibly",
+      "id": 113,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.jlindeberg.com/sv-se",
+      "error": "",
+      "script_matches": {
+        "Accessibly": [
+          "accessibly-app-30/assets/acc-main.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.jagersro.se/",
+      "name": "Jägersro",
+      "reported": "Selma (accessiBe)",
+      "id": 114,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.jagersro.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.kalixfolketshus.se/",
+      "name": "Kalix Folketshus",
+      "reported": "Selma (accessiBe)",
+      "id": 115,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.kalixfolketshus.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.kalix.se/",
+      "name": "Kalix Kommun",
+      "reported": "Selma (accessiBe)",
+      "id": 116,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.kalix.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sommarkalaset.se/",
+      "name": "Kalix Sommarkalas",
+      "reported": "Selma (accessiBe)",
+      "id": 117,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.sommarkalaset.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://karlskronahem.se/",
+      "name": "Karlskronahem AB",
+      "reported": "Selma (accessiBe)",
+      "id": 118,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://karlskronahem.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.kinnarps.se/",
+      "name": "Kinnarps",
+      "reported": "Selma (accessiBe)",
+      "id": 119,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.kinnarps.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://kinnekulleenergi.se/",
+      "name": "Kinnekulle Energi",
+      "reported": "Selma (accessiBe)",
+      "id": 120,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://kinnekulleenergi.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://livelo.com/",
+      "name": "Livelo",
+      "reported": "Selma (accessiBe)",
+      "id": 121,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://livelo.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://livissomsorg.se",
+      "name": "Livis omsorg",
+      "reported": "Selma (accessiBe)",
+      "id": 122,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://livissomsorg.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.lrf.se/",
+      "name": "LRF (Lantbrukarnas Riksförbund)",
+      "reported": "Selma (accessiBe)",
+      "id": 123,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.lrf.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.lyckseletravet.com/",
+      "name": "Lycksele Travet",
+      "reported": "Selma (accessiBe)",
+      "id": 124,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.lyckseletravet.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.mambaby.com/",
+      "name": "Mam Baby",
+      "reported": "Selma (accessiBe)",
+      "id": 125,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.mambaby.com/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.mantorphastsportarena.se/",
+      "name": "Mantorp hästsportarena",
+      "reported": "Selma (accessiBe)",
+      "id": 126,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.mantorphastsportarena.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.mazda.se/",
+      "name": "Mazda",
+      "reported": "accessiBe",
+      "id": 127,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.mazda.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "eu.acsbapp.com/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://minprilla.se/",
+      "name": "Minprilla.se",
+      "reported": "Selma (accessiBe)",
+      "id": 128,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://minprilla.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.molnetassistans.se/",
+      "name": "Molnet Assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 129,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.molnetassistans.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://se.moroccanoil.com/pages/accessibility-statement",
+      "name": "Moroccanoil",
+      "reported": "accessiBe",
+      "id": 130,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://se.moroccanoil.com/pages/accessibility-statement",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://njudung.se/",
+      "name": "Njudung Energi",
+      "reported": "Selma (accessiBe)",
+      "id": 131,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://njudung.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.novasis.se/",
+      "name": "Novasis",
+      "reported": "Access Ease",
+      "id": 132,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.novasis.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://bygghandel.npn.se/",
+      "name": "NP Nilsson Bygghandel",
+      "reported": "Selma (accessiBe)",
+      "id": 133,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://bygghandel.npn.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.olofstromshus.se",
+      "name": "Olofströms hus",
+      "reported": "UserWay",
+      "id": 134,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.olofstromshus.se/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://olovlindgren.se/",
+      "name": "Olov Lindgren AB",
+      "reported": "Selma (accessiBe)",
+      "id": 135,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://olovlindgren.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://originalmindsapparel.com/",
+      "name": "Original Minds",
+      "reported": "Selma (accessiBe)",
+      "id": 136,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://originalmindsapparel.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.parfym.se/",
+      "name": "Parfym.se",
+      "reported": "Selma (accessiBe)",
+      "id": 137,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.parfym.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://parkeringboras.se/",
+      "name": "Parkering Borås",
+      "reported": "Selma (accessiBe)",
+      "id": 138,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://parkeringboras.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://pellevavare.se/",
+      "name": "Pelle Vävare",
+      "reported": "Selma (accessiBe)",
+      "id": 139,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://pellevavare.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.pingst.se/",
+      "name": "Pingst Sverige",
+      "reported": "Selma (accessiBe)",
+      "id": 140,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.pingst.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.pitebo.se/",
+      "name": "Pitebo",
+      "reported": "Selma (accessiBe)",
+      "id": 141,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.pitebo.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.pixbo.se/",
+      "name": "Pixbo",
+      "reported": "Selma (accessiBe)",
+      "id": 142,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.pixbo.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.power.se/",
+      "name": "power.se",
+      "reported": "EqualWeb",
+      "id": 143,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.power.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.radissonhotels.com/sv-se/",
+      "name": "Radisson Hotels",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 144,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.radissonhotels.com/sv-se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.rappfastigheter.se/",
+      "name": "Rapp fastigheter",
+      "reported": "Selma (accessiBe)",
+      "id": 145,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.rappfastigheter.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://rehabgrossisten.com/",
+      "name": "REHABgrossisten",
+      "reported": "Selma (accessiBe)",
+      "id": 146,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://rehabgrossisten.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ressel.se/",
+      "name": "Ressel Rederi AB",
+      "reported": "Selma (accessiBe)",
+      "id": 147,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ressel.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.riedel.com/en-se",
+      "name": "Riedel",
+      "reported": "accessiBe",
+      "id": 148,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.riedel.com/en-se",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://safira.com/se/tillganglighetsredogorelse",
+      "name": "Safira",
+      "reported": "Selma (accessiBe)",
+      "id": 149,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://safira.com/se/tillganglighetsredogorelse",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ssel.se/",
+      "name": "Sandhult-Sandareds Elektriska",
+      "reported": "Selma (accessiBe)",
+      "id": 150,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ssel.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sibahuset.se/",
+      "name": "Siba huset",
+      "reported": "Selma (accessiBe)",
+      "id": 151,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.sibahuset.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://scandinaviansafe.se/",
+      "name": "Skandinavian Safe",
+      "reported": "Selma (accessiBe)",
+      "id": 152,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://scandinaviansafe.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.skellefteatravet.se/",
+      "name": "Skellefteå travet",
+      "reported": "Selma (accessiBe)",
+      "id": 153,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.skellefteatravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://sliceandserve.se/",
+      "name": "Slice",
+      "reported": "Selma (accessiBe)",
+      "id": 154,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://sliceandserve.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.smeg.com/se",
+      "name": "Smeg",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 155,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.smeg.com/se",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.snuset.se/",
+      "name": "Snuset.se",
+      "reported": "Selma (accessiBe)",
+      "id": 156,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.snuset.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.solvalla.se/",
+      "name": "Solvalla",
+      "reported": "Selma (accessiBe)",
+      "id": 157,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.solvalla.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.solangettrav.se/",
+      "name": "Solänget Trav",
+      "reported": "Selma (accessiBe)",
+      "id": 158,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.solangettrav.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://sos-barnbyar.se/",
+      "name": "SOS Barnbyar Sverige",
+      "reported": "Selma (accessiBe)",
+      "id": 159,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://sos-barnbyar.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://spes.se/",
+      "name": "Spes",
+      "reported": "Selma (accessiBe)",
+      "id": 160,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://spes.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "eu.acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sportfiskarna.se/",
+      "name": "Sportfiskarna",
+      "reported": "Selma (accessiBe)",
+      "id": 161,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.sportfiskarna.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://starbowling.se/",
+      "name": "Star Bowling",
+      "reported": "Selma (accessiBe)",
+      "id": 162,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://starbowling.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://stenungsundsenergi.se/",
+      "name": "Stenungsunds Energi och Miljö",
+      "reported": "Onetap accessibility",
+      "id": 163,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://stenungsundsenergi.se/",
+      "error": "",
+      "script_matches": {
+        "OneTap": [
+          "https://stenungsundsenergi.se/wp-content/cache/min/1/wp-content/plugins/accessibility-plugin-onetap-pro/assets/js/hotkeys.js?ver=1783416773",
+          "https://stenungsundsenergi.se/wp-content/plugins/accessibility-plugin-onetap-pro/assets/js/script.min.js?ver=6.17.0"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sssb.se/",
+      "name": "Stockholms Studentbostäder",
+      "reported": "Selma (accessiBe)",
+      "id": 164,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.sssb.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.strangnasbostadsab.se/",
+      "name": "Strängnäs Bostads AB",
+      "reported": "Selma (accessiBe)",
+      "id": 165,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "466 https://www.strangnasbostadsab.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://stadsallskapet.se",
+      "name": "Städsällskapet",
+      "reported": "Selma (accessiBe)",
+      "id": 166,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://stadsallskapet.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sundbyholm.com/",
+      "name": "Sunbyholm Eskilstuna",
+      "reported": "Selma (accessiBe)",
+      "id": 167,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.sundbyholm.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://svancare.se/",
+      "name": "Svancare",
+      "reported": "Selma (accessiBe)",
+      "id": 168,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://svancare.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://svearedskap.se/",
+      "name": "Svea redskap",
+      "reported": "Readabler",
+      "id": 169,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://svearedskap.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.svenskdagligvaruhandel.se/",
+      "name": "Svensk Dagligvaruhandel",
+      "reported": "Selma (accessiBe)",
+      "id": 170,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.svenskdagligvaruhandel.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.travsport.se/svensk-travsport/om-webbplatsen/tillganglighetsredogorelse/",
+      "name": "Svensk travsport",
+      "reported": "Selma (accessiBe)",
+      "id": 171,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.travsport.se/svensk-travsport/om-webbplatsen/tillganglighetsredogorelse/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://svenskbandy.se/",
+      "name": "Svenska bandyförbundet",
+      "reported": "Selma (accessiBe)",
+      "id": 172,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://svenskbandy.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.basket.se",
+      "name": "Svenska basket",
+      "reported": "Selma (accessiBe)",
+      "id": 173,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.basket.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.svenskafonster.se/",
+      "name": "Svenska Fönster",
+      "reported": "UserWay",
+      "id": 174,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.svenskafonster.se/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.innebandy.se/",
+      "name": "Svenska innebandyförbundet",
+      "reported": "Selma (accessiBe)",
+      "id": 175,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.innebandy.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.swehockey.se/",
+      "name": "Svenska Ishockeyförbundet",
+      "reported": "Selma (accessiBe)",
+      "id": 176,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.swehockey.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://jagareforbundet.se/",
+      "name": "Svenska jägarförbundet",
+      "reported": "Selma (accessiBe)",
+      "id": 177,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://jagareforbundet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.svenskamoten.se/",
+      "name": "Svenska Möten",
+      "reported": "Selma (accessiBe)",
+      "id": 178,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.svenskamoten.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://sverigesskateboardforbund.se/",
+      "name": "Sveriges Skateboardförbund",
+      "reported": "Selma (accessiBe)",
+      "id": 179,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://sverigesskateboardforbund.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://sweedbeauty.se/",
+      "name": "Sweed",
+      "reported": "Selma (accessiBe)",
+      "id": 180,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://sweedbeauty.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.sarnmark.se/",
+      "name": "Särnmark Assistans AB",
+      "reported": "Selma (accessiBe)",
+      "id": 181,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.sarnmark.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tandvardenhabo.se/",
+      "name": "Tandvården Habo",
+      "reported": "Readabler",
+      "id": 182,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.tandvardenhabo.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://tankbar.com/",
+      "name": "Tankbar",
+      "reported": "Selma (accessiBe)",
+      "id": 183,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://tankbar.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tekniskaverkenikiruna.se/",
+      "name": "Tekniska Verken Kiruna",
+      "reported": "Selma (accessiBe)",
+      "id": 184,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tekniskaverkenikiruna.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://tillganglighetskartan.se/",
+      "name": "Tillgänglighetskartan",
+      "reported": "UserWay",
+      "id": 185,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://tillganglighetskartan.se/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.timrabo.se/",
+      "name": "Timråbo",
+      "reported": "Selma (accessiBe)",
+      "id": 186,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.timrabo.se/nyheter/1079/HEM",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tingsrydtravet.com/",
+      "name": "Tingsrydtravet",
+      "reported": "Selma (accessiBe)",
+      "id": 187,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tingsrydtravet.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tmeeting.se/",
+      "name": "Tmeeting",
+      "reported": "WCAGready / EaseAccess24",
+      "id": 188,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tmeeting.se/",
+      "error": "",
+      "script_matches": {
+        "EaseAccess24": [
+          "https://widget.easeaccess24.com/sdk.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.topbostader.se/",
+      "name": "Topbostäder",
+      "reported": "Accessibility Enabler",
+      "id": 189,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.topbostader.se/",
+      "error": "",
+      "script_matches": {
+        "Accessibility Enabler": [
+          "https://jsappcdn.hikeorders.com/main/assets/js/hko-accessibility.min.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://transitio.se/",
+      "name": "Transitio",
+      "reported": "UserWay",
+      "id": 190,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://transitio.se/",
+      "error": "",
+      "script_matches": {
+        "UserWay": [
+          "cdn.userway.org/widget.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.travskola.se/",
+      "name": "Travskola",
+      "reported": "Selma (accessiBe)",
+      "id": 191,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.travskola.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tress.com/se/om-oss/tillganglighetsredogorelse",
+      "name": "Tress sport & Lek",
+      "reported": "Selma (accessiBe)",
+      "id": 192,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tress.com/se/om-oss/tillganglighetsredogorelse",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tressutemiljo.se/om-oss/tillganglighetsredogorelse",
+      "name": "Tress utemiljö",
+      "reported": "Selma (accessiBe)",
+      "id": 193,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tressutemiljo.se/om-oss/tillganglighetsredogorelse",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://trivectormobility.se/",
+      "name": "Trivector Mobility",
+      "reported": "Selma (accessiBe)",
+      "id": 194,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://trivectormobility.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.tabyenskilda.se/",
+      "name": "Täby Enskilda Gymnasium",
+      "reported": "Selma (accessiBe)",
+      "id": 195,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.tabyenskilda.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.uddevallaenergi.se/",
+      "name": "Uddevalla Energi",
+      "reported": "Selma (accessiBe)",
+      "id": 196,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.uddevallaenergi.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      },
+      "linked_script": "https://www.uddevallaenergi.se/download/18.30ec3b28198e607865a1af1/1756370970252/selma.js"
+    },
+    {
+      "country": "Sweden",
+      "url": "https://umeastadsmission.se/",
+      "name": "Umeå stadsmission",
+      "reported": "Selma (accessiBe)",
+      "id": 197,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://umeastadsmission.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.umaker.se/",
+      "name": "Umåker",
+      "reported": "Selma (accessiBe)",
+      "id": 198,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.umaker.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://uropenn.se/",
+      "name": "Ur & Penn",
+      "reported": "Selma (accessiBe)",
+      "id": 199,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://uropenn.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js\\"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vfab.se/",
+      "name": "Vadstena Fastighets AB",
+      "reported": "Selma (accessiBe)",
+      "id": 200,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vfab.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vaggerydstravet.se/",
+      "name": "VaggerydsTravet",
+      "reported": "Selma (accessiBe)",
+      "id": 201,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vaggerydstravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vansbrosimningen.se/",
+      "name": "Vansbrosimningen",
+      "reported": "Selma (accessiBe)",
+      "id": 202,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://vansbrosimningen.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.varaenergi.se/",
+      "name": "Vara Energi",
+      "reported": "Selma (accessiBe)",
+      "id": 203,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.varaenergi.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vasaloppet.se/",
+      "name": "Vasaloppet",
+      "reported": "Selma (accessiBe)",
+      "id": 204,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://vasaloppet.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vasaloppetshop.se/sv/",
+      "name": "Vasaloppet shop",
+      "reported": "Selma (accessiBe)",
+      "id": 205,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://vasaloppetshop.se/sv/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vendre.se/",
+      "name": "Vendre",
+      "reported": "Selma (accessiBe)",
+      "id": 206,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://vendre.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vileda.se/",
+      "name": "Vileda",
+      "reported": "accessiBe",
+      "id": 207,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.vileda.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vimarhem.se/",
+      "name": "Vimarhem",
+      "reported": "Selma (accessiBe)",
+      "id": 208,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://vimarhem.se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vfo.se/",
+      "name": "Vingåkers Factory Outlet",
+      "reported": "Selma (accessiBe)",
+      "id": 209,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vfo.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.visbytravet.se/",
+      "name": "Visby travet",
+      "reported": "Selma (accessiBe)",
+      "id": 210,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.visbytravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://visittrelleborg.se/",
+      "name": "Visit Trelleborg",
+      "reported": "Selma (accessiBe)",
+      "id": 211,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://visittrelleborg.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://vitargo.se/",
+      "name": "Vitargo",
+      "reported": "Selma (accessiBe)",
+      "id": 212,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://vitargo.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vivant.se",
+      "name": "Vivant assistans",
+      "reported": "Selma (accessiBe)",
+      "id": 213,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vivant.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vargard.se/",
+      "name": "Vår Gård",
+      "reported": "Selma (accessiBe)",
+      "id": 214,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vargard.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.vnmuseum.se/",
+      "name": "Västernorrlands museum",
+      "reported": "Selma (accessiBe)",
+      "id": 215,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.vnmuseum.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js`,s.async=!0,s.onload=function(){acsbJS.init()},h.appendChild(s)})();"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://voe.se/",
+      "name": "Västra orust Energitjänst",
+      "reported": "Selma (accessiBe)",
+      "id": 216,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://voe.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://wallmans.se/",
+      "name": "Wallmans Group",
+      "reported": "Selma (accessiBe)",
+      "id": 217,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://wallmans.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://websupport.se/",
+      "name": "Webbsupport",
+      "reported": "AccessiWay (accessiBe)",
+      "id": 218,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://websupport.se/",
+      "error": "",
+      "script_matches": {
+        "AccessiWay (accessiBe)": [
+          "embeds.acswapp.com/accessibility/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.wettex.se/accessibility",
+      "name": "Wettex",
+      "reported": "accessiBe",
+      "id": 219,
+      "checked_on": "2026-11-18",
+      "status": "Unable to verify",
+      "http": "403 https://www.wettex.se/accessibility",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://wgp.se",
+      "name": "WGP",
+      "reported": "Selma (accessiBe)",
+      "id": 220,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://wgp.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "http://zara.se",
+      "name": "zara.se",
+      "reported": "EqualWeb",
+      "id": 221,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://www.zara.com/se/",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.amalstravet.se/mer/tillganglighetsredogorelse/",
+      "name": "Åmålstravet",
+      "reported": "Selma (accessiBe)",
+      "id": 222,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.amalstravet.se/mer/tillganglighetsredogorelse/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.arjangstravet.se/",
+      "name": "Årjängstravet",
+      "reported": "Selma (accessiBe)",
+      "id": 223,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.arjangstravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://ockerofast.se/",
+      "name": "Öckerö Fastigheter",
+      "reported": "Selma (accessiBe)",
+      "id": 224,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://ockerofast.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      },
+      "linked_script": "https://ockerofast.se/download/18.1e3ae33319add89163a15eea/1764861929817/acsb-loader.js"
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.orebrotravet.se/",
+      "name": "Örebrotravet",
+      "reported": "Selma (accessiBe)",
+      "id": 225,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.orebrotravet.se/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.osterlenskraft.se/",
+      "name": "Österlenkraft",
+      "reported": "Selma (accessiBe)",
+      "id": 226,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.osterlenskraft.se/",
+      "error": "",
+      "script_matches": {
+        "Selma (accessiBe)": [
+          "cdn.selma.se/a11y/widget/embed.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.ostersundstravet.com/",
+      "name": "Östersundstravet",
+      "reported": "Selma (accessiBe)",
+      "id": 227,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.ostersundstravet.com/",
+      "error": "",
+      "script_matches": {
+        "accessiBe": [
+          "acsbapp.com/apps/app/dist/js/app.js"
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "url": "https://www.overkalixbostader.se/",
+      "name": "Överkalix Bostäder",
+      "reported": "Accessibility Enabler",
+      "id": 228,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.overkalixbostader.se/",
+      "error": "",
+      "script_matches": {
+        "Accessibility Enabler": [
+          "https://jsappcdn.hikeorders.com/main/assets/js/hko-accessibility.min.js"
+        ]
+      }
+    },
+    {
+      "country": "International",
+      "url": "https://event.virtualdays.com/swedishinstitutedemo",
+      "name": "event.virtualdays.com",
+      "reported": "UserWay",
+      "id": 229,
+      "checked_on": "2026-11-18",
+      "status": "No matching script in retrieved HTML",
+      "http": "200 https://event.virtualdays.com/swedishinstitutedemo",
+      "error": "",
+      "script_matches": {}
+    },
+    {
+      "country": "Germany",
+      "url": "https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/",
+      "name": "Landessportbund Bremen",
+      "reported": "Eye-Able",
+      "id": 230,
+      "checked_on": "2026-11-18",
+      "status": "Overlay script reference detected",
+      "http": "200 https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/",
+      "error": "",
+      "script_matches": {
+        "Eye-Able": [
+          "cdn.eye-able.com/configs/www.lsb-bremen.de.js",
+          "cdn.eye-able.com/public/js/eyeAble.js"
+        ]
+      }
+    }
+  ]
+}
