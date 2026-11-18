@@ -1431,6 +1431,45 @@
       ]
     },
     {
+      "id": "denmark-company-mailto-2026-11-06",
+      "country": "Denmark",
+      "recorded_on": "2026-11-06",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "research_only",
+          "reason": "Published label and target now agree. The row already preserves the published address and established contributor address.",
+          "next_action": "Retain the historical correspondence; no public edit."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "Correction to a company notification link; no enforcement action.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No penalty, fine or sanctions evidence.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption evidence.",
+          "next_action": "None for this evidence."
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-egypt",
       "country": "Egypt",
       "destinations": [
@@ -2713,6 +2752,97 @@
       ]
     },
     {
+      "id": "ccpc-inactive-access-mailbox-20261118",
+      "country": "Ireland",
+      "recorded_on": "2026-11-18",
+      "status": "proposed",
+      "reason": "Original official automated reply supersedes the historical company email reporting entry.",
+      "next_action": "Maintainer review of the focused deletion; preserve historical evidence and unchanged form routes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Remove the inactive company reporting email; preserve existing forms.",
+          "next_action": "Review the focused draft.",
+          "pr": 98
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        }
+      ]
+    },
+    {
+      "id": "ccpc-accessibility-enquiry-contact-20261118",
+      "country": "Ireland",
+      "recorded_on": "2026-11-18",
+      "status": "proposed",
+      "source_refs": [
+        "source-e292b8f2b7baa874337b795b",
+        "source-aac490b70e8c625845c47c0b",
+        "source-6de8cbc8b0a79af83407247e"
+      ],
+      "reason": "User requested restoration of the CCPC email entry with accessibility@ccpc.ie and no public condition text; original correspondence supports an enquiry contact.",
+      "next_action": "Review the combined live-transfer PR, preserving inactive-mailbox history and existing forms.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Restore the requested accessibility@ccpc.ie contact with the supported Company enquiries label; retain both forms.",
+          "next_action": "Review the combined live-transfer PR.",
+          "pr": 91
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Contact correspondence establishes no new enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        }
+      ]
+    },
+    {
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
@@ -3940,6 +4070,58 @@
       "recorded_on": "2026-10-30",
       "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
+    },
+    {
+      "id": "poland-sejm-browser-report-2026-11-16",
+      "country": "Poland",
+      "recorded_on": "2026-11-16",
+      "status": "research_only",
+      "source_refs": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "reason": "Persist user-supplied local Chrome findings with exact distinctions and provenance; not a new independent original-document verification or public edit.",
+      "next_action": "Research-only draft; later public enforcement wording needs original-passage and isolated review gates. Preserve unrelated pending EU27 additions on integration.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical statistics and activity newly captured in 11 attributed claims; existing PR #93 lacks these quantitative details.",
+          "next_action": "After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "pr": 97
+        },
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Audience/purpose handoff recorded; no new concrete route, language or statement claim.",
+          "next_action": "Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "pr": 97
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical no-penalty replies/process and fund-balance exclusion stored; no new statutory cap.",
+          "next_action": "No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "pr": 97
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption/edition evidence in supplied report.",
+          "next_action": "Preserve existing adoption record and dates.",
+          "pr": 97
+        }
+      ],
+      "pr": 97
     },
     {
       "id": "portugal-idipd-annual-report-2025-discovered-20261030",

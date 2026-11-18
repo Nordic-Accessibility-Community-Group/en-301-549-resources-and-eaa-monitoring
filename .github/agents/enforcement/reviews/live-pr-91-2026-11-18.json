@@ -1,0 +1,66 @@
+{
+  "reviewed_on": "2026-11-18",
+  "reviewer": "/root/live_pr91_review",
+  "isolation": "No inherited conversation history; distinct from the source-fidelity reviewer.",
+  "pr_url": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/pull/91",
+  "reviewed_head": "5f740af4e14abe71bef8d9e879a8bc4ac58a31ff",
+  "base": "09648953c0e95964618f4fb0d9880cb9f59c8c9f",
+  "verdict": "No blocking issues identified for the reviewed transfer and enquiry-contact correction.",
+  "scope": "Actual GitHub PR metadata, description, eight-file diff and version-specific file contents; shared review/evidence/workflow instructions, monitoring and enforcement specifications, canonical Denmark/Ireland/Poland records, generated routing, both intakes and historical Poland review.",
+  "version_binding": {
+    "github_files": "All eight changed head blobs and all five existing base-file blobs matched the inspected content.",
+    "local_difference": "During review, the author added only pr:91 to the new Ireland monitoring delivery and regenerated routing locally. Removing this field in memory reproduced both published GitHub blob hashes exactly.",
+    "final_metadata_read": "Head and base remained unchanged. PR was open, unmerged and ready for review. Reviewer made no repository or PR changes."
+  },
+  "confirmed": [
+    "Scope matches the authorised transfer of merged testing PRs 96, 97 and 98 plus the requested Ireland correction.",
+    "Denmark and Poland records, Poland intake and historical Poland review exactly match the supplied merged-testing snapshot.",
+    "Existing evidence objects, claim identities, verification dates, prior attempts, public mappings and deliveries are preserved. Poland's latest intake-attempt date advances with an explicit intake record; it is not a new source-verification date.",
+    "The only public change replaces the former access@ccpc.ie list item. Both CCPC forms and every other public byte remain unchanged.",
+    "The new contact claim links to the recorded August official reply. April conditional reporting evidence and November inactive-mailbox evidence remain distinct, with documentary provenance and limitations recorded.",
+    "The final English wording exactly matches the separate isolated Supported source-fidelity verdict. It makes no accepted-language or unconditional statutory email-filing claim.",
+    "Eleven new Poland claims remain unverified_source with null verification dates and no invented source retrieval. Historical cutoffs, notification categories, unknown overlap, future plans versus completed measures, and fund balance versus penalties remain distinguished.",
+    "Generated routing matches canonical deliveries. All four registered destinations are assessed for the added evidence.",
+    "The historical Poland review remains bound to its original testing head and does not imply review of this live head.",
+    "PR description accurately describes the final scope, preserved material, English contact review and validation limits."
+  ],
+  "exact_reviewed_public_wording": "<li>Company enquiries: <a href=\"mailto:accessibility@ccpc.ie\">accessibility@ccpc.ie</a>.</li>",
+  "blocking_findings": [],
+  "non_blocking_findings": [
+    {
+      "finding": "The published new Ireland delivery lacks the live PR number.",
+      "disposition": "The author has prepared only pr:91 metadata and regenerated routing for the follow-up. This does not alter evidence or public wording."
+    },
+    {
+      "finding": "Poland RF45/RF853 remain monitoring_activity claims with statistics:null because exact statistical cutoffs are unknown.",
+      "disposition": "The structured intake retains both counts and their limits. The existing historical review already records the limitation for statistics-only consumers; no publication promotion or infrastructure repair is required here."
+    }
+  ],
+  "independent_validation": {
+    "targeted": "PASS: three canonical schemas, evidence fingerprints, prior evidence/claim/date preservation, unchanged monitoring-schema error sets, exact testing transfers, eleven unverified Poland additions, generated routing equality and exact public-item replacement.",
+    "enforcement_tests": "28/28 passed.",
+    "watcher_tests": "9/9 passed.",
+    "verification_dates": "14 markers checked successfully.",
+    "whitespace": "git diff --no-index --check produced no whitespace diagnostics.",
+    "full_country_and_enforcement_checks": "Fail on the inherited enforcement public-map mismatch; independently reproduced on unchanged live baseline.",
+    "shared_storage_tests": "11/12 passed; the remaining error is the same inherited public-map mismatch, independently reproduced on unchanged live baseline.",
+    "link_languages": "Four unrelated overlay-link audit failures, independently reproduced on unchanged live baseline.",
+    "test_snapshot_limit": "Local test execution included only the pending pr:91 delivery metadata described above; evidence, public content, validators and tests matched the reviewed head.",
+    "ci_observed": {
+      "name": "Content checks",
+      "run_id": 44321183929,
+      "conclusion": "success",
+      "url": "https://github.com/Nordic-Accessibility-Community-Group/en-301-549-resources-and-eaa-monitoring/actions/runs/44321183929",
+      "scope": "Observed through GitHub's workflow lookup for the exact reviewed head; not a claim that the separate full research validators pass."
+    }
+  },
+  "limits": [
+    "No fresh legal or authority-source research. Original private CCPC messages and Polish PDFs were not independently inspected by this PR reviewer; documentary provenance and completed review records were assessed as recorded.",
+    "No new translation, source-fidelity or readability verdict is supplied by this PR review. No enforcement public wording changes.",
+    "Unchanged inherited public assertions, authority remits, other routes and accepted languages were not reverified.",
+    "No current mailbox delivery, monitoring, form submission or independent authentication was tested.",
+    "No local Node-based lint/render execution or visual GitHub preview inspection was performed.",
+    "No human approval, merge authorisation or exhaustive evidence verification is claimed."
+  ],
+  "followup_scope": "This report plus the identified PR-number metadata may follow the reviewed content head without changing evidence or public wording. Re-read the actual published head and verify that limited follow-up scope."
+}
